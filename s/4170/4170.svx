@@ -1,0 +1,13 @@
+*BEGIN 4170
+
+*FIX 13 450431 4795583 169
+*ENTRANCE 13
+*DATE 2015.07.27
+*TEAM  "Alasdair Neill" notes compass clino disto tape
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.73 ; altered from 1.13 for summer 2015 to align with the UTM ETRS89 grid
+
+13	14	3.52	136	-30
+
+*END 4170

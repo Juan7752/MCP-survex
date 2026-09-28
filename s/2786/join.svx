@@ -1,0 +1,8 @@
+*begin join
+
+;*include 0689
+*include 2786
+
+;*equate 0689.0 2786.11
+
+*end join

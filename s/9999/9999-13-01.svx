@@ -1,0 +1,24 @@
+*BEGIN 9999-13-01
+
+*CALIBRATE DECLINATION 1.5
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors: 
+;passage name: 
+*date 2013.08.18
+
+*FIX 0 447233 4800085 430
+*ENTRANCE 0
+;*FLAGS duplicate | splay | surface
+
+
+
+0	1	12	56	-3
+1	2	6	92	-10
+
+
+
+*data passage station left right up down 
+
+
+*END 9999-13-01

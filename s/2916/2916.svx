@@ -1,0 +1,52 @@
+*begin 2916
+
+;surveyors:Ali Neill Pete Eagan
+
+*DATE 2008.07
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+*CALIBRATE clino -1.5
+*ENTRANCE 5
+;*FIX 5 448529 4800406 168
+;*FIX 5 448509 4800413 0173;surface survey 16/8/11
+;*FIX 5 448407 4800204 0173; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 5 448407 4800204 0172
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps and surface survey, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+; RH bolt AT TOP OF TIGHT PITCH
+*EQUATE 0 batch2.5
+
+0	1	2.13	280	-4
+1	2	4.45	-	up
+2	3	6.01	170	8
+3	4	4.2	163	37
+4	5	15.87	-	up
+
+
+*begin batch2
+*CALIBRATE clino -1.5
+0	1	12.01	-	up
+1	2	2.75	15	-10
+2	3	5.1	-	up
+3	4	1.47	356	0
+4	5	10.4	-	up
+*end batch2
+
+*data passage station left right up down
+0	0	3	5	5
+2	2	0	5	5
+3	2	0	4	3
+4	2	0	0	.3
+
+*end 2916

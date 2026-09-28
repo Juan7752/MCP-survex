@@ -1,0 +1,40 @@
+*BEGIN 0484_Zorro
+;Created from Survey file on Tue,03 Aug 1999.01:01:27
+;Dates surveyed : 990729&990803
+;Surveyors      : TW+Ali PSt
+;No of stations : 30
+;Plan length    : 29.6624418m
+;Traverse length: 77.3m
+
+;*FIX 0 450122 4794158 0612
+;*FIX 0 450020 4793949 0612; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450020 4793949 0603
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.15 degrees but should have been 3.34 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.34-3.15-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+0	1	7.30	288.35	-57	;stn7
+1	2	7.30	197.35	-48	;stn6
+2	3	7.30	305.85	-70	;stn5
+3	4	24.30	-	-V	;stn1
+4	5	5.75	69.85	3	;stn2
+4	6	3.32	117.85	-40	;into side chmbr
+6	7	2.73	202.85	-26	;side chmbr
+4	8	2.50	239.85	33	;*
+8	9	3.30	-	-V	;*
+9	10	1.80	284.85	-64	;bolt thro sq
+10	11	5.90	-	-V	;*
+11	12	5.80	244.85	-36	;triangle start of tight meander
+*END 0484_Zorro

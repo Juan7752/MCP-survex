@@ -1,0 +1,39 @@
+*BEGIN 5163
+*DATE 2022.07.24
+*CALIBRATE DECLINATION -0.04
+*FIX 5 450990 4796679 488
+*ENTRANCE 5
+*TEAM Torben, Phil P and Andrew N
+0	1	9.8	193	47.4
+
+0	2	4.4	19.9	0
+0	3	4.2	356	37
+3	4	6.4	342	-62
+
+3	5	2.6	156	63; ent
+
+* Flags surface
+
+5	a	1.6	0	90
+a	b	6.33	138.9	-2.2
+b	c	3.11	210.6	18.3
+c	d	4.3	239.5	12
+d	e	1.76	275	-51.6
+
+*data passage station left right up down
+0	0.3	0.5	5.4	1.9
+1	0.4	0.4	0.3	8
+
+
+*data passage station left right up down
+0	0.5	0.3	5.4	1.9
+2	0.2	0.1	2.0	1.0
+3	0.5	0.5	2.5	1.0
+4	0.7	0.7	7.0	0
+
+*data passage station left right up down
+3	0.5	0.5	2.5	1.0
+5	0.1	0.5	0.3	5
+
+
+*END 5163

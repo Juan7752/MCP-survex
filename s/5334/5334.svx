@@ -1,0 +1,25 @@
+*begin 5334
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 452552 4796638 153; coordinates of entrance but a nearby point will do
+*date 2023.04.11
+*FIX 0 452552 4796638 153; s=station x=6-fig easting y=7-fig northing z=altitude Usually the entrance
+; Vaca-Cud
+; Intruments: Disto, Compass clino
+*ENTRANCE 0
+*Team "Paul Fairman, Alex Ritchie, Oliver Brain"
+
+*data normal from to tape compass clino
+0	1	5.42	88	0
+1	2	4.31	104	4
+2	3	2.47	71	-39
+3	4	2.06	5	-46
+
+*data passage station left right up down
+0	0.5	0.25	0.2	0.2
+1	1.1	0.5	0.3	0.2
+2	0.5	0	0.5	0.4
+3	1	0	0.4	1
+4	1.4	0	1.6	0.6
+
+*end 5334

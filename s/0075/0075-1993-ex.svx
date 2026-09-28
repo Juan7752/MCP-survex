@@ -1,0 +1,123 @@
+*BEGIN 0075-1993-ex
+
+;*CALIBRATE declination 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+;6th AUG 1993 part of survey from entrance Alasdair Neill, Keef Jackson.
+*date 1993.08.06
+;14	15	11.10	236.95	27	;marked 19
+;15	16	3.90	228.95	-28	;*
+;16	17	11.90	160.95	-24	;*
+;17	18	8.00	163.95	21	;marked 19
+;1993-8-8 SURVEY PStacey I Waltham simeon resurvey to start of 93 Extensions
+;*date 1993.08.08
+;*FLAGS DUPLICATE
+;14	33	17.20	239.95	29	;xx
+;33	34	15.60	257.95	-16	;xx
+;34	35	20.00	337.95	42	;xx
+;35	36	15.90	263.95	13	;xx
+;36	37	19.40	286.95	11	;xx
+;37	38	18.60	236.95	20	;xx
+;38	39	18.60	219.95	-22	;xx
+;39	40	20.00	239.95	-37	;xx
+;40	41	8.50	281.95	-63	;xx
+;41	42	9.30	208.95	-15	;xx
+;42	43	20.00	246.95	12	;xx
+;43	44	14.80	196.95	-13	;xx
+*FLAGS NOT DUPLICATE
+;44	45	6.40	266.95	6	;smashed calcite squeeze RH side choke draughts out
+;45	46	5.20	223.95	-4	;*
+;46	47	5.10	238.95	-10	;out of squeeze
+;47	48	10.00	256.95	-15	;down calcite slope
+;48	49	6.10	336.95	-12	;*
+;49	50	12.50	356.95	2	;*
+;50	51	9.60	277.95	4	;*
+;51	52	20.00	284.95	7	;helictites in roof
+;52	53	17.90	274.95	-4	;into chamber
+;53	54	6.10	332.95	-1	;to passage corner
+;54	55	8.30	274.95	3	;*
+;55	56	16.30	280.95	-3	;over false floor with route dropping below
+;56	57	7.60	283.95	12	;*
+;57	58	7.40	273.95	-22	;climb down over cauliflower formations
+*FLAGS DUPLICATE
+58	59	7.80	251.95	0	;*
+59	60	11.00	223.95	-30	;mud slope and short loose climb
+58	61	4.80	20.95	33	;up onto saddle
+61	62	4.70	30.95	-22	;down from saddle
+*FLAGS NOT DUPLICATE
+62	63	12.90	284.95	18	;up from trench
+63	64	6.70	3.95	-8	;*
+64	65	9.90	280.95	8	;past rock bridges and up
+65	66	15.20	270.95	-22	;short climb down - walking
+66	67	10.40	32.95	-25	;*
+67	68	8.40	277.95	-42	;sandy chute - not free climb - alt fc route to R
+68	69	6.10	34.95	-41	;across chamber
+69	70	5.60	216.95	-11	;into small passage
+70	71	3.10	237.95	-35	;*
+71	72	4.90	210.95	-35	;*
+72	73	2.30	188.95	-34	;*
+73	74	4.40	126.95	-11	;narrow crawl
+74	75	2.50	94.95	-21	;narrow crawl
+75	76	14.50	197.95	-55	;steep hading rift 1m  x 6m
+*FLAGS DUPLICATE
+62	77	17.90	94.95	11	;climb up and down to base of muddy cl - no draught
+*FLAGS NOT DUPLICATE
+;survey 1993-8-10 p stacey M Meehan I Walton K Martin
+*date 1993.08.10
+*FLAGS DUPLICATE
+60	78	18.30	213.95	-30	;top of pitch
+78	79	21.00	-	-V	;pitch base
+79	80	3.60	181.95	-15	;cairn
+80	81	15.20	56.95	-34	;sandy boulder slope descends from p
+81	82	7.90	327.95	-30	;*
+82	83	9.50	26.95	-29	;*
+83	84	6.90	111.95	0	;flat out crawl
+84	85	1.60	166.95	-20	;*
+85	86	1.60	-	-V	;*
+86	87	4.70	141.95	-12	;hading rift
+87	88	4.30	106.95	-19	;mud dig
+88	89	8.40	124.95	-26	;*
+89	90	11.40	141.95	16	;mud dig
+90	91	20.00	120.95	5	;across chmbr to choked pass
+80	92	5.80	257.95	58	;*
+92	93	12.60	228.95	-14	;into low section
+93	94	3.40	210.95	1	;*
+94	95	5.60	250.95	3	;small chmbr
+95	96	9.00	265.95	32	;small boulder climb
+96	97	10.70	45.95	28	;up sand slope to base of climb?
+*FLAGS NOT DUPLICATE
+;over Sandy pit traverse series survey 1993-8-11 PE, PM, PS
+60	98	14.70	244.95	25	;start of traverse
+98	99	15.30	251.95	0	;end of traverse
+99	100	19.80	248.95	15	;*
+100	101	17.90	234.95	11	;roof tubes - choke
+101	102	15.20	273.95	-17	;*
+102	103	17.00	231.95	-3	;*
+103	104	10.22	264.95	32	;top of boulder slope
+103	105	10.90	205.95	-15	;*
+105	106	6.70	224.95	0	;*
+106	107	6.00	247.95	-2	;boulder choke
+106	108	6.00	190.95	15	;calcite choke
+103	109	7.60	145.95	-24	;*
+109	110	3.40	220.95	-28	;ROOF TUBE
+110	111	6.10	262.95	-52	;*
+111	112	11.40	211.95	-37	;*
+112	113	6.50	109.95	-22	;CAVERN 2LADDERS LONG TETHER
+
+;1993-8-12 PM PE PS
+*date 1993.08.12
+113	114	11.10	46.95	-40	;*
+114	115	10.60	88.95	-31	;*
+115	116	14.80	71.95	-25	;sand choked chamber
+
+
+
+*END 0075-1993-ex

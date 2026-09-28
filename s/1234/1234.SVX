@@ -1,0 +1,34 @@
+*BEGIN 1234_Hayal
+;Created from Survey file on Mon,10 May 1999.21:06:25
+*DATE 1997.05.25
+;Surveyors      : AQ PS
+;No of stations : 8
+;Plan length    : 44.5336477m
+;Traverse length: 49.6m
+
+;*FIX 0 455618 4797704 0295
+;*FIX 0 455516 4797495 0295; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455516 4797495 0288
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.68 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North.(3.68-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+0	1	6.00	186.55	-37	;*
+1	2	4.20	211.55	-28	;*
+2	3	13.00	302.55	-36	;*
+3	4	12.50	224.55	-17	;*
+4	5	9.90	317.55	-8	;*
+5	6	4.00	325.55	-20	;*
+*END 1234_Hayal

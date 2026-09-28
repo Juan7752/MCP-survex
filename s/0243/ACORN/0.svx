@@ -1,0 +1,31 @@
+*BEGIN 0243_Surface Survey
+;Created from Survey file on Sun,20 Jun 2004.09:33:28
+;Dates surveyed : 930731
+;Surveyors      : JC TonyHaigh Justin Haigh
+;No of stations : 20
+;Plan length    : 491.647591m
+;Traverse length: 502.93m
+
+*FIX 0 50180 97010 0268
+
+*ENTRANCE 0
+0	1	6.60	20.95	35	;out of hole
+1	2	40.50	142.45	-2	;*
+2	3	13.35	269.95	11	;corner of house nearest to track
+1	4	10.00	25.95	4	;*
+4	5	20.00	85.95	6	;*
+5	6	46.90	30.95	18	;*
+6	7	17.30	30.95	18	;*
+7	8	133.40	127.45	7	;Mostajo tree at rear of entrance
+7	9	80.00	348.95	7	;*
+9	10	100.00	2.95	11	;*
+10	11	11.88	261.95	-14	;*
+11	12	16.10	298.95	-34	;*
+12	13	6.90	10.95	-3	;Ladder hanger at regatom
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0243_Surface Survey

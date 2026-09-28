@@ -1,0 +1,34 @@
+*BEGIN 3812
+
+;cave name: Cueva de los Campizos ("Yo-yo")
+
+;*CALIBRATE DECLINATION 1.54
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+;*FIX 2 446643 4795781 0440
+;*FIX 2 446541 4795572 0440; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 3812-13-01.2 446541 4795572 0442
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*INCLUDE 3812-13-01
+*INCLUDE 3812-14-01	
+*INCLUDE 3812-14-02
+*INCLUDE 3812-14-03
+*INCLUDE 3812-17-04
+
+
+*EQUATE 3812-13-01.14 3812-14-01.0
+*EQUATE 3812-14-01.17 3812-14-02.17
+*EQUATE 3812-14-02.23 3812-14-03.0
+*EQUATE	3812-14-03.0 3812-17-04.0
+
+*END 3812

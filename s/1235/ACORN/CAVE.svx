@@ -1,0 +1,24 @@
+*BEGIN 1235_1235
+;Created from Survey file on Mon,10 May 1999.21:07:51
+;Dates surveyed : 970727
+;Surveyors      : Juan PS
+;No of stations : 15
+;Plan length    : 108.284325m
+;Traverse length: 108.7m
+
+*FIX 0 51710 96350 0280
+0	1	5.50	319.55	-20	;stn 8
+1	2	18.70	8.05	-2	;stn6
+2	3	8.20	3.05	0	;stn7
+1	4	10.80	44.55	-2	;stn9
+4	5	17.70	14.05	4	;stn10=stn4
+5	6	9.40	227.55	-4	;stn5
+6	7	3.60	269.55	0	;stn 6
+5	8	9.10	91.55	0	;stn3
+8	9	10.00	131.55	0	;stn 1
+9	10	5.70	202.55	0	;stn2
+9	11	10.00	222.55	0	;stn0
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+*END 1235_1235

@@ -1,0 +1,21 @@
+*begin 1332_06_01
+; INCLUDED IN CAVE file
+;surveyors: Torben Kristine
+;name:
+;date
+*CALIBRATE declination 2.42
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+0	1	2.27	19.5	-9; stn 0: too narrow
+1	2	2.16	74	-4
+2	3	1.62	43.5	21
+3	4	2.58	82	8
+4	5	4.28	101	-33
+4	6	3.6	38	46
+6	7	8.91	335	14; stn 7 = stn 4 on original
+
+*end 1332_06_01

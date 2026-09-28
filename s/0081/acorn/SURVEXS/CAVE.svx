@@ -1,0 +1,29 @@
+*BEGIN 0081_
+;Created from Survey file on Wed,04 Aug 1999.23:22:59
+;Dates surveyed : 990804
+;Surveyors      : PP
+;No of stations : 20
+;Plan length    : 214.971032m
+;Traverse length: 228.6m
+
+*FIX 0 52880 98000 0155
+0	1	17.50	67.85	16	;*
+1	2	11.60	24.35	27	;*
+2	3	25.90	339.85	8	;gate in mushroom field
+3	4	10.60	76.85	15	;*
+4	5	30.00	72.85	14	;*
+5	6	30.00	76.85	20	;MF location Western Series
+6	7	13.40	138.35	28	;*
+7	8	29.60	120.35	26	;MF large chambr above Carc ent
+6	9	30.00	293.85	-24	;*
+9	10	30.00	17.35	-14	;dig stream sink old
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0081_

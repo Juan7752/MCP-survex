@@ -1,0 +1,36 @@
+*BEGIN 3622-01
+
+;surveyors: Pete Smith/Steve Martin
+;passage name:
+*date 2012.04.02
+
+;*FIX 9 449859 4796287 0268
+;*FIX 9 449757 4796078 0268; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 9 449757 4796078 0270
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 9
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.27; (1.67-0.4)
+
+0	1	4	289	-8
+2	0	9	279	-30
+2	3	7.6	310	2
+3	4	9	309	-10
+5	2	6.7	234	-22
+6	5	5.7	208	-28
+6	7	1.2	87	2
+8	7	5	200	-40
+9	8	2.8	239	-55
+
+*END 3622-01

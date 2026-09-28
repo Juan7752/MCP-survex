@@ -1,0 +1,45 @@
+*BEGIN 0103-09-01
+
+;surveyors: Dave Bell Pete Eagan
+;passage name: Espada upstream
+*DATE 2009.04.14
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+;*fix 0 451177 4800934 110
+*fix 0 451075 4800725 110; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FLAGS SURFACE
+1	0	7.6	175	1
+2	1	9.03	73	3
+*FLAGS NOT SURFACE
+*FLAGS DUPLICATE
+
+3	2	10.68	93	-2
+4	3	13.19	184	5
+5	4	10.65	260	-2
+6	5	18.91	191	-3
+7	6	7.81	305	2
+
+8	7	8.16	267	-12
+
+9	7	5.28	217	3; rock arch
+
+10	9	4.88	225	0
+11	10	1.19	181	3
+12	11	2.22	210	-40
+13	12	1.22	101	5
+14	13	2.38	197	25
+15	14	5.56	185	0; continues 5m
+*FLAGS NOT DUPLICATE
+
+
+*END 0103-09-01

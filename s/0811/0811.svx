@@ -1,0 +1,54 @@
+*BEGIN 0811
+
+;*CALIBRATE DECLINATION 1.63
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.22; (1.62-0.4)
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors:  Xander Davis Lloyd Cawthorne
+;passage name:
+*date 2012.07.30
+
+;*FIX 9 455101 4796685 634
+;*FIX 9 454999 4796476  634; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 9 454999 4796476  637
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 9
+;*FLAGS duplicate | splay | surface
+
+1       0         6.20    5 -88
+1       2         1.9     262  68
+2       3         1.87    21   69
+3       4         1.65    346  10
+4       5         7.06    303  -16
+5       6         8.89    308  -28
+6       7         7.10    290  -32
+7       8         4.77    333  -17
+8       9         10.86   18   79
+
+*data passage station up down left right
+0     1       .5      1  1.5
+1     1       .3      0  .5
+2     .5      .5      0  1
+3     .5      .5      2  0
+4     1       .3      4.5 2
+5     1.5     0       5   7
+6     5       0       4   9
+7     5       0       1.5 7
+8     1       1.5     2   2
+9     .3      1.5     2   1
+
+
+
+*END 0811

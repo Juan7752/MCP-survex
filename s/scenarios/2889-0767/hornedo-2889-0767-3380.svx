@@ -1,0 +1,43 @@
+*begin Hornedo
+*CS UTM30N
+*CS OUT UTM30N
+
+
+;*include 2889-area-terrain
+
+*include ../../2889/2889.svx
+*include ../../0767/0767.svx
+;*include ../../3300/3300.svx
+;*include ../../3416/3416.svx
+;*include../../0713/0713.svx
+;*include../../0553/1930.svx
+;*include../../2916/2916.svx
+;*include../../1874/1874.svx
+;*include../../1167/1167.svx
+;*include../../0618/0618.svx
+;*include../../2183/2183.svx
+;*include../../0613/0613.svx
+;*include../../0915/0915.svx
+;*include../../0394/0394.svx
+;*include../../0127/0127.svx
+;*include../../2223/2223.svx
+;*include../../2488/2488.svx
+;*include../../2917/2917.svx
+*include../../3380/3380.svx
+;*include../../3470/3470.svx
+;*include../../3594/3594.svx
+;*INCLUDE../../3034/3034.svx
+;*INCLUDE../../3719/3719.svx
+;*INCLUDE../../3916/3916.svx
+;*INCLUDE../../4117/4117.svx
+;*INCLUDE../../3115/3115.svx
+
+*EQUATE 2889_vaca.2889_12_01.16 0767_wildmare.sump.30
+;*include../../0892/0892.svx;Regaton
+;*EQUATE 4117.4117-2889.0 2889_vaca.2889_09_14.71
+
+
+
+
+
+*end Hornedo

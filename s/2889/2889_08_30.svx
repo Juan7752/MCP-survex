@@ -1,0 +1,37 @@
+*begin 2889_08_30
+;High Level to Middle level pitch off 7 way junction
+
+;surveyors: Footleg, Eddie Sharp Pencil, Dingle 3, Jimmy Penrith
+*DATE 2008.07.30
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+;From	To	Tape	Compass	Clino
+* FLAGS DUPLICATE
+1	2	4.49	177	-14
+2	3	3.74	134	4
+*FLAGS NOT DUPLICATE
+3	4	3.31	185	-14
+4	5	3.6	217	-62
+5	6	2.4	259	-54
+6	7	11.14	167	-78
+7	8	4.67	64	-13
+
+*data passage station left right up down
+1	.63	1.38	0	1.45
+2	.67	.34	.67	.33
+3	0	.76	.25	.68
+4	.3	.28	1.02	3.01
+5	0	.99	3.49	0
+6	.48	.38	1.2	11.14
+7	.4	4.03	2.36	.26
+
+*end 2889_08_30

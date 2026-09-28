@@ -1,0 +1,28 @@
+; Regolfo
+; This file connects (via overland survey in 2414-15-01) caves: 2414, 2976, 2977, 5461 and defines entrance to 5462
+; so only 2414 needs to be '*INCLUDE 2414' to attach all of these caves to a higher level survex model 
+*BEGIN 2414
+
+*INCLUDE 2414-25-01
+*INCLUDE ../2976/2976
+*INCLUDE ../2977/2977
+*INCLUDE ../5461/5461
+
+  *CS UTM30N
+  *CS OUT UTM30N
+  *DECLINATION AUTO 452374 4801074 272 
+  *FIX GPS		    452374 4801074 272 
+
+  *EQUATE	GPS  			2414-25-01.12
+
+  *EQUATE 	2414-ent 		2414-25-01.1
+  *ENTRANCE 2414-ent
+
+  *EQUATE	5462-ent 		2414-25-01.30
+  *ENTRANCE 5462-ent
+
+  *EQUATE	2414-25-01.15	2977.15	 	
+  *EQUATE	2414-25-01.19	2976.19 	
+  *EQUATE	2414-25-01.21	5461.21 	
+
+*END 2414

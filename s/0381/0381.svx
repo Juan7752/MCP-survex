@@ -1,0 +1,44 @@
+*BEGIN 0381_cave
+;Created from Survey file on Sun,20 Jun 2004.13:50:19
+*DATE 2004.04.04
+;Surveyors      : PP
+;No of stations : 20
+;Plan length    : 189.508079m
+;Traverse length: 207.3m
+
+;*FIX 0 453590 4796810 0510
+;*FIX 0 453488 4796601 0510; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 453488 4796601 0506
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.4 degrees but should have been 2.71 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.71-2.4-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.09
+
+0	1	15.60	318.60	-42	;base entr rift
+1	2	3.90	196.60	-37	;main pass
+2	3	12.60	270.60	-18	;*
+3	4	29.60	173.60	3	;boulder pile
+4	5	17.90	175.60	-5	;*
+5	6	10.90	269.60	0	;corner
+6	7	16.80	187.60	16	;*
+7	8	15.50	180.60	9	;stn8
+8	9	16.90	185.60	5	;stn9
+9	10	7.40	171.60	0	;blind end
+9	11	13.80	262.60	-11	;stn11
+11	12	10.30	312.60	32	;edge rift
+12	13	6.10	-	-V	;blind pit
+13	14	8.00	94.60	26	;small pass; aven?
+8	15	13.00	263.60	-33	;*
+15	16	9.00	296.60	20	;crawl
+*END 0381_cave

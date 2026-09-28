@@ -1,0 +1,25 @@
+*begin 2366_06_17
+*DATE 2006.07.29
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+; 1/8/06 PBW+CH High Level Inlet in RR Torno
+; PBW recording, CH instruments = CH tandem + tape
+
+	 1	 2	 5.80	297	 -8
+	 2	 3	 2.10	250	-13
+	 3	 4	10.65	304	 -6
+	 4	 5	 9.60	313	 -5
+	 5	 6	 2.80	279	 -5
+	 6	 7	 9.50	290	 -8
+	 9	 8	 5.75	202	 -1
+	 7	 8	 1.35	 -	down
+
+*end 2366_06_17

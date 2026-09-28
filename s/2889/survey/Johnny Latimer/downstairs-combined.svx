@@ -1,0 +1,8 @@
+*begin COWPOT-downstairs
+
+*INCLUDE 2889_08_01
+*include 2889_08_02
+
+*equate 2889_08_01.33 2889_08_02.33
+
+*end COWPOT-downstairs

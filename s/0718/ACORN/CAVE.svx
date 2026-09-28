@@ -1,0 +1,29 @@
+*BEGIN 0718_cave
+;Created from Survey file on Sun,09 May 1999.19:31:52
+;Dates surveyed : 930810
+;Surveyors      : ND Grov
+;No of stations : 20
+;Plan length    : 68.1920355m
+;Traverse length: 72.29m
+
+*FIX 0 51680 99940 0175
+0	1	1.65	161.95	-14	;*
+1	2	4.00	62.95	-11	;*
+2	3	4.55	127.95	-8	;*
+3	4	3.53	52.45	-20	;obvious sandstone bed
+4	5	1.70	331.95	-14	;*
+5	6	8.78	85.45	-9	;sandstone slabs
+6	7	2.68	117.95	29	;over top of block
+7	8	1.82	111.95	12	;*
+8	9	3.13	-	-V	;scramble down
+9	10	3.58	261.95	0	;*
+9	11	2.48	94.95	7	;*
+11	12	7.67	79.45	-3	;rock flake
+12	13	9.20	96.95	-1	;*
+13	14	5.22	92.95	-3	;*
+14	15	6.00	44.95	0	;*
+15	16	6.30	137.95	0	;sumps
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0718_cave

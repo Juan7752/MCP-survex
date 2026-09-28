@@ -1,0 +1,36 @@
+*BEGIN 1506_RoadShow
+;Created from Survey file on Sat,26 Jun 2004.09:05:29
+*DATE 2000.04.30
+;Surveyors      : Jim Sam
+;No of stations : 12
+;Plan length    : 41.744157m
+;Traverse length: 46.4m
+
+;*FIX 0 451836 4797874 0245
+;*FIX 0 451734 4797665 0245; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 451734 4797665 0244
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.25 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.25-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+0	1	4.30	87.00	-6	;*
+1	2	4.70	280.00	-40	;*
+2	3	4.80	231.00	-23	;*
+3	4	5.50	354.00	-43	;*
+4	5	5.60	23.00	-28	;*
+5	6	8.40	31.00	-1	;*
+1	7	6.00	53.00	-3	;*
+7	8	3.40	54.00	-14	;*
+7	9	3.70	166.00	-41	;*
+*END 1506_RoadShow

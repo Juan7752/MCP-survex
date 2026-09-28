@@ -1,0 +1,24 @@
+; Top 15 sites June 2025
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE 4valleys/4valleys-lite.svx
+*INCLUDE Nvega/north_vega-lite.svx
+*INCLUDE SVS-minimum.svx
+
+*INCLUDE ../0733/0733.svx
+*INCLUDE ../2889/2889.svx
+*INCLUDE ../0025/0025.svx
+*INCLUDE ../0841/0841.svx
+*INCLUDE ../0258/0258.svx
+*INCLUDE ../0553/1930.svx
+*INCLUDE ../2366/2366.svx
+*INCLUDE ../0123/0123.svx
+*INCLUDE ../0122/0122.svx
+*INCLUDE ../0713/0713.svx
+*INCLUDE ../4043/4043.svx
+*INCLUDE ../3380/3380.svx
+*INCLUDE ../0002/0002.svx
+
+

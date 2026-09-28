@@ -1,0 +1,30 @@
+*BEGIN 0306_LlanaCueto
+;Created from Survey file on Sun,20 Jun 2004.10:59:34
+;Dates surveyed : 810819
+;Surveyors      : Pete
+;No of stations : 4
+;Plan length    : 11.8640814m
+;Traverse length: 26.2m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 5.85 degrees but should have been 5.83 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (5.83-5.85-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.42
+
+;*FIX 0 451662 4795118 0374
+;*FIX 0 451560 4794909 0374; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451560 4794909 0370
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*ENTRANCE 0
+0	1	13.00	-	-V	;pitch base
+1	2	13.20	175.15	26	;*
+*END 0306_LlanaCueto

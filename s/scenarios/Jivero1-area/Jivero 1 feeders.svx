@@ -1,0 +1,15 @@
+*BEGIN Jivero1Area
+;*INCLUDE ../../0025/0025.svx
+;*INCLUDE ../../0531/0531.svx
+;*INCLUDE ../../2964/2964.svx
+;*INCLUDE ../../0734/0734.svx
+;*INCLUDE ../../0739/0739.svx
+;*INCLUDE ../../0023/0023.svx
+*INCLUDE ../../3884/3884.svx
+*INCLUDE ../../0246/0246.svx
+*INCLUDE ../../0016/0016.svx
+;*INCLUDE ../../0002/0002.svx
+;*INCLUDE ../../3603/3603.svx
+*INCLUDE ../../0028/0028
+
+*END Jivero1Area

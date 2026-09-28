@@ -1,0 +1,29 @@
+*begin 1930_004
+
+;Neil Becka
+; inlets
+
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.31; (2.71-0.4)
+
+
+2	1	6.96	057	-04
+2	3	6.89	222	-38
+4	3	4.72	353	+02
+5	3	2.24	16	+25
+5	6	3.72	253	-18
+7	6	5.12	112	+04
+7	8	1.85	122	-18
+8	9	3.54	-	DOWN
+9	10	4.95	298	-27
+10	32	2.53	236	+27
+
+
+*end 1930_004

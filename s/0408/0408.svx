@@ -1,0 +1,123 @@
+*BEGIN 0408
+;Created from Survey file on Sat,16 Aug 2003.14:43:37
+;Dates surveyed : 010527&010805&010809&010812&010812&020326&020327
+;Surveyors      : JC PS JC+PS AQ++An SteveM+AN SM+Ali Pete E+AN PE
+;No of stations : 90
+;Plan length    : 360.039441m
+;Traverse length: 568.2m
+
+;*FIX 2001S.0 451377 4795011 0461
+;*FIX 2001S.0 451275 4794802 0461; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 2001S.0 451275 4794802 0460
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 2001S.0
+*entrance 2001S.3
+
+*BEGIN 2001S
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.85 degrees but should have been 3.07 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.07-2.85-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.18
+
+0	1	4.00	178.65	-14	;stn15
+1	2	7.00	185.15	-9	;stn13
+2	3	14.50	316.15	8	;stn14 entr
+2	4	9.00	122.15	-68	;ladder base
+4	5	4.60	77.65	-9	;stn12
+4	6	5.70	257.15	-33	;stn10
+6	7	9.80	258.15	0	;stn8
+7	8	3.40	359.15	2	;stn7
+7	9	5.80	113.15	-32	;stn9
+6	10	2.80	359.15	-2	;p top
+10	11	7.80	-	-V	;stn5 p base
+11	12	2.80	15.15	10	;stn2 boulder
+12	13	10.90	69.15	7	;stn1
+13	14	3.70	109.15	0	;stn0
+12	15	4.00	285.15	3	;stn3
+15	16	3.40	237.15	14	;stn4
+2	17	4.80	162.15	-18	;near top scaling pole
+17	18	5.60	258.15	15	;start traverse
+18	19	17.90	259.65	-1	;end traverse
+19	20	23.70	251.15	-5	;top p
+20	21	11.00	240.15	-65	;*
+21	22	6.00	242.15	-7	;top p2
+18	23	16.60	310.15	6	;surface run-in
+22	24	15.80	302.15	-65	;*
+24	25	3.10	333.15	41	;stn4
+25	26	3.10	282.15	-38	;stn9
+26	27	4.90	222.15	-25	;stn8
+27	28	6.70	219.15	-5	;*
+28	29	3.40	238.15	28	;stn5
+29	30	5.50	269.15	0	;stn6 1st bolt
+25	31	4.70	239.15	51	;*
+31	32	15.30	257.15	-3	;*
+32	33	3.30	234.15	-7	;*
+33	34	5.30	234.15	8	;stn0
+30	35	1.80	229.15	-27	;*
+35	36	6.00	181.15	-38	;triangle on wall by Y hang knot
+36	37	14.20	199.15	-78	;deviation
+37	38	13.60	-	-V	;big ledge
+38	39	1.20	218.15	0	;*
+39	40	18.80	-	-V	;poss pass by cobbly ledge
+40	41	8.30	-	-V	;*
+41	42	3.50	-	-V	;*
+42	43	27.40	-	-V	;*
+*END 2001S
+
+*EQUATE 2001S.36 2002E.36
+*EQUATE 2001S.43 2002E.43
+
+*BEGIN 2002E
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.98 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.98-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.12
+
+36	44	8.20	295.30	18	;*
+44	45	12.20	347.30	10	;*
+45	46	27.70	37.30	8	;*
+46	47	6.30	339.30	13	;*
+47	48	1.40	-	+V	;jnct
+48	49	3.70	321.30	41	;*
+49	50	6.40	349.30	11	;*
+50	51	6.60	5.30	26	;moving rubble slpe; marked stn 0
+48	52	5.05	90.30	0	;*
+52	53	5.10	46.30	-8	;foot 5m aven
+43	54	5.70	269.30	54	;cl up narrow meander
+54	55	2.90	15.30	-1	;*
+55	56	2.30	65.30	-15	;*
+56	57	2.30	314.30	-8	;*
+57	58	1.10	-	-V	;*
+58	59	1.30	357.30	0	;*
+59	60	2.50	32.30	-6	;*
+60	61	1.50	105.30	-2	;*
+61	62	3.20	66.30	-2	;*
+62	63	2.15	27.30	5	;*
+63	64	12.50	-	-V	;*
+64	65	1.60	212.30	0	;junct
+65	66	17.50	-	-V	;small watery outlet; draught
+65	67	7.00	42.30	5	;*
+67	68	3.10	308.30	-17	;Piss Pot Inlet
+68	69	2.90	268.30	10	;*
+69	70	4.90	290.30	-2	;*
+70	71	2.80	260.30	6	;*
+71	72	2.40	307.30	6	;*
+72	73	5.50	21.30	1	;4m aven; the Piss Pot; entr too small
+*END 2002E
+
+
+*END 0408

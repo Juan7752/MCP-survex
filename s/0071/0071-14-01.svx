@@ -1,0 +1,35 @@
+*BEGIN 0071-14-01
+
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 0.97
+
+*data normal from to compass clino tape
+;surveyors: Adam Sharples, Bill Smith, Lloyd Cawthorne
+*date 2014.08.04
+
+1	0	156	-79	18.2; 0 is rifty stream where rumble can be heard. heading 15 on compass
+1	2	277	-10	3.5; 1 is floating
+3	2	135	-51	5.5; 3 is kairn
+
+
+
+*data passage station left right up down
+
+0	0.1	0.1	15	0
+1	2	4	2	1
+2	3	1.5	2	1	
+3	1	2.5	1	0.2	
+
+
+
+
+
+
+*END 0071-14-01

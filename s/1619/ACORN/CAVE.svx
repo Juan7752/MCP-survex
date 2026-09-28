@@ -1,0 +1,17 @@
+*BEGIN 1619
+;Created from Survey file on Sat,26 Jun 2004.10:12:02
+;Dates surveyed : 010409
+;Surveyors      : Jack Taylor
+;No of stations : 10
+;Plan length    : 16.1085407m
+;Traverse length: 20.2m
+
+*FIX 0 52170 97960 0175
+
+*ENTRANCE 0
+0	1	0.90	-	-V	;entr
+1	2	3.00	296.15	-31	;s2
+2	3	3.70	279.15	-26	;s3
+2	4	5.70	350.15	-42	;s1
+4	5	6.90	299.15	-30	;s0
+*END 1619

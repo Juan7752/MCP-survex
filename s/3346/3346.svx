@@ -1,0 +1,54 @@
+*BEGIN 3346
+
+;*CALIBRATE DECLINATION 1.92
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.53; (1.93-0.4)
+
+*DATE 2010.03.29
+
+;*FIX surf 456103 4796928 0302
+;*FIX surf 456001 4796719 0302; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX surf 456001 4796719 0300
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE surf
+;*FLAGS duplicate | splay | surface
+
+1	2	3	265	-21
+2	3	7.20	290	-15
+3	4	3.75	304	4
+4	5	5.63	311	16
+5	6	7.78	323	-44
+6	7	22.83	292	-5
+7	8	6.79	70	-20
+8	9	9.62	348	22
+9	surf	30.2	-	up
+8	pitchbottom	17.5	-	down
+9	10	12.58	253	1
+
+*data passage station left right up down
+2	1.8	1.8	1	.7
+3	2.5	1.5	.7	.3
+4	3	2	2	1
+5	2	2	0	2
+6	3	3	3	1
+7	.2	.3	4	.5
+8	5	6	8	1
+9	9	1	30.2	.5
+*data passage station left right up down
+8	5	6	8	1
+pitchbottom	2	4	17.5	0
+*data passage station left right up down
+9	9	1	30.2	.5
+10	1	5	4	1
+
+*END 3346

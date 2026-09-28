@@ -1,0 +1,384 @@
+*BEGIN 0727_Molino
+*CS UTM30
+*CS OUT UTM30
+*DECLINATION AUTO 448448 4792181 0225
+;Created from Survey file on Sun,20 Jun 2004.21:43:11
+;Dates surveyed : 961227&970108&961231&961231&970101&970101&970331&970402&970403&970427&970427&970427&970801&970803&020820
+;Surveyors      : JC PS TW APr RS Bob PSt+RS+RS+RS+RS+PP + PE+PS
+;No of stations : 240
+;Plan length    : 1748.61432m
+;Traverse length: 1880.13m
+
+;*FIX 1996C.0 448550 4792390 0219
+;*FIX 1996C.0 448448 4792181 0219; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 1996C.0 448448 4792181 0225
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 1996C.0
+
+*BEGIN 1996C
+*DATE 1996.12
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.6 degrees but should have been 3.74 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.74-3.6-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.26
+
+0	1	13.20	321.90	1	;stn 43
+1	2	6.60	220.40	-15	;stn 44
+1	3	13.40	358.40	-3	;stn 42
+3	4	8.70	271.90	-20	;stn 41
+4	5	6.60	355.90	-2	;stn 40
+5	6	13.00	17.40	-1	;stn 39
+6	7	6.90	284.40	-6	;stn 35
+7	8	4.70	289.90	-9	;stn 36
+8	9	7.50	205.40	-31	;stn 37
+9	10	5.00	208.40	-52	;stn 38 1m down to water
+7	11	8.10	341.90	8	;stn 34
+11	12	10.00	29.90	3	;stn 33
+12	13	7.80	333.90	-27	;stn 32
+13	14	7.10	4.40	-6	;stn 31 base of rope
+14	15	8.20	352.90	45	;stn 30 top of rope
+15	16	3.60	323.40	51	;stn 29
+16	17	18.40	321.90	5	;stn 27
+17	18	6.40	75.40	33	;stn 28
+17	19	7.40	325.40	4	;stn 26
+19	20	8.50	279.90	1	;stn 18
+20	21	13.70	213.40	-16	;stn 19
+21	22	12.20	198.40	0	;stn 20
+22	23	4.80	111.40	7	;stn 21
+23	24	3.50	116.90	24	;stn 22 small chmbr
+21	25	5.80	302.40	-1	;stn 23
+21	26	13.00	351.40	18	; stn 24
+26	27	10.00	297.40	1	;stn 25 hole at top of slope
+20	28	12.30	312.40	0	;stn 17
+28	29	4.90	318.90	2	;stn 16
+29	30	4.10	281.40	1	;stn 15
+30	31	14.50	280.40	-1	;stn 14
+31	32	24.80	278.40	1	;stn 13
+32	33	7.30	30.40	9	;*
+33	34	13.70	318.40	-18	;*
+34	35	6.70	347.40	4	;stn 10
+35	36	6.30	20.90	-5	;stn 8
+36	37	9.00	347.40	3	;stn 7
+37	38	12.00	116.90	3	;stn 9
+37	39	10.10	275.40	-21	;stn 6
+39	40	4.50	242.40	-29	;stn 1
+40	41	3.70	287.40	-14	;stn 0
+41	42	9.20	125.40	1	;stn 2
+42	43	11.50	101.90	-7	;stn 3
+43	44	7.70	120.90	-14	;stn 4
+44	45	8.00	94.40	-17	;stn 5 water, flake in floor
+*END 1996C
+
+*EQUATE 1996C.41 1997J-1.41
+
+*BEGIN 1997J-1
+*DATE 1997.01
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.74 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.74-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.11
+
+41	46	10.40	285.55	-38	;stn 21 first pool
+46	47	8.80	34.55	0	;stn 20
+47	48	16.20	6.55	25	;stn 2
+48	49	10.80	268.55	-35	;stn 1
+49	50	8.50	302.55	-17	;stn 0 line
+48	51	15.80	53.55	38	;stn 3
+51	52	9.30	89.55	7	;*
+52	53	11.10	112.55	17	;*
+53	54	4.00	34.55	30	;stn 6
+54	55	8.30	98.55	-5	;*
+55	56	6.30	81.05	25	;*
+56	57	6.20	114.55	-16	;*
+57	58	2.00	108.55	-30	;stn 10
+58	59	1.80	153.55	0	;*
+59	60	2.10	94.55	3	;*
+60	61	4.80	95.55	0	;*
+61	62	4.60	117.55	0	;*
+62	63	11.90	99.55	3	;stn 15 may push?
+51	64	6.20	333.55	-14	;stn 16
+64	65	9.40	277.55	-2	;*
+65	66	3.10	321.55	-30	;*
+66	67	8.90	294.05	-22	;stn 19
+*END 1997J-1
+
+*EQUATE 1996C.15 1997J-2.15
+
+*BEGIN 1997J-2
+*DATE 1997.01
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.6 degrees but should have been 3.74 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.74-3.6-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.26
+
+15	68	5.60	71.40	35	;stn 31 junction
+68	69	10.40	203.40	25	;stn 30
+69	70	11.50	182.40	2	;stn 29
+70	71	25.30	293.40	-7	;stn 28 entr to small pass
+71	72	4.80	348.40	14	;stn 27
+72	73	3.00	92.40	5	;stn 26
+73	74	3.90	76.40	40	;stn 25 base of cl
+74	75	6.90	340.40	60	;stn 23 top of climb
+75	76	13.00	278.40	3	;stn 24 may continue?
+*END 1997J-2
+
+*EQUATE 1996C.21 1997J-3.21
+*EQUATE 1997J-3.50 1997J-1.50
+
+*BEGIN 1997J-3
+*DATE 1997.01
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.74 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.74-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.11
+
+21	77	13.90	297.05	0	;stn TW2
+77	78	9.70	284.55	10	;tw3
+78	79	6.50	304.55	23	;tw4 on far wall
+21	80	13.00	351.55	18	;tw5
+80	81	8.10	301.05	16	;*
+81	82	4.35	288.55	-32	;stn tw7
+82	83	3.30	281.55	-13	;*
+83	84	4.70	244.55	-17	;tw8a
+84	85	4.20	286.55	-5	;tw9
+85	86	9.80	260.55	0	;*
+86	87	5.90	306.55	6	;tw11
+87	88	12.70	281.55	3	;tw12
+88	89	5.30	331.55	9	;tw13
+89	90	6.00	53.05	20	;tw14 cairn
+
+;Rupert Skorupka dive data
+50	91	10.00	266.55	-16	;rs1
+91	92	10.00	316.55	-21	;*
+92	93	10.00	296.55	-19	;rs3
+93	94	10.00	296.55	-35	;*
+94	95	10.00	346.55	-24	;rs5
+95	96	10.00	356.55	-16	;*
+96	97	10.00	351.55	-26	;rs7
+97	98	10.00	336.55	-27	;*
+98	99	10.00	326.55	-24	;rs9
+99	100	10.00	316.55	-12	;*
+100	101	10.00	56.55	-21	;rs11
+101	102	10.00	56.55	-24	;*
+102	103	10.00	36.55	-21	;*
+103	104	10.00	321.55	-23	;stn rs14
+104	105	10.00	316.55	16	;rs15
+*END 1997J-3
+
+*EQUATE 1997J-1.46 1997E.46
+*EQUATE 1996C.45 1997E.45
+*EQUATE 1997J-2.68 1997E.68
+*EQUATE 1996C.7 1997E.7
+*EQUATE 1996C.10 1997E.10
+*EQUATE 1996C.41 1997E.41
+*EQUATE 1996C.14 1997E.14
+*EQUATE 1997J-3.105 1997E.105
+
+*BEGIN 1997E
+*DATE 1997.03
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.64 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.64-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.21
+
+46	106	10.60	78.55	1	;rh wall of chamber
+106	107	10.00	77.55	-10	;downstream sump edge
+45	108	15.60	101.55	0	;*
+108	109	7.00	121.05	-16	;by water at base of mud slope
+109	110	8.00	76.55	31	;chk at top of mud slope
+68	111	7.00	16.55	25	;*
+111	112	8.30	11.55	33	;back wall of chmbr
+112	113	6.30	142.55	25	;through rocks
+113	114	3.20	95.55	15	;stn 11
+114	115	4.50	10.55	0	;*
+115	116	2.00	4.55	12	;small chmbr closes above
+112	117	16.20	284.55	-11	;stn14
+117	118	6.50	16.55	10	;*
+118	119	2.00	44.55	8	;chk
+117	120	4.60	337.55	37	;up slope draughting
+120	121	5.00	321.55	44	;*
+121	122	2.20	15.55	35	;chmbr at top of slope
+122	123	5.60	84.55	38	;*
+123	124	1.80	41.55	40	;*
+124	125	1.30	86.55	45	;*
+125	126	1.80	41.55	15	;*
+126	127	3.30	86.55	25	;*
+127	128	3.10	47.55	27	;stn 17; conts to R; strong draught
+7	129	7.60	78.55	4	;stn29 at pass entry
+129	130	11.40	17.55	32	;back of chmbr
+129	131	6.10	118.55	-27	;*
+131	132	4.70	99.55	-14	;*
+132	133	2.50	101.55	-51	;over watery pass; 115deg rift
+10	134	11.70	261.55	-2	;*
+134	135	3.40	178.55	0	;*
+135	136	2.70	108.55	-1	;*
+136	137	14.70	201.55	-5	;*
+137	138	4.60	175.55	-3	;stn 37
+138	139	9.20	87.55	12	;*
+139	140	5.10	38.55	-22	;*
+140	141	6.20	56.55	-10	;*
+141	142	17.10	87.55	-5	;downstream sump?
+105	143	10.00	316.55	17	;stn 160
+143	144	10.00	246.55	-17	;*
+144	145	10.00	286.55	-12	;stn180
+145	146	10.00	281.55	-13	;*
+146	147	10.00	306.55	-30	;stn200
+41	148	2.70	115.55	3	;stn34
+148	149	7.20	81.55	27	;*
+149	150	16.70	154.55	3	;*
+150	151	7.70	290.55	-16	;into sand crawl
+151	152	3.00	209.55	-24	;low
+152	153	2.54	210.55	-12	;*
+153	154	5.60	228.55	-23	;*
+154	155	3.60	187.55	1	;*
+155	156	1.80	279.05	-13	;*
+156	157	3.70	209.55	-21	;*
+157	158	6.40	204.05	-4	;top of clmb into chmbr
+158	159	7.60	197.55	8	;large blk big chmbr; stn 6
+159	160	13.80	301.55	27	;top of clmb up side
+160	161	3.90	296.55	12	;*
+161	162	9.90	289.55	-29	;*
+162	163	5.10	30.55	-13	;*
+163	164	4.00	245.55	-4	;*
+164	165	4.40	294.55	29	;phrtc pass ends in mud
+159	166	16.40	152.55	11	;*
+166	167	14.10	87.55	44	;*
+167	168	8.60	215.55	10	;*
+168	169	6.30	228.55	2	;*
+169	170	2.00	206.55	55	;*
+170	171	10.90	286.55	26	;*
+171	172	2.80	284.55	0	;lhs rift chks 10m
+172	173	2.70	284.55	-10	;*
+173	174	1.80	289.55	27	;start of phrtc oxboes
+174	175	3.20	246.55	15	;*
+175	176	1.50	26.55	-19	;*
+176	177	2.70	314.55	29	;*
+177	178	6.30	255.55	-6	;easy dig draught out
+167	179	4.00	39.55	45	;big stal
+179	180	9.70	323.05	-13	;*
+180	181	3.80	225.55	-33	;down clmb
+181	182	17.34	307.55	-26	;slope enters chmbr
+106	183	2.00	-	-V	;guessed leg
+183	184	10.00	136.55	-24	;*
+184	185	10.00	116.55	-14	;*
+185	186	10.00	76.55	-12	;*
+186	187	10.00	146.55	-31	;*
+187	188	10.00	176.55	-24	;*
+188	189	10.00	116.55	-12	;*
+189	190	10.00	136.55	29	;*
+190	191	10.00	126.55	20	;*
+191	192	10.00	126.55	2	;*
+192	193	10.00	116.55	22	;*
+193	194	10.00	96.55	21	;*
+194	195	10.00	76.55	1	;*
+195	196	10.00	86.55	20	;unexplored stream
+14	197	5.00	226.55	0	;guessed leg
+197	198	6.00	-	-V	;guessed leg
+198	199	10.00	316.55	-19	;*
+199	200	10.00	316.55	-15	;*
+200	201	10.00	26.55	22	;*
+201	202	7.00	46.55	13	;unexplored stream
+10	203	10.00	66.55	-39	;*
+203	204	10.00	86.55	-5	;*
+204	205	10.00	26.55	17	;*
+205	206	10.00	346.55	25	;unsurveyed stream
+*END 1997E
+
+*EQUATE 1997E.147 1997S.147
+*EQUATE 1997J-1.49 1997S.49
+
+*BEGIN 1997S
+*DATE 1997.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.64 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.64-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.21
+
+147	207	10.00	316.55	-29	;stn210
+207	208	10.00	276.55	-16	;stn220
+208	209	10.00	326.55	-9	;stn230
+209	210	10.00	356.55	-10	;stn240
+49	211	12.30	15.55	49	;start of traverse
+211	212	18.00	291.55	10	;large block
+212	213	10.50	287.55	20	;*
+213	214	12.60	287.55	-22	;boulder pass on left draughts out
+214	215	19.30	264.55	-24	;*
+215	216	7.00	298.55	0	;*
+216	217	7.50	46.55	34	;end of blind tube; tight aven above
+214	218	8.90	259.55	41	;bottom of boulder cl
+212	219	9.00	274.55	30	;*
+219	220	3.50	140.55	5	;start of chk
+220	221	7.40	116.55	-22	;*
+221	222	3.70	168.55	-13	;*
+222	223	3.50	133.55	-2	;*
+223	224	2.30	216.55	-11	;solid passage
+224	225	5.20	125.55	22	;step up; draught strong
+225	226	1.40	203.55	23	;*
+226	227	3.10	131.55	-13	;looking into rift
+227	228	3.90	-	-V	;top of p; marked stn10
+220	229	8.10	111.55	12	;chk
+*END 1997S
+
+*EQUATE 1996C.15 2002S.15
+
+*BEGIN 2002S
+*DATE 2002.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.93 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.93-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.17
+
+15	230	5.30	67.30	24	;*
+230	231	9.60	195.30	23	;*
+231	232	21.40	107.30	47	;*
+232	233	3.20	118.30	-20	;*
+*END 2002S
+
+*INCLUDE 0727-11-01
+;*EQUATE 0727-11-01.0 1997E.143
+;*EQUATE 0727-11-01.20a 0727-11-02.tag20
+
+*INCLUDE 0727-11-02
+*EQUATE 1997S.210 0727-11-02.minus62a
+*EQUATE 0727-11-01.10a 0727-11-02.10a
+
+*END 0727_Molino

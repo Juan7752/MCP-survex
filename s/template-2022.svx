@@ -1,0 +1,28 @@
+;Use this template after complete intro of *DECLINATION and assoc. commands in Survex v1.2.43
+;For Survex 1.2.43 and later 
+
+*BEGIN site_batch
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto x y z; coordinates of entrance but a nearby point will do
+*DATE yyyy.mm.dd
+*FIX s x y z; s=station x=6-fig easting y=7-fig northing z=altitude Usually the entrance
+*ENTRANCE s
+;passage / batch name:
+
+;vvvvvvvvvvvvvvv Should be uncommented and completed or deleted vvvvvvvvvvvvvvvvvvvvvvvvv
+;*TEAM "name" with role(s) which can be compass clino tape
+;eg *TEAM "Fred Bloggs" compass clino
+;*FLAGS duplicate | splay | surface
+;^^^^^^^^^^^^^^^^^ Should be uncommented and completed or deleted ^^^^^^^^^^^^^^^^^^^^^^^
+
+*DATA NORMAL from to tape compass clino
+
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+
+
+*data passage station left right up down
+
+
+*END site_batch

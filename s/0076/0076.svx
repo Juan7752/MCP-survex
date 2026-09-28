@@ -1,0 +1,42 @@
+*BEGIN 0076_Campo
+;Created from Survey file on Fri,18 Jun 2004.22:00:45
+;Dates surveyed : 990728
+;Surveyors      : Juan PeteS AndyQ
+;No of stations : 10
+;Plan length    : 76.3156517m
+;Traverse length: 77.9m
+
+;*FIX 0 450640 4796500 0242
+;*FIX 0 450637 4796499 0238
+*FIX 0 450535 4796290 0235; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*ENTRANCE 0
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.15 degrees but should have been 3.34 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.34-3.15-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*CALIBRATE DECLINATION -0.21
+
+0	1	8.20	150.85	-21	;stn1
+1	2	6.40	177.85	-30	;*
+2	3	3.50	194.85	-5	;*
+3	4	3.00	154.85	-9	;stn4 narrow
+0	5	16.10	19.85	-1	;lh wall
+5	6	30.70	66.85	4	;stn6
+6	7	10.00	32.85	-6	;stn7
+
+*INCLUDE 0076-18-01
+*EQUATE 3 0076-18-01.11_6
+
+*END 0076_Campo

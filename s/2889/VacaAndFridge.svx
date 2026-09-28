@@ -1,0 +1,4 @@
+*BEGIN VacaFridge
+*INCLUDE ..\2917\2917.svx
+*INCLUDE 2889.svx
+*END VacaFridge

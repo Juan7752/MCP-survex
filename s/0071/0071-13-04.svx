@@ -1,0 +1,45 @@
+*BEGIN 0071-13-04
+
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+*data normal from to compass clino tape
+;surveyors: Adam Sharples, Darren Jarvis, Bill Smith, Francesca McDonald, Roxanne Ramsay, Michalangelo Topsomus
+*date 2013.08.08
+0a	1	172.3	10.1	8.638
+1	2	152.1	6.2	4.947
+2	3	147	-18.5	2.703
+3	4	196.2	-12.3	9.076
+4	5	172.8	-7.4	3.709
+5	6	201.5	-7.1	4.552
+6	7	180.0	-8.7	6.405
+7	8	90.1	-17.5	2.293
+8	9	165.7	-13.7	3.249
+9	10	198.3	15.8	10.251
+10	11	217.8	24.5	6.217
+11	12	183.0	11.3	11.438
+12	13	100.6	30.7	7.832
+13	14	201.4	59.6	5.166
+14	15	116.3	-14.6	3.605
+15	16	191.6	29.8	2.254
+16	17	165.2	-4.4	2.175
+17	18	222.6	52.4	7.362
+18	19	207.0	30.0	2.521
+19	20	321.2	-6.0	6.326
+20	21	204.0	9.4	2.567
+
+
+
+*data passage station up down left right
+
+
+*END 0071-13-04

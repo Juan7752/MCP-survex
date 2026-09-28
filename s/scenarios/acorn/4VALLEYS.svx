@@ -1,0 +1,29 @@
+*BEGIN 4Valleys
+
+*INCLUDE <Sitedata$Dir>.0k.1.0105.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0081.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0098.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0114.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0107.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0106.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0099.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0109.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0117.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.1k.0.1053.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.1k.2.1289.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.1k.2.1232.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.1k.4.1452.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.2.0207.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0086.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.5.0565.survex.cave/svx
+
+
+
+*EQUATE 0114_llueva.290 0081_carcavu.253
+*EQUATE 0114_llueva.414 0107_uzueka.313
+*EQUATE 0114_llueva.172 0081_carcavu.152
+*equate 0107_uzueka.175 0105_riano.181
+
+
+
+*end 4Valleys

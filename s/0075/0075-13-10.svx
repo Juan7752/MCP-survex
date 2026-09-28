@@ -1,0 +1,18 @@
+*BEGIN 0075-13-10
+;surveyors  ALASDAIR NEILL
+*DATE 2013.07.27
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+;Link from old to new survey at Main junction
+0	1	1.71	192	-35
+
+
+*END 0075-13-10
+

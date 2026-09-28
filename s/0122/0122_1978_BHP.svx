@@ -1,0 +1,35 @@
+*BEGIN 0122_1978_BHP
+;Approx declination for 1978
+;*CALIBRATE DECLINATION 6
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 5.88; (6.28-0.4)
+2	1	11.4	189	0
+3	2	13.2	228	0
+4	3	8.4	221	-1
+5	4	9.9	213	-4
+6	5	15.8	206	-6
+7	6	22.7	201	2
+8	7	11.8	196	-6
+9	8	19.9	221	0
+10	9	7.8	184	10
+11	10	19.7	212	-10
+12	11	24.5	227	-7
+13	12	10.2	135	-8
+14	13	10.6	157	28
+15	14	6.8	195	53
+16	15	8.7	98	6
+17	16	8.9	222	-5
+
+18	12	11.9	123	-28
+19	18	2.2	84	-17
+
+
+;19 end of other survey
+
+*END 0122_1978_BHP

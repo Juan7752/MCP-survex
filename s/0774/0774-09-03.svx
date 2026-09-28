@@ -1,0 +1,97 @@
+*begin 0774-09-03
+
+;*export 30 34
+
+*title "Morenuca Traverse 2"
+*date 2009.04.14
+*team Insts Kirsty
+*team Notes Becka Lawson
+*team Tape Mandy
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+*instrument Compass and Clino - Becka's pony Tape - MUSC disto
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+34	35	7.51	246	+03
+36	35	8.76	196	+05
+36	37	9.32	037	+01
+38	37	8.02	100	0
+38	39	12.27	228	+02
+40	39	12.06	038	+03
+40	41	12.34	189	+05
+42	41	10.28	080	+06
+42	43	6.83	273	+02
+44	43	18.50	075	-01
+44	45	9.41	269	0
+45	46	5.69	253	+01
+46	47	3.89	265	-32
+47	48	3.17	293	-07
+48	49	7.15	296	+11
+49	50	9.39	260	-05
+51	50	7.98	038	-01
+51	52	17.94	228	-01
+
+52	53	3.72	184	-02
+53	54	14.86	239	+04
+54	55	4.41	224	-36
+55	56	3.50	257	+01
+56	57	4.06	253	+27
+57	58	7.47	205	-13
+58	59	1.30	118	+13
+59	60	3.96	236	+08
+60	61	4.49	230	+24
+61	62	3.01	263	+09
+62	63	3.31	222	+01
+
+*data passage station left right up down
+
+; station LRUDs
+
+34	5.8	0.6	2.4	0.6	; stn 34 from Becka Dan and Sam survey of 11/4/09, cairn with paper
+35	3.5	2.2	3.5	1.5	; base of stal at corner
+36	2	2.8	3.6	1.2	; passage
+37	3	0	3.5	0.6	; R wall at corner
+38	2	0	2.5	1	; R wall
+39	3.5	1.5	2.5	1.2	; base of very long stal
+40	2.5	3	2.4	0.9	; cairn and paper
+41	0.5	1.4	1	0.4	; top of rock
+42	2	1	2	0.5	; base of stal 2m right of fine stal like black
+43	1	3	2.4	1.7	; L wall
+44	0	1	1.8	1.4	; L wall in sandy passage
+45	0.3	0.2	1.2	0.5	; top of small phreatic tube out of sandy passage
+46	0.3	0.5	0	0.6	; end of phreatic tube, at top
+47	1.3	1.2	2	0.5	; L side of flake
+48	1.5	1.5	4	0.2	; under rock
+49	1	1.2	1	1	; base of stalagmite through window
+50	4	0.7	2	0.4	; small stal, R of passage and paper left. It is opposite a fine white curtain
+51	0.2	1.3	2.7	0.8	; L wall before narrower passage
+52	0.4	1.5	2	0.5	; low before crawl
+
+53	1.8	1.6	1.8	0.4	; beyond crawl squeeze, cairn by crystal pool
+54	0	1.2	2.5	3.5	; beyond crystal pool, end of short crawl, l wall
+55	0.3	0.5	0.3	0.1	; past 2m climb down
+56	3	0.2	0.2	0.8	; cairn on R
+57	2.5	2.5	1	1	; mid chamber pendule
+58	1.5	0.2	1.3	0.2	; R wall after crawl
+59	0.3	1.3	1.1	0.5	; L wall before small crystal pool
+60	0.6	0	1.5	1.3	; R wall after small crystal pool
+61	2	1	0	2.5	; well decorated chamber, on roof
+62	1.2	0.5	0.4	1.2	; stubby stalagmite
+63	1	1	1	0.5	; pencil cross (large, visible) on L wall/roof
+
+
+*end 0774-09-03
+
+
+
+

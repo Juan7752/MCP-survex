@@ -1,0 +1,34 @@
+*BEGIN 2889-15-01
+;surveyors: Johnny Latimer & Tom Howard
+*DATE 2015.04.01
+*CALIBRATE DECLINATION 0.78
+
+*FLAGS DUPLICATE
+x	1	7.79	24	4
+*FLAGS NOT DUPLICATE	
+1	2	4.87	35	-74
+2	3	14.86	-	down
+3	4	13.52	-	down
+1	5	1.01	120	-45	
+5	6	8.25	110	5	
+6	7	7.25	20	10
+7	8	6.31	90	6
+8	9	1.25	210	-37	
+9	10	7.30	55	10
+	
+
+*data passage station left right up down
+
+1	6	0.3	0.3	0.5	
+2	2.2	1.45	0.5	1
+3	1.5	2	8	15	
+5	3.4	0.5	0.7	1.1	
+6	1.3	0.2	4.9	0.8	
+7	1.6	2.1	0.4	0.3
+8	2.2	3.1	2.4	0.8	
+9	1.4	1.1	2.7	1.2	
+10	0.2	4.0	1	0.5	
+	
+
+
+*END 2889-15-01

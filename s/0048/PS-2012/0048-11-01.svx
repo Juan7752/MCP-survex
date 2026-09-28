@@ -1,0 +1,30 @@
+*BEGIN 0048-11-01
+;Breakdown Chamber to start Squirrels
+;Dates surveyed : 17-08-11
+;Surveyors      : Pete Smith/Simon Cornhill/Diane Arthurs
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35
+
+0	1	7.6	348	-10	;0=stn 11 (15 Aug. 2010)
+1	2	7.4	288	8
+2	3	4.7	346	17
+3	4	2.3	53	4
+4	5	5.15	333	-28
+5	6	5.06	267	-30
+6	7	11.11	328	-3
+7	8	1.96	265	2
+8	9	24.13	312	-4
+9	10	7.97	337	-16
+10	11	14.65	51	9
+11	12	13.8	58	-10
+12	13	5.75	64	-12	;13=top of pitch to stream
+13	14	5.4	0	-90	;14=stream level
+
+*END 0048-11-01

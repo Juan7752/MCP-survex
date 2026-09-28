@@ -1,0 +1,63 @@
+*BEGIN site_batch
+
+;passage / batch name:
+
+
+;vvvvvvvvv For info only; can be deleted vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at http://www.ngdc.noaa.gov/geomag-web/#declination
+; Use IGRF model
+
+;1.41 for 2014 Easter altered to 1.01 to align with the UTM ETRS89 grid
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+;1.30 for 2014 autumn altered to 0.90 to align with the UTM ETRS89 grid
+;1.21 for 2014 Xmas altered to 0.81 to align with the UTM ETRS89 grid
+;1.18 for 2015 Easter altered to 0.78 to align with the UTM ETRS89 grid
+;1.13 for 2015 summer altered to 0.73 to align with the UTM ETRS89 grid
+;1.05 for 2016 Easter altered to 0.65 to align with the UTM ETRS89 grid
+;1.01 for 2016 summer altered to 0.61 to align with the UTM ETRS89 grid
+;0.92 for 2017 Easter altered to 0.52 to align with the UTM ETRS89 grid
+;0.88 for 2017 summer altered to 0.48 to align with the UTM ETRS89 grid
+;0.85 for 2017 autumn altered to 0.45 to align with the UTM ETRS89 grid
+;0.80 for 2018 Easter altered to 0.40 to align with the UTM ETRS89 grid
+;0.75 for 2018 summer altered to 0.35 to align with the UTM ETRS89 grid
+;0.66 for 2019 Easter altered to 0.26 to align with the UTM ETRS89 grid
+;0.62 for 2019 summer altered to 0.22 to align with the UTM ETRS89 grid
+;0.59 for 2019 autumn altered to 0.19 to align with the UTM ETRS89 grid
+;0.01 for 2021 summer altered to -0.39 to align with the UTM ETRS89 grid
+;0.04 for 2022 Easter altered to -0.36 to align with the UTM ETRS89 grid
+;0.01 for 2022 summer altered to -0.39 to align with the UTM ETRS89 grid
+;0.15 for 2023 Easter altered to -0.25 to align with the UTM ETRS89 grid
+;0.18 for 2023 Summer altered to -0.22 to align with the UTM ETRS89 grid
+;0.25 for 2023 Nov altered to -0.15 to align with the UTM ETRS89 grid
+
+;^^^^^^^^^^ For info only; can be deleted ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+;vvvvvvvvvvvvvvv Should be uncommented and completed or deleted vvvvvvvvvvvvvvvvvvvvvvvvv
+;*TEAM "name" with role(s) which can be compass clino tape
+;eg *TEAM "Fred Bloggs" compass clino
+;*date 2014.00.00
+;*FIX station# easting northing altitude
+;*ENTRANCE station#
+;*FLAGS duplicate | splay | surface
+;^^^^^^^^^^^^^^^^^ Should be uncommented and completed or deleted ^^^^^^^^^^^^^^^^^^^^^^^
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.35 ; altered from 0.75 for Easter 2018 to align with the UTM ETRS89 grid
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+
+
+
+
+
+
+
+
+
+
+;*data passage station left right up down
+
+
+*END site_batch

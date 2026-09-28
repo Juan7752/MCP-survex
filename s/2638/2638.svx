@@ -1,0 +1,55 @@
+*begin 2638_BogHole
+
+*DATE 2007.04
+;*CALIBRATE DECLINATION 2.28
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.92; (2.32-0.4)
+
+;*FIX entr 452147 4800844 0230
+;*FIX entr 452045 4800635 0230; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX entr 452045 4800635 0238
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE entr
+1	0	5.1	115	-19
+2	1	5.1	90	-.5
+3	2	4.6	34	4
+4	3	11	13	1
+5	4	22.4	98	-1.5
+6	5	10.3	114	8
+7	6	6.2	107	-8
+8	7	4.7	34	7
+9	8	3.7	81	-44
+9	entr	7.5	-	+V
+
+A	7	4.3	180	-12
+B	A	10.7	96	-1.5
+
+Z	7	5.6	89	12
+Y	Z	6.6	109	-3
+
+;070412
+;Paul Gelling Harry Long
+
+6	61	1.4	-	-V
+61	62	9.2	108	-12
+62	63	10	105	-1
+63	64	13.8	98	2
+64	65	3.9	18	-4
+65	66	6	355	-1
+66	67	6.8	47	4
+67	68	9.1	99	-5
+68	69	13	4	-3
+69	70	4.3	38	-5
+71	70	4.9	282	-2
+71	72	15	75	0; no clino - back of chamber
+*end 2638_BogHole

@@ -1,0 +1,158 @@
+*BEGIN 0065_Cofresnedo
+;Created from Survey file on Thu,17 Jun 2004.21:11:55
+;Dates surveyed : 930400&930000&930000&000805&000805&000805&000805&000805&000805&000805&000805&000805
+;Surveyors      : P Smith B Cawthorne+PS+PS+PS+PS+PS+PS+PS+PS+PS+PS+PS
+;No of stations : 75
+;Plan length    : 706.47383m
+;Traverse length: 721.1m
+
+;*FIX 0 452280 4796370 0235
+;*FIX 1993E.0 452269 4796371 0235
+*FIX 1993E.0 452167 4796162 0235; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;GPS FIX is at SW corner of entrance
+*ENTRANCE 1993E.0
+
+*BEGIN 1993E
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.24 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.24-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+0	1	18.70	258.95	-8	;*
+1	2	26.00	217.95	-6	;*
+2	3	22.80	265.95	-5	;*
+3	4	17.00	263.95	-7	;*
+4	5	20.10	283.95	-13	;*
+5	6	21.80	282.45	-16	;*
+6	7	22.80	315.45	-9	;*
+7	8	13.20	227.95	3	;*
+8	9	14.00	221.95	-5	;*
+9	10	9.70	285.95	-29	;*
+10	11	13.60	267.95	14	;*
+11	12	16.90	244.45	6	;*
+12	13	23.00	248.95	17	;*
+13	14	20.70	272.95	9	;*
+14	15	13.70	340.95	14	;*
+15	16	10.50	352.95	24	;*
+
+13	17	12.70	192.95	42	;*
+17	18	10.40	155.45	-6	;*
+18	19	4.90	174.95	28	;*
+
+12	20	19.20	316.95	1	;*
+20	21	11.10	264.95	4	;*
+
+10	22	18.10	10.95	-15	;*
+22	23	14.00	279.95	-1	;*
+*END 1993E
+
+*EQUATE 1993E.1 2000S-01.1
+*EQUATE 1993E.4 2000S-01.4
+*EQUATE 1993E.2 2000S-02.2
+*EQUATE 1993E.5 2000S-02.5
+*EQUATE 1993E.6 2000S-02.6
+*EQUATE 1993E.7 2000S-02.7
+*EQUATE 1993E.10 2000S-02.10
+*EQUATE 1993E.12 2000S-02.12
+*EQUATE 1993E.13 2000S-02.13
+*EQUATE 1993E.14 2000S-02.14
+*EQUATE 1993E.22 2000S-02.22
+*EQUATE 1993E.15 extra.15
+
+
+*BEGIN 2000S-01
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 3.20 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -1.25
+
+
+1	24	17.50	234.95	1	;stn48
+
+1	25	17.60	305.95	-2	;stn49
+
+1	26	16.40	351.45	-2	;stn50
+26	27	7.50	166.95	-11	;stn51
+27	28	0.10	-	+V	;dummy
+
+1	29	16.40	169.95	-3	;stn52
+
+1	30	9.20	110.95	4	;stn53
+
+4	31	10.00	2.45	-1	;stn41
+
+4	32	10.10	25.95	5	;*
+
+4	33	12.90	32.95	3	;stn43
+
+4	34	16.00	186.95	2	;stn44
+34	35	11.00	79.95	15	;stn45
+
+4	36	12.90	207.95	12	;stn46
+
+*END 2000S-01
+
+*BEGIN 2000S-02
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.2-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.2
+
+
+2	37	20.90	220.00	-3	;stn47
+
+5	38	15.10	28.00	-2	;stn38
+
+5	39	15.70	224.50	2	;stn39
+
+6	40	25.30	246.00	0	;stn36
+
+6	41	16.50	267.00	-1	;stn37
+
+7	42	9.80	61.00	1	;stn35
+
+10	43	11.40	167.00	30	;stn29
+22	44	12.60	91.00	-3	;stn32
+12	45	15.50	189.50	13	;stn25
+45	46	16.90	76.00	5	;stn26
+13	47	9.80	37.00	-19	;stn24
+14	48	8.40	198.00	-3	;stn19
+14	49	10.70	11.50	3	;stn20
+*END 2000S-02
+
+*BEGIN extra
+;Found in AcornData16
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.8; (3.2-0.4)
+
+15	50	7.4	222	11;	stn17
+15	51	6.1	87.5	-4;	stn18
+*END extra
+
+*END 0065_Cofresnedo

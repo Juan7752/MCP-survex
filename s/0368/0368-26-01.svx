@@ -1,0 +1,78 @@
+; ============================================================
+; Survex data file transcribed from field notes
+;   Reference : 0368
+;   Date      : 12/08/2026
+;   Source    : two notebook photos (leg notes + passage sketch)
+;
+; Reading conventions (as per these notes):
+;   - a "/" is used as the decimal point  (e.g. 4/10 = 4.10 m, 0/5 = 0.5 m)
+;   - columns are:  From  To  Distance  Bearing  Clino  L R U D
+;   - distances in metres, bearings & clino in degrees
+;
+; The leg data (from/to/tape/compass/clino) is mostly legible.
+; The LRUD block and a few header items are heavily mud-stained -
+; every uncertain reading is marked  ; CHECK  and should be verified
+; against the original notebook.
+; ============================================================
+
+*begin 0368-26-01
+
+  *title "0368"
+  *date 2026.08.12
+  *ref "0368"
+
+  ; --- team (from notes header) ---
+  *team "Fran" compass clino        ; written "Fran (Instr)"
+  *team "James C" notes             ; written "James C (Note)"  (probably James Carlisle)
+  ; tape / length reader not clearly recorded in the header        ; CHECK
+  ; (the "2/57" near the top of the page is the 0-1 distance, 2.57 m, not a header item)
+
+  ; Station 0 ties in to a PREVIOUS survey: station 0 here = station 35 there
+  ; (confirmed). Complete the equate once the previous survey's name/number is known:
+  ;   *equate 0368.0  <previous-survey>.35
+
+  ; ------------------------------------------------------------
+  ; Centreline
+  ; ------------------------------------------------------------
+  *data normal from to tape compass clino
+
+  ; From  To    Tape   Comp  Clino
+  0       1     2.57   159   +10     ; distance 2.57, clino +10 (both confirmed)
+  1       2     4.10   183   +7
+  2       3     4.69   167   +6
+  3       4     1.44   183   +7
+  4       5     2.04   186   +8
+  5       6     1.67   117   +14
+  6       7     1.83   197   +6
+  7       8     1.84   144   +4
+  8       x     2.14   182   +3      ; "x" is the final station exactly as labelled in the notes
+
+  ; ------------------------------------------------------------
+  ; Passage dimensions (LRUD), booked at the FROM station.
+  ;
+  ; WARNING: the whole LRUD block is badly mud-damaged. Every value
+  ; below is a best-effort read and should be treated as PROVISIONAL
+  ; until checked against the original notebook.                    ; CHECK (entire block)
+  ; ------------------------------------------------------------
+  *data passage station left right up down
+
+  ; Stn   L     R     U     D
+  0       1.2   0.0   0.4   0.2     ; CHECK L,R,D  (R looks circled = 0?)
+  1       0.3   0.3   0.3   0.5     ; D confirmed 0.5; CHECK U
+  2       0.9   0.2   0.5   0.2     ; CHECK D
+  3       0.0   1.0   0.4   0.5     ; R confirmed 1.0; CHECK L
+  4       0.4   0.9   0.9   0.2     ; CHECK D
+  5       1.8   0.0   0.3   0.2     ; CHECK U,D
+  6       0.5   0.9   0.3   0.2     ; CHECK D
+  7       0.5   0.4   0.3   0.4     ; CHECK U
+  8       0.0   0.5   0.2   0.4     ; CHECK D
+
+  ; ------------------------------------------------------------
+  ; Sketch notes (image 2), for the drawing-up stage - not survey data:
+  ;   - passage runs roughly N-S; cross-sections drawn & labelled A, B, D
+  ;   - several formations / calcite areas hatched along the passage
+  ;   - a "SW" branch noted near the top of the passage
+  ;   (positions not committed here - confirm station assignments when drawing)
+  ; ------------------------------------------------------------
+
+*end 0368-26-01

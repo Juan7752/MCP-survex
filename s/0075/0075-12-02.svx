@@ -1,0 +1,76 @@
+*BEGIN 0075-12-02
+
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.27
+
+*date 2012.07.27
+;surveyors Mike Topsom, Lloyd Cawthorne, Adam Sharples, Roxanne Ramsay, Francesca McDonald, William Smith
+*CALIBRATE declination 1.67
+
+1a	0a	61.00	035	+080
+1a	2a	7.25	005	+052
+3a	2a	1.64	190	-044
+3a	4a	4.38	030	+033
+5a	3a	1.89	048	+043
+6a	5a	1.29	127	+012
+7a	6a	2.31	048	-021
+8a	7a	2.71	032	-007
+9a	8a	2.13	080	-024
+10a	9a	3.43	135	-007
+11a	10a	7.25	076	+000
+12a	11a	12.04	091	-000.5
+12a	13a	5.08	222	+023
+14a	4a	3.85	205	-014
+15a	14a	2.52	295	+005
+16a	15a	3.26	311.5	+005
+17a	16a	2.14	274	-034
+18a	17a	4.22	255	-004
+19a	18a	7.87	220	-025
+20a	19a	3.85	185	-044
+21a	20a	8.84	200	-049
+21a	22a	11.43	022	-038
+21a	23a	2.66	082	+049
+23a	24a	5.82	046	+068
+24a	25a	1.98	053	+050
+125	25a	3.83	223	-000.5
+
+*data passage station left right up down
+
+3a	0.4	0.2	1.2	0.0
+5a	0.4	0.4	1.0	0.0
+6a	0.6	0.5	2.0	1.0
+7a	0.6	0.0	0.5	0.5
+8a	0.1	0.7	3.0	0.4
+9a	0.7	0.3	0.4	0.2
+10a	1.0	0.0	2.0	2.5
+11a	2.5	3.0	3.5	0.0
+12a	1.0	0.2	1.5	0.1
+13a	0.25	0.25	0.25	0.25
+
+*data passage station left right up down
+
+3a	0.4	0.2	1.2	0.0
+4a	1.6	1.2	1.5	0.0
+14a	0.6	0.8	1.2	0.0
+15a	0.0	0.5	0.4	0.8
+16a	2.0	1.0	3.0	0.5
+17a	1.0	0.4	2.0	3.0
+18a	4.0	4.0	1.2	0.0
+19a	1.6	0.4	3.0	0.0
+20a	0.3	0.9	2.0	0.0
+21a	0.4	0.4	3.0	1.0
+23a	0.3	0.3	0.0	1.5
+24a	0.3	0.3	0.6	0.0
+25a	0.3	0.3	0.6	0.0
+125	1.0	1.0	7.2	0.5
+
+
+
+*END 0075-12-02

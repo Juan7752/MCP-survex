@@ -1,0 +1,19 @@
+*BEGIN Riano_UpStream
+*EXPORT 20 63
+
+;Riano Streamway upstream of entrance inlet junction 
+;(data taken from line drawing and manually adjusted to make 
+; loop closure onto unchanged survey data for dry maze loop)
+
+;From	To	Tape	Compass	Clino;
+20	55	29.55	91.38	0	;*
+55	56	36.65	121.19	0	;*
+56	57	14.11	181.10	0	;*
+57	58	16.96	90.88	0	;*
+58	59	19.12	181.47	0	;*
+59	60	20.46	277.98	0	;*
+60	61	19.84	210.24	0	;*
+61	62	12.08	116.61	0	;*
+62	63	5.12	216.67	0	;*
+
+*END Riano_UpStream

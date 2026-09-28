@@ -1,0 +1,20 @@
+*BEGIN 3268_Maze
+;surveyors: Chris Camm Juan Corrin
+;Using DistoX
+;passage name:
+;date: 090718 090722 090820
+
+*INCLUDE maze090718.svx
+*INCLUDE maze090722.svx
+*INCLUDE 3268-19-01
+;*FIX Maze0907181.0 445996 4801460 0095
+*FIX Maze0907181.0 445894 4801251 0095; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*EQUATE Maze0907181.22 Maze0907221.22
+*EQUATE 3268-19-01.9 Maze0907221.28X
+*END 3268_Maze
+

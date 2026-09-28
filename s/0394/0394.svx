@@ -1,0 +1,24 @@
+*begin 0394_Collada
+*CS UTM30N
+*CS OUT UTM30N
+*include 0394-1982-01;	1982 survey
+*include 0394-2005-01;	2005 base of p2 into meanders (Torben)
+*include 0394-2005-02; 	2005 meanders to top of p3 and upstream (Pete Carmen); also 11/4/06 down pitch
+*include 0394-09-01; above p20
+*include 0394-090522
+*include 0394-090812
+*include 4537
+*include 0394_18_01
+*include 0394-19-01
+
+
+*equate	0394-1982-01.17	0394-2005-01.1
+*equate	0394-2005-01.20	0394-2005-02.25
+*equate 0394-2005-02.16 0394-09-01.16old
+*equate 0394-2005-02.19 0394-09-02.0
+*equate 0394-09-01.j23 0394-090812.1
+*equate 0394-09-01.j28 4537.12
+*equate 0394-09-01.a4 0394_18_01.1.0 
+*equate 0394-09-01.16 0394-19-01.1
+
+*end 0394_Collada

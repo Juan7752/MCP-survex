@@ -1,0 +1,13 @@
+*BEGIN 3234plus
+
+*INCLUDE ../../0105/0105.svx
+
+*include ../../0103/0103.svx
+*include ../../3234/3234.svx
+*include ../../3454/3454.svx
+*include ../../1800/1800.svx
+
+*FIX 0 451234 4800983 118
+0	1	.1	0	0
+
+*end 3234plus

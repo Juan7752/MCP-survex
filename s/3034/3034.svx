@@ -1,0 +1,49 @@
+*BEGIN 3034
+
+;surveyors: Dave Ryall Kirsty Bamber
+;passage name:
+*DATE 2009.04.12
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+*ENTRANCE 0
+;* FIX 0 448545 4800494 169
+;*FIX 0 448544 4800508 0163; surface survey 16/8/11
+*FIX 0 448442 4800299 0163; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	1	3.29	321	-22
+1	2	3.4	36	-12
+2	3	1.63	18	-9
+3	4	1.95	197	-41
+4	5	2.12	14	-29
+5	6	3.1	316	22
+6	7	1.92	311	-18
+7	8	1.95	31	-7
+8	9	8.42	32	-48
+9	10	2.12	29	46
+10	11	3.43	351	-3; aven chamber ^6m; 5.6m daim
+
+*DATA passage station left right up down
+1	2	3	3	0
+2	1	1	2	0
+3	3	1	.5	0
+4	0	2	.2	1
+5	.4	0	1.2	.4
+6	.3	3	1	2
+7	1	.5	1.2	.5
+8	1	2	1.5	.3
+9	.4	.6	1	.3
+
+*END 3034

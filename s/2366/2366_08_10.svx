@@ -1,0 +1,86 @@
+*begin 2366_08_10
+
+;endgame
+
+*title "Torno - Endgame"
+*team "Patrick Warren" SAP (comp & clino) and tape
+*team "Becka Lawson" notes
+*date 2008.03.27
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate compass 0.0
+*calibrate clino 0.0
+
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+;comp/clino = Becka's pony, tape = Carmen's Leica disto
+
+1	2	5.42	187	0
+2	3	3.85	231	-1
+3	4	10.33	201	-2
+4	5	2.16	258	+3
+5	6	3.51	266	-5
+6	7	2.43	331	-2
+7	8	2.16	254	-1
+8	9	2.25	233	-7
+9	10	1.70	228	-8
+10	11	2.94	216	-5
+11	12	14.57	204	-2
+12	13	2.34	254	-2
+13	14	4.42	225	0
+14	15	8.87	205	-3
+15	16	1.25	313	+79
+17	16	5.53	027	+12	;written as 16 to 17 in notes
+18	19	4.03	282	-1
+19	20	8.45	281	-3
+20	21	6.16	284	-2
+21	22	3.76	347	-14
+22	23	2.68	231	-3
+23	24	2.26	263	-15
+24	25	6.63	207	0
+25	26	6.02	199	-2
+26	27	2.97	200	-5
+24	28	1.37	292	-25
+15	28	2.06	059	-44
+
+18	29	10.00	039	0	;drafting dig - station 29 not accessed, all by pony & disto
+
+;station details - station	l	r	u	d	description
+*data passage station left right up down ignoreall
+1	-	-	1.8	0.6 	; stone cairn
+2	0.3	0.9	3.8	0.4 	; red paint (RP) L wall
+3	0.8	0.2	3.0	0.3	; RP R wall
+4	0.3	0.5	1.3	0.1	; RP floor rock
+5	1.5	0.5	1.2	0.1	; RP stone on floor
+6	0.1	1.2	0.1	0.2	; RP L wall
+7	2.0	0.3	0.1	0.1	; RP R wall / ceiling
+8	0.0	0.6	0.5	0.1	; RP L wall / ceiling
+9	0.2	1.0	1.0	0.1	; RP L wall
+10	1.0	0.7	0.3	0.1	; RP L wall
+11	-	-	-	-	; RP R wall / ceiling
+12	0.0	1.0	0.2	0.3	; RP stone L wall
+13	0.2	1.0	0.4	0.1	; RP L wall
+14	0.3	0.3	0.1	0.3	; RP roof
+15	0.5	4.0	1.5	1.5	; RP pile of rocks in a chamber ; connexion point
+16	1.2	4.0	0.0	3.0	; RP roof
+17	0.8	1.5	0.5	0.5	; RP stal
+18	1.5	0.5	0.5	0.3	; cairn by draughting 6" crawl
+19	2.5	0.3	0.4	0.3	; RP rock and paper
+20	1.5	2.5	1.3	0.9	; RP stal
+21	1.5	0.4	0.5	1.0	; korner R wall
+22	1.2	0.0	1.0	1.2	; RP R wall
+23	0.1	0.3	0.2	0.8	; RP L wall before stream
+24	1.0	-	1.0	1.0	; RP above stream
+25	-	1.0	1.5	0.0	; RP on R roof
+26	2.5	1.0	0.5	1.5	; RP floor boulder
+27	1.0	1.0	1.0	1.5	; RP over stream and paper
+28	-	-	-	-	; rock base of waterfall inlet
+*end 2366_08_10

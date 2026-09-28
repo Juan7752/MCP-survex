@@ -1,0 +1,28 @@
+*BEGIN 0081-14-03
+
+*date 2014.04.17
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.01
+
+;Carcavueso to sta in site 3895
+;surveyors  Alasdair Neill Pete Eagen Dave Bell
+;bosch disto II suunto
+
+1	0	1.8	182	3
+1	3	3.75	97	70	;top of pitch from 3895 into carcavueso entrance series
+;no sta 2
+
+
+*FLAGS DUPLICATE
+3	4	1.73	153	25
+4	5	5.03	165	-7
+5	6	2.35	210	8
+6	7	2.18	157	2	;marked sta in entrance junction
+*END 0081-14-03

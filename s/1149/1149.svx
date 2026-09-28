@@ -1,0 +1,30 @@
+;Use this template after complete intro of *DECLINATION and assoc. commands in Survex v1.2.43
+;For Survex 1.2.43 and later 
+
+*BEGIN 1149
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 449138 4793611 663; coordinates of entrance but a nearby point will do
+*DATE 2023.04.07
+*FIX 0 449138 4793611 663; s=station x=6-fig easting y=7-fig northing z=altitude Usually the entrance
+*ENTRANCE 0
+*ENTRANCE 3
+; Oh no, I've ordered a heineken:
+
+*TEAM "Raoul, Mike, Fran" with role(s) which can be compass clino tape
+
+*DATA NORMAL from to tape compass clino
+
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+1	0	3.71	161	32
+1	2	5.08	9	-27
+2	3	11.3	14	-9
+
+
+*data passage station left right up down
+0	2.2	0.9	0	0.8
+1	1.5	2.0	1.3	0.4
+2	2.5	3.0	2.0	0.5
+3	1.5	5.0	2.0	0.2
+
+*END 1149

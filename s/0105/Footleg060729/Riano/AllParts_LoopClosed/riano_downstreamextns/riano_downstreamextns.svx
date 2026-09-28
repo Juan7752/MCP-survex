@@ -1,0 +1,18 @@
+*begin riano_downstreamextns
+*EXPORT Riano_DownStreamExtn.28
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*equate Riano_DownStreamExtn.28 Riano_DownStreamInlet.28
+
+*include riano_downstreaminlet/riano_downstreaminlet.svx
+*include riano_downstreamextn/riano_downstreamextn.svx
+
+*end riano_downstreamextns

@@ -1,0 +1,51 @@
+*BEGIN 3812-14-01
+;surveyors: Phil Goodwin
+*DATE 2014.08.16
+*CALIBRATE DECLINATION 0.97
+0      1   1.5  -     up; 0 is col at end of traverse
+1      2   3.7  11    -60
+2      3   9.5  42    -72; 3 is ledge above final drop
+3      4   13.7 -     down
+
+*FLAGS SPLAY
+3      30    7.8      11  0; splays from ledge
+3      31    5.5      336 0
+3      32    5.4      44  0
+*FLAGS NOT SPLAY
+
+4      5   1.5   -    up
+5      6   3.5   22   1;  6 is large boulder at highest point of shaft "floor"
+6      7   8     182  -36; to far wall at bottom of recess
+
+*FLAGS SPLAY
+6	33	5.6	27	0
+6      34   2.7  88   0
+6      35   4.5  98   12; to top of rubble
+6      36   6.3  98   12.1; to back of recess (Altered from 8.3m)
+6      37   4.1  158  0
+6      38    4.5 185  0; to corner of recess
+7      39    2.4 306  0
+7      40    2.9 267  2.9
+*FLAGS NOT SPLAY
+
+6      8   1.5   -    up
+8      9   4.7   336  -51; 9 is bolt at top of excavated pitch. Bolt is about 0.15m under chamber wall
+9      10  10.7  263  -81; to ledge
+10     11  5.8   210  -65; down tight rift
+10     12  6.1   207  3; through hole in same tight rift
+10     13  1.6   -    up; altered after PG email
+13     14  2.3   12   0; to bolt at other end of ledge
+14     15  4.9   -    down
+15     16  1.6   -    up; altered after PG email
+16     17  5.4   18   11; to 1st bolt of Y hang. Aven 6.2m above bolt
+16     18  4.1   8    -27
+18     19  4.2   14   -42; 19 is at edge of shaft below Y hang where the shaft begins to widen.
+
+; ====== GUESSED LEGS removed when surveyed in autumn 2014 ==
+;19     20  69    -    down; GUESS
+;20     21  52    -    down; GUESS
+;21     22  5     220  30;GUESS FOR SOUTHERN RIFT TOP POSITION
+;21     23  25    330  0; GUESS FOR NORTHERN RIFT TOP POSITION
+; ============================================================
+
+*END 3812-14-01

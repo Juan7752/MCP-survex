@@ -1,0 +1,15 @@
+; 4 Valleys System and overlaying sites
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE 4valleys-lite.svx
+
+*INCLUDE ../../0082/0082.svx
+*INCLUDE ../../0086/0086.svx
+*INCLUDE ../../0101/0101.svx
+*INCLUDE ../../0565/0565.svx
+*INCLUDE ../../0575/0575.svx
+*INCLUDE ../../0718/0718.svx
+*INCLUDE ../../2638/2638.svx
+

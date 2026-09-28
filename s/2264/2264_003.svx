@@ -1,0 +1,22 @@
+*begin 2264_003
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.11; (2.51-0.4)
+
+;#2264 , 12/4/06. Torben Redder, Pete Eagan
+0	1	15.74	271	60; stn0 marked
+2	1	10.29	-	-V
+3	2	24.85	-	-V
+4	3	2.39	302	-40
+5	6	6.19	257	-4; stn6 drop >12m
+7	5	5.53	264	-10
+8	7	6.83	279	-17
+1	8	18.56	269	-4
+
+*end 2264_003

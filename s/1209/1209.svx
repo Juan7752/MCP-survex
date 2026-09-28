@@ -1,0 +1,34 @@
+*BEGIN 1209_Selvijo
+;Created from Survey file on Sat,10 Aug 2002.22:25:17
+*DATE 2002.08.10
+;Surveyors      : PS Santi
+;No of stations : 10
+;Plan length    : 18.3243493m
+;Traverse length: 24.63m
+
+;*FIX 0 448380 4795220 0443
+;*FIX 0 448278 4795011 0443; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 448278 4795011 0426
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.93 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North.(2.93-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+0	1	1.74	-	-V	;p base
+1	2	2.95	178.30	-43	;*
+2	3	4.80	348.30	-42	;*
+3	4	10.04	320.30	-40	;*
+4	5	2.60	6.30	-21	;start tight meander; RH wall
+5	6	2.50	308.30	-7	;cont to blockage
+*END 1209_Selvijo

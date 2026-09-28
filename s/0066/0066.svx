@@ -1,0 +1,32 @@
+*BEGIN 0066_CruzLlorada
+;Created from Survey file on Tue,14 Apr 1998.22:01:50
+;Dates surveyed : 980414
+;Surveyors      : PSt Annie
+;No of stations : 10
+;Plan length    : 13.546842m
+;Traverse length: 54.2m
+
+;*FIX 0 450506 4798092 0487
+*FIX 0 450404 4797883 0487; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.54 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.54-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+0	1	23.10	131.70	-85	;entr p
+1	2	4.20	351.20	-24	;top of 2nd p
+2	3	18.10	-	-V	;base of 2nd p
+3	4	8.80	337.70	-29	;back wall marked with triangle and 97
+*END 0066_CruzLlorada

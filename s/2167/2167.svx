@@ -1,0 +1,43 @@
+*begin 2167
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+;surveyors: Torben Redder, Bjarne Buchardt
+;name: Frank's Cave
+*DATE 2006.04.10
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+
+;*FIX 6 450159 4796857 0276
+;*FIX 6 450057 4796648 0276; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 6 450057 4796648 0272
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 6
+0	1	6	215	-50;	20x40cm rift down
+0	2	1.24	54	18
+2	3	.89	40	48
+3	4	4.16	76	26
+4	5	3.04	303	68
+5	6	1.77	98	48
+
+
+*end 2167
+

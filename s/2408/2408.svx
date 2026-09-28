@@ -1,0 +1,41 @@
+*begin 2408
+
+;surveyors: Jim Davis; Sam Lieberman; Paul Windle
+;name:
+*date 2006.04.13
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+*CALIBRATE tape -.9
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;*FIX 9 449172 4797494 0410
+;*FIX 9 449070 4797285 0410; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 9 449070 4797285 0414
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 9
+2	1	10.7	110	0
+2	3	9.1	305	0
+2	4	7.8	201	-23
+4	5	11.2	322	-7
+4	6	4.25	134	1
+6	7	6.7	235	3
+7	8	12.7	259	1
+8	9	1.4	-	+V
+
+*end 2408

@@ -1,0 +1,212 @@
+; 2025.11.06 created by TopoDroid v 6.2.95
+; Instrument: DistoX2 2983 - SM-N910F
+
+;<<< 2414 >>>
+*BEGIN 2414-25-01
+
+  *EXPORT 0 1 12 15 19 21 30
+
+  *date 2025.11.04 
+  *TEAM "Diane Arthurs" notes
+  *TEAM "Simon Cornhll" insts
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  *FLAGS surface
+  0 0a 1.25 167.7 -87.8
+  0 0ba 5.28 141.6 -7.0
+  0 0bb 5.58 150.9 -7.9
+  0 0bc 9.20 144.7 -2.4
+  0 0bd 8.91 155.9 -13.7
+  0 0be 4.28 176.3 -25.0
+  0 0bf 2.16 224.8 -38.6
+  0 0bg 1.97 251.1 -39.0
+  0 0bi 2.13 311.9 -16.3
+  0 0bj 4.39 9.4 77.5
+  0 0bk 8.36 37.3 39.0
+  *flags not splay
+    0 1   2.00 228.9 -32.5		;0 = bottom of cliff directly infront of 2414 entrance
+  *flags splay					;1 = 2414 entrance
+  *FLAGS not Surface
+  1 1a 0.49 306.2 -5.1
+  1 1ba 0.24 286.5 57.9
+  1 1bb 0.59 298.4 -84.2
+  1 1bc 1.10 235.4 -19.9
+  1 1bd 1.29 198.1 -26.2
+  *flags not splay
+    1 2   1.92 218.9 -6.4
+  *flags splay
+  2 2a 2.92 126.0 65.0
+  2 2ba 0.40 136.1 -75.7
+  2 2bb 0.58 143.9 2.7
+  2 2bc 0.83 91.6 16.1
+  2 2bd 1.79 138.6 25.8
+  2 2be 1.79 117.0 23.3
+  2 2bf 2.99 113.7 58.6
+  2 2bg 2.84 114.2 55.4
+  2 2bh 1.68 234.3 -8.6
+  2 2bi 1.26 205.0 -16.9
+  *flags not splay
+    2 3   1.59 209.6 -9.8
+  *flags splay
+  3 3a 0.54 211.5 72.6
+  3 3ba 0.62 288.1 -2.1
+  3 3bb 0.21 273.2 -81.2
+  3 3bc 0.69 246.4 -5.3
+  3 3bd 0.77 164.0 -0.7
+  3 3be 0.99 208.8 -8.9
+  *flags not splay
+    3 4   1.30 186.9 -0.5
+  *flags splay
+  4 4a 0.29 296.8 51.7
+  4 4ba 0.29 358.5 -75.4
+  4 4bb 0.46 293.2 -4.4
+  4 4bc 1.53 259.1 -6.7
+  4 4bd 1.65 251.5 -15.1
+  4 4be 1.18 242.1 -13.1
+  4 4bf 1.12 229.3 -7.3
+  4 4bg 0.79 28.7 -0.5
+  4 4bh 1.38 234.5 -4.6		
+  *flags not splay
+    4 4-a   1.42 234.4 -4.6
+  *flags splay  
+  4-a 4-aa 0.69 303.3 -8.4
+  4-a 4-aba 1.10 30.3 1.6
+  4-a 4-abb 1.43 55.2 6.2
+  4-a 4-abc 0.64 270.9 -9.3
+  4-a 4-abd 0.39 290.9 33.8
+  4-a 4-abe 1.12 186.9 -5.9
+  4-a 4-abf 1.02 166.6 15.8
+  *flags not splay
+    4-a 5   1.93 165.9 -13.6
+  *flags splay
+  5 5a 1.02 353.5 9.9
+  5 5ba 1.02 323.9 14.7
+  5 5bb 1.92 346.7 14.1
+  5 5bc 2.07 328.9 -23.2
+  5 5bd 1.09 60.6 22.9
+  5 5be 0.77 72.0 26.9
+  5 5bf 2.08 82.6 23.9
+  5 5bg 1.05 317.5 66.3
+  5 5bh 0.74 298.9 -4.6
+  5 5bi 0.76 254.9 -10.2
+  5 5bj 2.98 126.8 -83.6
+  5 5bk 3.22 324.4 -68.7
+  5 5bl 2.65 54.1 -66.3
+  5 5bm 7.43 213.6 -59.9
+  *flags not splay
+    5 6   6.43 224.1 -66.2
+  *flags splay
+  6 6a 6.35 43.5 65.9
+  6 6ba 6.84 136.7 82.6
+  6 6bb 1.30 105.1 -75.6
+  6 6bc 2.18 95.2 7.9
+  6 6bd 2.68 41.4 -2.0
+  6 6be 2.58 3.1 -4.4
+  6 6bf 1.68 195.2 1.8
+  6 6bg 1.48 262.4 5.2
+  6 6bh 1.96 218.9 -1.0
+  6 6bi 5.12 244.4 76.4
+  6 6bj 1.88 156.3 -0.3
+  6 6bk 2.24 132.8 -1.7
+  6 6bl 5.44 155.0 -5.4
+  *flags not splay
+    6 7   5.58 154.6 -5.6
+  *flags splay
+  7 7a 1.23 193.9 83.4
+  7 7ba 0.74 53.7 -87.3
+  7 7bb 0.20 47.8 -1.1
+  7 7bc 1.64 135.5 8.5
+  7 7bd 1.05 164.2 16.4
+  7 7be 2.57 132.9 -18.7
+  7 7bf 1.93 133.5 -12.9
+  7 7bg 3.05 177.1 76.3
+  7 7bh 3.05 153.1 55.8
+  7 7bi 3.36 332.5 2.1
+  7 7bj 1.32 348.6 -8.1
+  7 7bk 2.81 305.2 -2.9
+  7 7bl 4.01 306.6 60.0
+  6 6bm 2.86 51.1 -18.6
+  6 6bn 3.85 21.9 -18.9
+  6 6bo 3.38 15.2 -21.0
+  6 6bp 2.35 1.4 -23.4
+  *flags not splay
+    6 9   4.04 19.9 -23.3
+  *flags splay
+  9 9a 0.46 231.1 0.9
+  9 9ba 0.38 281.1 69.3
+  9 9bb 0.54 93.4 -73.1
+  *flags not splay
+    9 10   1.68 314.3 -14.1
+  *flags splay
+  10 10a 0.74 127.0 65.6
+  10 10ba 0.19 251.9 -88.2
+  10 10bb 0.29 179.8 -0.4
+  10 10bc 3.44 232.8 8.7
+  10 10bd 1.25 225.2 1.7
+  10 10be 1.87 233.6 -3.3
+  10 10bf 0.75 81.1 -1.5
+  10 10bg 0.63 41.4 -15.1
+  10 10bh 3.23 42.6 3.2
+  10 10bi 3.12 42.0 -9.6
+  *flags not splay
+
+
+  *FLAGS surface				;<<< overland from 2414 to 2977 >>>
+    0 11   7.73 37.3 41.0
+  *flags splay
+  11 11aa 1.07 132.7 -84.4		;11 = Tree at top of entrance slope, LHS 1.07m above the ground
+  11 11a 5.00 265.6 -2.5
+  11 11ba 4.66 220.1 2.4
+  11 11bb 8.05 173.1 9.2
+  *flags not splay
+    11 12   3.13 142.6 -1.3		;12 = GPS on the highest rock to the left of the tree at top of entrance slope
+    11 13   16.14 171.4 28.6	;13 = tree at top of cliff infront of 2977
+    13 14   1.47 263.7 -6.8		;14 = big-ish boulder between pits
+  *flags splay
+  14 14a 2.03 196.4 -5.3
+  14 14ba 2.38 159.2 -2.2
+  14 14bb 2.06 158.9 -24.0
+  *flags not splay
+    14 15   2.35 158.2 -9.9		;15 = top of 2977
+	
+  *FLAGS surface  
+    14 18   2.74 287.2 25.0		;<<< overland from 2977 to 2976 >>>  
+    18 19   2.34 335.0 -62.7	;19 = top of 2976
+  *FLAGS not surface	
+  
+  *Flags surface
+    0 21   6.06 150.0 -15.0		;<<< overland from 2414 to 5461 >>>
+  *Flags not surface  
+
+  *FLAGS surface
+  0 30  3.47 298.1 -28.2		; 30 = 5462 entrance (the fridge blocking the entrance)
+  *FLAGS not surface
+
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+;0  9.14 2.86 5.27 2.11
+1  0.59 0.47 0.21 0.58
+2  1.61 0.44 2.65 0.39
+3  0.00 0.61 0.52 0.21
+4  0.00 0.48 0.23 0.43
+4-a  0.00 0.64 0.28 0.11
+5  1.89 2.76 0.96 6.43
+6  5.07 1.70 6.79 1.26
+
+*data passage station left right up down
+6  2.67 1.77 6.79 1.26
+7  0.90 1.38 3.48 0.82
+
+*data passage station left right up down
+6  1.31 3.82 6.79 1.26
+9  0.24 0.15 0.36 0.51
+10  3.36 3.22 0.68 0.52
+  
+*END 2414-25-01

@@ -1,0 +1,38 @@
+*BEGIN 0553_Sumidero_de_Cobadal
+
+;Created from Survey file on Sun,07 Sep 2003.17:26:44
+
+;Dates surveyed : 030801
+
+;Surveyors      : PP
+
+;No of stations : 10
+
+;Plan length    : 27.4715403m
+
+;Traverse length: 27.5m
+
+;*FIX 0 448742 4798021 201;*FIX 0 448640 4797812 201; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 448640 4797812 0203; from surface survey
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+
+*CALIBRATE declination -2.54
+0	1	2.20	216.45	-4
+1	2	13.30	259.45	-3	;corner
+
+2	3	4.40	124.45	2	;corner
+
+3	4	3.60	230.45	-2	;stn marked PP0 squeeze start
+
+2	5	4.00	260.45	0	;blind end
+
+0	6	0.0	-	+V	;*
+
+0	7	0.0	-	+V	;*
+
+*END 0553_Sumidero_de_Cobadal
+

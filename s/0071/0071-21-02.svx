@@ -1,0 +1,29 @@
+*begin 0071-21-02
+*date 2021.08.09
+*team "Lloyd Cawthorne" station finder
+*team "Chris Scaife" Owns a Disto-X
+*team "Francesca Mcdonald" Artiste
+
+*calibrate declination -0.24
+*flags not duplicate
+*data	normal	from	to	tape	compass	clino
+
+0	1	7.86	301	-4
+1	2	8.31	334	-15
+2	3	3.22	289	-8
+3	4	5.30	305	-4
+4	5	4.24	309	-11; 5 = station 0 from 1/8/2012
+
+
+*data	passage	station	left	right	up	down
+
+0	0.4	0	.8	.2
+1	1.9	6.8	.5	.4
+2	4.2	3.7	.5	0
+3	4.4	1.4	.4	0
+4	1.8	2.0	.4	.1
+5	4	5	0.8	0
+	
+
+
+*end 0071-21-02

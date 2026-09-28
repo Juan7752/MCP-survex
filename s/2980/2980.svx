@@ -1,0 +1,30 @@
+*begin 2980
+
+;surveyors: CCamm
+;name:
+*DATE 2008.05
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.78; (2.18-0.4)
+
+;*FIX ent 445949 4800147 0248
+;*FIX ent 445847 4799938 0248; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX ent 445847 4799938 0246
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE ent
+
+ent	1	5	225	-35
+1	2	5	-	down
+2	3	3	45	0
+3	4	4	45	10
+*end 2980

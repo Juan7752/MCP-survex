@@ -1,0 +1,38 @@
+*begin 0048-26-03
+; Created with SexyTopo on 2026-08-10
+
+*date 2026.08.10
+*instrument insts "SAP6_BJ"
+*team "Alex Ritchie" notes
+*team "Samuel Devey" assistant
+*team "Arlen Messam" instruments
+
+;Comment from SexyTopo trip information
+;Big passage, unsurveyed! (???? JSC)
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	station 13 on 01
+3	-	-	-	-	duplicate
+4	-	-	-	-	duplicate
+5	-	-	-	-	duplicate
+;6	-	-	-	-	equate 1
+
+*data normal from to tape compass clino ignoreall
+*FLAGS DUPLICATE
+1	2	1.160	65.16	0.43;flags duplicate	
+2	3	12.968	216.80	7.12;flags duplicate
+;2	3	12.969	216.62	7.21
+;2	3	12.966	216.56	6.85
+;2	3	12.969	217.23	7.31
+3	..	1.273	289.66	2.09	
+3	..	2.204	2.80	-3.73	
+3	..	0.441	55.66	-15.39	
+3	..	12.971	39.03	-11.33	
+3	..	13.707	35.19	-9.63	
+3	..	10.238	44.31	-9.21	
+3	4	11.159	355.17	-5.53; also duplicate JSC	
+4	5	6.423	87.75	-5.21;flags duplicate	
+5	1	1.782	145.58	-1.24;flags duplicate	
+*FLAGS NOT DUPLICATE
+
+*end 0048-26-03

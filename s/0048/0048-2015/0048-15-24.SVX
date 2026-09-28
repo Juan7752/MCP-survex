@@ -1,0 +1,47 @@
+*BEGIN 0048-15-24
+;check resurvey of top entrance
+*date 2015.08.3
+*TEAM  "Alasdair Neill" notes compass clino disto
+*DATA NORMAL from to tape compass clino
+*ENTRANCE 9
+
+*CALIBRATE DECLINATION 0.73
+*flags duplicate
+0	1	5.85	344	6
+
+4	1	6.08	201	-21
+4	5	3.16	314	23	;5 marked sta
+*flags not duplicate
+1	2	7.15	202	15
+2	3	3.2	213	0
+6	5	7.32	114	-36
+6	7	16.79	312	21
+8	7	9.39	138	-38
+8	9	9.88	283.5	20
+
+
+
+*data passage station left right up down
+0	7.99	.5	.8	.5
+0	1.79	.5	.8	.5
+1	4.9	4.2	3.7	.3
+4	5.6	1.4	2.8	1.3
+
+
+*data passage station left right up down
+5	4.6	8	1.1	1.2
+6	2.9	6.6	6.2	1.2
+7	2.4	1.8	5.8	0
+8	2.2	1.9	3.9	1.5
+8	2.4	0.6	3.9	1.5
+9	.6	2.3	1.7	1.3
+
+
+*data passage station left right up down
+2	1.5	0	1.2	0
+3	1.5	0	1.2	0
+
+*END 0048-15-24
+
+
+

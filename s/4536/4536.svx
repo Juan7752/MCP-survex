@@ -1,0 +1,36 @@
+*BEGIN 4536
+*CS UTM30N
+*CS OUT UTM30N
+;Subphone entrance
+
+
+
+;0.88 for 2017 summer altered to 0.48 to align with the UTM ETRS89 grid
+
+*TEAM "Juan Corrin" compass clino length
+*date 2017.07.30
+*FIX 5 451652 4800715 176
+*ENTRANCE GL
+;*FLAGS duplicate | splay | surface
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.48 
+
+
+*FLAGS SURFACE
+0	1	8.45	211.5	-28; 0 armco; 1 is pulley above hole
+0	2	7.91	305	5
+0	3	4.57	306	5
+
+2	4	8.6	285	5; tree branch
+4	5	3.75	238	-25; ivy post ground level
+
+1	GL	1.6	-	down; GL=ground level over hole
+*FLAGS NOT SURFACE
+GL	6	2.4	-	down; protrusion down hole
+6	7	4.43	105	-80; base of hole
+
+;7 is Torben's station 3234-17-03.106 at base of small "aven" 
+
+*END 4536

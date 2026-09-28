@@ -1,0 +1,37 @@
+*begin 2889_08_10
+
+*title "Cow Pot - Wrappers"
+*team "Julian Todd" SAP (comp & clino) and tape
+*team "Becka Lawson" notes
+*date 2008.03.29
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate compass 0.0
+*calibrate clino 0.0
+
+;comp/clino = Becka's pony, tape = Becka's yellow tape
+
+
+;stations 10-17 are higher level chamber just upstream of where entrance comes in
+
+10	11	6.29	154	-1
+11	12	1.39	176	+41
+12	13	3.43	187	-11
+13	14	3.86	213	-13
+14	15	3.66	176	-1
+15	16	2.64	193	+6
+16	17	8.10	158	+8
+
+;station details - station	l	r	u	d	descriptio
+*data passage station left right up down ignoreall
+
+10	3	5	2.5	1	station 19 from 26/3/08 - piece of paper
+11	2.5	1	1	1.5	top stal rp (rp = red paint)
+12	0.7	2	0	1.5	rp ceiling
+13	1.2	3	1.8	0.5	rp boulder
+14	3	1.5	3	0.2	floor
+15	1.5	1	2.5	0.2	rp cairn
+16	1.6	0.3	1.4	0.5	rp r wall numbered 16 in pink paint and piece of paper left
+17	1	2	0.2	1.2	rp back wall of chamber
+
+*end 2889_08_10

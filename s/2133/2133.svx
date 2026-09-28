@@ -1,0 +1,35 @@
+*begin 2133
+;North Vega
+;Pete Smith Ian Chandler
+*DATE 2004.09.11
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+*ENTRANCE ent
+
+;*FIX ent 449799 4795900 0313
+;*FIX ent 449697 4795691 0313; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX ent 449697 4795691 0305
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0	1	2.40	036	-35;	hole to surface above
+1	2	2.80	025	+6
+2	3	2.70	353	+16
+3	4	5.0	033	+8
+4	5	3.30	08	+11
+5	6	5.40	027	+19
+6	7	3.70	053	-5
+7	8	1.30	013	0;	bottom of shaft
+8	9	2.0	101	-25
+8	ent	5.4	-	up
+*end 2133

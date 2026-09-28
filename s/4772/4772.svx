@@ -1,0 +1,29 @@
+*begin 4772
+;La sima grande de las Calzadillas
+;A large hole in beech woods to the west of Las Calzadillas
+;Found by Dave Milner, John Southworth and Phil Goodwin 2017
+;Surveyed by Phil Goodwin 2019
+*data normal from to length bearing gradient 
+*CALIBRATE DECLINATION	0.19 
+*entrance 1
+*FIX 1 447404 4795092 492
+   1	 2	 1.9	011	-38 ; top to overhanging tree
+   2	 3	13.9	000	-90 ; down to start of parallel shaft	
+   3	 4	 2.4	257	  0 ; through enlarged hole to parallel shaft
+   4	 5	 4.8	000	-90 ; down shaft to enlargement
+   5	 6	15.6	000	-90 ; to bottom of shaft
+   6	 7	 3.1	125	  0 ;
+   6	 8	 1.6	331	  0 ;
+   8	 9	 2.3	205	-39 ;
+   9	10	 2.5	242	-42 ;
+  10	11	 1.5	222	  0 ;
+  11	12	 1.5	222	  0 ;
+  11	13	 8.2	000	 90 ;
+   3	15	 2.5	003	-42 ;
+  15	16	 1.4	341	-30 ;
+  16	17	10.5 	052	  0 ;
+  16	18	 3.5	065	 -5 ;
+  16	19	 8.5	353	-14 ;
+  16	20	 9.1	316	-18 ;
+  16	21	 3.6	295	-15 ;
+*end 4772

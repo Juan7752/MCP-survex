@@ -1,0 +1,63 @@
+*BEGIN 3334_Roadworks
+
+;Surveyors:  Phil Papard Pete Smith
+*DATE 2010.12.26
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.46; (1.86-0.4)
+
+;*FIX 8 454397 4798612 0245
+;*FIX 8 454295 4798403 0245; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 8 454295 4798403 0240
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 8
+
+0	0a	 5.29	343.42	  6.03
+*FLAGS SPLAY
+0	0b	 4.19	324.08	  2.91
+*FLAGS NOT SPLAY
+0	1	 2.19	352.68	 29.32
+1	2	 2.62	 21.69	  1.71
+*FLAGS SPLAY
+2	2a	 1.36	 73.92	 23.87
+2	2b	 2.06	 83.37	 23.14
+2	2c	 1.94	115.57	 18.83
+*FLAGS NOT SPLAY
+2	3	 2.39	 99.28	 33.60
+3	4	12.65	 40.42	 84.11
+4	4a	13.83	 57.47	-56.48
+*FLAGS SPLAY
+4	4b	13.13	 46.59	-63.14
+4	4c	 3.81	 37.18	 -3.57
+*FLAGS NOT SPLAY
+4	4d	 7.72	 57.44	  0.96
+*FLAGS SPLAY
+4	4e	 3.78	 76.87	 -7.99
+4	4f	 1.48	 99.85	  7.07
+*FLAGS NOT SPLAY
+4	5	18.78	 56.70	 83.75
+6	5	 2.10	 55.71	-71.56
+7	6	 2.11	140.78	-30.64
+7	8	 1.32	138.68	 74.79
+
+*data passage station left right up down
+0	0.352	0.214	11.213	0.609
+1	0.305	0.309	2.941	1.012
+2	0.866	0.546	9.954	0.401
+3	0.837	0.271	7.357	0.658
+4	0.298	0.467	11.565	13.092
+6	0.731	0.515	1.135	1.092
+7	0.0	0.316	0.978	1.231
+
+*END 3334_Roadworks

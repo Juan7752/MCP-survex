@@ -1,0 +1,8 @@
+*begin 1471_004
+
+;Papa Noel. 30/5-2004. Torben Redder, Peter Nielsen & Jonas Binladen
+*CALIBRATE declination 2.4
+0	1	6.25	200	0
+1	2	3.72	264	12	;cont 1.5m great dig
+
+*end 1471_004

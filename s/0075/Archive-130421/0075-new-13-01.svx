@@ -1,0 +1,117 @@
+*BEGIN 0075-new-13-01
+
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at
+;www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*CALIBRATE declination 1.54
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+;Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+;declination is 1deg-55mins ie 1.92deg for 2010 Easter
+;declination is 1deg-53mins ie 1.88deg for 2010 summer
+;declination is 1deg-47mins ie 1.78deg for 2011 Easter
+;declination is 1deg-45mins ie 1.75deg for 2011 summer
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors: Ali Neill; Peter Eagan;Andy Pringle
+;passage name:resurvey of iold cavge continued
+*date 2013.03.28
+
+;0 = 1.7 November 2012
+
+0  1 14.94        42  -7
+1  2 11.33        36  -5
+2  3 16.37        83  -11
+3  4 4.29         73  -51
+4  5 4.42         193 -28
+5  6 7            145 -22
+6  7 3.64         197 -8
+
+2  8 11.4         26  -3
+8  9 8.89         337 4
+9  10             10.4 296     -12
+*FLAGS DUPLICATE
+10 10a            18.4 162     0
+*FLAGS NOT DUPLICATE
+10 11             18.15        237   -26
+11 12             12.02        223   -31
+12 13             8.1          236   -35
+13 14             9.44         294   -49
+14 15             5.39         159   -15
+15 16             15.07        254   -1
+16 17             11.54        208   24
+17 18             17.1         239   -17; stal of start of crawl to 1990? extension
+
+12 19             13.54        150   -2; top of p4 blind
+
+10 20             18.02        49    -16
+20 21             17.29        76    -14
+21 22             20.66        107   -7
+23 22             14.79        336   40
+23 24             17.59        145   -22
+24 25             5.42         82    12
+25 26             4.83         161   -2
+26 27             1.25         -     up
+27 28             3.8          157   14
+28 29             3.81         207   -4
+29 30             3.66         130   1; start of crawl to MegaBat
+
+25 31             10.29        338   23
+31 32             11.9         130   50
+
+31 33             3.47         67    23
+33 34             10.58        51    -30
+34 35             11.74        40    1
+35 36             9.18         56    31
+36 37             1.58         125   -6; marked stn36 from summer 2012
+
+
+*data passage station left right up down
+0     8       3       9.6  18.2
+1     5.1     3.4     10   1.4
+2     2       9       12.2 1.5
+3     18.2    2.1     12   4
+4     1.9     2.2     1.3  2
+5     8       4       2.8  1.3
+6     1.4     2.6     0    .8
+7     1       1       .5   .5
+*data passage station left right up down
+2  8 11.4         26  -3
+8  14.2           18.3  10.5     1.7
+9  20             14.7  9.6      2.6
+10 20             3.7   5.2      1.9
+*data passage station left right up down
+10 20             3.7   5.2      1.9
+11 15.8           5.8   9.7      3.2
+12 11.7           8.5   9.7      2.5
+13 1.6            8.7   5        1.7
+14 2.2            0     1.8      1.8
+15 1.7            3.6   .6       1.5
+16 4.3            1.8   4.9      1.4
+17 4.2            6.5   4.6      1.0
+18 5              .7    .8       .6
+*data passage station left right up down
+10 3.7             20   5.2      1.9
+20 1.9             25   5        1.9
+21 2.8             28   8.6      1.2
+22 5.8             20   7        1.3
+23 4               11.2 3        1.3
+24 7.3             6.4  2        1.7
+25 2.9             14.2 1.5      .8
+27 1.8             .6   1.3      1.25
+28 1.5             1.7  2        .6
+29 1.6             .9   2.8      .4
+*data passage station left right up down
+31    9.2     8.2     7.3  1.5
+32    1       1       2    1
+*data passage station left right up down
+31    9.2     8.2     7.3  1.5
+33    8       5.2     4.5  1.5
+34    2       5.2     .7   .7
+35    1       .6      1.2  .8
+36    1       16.1    4.1  1.0
+
+*END 0075-new-13-01

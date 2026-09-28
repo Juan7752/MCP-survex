@@ -1,0 +1,14 @@
+*BEGIN Riano_AllParts
+
+*include Riano_Part1.svx
+*include Riano_Part2.svx
+*include Riano_Part3.svx
+*include Riano_DownStreamExtns.svx
+*include Easter06Extn.svx
+
+*equate Riano_Part1.Riano_DryMazeLoop.231 Riano_Part2.Riano_DoubleBarrel.65
+*equate Riano_Part2.Riano_UpperLevels.130 Riano_Part3.Riano_UpperLevels2.130
+*equate Riano_Part2.Riano_DoubleBarrel.72 Riano_Easter06Extn.0
+*equate Riano_Part1.Riano_DownStream.28 Riano_DownStreamExtns.Riano_DownStreamExtn.28
+
+*END Riano_AllParts

@@ -1,0 +1,57 @@
+*BEGIN 3234-10-08
+;*CALIBRATE DECLINATION 1.88
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.48; (1.88-0.4)
+
+*Date 2010.08.11
+;surveyors Juan Corrin John Clarke John Southworth
+
+0	1	5.22	24	0
+1	2	15.98	123	0
+2	3	8.6	105	1
+3	4	14.25	107	0
+4	5	1.45	180	0
+5	6	7.7	267	2
+
+5	7	8.91	85	4
+7	8	7.53	108	-7
+8	9	7.73	109	0
+9	10	2.73	115	-8
+10	11	16.03	94	-1
+11	12	2.48	153	16; bolt
+
+
+12	13	10.55	120	-58; floor
+*FLAGS duplicate
+13	14	1	-	up
+14	15	5.33	120	3
+*FLAGS NOT duplicate
+
+*data passage station left right up down
+0	2.4	1.6	1.92	1.2
+1	1	-	1.17	1.29
+2	2.28	1.94	2.2	1.26
+3	.99	1.83	.65	.35
+4	1.4	3.17	.6	.2
+5	1.6	1.6	2.3	.36
+6	.3	.3	.4	0
+
+*data passage station left right up down
+5	1.6	1.6	2.3	.36
+7	.52	2	3.55	1.2
+8	.7	1	3.6	1.78
+9	5.8	3.6	15	1.3
+10	2.77	.73	1.88	.95
+11	.4	1.45	1.49	.46
+12	1.2	0	.59	1.36
+13	.4	.4	10	0
+14	.4	.4	9	1
+15	0	2	10	1
+
+*END 3234-10-08

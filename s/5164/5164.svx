@@ -1,0 +1,57 @@
+; 2022.04.10 created by TopoDroid v 5.1.61
+; 2022-04-09
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin 5164
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION AUTO 452772 4796802 264
+*FIX 0 452772 4796802 264
+*ENTRANCE 0
+
+  *date 2022.04.09 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.50 356.7 -17.8
+  0 0ba 0.87 8.4 -83.8
+  0 0bb 0.90 90.9 -9.9
+  0 0bc 0.38 279.5 -14.2
+  *flags not splay
+    0 1   2.85 116.5 -3.5
+  *flags splay
+  1 1a 0.36 326.3 79.5
+  1 1ba 0.52 269.1 -70.9
+  1 1bb 1.25 2.4 -22.9
+  1 1bc 1.08 186.1 19.1
+  1 1bd 0.85 139.4 7.9
+  1 1be 4.39 97.4 2.2
+  1 1bf 2.33 73.5 -1.7
+  *flags not splay
+    1 2   3.74 90.1 -0.8
+  *flags splay
+  2 2a 0.22 310.1 80.0
+  2 2ba 1.76 136.3 16.3
+  2 2bb 1.17 218.7 10.4
+  2 2bc 0.57 350.6 3.0
+  *flags not splay
+    2 3   1.95 51.2 -2.9
+  *flags splay
+  3 3a 0.42 345.4 8.5
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.41 0.11 0.00 0.86
+1  1.59 0.95 0.35 0.49
+2  0.56 1.22 0.49 0.00
+3  0.38 0.00 0.06 0.00
+
+*end 5164

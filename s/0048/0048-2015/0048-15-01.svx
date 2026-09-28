@@ -1,0 +1,19 @@
+*BEGIN 0048-15-01
+;surface round top entrance
+
+*date 2015.03.30
+
+*TEAM "Alasdair Neill" compass clino disto notes "Spike Neal"
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.78
+
+*FLAGS SURFACE
+1	0	3.15	178	-10
+1	2	4.13	68	-3
+3	2	4.42	301	-23
+3	4	3.14	133	-16
+*FLAGS NOT SURFACE
+
+*END 0048-15-01

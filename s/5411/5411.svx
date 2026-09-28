@@ -1,0 +1,82 @@
+*BEGIN 5411
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 453242 4803027 191
+*DATE 2024.08.16
+*FIX 0 453242 4803027 191
+*ENTRANCE 2; ladder belay point
+*FLAGS SURFACE
+0	1	9.2	14	-2
+1	2	6.2	318	-25; ladder belay tree @ 453241 4803040 188
+*FLAGS NOT surface
+2	3	6.34	265	-50
+4	3	4.39	25	31
+4	5	1	025	31; 5 is underground cave start with roof above.
+
+
+4	6	7.8	194	-20
+4	7	3	-	-v
+7	8	4.33	195	-40
+8	9	6.3	196	-37
+9	10	7	168	-52
+10	11	1.08	6	0; 11 top of climb down to chamber and route to p4
+11	12	2.5	228	-56
+
+A	B	4	-	-v; A top of p4 into chamber
+B	C	3.11	170	0; opposite wall
+C	D	6.4	274	18; base of Chloe climb up
+C	E	4.1	67	-8; base of Raoul climb up
+F	A	6.47	175	-30
+12	F	3.21	193	-42
+
+G	H	11	270	-3; smaller passage at back of chamber
+G	J	3.9	127	22
+K	J	1.8	42	-55
+K	11	1.5	204	40
+
+*FLAGS SURFACE
+M	2	5.3	115	40; M is between holes on "bridge"
+*FLAGS NOT SURFACE
+M	N	6	-	-v; N base of p5; another pitch follws with continuing passage
+
+*data passage station left right up down
+5	.8	.9	3.6	.5
+4	.25	.25	1.6	0
+6	.2	.2	1	0
+
+*data passage station left right up down
+4	.25	.25	1.6	3
+7	.3	.7	3	0
+8	.17	.17	1	0
+9	.46	.42	2.9	2.1
+10	.3	.3	3	0
+11	.73	1.1	1.5	1.6
+12	.93	2.92	.67	.46
+
+*data passage station left right up down
+A	.4	.4	1	4
+B	4	6.6	6	0
+C	4	6.6	6	0
+
+*data passage station left right up down
+;C	4	.1	6	0
+;D	2	2	4	0
+
+*data passage station left right up down
+F	1	1.1	1	0
+A	.4	.4	1	0
+
+*data passage station left right up down
+G	.5	.5	.5	.3
+H	.2	.2	.2	.2
+
+*data passage station left right up down
+G	1.76	.7	.5	1.1
+J	.5	.7	1	2
+K	2.2	2.5	.73	1
+
+*data passage station left right up down
+M	2.6	1.5	0	5
+N	2.6	1.5	5	0
+
+*END 5411

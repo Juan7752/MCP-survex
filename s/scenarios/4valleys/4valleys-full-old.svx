@@ -1,0 +1,49 @@
+*BEGIN 4Valleys
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE 4valleys-lite.svx
+
+*INCLUDE ../../0087/0087.svx
+*INCLUDE ../../0100/0100.svx
+*INCLUDE ../../0122/0122.svx
+*INCLUDE ../../0123/0123.svx
+*INCLUDE ../../0098/0098.svx
+*INCLUDE ../../0106/0106.svx
+;*INCLUDE ../../0099/0099.svx
+*INCLUDE ../../0109/0109.svx
+*INCLUDE ../../0117/0117.svx
+*INCLUDE ../../0718/0718.svx
+*INCLUDE ../../0943/0943.svx
+*INCLUDE ../../1053/1053.svx
+*INCLUDE ../../1289/1289.svx
+*INCLUDE ../../1232/1232.svx
+;*INCLUDE ../../1452/1452.svx ;Included in 0098 project so not needed here
+*INCLUDE ../../0207/0207.svx
+*INCLUDE ../../0086/0086.svx
+*INCLUDE ../../0565/0565.svx
+*include ../../2366/2366.svx
+*include ../../2414/2414.svx
+*include ../../0596/0596.svx
+*include ../../0103/0103.svx
+*INCLUDE ../../3334/3334.svx
+*include ../../3451/3451.svx
+*include ../../1804/1804.svx
+*include ../../0841/0841.svx
+*include ../../0126/0126.svx
+*include ../../2108/2108.svx
+*include ../../1504/1504.svx
+*include ../../2519/2519.svx
+*include ../../2638/2638.svx
+*include ../../0102/0102.svx
+*include ../../0603/0603.svx
+;*include../../0689/0689.svx
+;*include surface.svx
+*INCLUDE ../../3691/3691.svx
+*include ../../0672/0672.svx
+*include ../../4712/4712.svx
+*include ../../4713/4713.svx
+*INCLUDE ../../0880/0880.svx
+
+*end 4Valleys

@@ -1,0 +1,27 @@
+*begin 1930_027
+
+;surveyors: Tim Allen, Pete Hall
+;name: Big Keyhole RH branch
+;date 26/7/04
+*CALIBRATE declination 2.68
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+
+
+0	1	4.1	221 	0; 0=0 from 17/7/04
+1	2	4.2	176	-53 
+2	3	2.6	267	-67
+3	4	11.4	299	2
+4	5	1.7	283	18
+5	6	13.3	302	1
+6	7	6.1	285	5
+
+5	8	3.2	173	12
+8	9	4.4	227	14
+9	10	5.6	186	34
+10	11	5.3	325	-11
+11	12	5.2	278	-2
+12	13	2.9	341	-8
+13	14	4.8	274	2
+14	15	13.6	208	22
+
+*end 1930_027

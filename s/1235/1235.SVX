@@ -1,0 +1,42 @@
+*BEGIN 1235_1235
+;Created from Survey file on Mon,10 May 1999.21:07:51
+;Cueva Roja
+*DATE 1997.07.27
+;Surveyors      : Juan PS
+;No of stations : 15
+;Plan length    : 108.284325m
+;Traverse length: 108.7m
+
+;*FIX 0 451757 4796409 0322
+;*FIX 0 451655 4796200 0322; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+
+;*FIX 0 451655 4796200 0321
+*FIX 0 451658 4796205 0325; Easter 2017
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.69 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.69-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	5.50	319.55	-20	;stn 8
+1	2	18.70	8.05	-2	;stn6
+2	3	8.20	3.05	0	;stn7
+1	4	10.80	44.55	-2	;stn9
+4	5	17.70	14.05	4	;stn10=stn4
+5	6	9.40	227.55	-4	;stn5
+6	7	3.60	269.55	0	;stn 6
+5	8	9.10	91.55	0	;stn3
+8	9	10.00	131.55	0	;stn 1
+9	10	5.70	202.55	0	;stn2
+9	11	10.00	222.55	0	;stn0
+*END 1235_1235

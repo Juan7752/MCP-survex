@@ -1,0 +1,18 @@
+*begin 1471_004
+
+;Papa Noel. 30/5-2004. Torben Redder, Peter Nielsen & Jonas Binladen
+;*CALIBRATE DECLINATION 2.4
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.29; (2.69-0.4)
+
+*DATE 2004.06
+0	1	6.25	200	0
+1	2	3.72	264	12	;cont 1.5m great dig
+
+*end 1471_004

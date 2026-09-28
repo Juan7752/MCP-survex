@@ -1,0 +1,48 @@
+*BEGIN 0427_Lastrilla
+;Created from Survey file on Fri,02 Aug 1996.22:53:22
+;Dates surveyed : 960802
+;Surveyors      : SO+
+;No of stations : 30
+;Plan length    : 114.845965m
+;Traverse length: 198m
+
+;*FIX 0 449496 4796583 0356
+;*FIX 0 449394 4796374 0356; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 449394 4796374 0358
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.6 degrees but should have been 3.79 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.79-3.6-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+0	1	7.00	-	-V	;base of entr p
+1	2	7.00	19.40	-49	;*
+2	3	4.30	56.40	-53	;*
+3	4	10.90	19.40	-32	;*
+4	5	5.70	327.40	-41	;*
+5	6	4.40	265.40	-28	;top of 2nd p
+6	7	8.00	-	-V	;*
+7	8	13.30	311.40	-54	;*
+8	9	10.50	42.90	-52	;*
+9	10	8.80	125.40	52	;eyehole into big chmbr
+10	11	3.60	70.40	-37	;*
+11	12	14.60	128.40	-44	;centre of upper chamber
+12	13	11.60	146.40	-45	;*
+13	14	13.40	124.40	-48	;*
+14	15	17.60	164.40	-53	;*
+15	16	12.90	150.40	-37	;middle of lower chamber
+12	17	6.40	282.40	-14	;*
+17	18	25.00	-	-V	;*
+18	19	13.00	48.40	-7	;base of rift; tight p on R
+
+*END 0427_Lastrilla

@@ -1,0 +1,171 @@
+*BEGIN 0081-15-00
+
+*BEGIN 0081-15-00A
+;Alberto's barn to sink area
+*TEAM "Juan Corrin" notes tape laser-length compass clino
+
+*date 2015.05.06
+*FLAGS surface
+;tape & Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.76; (for 6th May 2015)
+*FIX ABarn 452398.5 4797761.7 154.15
+; ABarn is at eye height 1.65m above ground level (152.5) at SE corner of Alberto's house
+
+ABarn	1	15.75	68	-6; top of stone post
+2	1	26.5	245	0; tree at eye height on uphill side of track	
+2	3	17.7	79	-5
+4	3	23.7	247	6
+4	A	23.8	75.5	-2.5; tree on uphill side of track - eye height. Should be marked with a yellow plufg inside a red one.
+A	S1	17	149	-28; approximate
+
+6U	S7	2.95	273	-53
+6U	B	10.59	274.5	-3.5; 7 is purple marker "B" on Big Rock
+6U	fence1	8.5	180	+5; approx
+F	B	4.62	70	6; 8 is purple marker "F" on pinnacle corner
+F	S6	3.5	64	-40; middle of sink area about 2m long
+F	S3	4.72	324	-24; water level
+F	water	1.87	-	down
+
+9U	B	6.62	39.5	5
+9U	S5	2.48	40	-53
+9U	S4	3.07	269.5	-37
+
+A	10	18.7	87	-4
+10	11U	1.34	-	up
+;((11U	8	14.71	
+
+12U	F	9.92	123	-3
+12U	S2	6.60	209.5	-24
+12U	13	6.67	170	-15; 13 mud bank nose
+13	13U	1.65	-	up
+13U	S1	4.65	259	-32; water level
+13U	fence2	12	170	10
+
+13U	G	9.4	282	-2; marker "G" in fallen tree above rock
+G	F	16.95	90.5	0
+15	G	7.55	79	-18
+15	16	13.57	249	0
+16	17	7.07	116.5	-12
+17	18	5.33	135	-20; waters edge
+18	19	4.26	129	0; across stream
+
+A	13	19.2	148	-22
+A	G	12.6	163	-29
+*END 0081-15-00A
+
+
+*BEGIN 0081-15-00B
+*CALIBRATE DECLINATION 0.73
+*TEAM "Alasdair Neill" notes "Juan Corrin" "tape laser-length compass clino
+
+*date 2015.08.07
+*FLAGS surface
+;*FIX 0 452597.90 4797797.17 159.35
+
+1	0	10.6	6	32
+1	2	7.51	202.5	-27
+3	2	14.8	107	-.5
+3	4	13	288	-8
+5	4	12.1	106	3
+5	6	11.61	282.2	-1.2
+7	6	18.94	108.5	.3
+7	8	14.0	266	-2.2
+9	8	8.44	79.8	-.7
+9	treeA	6.22	272	2
+0	underground	24.5	-	down;floating mp
+
+*FLAGS NOT SURFACE
+*END 0081-15-00B
+
+*BEGIN 0081-15-00C
+*CALIBRATE DECLINATION 0.73
+*TEAM "Alasdair Neill" notes "Phil Papard" tape "Juan Corrin" "tape laser-length compass clino
+
+*date 2015.08.07
+*FLAGS surface
+*FIX 4 452795.5 4797864.5 165;    barn SE corner
+;*FIX 0 452869.41 4797866.43 177.47	;molephone point at surface
+0	1	23.2	303	-29;stn0 molephone; stn 1 field boundary
+2	1	30.6	79	1
+2	3	27.6	257	2
+3	4	1.65	-	down; groundlevel barn corner
+5	3	30.7	11	2
+5	6	4.96	283	12
+7	6	15.4	59	9.5
+7	8	28.5	182.5	-11
+9	8	17.25	287	10
+9	10	18.8	187	-22.5
+11	10	2.16	356.5	35
+11	carc	2.55	12	-25; 12=Carc entrance
+
+9	13	12.3	206.5	-20
+14	13	16.42	87	5.5
+14	15	21.1	256	0
+16	15	10.92	108	7.5
+16	17	9	262.5	-12; middle of track over log-topped hole
+
+0	underground	17.7	-	down
+
+*FLAGS NOT SURFACE
+*END 0081-15-00C
+
+*BEGIN 0081-15-00D
+*CALIBRATE declination 0.73
+;Check surface survey - Carcavueso entrance up to barn
+*DATE 2015.08.18
+;Surveyor Juan
+*FLAGS SURFACE
+1	carc	4.14	25	-25
+1	2	9.5	34	22
+1	deep	9.12	160	-40
+2	3	10.61	8	17
+3	4	12.5	296.5	12;4=mid pole in metal chain
+5	4	8.8	100.5	-3
+5	6	19.2	357	10
+7	6	29.2	183.5	-9
+7	8	16.3	130	2.5
+8	9	4.65	57	-22
+10	9	27.3	195	-4; 10= eye height on barn
+*FLAGS NOT SURFACE
+*END 0081-15-00D
+
+*BEGIN 0081-15-00E
+*CALIBRATE declination 0.73
+;surface survey - Carcavueso river up to sinks
+;Surveyor Juan
+*FLAGS SURFACE
+ABarn	1	6.4	187.5	-7.5
+2	1	20	317	15
+3	2	16	313.5	10
+3	water0	4.8	-	down
+;3	opp0	9.9 -30
+
+4	3	11.51	260	1.5
+4	water1	4	-	down
+;4	opp1	6	-40
+
+5	4	7.3	150	-13
+5	6	15.2	75	-15
+7	6	19.2	249	-1
+;7	water3	6	-61
+;7	opp3	10
+7	8	10.4	63.5	0
+8	nearbank	6.5	140	-55
+8	opp4	10	140	-35
+8	9	21.7	38	0
+9	wateredge	8.6	74	-42
+9	10	15.3	309.5	5.5
+11	10	9.7	153	-13
+treeA	11	30.6	253	3
+
+*FLAGS NOT SURFACE
+*END 0081-15-00E
+
+*EQUATE 0081-15-00A.A 0081-15-00B.treeA	
+*EQUATE 0081-15-00C.3 0081-15-00D.10
+;*EQUATE 0081-15-00C.carc 0081-15-00D.carc
+*EQUATE 0081-15-00A.ABarn 0081-15-00E.ABarn
+*EQUATE 0081-15-00A.A 0081-15-00E.treeA
+*END 0081-15-00

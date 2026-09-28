@@ -1,0 +1,23 @@
+*BEGIN 1930_033
+
+;surveyors: Steve Openshaw Kev Millington
+;passage name: Sandals Passage
+*DATE 2004.07.31
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+
+0	1	6.1	216	-1; conts low bedding - dig
+1	2	5	190	5
+2	3	5.1	180	-20
+3	4	4.1	139	-9; stn 40
+*END	1930_033
+
+

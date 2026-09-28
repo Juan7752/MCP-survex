@@ -1,0 +1,7 @@
+*BEGIN Hum
+
+*include ../../0368/0368.svx
+*include ../../0312/0312.svx
+*include ../../1808/1808.svx
+
+*END Hum

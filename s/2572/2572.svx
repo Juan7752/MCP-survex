@@ -1,0 +1,40 @@
+*begin 2572
+
+;surveyors: Phil Papard with John Thorp and Steve Martin
+;name:
+*DATE 2007.05.31
+;*CALIBRATE DECLINATION 2.28
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.93; (2.33-0.4)
+
+;*FIX 13 453925 4797130 0576
+;*FIX 13 453823 4796921 0576; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 13 453823 4796921 0578
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 13
+
+1	0	5.23	055	+10 ; survey along rift past squeeze needing digging
+1	2	2.5	143 	-43; L2.3; R 0.2; U 1; D 0.1
+2	3	3.76	127	+5; passed excavated squeeze
+3	4	1.16	060	0; to excavated squeeze
+4	5	3.23	139	-10; down to upper chamber by pitch
+5	6	3.88 	143	 -2.6; L 0.2; R 1.5; U 1.5; D 1
+6	7	2.6	119	-40; down to climb up form lower chamber
+7	8 	3.26	028	-9; to pitch rope
+7	9	5.08	326	+10; to end of too tight inlet
+8	10	6.18	135	-54; to rift at bottom (needs capping to small pitch?)
+8	11	18.3	0	+90; vert up to bolt for last section of pitch
+11	12	11.6	0	+90; vert up to next bolt (below ledge)
+12	13	16.72	026	+76; from bolt to ent
+
+*end 2572

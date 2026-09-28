@@ -1,0 +1,32 @@
+*begin 2889_08_41
+
+;surveyors: Ali Neill Pete Eagan
+;name: Passage on right before Bassenthwaite Lake
+*DATE 2008.08.12
+
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+*CALIBRATE clino -1.5
+
+0	1	10.79	169	-44
+1	2	7.05	142	-9
+*FLAGS DUPLICATE
+2	3	7.99	340	50; 3 is ladder bolt
+
+
+
+*data passage station left right up down
+0	0	1.5	0	1.7
+1	0	5	1.5	.5
+2	.5	2.5	2	1
+3	0	1	2	2
+
+*end 2889_08_41

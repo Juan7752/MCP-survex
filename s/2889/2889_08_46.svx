@@ -1,0 +1,24 @@
+*begin 2889_08_46
+;surveyors: Mark Smith Dave Foxton Mark Topsom
+;name: tie back to Lake Bassenthwaite
+*DATE 2008.08.18
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+2	1	13.27	32	-6.5
+2	3	9.16	203	-2.5
+
+*data passage station left right up down
+1	.6	4	2	1
+2	1.5	3	3	1.9
+3	2	2	7	1.08
+
+*end 2889_08_46

@@ -1,0 +1,57 @@
+*BEGIN 3234-09-131
+*Date 2009.08.13
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+;dummy legs incl in length
+A	B	5	160	-45
+B	C	3	-	down; rubble ledge
+C	D	15	-	down; base of ladder on large ledge
+
+*EQUATE D	0
+
+*FLAGS splay
+0	0a	 0.22	 28.11	-59.54
+;0	0b	16.54	105.14	  2.96 error?
+*FLAGS NOT splay
+0	1	 2.51	158.39	 67.23
+1	2	 2.46	204.89	 -1.22
+
+*data passage station left right up down
+0	4.671	10.887	1.953	1.463
+*END 3234-09-131
+
+*EQUATE 3234-09-1311.0 3234-09-131.0
+
+*BEGIN 3234-09-1311
+*Date 2009.08.13
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+*FLAGS splay
+0	0a	 6.55	258.90	 10.32
+0	0b	 6.46	259.09	 10.46
+0	0c	 6.46	259.24	 10.45
+0	0d	15.03	263.18	 14.24
+0	0e	14.14	263.07	 14.68
+*FLAGS NOT splay
+0	1	 5.65	244.99	-39.87
+
+*data passage station left right up down
+0	0.0	15.47	0.0	0.0
+*END 3234-09-1311
+

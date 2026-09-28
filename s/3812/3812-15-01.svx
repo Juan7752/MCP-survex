@@ -1,0 +1,37 @@
+*BEGIN 3812-15-01
+;surveyors: Alex Ritchie, Tom Howard, Andy Farrow
+*DATE 2015.03.31
+*CALIBRATE DECLINATION 0.78
+
+1	1.1	8.29	0	42
+1.1	1.11	5.0	0	0	;Estimated
+1	1.2	7.48	183	4	;Climbed but unsurveyed approx 25m up, to tube with pitch back down with water.
+1	2	6.6	132	-21
+2	3	5.41	-	up	;Pitch up
+3	4	6.2	140	4
+4	5	5.98	185	-66	;Climb down
+5	6	2.74	166	6
+6	7	2.01	102	3	
+7	8	3.47	154	1
+8	9	3.74	260	72	;Pitch up to bolt
+9	10	25	160	20	;Dummy leg
+
+*data passage station left right up down
+1	1.8	0.67	33	1.4	;Done to flake in chamber
+1.1	0.8	0	2.5	1.5
+1.11	0.3	0.2	0.3	0.2
+*data passage station left right up down
+1	0.67	1.8	33	1.4
+1.2	0	0.5	7.7	2.9
+*data passage station left right up down
+1	1.8	7.48	33	1.4
+2	0	0.8	9.4	1.1
+3	2.7	0.1	4.6	6.7
+4	0	1.4	5.6	8.6
+5	0.65	0.44	0.6	3.8
+6	0.70	0.40	12.2	3.2	;Key hole shaped rift
+7	0	0.58	11.4	2.58
+8	0	1.06	14.9	0
+
+
+*END 3812-15-01

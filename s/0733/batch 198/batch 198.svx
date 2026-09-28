@@ -1,0 +1,37 @@
+
+*begin batch_198
+;surveyors: Ali Neill Roxanne Ramsay
+;date 2th Aug 2012
+*CALIBRATE declination 1.67
+*FLAGS DUPLICATE
+0	1	20.74	317	-34
+1	2	20.12	274	-21
+2	3	27.93	283	-1	
+3	4	8.28	233	-22
+4	5	7.41	219	-11	;marked station 5 
+4	6	18.95	231	+2
+6	7	14.72	261	+24	;marked station 7 on top of stal	
+7	8	24.02	249	+1
+8	9	30.57	268	-4
+9	10	46.94	230	-1	
+10	11	12.27	177	-3	;marked station 16 from 1989 
+
+*FLAGS NOT DUPLICATE
+0	12	13.63	320	+5
+12	12a	10.00	40	0
+13	5	2.94	315	+30	
+13	14	13.46	-	down
+
+*data passage station left right up down
+0	13	5	6	0	
+1	5.7	8.5	8.4	1.41	
+2	3.4	3.99	4.6	0.48	
+3	6.6	0	3.71	1.4	
+4	4.5	2.1	8.8	1.2	
+6	0	9.74	7.61	1.27	
+7	7.33	13.6	8.6	4.41	
+8	22.8	1.93	1.6	1.5	
+9	7.21	2.97	0.8	1.06	
+10	22.3	2	10.11	1.36	
+
+*END batch_198

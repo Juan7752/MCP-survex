@@ -1,0 +1,24 @@
+*BEGIN
+*BEGIN batch_177 ;"CONTINUES UNSURVEYED" off Swirl Chamber
+*CALIBRATE declination 2.68
+;stn 0 marked stn 0
+;surveyors A. Neill, Jenny Corrin Ted Cawthorne 15.8.04
+0	1	10.02	61	1	;1	2.5	0.5	0	
+1	2	10.15	93	-4	;2	2	0.3	0.3
+2	3	7.65	78	-3	;1.5	3	1	0	
+3	4	10.25	88	0	;4	3	1	2.5	
+*END batch_177
+
+*BEGIN batch_178 ;off Swirl Chamber connecting to ?Catalans passage
+*CALIBRATE declination 2.68
+;stn 0 marked stn 0 in Catalans pssge
+;surveyors A. Neill, Pete Smith 15.8.04
+1	0	4.65	194	-11	;	
+2	1	7.65	158	2	;2	2	0.5	0
+3	2	4.15	245	0	;1.5	2	0.6	0
+4	3	6.35	228	2	;1	2	0.5	0	
+5	4	9.35	194	0	;2	2	2	0 mkd sta 5
+5	6	4.85	357	-7
+*END batch_178
+*EQUATE batch_177.4 batch_178.6
+*END

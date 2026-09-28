@@ -1,0 +1,4 @@
+*BEGIN both
+*INCLUDE ../../3167/3167.svx
+*INCLUDE ../../3255/3255.svx
+*END both

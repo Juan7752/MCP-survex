@@ -1,0 +1,56 @@
+*BEGIN 3261-2009
+
+;surveyors: Juan & Pete Smith & Phil Parker
+
+*DATE 2009.07.15
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+;*FIX top 449297 4801876 0101
+*FIX top 449195 4801667 0101; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 16
+*ENTRANCE top
+
+;“Notes” data from PDA 15/7/09 after aborted attempt at DistoX
+
+;0-1	4.01
+;2-0	4.88	119	30
+
+2	1	8.89	119	30; 1 is top of slope
+3	2	5.10	166	-29
+4	3	3.30	211	4
+5	4	3.36	195	-3;<4>
+6	5	5.97	202	-53
+
+7	2	9.91	093	9;	<4>
+8	7	6.58	145	10
+9	8	3.67	112	0
+10	9	5.55	094	-34
+11	10	2.82	053	-4
+; 11 is hub
+
+12	11	9.67	306	-5
+13	12	6.22	352	-12
+14	13	3.18	293	-16
+
+15	11	3.64	137	-19
+16	15	9.14	031	-22
+
+15	top	10	-	up
+;16 ent
+;15 is at base of shaft 10m deep.
+
+*END 3261-2009

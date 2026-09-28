@@ -1,0 +1,39 @@
+*BEGIN 4180
+;FILE NAME 4180
+;FILE AUTHOR: Nigel Dibben
+;FILE DATE: 1 8 2017
+;METRIC
+;CAVE   NAME: Cave 4180
+;CAVE  PLACE: 30 T 452777 4798218 230   
+;CAVE PLACE FROM GPS
+;DATUM WGS84
+
+*CALIBRATE DECLINATION 0.48
+;CALBRATION FROM ngdc.noaa.gov; ?JSC
+
+*FIX 5 452777 4798218 230
+*ENTRANCE 5
+*ENTRANCE 1
+
+;# SHOT  STATION  STATION  LENGTH   AZIMUTH/BRG VERTICAL/INCL  LEFT   RIGHT   UP    DOWN  COMMENT
+;# CODE  FROM     TO       M        DEG         DEG            M      M       M     M    
+
+*flags not surface
+2 1 4.10 122.5 +0.0
+3 2 2.77 111.0 +3.0
+4 3 4.70 160.0 -14.0
+5 4 2.48 135.0 -24.0
+
+
+
+*data passage station left right up down 
+1	0.0	0.4	0.3	0.0
+2	0.4	0.5	1.21	0.0
+3	1.0	0.4	0.6	0.0
+4	0.0	0.7	0.9	0.9
+5	0.3	0.43	0.42	0.59
+
+
+*END 4180
+
+

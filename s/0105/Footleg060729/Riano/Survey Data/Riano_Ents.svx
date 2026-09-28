@@ -1,0 +1,13 @@
+*BEGIN Riano_Ents
+;Created from Survey file on Wed,11 Oct 1995.20:45:33
+;Dates surveyed : 74onwards&910809&910909&920617&920721&920722&920802
+;Surveyors      : Various+LMills+PStacey++andy++
+;No of stations : 900
+;Plan length    : 7281.46414m
+;Traverse length: 7482.48383m
+
+*include Entrance.svx
+*include Entrance2.svx
+
+
+*END Riano_Ents

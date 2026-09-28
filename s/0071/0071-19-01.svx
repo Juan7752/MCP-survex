@@ -1,0 +1,55 @@
+*begin 0071-19-01
+*date 2019.04.22
+*team "Francesca McDonald" 
+*team "Michael Topsom (The Clammiest Poo)"
+*team "Lloyd Cawthorne" station finder
+*team "Raoul Hidalgo Sharman"
+*team "(New) David Rigby" scamperer
+*team "Chris Scaife" Owns a Disto-X
+
+*calibrate declination 0.26
+
+*flags duplicate
+*data	normal	from	to	tape	compass	clino
+A27	1	13.85	057	-16
+1	2	3.27	035	-34
+
+
+*flags not duplicate
+2	3	6.91	016	-61
+3	4	1.19	344	+65
+4	5	1.68	304	-11
+5	6	3.32	042	-41
+6	7	7.22	033	-66
+7	8	6.69	000	+28
+
+7	9	1.25	289	-23
+9	10	6.71	216	-18
+
+9	11	6.66	286	-82
+
+
+*data	passage	station	left	right	up	down
+
+A27	4.3	4.1	4.3	1.3
+1	3.2	3.6	7.1	1.2
+2	0.8	0.0	10.9	1.4
+3	1.4	0.2	2.5	0.6
+4	0.9	2.7	15.5	0.5
+5	0.0	1.7	15.6	1.8
+6	0.5	0.8	1.7	0.6
+7	1.9	0.8	8.5	0.4
+8	0.4	0.3	4.2	2.2
+
+*data	passage	station	left	right	up	down
+
+7	1.5	5.7	8.5	0.4
+9	1.8	0.9	8.9	4.0
+10	0.6	0.5	2.7	1.4
+
+*data	passage	station	left	right	up	down
+
+9	4.2	0.0	8.9	4.0
+11	1.7	1.8	2.1	0.0
+
+*end 0071-19-01

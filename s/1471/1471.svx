@@ -1,0 +1,28 @@
+*BEGIN 1471_PNoel
+*include 1471_1471.svx
+*include 1471_002.svx
+*include 1471_003.svx
+*include 1471_004.svx
+*include 1471_005.svx
+*include 1471_006.svx
+;*include 1471_007.svx
+;*include 1471_008.svx
+*include 1471_009.svx
+*include 1471_010.svx
+*include 1471_011.svx
+*include 1471_012.svx
+
+*equate 1471_002.16 1471_011.0
+*equate 1471_old.2004E.550 1471_002.0
+*equate 1471_old.2004E.543 1471_003.0
+*equate 1471_old.2004E.549 1471_003.5
+*equate 1471_old.2004E.537 1471_004.0
+*equate 1471_old.2004E.462 1471_005.0
+*equate 1471_002.16 1471_006.0
+;*equate 1471_006.6 1471_007.1
+;*equate 1471_006.32 1471_008.6
+*equate 1471_old.2004E.453 1471_009.11
+*equate 1471_old.2000S.203 1471_010.9
+*equate 1471_011.29 1471_012.0A
+
+*END 1471_PNoel

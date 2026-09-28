@@ -1,0 +1,21 @@
+*BEGIN 1935_
+;Created from Survey file on Mon,08 Sep 2003.21:54:45
+;Dates surveyed : 030812
+;Surveyors      : JC Tony DCC APringle
+;No of stations : 10
+;Plan length    : 28.2775819m
+;Traverse length: 32.85m
+
+*FIX 0 52040 95070 0425
+
+*ENTRANCE 0
+0	1	2.30	141.45	-35	;boulders
+1	2	6.30	89.45	-7	;*
+2	3	2.30	160.45	-12	;*
+3	4	2.80	92.45	-52	;*
+4	5	8.70	51.45	-44	;*
+5	6	3.50	152.45	-32	;*
+6	7	6.95	158.45	3	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1935_

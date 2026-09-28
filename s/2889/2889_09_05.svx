@@ -1,0 +1,22 @@
+*begin 2889_09_05
+;surveyors: PP Mark Smith - Killer
+;passage name:
+*DATE 2009.04.10
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+1	2	20.53	191	49; top of boulder choke
+
+*data passage station left right up down
+1	13.6	1.6	5.4	4
+2	5	2	2	5
+
+*end 2889_09_05
+

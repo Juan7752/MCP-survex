@@ -1,0 +1,25 @@
+*BEGIN 2889_16_02
+
+*CALIBRATE DECLINATION 0.65
+
+;Anthony Day and James Carlisle
+
+*DATE 2016.03.20
+
+2	1	11.326	046	+06
+2	3	06.612	219	+01
+3	4	01.382	285	-52
+5	4	04.668	-	UP
+*flags duplicate
+6	5	13.090	040	-06
+*flags not duplicate
+
+*data passage station left right up down
+1	5.0	2.5	0.2	0.8
+2	1.0	0.6	0.8	1.0
+3	0.0	0.8	2.0	4.0
+4	0.2	0.8	2.0	4.0	
+5	2.0	1.6	6.0	0.3
+6	-	-	-	-
+
+*END 2889_16_02

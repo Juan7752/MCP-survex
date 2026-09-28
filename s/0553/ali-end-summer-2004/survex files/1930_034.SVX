@@ -1,0 +1,28 @@
+*BEGIN 1930_034
+
+;surveyors: Steve Openshaw Kev Millington
+;passage name: 
+;date: 31/7/04
+*CALIBRATE declination 2.68
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+
+1	0	4.5	358	22
+2	1	2.7	329	0
+3	2	9	86	4
+4	3	3.7	108	-4
+5	4	6.9	62	-2
+6	5	8.2	78	-2
+7	6	8.1	61	-2
+8	7	3.9	90	-5;	tight - drops to stream
+9	8	7.1	71	2
+10	9	11.2	96	-2; 4m wide low streamway
+11	10	10.6	82	-2
+12	11	13.1	48	-7; hole in floor
+13	12	6.2	80	-7
+14	13	13.3	65	-4
+15	14	12	68	-3; sharp corner
+16	15	14.5	154	1
+17	16	4.5	67	-18; known station cairn
+*END	1930_034
+
+

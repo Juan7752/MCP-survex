@@ -1,0 +1,7 @@
+*begin both
+
+*include 0107.svx
+*include 2691-0107.svx
+*EQUATE 0107_uzueka.newuzueka.65 2691-0107.33
+
+*end both

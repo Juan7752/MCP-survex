@@ -1,0 +1,31 @@
+*begin riano_part2
+*EXPORT Riano_UpperLevels.130
+*EXPORT Riano_UpperLevels.121
+*EXPORT Riano_DoubleBarrel.72
+*EXPORT Riano_DoubleBarrel.65
+*EXPORT Riano_DoubleBarrel.63
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+
+*equate Riano_DoubleBarrel.77 Riano_CoffinLevelInlet.77
+*equate Riano_DoubleBarrel.77 Riano_Catpaw.77
+*equate Riano_LowerUpstream.78 Riano_CoffinLevelInlet.78
+*equate Riano_LinkToUpperLevels.134 Riano_UpperLevels.134
+*equate Riano_Catpaw.121 Riano_UpperLevels.121
+
+*include riano_doublebarrel/riano_doublebarrel.svx
+*include riano_coffinlevelinlet/riano_coffinlevelinlet.svx
+*include riano_catpaw/riano_catpaw.svx
+*include riano_lowerupstream/riano_lowerupstream.svx
+*include riano_linktoupperlevels/riano_linktoupperlevels.svx
+*include riano_upperlevels/riano_upperlevels.svx
+
+*end riano_part2

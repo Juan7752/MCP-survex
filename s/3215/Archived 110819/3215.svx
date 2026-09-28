@@ -1,0 +1,24 @@
+*BEGIN 3215
+
+;Date 2011/04/29
+*ENTRANCE 2
+*FIX 2 446819 4798271 132
+*CALIBRATE declination 1.78
+*FLAGS surface
+0	1	 6.03	 81.91	  0.82
+1	2	 8.34	 93.55	 18.56; stn2 is 3215
+*FLAGS not surface
+2	3	 1.12	146.46	-46.98	
+3	4	 3.06	 37.99	 -5.57
+4	chamberFloor	7.5	-	down
+
+*FLAGS surface
+0	1976inlier	8.677	295.65	-43.48
+*FLAGS not surface
+
+
+*data passage station left right up down
+0	8.677	0.0	0.0	0.0	
+
+
+*END 3215

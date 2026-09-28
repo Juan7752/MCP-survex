@@ -1,0 +1,29 @@
+*BEGIN 4043-14-35
+;roof passages nr stal grill in Galeria de Yeso - links with Bold Step Passage
+*DATE 2014.10.28
+*TEAM "Alasdair Neill" notes
+*TEAM "Juan Corrin"   compass clino laser measure
+
+*CALIBRATE DECLINATION 0.9
+
+*FLAGS duplicate
+0	1	14.22	289	0
+*FLAGS NOT duplicate
+1	2	0.1	-	up
+2	3	8.22	131	11
+3	4	3.9	202	1
+4	5	3.42	235	5
+5	6	2.27	131.5	0
+6	7	2.64	100	0
+7	8	2.36	198	3
+8	9	1.01	244	0
+*data passage station left right up down
+2	.5	.5	.75	0
+3	.7	.6	.5	.7
+4	.4	.8	.7	.5
+5	.6	.7	.9	.8
+6	.5	.2	.8	.4
+7	.7	.8	.5	.4
+8	0	.9	.3	.3
+
+*END 4043-14-35

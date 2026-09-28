@@ -1,0 +1,76 @@
+*begin 2786
+
+;surveyors: Michael Topsom, Jez Wong, William Stewart
+;name: 3 Idiots
+*DATE 2008.08.13
+;*CALIBRATE DECLINATION 2.28
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+;*FIX 11 454361 4799266 0432
+;*FIX 11 454259 4799057 0432; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 11 454259 4799057 0427
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 8
+*entrance d7
+*data normal from to tape compass clino
+2	1	1.98	031	+9
+2a	2b	43.05	037	-86
+2	2a	0.95	054	-62
+3	2	3.91	299	+1
+4	3	2.70	294	-3
+5	4	1.77	242	-6
+5	6	3.72	105	+16
+6	7	3.08	065	-8
+8	7	1.79	229	-15
+
+*FLAGS SURFACE
+8	9	1.17	052	-37
+10	9	3.35	168	+1
+10	11	11.38	004	-4
+
+;A	B	15.25	2	-11
+;*EQUATE 8 A
+*FLAGS NOT SURFACE
+*EQUATE A 2c
+
+1c	1	.77	28	24
+1c	2c	40.41	18	-82
+
+20c	20	5.55	29	-43
+20	21	22.6	-	up
+2c	21	8.9	206	-64
+
+d0	d1	3.05	78	0
+d1	d2	3.8	54	-6
+d2	d3	30.05	-	up
+d3	A	3.5	208	-6
+d3	d4	7.4	53	75
+d4	d4a	3.3	84	-5
+d4a	d4b	12.6	-	down
+d4	d5	14.6	68	66
+d6	d5	3.5	227	-51
+d6	d7	15.4	46	84; surface
+
+
+*data passage station left right up down
+1	0.2	0.5	0.1	40.0
+2	0.70	1.0	0.2	40.0
+3	0.3	0.9	0.7	0.4
+4	1.0	0.1	1.0	0.3
+5	0.0	0.6	1.0	0.1
+6	0.6	0.2	0.0	0.6
+7	0.7	0.0	0.4	0.2
+8	0.0	1.36	0.0	0.6	;entrance
+
+
+*end 2786

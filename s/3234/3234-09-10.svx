@@ -1,0 +1,123 @@
+*BEGIN 3234-09-101
+*Date 2009.08.09
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+*FLAGS SPLAY
+0	0a	 6.84	134.38	-64.14
+0	0b	 2.00	266.05	 28.20
+0	0c	 2.86	113.56	-14.29
+*FLAGS NOT SPLAY
+0	1	 2.21	303.11	 21.76
+1	2	18.26	269.66	 -3.74
+2	3	 5.67	171.44	 -3.33
+
+*data passage station left right up down
+0	0.734	0.493	0.0	5.553
+2	3.395	4.972	0.344	0.743
+*END 3234-09-101
+
+*EQUATE 3234-09-106.0 3234-09-101.1
+
+*BEGIN 3234-09-106
+*Date 2009.08.09
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+0	1	 1.72	270.77	-37.60
+1	2	 3.74	 56.79	 80.36
+2	3	 6.55	 43.40	 44.88
+3	4	 2.21	294.42	 14.86
+4	5	 3.16	348.28	-14.43
+5	6	 2.70	342.43	  3.27
+7	6	 2.17	159.98	  0.00
+
+*data passage station left right up down
+2	6.61	0.0	0.0	0.0
+5	0.519	0.202	1.299	0.747
+6	0.208	0.479	1.364	0.651
+*END 3234-09-106
+
+*EQUATE 3234-09-107.0 3234-09-106.7
+
+*BEGIN 3234-09-107
+*Date 2009.08.09
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+0	1	 0.47	 83.82	 15.21
+1	2	 1.79	351.88	 24.89
+*FLAGS SPLAY
+2	2a	 1.35	346.46	 15.12
+*FLAGS NOT SPLAY
+2	3	 3.83	301.77	  5.84
+3	4	 9.84	297.28	 -2.73
+4	5	18.39	275.47	  0.47
+5	6	 8.86	285.90	  0.88
+6	7	10.49	273.97	 -2.91
+*FLAGS SPLAY
+7	7a	 1.77	189.05	 76.03
+*FLAGS NOT SPLAY
+7	8	 2.75	245.21	-24.79
+*FLAGS SPLAY
+8	8a	14.81	294.27	  0.34
+8	8b	 8.74	287.91	-33.12
+*FLAGS NOT SPLAY
+*data passage station left right up down
+2	1.184	7.392	1.251	1.11
+3	1.173	2.646	0.875	0.208
+4	2.261	1.375	0.38	0.345
+5	1.58	1.978	0.36	0.506
+6	1.122	0.401	0.355	0.666
+7	0.0	1.509	0.221	1.407
+8	0.0	3.225	1.127	0.0
+*END 3234-09-107
+
+*EQUATE 3234-09-108.0 3234-09-107.3
+
+*BEGIN 3234-09-108
+*Date 2009.08.09
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+0	1	 7.43	 65.98	  4.92
+1	2	 0.63	141.87	-85.79
+2	3	10.19	 96.81	  5.84
+*FLAGS SPLAY
+3	3a	 3.30	126.04	  5.63
+*FLAGS NOT SPLAY
+3	4	 2.17	 91.05	-37.87
+
+*data passage station left right up down
+1	1.756	2.931	0.33	1.005
+3	0.317	3.22	0.2	1.493
+*END 3234-09-108
+

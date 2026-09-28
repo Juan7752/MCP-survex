@@ -1,0 +1,37 @@
+*BEGIN 0075-13-08
+;surveyors  Alasdair Neill Alex Ritchie Chris Scaife Dan
+;RESURVEY OLD CAVE THROUGH CHOKE
+*DATE 2013.07.27
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+*FLAGS DUPLICATE
+1	0	14.7	220	5
+1	2	11.4	33	-11
+2	3	11.5	24	-9
+3	4	11.9	310	-1
+4	5	8.1	282	-33
+5	6	13.8	236	-24
+6	7	11.4	230	-36
+7	8	9.2	248	-40
+8	9	8.2	293	-55
+9	10	6.2	168	-16
+10	11	13.4	245	0
+11	12	6.3	242	24
+12	13	7.6	241	-2
+13	14	12.3	217	-15
+*FLAGS NOT DUPLICATE
+14	16	4.3	221	18
+16	17	4.3	217	0
+17	18	6.1	257	-20
+18	19	2.3	196	-20
+19	20	5.6	248	-30
+
+*END 0075-13-08
+

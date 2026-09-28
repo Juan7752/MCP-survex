@@ -1,0 +1,15 @@
+*BEGIN 0649_649
+;Created from Survey file on Sun,20 Jun 2004.18:06:11
+;Dates surveyed : 87/8
+;Surveyors      : JimD
+;No of stations : 4
+;Plan length    : 20.3101007m
+;Traverse length: 25.6m
+
+*FIX 0 54860 100130 0185
+
+*ENTRANCE 0
+0	1	2.00	-	-V	;*
+1	2	5.00	274.03	-70	;*
+2	3	18.60	4.03	0	;*
+*END 0649_649

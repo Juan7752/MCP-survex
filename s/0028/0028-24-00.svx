@@ -1,0 +1,19 @@
+*BEGIN 0028-24-00
+
+*DATE 2024.03.23
+;Surface survey
+;surveyor Juan Corrin
+
+*FIX 0 454114 4794575 269
+*FLAGS SURFACE
+1	0	20	25	0; 0 pylon 1 edge of depression
+2	1	6.7	106	17
+3	2	6	151	26
+3	4	26.2	335	-22; 4 above entrance
+4	4A	3	155	-45;guess: floor of entrance and back into depression slightly to agree with aerial photo
+
+5	0	20	270	-11
+5	6	7.6	82	5; 6 is transformer double pole.
+*FLAGS NOT SURFACE
+
+*END 0028-24-00

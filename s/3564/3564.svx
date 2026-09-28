@@ -1,0 +1,97 @@
+*BEGIN 3564
+;FILE AUTHOR: Nigel Dibben
+;FILE DATE: 8 14 2011
+;METRIC
+;CAVE   NAME: 3564
+;CAVE  PLACE: 30 T 449821 4800059
+;DATUM European 1979
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35; (1.75-0.4)
+
+;*FIX 9 449933 4800272 0168
+;*FIX 9 449831 4800063 0168; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 9 449831 4800063 0169
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*flags not surface
+*ENTRANCE 9
+;#ALIAS: 4a 4
+;#ALIAS: 9a 9
+
+;#SURVEY NAME: A
+;#SURVEY DATE: 8 9 1974
+;#DECLINATION:    0.00
+
+*date 2011.08.14
+*flags duplicate
+2 1     6.67   180.00     0.00
+*flags not duplicate
+3 2     8.56   132.00    -7.00
+4 3     1.62    92.00   -43.00
+4 5     1.23   183.00    23.00
+6 3     3.27   114.00    -3.00
+7 6     5.16   162.00     6.50
+8 7     2.74    78.00    -5.00
+9 8     3.52   109.00   -49.00
+
+*date 2011.08.17
+2 10  5.88  180.5 7.5
+11  10  4.07  21  1
+12  11  5.21  2.5 1.5
+13  12  7.94  356.5 0
+14  13  5.41  194.5 -16
+;14  15  6.78  214 5
+16  13  2.44  253 -13
+17  16  3.08  295 -52
+18  17  3.79  20  -31
+17  19  2.54  127 -50
+16  20  3.73  34  -26
+14  21  3.3 212 16
+21  22  3.06  206 -5
+22  23  5.23  300 -1
+
+;#PROPERTY: Entrance 9a
+;#END
+*data passage station left right up down
+1     1.0     1.2     0.2     0.4
+;1 on stal boss
+2     0.6     1.1     1.2     0.2
+;2 on stal nr floor
+3     0.6     2.5     0.0     1.6
+;3 to lowest point 3.68m
+5     0  0  0  0
+;5 at daylight hole
+4     3.05  2.1     1.2     0.8
+;4 in boulders
+6     2.3     2.3     1.3     0.5
+7     0.0     2.6     0.5     0.9
+;7 on wall
+8     1.6     1.3     1.3     0.2
+;8 on slope
+9     1.8     0.0     0.0     1.3
+;9 outside on RHS of entrance
+10  1.44  1.07  0 .73
+11  .69 .52 0 .71
+12  .94 2.02  1.87  .75
+13  .9  .79 .59 .71
+14  .32 .41 1.12  1.3
+;15  0 .47 0 1.4
+16  .63 2.42  .64 .12
+17  0 .83 2.21  .53
+18  1.35  .42 .48 1.26
+21  .3  .2  .25 .86
+22  .3  .3  .82 .6
+
+
+*END  3564
+

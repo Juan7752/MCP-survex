@@ -1,0 +1,78 @@
+*begin 4606
+;Cave18A
+;Barrio de Arriba, Rio Tuerto
+;surveyors  Dave Milner, John Southworth, Phil Goodwin October 2017
+*data normal from to length bearing gradient
+*CALIBRATE DECLINATION 0.45
+*entrance 1
+*FIX 1 0445583 4799357 175
+ 1   2	 3.8	023 	-41; 2 has minor cross tubes
+ 2   2b	 2.55	295	  0; low tube
+ 2   2c  1.57   114	  0; low tube
+ 2   3   1.0	023	-41;
+ 3   4	 4.8	050	-31; 4is 1m from edge of climbdown 1drop in floor
+ 4   4a	 3.56	320	  0; tight passage
+ 4   5	 5.7	041	-18;
+ 5   5a	 3.53	321	  0;
+ 5a  5b  5.58   260	  0;
+ 5a  5e	 5.56	000	 90;
+ 5a  5f	 4.26	000	-90
+ 5   5g	 0.9	041	  0;
+ 5g  5h  2.0 	135	  0; side rift
+ 5   6	 7.46	041	  0;
+ 6   7	 3.56	041	-20; 7 is flake between main rift and pitch
+ 7   7a	11.0	000	-90; pitch down
+ 7a  7b	 4.88	050	-20; 7b is middle of 2m dia.
+ 7b  7c 14.0    000	 90; up aven
+ 7   8	 3.6	035	  0; 8 is at start of roped traverse
+ 8   8a  2.24	123	  0; into side rift 2m deep
+ 8   9	 8.0	053	 -5; start of side passage
+ 9   9x  2.0	000	-90;
+ 9x  9a	 2.05	142	  0;
+ 9a  9b	 2.46	054	  0;
+ 9b  9c	 1.0	052	  0;
+ 9c  9d	 5.2	000	-90; Pitch
+ 9d  9e	 2.36 	052	  0; 9e is middle of chamber
+ 9e  9f	 2.37	052	  0;
+*flags splay
+ 9e  9g	 1.0	143	  0;
+ 9e  9h	 0.9	323	  0;
+*flags not splay
+ 9e  9k	15.8	000	 90; Up
+ 9  9x   2.8 	045	  4; into awkward widening rift
+ 9x 10	 2.8	045	  4;
+ 9x 9z   7.1	000	-90; blind pitch
+*flags splay
+10  10a	 0.9	240	  0; across side rift
+10a 10b	 3.1	145	  0; across main rift through gap into '9' side chamber
+*flags not splay
+10a 10c	 6.5	325	  0; into side rift
+10  10d  1.1	323	  6;
+10d 10e	15.3	000	-90; blind pitch
+10  11	 7.6	060	 -9;
+11  11a	 6.1	068	-57; broken pitch
+11a 11b  4.1	000	-90; blind
+11  11c	 6.4	150	 -5; side rift
+11  12	 6.5	048	 -6; across pitch to bolt in passage
+12  13	 3.8	046	 -6; 
+13  13a	 8.9	000	-90; blind pitch
+13  14	 2.9	037	  0; across pitch to clay bank
+14  15	 3.2	038	 -2; to back wall of t-junction
+*flags duplicate
+15  16	 1.5	182	  1; 16 is bolt round corner
+*flags not duplicate
+16  17	 1.5	304	 11;
+17  18	 3.1	282	  0; thro' dugout hole to pitch head
+18  19	 8.5	000	-90; blind pitch
+18  20	 5.1	282	  0; into rift
+16  21	 3.2	098	 -8; 
+21  22	 9.3	000	-90; blind pitch
+21  23	 6.1	089	  2; over muddy boulder to slope of pitch
+23  24 	 1.1	090	  0; 
+24  25	 8.7	000	-90; pitch
+24  26	 2.2	092	  0; rift narrows, possible way on for the fit and skinny
+*end 4606
+
+
+	
+

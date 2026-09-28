@@ -1,0 +1,203 @@
+
+
+*BEGIN 07aug20094
+;Date 2009/08/07
+*calibrate declination 2.08
+3	2	 2.05	110.62	-34.65	
+3	3a	 1.42	106.59	 -3.93	
+3	3b	 0.86	255.92	 -0.31	
+4	3	 1.85	 93.90	 -7.78	
+4	4a	 2.74	242.67	 -1.17	
+4	4b	 3.50	279.44	  0.83	
+4	5	 6.08	252.21	 53.48	
+5	5a	 2.49	 86.08	 -0.27	
+5	5b	 2.83	187.08	  4.20	
+5	5c	 3.55	 23.31	  4.56	
+5	6	10.24	231.91	  9.49	
+6	7	 1.86	328.80	 -0.11	
+7	7a	 4.80	314.01	 74.03	
+7	8	 5.76	231.29	  6.99	
+8	9	 2.43	206.23	 -8.49	
+9	10	 4.51	197.94	  1.49	
+10	11	 4.70	110.28	-21.44	
+
+*data passage station left right up down
+2	0.622	0.734	0.0	0.0	
+3	0.296	0.346	0.0	0.0	
+4	1.024	0.333	0.0	0.0	
+5	1.437	4.264	4.346	0.919	
+6	0.327	3.039	3.055	0.753	
+7	2.19	1.53	2.698	1.125	
+8	1.613	2.094	4.002	1.125	
+9	0.23	2.611	5.004	1.363	
+10	1.178	1.14	3.245	1.376	
+*END 07aug20094
+
+
+
+
+
+
+
+
+
+
+*BEGIN 0107-090810-1
+
+;surveyors: Ali Santi Carol Paul Clement-Walker
+;passage name: beyond Flashbulb Hall
+;date: 10th Aug 09
+; Matienzo position is 43.315936, -3.584633. Declination can be found at
+; www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*CALIBRATE declination 2.08
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+; Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+
+0	1	7.09	43	-3
+1	2	5.11	123	0
+2	3	3.55	76	7
+3	4	3.93	95	0
+
+3	5	6.81	5	10
+5	6	3.97	28	-17
+6	7	5.7	310	1
+7	8	5.53	5	11
+8	9	4.25	46	10
+9	10	6.51	288	28
+10	11	9.95	162	-7
+11	12	12.94	221	-3
+
+10	13	21.87	48	0
+13	14	37.87	50	-1
+14	15	8.49	78	-3
+15	16	13.76	56	0
+16	17	8.93	324	5
+17	18	4.24	69	29
+18	19	10.34	94	0
+
+18	20	15.78	266	-7
+20	21	4.38	261	11
+21	22	4.86	280	10
+22	23	13.6	248	-2
+
+16	24	11.4	91	-2
+24	25	7.48	40	0
+25	26	4.27	29	1
+26	27	4.52	292	-5
+27	28	2.96	340	-4
+28	29	7.98	269	3
+29	30	1.96	340	-10
+30	31	3.75	43	0
+31	32	3.67	90	3
+32	33	3.64	80	0
+33	34	4.33	32	-4
+34	35	3.12	45	-7; marked 35 conts through stal
+
+*data passage station left right up down
+1	0	3.5	3.5	1
+2	1.8	2	3.1	1
+3	1.1	.7	2.1	1.3
+4	0	.5	1.5	.5
+
+*data passage station left right up down
+3	1.1	.7	2.1	1.3
+5	0	3	3.2	2.2
+6	2	1.89	5	1.2
+7	0	1.4	1.8	1.3
+8	0	2.4	4.3	2.2
+9	9.9	2.35	1.6	2.9
+10	8.1	10	1.5	0
+11	4.28	3.1	1.8	1.5
+12	2.5	1.9	2.1	1.3
+
+*data passage station left right up down
+10	10	8.1	1.5	0
+13	1.8	5.3	1.9	0
+14	1.3	4.5	2.8	1.8
+15	5.1	2.5	1.3	1.3
+16	3.1	4.2	3.3	2.2
+17	3.8	3.4	3.4	2
+18	0	2.1	1	1.2
+19	.4	.5	.6	0
+
+*data passage station left right up down
+18	2.1	0	1	1.2
+20	4.8	2.6	3.2	.8
+21	1.2	2.6	1.9	1.9	
+22	3.3	3.4	2.8	2.1
+23	2.6	3.74	2.74	3.64
+
+*data passage station left right up down
+16	2.2	0	.7	1.8
+24	2.24	0	.7	1.8
+25	1.2	1	.7	.2
+26	1.2	.7	.7	0
+27	.7	1.3	.5	0
+28	1.8	1.5	.7	.7
+29	.7	3	1.5	.6
+30	1.2	1.1	0	.5
+31	.9	.7	0	.5
+32	.8	1.1	.9	.4
+33	.2	.5	.9	.7
+34	.6	.3	.9	.5
+35	0	.8	1	.6
+
+*END 0107-090810-1
+
+
+
+
+
+*BEGIN 0107-090810-2
+
+;surveyors: Ali Santi Carol Paul Clement-Walker
+;passage name: Dog Series
+;date: 10th Aug 09
+; Matienzo position is 43.315936, -3.584633. Declination can be found at
+; www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*CALIBRATE declination 2.08
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+; Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+
+36	37	6.49	277	-4
+37	38	6.28	237	-4
+38	39	8.12	252	-3
+39	40	5.34	256	3
+40	41	12.57	277	22
+
+39	42	9.97	43	32
+42	43	6.16	302	30
+43	44	3.91	301	19
+44	45	16.18	272	4
+45	46	9.68	273	-2
+
+*data passage station left right up down
+36	5.6	2	4.9	1.6
+37	6.2	0	4.8	1.9
+38	6.9	4.5	4.2	0
+39	5.3	6.7	5.9	0.8
+40	3	4	4.7	1.3
+41	1.3	.6	.8	0
+
+*data passage station left right up down
+39	1.3	0	7	1.3
+42	1.3	0	7	1.3
+43	1.2	3	4.2	3.2
+44	0.8	3.7	4.1	1.6
+45	2.5	1.7	2.1	0.9
+46	0	2.85	1.67	1.43
+*END 0107-090810-2
+
+
+
+*EQUATE 07aug20094.7 0107-090810-1.0
+*EQUATE 07aug20094.10 0107-090810-2.36
+
+
+

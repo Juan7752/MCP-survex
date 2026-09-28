@@ -1,0 +1,25 @@
+*begin riano_upstream
+*EXPORT 20 63
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;Riano Streamway upstream of entrance inlet junction (data taken from line drawing)
+20	55	29.53	87.09	0	;*
+55	56	36.45	115.16	0	;*
+56	57	14.00	180.00	0	;*
+57	58	17.00	88.31	0	;*
+58	59	19.00	180.00	0	;*
+59	60	20.39	281.31	0	;*
+60	61	19.72	210.46	0	;*
+61	62	12.08	114.44	0	;*
+62	63	5.00	216.87	0	;*
+
+
+*end riano_upstream

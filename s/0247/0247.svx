@@ -1,0 +1,29 @@
+*begin 0247_Caracoles
+;surveyors:  Pedro
+*DATE 2008.06.08
+;*CALIBRATE DECLINATION 2.17
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; 2.14-0.4
+;*FIX 1 452370 4796620 170
+;*FIX 1 452268 4796411 170
+*FIX 1 452268 4796411 168
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 1
+
+0	1	7.0	43	10
+0	2	5.5	344	-3
+0	3	5	86	3
+3	4	6	145	-3
+4	5	4	118	0
+
+
+*end 0247_Caracoles

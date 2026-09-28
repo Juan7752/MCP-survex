@@ -1,0 +1,48 @@
+*BEGIN 3812-13-01
+;surveyors: Phil Goodwin
+*date 2013.03.24
+*CALIBRATE DECLINATION 1.14; (1.54-0.4)
+*ENTRANCE 2
+;*FLAGS duplicate | splay | surface
+*FLAGS surface
+1      2      4   5 -45
+*FLAGS not surface
+
+2      3   7.3    11   -41
+
+*FLAGS SPLAY
+3      3a  8.3    244  22
+3      3b  7.5    142  20
+3      3c  4.5    72   15
+3      3d  7.5    21   5; lip of eyehole
+3      3e  4.9    315  17
+*FLAGS NOT SPLAY
+
+3      4   3.8  21     -2; top of wall is "stn 4"
+4      5   .5   21     0; 3.2m down outside of wall; 2.7m up across top of wall
+5      6   5.3  - down
+6      7   4    355   2; stn 7 is Boss
+
+7      8   1.7  355   35; base of up pitch
+8      9   7.3  -     up
+9      10  1.5  10    0; across top
+10     11  6    -     down; down other side
+11     12  8.4  15    -7; base of p to wall by rock where it narrows.
+12     13  3    20    -1; wall by rock to edge of blind pit
+13     blind    9.5    -   down;
+
+13     14  7    10    2; edge of blind p across traverse to edge of wide shaft
+14     15  14   12    0; edge of wide shaft to other side
+
+;============= legs removed after 2014 summer extension and survey  =========
+;14     16  12  -     down; estimate from sketch ; 14-16 not 15-16 corrected Oct 2014
+
+;16	20 2	10	0; guess from sketch
+;20	21	15	-	down; guess from sketch
+;============================================================================
+
+7      17  15   218   -4; up left hand passage
+7      18  12   128   -9; boss to right wall
+18     19  18   5     -12; RH wall to where it closes down
+
+*END 3812-13-01

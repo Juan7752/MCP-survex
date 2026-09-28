@@ -1,0 +1,39 @@
+*BEGIN 4043-14-04
+
+;Yeso: Sandy Crawl to climb down
+
+*TEAM "Ali Neill" laser-length compass clino
+*TEAM "Juan Corrin" notes
+*TEAM "James Carlisle" laser-length compass clino
+*date 2014.07.17
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+;0 is small cairn below climb almost at edge of water
+0	1	4.62	231	41
+1	2	1.36	-	up
+3	2	1.46	299	-24
+3	4	4.3	36	-2
+4	5	5.85	118	1
+6	5	7.68	256	0
+6	7	5.47	51	-3
+
+*FLAGS DUPLICATE
+8	7	4.45	125	-12
+8	9	9.84	322	-1
+10	9	6.16	241	-1
+
+*FLAGS NOT DUPLICATE
+;10 = 01.10
+
+*data passage station left right up down
+3	.86	.81	0	1.42
+4	.43	1.2	.25	0
+5	1.8	.6	.2	.4
+6	1.8	.6	.2	.4
+
+
+*END 4043-14-04

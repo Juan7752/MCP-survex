@@ -1,0 +1,27 @@
+*begin 1930_05_02
+
+;surveyors: Pete Smith Carmen Haskell
+*DATE 2005.02.13
+;name: Evidence of Measure Oxbow continued 2
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.19; (2.59-0.4)
+
+
+0	1	2.1	230	-2
+1	2	2.5	135	-9
+2	3	1.8	153	15
+3	4	3.6	145	-2
+4	5	5.5	233	1
+5	6	4.7	233	1
+6	7	1.8	114	0
+7	8	8.8	222	0
+8	9	1	141	0
+9	10	2.5	170	0	;dummy to link in
+*end 1930_05_02

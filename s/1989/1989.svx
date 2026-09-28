@@ -1,0 +1,32 @@
+*begin 1989
+
+;Llueva
+;Pete Smith Carmen Haskell
+*DATE 2005.02.12
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.2; (2.6-0.4)
+
+*ENTRANCE surface
+
+;*FIX surface 454203 4798225 330; wrong side of road
+;*FIX surface 454101 4798016 330; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX surface 454101 4798016 327
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1	0	5.5	332	2
+1	2	18.1	78	-5.5
+2	3	15.6	359	5
+2	4	10.2	149	8.5
+2	5	9.2	94	13
+5	surface	9.9	-	UP
+*end 1989

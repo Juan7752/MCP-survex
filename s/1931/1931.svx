@@ -1,0 +1,32 @@
+*BEGIN 1931_GreenPepperCave
+;Created from Survey file on Mon,08 Sep 2003.19:36:37
+*DATE 2003.08.08
+;Surveyors      : Ali
+;No of stations : 6
+;Plan length    : 28.0363974m
+;Traverse length: 28.9m
+
+;*FIX 0 448582 4797912 0219
+;*FIX 0 448480 4797703 0219; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 448480 4797703 0220
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.55 degrees but should have been 2.80 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.8-2.55-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+0	1	4.50	114.45	-33	;*
+1	2	5.70	130.45	-1	;*
+2	3	6.20	122.45	4	;*
+3	4	12.50	255.45	8	;*
+*END 1931_GreenPepperCave

@@ -1,0 +1,15 @@
+*begin 1930_021_022
+*include 1930_021
+*include 1930_022
+
+
+*equate 1930_021.13 1930_022.29
+*equate 1930_021.10 1930_022.32
+
+
+;repeated legs to be excluded from total length:
+;010.5-010.67	6.31m
+;001.67-001.66	30m	total 36.31m
+
+
+*end 1930_021_022

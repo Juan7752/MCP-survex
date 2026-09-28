@@ -1,0 +1,19 @@
+*BEGIN 0066_CruzLlorada
+;Created from Survey file on Tue,14 Apr 1998.22:01:50
+;Dates surveyed : 980414
+;Surveyors      : PSt Annie
+;No of stations : 10
+;Plan length    : 13.546842m
+;Traverse length: 54.2m
+
+*FIX 0 50490 98110 0487
+0	1	23.10	131.70	-85	;entr p
+1	2	4.20	351.20	-24	;top of 2nd p
+2	3	18.10	-	-V	;base of 2nd p
+3	4	8.80	337.70	-29	;back wall marked with triangle and 97
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 0066_CruzLlorada

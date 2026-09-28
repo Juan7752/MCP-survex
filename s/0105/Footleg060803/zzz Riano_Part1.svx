@@ -1,0 +1,28 @@
+*BEGIN Riano_Part1
+*EXPORT Riano_UpStream.63
+*EXPORT Riano_DownStream.28
+*EXPORT Riano_DryMaze.231
+
+*include Entrance2.svx
+*include ExtnOffEntranceInlet.svx
+*include DownStream.svx
+*include DryMazeLoop.svx
+*include DryMaze.svx
+*include HighRift.svx
+*include DormouseInlet.svx
+
+*equate Riano_Entrance.819 Riano_DownStream.755
+*equate Riano_Entrance.817 Riano_ExtnOffEntranceInlet.19
+*equate Riano_Entrance.808 Riano_DryMazeLoop.17
+*equate Riano_DryMazeLoop.231 Riano_DormouseInlet.231
+*equate Riano_DryMaze.231 Riano_DormouseInlet.231
+*equate Riano_DryMazeLoop.227 Riano_HighRift.227
+
+*solve
+*include UpStream.svx
+
+;*include UpStream2.svx
+
+*equate Riano_DownStream.755 Riano_UpStream.20
+
+*END Riano_Part1

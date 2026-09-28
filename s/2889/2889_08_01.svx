@@ -1,0 +1,38 @@
+*begin 2889_08_01
+
+;surveyors: Johnny Latimer James Carlisle Simon Latimer Andy Pringle
+
+*DATE 2008.03.27
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+1	2	12	228	0
+2	3	5.6	280	-3
+3	4	3.55	352	-1
+4	5	8.55	208	15
+5	6	9.8	280	0
+6	7	7.6	222	-2
+7	8	7.25	343	0
+8	9	7.1	244	4
+9	10	10.3	334	-8
+10	11	5.2	220	-10
+11	12	7.7	318	-3
+12	13	6.3	226	0
+
+14	15	4.6	345	0
+15	13	4.3	28	-10
+13	16	9.15	315	-2
+16	17	3.3	298	4
+17	18	2.2	328	22
+18	19	4.1	218	50
+19	20	12.2	314	1; width of chamber
+20	33	7.2	324	0
+
+*end 2889_08_01

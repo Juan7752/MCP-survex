@@ -1,0 +1,42 @@
+*begin 0027_002
+
+;Pete Smith Pete Hall
+;
+;*FIX 48 454303 4795494 0196
+*FIX 48 454201 4795285 0196; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.28
+;Sala Caballo Pitch Bypass
+
+1	2	10.5	179	12;	1	4	4	1.2
+2	3	5.5	198	16;	1.5	0	1.8	0.6
+3	4	4.4	211	23;	.5	.2	.5	.6
+4	5	4.7	219	6;	.3	.3	1	2
+5	6	2.6	231	-3;	.6	.6	1.5	3
+6	7	4.5	205	-18;	2	2	3.5	1
+7	8	10.6	226	24;	.3	.3	.5	.7
+8	9	4.7	159	-12;	.3	.3	.5	.7	;clino??
+9	10	10.2	143	0;	1	1	1	1
+10	11	4.6	46	-8;	1	5	.5	1
+11	12	10.6	338	-17;	.2	2	3	1.2
+12	7	7	356	-1;	.2	2	3	1.2
+20	10	8.7	30	-13;	2	2	.7	.7	;STN 20
+20	21	28.5	317	5;	1	1	.7	.5
+21	22	13.7	315	0;	0	3	0	.7
+22	23	9.6	350	-4;	.6	.6	.2	2
+23	24	3.7	4	0;	2	1	.2	.3
+24	25	10.5	332	1;	2	1	.2	.2
+20	20A	9.7	135	3;	2.5	4	.2	1.6
+11	30	16.4	102	-9
+30	48	3.3	39	-2
+
+
+*end 0027_002

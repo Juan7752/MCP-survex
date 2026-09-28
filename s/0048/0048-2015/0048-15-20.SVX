@@ -1,0 +1,43 @@
+*BEGIN 0048-15-20
+;Comediante resurvey cont.
+*date 2015.07.31
+*TEAM  "Alasdair Neill" notes compass clino disto
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.73
+
+1	0	8.46	236	-6	;0 typex spot
+1	2	5	50	-16
+3	2	10.65	145	-12
+4	2	4.28	284	-21
+4	5	9.85	136	25
+6	5	9.14	246	-2.5
+6	7	7.76	37	-3	;7 typex
+8	7	10.99	265.5	-5
+8	9	7.3	31	-7
+10	9	7.7	214	-5
+10	11	8.51	62	-3.5
+11	12	3.64	54	-14
+13	12	7.19	248	-1
+
+
+*data passage station left right up down
+0	1.26	2.25	2.22	.92
+1	3.03	2.10	4.18	1.48
+*data passage station left right up down
+2	5.94	16.98	2.9	0
+3	7.58	11.78	4.91	1.44
+*data passage station left right up down
+2	16.98	5.94	2.9	0
+4	14.5	4.2	3.93	1.46
+5	16.9	0	5.1	1.7
+6	11.62	2.02	3.74	1.52
+7	0	6.7	3.2	1.5
+8	12.3	3.57	1.39	1.58
+9	13.34	.54	5.4	1.1
+10	16.91	1.7	5.7	1.64
+11	19.08	.93	8	1.6
+12	18.62	.94	10.2	1.5
+13	13.16	0	09	1.3
+
+*END 0048-15-20

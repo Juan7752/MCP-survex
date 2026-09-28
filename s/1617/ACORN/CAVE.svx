@@ -1,0 +1,21 @@
+*BEGIN 1617_1617
+;Created from Survey file on Sat,26 Jun 2004.10:09:24
+;Dates surveyed : 010730
+;Surveyors      : JC HL
+;No of stations : 10
+;Plan length    : 29.2793332m
+;Traverse length: 29.3m
+
+*FIX 0 52860 99570 0305
+
+*ENTRANCE 0
+0	1	14.60	62.15	2	;*
+1	2	5.80	58.15	-1	;*
+2	3	4.40	89.15	4	;*
+3	4	4.50	67.15	0	;cairn where 2 routes go off
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1617_1617

@@ -1,0 +1,21 @@
+*BEGIN 1719_
+;Created from Survey file on Sat,26 Jun 2004.10:27:08
+;Dates surveyed : 020326
+;Surveyors      : PP
+;No of stations : 10
+;Plan length    : 9.17190875m
+;Traverse length: 27.1m
+
+*FIX 0 51560 94420 0538
+
+*ENTRANCE 0
+0	1	8.20	-	-V	;*
+1	2	9.00	-	-V	;stal chkd shft - no go
+1	3	4.40	125.30	28	;rft to parll aven
+3	4	5.50	156.30	16	;stn marked PP0
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1719_

@@ -1,0 +1,43 @@
+*BEGIN 2997
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 451671 4796277 417
+
+*DATE 2021.11.14
+*FIX 4 451671 4796277 417
+*ENTRANCE 4
+
+;surveyor: Pete S.
+
+0	1	2.7	0	9
+0	2	2.26	169	-20
+2	3	3.33	197	0
+*FLAGS SURFACE
+3	4	6.5	138	-15; surface leg
+*FLAGS NOT SURFACE
+5	6	3.34	32	2
+5	7	3.71	205	1
+7	8	4.1	181	0
+8	4	2.28	197	3
+
+*data passage station left right up down
+0	1	1.2	1.5	.7
+1	.2	.2	.4	.2
+
+*data passage station left right up down
+0	1.2	1	1.5	.7
+2	1	1	.4	.5
+3	.2	.8	.3	.3
+
+*data passage station left right up down
+5	.7	.4	.2	.3
+6	.2	.1	.2	.2
+
+*data passage station left right up down
+5	.4	.7	.2	.3
+7	.7	.7	.3	.4
+8	0	1	.2	.3
+4	.5	1.5	.3	.4
+	
+*END 2997

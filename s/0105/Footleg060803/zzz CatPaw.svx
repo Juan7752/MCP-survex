@@ -1,0 +1,13 @@
+*BEGIN Riano_CatPaw
+;Riano Cat Paw Passage (data taken from line drawing)
+
+*EXPORT 77 121
+
+77	96	28.65	119.24	0	;*
+116	96	19.10	317.12	0	;*
+115	116	19.00	0000	0	;*
+115	118	26.90	138.01	0	;*
+118	119	16.15	158.19	0	;*
+119	120	12.53	118.61	0	;*
+120	121	5.00	180.00	0	;*
+*END Riano_CatPaw

@@ -1,0 +1,40 @@
+*BEGIN 1624
+*date 2011.07.22
+;surveyors SUSS (Liz Harding)
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35
+
+;*FIX 5 0451409 4794423 0577
+;*FIX 5 451307 4794214 0577; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 5 451307 4794214 0572
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 5
+0	1	 4.02	  1.33	-55.84
+0	2	 1.45	172.96	  3.89
+*FLAGS splay
+2	2a	 0.46	275.60	  4.98
+*FLAGS NOT splay
+2	3	 2.50	315.99	-15.10
+*FLAGS splay
+3	3a	 0.28	 55.37	  2.79
+3	3b	 1.96	250.35	 -4.14
+*FLAGS NOT splay
+3	4	11.43	 66.88	 88.28
+4	5	 6.94	233.69	 75.00
+
+*data passage station left right up down
+2	1.432	0.354	3.42	0.0
+3	0.549	2.836	0.0	0.0
+*END 1624
+

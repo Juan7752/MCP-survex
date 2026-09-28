@@ -1,0 +1,29 @@
+; All interconnected caves which make up the 4 Valleys System
+*BEGIN 4Valleys
+	*CS UTM30N
+	*CS OUT UTM30N
+	*INFER exports on
+
+	;Main 7 system backbones + Riaño Resurgence
+	*INCLUDE ../../0081/0081.svx
+	*INCLUDE ../../0105/0105.svx
+	*INCLUDE ../../0107/0107.svx
+	*INCLUDE ../../0114/0114.svx
+	*INCLUDE ../../0252/0252.svx
+	*INCLUDE ../../0575/0575.svx; Riaño resurgence
+	*INCLUDE ../../1800/1800.svx; also includes 5368 and 5000
+	*INCLUDE ../../3234/3234.svx
+
+	*EQUATE 0105_Riano.UpperLevels.181 0107_Uzueka.2ndRiverInlet.1
+	*EQUATE 0114_Llueva.Part2.414 0107_Uzueka.RockyHorror.original.313
+	*EQUATE 0114_Llueva.Part2.290 0081_Carcavuezo.Eastwards.0081-13-12.30
+	*EQUATE 0114_Llueva.Part2.0114-17-01.0 0081_Carcavuezo.Eastwards.0081-17-02.24
+	*EQUATE 0114_Llueva.Part2.320 0081_Carcavuezo.historical.sewersofdoom.387
+	*EQUATE 0252_Decepcion.0252-22-02.7 0107_Uzueka.Armageddon.0107-22-01.8				;Connection from end of dig into Hoyuca to top of Judgement pitch
+	*EQUATE 0252_Decepcion.0252-22-01.163 0107_Uzueka.ShrimpBoneInlet.0107-22-02.163	;Connecting Deception to Uzueka at the top of Dealers' Choice pitch
+	*EQUATE 0105_Riano.0105-19-01.5.7 3234_Llanio.3234-19-02.9
+	*EQUATE 0105_Riano.downstream.mainstreamway.763 0575.0575-16-02.0
+	*EQUATE 1800.1800-22-06.81  3234_llanio.3234-23-01.11
+	*EQUATE 1800.1800-25-02.18 3234_llanio.3234_17oct.3234_17oct20117.8; Easter 2025 connection
+
+*end 4Valleys

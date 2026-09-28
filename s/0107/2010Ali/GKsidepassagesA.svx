@@ -1,0 +1,22 @@
+*BEGIN GKsidepassages-A
+;rift neatr big chamber in Godknows
+*Date 2010.08.12
+*CALIBRATE declination 1.88
+;surveyors Ali Neill Pete Eagan Torben Redder
+
+0	1	2.79	292	3
+1	2	1.53	287	10
+2	3	7.12	237	-7
+
+
+*data passage station left right up down
+
+0	0	1.4	5.5	1.9
+1	.3	1.2	4.5	2.3
+2	1	.4	1	1.8
+
+*END GKsidepassages-A
+
+*EQUATE GodKnows_Resurveyed_and_Extensions.32 GKsidepassages-A.0
+
+

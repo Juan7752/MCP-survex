@@ -1,0 +1,12 @@
+*BEGIN Moncobe
+*CS UTM30N
+*CS OUT UTM30N
+*INCLUDE ../../2538/2538.svx
+*INCLUDE ../../3420/3420.svx
+*INCLUDE ../../0713/0713.svx
+*INCLUDE ../../3649/3649.svx
+*INCLUDE ../../3215/3215.svx
+*INCLUDE ../../1975/1975.svx
+*INCLUDE ../../3812/3812.svx
+*INCLUDE ../../3450/3450.svx
+*END Moncobe

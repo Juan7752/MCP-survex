@@ -1,0 +1,116 @@
+*begin 4251a
+;the cave in a mine second survey includes more of the mining
+;surveyors Dave Milner and Phil Goodwin
+*data normal From To Length Bearing Gradient
+*CALIBRATE DECLINATION 0.65
+*entrance 1
+*FIX 1 444736 4799566 162; changed from 158-JC
+ 1  2   8.3  289   -3
+ 2  3   2.7  285   15
+ 3  4   2.6  268    6
+ 4  5   4.0  337   -2
+ 5  6   5.0  000    3
+ 6  7   5.8  307    8
+ 7  8   4.2  349   13
+*flags splay
+ 8  9   2.7  169    9;to rim of window
+*flags not splay
+ 8  9a  4.5  000   90;up small shaft to surface
+ 8 10  12.3  297   -5;into blind adit;;
+ 7 11   4.9  181  -18;corner of natural shaft
+11 12   6.8  149   -5;across natural shaft to corner
+12 13   5.1  191  -10
+12 12a  6.0  000   90
+13 14  11.4  260   -3;into blind adit
+13 15   4.7  099   -5
+15  3   3.9  018   -4
+15 16   4.3  210  -31;16 is lip of hole
+16 17   5.5  070  -46;down climb
+17 18   5.8  138    0;into blind adit
+17 19   3.6  056  -20
+19 20  17.5   0   -90;down pitch
+20 21   8.3  092  -32
+*flags splay
+21 22  10.8  067    4
+*flags not splay
+21 23  17.6  063    4
+*flags splay
+21 24   4.0  016    3
+21 26   1.4  161    0
+*flags not splay
+21 25   5.3  314  -12
+*flags splay
+25 27   5.2  228    8
+25 28   2.6  021   -3
+*flags not splay
+25 29   5.3  309   22
+25 25a  1.5  000  -90
+25a 25b 10.0  020    1
+25b 25c 16.0 021    2
+29 30   5.3  221   -9
+30 31   6.6  235   -2
+31 32   3.5  161  -34
+32 33   6.7  078   12
+32 34   9.6  262   -7
+34 35   8.6  244   -1
+*flags splay
+35 36  12.0  317   60
+*flags not splay
+35 37  15.9  295   -3
+37 38   1.9  248   -7
+38 39   5.2  250   10
+39 40   6.4  329    0
+*flags splay
+39 41   3.9  259    0
+39 42   6.3  231    0
+*flags not splay
+39 43   7.0  171   -8
+*flags splay
+43 44   7.2  024   -8
+43 45   7.1  074    8
+*flags not splay
+43 46   7.5  096   -8
+46 47  10.0  139   -1
+*flags splay
+47 48   4.5  344    0
+47 49  10.8  296    0
+47 49a  5.7  076    0
+*flags not splay
+47 50   3.1  199    5
+50 51   4.6  253  -11
+51 52   5.1  232  -12
+*flags splay
+52 53   6.1  359    0
+52 54   6.4  315   23
+52 55  13.0  272   23
+52 56   5.0  273   -8
+52 57   9.2  228   -6
+*flags not splay
+52 58  13.7  223    0
+52 59  13.6  211   -3
+*flags splay
+52 60   9.2  209    0
+52 61   8.3  184    0
+52 62   5.4  117   20
+*flags not splay
+*data passage station down up left right
+ 1 0.8 1.0 0.8 0.8
+ 2 0.8 0.9 0.5 1.4
+ 3 1.4 0.5 0.0 1.6
+ 5 1.3 0.8 0.0 2.0
+ 6 0.8 1.7 2.3 0.0
+ 7 1.2 0.8 0.0 1.8
+ 8 1.2 0.8 0.9 1.1
+11 0.0 1.6 2.0 1.6
+12 1.0 0.9 0.0 1.9
+13 0.0 1.9 1.6 0.0
+17 0.0 1.1 0.5 1.2
+30 0.0 1.5 1.7 2.2
+32 1.4 4.1 0.0 2.1
+34 0.0 5.6 3.3 1.5
+35 1.3 4.2 3.9 5.0
+38 0.8 0.0 1.6 1.0
+46 0.6 0.8 0.0 4.2
+50 1.4 5.5 0.0 1.2
+*end 4251a
+

@@ -1,0 +1,29 @@
+*BEGIN 0433_Acebo
+;Created from Survey file on Sun,09 May 1999.19:13:50
+;Dates surveyed : 970807
+;Surveyors      : LizC
+;No of stations : 20
+;Plan length    : 33.1655426m
+;Traverse length: 40.2m
+
+*FIX 0 49420 96530 0380
+0	1	10.20	61.55	-39	;down entr slope
+1	2	3.00	18.55	-25	;*
+2	3	3.90	-	-V	;*
+3	4	7.50	65.55	-5	;junction R to entr shaft
+4	5	5.60	356.55	-17	;oxbow
+5	6	1.60	354.55	0	;*
+6	7	3.40	263.55	-12	;*
+7	8	2.20	345.55	-24	;*
+8	9	2.80	358.55	-10	;easy sandy dig; entrencher, bucket, half tub
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0433_Acebo

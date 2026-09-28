@@ -1,0 +1,14 @@
+*BEGIN Riano_Part3
+*EXPORT Riano_UpperLevels2.130
+
+*include UpperLevels2.svx
+*include UpperLevels3.svx
+*include FarEnd.svx
+*include FarEndInlet.svx
+
+*equate Riano_UpperLevels2.167 Riano_UpperLevels3.167
+*equate Riano_UpperLevels2.174 Riano_FarEndL.174
+*equate Riano_UpperLevels2.174 Riano_FarEndR.174
+*equate Riano_UpperLevels2.174 Riano_FarEndInlet.174
+
+*END Riano_Part3

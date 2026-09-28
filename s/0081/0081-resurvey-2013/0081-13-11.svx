@@ -1,0 +1,33 @@
+*BEGIN 0081-13-11
+
+
+*date 2013.07.30
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+;surveyors: Alasdair Neill, Carmen Smith.
+;passage name: sandy crawl off the maze
+
+0	1	1.59	140	+10
+1	2	6.75	53	-12
+2	3	5.98	10	-7
+3	4	10	61	-1
+
+
+
+*data passage station left right up down
+
+0	.6	.6	.8	.7
+1	1	.8	1.02	1.6
+2	.8	.7	1.1	.4
+3	.2	.2	.2	.2
+
+
+*END 0081-13-11

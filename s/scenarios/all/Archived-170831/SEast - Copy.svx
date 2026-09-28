@@ -1,0 +1,119 @@
+*BEGIN all
+; originally comes from an Access query which flags the sites which have 3d files
+; change 0553/0553 to 0553/1930
+;check 1471
+;check 2264
+; 2713 Toca not plotted
+;(3024 no GPS of entrance?)
+; 0027 is included in 0025 so comment it out
+
+*INCLUDE ../../0002/0002.svx
+*INCLUDE ../../0013/0013.svx
+*INCLUDE ../../0025/0025.svx
+;*INCLUDE ../../0027/0027.svx
+*INCLUDE ../../0028/0028.svx
+*INCLUDE ../../0039/0039.svx
+*INCLUDE ../../0043/0043.svx
+*INCLUDE ../../0051/0051.svx
+*INCLUDE ../../0052/0052.svx
+*INCLUDE ../../0058/0058.svx
+*INCLUDE ../../0059/0059.svx
+*INCLUDE ../../0065/0065.svx
+*INCLUDE ../../0073/0073.svx
+*INCLUDE ../../0077/0077.svx
+*INCLUDE ../../0078/0078.svx
+*INCLUDE ../../0089/0089.svx
+*INCLUDE ../../0090/0090.svx
+*INCLUDE ../../0094/0094.svx
+*INCLUDE ../../0099/0099.svx
+*INCLUDE ../../0110/0110.svx
+*INCLUDE ../../0112/0112.svx
+*INCLUDE ../../0116/0116.svx
+*INCLUDE ../../0138/0138.svx
+*INCLUDE ../../0169/0169.svx
+*INCLUDE ../../0177/0177.svx
+*INCLUDE ../../0242/0242.svx
+*INCLUDE ../../0246/0246.svx
+*INCLUDE ../../0247/0247.svx
+*INCLUDE ../../0264/0264.svx
+*INCLUDE ../../0265/0265.svx
+*INCLUDE ../../0266/0266.svx
+*INCLUDE ../../0273/0273.svx
+*INCLUDE ../../0297/0297.svx
+*INCLUDE ../../0306/0306.svx
+*INCLUDE ../../0312/0312.svx
+*INCLUDE ../../0345/0345.svx
+*INCLUDE ../../0381/0381.svx
+*INCLUDE ../../0387/0387.svx
+*INCLUDE ../../0408/0408.svx
+*INCLUDE ../../0413/0413.svx
+*INCLUDE ../../0472/0472.svx
+*INCLUDE ../../0489/0489.svx
+*INCLUDE ../../0501/0501.svx
+*INCLUDE ../../0506/0506.svx
+*INCLUDE ../../0509/0509.svx
+*INCLUDE ../../0517/0517.svx
+*INCLUDE ../../0531/0531.svx
+*INCLUDE ../../0616/0616.svx
+*INCLUDE ../../0617/0617.svx
+*INCLUDE ../../0635/0635.svx
+*INCLUDE ../../0734/0734.svx
+*INCLUDE ../../0739/0739.svx
+*INCLUDE ../../0753/0753.svx
+*INCLUDE ../../0758/0758.svx
+*INCLUDE ../../0846/0846.svx
+*INCLUDE ../../0865/0865.svx
+*INCLUDE ../../0885/0885.svx
+*INCLUDE ../../1175/1175.svx
+*INCLUDE ../../1235/1235.svx
+*INCLUDE ../../1264/1264.svx
+*INCLUDE ../../1265/1265.svx
+*INCLUDE ../../1271/1271.svx
+*INCLUDE ../../1294/1294.svx
+*INCLUDE ../../1295/1295.svx
+*INCLUDE ../../1325/1325.svx
+*INCLUDE ../../1391/1391.svx
+*INCLUDE ../../1512/1512.svx
+*INCLUDE ../../1514/1514.svx
+*INCLUDE ../../1538/1538.svx
+*INCLUDE ../../1591/1591.svx
+*INCLUDE ../../1679/1679.svx
+*INCLUDE ../../1719/1719.svx
+*INCLUDE ../../1743/1743.svx
+*INCLUDE ../../1808/1808.svx
+*INCLUDE ../../1822/1822.svx
+*INCLUDE ../../1847/1847.svx
+*INCLUDE ../../1887/1887.svx
+*INCLUDE ../../1935/1935.svx
+*INCLUDE ../../2437/2437.svx
+*INCLUDE ../../2461/2461.svx
+*INCLUDE ../../2563/2563.svx
+*INCLUDE ../../2572/2572.svx
+*INCLUDE ../../2693/2693.svx
+*INCLUDE ../../2813/2813.svx
+*INCLUDE ../../2964/2964.svx
+*INCLUDE ../../3001/3001.svx
+*INCLUDE ../../3116/3116.svx
+
+; 4 VALLEYS 
+;*EQUATE 0114_llueva.restofcave.290 0081_carcavueso.253
+;*EQUATE 0114_llueva.restofcave.414 0107_uzueka.313
+;*EQUATE 0114_llueva.restofcave.172 0081_carcavueso.152
+;*equate 0107_uzueka.175 0105_riano.UpperLevels.181
+
+; SVS
+;*EQUATE 1471_PNoel.1471_old.380 0264_coteron.373; Paper Plane to Coteron Renada Arm choke
+;*EQUATE 1471_PNoel.1471_old.387 0048_renada.437; Tumbling Dice to Itchy Crutch
+;*EQUATE 1338_shaft.76 0264_coteron.252; 1338 to 81 Depths Coteron
+;*EQUATE 0036_Vera_Negra.127 0048_renada.69; aven climb up into Cabana
+;*EQUATE 1471_PNoel.1471_006.18 0333_Azpilicueta.732; At the Opera / Hole in Wall Chamber
+;*EQUATE 0048_Renada.116 0264_Coteron.315; original connection
+;*EQUATE 1471_PNoel.1471_005.2 0048_renada.aa-climb.93
+
+; NVS
+;*EQUATE 0071_mostajo.672 0774_774.155
+;*EQUATE 0774_774.267 0892-all.0892_Reg_old.1054
+;*EQUATE 0774_774.271 0892-all.0892_Reg_old.284
+;*EQUATE 0774_774.282 0892-all.0892_Reg_old.987
+
+*END all

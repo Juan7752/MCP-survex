@@ -1,0 +1,31 @@
+*begin 2366_06_03
+
+;surveyors: Pete Smith, Andy Pringle, Steve Martin
+;name: El Torno
+*DATE 2006.04.13
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+0	1	9.6	298	-24
+1	2	6.7	201	-33
+2	3	6.5	320	4
+3	4	6.8	270	-15
+4	5	18.6	218	-5
+5	6	17.5	291	-4
+6	7	8.2	310	-3
+7	8	4	299	7
+8	9	10.8	288	-6
+9	10	6.4	261	-3
+10	11	26.05	242	-2
+11	12	4.3	295	-4
+12	13	3.5	279	-2
+13	14	16.3	259	-5
+
+*end 2366_06_03

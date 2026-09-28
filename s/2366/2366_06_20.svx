@@ -1,0 +1,25 @@
+*begin 2366_06_20
+;
+*DATE 2006.08.03
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+; 3/8/06 PBW + Footleg + Caroline, Granny's slippers, Torno
+; PBW = recording, footleg = instruments, caroline = tape
+; instruments = CH tandem, expo tape measuring from 20cm
+*calibrate tape +0.20
+
+; short passage that goes to view back down into the pit.
+
+	 1	 2	 9.25	069	 +6
+	 2	 3	 6.56	104	 -4
+	 3	 4	 7.41	107	-27
+
+*end 2366_06_20

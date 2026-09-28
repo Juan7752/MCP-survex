@@ -1,0 +1,39 @@
+*BEGIN 0370_Cuvia de Seldesuto
+;Created from Survey file on Sun,20 Jun 2004.13:46:45
+;Dates surveyed : 950530&970408
+;Surveyors      : PSt++PSt PE
+;No of stations : 28
+;Plan length    : 266.352778m
+;Traverse length: 287.2m
+
+*FIX 0 49140 95330 0275
+
+*ENTRANCE 0
+0	1	21.90	41.25	-15	;*
+1	2	7.55	11.25	12	;*
+2	3	7.70	333.25	-3	;*
+3	4	6.10	-	-V	;*
+4	5	17.40	41.25	3	;rift
+5	6	5.50	322.25	68	;cl up
+6	7	3.05	326.75	5	;tube opposite
+7	8	8.25	314.25	-61	;pitch down
+8	9	29.10	346.25	-2	;*
+9	10	24.10	11.25	26	;*
+10	11	8.60	348.25	37	;*
+11	12	5.60	343.25	-10	;*
+12	13	9.15	344.25	5	;*
+13	14	13.70	22.25	16	;cairn below cl up
+9	15	18.90	231.25	-9	;large stal column
+15	16	11.80	308.25	12	;*
+16	17	18.50	346.25	8	;mark on back wall
+8	18	12.70	321.55	-6	;*
+18	19	12.00	208.55	-4	;*
+19	20	9.80	285.55	-2	; vtight calc squeeze
+20	21	9.40	228.05	-7	;*
+21	22	9.20	290.55	1	;*
+22	23	7.60	10.55	19	;*
+23	24	9.60	327.55	0	;pass ends
+0	25	0.0	-	+V	;*
+0	26	0.0	-	+V	;*
+0	27	0.0	-	+V	;*
+*END 0370_Cuvia de Seldesuto

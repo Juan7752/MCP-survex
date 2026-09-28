@@ -1,0 +1,8 @@
+*BEGIN Minas
+*CS UTM30N
+*CS OUT UTM30N
+*include ../../0713/0713.svx
+*include ../../1561/1561.svx
+*include ../../4251/4251.svx
+
+*END Minas

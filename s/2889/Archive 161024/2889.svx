@@ -1,0 +1,383 @@
+*begin 2889_Vaca
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;*fix 2889_08_03.53 448356 4801411 0112
+;*fix 2889_08_03.53 448254 4801202 0112
+*fix 2889_08_03.53 448254 4801202 0117
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+; lines below raised by 5m
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*fix 2889_08_02.1 448218 4801336 0071; downstream Squality Street
+*fix 2889_08_02.1 448116 4801127 0076
+;*fix 2889_08_19.z 448187 4801257 0073; keep "p30" base at alt 73
+*fix 2889_08_19.z 448085 4801048 0078
+;*fix 2889_08_22.2 448196 4801199 0073; batch 22 raised to "p30" level
+*fix 2889_08_22.2 448094 4800990 0078
+;*fix 2889_08_22a.16 448196 4801207 0073; batch 22a raised to "p30" level
+*fix 2889_08_22a.16 448094 4800998 0078
+;*FIX 2889_09_01.a6 448254.66 4800867.61 126.46; Fixes points on line through to cave end, allowing batch 09_09 to be attached at both end without having to redraw survey
+;*FIX 2889_09_01.a6 448152.66 4800658.61 131.46
+;*FIX 2889_09_06.2 448229.15 4800749.41 118.87; Other end of 09_09 fixes
+*FIX 2889_09_06.2 448127.15 4800540.41 123.87
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+; FIXes above need another look at after adjustment to Eur79 UTM grid rather than True. JSC 19/12/2013
+; ETRS89 has moved the fixes but they have yet to be checked. JSC 14/3/2014
+
+*entrance 2889_08_02.39; TLV
+*ENTRANCE 2889_14_01.9.13;BMCH
+
+;Easter 2008
+*include 2889_08_01
+*include 2889_08_02
+*include 2889_08_03
+*include 2889_08_04
+*include 2889_08_05
+*include 2889_08_06
+*include 2889_08_07
+*include 2889_08_08
+*include 2889_08_09
+*include 2889_08_10
+*include 2889_08_11
+*include 2889_08_12
+*include 2889_08_13
+*include 2889_08_14
+*include 2889_08_15
+*include 2889_08_16
+*include 2889_08_16a
+*include 2889_08_17
+*include 2889_08_18
+
+;Summer 2008
+*include 2889_08_19
+*include 2889_08_20
+;*include 2889_08_21; high rift - superceded
+*include 2889_08_22
+*include 2889_08_22A
+*include 2889_08_23
+*include 2889_08_24
+*include 2889_08_25
+*include 2889_08_26
+*include 2889_08_27
+*include 2889_08_28
+*include 2889_08_29
+*include 2889_08_30
+*include 2889_08_31
+*include 2889_08_32
+*include 2889_08_33
+*include 2889_08_33
+*include 2889_08_34
+*include 2889_08_35
+*include 2889_08_36
+*include 2889_08_37
+*include 2889_08_38
+*include 2889_08_39
+*include 2889_08_40
+*include 2889_08_41
+*include 2889_08_42
+*include 2889_08_43
+*include 2889_08_44
+*include 2889_08_45; to be tied in
+*include 2889_08_46
+*include 2889_08_47
+*include 2889_08_48
+
+;Easter 2009
+*include 2889_09_01
+*include 2889_09_02
+*include 2889_09_03
+*include 2889_09_04
+*include 2889_09_05
+*include 2889_09_06
+*include 2889_09_07
+
+;summer 2009
+*INCLUDE 2889_09_08
+*INCLUDE 2889_09_09
+*INCLUDE 2889_09_10
+;*INCLUDE 2889_09_11 replaced by 14_12
+*INCLUDE 2889_09_12
+*INCLUDE 2889_09_13
+*INCLUDE 2889_09_14
+*INCLUDE 2889_09_15
+*INCLUDE 2889_09_16
+*INCLUDE 2889_09_17
+*INCLUDE 2889_09_18
+*INCLUDE 2889_09_19
+*INCLUDE 2889_09_20
+
+;Easter 2010
+;*INCLUDE 2889_10_01 replaced and augmented by batch 14_02
+*INCLUDE 2889_10_02
+
+;Summer 2010
+*INCLUDE 2889_10_03
+*INCLUDE 2889_10_04
+*INCLUDE 2889_10_05
+*INCLUDE 2889_10_06
+*INCLUDE 2889_10_07
+*INCLUDE 2889_10_08
+
+;Easter 2011
+*INCLUDE 2889_11_01
+*INCLUDE 2889_11_02
+*INCLUDE 2889_11_03
+*INCLUDE 2889_11_04; dive from Buttermere towards Wild Mare
+
+;summer 2011
+*INCLUDE 2889_11_05
+
+;Easter 2012
+*INCLUDE 2889_12_01
+
+;Summer 2012
+*INCLUDE 2889_12_02
+
+;Easter 2013
+*INCLUDE 2889_13_01
+
+;Summer 2013
+*INCLUDE 2889_13_02
+*INCLUDE 2889_13_03
+*INCLUDE 2889_13_04
+*INCLUDE 2889_13_05
+*INCLUDE 2889_13_06
+*INCLUDE 2889_13_07
+*INCLUDE 2889_13_08
+*INCLUDE 2889_13_09
+*INCLUDE 2889_13_10
+*INCLUDE 2889_13_11
+
+;Summer 2014
+*INCLUDE 2889_14_01
+*INCLUDE 2889_14_02
+; surveyed through to BMCH entrance; fixed at that point
+;**************************************
+*FIX 2889_14_01.9.13 448564 4800273 155
+;BMCH entrance
+*ENTRANCE 2889_14_01.9.13
+;**************************************
+
+;Autumn 2014
+*INCLUDE 2889_14_03
+*INCLUDE 2889_14_04
+
+;Xmas 2014
+*INCLUDE 2889_14_05
+*INCLUDE 2889_14_06
+*INCLUDE 2889_14_07
+*INCLUDE 2889_14_08
+*INCLUDE 2889_14_09
+*INCLUDE 2889_14_10
+*INCLUDE 2889_14_11
+*INCLUDE 2889_14_12; part resurvey
+;***********************************************************************
+;After batch 14_12 (Simon Cornhill): 
+;   Remove Cow12.34 to cow12.54 and all of vaca21
+;   Remove 2889_14_04.ac to 2889_14_04.t
+;   *EQUATE 2889_14_12.1.23 2889_14_04.u  (or v)  ; to link the November discovery to our centreline
+;***********************************************************************
+
+;Easter 2015
+*include 2889-15-01
+*INCLUDE 2889_15_02
+*INCLUDE 2889_15_03
+*INCLUDE 2889_15_05
+*INCLUDE 2889_15_06
+*INCLUDE 2889_15_04
+
+;summer 2015
+*include 2889_15_07
+*include 2889_15_08
+*include 2889_15_09
+*include 2889_15_10
+
+;autumn 2015
+*include 2889_15_11
+*include 2889_15_12
+
+;Easter 2016
+*include 2889_16_01; Fred Whitton
+*include 2889_16_02; bolt climb nr Scafell
+*include 2889_16_03; Fred Whitton
+*include 2889_16_04; Code Brown
+*include 2889_16_05;
+*include 2889_16_06;
+ 
+;Summer 2016
+*include 2889_16_07
+*include 2889_16_08
+*include 2889_16_09
+*include 2889_16_10
+*include 2889_16_11
+*include 2889_16_12
+*include 2889_16_13
+*include 2889_16_14
+
+ 
+*equate 2889_08_01.33 2889_08_02.32;altered from 02.33 jsc 22/8/08; see dingle sketch
+*equate 2889_08_02.39 2889_08_03.51
+*equate 2889_08_04.16 2889_08_03.0
+*equate 2889_08_03.48 2889_08_05.0
+*equate 2889_08_03.44 2889_08_06.25
+*equate 2889_08_03.46 2889_08_07.26
+*equate 2889_08_03.5 2889_08_08.39
+*equate 2889_08_02.3 2889_08_09.9
+*equate 2889_08_01.19 2889_08_10.10
+*equate 2889_08_03.38 2889_08_11.39a
+*equate 2889_08_03.13 2889_08_11.47
+*equate 2889_08_03.8 2889_08_12.3
+*equate 2889_08_03.44 2889_08_12.38
+*equate 2889_08_11.16 2889_08_12.21
+*equate 2889_08_03.13 2889_08_13.0
+*equate 2889_08_03.15 2889_08_14.0
+*equate 2889_08_03.21 2889_08_15.0
+*equate 2889_08_03.42 2889_08_16.3
+*equate 2889_08_03.42 2889_08_16a.42
+*equate 2889_08_07.33 2889_08_17.0
+*equate 2889_08_08.50 2889_08_18.0
+*equate 2889_08_06.25 2889_08_19.guess
+*equate 2889_08_11.16 2889_08_20.4
+;*equate 2889_08_11.29 2889_08_21.11
+*equate 2889_08_11.34 2889_08_22.16
+;*equate 2889_08_11.34 2889_08_23.28
+*equate 2889_08_23.0 2889_08_24.0
+*equate 2889_08_24.16 2889_08_25.16BS
+*equate 2889_08_24.22 2889_08_25.22BS
+*equate 2889_08_23.19 2889_08_25.0
+*equate 2889_08_46.3 2889_08_25.0
+*equate 2889_08_24.44 2889_08_26.BS44
+*equate 2889_08_26.19 2889_08_27.19
+*equate 2889_08_24.1 2889_08_28.1
+*equate 2889_08_24.11 2889_08_29.1; possible connection error?? Now best fit for loop closure
+*equate 2889_08_05.3 2889_08_30.1
+*equate 2889_08_22.16 2889_08_30.8
+*equate 2889_08_22A.0 2889_08_30.8
+*equate 2889_08_22A.5 2889_08_22.12
+*equate 2889_08_29.1 2889_08_31.1
+*equate 2889_08_24.15 2889_08_31.6
+*equate 2889_08_24.16 2889_08_32.1
+*equate 2889_08_03.46 2889_08_33.15
+*equate 2889_08_12.16 2889_08_34.4
+*equate 2889_08_02.8 2889_08_34.1
+*equate 2889_08_26.0 2889_08_35.B0
+*equate 2889_08_36.28 2889_08_08.50
+*equate 2889_08_37.8 2889_08_11.29
+*equate 2889_08_37.1 2889_08_38.5
+*equate 2889_08_12.26 2889_08_38.1
+*equate 2889_08_36.18 2889_08_03.2; unconfirmed by JC
+*equate 2889_08_07.34 2889_08_39.34
+*equate 2889_08_40.0 2889_08_03.12
+*equate 2889_08_41.3 2889_08_44.5
+*equate 2889_08_22a.5 2889_08_42.10
+*equate 2889_08_03.32 2889_08_43.6
+*equate 2889_08_22a.0 2889_08_44.0
+*equate 2889_08_44.8 2889_08_46.1
+*equate 2889_08_35.13 2889_08_47.0
+*EQUATE 2889_08_47.63 2889_08_45.23
+*EQUATE 2889_08_24.39 2889_08_48.16
+*EQUATE 2889_09_01.b5 2889_08_25.14
+*EQUATE 2889_09_01.a15 2889_09_02.D15
+*EQUATE 2889_09_02.34b 2889_09_03.34b
+*EQUATE 2889_09_02.25b 2889_09_04.25b
+*EQUATE 2889_08_45.1 2889_09_05.1
+*EQUATE 2889_09_02.z2 2889_09_06.2MDS
+*EQUATE 2889_09_02.y14 2889_09_07.14
+*EQUATE 2889_09_02.28b 2889_09_08.p
+*EQUATE 2889_09_06.2 2889_09_09.0
+;*EQUATE 2889_09_06.10 2889_09_09.10
+*EQUATE 2889_09_07.120 cow11.0
+*EQUATE 2889_09_09.35b 2889_09_01.a6
+;*EQUATE vaca21.11 cow12.54; *** replaced by 14_12
+*EQUATE 0608091.11 cow11.37
+*EQUATE 2889_09_13.5 2889_09_01.a4
+*EQUATE 2889_09_14.8b 2889_09_09.8b
+*EQUATE vaca66.7 cow11.24; 09_15 start
+*EQUATE vaca61.25 vaca31.11; 09_16 start
+*EQUATE 2889_09_17.44 vaca63.72
+*EQUATE 2889_09_17.0 vacabarny1.0
+*EQUATE 2889_09_191.0 vacabarny1.98
+*EQUATE vaca51.9 vaca31.1
+
+;*EQUATE 2889_09_09.8a 2889_10_01.51  10_01 replaced and augmented by batch 14_02
+
+*EQUATE 2889_09_07.75 2889_10_02.22
+*EQUATE 2889_09_07.14 2889_10_03.14
+*EQUATE 2889_09_07.33 2889_10_04.33
+*EQUATE 2889_10_04.12 2889_10_05.1a
+*EQUATE 2889_09_14.43 2889_10_06.43
+*EQUATE 2889_09_09.34a 2889_10_07.34
+*EQUATE 2889_10_08.0 2889_10_06.27
+*EQUATE vaca51.0 2889_11_01.a14
+*EQUATE 2889_11_02.suitwrecker_inlet5.27 2889_09_191.49
+*EQUATE 2889_09_07.82 2889_11_03.1.0
+*EQUATE 2889_09_07.69 2889_11_03.2.17
+*EQUATE 2889_08_19.x2 2889_11_04.a
+*EQUATE 2889_11_05.21 2889_09_14.47
+*EQUATE 2889_11_04.b 2889_12_01.a
+*EQUATE 2889_13_01.1.0 2889_08_01.1
+*EQUATE 2889_13_02.10 2889_12_02.7
+*EQUATE 2889_08_41.3 2889_13_03.0
+;*EQUATE 2889_08_46.1 2889_13_02.16
+*EQUATE 2889_09_14.85 2889_13_04.85
+*EQUATE 2889_10_08.3 2889_13_05.x1
+*EQUATE 2889_09_07.49 2889_13_06.49
+*EQUATE 2889_09_07.57 2889_13_07.1
+*EQUATE 2889_09_09.8b 2889_13_08.8a
+
+;*EQUATE 2889_10_01.3 2889_13_09.x  replaced and augmented by batch 14_02
+*EQUATE 2889_13_09.1 2889_09_14.41
+*EQUATE 2889_08_02.37 2889_13_10.5
+*EQUATE 2889_13_01.4.8 2889_13_11.0
+
+*EQUATE 2889_09_14.85 2889_14_01.1.0
+*EQUATE 2889_09_14.31 2889_14_02.4.9
+*EQUATE 2889_14_03.0 cow11.18
+;*EQUATE 2889_14_04.AC cow12.33; ***replaced by 14_12
+*EQUATE cow11.23 2889_14_05.1.0
+*EQUATE 2889_09_09.7 2889_14_06.2.0
+*EQUATE vaca61.15 2889_14_07.0
+*EQUATE vaca61.25 2889_14_08.1.0
+*EQUATE 2889_09_01.a21 2889_14_09.1.0
+*EQUATE 2889_14_02.4.9 2889_14_10.0;oxbow
+*EQUATE 2889_14_02.8.18 2889_14_10.6;oxbow
+*EQUATE 2889_09_07.92 2889_14_11.1.0
+*EQUATE cow12.33 2889_14_12.1.0
+*EQUATE 2889_14_04.u 2889_14_12.1.23
+*EQUATE 2889-15-01.x 2889_13_05.10
+;*EQUATE 2889_14_12.1.17 2889_15_02.2.0
+*EQUATE 2889_14_12.1.23 2889_15_02.3.0
+*EQUATE 2889_14_12.1.14 2889_15_02.6.0
+*EQUATE 2889_14_12.1.15 2889_15_02.7.0
+*EQUATE 2889-15-01.10 2889_15_03.1.0
+*EQUATE 2889_14_02.1.0 2889_15_05.11.0
+*EQUATE 2889_14_02.4.4 2889_15_06.14.0
+*EQUATE 2889_11_05.10 2889_15_06.16.27
+*EQUATE 2889_09_14.78 2889_15_04.1.0
+*EQUATE 2889_15_03.1.8 2889_15_07.8
+*EQUATE 2889_15_03.1.1 2889_15_08.1
+*EQUATE 2889_15_09.1 2889_15_07.1
+*EQUATE 2889_15_10.1.9 2889_15_04.1.9
+*EQUATE 2889_15_11.45 2889_09_17.6;vaca63.67
+*EQUATE 2889_15_12.0 2889_11_02.suitwrecker_inlet3.5
+*EQUATE 2889_08_24.22 2889_16_01.1.0
+*EQUATE 2889_09_01.1 2889_16_02.6
+*EQUATE 2889_08_24.15 2889_16_03.1.0
+;*EQUATE 2889_08_24.19 2889_16_04.0
+*EQUATE 2889_08_24.16 2889_16_04.1.0
+*EQUATE 2889_08_24.32 2889_16_05.0
+*EQUATE 2889_15_07.4 2889_16_06.3
+*EQUATE 2889_16_01.1.7 2889_16_07.7.0
+*EQUATE 2889_16_01.3.12 2889_16_08.8.0
+*EQUATE 2889_16_01.3.18 2889_16_09.9.0
+*EQUATE 2889_08_25.16 2889_16_10.1.0	;Side passage just south of Scafell Aven green level
+*EQUATE 2889_08_24.42 2889_16_11.1.0	;2016 side passages South of Whitehavens down to Mancunian candidate area
+*EQUATE 2889_08_35.13 2889_16_12.2.40	;end of Mancunian candidate linking in 2016 bathtime survey
+*EQUATE 2889_08_47.20 2889_16_12.1.0	;Closing Bathtime loop with short streamway resurvey
+*EQUATE 2889_08_45.15 2889_16_13.20.0	;Passage heading North from Ribtickler towards 1st Terminal choke
+*EQUATE 2889_08_26.23 2889_16_13.21.20 	;Closing loop of 1st terminal choke/bath time/Rib tickler
+*EQUATE 2889_08_45.1 2889_16_14.1.0 
+
+*end 2889_Vaca

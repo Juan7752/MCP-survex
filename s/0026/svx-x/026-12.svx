@@ -1,0 +1,24 @@
+*begin 026-12
+;Elephant to Karabiner Loop
+*CALIBRATE declination 1.88
+;team "Dave Harley"
+;team "Clare Youens"
+;team "Liz Harding"
+;Instuments Matienzo Compass,Clino, Disto.
+
+*data normal from to tape compass clino
+
+ ;      1     2     -     down      6.1
+
+45	1	3.22	062.5	-11.5
+1	2	3.27	026	-8
+2	39	1.136	325	-7
+
+*data passage station left right up down
+
+1	1.38	0	0.31	0.45
+2	0.56	0	0.45	0.37
+
+      
+*end 026-12
+

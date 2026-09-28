@@ -1,0 +1,43 @@
+*begin 1930_020
+
+;surveyors: Juan Corrin Phil Papard Ian Chandler
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.28
+
+;Two Fools Passage linked to rift up ladder
+*DATE 2004.05.31
+
+228	30	10	43	-8	;228 top of boulder pile
+30	31	9.9	338	-1
+31	32	7.1	339	0
+32	33	4.7	243	-8
+33	34	13	330	3
+34	35	11.4	56	-1
+35	36	3.4	341	-1
+36	37	16	52	4
+37	38	19.5	43	-2	;38 ladder base
+50	51	4.1	348	42
+51	52	3.5	230	26
+52	53	5.5	227	-2
+53	54	3.1	291	-6
+54	55	15.2	228	4
+55	38	10.3	254	-5	;38 ladder base
+38	39	4.6	-	UP	;39 ladder top
+39	40	2.2	318	0
+40	41	2.5	255	3
+41	42	2.45	304	4
+42	43	1.8	264	5
+43	44	3.2	335	10
+44	45	5.9	240	-9
+45	46	3.2	306	-9
+46	47	5.5	284	-52
+46	7old	4	296	11
+47	48	4.4	306	-42
+*end 1930_020

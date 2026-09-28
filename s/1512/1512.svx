@@ -1,0 +1,33 @@
+*BEGIN 1512_1512
+;Created from Survey file on Sat,26 Jun 2004.09:42:33
+*DATE 2000.07.25
+;Surveyors      :
+;No of stations : 10
+;Plan length    : 10.7809824m
+;Traverse length: 17.9m
+
+;*FIX 0 451747 4795232 0324
+;*FIX 0 451645 4795023 0324; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451645 4795023 0311
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.2-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.2
+
+0	1	1.60	220.00	-5	;5 to 4
+1	2	3.40	276.00	-11	;stn 3
+2	3	5.20	-	-V	;p base
+3	4	2.80	105.00	-55	;stn 1
+4	5	4.90	141.00	-30	;stn 0 at start of meander
+*END 1512_1512

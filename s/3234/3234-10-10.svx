@@ -1,0 +1,41 @@
+*BEGIN 3234-10-10
+;*CALIBRATE DECLINATION 1.88
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.48; (1.88-0.4)
+*Date 2010.08.13
+;surveyors Jude Onions Sue Ryall Johnny Latimer
+*FLAGS duplicate
+0	1	5.68	274	-18
+*FLAGS NOT duplicate
+1	2	5.00	290	-11
+2	3	4.84	325	-14
+3	4	9.17	280	-8
+4	5	2.01	291	-19
+5	5a	3.83	316	-3
+
+5	6	2.47	249	3
+6	7	3.21	321	12
+7	8	2.44	310	42
+8	9	3.71	286	5
+
+
+*data passage station up down left right
+0	4.29	0	1.46	.56
+1	6.25	1.22	1.29	.28
+2	0	1.29	.43	.39
+3	.1	1.12	.79	0
+4	.58	.84	0	1.04
+5	4.47	0	1.39	.38
+*data passage station up down left right
+5	4.47	0	1	.8
+6	3.4	.6	.3	.33
+7	2.96	.35	0	.36
+8	.68	.51	.05	.28
+
+*END 3234-10-10

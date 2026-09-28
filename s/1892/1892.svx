@@ -1,0 +1,33 @@
+*BEGIN 1892
+
+;surveyors: Bob Cawthorne
+;passage name:
+*DATE 2009.08.09
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+;*FIX 0 450569 4797686 505
+;*FIX 0 450467 4797477  505; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450467 4797477  508
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+
+0	1	7	315	0
+
+*data passage station up down left right
+0	3	0	1.5	1
+1	1	0	.5	.5
+
+*END 1892

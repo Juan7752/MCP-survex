@@ -1,0 +1,149 @@
+; 2026.04.06 created by TopoDroid v 6.3.20
+; Rascavieja_Everything Everywhere All at Once - first part by Pony/Topodroid
+; Instrument: Sap6 BC - SM-N910F
+
+;0077-26-everything_everywhere_all_at_once1
+*begin 0077-26-07
+  *date 2026.04.05 
+  *team "Pete Rick" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *declination 0.00 degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  235 235a 1.38 269.6 0.2
+  235 235ba 2.28 55.1 7.3
+  235 235bb 6.54 177.4 83.6
+  235 235bc 1.38 35.7 -83.9
+  235 235bd 2.02 184.5 26.1
+  235 235be 6.14 156.8 43.5
+  235 235bf 9.27 134.3 42.7
+  235 235bg 3.75 100.8 43.0
+  235 235bh 5.69 108.9 1.5
+  235 235bi 4.63 84.7 -36.0
+  235 235bj 3.34 182.5 -27.2
+  235 235bk 3.01 245.4 -30.2
+  *flags not splay
+    235 1   3.98 342.2 -38.9  ; out of ramp chr
+  *flags splay
+  1 1a 1.63 241.7 8.6
+  1 1ba 2.35 44.2 9.5
+  1 1bb 1.72 69.3 83.7
+  1 1bc 0.64 318.6 -80.9
+  *flags not splay
+    1 2   3.03 308.0 17.2
+  *flags splay
+  2 2a 4.03 339.4 -11.5
+  2 2ba 4.03 336.5 -13.2
+  2 2bb 4.04 338.3 -12.0
+  2 2bc 4.04 336.2 -13.5
+  2 2bd 0.97 241.5 51.3
+  2 2be 0.98 44.1 -12.7
+  2 2bf 0.79 30.0 84.3
+  2 2bg 0.73 171.9 -88.4
+  *flags not splay
+    2 3   3.99 336.7 -12.9
+  *flags splay
+  3 3a 2.85 318.2 13.9
+  3 3ba 3.89 282.4 18.2
+  3 3bb 3.73 226.0 22.7
+  3 3bc 1.58 3.3 24.7
+  3 3bd 3.61 357.1 29.6
+  3 3be 1.07 103.4 27.5
+  3 3bf 1.28 84.2 9.2
+  3 3bg 1.18 315.5 84.7
+  3 3bh 0.66 91.7 -77.7
+  *flags not splay
+    3 4   5.29 69.4 -10.4
+  *flags splay
+  4 4a 4.92 312.1 5.6
+  4 4ba 3.42 139.8 15.7
+  4 4bb 2.30 70.2 72.8
+  4 4bc 3.19 202.8 -59.5
+  4 4bd 5.83 286.7 27.1
+  4 4be 1.55 83.7 20.6
+  4 4bf 2.59 109.7 22.2
+  4 4bg 4.15 342.1 -6.8
+  4 4bh 3.33 186.7 3.3
+  *flags not splay
+    5 4   2.47 322.9 -46.1
+  *flags splay
+  5 5a 0.83 30.4 4.5
+  5 5ba 1.11 8.1 44.8
+  5 5bb 1.40 236.2 29.1
+  5 5bc 2.03 112.3 -84.8
+  *flags not splay
+    6 5   2.80 226.6 -5.7
+  *flags splay
+  6 6a 0.24 268.0 -1.6
+  6 6ba 0.21 226.7 82.2
+  6 6bb 1.65 295.8 -79.4
+  6 6bc 1.10 114.5 -10.4
+  *flags not splay
+    8 6   4.17 250.1 12.6
+  *flags splay
+; unclear what these splays relate to - no station 7 in main centreline
+  7 7a 1.51 318.2 3.4
+  7 7ba 1.11 231.8 -82.0
+  7 7bb 1.04 186.7 -10.8
+  7 7bc 0.91 283.0 68.8
+  7 7bd 7.80 225.9 21.2
+  7 7be 7.82 229.0 21.3
+  7 7bf 0.56 151.2 16.1
+  7 7bg 0.52 237.7 52.2
+  7 7bh 1.81 310.1 4.7
+  7 7bi 1.80 296.7 -36.7
+  7 7bj 0.65 282.6 -58.8
+  8 8bk 4.17 37.4 -43.4
+  8 8bl 2.25 268.4 2.2
+  8 8bm 3.84 25.2 80.5
+  8 8bn 3.39 333.3 -10.6
+  8 8bo 2.92 55.7 -3.1
+  8 8bp 0.20 303.9 -1.2
+  8 8bq 5.38 299.8 -2.1
+  8 8br 8.35 354.8 78.5
+  8 8bs 1.02 233.7 9.0
+  *flags not splay
+
+; Pete copied this data but it should not be in here
+; copy and paste error so this data is commented out
+;    13 12   3.75 313.2 -55.7
+;  *flags splay
+;  13 13a 0.18 250.4 2.1
+;  13 13ba 6.10 12.8 62.5
+;  13 13bb 5.17 45.7 7.6
+;  13 13bc 3.37 57.3 -70.8
+;  13 13bd 9.95 336.1 -12.6
+;  13 13be 12.73 334.7 17.0
+  *flags not splay
+;    12 14   9.70 57.9 25.0
+;  *flags not splay
+
+; next 4 legs done on paper due to phone malfunction
+8 	9 	1.8	342	-22
+9	10	4.2	037	-43.4
+10 	11	3.4	333	-11
+11	12	5.4	300	-02
+
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+235  2.58 4.56 6.50 2.72
+1  1.59 2.05 1.71 0.63
+2  0.56 2.03 0.78 0.94
+3  3.22 1.21 1.79 0.65
+4  4.37 3.11 2.66 2.75
+5  1.22 0.77 0.78 2.02
+6  1.00 0.28 0.21 1.62
+8  0.28 4.11 8.18 2.86
+
+9 0.5 0.5 1 0.8
+10 2.2 0 1.8 1
+11 1 3 0.7 0.7
+12 1.5 2 8.3 0.5
+
+*end 0077-26-07

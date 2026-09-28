@@ -1,0 +1,39 @@
+*BEGIN 2538-12-04
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.22; (1.62-0.4)
+
+*DATE 2012.04.07
+;surveyor Diane Arthurs
+
+32	111	 8.08	138.44	  3.59
+*FLAGS SPLAY
+111	111a	11.26	176.63	 -6.69
+*FLAGS NOT SPLAY
+111	112	10.92	176.54	 -6.50
+112	113	 7.10	159.42	  6.16
+*FLAGS SPLAY
+113	113a	 0.70	260.07	  0.06
+113	113b	 3.40	345.98	 -3.17
+113	113c	 3.04	334.34	 -1.41
+113	113d	 3.86	339.61	  6.61
+113	113e	 2.94	 16.66	  8.32
+113	113f	 3.69	 39.89	  6.49
+113	113g	 5.70	 56.56	 10.79
+*FLAGS NOT SPLAY
+113	114	 3.92	 73.09	 14.59
+114	115	19.41	 12.12	 87.31
+
+*data passage station left right up down
+111	0.0	0.898	2.21	1.417
+112	0.726	0.0	0.267	0.642
+113	3.208	3.059	1.774	0.601
+
+
+*END 2538-12-04

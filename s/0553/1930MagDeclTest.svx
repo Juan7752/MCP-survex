@@ -1,0 +1,4 @@
+*BEGIN CobTest
+*INCLUDE 1930.svx
+*INCLUDE 1930copy.svx
+*END CobTest

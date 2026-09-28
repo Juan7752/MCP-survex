@@ -1,0 +1,27 @@
+*BEGIN 0075-1994-8-4
+
+;*CALIBRATE declination 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.9 degrees but should have been 4.08 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.08-3.9-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+;Mega Bat Series 1994-8-4 A Neill P Stacey
+*FLAGS DUPLICATE
+10	9	3.90	218.10	-3	;*
+*FLAGS NOT DUPLICATE
+9	8	6.40	119.10	6	;*
+8	7	2.60	179.10	32	;*
+7	6	10.70	143.10	6	;*
+6	5	2.70	226.10	-22	;*
+5	4	9.40	256.10	-79	;*
+4	3	2.40	294.10	-40	;*
+3	2	1.40	230.10	-14	;*
+2	1	7.20	-	-V	;*
+
+*END 0075-1994-8-4

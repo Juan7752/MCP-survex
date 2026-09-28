@@ -1,0 +1,44 @@
+*BEGIN 1725
+;Created from Survey file on Sun,11 Apr 2004.22:06:50
+*DATE 2002.03.30
+;Surveyors      : PP Eskie
+;No of stations : 20
+;Plan length    : 72.1424199m
+;Traverse length: 79.7m
+
+;*Fix 0 448818 4798156 210
+;*Fix 0 448716 4797947  210; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*Fix 0 448716 4797947  205
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.98 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.98-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.12
+
+0	1	2.80	-	-V	;top slope
+1	2	2.70	152.30	-15	;water level
+2	3	6.10	85.30	10	;junct
+3	4	7.90	68.30	-3	;*
+4	5	7.40	109.30	0	;cl up into roof
+5	6	2.70	178.30	29	;*
+6	7	2.80	-	+V	;chk little prospect
+7	8	5.50	210.30	-24	;cont stream passage
+8	9	11.20	209.30	-3	;draughting diggable chk
+3	10	3.30	156.30	29	;cl up into passage
+10	11	3.70	175.30	28	;*
+11	12	4.40	157.30	-1	;bedding chmbr
+12	13	6.70	268.30	0	;*
+13	14	2.50	262.30	15	;chk
+14	15	10.00	158.30	0	;small crawl
+
+*END 1725

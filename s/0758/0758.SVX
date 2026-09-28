@@ -1,0 +1,33 @@
+*BEGIN 0758_GatoMontes
+;Created from Survey file on Sun,09 May 1999.19:38:17
+*DATE 1993.07.31
+;Surveyors      : Ali +
+;No of stations : 10
+;Plan length    : 12.1771638m
+;Traverse length: 65.5m
+
+;*FIX 0 455260 4796000 716
+;*FIX 0 455158 4795791 716; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455158 4795791 714
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+0	1	5.40	222.95	-60	;*
+1	2	16.20	-	-V	;*
+2	3	5.20	258.95	-10	;*
+3	4	12.30	170.95	-85	;*
+4	5	3.40	264.95	-15	;*
+*END 0758_GatoMontes

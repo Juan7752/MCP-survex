@@ -1,0 +1,25 @@
+*BEGIN 0122_1978_Crunch
+;Approx declination for 1978
+;*CALIBRATE DECLINATION 6
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 5.88; (6.28-0.4)
+
+92	80	2.4	306	-21
+93	92	5.3	73	-10
+94	93	13.4	64	-5
+95	94	8.9	71	0
+96	95	4.6	81	-6
+97	96	11	67	3
+98	97	9.4	46	0
+99	98	5.4	144	3
+; 99 carbide mark on RH wall; deep rift at right angles.
+; This is the connection point with TdRdS?
+
+
+*END 0122_1978_Crunch

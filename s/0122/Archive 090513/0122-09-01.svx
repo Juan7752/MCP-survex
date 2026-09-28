@@ -1,0 +1,47 @@
+*BEGIN 0122-09-01
+
+;surveyors: Jim Davis Jane Chilton
+;passage name: 
+;date: 
+; Matienzo position is 43.315936, -3.584633. Declination can be found at
+; www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*CALIBRATE declination 2.08
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+; Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+
+;stal choke slight draught: unlikely to go
+;new passage up to stn 6. TL=59m
+0	1	9	220	0
+1	2	10.7	195	-2
+2	3	11.69	200	-5
+3	4	7.2	235	6
+4	5	10	152	0
+5	6	10.45	88	0
+*FLAGS DUPLICATE
+6	7	6.95	175	19
+7	8	15.83	267	50
+8	9	9.3	138	30
+9	10	10.5	87	6
+10	11	28.11	102	-19
+11	12	11.6	116	-20
+12	13	30.85	174	0
+13	14	28.35	120	-19
+14	15	5.1	252	0
+15	16	4	-	down;base of ladder?
+*FLAGS NOT DUPLICATE
+*data passage station up down left right 
+0	2.5	0	1	.5
+1	1	.5	.5	0	
+2	.4	.8	.2	.8
+3	2.5	.6	1.2	2; pass divides oxbow S (not surveyed; re-enters at 5)
+4	.4	.2	1.5	1
+5	1	.6	1.5	.3
+6	.5	.8	2	.3; entrance to passage in solid rock
+7	5	0	2	4; middle of main passage
+
+
+
+*END 0122-09-01

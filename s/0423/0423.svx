@@ -1,0 +1,123 @@
+*BEGIN 0423
+
+;*CALIBRATE DECLINATION 1.88 WRONG
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.98; 2.38-0.4
+
+;surveyors: Juan Corrin Pete Smith
+
+;*FIX batch1.entr 450100 4796000 0208
+;*FIX batch1.entr 449998 4795791 0208; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX batch1.entr 449998 4795791 0203
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE batch1.entr
+
+*begin batch1
+
+*date 2006.10.16
+
+;station 0 is on top of stal boss at middle of entry to alcove
+*FLAGS splay
+0	1	2.36	60	-15;	left side
+0	2	1.86	117	-30;	far side of first alcove
+0	3	2.97	168	-35;	far side of 2nd alcove
+0	4	3.9	178	-27;	far side of 3rd alcove
+*FLAGS NOT splay
+0	5	6.39	194	-22;	back wall
+*FLAGS splay
+0	6	6.98	208	-25;	back wall
+0	7	5.93	224	-26;	stal
+0	8	3.52	239	-28;	behind column
+0	9	1.74	248	-13; right side
+0	10	1.35	-	up
+0	11	1.14	-	down
+
+0	12	3.19	299	3
+0	13	4.41	323	0
+0	14	6.03	3	5
+
+0	b6	2.24	30	-15
+0	b7	1.32	54	-45
+
+0	15	5.88	29	18
+0	16	4.56	48	11
+
+0	b12	1.81	166	-47
+0	b13	2.75	195	-43
+0	b14	3.44	200	-42
+0	b16	5.07	218	-35
+*FLAGS NOT splay
+0	17	13.67	18	8; into 2nd chamber - on stal
+17	18	6.46	59	16;	stal
+18	19	5.71	135	1;	wall
+
+18	20	4.15	60	0;	rift end
+*FLAGS splay
+17	b21	2.4	149	-45
+*FLAGS NOT splay
+17	22	2.34	288	-25;	stal at side of cl down
+22	23	3.66	312	-48;	stal/rock below cl down
+
+*FLAGS splay
+23	b22	3.27	128	10; artifact under ledge below (and beyond) stn 22
+
+23	b23	2.4	17	-30
+*FLAGS NOT splay
+23	24	2.63	325	-35
+*FLAGS splay
+24	b25	.30	-	down
+
+23	b27	4.38	253	-17
+*FLAGS NOT splay
+
+23	25	4.6	305	-4;	wall
+*FLAGS splay
+0	b28	3.46	43	0; last pottery
+*FLAGS NOT splay
+0	26	5.88	260	30;	top of entr slope
+26	entr	3.6	169	1;
+entr laddertop	1	-	up
+entr	ladderfloor	1	-	down
+ladderfloor	drop	4	-	down
+*END batch1
+
+*EQUATE batch2.19 batch1.23
+
+*begin batch2
+*date 2006.11.05
+0	1	4.48	228	-3
+1	2	8.03	245	4
+2	3	15.24	225	3
+3	4	9.71	227	1
+4	5	6.37	197	-15
+5	6	11.8	228	-11
+6	7	9.12	212	-23
+7	8	5.81	259	-38
+8	9	3.1	359	-4
+9	10	2.17	339	0
+10	11	5.07	26	2
+11	12	2.08	36	3
+12	13	4.86	255	0
+13	14	1.95	263	-10
+14	15	5.34	239	0
+
+14	16	9.35	44	-17
+
+8	17	3.5	237	10
+17	18	1.23	194	8
+18	19	7.13	111	5
+
+;*data passage station left right up down
+
+*end batch2
+*END 0423

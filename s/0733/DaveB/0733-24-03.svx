@@ -1,0 +1,29 @@
+*BEGIN 0733-24-03
+;SurveyFromDXFExportedFrom3D
+*DATE 2023.08.01;????
+; Generated from P_paralelo_Abbys.3d file: first exported to dxf then into Footleg's Cave Converter. Splays not processed?
+; WHATSAPP info from Marc Martinez 20/3/2024
+;- la estacion topografica 0733-vallina.1994s.1319 corresponde a la estacion topografica 19 del survex P_paralelo_Abbys.
+;- la estacion topografica 0733-vallina.1994s.1324 corresponde a la estacion topografica 0 del survex P_paralelo_Abbys. Actually 66m above.
+
+0	1	 1.82	294.44	  6.30
+1	2	 6.52	323.29	  0.44
+2	3	14.28	311.42	  3.29
+3	4	 5.21	305.86	  0.77
+4	5	 4.19	328.10	  2.74
+5	6	 2.14	357.02	  9.41
+6	7	 3.20	315.25	  6.45
+7	8	 4.09	 24.49	  3.93
+8	9	 3.04	 15.85	-31.30
+9	10	 6.75	330.78	 -9.30
+10	11	 2.04	 46.68	-19.46
+11	12	 1.99	317.24	  0.29
+12	13	 7.79	254.18	-85.41
+13	14	 8.56	303.07	-86.56
+14	15	 6.78	324.77	-75.04
+15	16	 8.19	318.74	-84.68
+16	17	 7.69	310.09	-52.26
+17	18	22.65	197.86	-87.61
+18	19	 5.81	116.12	  4.25
+
+*END 0733-24-03

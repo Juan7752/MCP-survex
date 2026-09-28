@@ -1,0 +1,32 @@
+*BEGIN 4244
+;Gruta-del-Diablo
+*date 2015.10.14
+*TEAM  "Alasdair Neill" notes compass clino disto "Peter Eagan"
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.73
+*ENTRANCE 14
+*ENTRANCE 7
+*FIX 14 442966 4804741 28
+*FLAGS SPLAY
+0	1	9.37	178	-19
+0	2	10.61	157	3
+0	3	12.79	143	-15
+0	4	9.09	95	-18
+0	5	20.2	166	-9
+0	6	11.74	152	8
+7	5	3.96	330	-30
+7	8	4.15	277	-28
+7	9	7.73	268	36
+7	10	5.8	-	up
+7	11	10.98	275	-10
+7	12	6.05	347	15
+*FLAGS NOT SPLAY
+7	13	3.87	106	-7	;12 sta at bottom ent of 4171, leg under roof so considered not surface
+7	14	14	350	0	;leg estimated from data to give length of cave
+*data passage station left right up down
+7	6.2	3.8	2.8	2
+14	3.8	3	3	2
+*END 4244
+
+

@@ -1,0 +1,77 @@
+*BEGIN 1325_Lammas
+;Created from Survey file on Fri,13 Aug 1999.23:46:17
+;Dates surveyed : 980804&990808&990813
+;Surveyors      : DCC+TimA PO'N+PO'N
+;No of stations : 35
+;Plan length    : 65.2404709m
+;Traverse length: 131.2m
+
+;*FIX 1998S.0 452820 4794870 0408
+;*FIX 1998S.0 452718 4794661 0408; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 1998S.0 452718 4794661 0405
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 1998S.0
+
+*BEGIN 1998S
+*DATE 1998.08.04
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.48 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.48-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+0	1	4.20	-	-V	;*
+1	2	9.90	120.70	-18	;across chmbr
+2	3	6.90	35.70	-64	;*
+3	4	1.50	201.70	13	;*
+4	5	0.90	346.70	-35	;*
+5	6	4.40	-	-V	;*
+6	7	4.40	356.70	-33	;*
+7	8	3.00	-	-V	;*
+8	9	3.00	-	-V	;*
+9	10	3.30	16.70	3	;*
+10	11	3.40	28.70	-40	;*
+11	12	4.20	-	-V	;*
+12	13	7.70	326.70	-50	;*
+13	14	1.00	-	-V	;*
+14	15	3.40	1.70	0	;*
+15	16	4.20	356.70	-10	;*
+*END 1998S
+
+*EQUATE 1998S.16 1999S.16
+
+*BEGIN 1999S
+*DATE 1999.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.15 degrees but should have been 3.34 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.34-3.15-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+16	17	4.30	351.85	-53	;*
+17	18	4.00	-	-V	;*
+18	19	8.70	311.85	-8	;*
+19	20	4.50	277.85	-12	;*
+20	21	9.80	-	-V	;*
+21	22	2.30	318.85	28	;*
+22	23	1.40	255.85	8	;*
+23	24	1.80	307.85	15	;*
+24	25	3.20	293.85	-21	;*
+25	26	2.00	56.85	32	;*
+26	27	3.40	1.85	25	;*
+27	28	20.40	-	-V	;on sandstone bed
+*END 1999S
+
+*END 1325_Lammas

@@ -1,0 +1,21 @@
+*BEGIN Riano_Part2
+*EXPORT Riano_DoubleBarrel.63
+*EXPORT Riano_DoubleBarrel.65
+*EXPORT Riano_DoubleBarrel.72
+*EXPORT Riano_UpperLevels.121
+*EXPORT Riano_UpperLevels.130
+
+*include DoubleBarrel.svx
+*include CoffinLevelInlet.svx
+*include CatPaw.svx
+*include LowerUpstream.svx
+*include LinkToUpperLevels.svx
+*include UpperLevels.svx
+
+*equate Riano_DoubleBarrel.77 Riano_CoffinLevelInlet.77
+*equate Riano_DoubleBarrel.77 Riano_Catpaw.77
+*equate Riano_LowerUpstream.78 Riano_CoffinLevelInlet.78
+*equate Riano_LinkToUpperLevels.134 Riano_UpperLevels.134
+*equate Riano_Catpaw.121 Riano_UpperLevels.121
+
+*END Riano_Part2

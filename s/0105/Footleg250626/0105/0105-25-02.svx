@@ -1,0 +1,51 @@
+*BEGIN 0105-25-02
+*EXPORT 8X
+;*CS UTM30N
+;*CS OUT UTM30N
+;*DECLINATION auto x y z; coordinates of entrance but a nearby point will do
+*DATE 2025.04.14
+
+
+;passage / batch name:Riano Pessimism Passage - Deathtrap
+
+*TEAM "Pete Hall" pictures
+*TEAM "Becka Lawson" instruments; on Pete's SAP6
+*TEAM "Chris Scaife" station
+*TEAM "James Carlisle" dog
+*TEAM "George North" dog
+
+;*INSTRUMENTS Pete's calibrated SAP6
+
+*DATA NORMAL from to tape compass clino ignoreall
+
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+0	1	3.24	196	13	; Cheesy Wiener Chamber
+1	2	2.64	276	15
+2	3	3.44	276	-14	0.9	1	1.2	0.5
+3	4	0.67	223	-30	0.3	0.3	1.2	0.5
+4	5	3.78	226	30	1	1	2	1.5	;5 = The Deathtrap
+0	6	1.74	306	-12	0.5	0	2	0.7
+6	7	2.27	310	2	0.3	0	0.1	1
+7	8	0.76	268	-4	0	0.3	0.1	1
+8	9	0.53	012	-26	0	0.3	0.1	1
+9	10	1.16	348	-4	0.3	0.1	0.3	0.6
+10	21	2.6	289	1	0.2	0.3	6	0.8
+21	22	1.85	337	-31					;21 marked with Tippex
+22	23	6.82	355	-62					;on wall above ladder belay
+*flags duplicate
+23	8X	2.29	151	19	;8X = Stn.8 from Aug 2024. Filename:0105-24-18.svx
+
+
+*data passage station left right up down
+3	0.9	1	1.2	0.5
+4	0.3	0.3	1.2	0.5
+5	1	1	2	1.5	;5 = The Deathtrap
+6	0.5	0	2	0.7
+7	0.3	0	0.1	1
+8	0	0.3	0.1	1
+9	0	0.3	0.1	1
+10	0.3	0.1	0.3	0.6
+21	0.2	0.3	6	0.8
+
+*END 0105-25-02

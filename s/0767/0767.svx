@@ -1,0 +1,350 @@
+*BEGIN 0767_WildMare
+;Created from Survey file on Sat,17 Feb 1996.21:42:54
+;Dates surveyed : 89/8&950808
+;Surveyors      : LM+MartinH+
+;No of stations : 35
+;Plan length    : 381.264206m
+;Traverse length: 381.5m
+
+;*FIX 0 448030 4801580 69
+;*FIX resurvey-1.8 448064 4801541 67.82; 1/4/08
+;*FIX resurvey-1.8 447962 4801332 67.82; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX resurvey-1.8 447962 4801332 68; Alt of main river + surface survey
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*entrance original.0
+
+*equate original.0 resurvey-1.7
+*equate resurvey-1.0 resurvey-2.0
+*equate resurvey-2.4 Alien_Lifeform_Series.9
+*equate original.24 resurvey-2.36
+*equate 29-7-08.0 resurvey-1.4
+*equate 29-7-08.3 resurvey-1.1
+*equate 29-7-08.8 resurvey-1.0
+*equate 29-7-08.13 resurvey-2.6
+
+*BEGIN original
+*DATE 1989.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.2 degrees but should have been 4.32 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.32-4.2-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	10.10	155.35	1	;*
+1	2	40.50	213.35	3	;*
+2	3	27.00	196.35	2	;*
+3	4	40.00	179.35	0	;*
+4	5	12.00	130.35	0	;*
+5	6	12.60	134.35	0	;*
+6	7	17.50	171.35	0	;*
+7	8	13.50	199.35	0	;*
+8	9	8.90	184.35	0	;*
+9	10	12.40	302.35	0	;*
+9	11	16.70	129.35	0	;*
+5	12	13.40	224.35	3	;*
+12	13	11.00	183.35	0	;*
+13	14	16.40	190.35	0	;*
+14	15	4.70	175.35	0	;*
+15	16	6.00	196.35	2	;*
+16	17	2.60	221.35	0	;*
+17	18	8.80	200.35	1	;*
+18	19	7.70	258.35	4	;*
+19	20	3.20	190.35	0	;*
+20	21	2.50	258.35	0	;*
+21	22	2.00	182.35	0	;*
+22	23	5.50	202.35	12	;*
+23	24	1.50	145.35	0	;*
+*END original
+
+*EQUATE original.11 sump.11
+
+*BEGIN sump
+*DATE 1995.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.75 degrees but should have been 3.94 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.94-3.75-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+11	25	10.00	126.25	0	;dummy leg to sump start
+25	26	10.00	76.25	0	;*
+26	27	15.00	136.25	0	;*
+27	28	5.00	86.25	0	;*
+28	29	20.00	116.25	0	;*
+29	30	25.00	86.25	0	;*
+*END sump
+
+*begin resurvey-1
+*DATE 2008.07.25
+;surveyors A. Neill Pete Eagen Dave Bell 25.7.2008
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; There appeared to be no magdec adjustment on the orig data
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; 2.14-0.4
+
+*FLAGS DUPLICATE
+0	1	6.84	25	5
+1	2	4.69	14	17
+2	3	8.86	50	-18
+3	4	6.27	31	5
+4	5	16.55	80	-2
+5	6	6.27	19	3
+6	7	17.62	325	2; entrance
+*FLAGS NOT DUPLICATE
+*flags surface
+7	8	16.86	331	-4
+8	9	13.88	354	-5; resurgence
+9	10	17.28	333	0
+10	11	13.09	338	0; 1.5m above water level in main river
+*flags not surface
+
+*data passage station	left	right	up	down
+0	4.56	6.63	.65	0
+1	3.2	3.69	7.6	0
+2	2	9.8	.3	2.1
+3	3.45	7.5	.9	0
+4	.6	6.6	0	.8
+5	5.1	1.9	1.4	.3
+6	2.5	2.4	1.7	1
+7	4.5	3.2	2.5	1.4
+*end resurvey-1
+
+*begin resurvey-2
+*DATE 2008.07.26
+;surveyors A. Neill Pete Eagan Dave Bell 26.7.2008
+*CALIBRATE CLINO -1.5
+;surveyors A. Neill Pete Eagen Dave Bell 25.7.2008
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; There appeared to be no magdec adjustment on the orig data
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; 2.14-0.4
+
+*FLAGS DUPLICATE
+0	1	3.43	109	-5
+1	2	10.94	180	0
+2	3	12.4	222	1
+3	4	14.23	178	-1
+4	5	32.47	175	-2
+5	6	9.62	163	-1
+6	7	8.29	232	0
+7	8	12.6	182	-3
+8	9	3.95	207	3
+
+*FLAGS NOT DUPLICATE
+9	10	2.4	314	15
+11	10	8.57	14	-66
+11	12	10	10	0
+11	13	4.1	182	-2
+13	14	2.42	197	0
+14	15	2.82	183	-5
+15	16	3.92	210	4
+16	17	3.63	203	1
+17	18	2.33	208	3
+18	19	4.03	190	8
+19	20	3.29	199	1
+20	21	3.64	197	5
+22	21	4.08	8	-8
+22	23	3.49	67	-16
+*FLAGS DUPLICATE
+9	24	4.59	167	0
+24	25	3.94	200	1
+25	26	5.17	190	0
+26	27	5.62	194	1
+27	28	4.55	211	-2
+28	29	5.98	198	-4
+29	30	4.91	278	-3
+30	31	3.23	255	0
+31	32	3.15	192	-4
+32	33	2.83	260	2
+33	34	1.81	181	-7
+34	35	5.24	203	1
+35	36	2.33	165	10
+*FLAGS NOT DUPLICATE
+36	37	1.24	216	40
+37	38	2.06	54	19
+38	39	1.78	129	-40
+39	40	1.91	145	3
+40	41	3.09	207	5
+41	42	1.9	144	2
+42	43	1.99	165	-15
+43	44	3.91	200	-10
+44	45	2.76	136	-1
+45	46	3.56	215	6
+46	47	1.84	164	5
+
+*data passage station left right up down
+0	9.4	4.4	.6	0
+1	3	2.6	.5	.6
+2	3.3	6.2	.6	.8
+3	5.3	5.5	.6	.7
+4	4.6	3	.8	.7
+5	3	4.2	1.3	.7
+6	1.5	3.5	.7	1
+7	2.2	1.4	.5	.3
+8	.7	1.1	.5	0
+9	0	1.1	.3	.2
+10	0	1	7	0
+11	0	.5	.5	7.4
+12	.4	.4	1	1
+
+*data passage station left right up down
+11	0	.5	.5	7.4
+13	.3	.3	.5	.5
+14	.3	.3	.5	.5
+15	.3	.3	.5	.5
+16	.3	.3	.5	.5
+17	.3	.3	.5	.5
+18	.3	.3	.5	.5
+19	.3	.3	.5	.5
+20	.3	.3	.5	.5
+21	.3	.3	.5	.5
+22	.6	.6	1	.3
+23	.7	.7	1	1
+
+*data passage station left right up down
+9	1.5	0	.4	.4
+24	0	1.6	.4	.4
+25	1	1	.4	.4
+26	.7	0	.8	0
+27	3.4	.7	.4	0
+28	.7	0	2.6	.6
+29	.4	.7	.8	.5
+30	1.9	1	.35	0
+31	.7	0	.7	.3
+32	.4	.4	1	.2
+33	.75	0	2.6	.6
+34	.5	.2	2.6	.3
+35	.6	.5	1	0
+36	.5	.5	0	2
+37	1	1	4	.5
+38	.5	.5	.5	.5
+39	0	1	2	.5
+40	.3	.3	1	.5
+41	.3	.3	.3	1.5
+42	.3	.3	2	1.5
+43	.5	.5	2	1
+44	.3	1	1	1
+45	1	0	1.5	1
+46	1	0	1.5	1
+47	1	0	1.5	1
+*end resurvey-2
+
+*begin Alien_Lifeform_Series
+*DATE 2008.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; There appeared to be no magdec adjustment on the orig data
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; 2.14-0.4
+
+0	1	15.16	175	-1
+1	2	3.48	267	-14
+2	3	3.9	278	1
+3	4	4.5	221	3
+4	5	3.22	224	-2; conts 30m to sand choke
+1	6	5.37	200	0
+6	7	10.7	114	-9
+7	8	4.76	110	-1
+*FLAGS DUPLICATE
+8	9	6.17	141	4
+*FLAGS NOT DUPLICATE
+;not dup
+*data passage station left right up down
+0	1.3	.8	.7	0
+1	3	3	.3	1
+2	5	1.5	.3	.4
+3	2	1	0	.3
+4	.3	.3	0	.3
+5	.3	.3	0	.3
+
+*data passage station left right up down
+1	3	3	.3	1
+6	3	1.5	3	1
+7	1.5	1.5	.3	.2
+8	1	.5	.4	.8
+*end Alien_Lifeform_Series
+
+;29.7.08 surveyors A. Neill, D. Bell, Santi.
+*begin 29-7-08
+*DATE 2008.08.29
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; There appeared to be no magdec adjustment on the orig data
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; 2.14-0.4
+
+*CALIBRATE CLINO -1.5
+;side passages on right going in from entrance
+0	1	10.04	345	-2
+1	2	6.32	0	2
+
+3	4	5.96	338	11
+4	5	5.43	0	3
+5	6	1.62	316	51
+6	7	6.93	313	2	;carbide spot
+8	9	5.02	252	5
+9	10	8.34	338	10
+10	11	5.71	13	17
+11	12	3.98	327	-1
+*FLAGS DUPLICATE
+;resurvey of main passage to sump
+13	14	5.37	78	-6
+14	15	17.89	133	-2
+15	16	12.61	201	-2
+16	17	8.55	182	-2
+17	18	6.7	203	16
+18	19	14.73	158	-4
+19	20	21.86	114	-2
+*FLAGS NOT DUPLICATE
+;rift to left of sump
+20	21	17.7	0	7
+
+*data passage station left right up down
+0	.3	1.5	0	.8
+1	.3	1.5	.3	.8
+2	1	0.3	0.4	0.3
+*data passage station left right up down
+4	.2	1.8	1.5	1
+5	0.5	0.8	2	1
+6	.4	.2	.8	3
+7	1.5	1.5	3	1
+*data passage station left right up down
+9	4.7	1.8	1.5	.8
+10	2.8	3.5	07	0
+11	4	0	4	1
+12	3	.5	0	1
+*data passage station left right up down
+13	7	0.3	0.7	1
+14	4.7	2.3	0	1.3
+15	0	5.7	0.5	0.6
+16	2	0	1.5	1
+17	2.3	4.2	1.1	0
+18	2.6	9.5	0	2.5
+19	3.3	2.7	0	1.3
+20	4	0	3	1
+21	0.3	0.3	5	0.5
+*end 29-7-08
+
+*END 0767_WildMare

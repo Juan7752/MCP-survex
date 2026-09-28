@@ -1,0 +1,11 @@
+*begin area
+*CS UTM30N
+*CS OUT UTM30N
+*INFER EXPORTS ON
+*INCLUDE ../../1800/1800.svx; include first because of *SOLVE
+*INCLUDE ../../3234/3234.svx
+;*INCLUDE ../../5368/5368.svx
+
+*EQUATE 1800.1800-22-06.81  3234_llanio.3234-23-01.11
+*EQUATE 1800.1800-25-02.18  3234_llanio.3234_17oct.3234_17oct20117.8
+*end area

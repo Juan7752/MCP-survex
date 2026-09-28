@@ -1,0 +1,46 @@
+*begin 0071-18-03
+*date 2018.08.18
+*team "Michael Topsom" compass clino tape
+*team "Francesca McDonald" notes pictures
+
+*calibrate declination 0.35
+
+*flags duplicate
+*data	normal	from	to	tape	clino	compass
+p5	1	4.61	+2.5	061
+1	2	7.94	-8	006
+2	3	5.20	+4	022
+3	4	1.86	+10	023
+4	5	4.64	-11	033
+5	6	4.06	0	041
+6	7	12.31	-2	045
+7	CAIRN	7.88	-2	067
+7	8	2.79	-12	294
+8	9	8.59	-9	053
+9	CAIRN	4.5	+22	134
+9	10	6.78	-10	039
+10	p19	12.88	-2	094
+p19	CAIRN	15.87	+8	243
+*flags not duplicate
+
+*data	passage	station	left	right	up	down
+p5	4.4	7.7	3.75	0
+1	4.55	0	5.35	1.48
+2	1.1	1.5	4.3	0.4
+3	0.5	1.5	2.5	1.0
+4	0.4	2.2	2.2	1.3
+5	0.5	0.8	1.9	1.3
+6	2.6	1.2	4.75	0.8
+7	5.4	1	8.4	1.3
+8	3.3	2	2.6	1.4
+9	3.8	1.5	2.1	0.1
+10	12.43	8.8	5	0.1
+p19	11.1	10.1	3	1
+CAIRN	3.7	3	9.2	1.2
+
+*data	passage	station	left	right	up	down
+9	20.0	2.7	2.1	0.1
+CAIRN	6.6	3.4	9.2	1.2
+7	2.11	2.5	8.4	1.3
+
+*end 0071-18-03

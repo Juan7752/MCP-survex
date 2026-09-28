@@ -1,0 +1,66 @@
+*BEGIN 0081-13-26
+
+*date 2013.10.19
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+;surveyors Alasdair Neill Pete Eagan Phil Papard Santi Urrutia
+;Compass clino PE's disto PP's distoX latter checked against compass
+0	1	7.58	316	16
+2	1	16.76	105	-2
+3	2	17.98	100	13
+4	3	15.4	105	-3
+5	4	13.22	90	4
+6	5	14.83	96	-8
+7	6	12.4	96	2
+7	8	9.05	285	3
+9	8	16.15	102	0
+10	9	10.7	120	-16	;10 typex spot
+11	10	12.39	70	-5
+12	11	8.33	123	-3
+13	12	3.1	119	-30
+14	13	31.6	92.8	0.67
+15	14	13.9	71.8	-2.5
+15	16	10.7	280.6	-8.5
+17	16	38.8	79.6	-0.7
+17	18	18.8	275	-0.3
+19	18	18.7	80	-1
+19	20	24.7	263	-0.3
+20	21	7	282	14
+22	21	17.6	110.4	-5.3
+22	23	6.72	335	-7.6	;STA 23 MARKED ON BIG JUNCTION
+
+
+*data passage station left right up down
+1	3.4	5.5	3.1	1.3
+2	5.6	3.2	1.6	1.6
+3	0.9	1.2	4.3	1.5
+4	2.5	0	3.6	1.3
+5	0	2.2	4.4	1.5
+6	0.5	1.8	2.3	1.7
+7	1	1.8	4	1
+8	1	1.6	3.1	1.3
+9	0.3	2.8	3.3	0.7
+10	4	1.3	2.2	2.2
+11	10	4	0.3	1
+12	8	2	0.6	1.8
+13	1.1	1.8	3.7	3.5
+14	5.2	0.3	9	1.6
+15	0.7	5.8	4.8	3.2
+16	2.4	1.8	12	1
+17	1	4.3	10.5	1.2
+18	7.5	0.8	7.3	1
+19	2.7	2.9	11.3	1.2
+20	2.1	13	12	1
+21	4	6	12	3
+22	10	6.5	11.3	8
+23	11.7	10.6	12.4	8.9
+
+*END 0081-13-26

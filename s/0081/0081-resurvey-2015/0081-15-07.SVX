@@ -1,0 +1,38 @@
+*BEGIN 0081-15-07
+;
+*date 2015.08.07
+*TEAM  "James Carlisle" notes compass clino disto, "Alex Ritchie"compass clino , "Chris Sharman"disto
+*CALIBRATE DECLINATION 0.73
+*DATA NORMAL from to compass clino tape
+
+10	11	0	90	2.97
+10	12	56	-63	3.84
+12	tippex	1	30	2.96
+
+13	14	119	-32	6.24
+14	15	217	24	4.24
+
+14	16	121	31	2.75
+16	17	123	-7	2.48
+17	tippex	87	18	1.52
+
+*data passage station left right up down
+10	1.6	3.8	2.97	1.8
+	
+
+
+*data passage station left right up down
+10	1.6	3.8	2.97	1.8
+12	.5	1.6	1.6	1.4
+
+*data passage station left right up down
+13	1.6	0	0.9	1.8
+14	1.8	2.9	2.1	0
+15	1.2	.4	.6	.2
+
+*data passage station left right up down
+14	0.1	2.2	2.3	0
+16	.3	1.2	0	.4
+17	1	0	.2	1.7
+
+*END 0081-15-07

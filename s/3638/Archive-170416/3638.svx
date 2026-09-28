@@ -1,0 +1,45 @@
+*BEGIN 3638
+
+;surveyors: Simon Andrew Nathan Latimer
+*date 2012.04.05
+
+;*FIX 18 448409 4795168 0405
+;*FIX 18 448307 4794959 0405; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 18 448307 4794959 0404
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 18
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.27; (1.67-0.4)
+
+1	2	6.4	20	3
+2	3	4.2	40	0
+3	4	16.9	340	3
+4	5	12.75	342	3
+5	6	1.5	240	0
+6	7	11.8	346	6
+7	8	4.14	38	-2
+8	9	10	-	up
+9	9b	11	165	-10
+
+9	10	6.7	335	0
+10	11	12	329	0
+11	12	7.8	212	13
+12	13	4.7	230	55
+13	14	5	200	25
+14	15	1.6	98	35
+15	16	22	-	up
+17	16	3.3	30	-49
+17	18	10	30	55
+
+*END 3638

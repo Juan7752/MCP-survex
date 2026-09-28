@@ -1,0 +1,42 @@
+*begin 4251
+;The cave in a mine, Barrio de Arriba, Rio Tuerto
+;surveyors John Southworth, Phil Goodwin, 15th November 2015
+*data normal from to length bearing gradient
+*calibrate declination 0.71
+*entrance 1
+*FIX 1 444736 4799566 162
+  1   2 11.9 295   0; 1 rock entrance arch
+  2   3  8.1 204   0; 2 junctio
+  3   4  5.9  90 -50; 3 top of down climb
+  4   5  4.3  70   0; 
+  5   6 17.6   0 -90; 5 top of pitch
+  6   7  7.9  95 -35; 6 bottom of pitch
+  7   8  6.7 345  -6; 7 bottom of boulder slope
+  8   9  4.7 275   5; 8 junction with inlet passage
+  9  10  9.0 225   0; 9-10 along mud bank
+ 10  11  3.7 190 -32; 10-11 dwon to main passage
+ 11  12  7.3  85   0; 11-12 back 
+ 11  13  8.3 246   0; 
+ 13  14 10.0 222   0;
+ 14  15  4.8 210   0;
+ 15  16  9.9 220   0; 15 low arch
+ 16  17  5.6  95   0; 16 side wall of round chamber
+ 17  18 13.4 133   0; 17 low arch 1.2m, 17-18 across chamber ht 2.5 w 5
+ 18  19  6.1 253   0; narrow passage through calcite
+ 19  20  7.3 235   0; across chamber to lake
+ 20  21 13.2 205   0; across lake to far wall
+  7  31  9.0 100   5; into grotto
+  8  32 10.0  20   1; up inlet
+ 32  33 16.0  20   1; up inlet
+  2  41 12.2 295   3; 41 open shaft
+  3  42 13.1 325   3; 42 same large shaft
+ 16  51  3.0  65   0; 51 middle of chamber, ht 3.2m
+*flags splay
+ 51  52  3.8  65   0; 52 other side of chamber
+ 51  53  9.5 320   5; back up chamber into alcove above calcite platform
+*flags not splay
+*data passage station down up left right
+13 1.7 3.6 5.6 1.0
+14 1.7 3.5 0.6 5.3
+*end 4251
+   

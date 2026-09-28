@@ -1,0 +1,27 @@
+*BEGIN 0415-06
+
+;surveyors: JNP, Kirsty B, Debs, Luke
+;passage name:
+*DATE 2009.04.07
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66
+
+
+1	0	2.55	152	24
+2	1	9.9	232	-60
+3	2	5.82	225	-8
+4	3	5.97	267	-14
+5	4	2.19	255	0
+6	1	7.52	095	-5
+7	6	6.46	060	60
+7	8	2.5	103	-15
+
+*END 0415-06

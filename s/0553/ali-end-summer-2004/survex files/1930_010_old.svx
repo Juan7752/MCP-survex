@@ -1,0 +1,14 @@
+*begin 1930_010
+
+;surveyors: Ali Julian Todd Tanya Jim Davies
+;name: 
+*CALIBRATE declination 2.68
+
+67	1	21	286	1
+1	2	11.4	286	2	;Becka Neil stn1
+2	3	14.46	288	-1	;marked_stn3
+3	4	9.78	40	4
+4	5	12.75	277	0.5
+5	61	6.31	261	-1
+
+*end 1930_010

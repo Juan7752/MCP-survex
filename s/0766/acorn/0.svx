@@ -1,0 +1,31 @@
+*BEGIN 0766_Barn: Simon 1 & 2
+;Created from Survey file on Mon,21 Jun 2004.19:25:08
+;Dates surveyed : 920808
+;Surveyors      : Paul S Andy G Grov
+;No of stations : 20
+;Plan length    : 292.021443m
+;Traverse length: 299.4m
+
+*FIX 0 55520 100340 0164
+
+*ENTRANCE 0
+0	1	27.10	330.80	11	;stn 8 - 9
+1	2	27.80	304.80	11	;*
+2	3	30.00	5.80	15	;*
+3	4	30.00	355.80	22	;*
+4	5	6.30	27.80	-8	;top of Simon 1 entr
+0	6	23.90	123.80	-6	;stn 8 to 7
+6	7	30.00	108.80	-9	;*
+7	8	30.00	115.80	-3	;*
+8	9	28.80	142.80	-16	;*
+9	10	30.00	132.80	-14	;*
+10	11	29.60	136.80	-8	;*
+11	12	5.90	233.80	-16	;top of Simon 2 entr shaft
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0766_Barn: Simon 1 & 2

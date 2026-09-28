@@ -1,0 +1,34 @@
+*BEGIN 1247
+;FILE NAME 1247_3619
+;FILE AUTHOR: Nigel Dibben
+;FILE DATE: 8 8 2016
+;METRIC
+;CAVE   NAME: Cave 1247
+;CAVE  PLACE: 30 T 453023 4797275 254
+;DATUM WGS84
+
+*CALIBRATE DECLINATION 0.61
+;CALBRATION FROM ngdc.noaa.gov
+
+*FIX  1 453023 4797275 254
+*ENTRANCE 1
+;# SHOT  STATION  STATION  LENGTH   AZIMUTH/BRG VERTICAL/INCL  LEFT   RIGHT   UP    DOWN  COMMENT
+;# CODE  FROM     TO       M        DEG         DEG            M      M       M     M    
+
+*flags not surface
+3	2	2.375	15	0
+3	4	5.5	92	0
+3	5	2.53	272	0
+1	2	2.57	102	-19
+
+;#END
+
+*data passage station left right up down 
+1	0.46	0.46	0	0.398	
+
+*END  1247
+*begin 4471
+*fix 1 453035 4797259 263
+*ENTRANCE 1
+1	2	0.1	0	0
+*end 4471

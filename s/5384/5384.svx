@@ -1,0 +1,26 @@
+*BEGIN 5384
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 449980 4796598 324
+
+*DATE 2023.8.18
+*FIX 4 449980 4796598 324
+*ENTRANCE 4
+
+;surveyor: Pete S.
+ 
+
+0	1	2.09	40	3
+1	2	2.81	17	32
+2	3	2.07	53	16
+3	4	2.2	0	90
+
+*data passage station left right up down
+0	.7	1	2	.7
+1	.4	.5	0.3	1
+2	.3	1.1	1.4	.5
+3	.3	.6	1.5	0
+4	.4	.4	0	2.2
+
+*END 5384

@@ -1,0 +1,32 @@
+*BEGIN 0122_1978_FranksP
+;Approx declination for 1978
+;*CALIBRATE DECLINATION 6
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 5.88; (6.28-0.4)
+
+1	2	15.8	320	20
+2	3	10.3	331	0
+3	4	12.3	286	10
+4	5	1	-	down
+5	6	18.8	298	-8
+6	7	7.2	320	-5
+7	8	7	346	25
+8	9	17.9	11	2
+9	10	19.2	318	5
+10	11	14.4	224	3
+11	12	15.1	262	-5
+12	13	11	345	6
+12	14	13.4	180	-5
+
+7	15	11.1	241	-7
+15	16	12.5	182	-10
+
+
+
+*END 0122_1978_FranksP

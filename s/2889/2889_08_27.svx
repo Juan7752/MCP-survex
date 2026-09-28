@@ -1,0 +1,31 @@
+*BEGIN 2889_08_27
+;surveyors: Dan Hibberts Bob Toogood Mike Topsom
+;name:
+*DATE 2008.07.29
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+19	1	16.21	156	-1
+1	2	11.56	149	12
+2	3	6.77	177	22
+3	4	17.18	161	-3
+4	5	18.24	273	-4; continues into tight rift to meet survey station.
+
+
+*data passage station up down left right
+1	3	1	0	4
+2	3	.5	2	.8
+3	4.23	1.21	0	.8
+4	4	1.6	.81	0
+5	2.58	1	1.42	1
+
+
+*END 2889_08_27

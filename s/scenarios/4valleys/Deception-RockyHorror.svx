@@ -1,0 +1,16 @@
+*BEGIN Deception-RockyHorror
+	*CS UTM30N
+	*CS OUT UTM30N
+	*INFER exports on
+*DECLINATION AUTO 451599 4799753 175
+
+	
+	*INCLUDE ../../0107/0107.svx
+	*INCLUDE ../../0252/0252.svx
+	
+	
+	*EQUATE 0252.0252-22-02.7 0107_Uzueka.0107-22-01.8		;Connection from end of dig into Hoyuca to top of Judgement pitch
+	*EQUATE 0252.0252-22-01.163 0107_Uzueka.ShrimpBoneInlet.0107-22-02.163
+	
+
+*end Deception-RockyHorror

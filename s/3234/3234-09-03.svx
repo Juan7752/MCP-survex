@@ -1,0 +1,28 @@
+*BEGIN 3234-09-03
+
+;surveyors: Harry & Juan & John Clarke
+;passage name:
+*date 2009.08.01
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+
+z	y	8.98	313	6
+y	x	4	300	20
+x	xup	.5	-	up
+*FLAGS SPLAY
+xup	stal	7.95	253	4
+stal	floor	1.25	-	down
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+z	.84	.89	1.05	0
+x	1.92	3.98	.82	.5
+*END 3234-09-03

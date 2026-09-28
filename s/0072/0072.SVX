@@ -1,0 +1,45 @@
+*BEGIN 0072_Hoyos
+;Created from Survey file on Sun,09 May 1999.13:02:30
+;Dates surveyed : 940804
+;Surveyors      : Helen Wray+Helen Wray
+;No of stations : 20
+;Plan length    : 174.441272m
+;Traverse length: 200.3m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.9 degrees but should have been 4.08 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.08-3.9-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+;*FIX 0 450448 4796449 0276
+;*FIX 0 450346 4796240 0276; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450346 4796240 0277
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*entrance 0
+0	1	22.50	-	-V	;p base
+1	2	11.00	326.10	-30	;stn 12
+2	3	14.50	286.10	-9	;stn 13
+3	4	13.20	355.10	5	;stn 14
+4	5	6.40	356.10	-4	;stn 15
+5	6	0.10	-	+V	;waste
+1	7	9.90	46.10	-30	;*
+7	8	4.70	146.10	-8	;*
+8	9	27.00	150.10	-7	;*
+9	10	5.40	234.10	0	;*
+10	11	24.50	252.10	0	;stn 2
+11	12	20.30	227.10	3	;*
+12	13	12.00	220.10	0	;stn 0
+11	14	6.90	346.10	0	;*
+14	15	6.50	34.10	0	;*
+15	16	5.30	288.10	-7	;*
+16	17	10.10	29.10	0	;stn 6
+*END 0072_Hoyos

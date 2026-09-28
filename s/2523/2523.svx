@@ -1,0 +1,48 @@
+*begin 2523
+
+;surveyors: PP & Ian Chandler, Bill Booth
+;name:
+*DATE 2006.08.08
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2; (2.4-0.4)
+
+;*fix 17 452792 4801357 0218
+;*fix 17 452690 4801148 0218; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*fix 17 452690 4801148 0215
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 17
+;0					1	1.3	.5	.4	stal choke
+0	1	4.8	255	-11;
+0	2	6.09	120	-10;	1	2.5	3.5	1.3
+2	3	4.95	220	1;	2	1	.8	.2
+3	4	9.05	147	-7;	1	2	.3	2	sink?
+4	5	1.76	228	14;	1	0	3	2
+5	6	10.59	126	-3;	2	0	3	1
+6	7	5.75	123	4;	0	1	2	1
+7	8	9.63	139	-11;
+9	8	7.84	70	-17; base of entr slope
+9	17	7.51	155	55
+
+
+;10 is narrow rift slit bends; marked 10
+
+10	11	3.88	59	8;	0	1	1	.3
+11	12	4.83	48	3;	.5	.3	1	.3 	bat droppings
+12	13	2.16	25	-14;	1	0	2	.5
+13	14	3.21	334	-35;	1	.5	3	.5	bear scratchings; mud filled tube
+14	15	14.05	34	12;
+15	16	1.4	105	-18;
+16	9	4.3	61	-29;
+
+*end 2523

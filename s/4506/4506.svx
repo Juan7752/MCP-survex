@@ -1,0 +1,22 @@
+*BEGIN 4506
+*CS UTM30N
+*CS OUT UTM30N
+*FIX 6  450359	4795553	182
+*Entrance 6
+*date 2017.04.10
+*TEAM  "Alex Ritchie" John Proctor" "Chris Sharman"
+*DATA NORMAL from to tape clino compass
+*CALIBRATE DECLINATION 0.52
+
+0	1	4.4,-54,14
+0	0B	6.4,+8,200
+0	0A	2.2,-68,113
+1	2	3.23,-23,231
+2	3	1.7,-5,260
+3	4	4.28,+20,50
+4	5	2.48,+3,40
+5	6	3.79,+11,308
+
+*END 4506
+
+

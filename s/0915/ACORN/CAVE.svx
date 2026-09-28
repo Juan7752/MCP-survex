@@ -1,0 +1,31 @@
+*BEGIN 0915_Porqueria
+;Created from Survey file on Tue,22 Jun 2004.20:33:22
+;Dates surveyed : 930406&930407
+;Surveyors      : P Egan P Stacey
+;No of stations : 20
+;Plan length    : 119.437503m
+;Traverse length: 124.7m
+
+*FIX 0 48972 98252 0204
+
+*ENTRANCE 0
+0	1	3.10	-	-V	;Stn1/5
+1	2	10.30	189.95	-1	;Stn1/4
+2	3	15.40	220.95	2	;Stn1/3
+3	4	10.30	169.95	1	;Stn1/2
+4	5	8.80	65.95	30	;Stn1/1
+5	6	7.40	237.95	21	;Stn1/0
+4	7	5.80	185.95	1	;Stn2/5
+7	8	16.10	232.95	11	;Stn2/4
+8	9	9.10	229.95	-7	;Stn2/3
+9	10	10.60	234.95	-2	;Stn2/1
+10	11	18.80	294.95	0	;Stn2/0
+11	12	9.00	223.95	-	;Stn2/2
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0915_Porqueria

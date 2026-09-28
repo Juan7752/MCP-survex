@@ -1,0 +1,47 @@
+*begin 2889_12_02
+  *title "Upstrem Whitworth sump"
+;*CALIBRATE DECLINATION 1.63
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.22; (1.62-0.4)
+
+;*fix 1 448091 4800982 0073; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*fix 1 448091 4800982 78; raised by 5m to agree with altitudes on new maps
+
+
+*date 2012.07.08
+;
+; Instruments; diver's own compass, depth gauge (aladdin), hilti lazer measure (JPL's) and tagged line (5 m intervals).
+;
+;
+; Surveyed by Jim Lister, Colin Hayward.
+
+; Diving data
+; Upstream Whitworth
+;
+; Start of dive line (station 1) is 11.6 m from the South end of the Whitworth and 13.7 from the foot of the cascade (North)
+; on the East wall.
+
+*DATA DIVING from to tape compass fromdepth todepth
+;   From    To  Tape   Compass   Depth
+1     2   10      150      0     -1.7
+2     3   10      240      -1.7  -4.8
+3     4   13      240        -4.8    0
+
+; Muddy chamber recorded at water level
+;
+*DATA NORMAL from to tape compass clino
+4     5    3       90       0
+5     6   10      180       0
+6     7    3      100       0
+;
+; Start of Battenthwaite link (unsurveyed)
+;
+
+*end 2889_12_02
+

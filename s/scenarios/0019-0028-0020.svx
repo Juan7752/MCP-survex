@@ -1,0 +1,6 @@
+*BEGIN Selvijo-Loca
+
+*INCLUDE ..\0019\0019.svx
+*INCLUDE ..\0028\0028.svx
+*INCLUDE ..\0020\0020.svx
+*END Selvijo-Loca

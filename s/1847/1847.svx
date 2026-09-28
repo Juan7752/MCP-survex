@@ -1,0 +1,34 @@
+*BEGIN 1847_3digscave
+;Created from Survey file on Mon,08 Sep 2003.21:53:01
+*DATE 2003.08.03
+;Surveyors      : PS JC
+;No of stations : 10
+;Plan length    : 21.198504m
+;Traverse length: 25.5m
+
+;*FIX 0 453153 4794892 0340
+;*FIX 0 453051 4794683 0340; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 453051 4794683 0336
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.55 degrees but should have been 2.80 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.8-2.55-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+0	1	3.00	36.45	-61	;base entr cl
+1	2	4.00	82.45	-50	;stn4
+2	3	5.40	75.45	-32	;stn3
+3	4	4.10	77.45	-18	;stn2
+4	5	2.00	130.45	0	;*
+5	6	7.00	59.45	-17	;thro sq
+*END 1847_3digscave

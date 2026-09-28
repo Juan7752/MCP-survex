@@ -1,0 +1,21 @@
+*begin 4406
+;Cave A
+;Rift shaft on side of hill above the road just into wood
+;surveyor Phil Goodwin
+*data normal from to length bearing gradient
+*CALIBRATE DECLINATION 0.65
+*entrance 0
+*FIX 0 443836 4801672 56
+0  1 7.1 272 -62 ; down shaft
+1  2 2.5 000 -90
+2  3 5.1 281  -3
+*flags splay
+3  4 2.4 290  23 ;up into alcove
+*flags not splay
+3  5 3.0 130 -11 ;into widening
+3  6 5.6 114   0 ;
+6  7 3.0 245 -10 ;down thro squeeze
+7  8 3.4 105  -5 ;into small chamber
+7  9 3.1 312 -14 ; into small chamber
+7 10 4.1 240 -28 ;into small chamber with pool
+*end 4406

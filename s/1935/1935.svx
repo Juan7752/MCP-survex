@@ -1,0 +1,34 @@
+*BEGIN 1935
+;Created from Survey file on Mon,08 Sep 2003.21:54:45
+*DATE 2003.08.12
+;Surveyors      : JC Tony Brocklebank-DCC APringle
+;No of stations : 10
+;Plan length    : 28.2775819m
+;Traverse length: 32.85m
+
+;*FIX 0 452041 4795073 0425
+*FIX 0 451939 4794864 0425; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.55 degrees but should have been 2.80 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.8-2.55-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+0	1	2.30	141.45	-35	;boulders
+1	2	6.30	89.45	-7	;*
+2	3	2.30	160.45	-12	;*
+3	4	2.80	92.45	-52	;*
+4	5	8.70	51.45	-44	;*
+5	6	3.50	152.45	-32	;*
+6	7	6.95	158.45	3	;*
+*END 1935

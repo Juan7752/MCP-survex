@@ -1,0 +1,39 @@
+*BEGIN 0045_Humo
+;Created from Survey file on Sun,09 May 1999.12:23:30
+;Dates surveyed : 89/8
+;Surveyors      : AHall
+;No of stations : 13
+;Plan length    : 93.4516045m
+;Traverse length: 116.8m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.4
+
+;*FIX 0 449120 4795310 0265
+;*FIX 0 449018 4795101 0265; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 449018 4795101 0268
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*FIX 12 448950 4795074 274; GPS
+;*FIX 0 449011 4795082 262; GPS but not used for survey line
+
+*ENTRANCE 0
+*ENTRANCE 12
+0	1	7.50	-	-V	;*
+1	2	7.50	-	-V	;*
+2	3	8.10	81.35	-15	;*
+3	4	7.90	88.35	17	;*
+2	5	15.60	325.35	16	;*
+5	6	18.70	252.35	33	;*
+6	7	12.00	262.35	23	;*
+7	8	11.90	189.35	8	;*
+8	9	9.80	264.35	9	;*
+9	10	7.00	333.35	22	;*
+10	11	5.50	299.35	38	;*
+11	12	5.30	228.35	40	;*
+*END 0045_Humo

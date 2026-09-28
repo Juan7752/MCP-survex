@@ -1,0 +1,44 @@
+*BEGIN 2025_FoxHat
+;Created from Survey file on Sat,10 Apr 2004.00:26:46
+*DATE 2004.04.10
+;Surveyors      : Neil Pacey, Jim Davis, Tanya
+;No of stations : 50
+;Plan length    : 105.530972m
+;Traverse length: 111.4m
+
+;*FIX 0 455391 4800172 0148
+;*FIX 0 455289 4799963 0148; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455289 4799963 0146
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.4 degrees but should have been 2.71 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.71-2.4-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.09
+
+0	1	11.00	238.60	-8	;stn11
+1	2	6.40	287.60	-1	;*
+2	3	14.90	294.60	-25	;*
+3	4	10.50	284.60	1	;stn6
+3	5	7.90	139.60	-5	;*
+5	6	5.30	116.60	4	;*
+6	7	4.10	100.60	4	;*
+7	8	8.20	123.60	2	;*
+8	9	3.00	127.60	0	;stnA
+4	10	13.60	316.60	10	;*
+10	11	6.10	339.60	7	;stn8
+4	12	2.80	220.60	2	;*
+12	13	2.50	168.60	3	;*
+13	14	2.60	-	+V	;*
+14	15	6.60	187.60	1	;*
+15	16	5.90	165.60	-41	;choked inlet
+*END 2025_FoxHat

@@ -1,0 +1,32 @@
+*begin 2366_06_09
+
+;surveyors: Bill Sherrington, Paul Dold, Andy Pringle
+;name: El Torno: Where Are the Numbers?
+*DATE 2006.04.15
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+
+11	10	15.5	218	-5
+
+*CALIBRATE tape +1
+
+1	0	4.6	251	1
+1	2	8.8	250	-6
+2	3	7.7	340	-5
+3	4	6.9	310	-5
+4	5	9.7	265	-15
+5	6	7.1	270	-15
+6	7	7.3	240	-5
+7	8	17.9	310	-3
+8	9	8.8	334	-20
+9	10	4.4	330	-40
+
+*end 2366_06_09

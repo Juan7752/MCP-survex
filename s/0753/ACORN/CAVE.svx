@@ -1,0 +1,18 @@
+*BEGIN 0753_SCD2013
+;Created from Survey file on Sun,09 May 1999.19:37:10
+;Dates surveyed : 89/7&89/7&89/7
+;Surveyors      : Rhys
+;No of stations : 9
+;Plan length    : 70.9675014m
+;Traverse length: 212.91m
+
+*FIX 0 51120 93050 0418
+0	1	2.88	32.35	0	;*
+1	2	20.27	-	-V	;*
+2	3	24.70	-	-V	;*
+3	4	2.19	135.35	0	;*
+4	5	13.10	260.35	-37	;*
+5	6	11.70	285.35	-69	;*
+6	7	7.12	-	-V	;*
+7	8	4.00	217.35	0	;*
+*END 0753_SCD2013

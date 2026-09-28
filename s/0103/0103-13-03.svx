@@ -1,0 +1,60 @@
+*BEGIN 0103-13-03
+
+;*CALIBRATE DECLINATION 1.54
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.14
+
+;surveyors: Ali Neill; Peter Eagan; Santi; PhilP; Angus
+;passage name:
+*date 2013.03.26
+
+;ROOT ROUTE
+*FLAGS DUPLICATE
+0     1    17.84       255   4
+*FLAGS NOT DUPLICATE
+1     2    4.79        264   18
+2     4    3.68        29    52
+4     5    1.27        109   13
+5     6    2.6         164   0
+7     6    2.6         281   -4
+8     7    3.38        271   -65
+9     8    2.2         270   -50
+; continues 2m to cross rift
+10          7  1.71     260 5
+11          10 2.05     222 -17
+12          11 6.5      225 -49
+
+a1          0  10.55    358 -22
+a1          a2 2.97     117 10
+a2          a3 5.2      105 0
+a3          a4 2.8      158 20
+
+
+*data passage station left right up down
+1     1.7     3       2.3  2.7
+2     0       1.2     1.9  1.9
+4     .8      .4      1.1  1.5
+5     .3      .6      .8   .6
+6     .6      0       .5   .3
+7     .9      .7      1.2  .4
+8     0       .5      1    .4
+9     .4      .4      .5   .8
+*data passage station left right up down
+7     .9      .7      1.2  .4
+10    .4      0       .2   .4
+11    0       .4      .7   1.6
+12    0       .4      1.5  0.9
+*data passage station left right up down
+a1    1.6     2.6     1.4  0
+a2    .8      4       1    .46
+a3    .8      5       1    1.2
+a4    .8      5       1    1.2
+
+
+*END 0103-13-03

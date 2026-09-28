@@ -1,0 +1,39 @@
+*begin riano_lowerupstream
+*EXPORT 78
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;Riano Low level upstream of double barrel (data taken from line drawing)
+78	92	11.00	180.00	0	;*
+92	93	26.07	122.47	0	;*
+93	94	22.47	69.14	0	;*
+94	95	4.24	135.00	0	;*
+93	97	25.49	228.18	0	;*
+97	98	13.60	342.89	0	;*
+98	99	8.06	240.25	0	;*
+97	100	13.15	188.74	0	;*
+100	101	22.36	169.69	0	;*
+101	102	14.42	123.69	0	;*
+102	103	11.40	217.87	0	;*
+103	104	11.18	259.69	0	;*
+104	105	9.22	310.60	0	;*
+105	106	18.38	45.00	0	;*
+105	107	32.80	232.43	0	;*
+107	108	12.16	189.46	0	;*
+108	109	5.38	291.80	0	;*
+109	110	5.38	21.80	0	;*
+110	111	18.86	302.00	0	;*
+111	112	21.02	267.27	0	;*
+97	113	20.39	78.69	0	;*
+113	114	12.72	135.00	0	;*
+114	115	15.65	63.43	0	;*
+
+
+*end riano_lowerupstream

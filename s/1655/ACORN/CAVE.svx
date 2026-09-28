@@ -1,0 +1,14 @@
+*BEGIN 1655_Pants
+;Created from Survey file on Sun,04 Aug 2002.09:45:14
+;Dates surveyed : 020513
+;Surveyors      : jc
+;No of stations : 5
+;Plan length    : 4m
+;Traverse length: 4m
+
+*FIX 0 51340 97790 0250
+0	1	1.00	357.30	0	;*
+1	2	1.00	87.30	0	;*
+2	3	1.00	177.30	0	;*
+3	4	1.00	267.30	0	;*
+*END 1655_Pants

@@ -1,0 +1,115 @@
+*BEGIN 0048-15-04
+;Bit off Sanatogen (Zeppelin Hangers???)
+
+*date 2015.03.31
+
+*TEAM "Alasdair Neill"notes "Pete Eagan"compass clino disto  "Jim Davis" "James Carlisle"
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.78
+
+;sta 0 is 28-7-1981 Sta 23 Jane Chilton
+0	1	21.42	192	6
+2	1	7.93	355	-3
+3	2	10.59	28	-3
+3	4	10.7	163	3
+5	4	9.46	356	-4
+6	5	6.23	283	-3
+7	6	2.02	250	16
+7	8	2.263	174	-48
+9	8	10.85	308	-21
+10	9	6.64	318	-9
+11	10	8.68	355	-22
+12	11	6.32	247	-30
+13	12	11.33	89	-22
+13	14	8.45	166	-28	;sta 14 is old red tape
+
+15	16	3.66	218	0	;15	is lip of undescended pitch
+15	15a	5	-	down
+16	17	1.73	173	0
+17	18	4.23	223	3
+12	18	4.55	16	0
+
+19	4	11.4	280	12
+20	19	5.72	210	3
+21	20	6.58	222	4
+22	21	6.53	232	9
+22	23	2.88	96	11
+23	24	4.1	60	1
+25	24	4.6	272	1
+25	26	10.4	163	20
+27	26	12.47	12	-18
+27	28	1.8	153	5	;TOP OF UNDESCENDED DROP
+28	28a	4	-	down
+
+25	29	5.67	77	-8	;29 is top of obvious 1.5m high stal
+29	30	5.19	141	-13
+31	30	11.88	255	10
+
+32	31	4.98	4	-5
+33	32	4.5	35	-2
+34	33	5	18	-19
+35	34	6.38	331	-24
+36	35	3.34	49	-4
+36	36a	11.2	-	up
+
+37	31	15.78	246	9
+38	37	11.1	238	10	;sta 38 is on stal ca 4m back from junction with main way to Azpilicueta
+
+*data passage station left right up down
+0	2.3	5.7	4	1.5
+1	.8	1	.8	0
+2	1	.6	.8	.5
+3	1.8	.3	.8	1
+4	0	6	3.3	1.8
+5	1.7	1.3	3	1
+6	.8	0	.9	1.6
+7	.4	1.5	1.6	2.5
+8	1.5	.9	3.4	1.1
+9	1.3	.6	1.7	1.3
+10	1.2	2	4.2	1.5
+11	1	1.3	3	1.8
+12	4.6	.7	1.9	.6
+13	7.5	6	10	1.3
+14	6	10	3	0
+*data passage station left right up down
+15	.6	.6	1	6
+16	.7	.4	.7	.5
+17	.2	.4	.5	.3
+12	.7	4.6	1.9	.6
+*data passage station left right up down
+4	0	2	3.3	1.8
+19	1.3	.5	3.2	1.2
+20	1.4	.5	3.3	1.3
+21	.2	2.3	2.5	.5
+22	1	.9	2.9	1.1
+23	.2	1.2	1.7	1.5
+24	.8	.9	2	1.5
+25	1.7	3.3	3.9	1.1
+*data passage station left right up down
+25	3	2	3.9	1.1
+26	1.5	2.5	2	1.5
+26	1	1	2	1.5
+27	.6	.6	1.3	.3
+28	.5	.5	2	0
+*data passage station left right up down
+25	1.7	3.3	3.9	1.1
+29	1.3	1.8	5.6	1.7
+30	3.1	1.4	4.2	1.3
+31	.4	3	4.2	1.4
+*data passage station left right up down
+31	.4	3	4.2	1.4
+32	0	.4	1	1
+33	.7	0	.7	1
+34	1.4	.3	1.2	0.7
+35	.3	1.2	2	.7
+36	2.5	.5	1.2	1.5
+36	2.5	.5	11.2	1.5
+
+*data passage station left right up down
+31	.4	3	4.2	1.4
+37	.6	3.5	4.3	1.3
+38	2.8	.7	4.6	1.2
+
+*END 0048-15-04

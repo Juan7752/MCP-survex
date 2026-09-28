@@ -1,0 +1,37 @@
+*BEGIN 0727-11-02
+
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*date 2011.08.24
+;*CALIBRATE DECLINATION 1.35
+
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors:  Chris Jewell Artur Kozlowski
+;passage name:
+*date 2011.08.26
+
+;*FIX
+;*ENTRANCE
+;*FLAGS duplicate | splay | surface
+
+
+*DATA DIVING from to tape compass fromdepth todepth
+;pile	minus50	15	300	-46	-50
+;minus50	minus62a	10	320	-50	-56
+minus62a	minus62	10	320	-56	-62
+minus62	tag90	15	270	-62	-63
+tag90	tag100	10	270	-63	-68
+tag100	tag105	5	330	-68	-68
+tag105	tag20	40	280	-68	-74
+tag20	tag40	20	300	-74	-77
+tag40	10a	10	330	-77	-79; questionable
+
+
+*END 0727-11-02

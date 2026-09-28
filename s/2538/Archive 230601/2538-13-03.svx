@@ -1,0 +1,21 @@
+*BEGIN 2538-13-03
+
+;surveyors: Steve Martin
+;passage name: Snail Aven
+*date 2013.07.26
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+0	1	10.2	-	up
+1	2	7.4	330	40
+; part way up an aven then drop down tro boulders and eventually streamway - good draught
+
+; 0 = 6.11
+*END 2538-13-03

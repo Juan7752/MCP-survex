@@ -1,0 +1,139 @@
+*BEGIN 2317
+;*CALIBRATE DECLINATION 1.57
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.17
+
+;*EQUATE 23171.2 23171.0 Wrong; queried with SC; commented out (JSC 7/4/2021)
+*DATE 2013.01.04
+*ENTRANCE 23171.10
+;*FIX 23171.10 449430 4799878 202
+;*FIX 23171.10 449328 4799669 202; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;surveyors: Diane Arthurs pda & Simon Cornhill distoX
+
+*FIX 23171.10 449328 4799669 0197
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*BEGIN 23171
+*FLAGS SPLAY
+2	2a	 0.80	228.83	 85.60
+2	2b	 1.62	318.96	-75.96
+2	2c	 0.28	297.98	  2.05
+2	2d	 0.68	232.96	 27.43
+*FLAGS NOT SPLAY
+2	3	 3.67	199.39	 30.16
+*FLAGS SPLAY
+3	3a	 1.53	 84.22	 84.29
+3	3b	 1.65	321.92	 56.12
+3	3c	 4.02	333.91	 68.70
+3	3d	 4.94	334.99	 61.64
+3	3e	 4.63	328.17	 62.58
+3	3f	 1.23	253.19	-80.57
+3	3g	 2.78	318.22	  2.81
+3	3h	 1.62	199.28	-16.43
+3	3i	 2.05	173.88	-22.44
+3	3j	 0.58	106.30	 -1.44
+3	3k	 0.68	  8.93	-10.67
+3	3l	 2.49	330.87	-40.27
+*FLAGS NOT SPLAY
+3	4	 5.79	330.68	 63.24
+*FLAGS SPLAY
+4	4a	 0.99	191.45	-78.50
+4	4b	 0.87	153.63	-53.85
+4	4c	 0.28	168.98	  5.36
+4	4d	 0.67	210.22	 -8.23
+*FLAGS NOT SPLAY
+4	5	 3.33	166.77	 50.83
+*FLAGS SPLAY
+5	5a	 2.61	340.67	-51.07	;1.5 boulder waist high from ceiling, centre of chamber
+5	5b	 2.92	357.28	-51.67
+5	5c	 1.53	 48.78	 -8.06
+5	5d	 4.03	109.32	 39.12
+5	5e	 1.89	158.14	 19.99
+5	5f	 1.82	325.40	 -1.76
+5	5g	 0.83	214.65	 -2.68
+*FLAGS NOT SPLAY
+5	6	 3.86	116.50	 48.89
+*FLAGS SPLAY
+6	6a	 1.52	333.45	 77.57
+6	6b	 1.08	194.20	-86.60
+6	6c	 2.46	178.73	 38.37
+6	6d	 4.16	  0.01	  5.14
+6	6e	 1.48	  6.43	 -0.14
+6	6f	 1.53	351.58	  2.87
+6	6g	 1.38	282.90	 13.58
+*FLAGS NOT SPLAY
+6	7	 4.21	202.95	 85.24
+*FLAGS SPLAY
+7	7a	 2.50	144.70	-74.51
+7	7b	 1.62	177.17	-10.08
+7	7c	 0.41	247.92	  2.87
+7	7d	 0.77	 84.81	-14.79
+7	7e	 1.02	347.89	  1.65
+7	7f	 3.27	346.72	  1.14
+*FLAGS NOT SPLAY
+7	8	 0.92	328.39	-21.83
+*FLAGS SPLAY
+8	8a	 1.40	127.84	-77.79
+8	8b	 0.22	 82.73	  0.55
+8	8c	 1.10	  4.64	  2.63
+8	8d	 3.90	356.28	 19.28
+*FLAGS NOT SPLAY
+8	9	 1.57	190.72	 77.38
+*FLAGS SPLAY
+9	9a	 0.71	207.03	 76.42
+9	9b	 0.84	 90.83	  7.03
+9	9c	 0.94	130.81	  0.34
+9	9d	 1.40	173.75	  7.77
+*FLAGS NOT SPLAY
+9	10	 2.94	173.38	  0.17
+*FLAGS surface
+10	11	 3.98	104.23	 24.66	;top of highest boulder in shakehole
+*FLAGS not surface
+
+*data passage station left right up down
+2	0.0	0.279	0.798	1.625
+3	1.616	0.581	1.529	1.23
+4	0.0	0.669	0.0	0.992
+5	1.534	0.831	0.0	2.924
+6	2.456	1.377	1.515	1.077
+7	0.41	0.767	0.0	2.495
+8	0.221	3.897	0.0	1.396
+9	0.835	1.404	0.706	0.0
+10	0.686	0.0	0.351	0.712
+*END 23171
+
+*EQUATE 23172.0 23171.5
+
+*BEGIN 23172
+0	1	 2.96	162.20	  3.30
+1	2	 2.63	159.61	 12.83
+*FLAGS SPLAY
+2	2a	 1.82	106.25	 70.67
+2	2b	 0.62	  0.54	 45.21
+2	2c	 1.22	 48.61	  5.04
+2	2d	 1.12	234.01	  4.84
+*FLAGS NOT SPLAY
+2	3	 2.20	129.86	 -3.31
+*FLAGS SPLAY
+3	3a	 0.34	269.47	 78.37
+3	3b	 0.62	247.97	-83.29
+3	3c	 0.88	357.13	 -1.93
+3	3d	 0.68	222.40	 -0.48
+3	3e	 0.54	131.81	  9.61
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+1	0.0	1.422	0.244	0.8
+2	1.217	1.115	1.817	0.0
+3	0.884	0.685	0.336	0.625
+*END 23172
+
+*END 2317

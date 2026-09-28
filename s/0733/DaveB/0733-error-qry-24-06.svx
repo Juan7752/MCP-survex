@@ -1,0 +1,131 @@
+*BEGIN 0733-Vallina
+*CS UTM30
+*CS OUT UTM30
+*DECLINATION AUTO 450297 4793220 300
+;Created from Survey file on Wed,21 Aug 2002.22:29:49
+;*FIX 1989S.0 450116 4792621 410
+;*FIX 1989S.0 450014 4792412 0410; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 1989S.0 450014 4792412 0420
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; According to new map - bottom entrance should be at about 307m
+; Survey indicates bottom entrance at 329m
+; Activate next line to spread errors between entrances
+;ENTRANCES are positioned through *FIX and surface survey to entrance
+;*FIX 2003E.2771 450775 4792354 307
+
+;*entrance 1989s.0
+;*entrance 2003E.2771; bottom site 4382 @ 450744.3 4792363.8 ^310
+;0733-16-03.0 is top entrance @ 450017.4 4792405.4 ^412
+
+*BEGIN 1989S
+*DATE 1989.08.01;1989.07-1989.08
+;SURVEY 23.7.89 Lugger, Simon Brown, P Smith, Mick Nunwick, Eliot Whitehead
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.65 degrees but should have been 4.69 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.69-4.65-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.36
+
+;0	1	9.70	79.35		-17 ;stas 0-4 replaced by 0733-16-03
+;1	2	20.00	78.35		-13
+;2	3	20.00	77.35		-13
+;3	4	20.00	24.35		-18
+4	5	6.00	50.35		-10
+5	6	6.00	56.35		0
+6	7	5.60	83.35		0
+7	8	5.00	301.35	-3
+8	9	6.00	230.35	-49
+9	10	6.00	-		-V
+10	11	10.00	73.35		-29
+11	12	20.00	32.35		0
+12	13	20.00	91.35		0
+13	14	18.00	101.35	-15
+14	15	18.00	86.35		-4
+15	16	12.00	127.35	-27
+16	17	3.50	-		-V
+17	18	16.00	105.35	-8
+18	19	19.00	122.35	8
+19	20	20.00	135.35	25
+20	21	20.00	144.35	45
+21	22	15.00	91.35		-8
+22	23	20.00	83.35		-7
+23	24	20.00	93.35		2
+24	25	20.00	70.35		-12
+25	26	19.00	99.35		-6
+26	27	20.00	80.35		-10
+27	28	20.00	84.35		7
+28	29	20.00	83.35		0
+29	30	20.00	67.35		-7
+30	31	20.00	73.35		3
+31	32	14.00	51.35		-10
+32	33	20.00	83.35		-3
+33	34	20.00	66.35		-2
+34	35	20.00	68.35		-1
+35	36	20.00	127.35	-5	;*
+36	37	12.00	57.35		-5	;*
+37	38	20.00	56.35		-14	;pitch to left
+38	39	13.00	155.35	14	;*
+39	40	12.00	160.35	-12	;*
+40	41	10.00	82.35		0	;*
+41	42	20.00	70.35		0	;*
+42	43	20.00	65.35		2	;*
+43	44	20.00	90.35		8	;*
+44	45	16.40	59.35		0	;*
+45	46	7.50	15.35		-20	;*
+46	47	8.00	72.35		0	;*
+47	48	5.50	104.35	11	;*
+48	49	4.00	103.35	-42	;*
+
+
+*END 1989S
+
+*begin 0733-16-03
+*date 2016.03.31
+*TEAM  "Alasdair Neill" notes "Dave Bell"compass clino "Peter Eagan" disto
+*DATA NORMAL from to tape compass clino
+*FIX 0 450016 4792401 412
+;resurvey of top entrance chamber
+*entrance 0
+
+
+*CALIBRATE DECLINATION 0.65
+0	1	12.1	65	-8	;sta 0 typex spot on big boulder at entrance
+2	1	13.17	248	15
+2	3	19.05	75	-10
+4	3	10.03	205	19
+4	5	12.88	29	-20	;typex spot on left at start of crawl
+*FLAGS DUPLICATE
+5	6	3.2	53	-20
+0	a	13.18	73	-18	;corner in walls
+*FLAGS not duplicate
+
+
+*data passage station left right up down
+0	14.4	4	1.56	1.6
+1	14.2	8	1.6	1
+a	13.18	9.2	3.2	0
+2	9.9	12.4	3.1	1.3
+3	10.6	8.2	3	1.5
+4	13.4	9.6	3	1.3
+5	12.1	12.4	2.5	.9
+5	0	1.6	.4	.9
+6	.4	.8	0	.4
+*END 0733-16-03
+
+*EQUATE 0733-16-03.5 1989S.4
+
+*INCLUDE 0733-24-06; resurvey + aven + Far Left Passage
+;*EQUATE 0733-24-06.1 0733-23-02.1
+*EQUATE 0733-24-06.3 1989s.29
+
+*INCLUDE 0733-24-07; another resurvey
+*EQUATE 0733-24-07.2 0733-24-06.1
+ 
+*END 0733-Vallina

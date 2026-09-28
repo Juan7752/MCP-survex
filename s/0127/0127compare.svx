@@ -1,0 +1,5 @@
+*begin 0127compare
+*INCLUDE 0127_002.svx
+*include ../0127.svx
+
+*end 0127compare

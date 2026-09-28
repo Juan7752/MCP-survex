@@ -1,0 +1,42 @@
+*BEGIN 3664
+
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.27; (1.67-0.4)
+
+;surveyors: Andrew Latimer Nathan Latimer Simon Latimer
+*date 2012.04.07
+
+;*FIX 7 446894 4796039 0500
+;*FIX 7 446792 4795830 0500; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 7 446792 4795830 0497
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 7
+
+;The passage was seen to go off from the north end of the depression 6/4/2013 which indicates that the legs are 180 degrees out
+
+;1	2	3	- 	up
+;2	3	11.4	2	9
+;3	4	7.7	30	5
+;4	5	9.3	340	9
+;5	6	10.5	52	30
+;6	7	8	-	up
+
+1	2	3	- 	up
+2	3	11.4	182	9
+3	4	7.7	210	5
+4	5	9.3	160	9
+5	6	10.5	232	30
+6	7	8	-	up
+
+*END 3664

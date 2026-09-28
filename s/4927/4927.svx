@@ -1,0 +1,33 @@
+*BEGIN 4927
+*CS UTM30N
+*CS OUT UTM30N
+*FIX 6 454158 4804001 189
+*ENTRANCE 6
+*CALIBRATE DECLINATION 0.26
+*DATE 2019.04.27
+;Survey by Peter Smith and Philip Papard
+
+*FLAGS NOT SPLAY
+6	4	20.02	143	-45
+4	5	10.9	015	-1
+
+4	3	12.8	281	19
+3	2	10.9	59	-16
+2	1	5.5	336	-10
+1	0	8.2	328	3
+
+
+*data passage station left right up down
+6	7	0	0	9
+4	15	4	4	1
+5	15	0	3	0
+
+*data passage station left right up down
+4	 4	 15	4	 1
+3	.5	.5	.6	0
+2	9	15	9	1
+1	3.6	13.1	2.2	1.2
+0	1.3	0.6	0.8	0.2
+
+
+*END 4927

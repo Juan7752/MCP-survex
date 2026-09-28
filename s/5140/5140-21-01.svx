@@ -1,0 +1,96 @@
+; 2022.01.06 created by TopoDroid v 5.1.40
+; 5140-21-01
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin 5140-21-01 
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION AUTO 454833 4795478 805
+*FIX 0 454833 4795478 805
+*ENTRANCE 0
+
+  *date 2021.12.20 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 1.15 310.1 2.1
+  0 0ba 0.73 295.3 -87.0
+  0 0bb 1.19 50.8 75.2
+  0 0bc 1.26 2.0 -16.7
+  0 0bd 0.97 25.5 -18.2
+  *flags not splay
+    0 1   1.71 21.2 -30.5
+  *flags splay
+  1 1a 0.19 125.7 19.6
+  1 1ba 0.33 319.3 7.9
+  1 1bb 0.86 46.6 75.9
+  *flags not splay
+    1 2   3.65 29.5 1.6
+  *flags splay
+  2 2a 0.49 154.8 9.6
+  2 2ba 0.27 127.5 -79.2
+  2 2bb 0.75 125.8 77.1
+  *flags not splay
+    2 3   1.62 53.5 7.0
+  *flags splay
+  3 3a 0.91 246.1 0.5
+  3 3ba 0.74 241.8 -77.6
+  3 3bb 0.60 267.6 64.4
+  3 3bc 0.67 321.4 7.2
+  3 3bd 0.72 180.9 8.6
+  *flags not splay
+    3 4   2.32 274.7 -7.1
+  *flags splay
+  4 4a 0.53 50.6 2.6
+  4 4ba 0.91 93.8 -80.7
+  4 4bb 0.63 14.2 87.2
+  *flags not splay
+    4 5   1.14 8.9 -33.2
+  *flags splay
+  5 5a 0.51 253.7 4.9
+  5 5ba 0.42 237.4 -70.8
+  5 5bb 1.36 282.2 67.3
+  5 5bc 1.87 303.3 -0.3
+  *flags not splay
+    5 6   2.25 312.7 -1.3
+  *flags splay
+  6 6a 0.21 66.0 -4.2
+  6 6ba 0.59 47.6 -82.5
+  6 6bb 1.19 117.6 81.8
+  6 6bc 1.61 310.2 -1.1
+  6 6bd 0.52 355.4 -84.3
+  6 6be 1.14 92.3 87.7
+  6 6bf 0.18 54.4 -14.9
+  *flags not splay
+    6 7   1.53 308.3 -4.4
+  *flags splay
+  7 7a 0.51 92.8 3.1
+  7 7ba 0.46 124.8 -69.9
+  7 7bb 1.18 95.6 72.3
+  7 7bc 0.69 40.9 -8.3
+  7 7bd 0.67 57.6 -10.0
+  7 7be 1.16 45.7 -11.1
+  7 7bf 0.54 92.9 -10.5
+  7 7bg 0.91 116.9 76.2
+  7 7bh 0.47 212.8 -57.2
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  1.09 0.15 1.15 0.73
+1  0.29 0.17 0.84 0.00
+2  0.00 0.39 0.74 0.27
+3  0.67 0.57 0.54 0.73
+4  0.00 0.37 0.63 0.90
+5  1.70 0.00 1.25 0.40
+6  0.07 0.19 1.18 0.59
+7  0.25 1.13 1.12 0.43
+
+*end 5140-21-01

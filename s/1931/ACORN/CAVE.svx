@@ -1,0 +1,17 @@
+*BEGIN 1931_Green Pepper Cave
+;Created from Survey file on Mon,08 Sep 2003.19:36:37
+;Dates surveyed : 030808
+;Surveyors      : Ali
+;No of stations : 6
+;Plan length    : 28.0363974m
+;Traverse length: 28.9m
+
+*FIX 0 48580 97920 0205
+
+*ENTRANCE 0
+0	1	4.50	114.45	-33	;*
+1	2	5.70	130.45	-1	;*
+2	3	6.20	122.45	4	;*
+3	4	12.50	255.45	8	;*
+0	5	0.0	-	+V	;*
+*END 1931_Green Pepper Cave

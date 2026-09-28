@@ -1,0 +1,25 @@
+*begin 4627
+;Sima Inclinado, 
+;Surveyors Bob Catley,  Phil Goodwin October 2017
+
+*calibrate declination 0.45
+*fix 1 450149 4803681 325
+*entrance 1
+*data normal from to tape bearing gradient
+  1   2	  5.1	000	-90;
+*flags duplicate
+  2   2a  1.5	000	 90;
+*flags not duplicate
+  2a  3	  5.3	182	-52;
+  3   4	 11.5	000	-90;
+  4   4a  5.2	355	 20; up calcited inlet
+  4a  4b  4.1	002	 21;
+  4   5   3.8	178	-21; 5 is refrigerator
+  5   6  10.1	178	-32;
+  6   7   1.5	178	  0; 7 is bolt
+  7   8   9.1	000	-90;
+  8   9	  6.3	186	-39;
+  9  10	  3.4	000	 90; 10 is top of obstruction in rift
+ 10  11	  5.6 	182	-52;
+ 11  12	 22.5 	182	-55; measured rope length, estimated slope
+*end 4627

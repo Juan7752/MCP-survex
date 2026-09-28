@@ -1,0 +1,30 @@
+*BEGIN 2889_08_20
+;surveyors: James Carlisle Johnny Latimer Andy Pringle
+;name: Dingle Pringle Pretty Pushing Passage
+*DATE 2008.07.23
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+0	1	14.2	160	-1
+1	2	25.7	155	5
+2	3	16.8	160	0
+3	4	8.95	158	0
+
+
+
+*data passage station up down left right
+
+0	4	5	2	2
+1	8	1	0	3
+2	7	2	0	6
+3	6	2	3	1
+
+*END 2889_08_20

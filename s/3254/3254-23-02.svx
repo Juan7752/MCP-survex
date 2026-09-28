@@ -1,0 +1,28 @@
+*BEGIN 3254-23-02
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 449046 4793657 626; coordinates of entrance but a nearby point will do
+*DATE 2023.04.10
+
+; Brancho Grande
+
+*TEAM "Fran McDonald, Mike Topsom, Raoul Hidalgo Charman, Carolina Smith de la Fuente" compass clino
+
+*DATA NORMAL from to tape compass clino
+
+1	0	2.085	274	0
+1	2	9.081	086	+43
+2	3	2.982	085	+61
+
+pit	0	45	-	up
+
+*data passage station left right up down
+
+pit	2.5	2.5	45	0
+
+0	0	1.3	5.5	0.9
+1	0	0.6	4.6	0.5
+2	0	0.45	5	2
+3	0	0.6	5	1.6
+
+*END 3254-23-02

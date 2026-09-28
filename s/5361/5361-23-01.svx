@@ -1,0 +1,35 @@
+*BEGIN 5361-23-01
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 452673 4805889 70; coordinates of entrance but a nearby point will do
+*DATE 2023.07.30
+*FIX 1 452673 4805889 70; s=station x=6-fig easting y=7-fig northing z=altitude Usually the entrance
+*ENTRANCE 0
+*ENTRANCE 0a
+*ENTRANCE 1
+*DATE 2023.07.30
+*FLAGS NOT SPLAY
+
+0	1	4.7	328	-11 
+
+*FLAGS SPLAY
+0	0a	2.4	328	0
+
+*FLAGS NOT SPLAY
+1	2	3.2	355	-39
+2	3	3.4	337	-40
+3	4	2.7	350	-26
+4	5	4.0	324	+29
+
+
+
+*data passage station left right up down
+0	0.5	0.5	0	1.4
+1	.7	.7	.5	.7
+2	.4	1.2	.7	.7
+3	0	.5	1.8	.3
+4	2	1.4 	3.5	.2
+5	1	1	1.5	1.5
+
+
+*END 5361-23-01

@@ -1,0 +1,33 @@
+*BEGIN 1941_cave
+;Created from Survey file on Sun,07 Sep 2003.21:37:33
+;Dates surveyed : 030815
+;Surveyors      : JancC Tim Allen
+;No of stations : 12
+;Plan length    : 53.4664164m
+;Traverse length: 55.3m
+
+;*FIX 0 452420 4797910 0160
+;*FIX 0 452410 4797910 0160
+*FIX 0 452308 4797701 0160; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+*ENTRANCE 0
+0	1	2.20	274.45	-20	;*
+1	2	3.60	267.45	2	;*
+2	3	2.80	313.45	-2	;head cl
+3	4	5.80	287.45	-33	;roped cl
+4	5	15.60	15.45	-4	;*
+5	6	4.30	15.45	18	;*
+6	7	2.00	309.45	-31	;cl boulders
+7	8	3.10	342.45	-10	;*
+8	9	8.40	341.45	11	; mud sq
+9	10	2.80	306.45	0	;*
+
+10	11	4.70	299.45	6	;*
+
+*END 1941_cave
+

@@ -1,0 +1,6 @@
+*BEGIN both
+*INCLUDE 0087
+*INCLUDE 0087-1995
+
+*EQUATE 0087_Emboscados.old.0 0087-1995.0
+*END both

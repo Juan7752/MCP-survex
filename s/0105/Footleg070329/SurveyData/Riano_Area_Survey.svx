@@ -1,0 +1,76 @@
+*BEGIN Riano_Area
+
+;###################################
+;  Complete cave survey data files
+;###################################
+*include 0105_Riano.svx
+*include 0581.svx
+*include 0935_Dormouse.svx
+*include 2418_Trackside.svx
+*include 2596_Petirrojo.svx
+;*include RianoSurfaceMesh.svx
+
+;###################################
+;  Unsurveyed site locations
+;###################################
+
+*BEGIN 1630_Mad_Axe_Woman
+*EXPORT 1
+*FIX 1 451904 4800462 0172
+*entrance 1
+1	2	5	85	0	;entrance
+2	3	20	100	0	;estimated end from drawn up survey
+
+*END 1630_Mad_Axe_Woman
+
+
+*BEGIN 1417_Letterbox_Cave
+*EXPORT 1
+*FIX 1 451920 4800458 0151
+*entrance 1
+1	2	10	90	0	;entrance
+*END 1417_Letterbox_Cave
+
+
+*BEGIN 2458_sink_in_field
+*EXPORT 1
+*FIX 1 452034 4800243 0168
+*entrance 1
+1	2	1	-	-V	;entrance marker
+*END 2458_sink_in_field
+
+
+*BEGIN 0644_cave
+*EXPORT 1
+*FIX 1 452084 4800220 0170
+*entrance 1
+1	2	1	-	-V	;entrance marker
+*END 0644_cave
+
+
+*BEGIN 2595_Prize_Cock_Pot
+*EXPORT 1
+*FIX 1 452276 4800512 0286
+*entrance 1
+1	2	6	-	-V	;entrance drop
+*END 2595_Prize_Cock_Pot
+
+
+*BEGIN 2469_Sink_hole
+*EXPORT 1
+*FIX 1 452355 4800536 0316
+*entrance 1
+1	2	2	-	-V	;entrance marker
+*END 2469_Sink_hole
+
+
+;*BEGIN _
+;*EXPORT 1
+;*FIX 1 452xxx 4800yyy 0zzz
+;*entrance 1
+;1	2	1	-	-V	;entrance marker
+;*END _
+
+
+*END Riano_Area
+

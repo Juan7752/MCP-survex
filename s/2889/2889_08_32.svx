@@ -1,0 +1,36 @@
+*begin 2889_08_32
+;Don't be an Idiot
+
+;surveyors: Dingle 3 Jimmy Penrith
+*DATE 2008.07.31
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+1	2	3.32	278	-12
+2	3	4.88	180	-39
+3	4	5.38	0	-4
+4	5	24.12	296	-2
+5	6	9.48	287	0
+6	7	7.13	308	17
+7	8	3.18	277	12
+8	9	8.16	308	22; shovel required
+
+*data passage station up down left right
+3	4.48	1.85	1.56	2.21
+4	5.51	2.64	1	1.5
+5	1.75	1.61	1	0
+6	4.41	1.39	0	.7
+7	4.7	1.82	.98	0
+8	4.54	.75	0	.3
+
+
+
+*end 2889_08_32

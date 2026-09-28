@@ -1,0 +1,41 @@
+*BEGIN 1212_Necrophilia
+;Created from Survey file on Mon,10 May 1999.20:59:25
+;Dates surveyed : 970730&970805
+*DATE 1997.07-1997.08
+;Surveyors      : PP+Martin Upfold
+;No of stations : 20
+;Plan length    : 26.9093293m
+;Traverse length: 64.8m
+
+;*FIX 0 454949 4801587 0377
+;*FIX 0 454847 4801378 0377; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 454847 4801378 0391
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.64 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North.(3.64-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+0	1	6.50	-	-V	;*
+1	2	6.00	274.55	-45	;*
+2	3	6.20	-	-V	;base p 2nd
+3	4	1.30	260.55	0	;*
+4	5	11.20	190.55	-49	;top p 3rd
+5	6	5.00	-	-V	;*
+6	7	2.80	171.55	1	;bolt above dig
+7	8	4.50	-	-V	;base of dig
+7	9	4.40	58.55	-1	;end side rift
+8	10	4.00	331.55	-25	;*
+10	11	9.00	-	-V	;*
+11	12	3.90	321.55	-35	;stn0 tight rift
+*END 1212_Necrophilia

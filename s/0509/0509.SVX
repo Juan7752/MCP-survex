@@ -1,0 +1,56 @@
+*BEGIN 0509_WildHorses
+;Created from Survey file on Sat,17 Feb 1996.21:22:39
+;Dates surveyed : 88/8
+;Surveyors      : Pete
+;No of stations : 17
+;Plan length    : 201.650938m
+;Traverse length: 220.3m
+
+;*FIX 0 455540 4796640 0610
+;*FIX 0 455438 4796431 0610; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 455438 4796431 0602
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*FIX 16 455480 4796580 0625
+;*FIX 16 455378 4796371 0625; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 16 455378 4796371 0627; from MAP
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+;should use "standard error" in one of these fixes?
+;or get both entrances GPSed
+
+*entrance 0
+*entrance 16
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.89 degrees but should have been 4.83 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.83-4.89-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.46
+
+0	1	12.90	187.11	-12	;*
+1	2	17.00	143.11	-32	;*
+2	3	18.70	84.11	-18	;*
+2	4	15.90	282.11	31	;*
+4	5	7.50	224.11	-15	;*
+5	6	7.80	166.11	-8	;*
+6	7	3.70	195.11	-26	;*
+7	8	3.50	167.11	-19	;*
+8	9	16.50	250.11	-9	;*
+9	10	30.50	189.11	1	;*
+10	11	26.50	300.11	13	;*
+11	12	12.60	333.11	7	;*
+12	13	13.00	295.11	32	;*
+13	14	16.00	64.11	0	;*
+13	15	10.00	209.11	19	;*
+15	16	8.20	-	+V	;*
+*END 0509_WildHorses

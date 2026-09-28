@@ -1,0 +1,24 @@
+*begin 2889_08_34
+;low series to Squality Street
+;surveyors: Paul Dold Steve Martin Pete Smith
+*DATE 2008.08.02
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+0	1	5.71	-	down
+0	2	12.43	240	6
+2	3	1.8	244	10
+3	4	2.22	253	23
+
+*data passage station left right down up
+2	0	.3	.5	2
+3	0	.4	.5	1.5
+4	.3	0	.5	1
+*end 2889_08_34

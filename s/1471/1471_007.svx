@@ -1,0 +1,20 @@
+*begin 1471_007
+*DATE 2005.11.11
+;*CALIBRATE DECLINATION 2.55
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.1; (2.5-0.4)
+
+;Papa Noel. 11/11-2005. Torben Redder, Peter Fast Nielsen, Louise Korsgaard, Carmen
+;stn 1=Start in Hall of Tubes (next to Hole in The Wall Chamber) stn 6 marked 4/8 2004 (survex:1471_006.6)
+;stn	stn	length	bearing	clino	;remark
+1	2	4.6	347	+24
+2	3	4.9	37	+20	;2 m high, 1 m wide
+3	4	5	0	+90	;0.7x0.7m
+4	5	6	48	+2	;5 m high chamber, 1.5 m wide, possible climb into roof tubes
+*end 1471_007

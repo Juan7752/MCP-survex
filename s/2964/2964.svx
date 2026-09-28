@@ -1,0 +1,20 @@
+*begin 2964
+
+;name: Not Too Bad Pot
+
+
+;*FIX 2964_08_01.15 455365 4794667 0495
+*FIX 2964_08_01.15 455263 4794458 0495; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*ENTRANCE 2964_08_01.15
+
+
+*INCLUDE 2964_08_01
+*INCLUDE 2964_15_01
+*INCLUDE 2964_15_02
+
+*EQUATE 2964_08_01.0 2964_15_01.1
+*EQUATE 2964_15_01.11 2964_15_02.1.5
+
+
+*end 2964

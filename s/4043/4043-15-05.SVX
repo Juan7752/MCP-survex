@@ -1,0 +1,26 @@
+*BEGIN 4043-15-05
+;passages beyond upstream duck
+
+*date 2015.08.04
+*TEAM  "Alasdair Neill" notes "James Carlisle" "Raoul Hidalgo Charman" compass clino disto
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.73
+
+6	7	4.52	59	1
+7	8	3.9	357	1
+8	9	10.23	18	0
+9	10	3.43	341	-9
+10	11	4.35	327	-13
+11	12	2.97	283	-18
+
+
+*data passage station left right up down
+6	.7	.4	.9	0
+7	.9	.8	.4	0
+8	1.1	0	1.5	.3
+9	1	.4	.1	.8
+10	1.5	.4	2	.3
+11	.3	1.2	3.5	.1
+
+*END 4043-15-05

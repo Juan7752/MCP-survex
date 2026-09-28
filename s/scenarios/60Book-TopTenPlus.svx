@@ -1,0 +1,79 @@
+*BEGIN top10PLUS
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE ../0105/0105.svx
+*INCLUDE ../0081/0081.svx
+*INCLUDE ../0114/0114.svx
+*INCLUDE ../0107/0107.svx
+*INCLUDE ../0575/0575.svx
+*INCLUDE ../3234/3234.svx
+*INCLUDE ../0117/0117.svx
+
+
+*EQUATE 0105_Riano.UpperLevels.181 0107_Uzueka.2ndRiverInlet.1
+*EQUATE 0114_Llueva.Part2.414 0107_Uzueka.RockyHorror.313
+*EQUATE 0114_Llueva.Part2.290 0081_Carcavuezo.Eastwards.0081-13-12.30
+*EQUATE 0114_Llueva.Part2.0114-17-01.0 0081_Carcavuezo.Eastwards.0081-17-02.24
+*EQUATE 0105_Riano.0105-19-01.5.7 3234_Llanio.3234-19-02.9
+
+;*INCLUDE ../0733/0733.svx; includes 4382 ***************************** NOT INCLUDED FOR 220m article
+
+*INCLUDE ..\0048\0048-2019\0048-2019-all.svx
+*INCLUDE ..\0036\0036.svx
+*INCLUDE ..\0264\0264.svx
+*INCLUDE ..\0333\0333.svx
+*INCLUDE ..\0040\0040.svx
+*INCLUDE ..\1338\1338.svx
+*INCLUDE ..\1471\1471.svx
+
+
+*EQUATE 1471_pnoel.1471_old.2003S.380 0264_coteron.old.373; Paper Plane to Coteron Renada Arm choke
+*EQUATE 1471_pnoel.1471_old.2003S.387 0048_renada.AcornData7.437; Tumbling Dice to Itchy Crutch
+
+*EQUATE 1338_shaft.2001S.76 0264_coteron.old.252; 1338 to 81 Depths Coteron
+*EQUATE 0036_Vera_Negra.127 0048_renada.old.69; aven climb up into Cabana
+*EQUATE 1471_pnoel.1471_006.18 0333_Azpilicueta.old.732; At the Opera / Hole in Wall Chamber
+
+*EQUATE 0048_Renada.old.116 0264_Coteron.old.315; original connection
+*EQUATE 1471_pnoel.1471_005.2 0048_renada.aa-climb.93
+
+*INCLUDE ..\2889\2889.svx
+*INCLUDE ..\3380\3380.svx
+;*******Almost linked
+
+*INCLUDE ../0071/0071.svx
+*INCLUDE ../0892/0892.svx
+*INCLUDE ../0774/0774.svx
+*INCLUDE ../0243/0243.svx
+
+*EQUATE 0071_mostajo.672 0774.0774-old-01.155
+*EQUATE 0774.0774-old-01.267 0892-all.0892_Reg_old.1054
+*EQUATE 0774.0774-old-01.271 0892-all.0892_Reg_old.284
+*EQUATE 0774.0774-old-01.282 0892-all.0892_Reg_old.987
+*EQUATE 0774.0774-11-01.1 0892-all.0892_reg_old.362
+
+*INCLUDE ../0025/0025.svx
+
+*INCLUDE ../0841/0841.svx
+
+*INCLUDE ../0258/0258.svx
+
+*INCLUDE ../0553/1930.svx
+
+*INCLUDE ../2366/2366.svx
+
+;vvvvvvvvvvvvvvvvvvvv   ADDITIONS    vvvvvvvvvvvvvvvvvvvvvvv
+
+*INCLUDE ../0713/0713.svx
+
+*INCLUDE ../0103/0103.svx
+
+*INCLUDE ../0059/0059.svx
+
+*INCLUDE ../0122/0122.svx
+*INCLUDE ../0123/0123.svx
+*INCLUDE ../3283/3283.svx
+
+*end top10PLUS

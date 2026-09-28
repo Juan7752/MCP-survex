@@ -1,0 +1,9 @@
+;25 july 2013
+;dive the sump off the south east downstream corner of Encaramada
+
+1	2	2	210	0	
+2	3	3	250	0	
+3	4	3	320	0
+4	5	6	280	0	
+
+

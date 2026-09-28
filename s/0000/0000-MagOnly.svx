@@ -1,0 +1,16 @@
+*BEGIN 0000LRUD
+10m deep pitch; 2 x 2m at the top
+0	1	2	270	0; across top
+1	2	2	45	0
+2	3	2	180	0
+3	4	1	0	0
+
+
+*data passage station left right up down
+0	0	0	0	10
+1	0	2	0	10
+2	0	0	0	10
+3	0	0	0	10
+4	2	2	0	10
+
+*END 0000LRUD

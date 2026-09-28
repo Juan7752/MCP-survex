@@ -1,0 +1,56 @@
+*BEGIN 0081-13-20
+
+*date 2013.08.05
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+;surveyors Alasdair Neill Pete Smith
+;passage name: rifts from river to Western Series
+
+*FLAGS DUPLICATE
+0	1	6.56	64	-10
+2	1	13.05	240	0
+2	3	6.26	30	10	;3 marked cairn bearing recorded as 130 ?error
+*FLAGS NOT DUPLICATE
+4	3	6.86	88	-17
+4	5	7.47	260	-7	;5 marked carbide spot
+6	5	4.59	107	-33
+7	6	2.84	91	0
+8	7	7.63	68	-3
+9	8	6.1	74	0
+10	9	4.48	87	-3
+9	11	3.27	254	27
+11	12	5.84	267	23
+12	13	7.57	279	-6
+14	13	4.97	82	-60
+15	14	4.58	59	-19	;15 marked
+15	16	8.79	281	3
+
+17	16	4.77	177	-2	;17 old cairn
+17	18	2.88	1	-10	;18 orange marker top of old pitch
+
+
+*data passage station left right up down
+4	1.18	1.12	3.1	2.2
+5	.2	1.6	4.66	.6
+6	2.1	.4	3.2	2.3
+7	.6	2.1	8.1	1.4
+8	0.6	0.2	5.4	1.4
+9	.6	.2	2.5	.7
+10	.6	.2	2.5	.7
+*data passage station left right up down
+9	.6	.2	2.5	.7
+11	.5	.2	6.7	1.6
+12	.4	.8	4.8	3.4
+13	0	.7	5	2
+14	1.13	1.14	4.4	4.9
+15	2.2	8	2.1	2.2
+
+*END 0081-13-20

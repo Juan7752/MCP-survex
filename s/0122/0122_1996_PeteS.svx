@@ -1,0 +1,42 @@
+*BEGIN 0122_1996_PeteS
+;1996 Pete Smith et al
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.6 degrees but should have been 3.84 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.84-3.6-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+*FLAGS DUPLICATE
+0	96	21.00	45.40	-15	;entrance
+96	97	12.10	70.40	-12	;*
+97	98	17.80	54.40	-45	;below 1st p
+98	99	30.00	210.40	-27	;stn 20
+99	100	30.00	220.40	-8	;stn 19 below cl up
+*FLAGS NOT DUPLICATE
+
+100	101	10.90	164.40	30	;stn 18
+101	102	15.60	206.40	-21	;start of rift stn 17
+102	103	4.60	213.40	-7	;top 2nd p
+103	104	2.80	-	-V	;rebelay
+104	105	18.90	211.40	-51	;near bottom of p; stn 14
+105	106	15.20	201.40	-4	;*
+106	107	6.60	313.40	0	;*
+107	108	30.00	305.40	-3	;stn 11; middle of camp site
+108	109	20.30	41.40	-5	;stn 10; top 3rd p
+109	110	3.50	-	-V	;*
+110	111	14.90	29.40	-33	;stn 8; junction marked with triangle
+111	112	4.95	306.40	-5	;*
+112	113	19.70	30.40	0	;*
+113	114	22.20	26.40	0	;*
+114	115	12.40	39.40	-2	;stn 4
+115	116	3.20	333.40	-1	;*
+116	117	24.85	358.40	-3	;stn 2
+117	118	9.37	29.40	2	;*
+118	119	12.85	338.40	-7	;pool p marked on left
+
+
+*END 0122_1996_PeteS

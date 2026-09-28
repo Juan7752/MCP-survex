@@ -1,0 +1,64 @@
+*begin 2366_08_14
+
+*team Martin Barnicott +?
+*date 2008.03.26
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate compass 0.0
+*calibrate clino 0.0
+
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+;0 is at start of handline
+
+*FLAGS DUPLICATE
+0	1	6.46	223	-37
+1	2	2.53	97	-22
+2	3	2.12	120	0
+*FLAGS NOT DUPLICATE
+3	4	6.24	118	15
+4	5	3.4	125	32
+5	6	2.88	195	38
+6	7	1.55	125	10
+7	8	2.21	88	12
+
+;5 - 8 passage off to right, steup, becomes too tight
+
+5	9	.55	-	down; lower survey station to get line
+9	10	2.91	112	0
+10	11	4.1	125	2
+11	12	4.33	120	3; straight on at cairn? choked with wet sand and cobbles
+
+11	13	2.78	222	27
+13	14	1.43	160	2
+14	15	2.47	160	28
+15	16	2.97	50	28
+;compass glass cracked so unable to continue through back to survey station on handline as planned
+
+*data passage station left right up down
+3	.7	0	.7	1.5
+4	0	.35	1.3	.85
+5	.15	.48	2.04	1.71
+6	.49	0	0.49	.99
+7	.49	0	.12	.33
+8	.25	0	.4	.3
+
+*data passage station left right up down
+10	.27	.26	.1	.75
+11	.5	1.3	1.88	.15
+12	0	1.3	.5	.3
+
+*data passage station left right up down
+11	.5	1.3	1.88	.15
+13	.45	.88	1.2	.12
+14	.05	.35	1.4	.1
+15	1.6	.3	.29	.49; fossils
+
+*end 2366_08_14

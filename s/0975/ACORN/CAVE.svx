@@ -1,0 +1,15 @@
+*BEGIN 0975_cave
+;Created from Survey file on Mon,10 May 1999.19:23:06
+;Dates surveyed : 940404
+;Surveyors      : DB PStacey+DB PStacey
+;No of stations : 6
+;Plan length    : 53.0864803m
+;Traverse length: 59m
+
+*FIX 0 50480 96750 0274
+0	1	15.00	46.10	-4	;*
+1	2	20.00	32.10	-2	;*
+2	3	10.80	35.10	12	;*
+3	4	13.20	6.10	55	;*
+0	5	0.0	-	+V	;*
+*END 0975_cave

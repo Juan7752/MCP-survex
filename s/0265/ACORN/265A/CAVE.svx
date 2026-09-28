@@ -1,0 +1,19 @@
+*BEGIN 0265_Copudia
+;Created from Survey file on Thu,12 Oct 1995.20:22:09
+;Dates surveyed : 810717
+;Surveyors      : Pete
+;No of stations : 10
+;Plan length    : 162.461517m
+;Traverse length: 164m
+
+*FIX 0 51310 95440 0325
+0	1	9.00	256.15	-14	;*
+1	2	25.00	241.15	-10	;*
+2	3	25.00	247.15	2	;*
+3	4	12.00	239.15	-8	;*
+4	5	20.00	229.15	0	;*
+3	6	25.00	13.15	-2	;*
+6	7	25.00	350.15	4	;*
+7	8	23.00	313.15	14	;western entr
+0	9	0.0	-	+V	;*
+*END 0265_Copudia

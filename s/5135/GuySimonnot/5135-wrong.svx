@@ -1,0 +1,1885 @@
+; 2025.10.04 created by TopoDroid v 6.2.44
+; Rasa
+; Instrument: SM-T720
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; Extracted from a .trox file (supplied by Guy Simonnot) by importing into TopoDroid-X on an Android tablet
+; then exporting .svx. The .svx file had to be cleaned up (& and + in stn names replaced).
+
+*begin Rasa 
+  *date 2025.10.04 
+  *team "" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  ;*declination 0.00
+  *flags not splay
+  *data normal from to tape compass clino
+ ;   0 0   0.00 0.0 -90.0
+  *flags splay
+  0 0a 0.60 90.0 0.0
+  0 0ba 0.20 0.0 90.0
+  0 0bb 0.60 0.0 -90.0
+  *flags not splay
+    q2 s   14.45 320.0 -14.6
+  *flags splay
+  s sa 1.75 230.0 0.0
+  s sba 3.45 50.0 0.0
+  s sbb 5.96 0.0 90.0
+  s sbc 0.33 0.0 -90.0
+  *flags not splay
+    s r   10.40 62.5 -9.5
+  *flags splay
+  r ra 3.35 332.5 0.0
+  r rba 1.18 152.5 0.0
+  r rbb 0.57 0.0 90.0
+  r rbc 0.90 0.0 -90.0
+  *flags not splay
+    r q   6.65 24.0 -6.5
+  *flags splay
+  q qa 0.38 294.0 0.0
+  q qba 0.64 114.0 0.0
+  q qbb 1.56 0.0 90.0
+  q qbc 1.49 0.0 -90.0
+  *flags not splay
+    q p   10.31 73.0 -9.3
+  *flags splay
+  p pa 0.59 343.0 0.0
+  p pba 0.66 163.0 0.0
+  p pbb 0.63 0.0 90.0
+  p pbc 1.48 0.0 -90.0
+  *flags not splay
+    p o   5.67 86.0 -5.0
+  *flags splay
+  o oa 0.87 356.0 0.0
+  o oba 0.20 176.0 0.0
+  o obb 3.46 0.0 90.0
+  o obc 1.64 0.0 -90.0
+  *flags not splay
+    o n   7.17 55.0 -11.9
+  *flags splay
+  n na 1.44 325.0 0.0
+  n nba 1.27 145.0 0.0
+  n nbb 4.57 0.0 90.0
+  n nbc 1.56 0.0 -90.0
+  *flags not splay
+    n m   5.90 313.5 12.1
+  *flags splay
+  m ma 0.68 43.5 0.0
+  m mba 1.21 0.0 90.0
+  m mbb 3.26 0.0 -90.0
+  *flags not splay
+    m l   3.27 82.0 -10.8
+  *flags splay
+  l la 0.71 352.0 0.0
+  l lba 1.10 0.0 90.0
+  l lbb 3.10 0.0 -90.0
+  *flags not splay
+    l k   5.80 81.0 -10.8
+  *flags splay
+  k ka 0.20 351.0 0.0
+  k kba 0.30 171.0 0.0
+  k kbb 1.43 0.0 90.0
+  k kbc 1.97 0.0 -90.0
+  *flags not splay
+    k j   2.71 66.0 -11.1
+  *flags splay
+  j ja 0.60 336.0 0.0
+  j jba 1.51 0.0 90.0
+  j jbb 3.15 0.0 -90.0
+  *flags not splay
+    j i   3.63 83.0 -6.6
+  *flags splay
+  i ia 0.70 353.0 0.0
+  i iba 2.28 0.0 90.0
+  i ibb 2.89 0.0 -90.0
+  *flags not splay
+    i h   2.60 340.0 -7.8
+  *flags splay
+  h ha 0.72 70.0 0.0
+  h hba 1.49 0.0 90.0
+  h hbb 3.40 0.0 -90.0
+  *flags not splay
+    h g   2.93 57.0 -26.4
+  *flags splay
+  g ga 1.39 327.0 0.0
+  g gba 0.48 147.0 0.0
+  g gbb 2.08 0.0 90.0
+  g gbc 2.24 0.0 -90.0
+  *flags not splay
+    g f   9.80 23.5 -18.3
+  *flags splay
+  f fa 1.22 293.5 0.0
+  f fba 0.26 113.5 0.0
+  f fbb 2.10 0.0 90.0
+  f fbc 1.02 0.0 -90.0
+  *flags not splay
+    f e   3.99 1.0 -0.4
+  *flags splay
+  e ea 1.30 271.0 0.0
+  e eba 0.56 91.0 0.0
+  e ebb 1.23 0.0 90.0
+  e ebc 2.05 0.0 -90.0
+  *flags not splay
+    e d   5.25 311.5 -8.6
+  *flags splay
+  d da 0.10 221.5 0.0
+  d dba 0.57 41.5 0.0
+  d dbb 0.65 0.0 90.0
+  d dbc 2.00 0.0 -90.0
+  *flags not splay
+    d c   3.99 32.0 -10.3
+  *flags splay
+  c ca 0.60 122.0 0.0
+  c cba 1.12 0.0 90.0
+  c cbb 1.49 0.0 -90.0
+  *flags not splay
+    c b   3.53 59.0 -9.4
+  *flags splay
+  b ba 0.67 329.0 0.0
+  b bba 0.39 0.0 90.0
+  b bbb 1.50 0.0 -90.0
+  *flags not splay
+    b a   6.46 46.5 -5.2
+  *flags splay
+  a aa 0.54 316.5 0.0
+  a aba 0.23 136.5 0.0
+  a abb 0.30 0.0 90.0
+  a abc 1.45 0.0 -90.0
+  *flags not splay
+    a a1   4.90 58.0 -14.7
+  *flags splay
+  a1 a1a 0.56 328.0 0.0
+  a1 a1ba 0.20 148.0 0.0
+  a1 a1bb 1.53 0.0 90.0
+  a1 a1bc 0.82 0.0 -90.0
+  *flags not splay
+    a1 b1   2.44 104.0 1.8
+  *flags splay
+  b1 b1a 0.83 14.0 0.0
+  b1 b1ba 0.49 194.0 0.0
+  b1 b1bb 0.49 0.0 90.0
+  b1 b1bc 1.20 0.0 -90.0
+  *flags not splay
+    b1 c1   2.12 20.0 -16.9
+  *flags splay
+  c1 c1a 0.43 110.0 0.0
+  c1 c1ba 1.03 0.0 90.0
+  c1 c1bb 0.67 0.0 -90.0
+  *flags not splay
+    c1 d1   1.24 100.0 -4.5
+  *flags splay
+  d1 d1a 0.50 10.0 0.0
+  d1 d1ba 0.52 0.0 90.0
+  d1 d1bb 1.45 0.0 -90.0
+  *flags not splay
+    d1 e1   3.08 57.0 -11.0
+  *flags splay
+  e1 e1a 0.60 147.0 0.0
+  e1 e1ba 1.30 0.0 90.0
+  e1 e1bb 1.00 0.0 -90.0
+  *flags not splay
+    e1 f1   1.77 90.0 -8.3
+  *flags splay
+  f1 f1a 0.50 0.0 0.0
+  f1 f1ba 1.00 0.0 90.0
+  f1 f1bb 0.80 0.0 -90.0
+  *flags not splay
+    c cquote   3.00 90.0 12.7
+  *flags splay
+  cquote cquotea 0.20 0.0 0.0
+  cquote cquoteba 0.20 180.0 0.0
+  cquote cquotebb 0.25 0.0 90.0
+  cquote cquotebc 0.25 0.0 -90.0
+  *flags not splay
+    0 a2   2.91 37.0 -36.5
+  *flags splay
+  a2 a2a 2.00 127.0 0.0
+  a2 a2ba 1.00 0.0 90.0
+  a2 a2bb 1.00 0.0 -90.0
+  *flags not splay
+    a2 b2   5.75 79.0 -8.3
+  *flags splay
+  b2 b2a 0.37 349.0 0.0
+  b2 b2ba 2.11 169.0 0.0
+  b2 b2bb 1.25 0.0 90.0
+  b2 b2bc 0.95 0.0 -90.0
+  *flags not splay
+    b2 c2   1.41 355.0 2.4
+  *flags splay
+  c2 c2a 0.62 265.0 0.0
+  c2 c2ba 0.20 85.0 0.0
+  c2 c2bb 0.60 0.0 90.0
+  c2 c2bc 0.70 0.0 -90.0
+  *flags not splay
+    c2 d2   8.52 12.0 -22.4
+  *flags splay
+  d2 d2a 3.88 282.0 0.0
+  d2 d2ba 0.56 0.0 90.0
+  d2 d2bb 0.58 0.0 -90.0
+  *flags not splay
+    d2 e2   7.77 286.0 -7.6
+  *flags splay
+  e2 e2a 1.76 196.0 0.0
+  e2 e2ba 0.42 16.0 0.0
+  e2 e2bb 0.30 0.0 90.0
+  e2 e2bc 0.91 0.0 -90.0
+  *flags not splay
+    e2 f2   5.07 283.0 -21.7
+  *flags splay
+  f2 f2a 2.88 193.0 0.0
+  f2 f2ba 1.28 13.0 0.0
+  f2 f2bb 0.84 0.0 90.0
+  f2 f2bc 1.50 0.0 -90.0
+  *flags not splay
+    f2 h2   19.80 157.0 -85.6
+  *flags splay
+  h2 h2a 5.38 67.0 0.0
+  h2 h2ba 5.97 247.0 0.0
+  h2 h2bb 20.60 0.0 90.0
+  *flags not splay
+    h2 i2   6.11 240.0 64.5
+  *flags splay
+  i2 i2a 6.23 150.0 0.0
+  i2 i2ba 2.03 330.0 0.0
+  i2 i2bb 6.12 0.0 90.0
+  i2 i2bc 0.77 0.0 -90.0
+  *flags not splay
+    i2 j2   7.73 235.0 40.7
+  *flags splay
+  j2 j2a 1.16 325.0 0.0
+  j2 j2ba 0.40 0.0 90.0
+  j2 j2bb 1.54 0.0 -90.0
+  *flags not splay
+    j2 k2   9.21 272.0 -26.2
+  *flags splay
+  k2 k2a 4.43 182.0 0.0
+  k2 k2ba 1.66 2.0 0.0
+  k2 k2bb 3.27 0.0 90.0
+  k2 k2bc 1.25 0.0 -90.0
+  *flags not splay
+    k2 l2   7.86 192.0 -61.2
+  *flags splay
+  l2 l2a 2.26 102.0 0.0
+  l2 l2ba 2.27 282.0 0.0
+  l2 l2bb 14.50 0.0 90.0
+  *flags not splay
+    l2 m2   6.86 253.0 -9.8
+  *flags splay
+  m2 m2a 0.76 343.0 0.0
+  m2 m2ba 0.85 0.0 90.0
+  m2 m2bb 1.50 0.0 -90.0
+  *flags not splay
+    m2 n2   5.28 316.0 -29.7
+  *flags splay
+  n2 n2a 0.48 46.0 0.0
+  n2 n2ba 1.68 0.0 90.0
+  n2 n2bb 1.62 0.0 -90.0
+  *flags not splay
+    n2 o2   6.11 306.0 -31.1
+  *flags splay
+  o2 o2a 1.26 216.0 0.0
+  o2 o2ba 4.40 0.0 90.0
+  o2 o2bb 1.44 0.0 -90.0
+  *flags not splay
+    o2 p2   1.69 220.0 -7.9
+  *flags splay
+  p2 p2a 1.01 310.0 0.0
+  p2 p2ba 3.82 0.0 90.0
+  p2 p2bb 1.54 0.0 -90.0
+  *flags not splay
+    p2 q2   4.10 290.0 -70.5
+  *flags splay
+  q2 q2a 3.24 200.0 0.0
+  q2 q2ba 3.71 20.0 0.0
+  q2 q2bb 8.00 0.0 90.0
+  q2 q2bc 1.51 0.0 -90.0
+  *flags not splay
+    f1 g1   2.76 68.0 -3.6
+  *flags splay
+  g1 g1a 0.20 158.0 0.0
+  g1 g1ba 1.16 0.0 90.0
+  g1 g1bb 1.17 0.0 -90.0
+  *flags not splay
+    g1 h1   2.82 318.0 7.0
+  *flags splay
+  h1 h1a 0.40 48.0 0.0
+  h1 h1ba 0.20 0.0 90.0
+  h1 h1bb 0.50 0.0 -90.0
+  *flags not splay
+    h1 i1   1.82 35.0 -37.5
+  *flags splay
+  i1 i1a 0.72 305.0 0.0
+  i1 i1ba 0.92 125.0 0.0
+  i1 i1bb 1.80 0.0 90.0
+  i1 i1bc 1.68 0.0 -90.0
+  *flags not splay
+    i1 j1   4.56 84.0 -34.9
+  *flags splay
+  j1 j1a 0.78 354.0 0.0
+  j1 j1ba 0.41 174.0 0.0
+  j1 j1bb 2.13 0.0 90.0
+  *flags not splay
+    j1 k1   2.10 66.0 48.8
+  *flags splay
+  k1 k1a 0.68 336.0 0.0
+  k1 k1ba 0.10 156.0 0.0
+  k1 k1bb 0.66 0.0 90.0
+  k1 k1bc 1.38 0.0 -90.0
+  *flags not splay
+    k1 l1z4   1.86 36.5 -15.5
+  *flags splay
+  l1z4 l1z4a 0.30 306.5 0.0
+  l1z4 l1z4ba 3.00 126.5 0.0
+  l1z4 l1z4bb 0.80 0.0 90.0
+  l1z4 l1z4bc 1.00 0.0 -90.0
+  *flags not splay
+    l1z4 z5   1.20 72.8 -30.3
+  *flags splay
+  z5 z5a 2.00 342.8 0.0
+  z5 z5ba 3.00 162.8 0.0
+  *flags not splay
+    z5 z6   2.10 338.9 -58.8
+  *flags splay
+  z6 z6a 2.00 248.9 0.0
+  z6 z6ba 8.00 68.9 0.0
+  *flags not splay
+    z6 z7   3.83 348.8 -75.0
+  *flags splay
+  z7 z7a 7.00 258.8 0.0
+  z7 z7ba 7.00 78.8 0.0
+  *flags not splay
+    z7 z8   13.07 306.8 -74.4
+  *flags splay
+  z8 z8a 8.00 216.8 0.0
+  z8 z8ba 8.00 36.8 0.0
+  *flags not splay
+    z8 a11   5.62 311.5 -59.5
+  *flags splay
+  a11 a11a 4.62 221.5 0.0
+  a11 a11ba 7.77 41.5 0.0
+  a11 a11bb 17.49 0.0 90.0
+  *flags not splay
+    a11 a12   2.95 333.1 -14.1
+  *flags splay
+  a12 a12a 1.55 243.1 0.0
+  a12 a12ba 1.27 63.1 0.0
+  a12 a12bb 12.27 0.0 90.0
+  a12 a12bc 0.73 0.0 -90.0
+  *flags not splay
+    a12 a13   10.25 342.5 -34.3
+  *flags splay
+  a13 a13a 1.39 252.5 0.0
+  a13 a13ba 1.56 72.5 0.0
+  a13 a13bb 0.41 0.0 90.0
+  a13 a13bc 2.46 0.0 -90.0
+  *flags not splay
+    a13 a14   1.64 280.8 -87.2
+  *flags splay
+  a14 a14a 2.00 190.8 0.0
+  a14 a14ba 0.54 10.8 0.0
+  a14 a14bb 1.09 0.0 90.0
+  a14 a14bc 1.64 0.0 -90.0
+  *flags not splay
+    a14 a15   1.43 287.2 -7.1
+  *flags splay
+  a15 a15a 2.04 197.2 0.0
+  a15 a15ba 0.50 17.2 0.0
+  a15 a15bb 0.51 0.0 90.0
+  *flags not splay
+    c3 b3   0.00 0.0 -90.0
+  *flags splay
+  b3 b3a 1.13 270.0 0.0
+  b3 b3ba 1.75 90.0 0.0
+  b3 b3bb 0.73 0.0 90.0
+  b3 b3bc 0.20 0.0 -90.0
+  *flags not splay
+    b3 b4   9.30 214.3 10.2
+  *flags splay
+  b4 b4a 1.87 124.3 0.0
+  b4 b4ba 1.03 304.3 0.0
+  b4 b4bb 0.52 0.0 90.0
+  b4 b4bc 0.64 0.0 -90.0
+  *flags not splay
+    b4 b5   5.63 139.6 9.8
+  *flags splay
+  b5 b5a 1.56 229.6 0.0
+  b5 b5ba 0.41 0.0 90.0
+  b5 b5bb 1.34 0.0 -90.0
+  *flags not splay
+    b5 b6   8.87 132.3 8.6
+  *flags splay
+  b6 b6a 1.28 42.3 0.0
+  b6 b6ba 1.76 222.3 0.0
+  b6 b6bb 0.80 0.0 90.0
+  b6 b6bc 0.23 0.0 -90.0
+  *flags not splay
+    b6 b7a   6.41 133.2 11.4
+  *flags splay
+  b7a b7aa 3.29 43.2 0.0
+  b7a b7aba 1.52 223.2 0.0
+  b7a b7abb 2.37 0.0 90.0
+  b7a b7abc 0.77 0.0 -90.0
+  *flags not splay
+    b7a b8   15.11 164.2 11.4
+  *flags splay
+  b8 b8a 0.58 74.2 0.0
+  b8 b8ba 2.93 254.2 0.0
+  b8 b8bb 1.15 0.0 90.0
+  b8 b8bc 1.32 0.0 -90.0
+  *flags not splay
+    b8 b9   8.39 196.8 18.4
+  *flags splay
+  b9 b9a 6.72 106.8 0.0
+  b9 b9ba 1.98 286.8 0.0
+  b9 b9bb 3.82 0.0 90.0
+  *flags not splay
+    b9 b9plus   0.40 180.0 90.0
+  *flags splay
+  b9plus b9plusa 6.72 270.0 0.0
+  b9plus b9plusba 1.98 90.0 0.0
+  b9plus b9plusbb 3.82 0.0 90.0
+  b9plus b9plusbc 0.40 0.0 -90.0
+  *flags not splay
+    b9plus b10   5.75 138.5 -23.6
+  *flags splay
+  b10 b10a 4.84 48.5 0.0
+  b10 b10ba 1.98 228.5 0.0
+  b10 b10bb 8.68 0.0 90.0
+  b10 b10bc 1.07 0.0 -90.0
+  *flags not splay
+    b10 b11   8.79 136.1 84.6
+  *flags splay
+  b11 b11a 0.47 46.1 0.0
+  b11 b11ba 1.23 226.1 0.0
+  b11 b11bb 9.41 0.0 -90.0
+  *flags not splay
+    b11 b12   2.96 191.1 21.1
+  *flags splay
+  b12 b12a 0.31 101.1 0.0
+  b12 b12ba 1.44 281.1 0.0
+  b12 b12bb 0.69 0.0 -90.0
+  *flags not splay
+    b12 b13   4.13 191.7 16.3
+  *flags splay
+  b13 b13a 1.70 101.7 0.0
+  b13 b13ba 0.43 0.0 90.0
+  b13 b13bb 0.74 0.0 -90.0
+  *flags not splay
+    b13 b14   5.73 119.9 1.1
+  *flags splay
+  b14 b14a 1.94 209.9 0.0
+  b14 b14ba 1.55 0.0 90.0
+  b14 b14bb 0.97 0.0 -90.0
+  *flags not splay
+    b14 b15   2.92 138.3 37.3
+  *flags splay
+  b15 b15a 0.89 48.3 0.0
+  b15 b15ba 0.52 228.3 0.0
+  b15 b15bb 0.39 0.0 90.0
+  b15 b15bc 0.51 0.0 -90.0
+  *flags not splay
+    b15 a15   1.74 148.0 13.4
+  *flags splay
+  a15 a15a 0.85 58.0 0.0
+  a15 a15ba 0.33 238.0 0.0
+  a15 a15bb 0.22 0.0 90.0
+  a15 a15bc 0.39 0.0 -90.0
+  *flags not splay
+    b3 c4   1.27 262.4 0.1
+  *flags splay
+  b3 b3a 2.60 352.4 0.0
+  b3 b3ba 1.50 172.4 0.0
+  b3 b3bb 0.60 0.0 90.0
+  b3 b3bc 0.10 0.0 -90.0
+  *flags not splay
+    c4 c5   17.70 199.1 19.5
+  *flags splay
+  c4 c4a 3.70 109.1 0.0
+  c4 c4ba 15.00 0.0 90.0
+  c4 c4bb 3.20 0.0 -90.0
+  *flags not splay
+    c5 c5-1   18.86 128.2 30.6
+  *flags splay
+  c5-1 c5-1a 24.50 218.2 0.0
+  c5-1 c5-1ba 18.50 38.2 0.0
+  c5-1 c5-1bb 38.00 0.0 90.0
+  c5-1 c5-1bc 3.50 0.0 -90.0
+  *flags not splay
+    c5-1 c5-2   12.26 117.6 23.6
+  *flags splay
+  c5-2 c5-2a 26.50 207.6 0.0
+  c5-2 c5-2ba 14.00 27.6 0.0
+  c5-2 c5-2bb 39.00 0.0 90.0
+  c5-2 c5-2bc 4.00 0.0 -90.0
+  *flags not splay
+    c5-2 c5-3   28.71 64.9 29.8
+  *flags splay
+  c5-3 c5-3a 9.00 154.9 0.0
+  c5-3 c5-3ba 33.00 334.9 0.0
+  c5-3 c5-3bb 34.00 0.0 90.0
+  c5-3 c5-3bc 1.60 0.0 -90.0
+  *flags not splay
+    c5-3 c5-4   2.90 96.8 23.4
+  *flags splay
+  c5-4 c5-4a 7.80 186.8 0.0
+  c5-4 c5-4ba 35.00 6.8 0.0
+  c5-4 c5-4bb 7.00 0.0 90.0
+  c5-4 c5-4bc 1.50 0.0 -90.0
+  *flags not splay
+    c5-5 c5-4   18.32 148.7 29.8
+  *flags splay
+  c5-4 c5-4a 17.00 0.0 90.0
+  c5-4 c5-4ba 1.40 0.0 -90.0
+  *flags not splay
+    c5 c6   14.39 169.8 -5.4
+  *flags splay
+  c5 c5a 8.00 259.8 0.0
+  c5 c5ba 2.50 79.8 0.0
+  c5 c5bb 1.70 0.0 90.0
+  c5 c5bc 1.30 0.0 -90.0
+  *flags not splay
+    c6 c7   3.37 135.1 14.0
+  *flags splay
+  c6 c6a 1.50 225.1 0.0
+  c6 c6ba 4.00 45.1 0.0
+  c6 c6bb 1.70 0.0 90.0
+  *flags not splay
+    c7 c8   3.71 79.3 76.3
+  *flags splay
+  c7 c7a 3.20 349.3 0.0
+  *flags not splay
+    c8 c9   3.75 39.2 18.8
+  *flags splay
+  c8 c8a 1.80 129.2 0.0
+  c8 c8ba 1.10 309.2 0.0
+  c8 c8bb 0.30 0.0 90.0
+  c8 c8bc 1.60 0.0 -90.0
+  *flags not splay
+    c9 c10   7.74 131.0 16.9
+  *flags splay
+  c9 c9a 0.50 221.0 0.0
+  c9 c9ba 4.10 41.0 0.0
+  c9 c9bb 1.60 0.0 90.0
+  c9 c9bc 1.50 0.0 -90.0
+  *flags not splay
+    c10 c11   4.64 137.6 57.3
+  *flags splay
+  c10 c10a 0.40 227.6 0.0
+  c10 c10ba 4.00 47.6 0.0
+  c10 c10bb 2.00 0.0 90.0
+  c10 c10bc 1.70 0.0 -90.0
+  *flags not splay
+    c11 c12   19.07 153.6 77.0
+  *flags splay
+  c11 c11a 0.40 243.6 0.0
+  c11 c11ba 0.50 63.6 0.0
+  c11 c11bb 18.00 0.0 90.0
+  *flags not splay
+    c12-1 c12   16.95 119.4 -10.1
+  *flags splay
+  c12-1 c12-1a 16.00 29.4 0.0
+  c12-1 c12-1ba 1.50 0.0 -90.0
+  *flags not splay
+    c12 c13   10.22 17.7 -1.5
+  *flags splay
+  c12 c12a 2.60 107.7 0.0
+  c12 c12ba 17.00 287.7 0.0
+  c12 c12bb 7.00 0.0 90.0
+  c12 c12bc 3.00 0.0 -90.0
+  *flags not splay
+    c13 PT-Q-28   7.09 2.4 12.0
+  *flags splay
+  c13 c13a 2.00 92.4 0.0
+  c13 c13ba 12.00 272.4 0.0
+  c13 c13bb 1.50 0.0 90.0
+  c13 c13bc 1.60 0.0 -90.0
+  *flags not splay
+    PT-Q-28 c14   3.27 22.7 15.4
+  *flags splay
+  PT-Q-28 PT-Q-28a 11.00 292.7 0.0
+  PT-Q-28 PT-Q-28ba 1.80 0.0 90.0
+  PT-Q-28 PT-Q-28bb 1.70 0.0 -90.0
+  *flags not splay
+    c14 c15   4.09 31.1 48.9
+  *flags splay
+  c14 c14a 1.00 301.1 0.0
+  c14 c14ba 8.00 0.0 90.0
+  c14 c14bb 3.50 0.0 -90.0
+  *flags not splay
+    c15 c16   5.87 82.9 75.0
+  *flags splay
+  c15 c15a 0.50 172.9 0.0
+  c15 c15ba 3.20 352.9 0.0
+  c15 c15bb 2.60 0.0 -90.0
+  *flags not splay
+    c16 c17   5.48 209.3 -6.1
+  *flags splay
+  c16 c16a 0.10 299.3 0.0
+  c16 c16ba 3.50 119.3 0.0
+  c16 c16bb 5.00 0.0 90.0
+  c16 c16bc 2.50 0.0 -90.0
+  *flags not splay
+    c17 c17-1   2.14 318.2 -23.1
+  *flags splay
+  c17-1 c17-1a 5.40 48.2 0.0
+  c17-1 c17-1ba 1.26 228.2 0.0
+  c17-1 c17-1bb 3.00 0.0 90.0
+  c17-1 c17-1bc 0.50 0.0 -90.0
+  *flags not splay
+    c17-1 c17-2   5.63 357.6 -14.6
+  *flags splay
+  c17-2 c17-2a 0.60 87.6 0.0
+  c17-2 c17-2ba 1.10 267.6 0.0
+  c17-2 c17-2bb 9.00 0.0 90.0
+  c17-2 c17-2bc 0.20 0.0 -90.0
+  *flags not splay
+    c17 PT-Q-22   3.76 357.2 16.9
+  *flags splay
+  c17 c17a 3.50 87.3 0.0
+  c17 c17ba 2.70 267.3 0.0
+  c17 c17bb 1.40 0.0 -90.0
+  *flags not splay
+    PT-FDZ H1   9.02 198.6 -1.1
+  *flags splay
+  H1 H1a 3.53 288.6 0.0
+  H1 H1ba 4.30 108.6 0.0
+  H1 H1bb 0.82 0.0 90.0
+  H1 H1bc 1.05 0.0 -90.0
+  *flags not splay
+    H1 H2   13.57 219.8 1.1
+  *flags splay
+  H2 H2a 3.39 309.8 0.0
+  H2 H2ba 1.86 129.8 0.0
+  H2 H2bb 0.76 0.0 90.0
+  H2 H2bc 0.82 0.0 -90.0
+  *flags not splay
+    H2 H3   9.98 257.5 -4.4
+  *flags splay
+  H3 H3a 1.79 347.5 0.0
+  H3 H3ba 3.40 167.5 0.0
+  H3 H3bb 0.92 0.0 90.0
+  H3 H3bc 1.60 0.0 -90.0
+  *flags not splay
+    H3 H4   9.95 292.5 -0.7
+  *flags splay
+  H4 H4a 2.90 22.5 0.0
+  H4 H4ba 1.72 202.5 0.0
+  H4 H4bb 1.59 0.0 90.0
+  H4 H4bc 1.27 0.0 -90.0
+  *flags not splay
+    H4 H5   19.02 294.8 5.1
+  *flags splay
+  H5 H5a 3.36 24.8 0.0
+  H5 H5ba 2.87 204.8 0.0
+  H5 H5bb 0.98 0.0 90.0
+  H5 H5bc 2.70 0.0 -90.0
+  *flags not splay
+    H5 H6   8.51 280.0 -6.2
+  *flags splay
+  H6 H6a 3.94 10.0 0.0
+  H6 H6ba 0.36 190.0 0.0
+  H6 H6bb 0.52 0.0 90.0
+  H6 H6bc 1.48 0.0 -90.0
+  *flags not splay
+    H6 H7   15.48 211.2 -1.3
+  *flags splay
+  H7 H7a 4.43 301.2 0.0
+  H7 H7ba 0.99 121.2 0.0
+  H7 H7bb 1.19 0.0 90.0
+  H7 H7bc 0.73 0.0 -90.0
+  *flags not splay
+    H7 PT-MC   2.52 213.5 -3.2
+  *flags splay
+  PT-MC PT-MCa 3.30 303.5 0.0
+  PT-MC PT-MCba 0.55 123.5 0.0
+  PT-MC PT-MCbb 0.72 0.0 90.0
+  PT-MC PT-MCbc 0.96 0.0 -90.0
+  *flags not splay
+    PT-MC H9   4.51 161.5 20.1
+  *flags splay
+  H9 H9a 7.26 251.5 0.0
+  H9 H9ba 1.16 71.5 0.0
+  H9 H9bb 1.53 0.0 90.0
+  H9 H9bc 1.54 0.0 -90.0
+  *flags not splay
+    H9 H10   15.19 151.1 18.4
+  *flags splay
+  H10 H10a 2.34 241.1 0.0
+  H10 H10ba 2.23 61.1 0.0
+  H10 H10bb 8.62 0.0 90.0
+  *flags not splay
+    H10 H11   8.62 91.4 85.9
+  *flags splay
+  H11 H11a 0.49 181.4 0.0
+  H11 H11ba 1.01 1.4 0.0
+  H11 H11bb 8.62 0.0 -90.0
+  *flags not splay
+    H11 PT-Q-22   0.94 313.6 33.9
+  *flags splay
+  PT-Q-22 PT-Q-22a 1.00 223.6 0.0
+  PT-Q-22 PT-Q-22ba 0.92 0.0 -90.0
+  *flags not splay
+    H10 H10b   4.28 208.7 33.6
+    q2 as1   4.92 210.3 7.3
+  *flags splay
+  as1 as1a 0.71 300.3 0.0
+  as1 as1ba 1.88 120.3 0.0
+  as1 as1bb 1.96 0.0 90.0
+  as1 as1bc 0.10 0.0 -90.0
+  *flags not splay
+    as1 as2   2.96 183.4 38.0
+  *flags splay
+  as2 as2a 0.53 93.4 0.0
+  as2 as2ba 0.33 0.0 90.0
+  as2 as2bb 0.47 0.0 -90.0
+  *flags not splay
+    as2 as3   2.55 207.7 15.2
+  *flags splay
+  as3 as3a 0.68 297.7 0.0
+  as3 as3ba 1.40 117.7 0.0
+  as3 as3bb 1.00 0.0 90.0
+  as3 as3bc 0.41 0.0 -90.0
+  *flags not splay
+    as3 as4   5.22 192.1 13.1
+  *flags splay
+  as4 as4a 0.41 282.1 0.0
+  as4 as4ba 0.72 102.1 0.0
+  as4 as4bb 1.03 0.0 90.0
+  as4 as4bc 0.10 0.0 -90.0
+  *flags not splay
+    as4 as5   2.24 234.7 7.1
+  *flags splay
+  as5 as5a 0.36 324.7 0.0
+  as5 as5ba 0.66 144.7 0.0
+  as5 as5bb 1.15 0.0 90.0
+  as5 as5bc 0.05 0.0 -90.0
+  *flags not splay
+    as5 as6   6.33 256.9 8.5
+  *flags splay
+  as6 as6a 0.92 346.9 0.0
+  as6 as6ba 0.65 166.9 0.0
+  as6 as6bb 1.74 0.0 90.0
+  as6 as6bc 0.31 0.0 -90.0
+  *flags not splay
+    as6 as7   5.82 262.9 6.4
+  *flags splay
+  as7 as7a 0.50 352.9 0.0
+  as7 as7ba 0.38 172.9 0.0
+  as7 as7bb 0.81 0.0 90.0
+  as7 as7bc 0.25 0.0 -90.0
+  *flags not splay
+    as7 as8   5.96 269.4 14.1
+  *flags splay
+  as8 as8a 0.64 179.4 0.0
+  as8 as8ba 0.24 0.0 90.0
+  as8 as8bb 0.67 0.0 -90.0
+  *flags not splay
+    as8 as9   5.60 249.6 8.9
+  *flags splay
+  as9 as9a 0.48 339.6 0.0
+  as9 as9ba 0.40 159.6 0.0
+  as9 as9bb 1.47 0.0 90.0
+  as9 as9bc 0.54 0.0 -90.0
+  *flags not splay
+    as9 as10   4.53 237.8 9.5
+  *flags splay
+  as10 as10a 0.58 327.8 0.0
+  as10 as10ba 0.32 147.8 0.0
+  as10 as10bb 0.60 0.0 90.0
+  as10 as10bc 0.90 0.0 -90.0
+  *flags not splay
+    as10 as11   4.76 147.5 8.1
+  *flags splay
+  as11 as11a 0.36 237.5 0.0
+  as11 as11ba 0.98 57.5 0.0
+  as11 as11bb 0.35 0.0 90.0
+  as11 as11bc 1.00 0.0 -90.0
+  *flags not splay
+    as11 as12   3.43 198.7 -0.1
+  *flags splay
+  as12 as12a 0.60 288.7 0.0
+  as12 as12ba 0.60 108.7 0.0
+  as12 as12bb 0.86 0.0 90.0
+  as12 as12bc 0.54 0.0 -90.0
+  *flags not splay
+    as12 as13   5.21 241.1 1.5
+  *flags splay
+  as13 as13a 1.10 331.1 0.0
+  as13 as13ba 0.32 151.1 0.0
+  as13 as13bb 2.50 0.0 90.0
+  as13 as13bc 0.25 0.0 -90.0
+  *flags not splay
+    as13 as14   4.57 177.2 12.8
+  *flags splay
+  as14 as14a 1.27 267.2 0.0
+  as14 as14ba 0.92 87.2 0.0
+  as14 as14bb 1.98 0.0 90.0
+  as14 as14bc 0.42 0.0 -90.0
+  *flags not splay
+    as14 as15   4.08 131.3 19.1
+  *flags splay
+  as15 as15a 0.25 221.3 0.0
+  as15 as15ba 1.64 41.3 0.0
+  as15 as15bb 1.52 0.0 90.0
+  as15 as15bc 0.90 0.0 -90.0
+  *flags not splay
+    as15 as16   4.29 155.9 4.7
+  *flags splay
+  as16 as16a 0.21 245.9 0.0
+  as16 as16ba 1.61 65.9 0.0
+  as16 as16bb 0.88 0.0 90.0
+  as16 as16bc 0.93 0.0 -90.0
+  *flags not splay
+    as16 as17   4.29 155.8 4.8
+  *flags splay
+  as17 as17a 0.95 245.8 0.0
+  as17 as17ba 0.43 65.8 0.0
+  as17 as17bb 2.08 0.0 90.0
+  as17 as17bc 0.81 0.0 -90.0
+  *flags not splay
+    as17 as18   3.54 232.7 11.5
+  *flags splay
+  as18 as18a 0.54 322.7 0.0
+  as18 as18ba 1.06 142.7 0.0
+  as18 as18bb 1.80 0.0 90.0
+  as18 as18bc 0.67 0.0 -90.0
+  *flags not splay
+    as18 as19   6.05 260.6 19.0
+  *flags splay
+  as19 as19a 0.58 350.6 0.0
+  as19 as19ba 0.63 170.6 0.0
+  as19 as19bb 0.70 0.0 90.0
+  as19 as19bc 0.75 0.0 -90.0
+  *flags not splay
+    as19 as20   6.82 152.1 8.2
+  *flags splay
+  as20 as20a 1.58 242.1 0.0
+  as20 as20ba 0.32 62.1 0.0
+  as20 as20bb 1.27 0.0 90.0
+  as20 as20bc 0.45 0.0 -90.0
+  *flags not splay
+    as20 as21   2.79 111.9 26.7
+  *flags splay
+  as21 as21a 0.75 201.9 0.0
+  as21 as21ba 0.80 21.9 0.0
+  as21 as21bb 2.35 0.0 90.0
+  as21 as21bc 0.72 0.0 -90.0
+  *flags not splay
+    as21 as21r   2.58 71.5 6.9
+    as21 as22   1.46 159.5 29.6
+  *flags splay
+  as22 as22a 0.48 249.5 0.0
+  as22 as22ba 0.23 69.5 0.0
+  as22 as22bb 0.76 0.0 90.0
+  as22 as22bc 0.47 0.0 -90.0
+  *flags not splay
+    as22 as23   3.55 108.5 34.4
+   ; Ph Ph   0.00 0.0 -90.0
+  *flags splay
+  Ph Pha 1.73 90.0 0.0
+  Ph Phba 1.27 270.0 0.0
+  Ph Phbb 0.20 0.0 90.0
+  Ph Phbc 1.06 0.0 -90.0
+  *flags not splay
+    Ph dv1   1.62 319.0 -35.5
+  *flags splay
+  dv1 dv1a 0.35 49.0 0.0
+  dv1 dv1ba 0.73 0.0 90.0
+  dv1 dv1bb 0.75 0.0 -90.0
+  *flags not splay
+    dv1 dv2   8.78 293.0 -10.5
+  *flags splay
+  dv2 dv2a 1.10 203.0 0.0
+  dv2 dv2ba 0.70 0.0 90.0
+  dv2 dv2bb 0.86 0.0 -90.0
+  *flags not splay
+    dv2 dv3   3.78 320.0 -13.5
+  *flags splay
+  dv3 dv3a 0.40 230.0 0.0
+  dv3 dv3ba 0.74 0.0 90.0
+  dv3 dv3bb 0.61 0.0 -90.0
+  *flags not splay
+    dv3 dv4   6.26 318.5 -30.0
+  *flags splay
+  dv4 dv4a 1.89 48.5 0.0
+  dv4 dv4ba 1.58 228.5 0.0
+  dv4 dv4bb 3.18 0.0 90.0
+  dv4 dv4bc 0.40 0.0 -90.0
+  *flags not splay
+    dv4 dv5   4.00 318.3 -25.8
+  *flags splay
+  dv5 dv5a 1.16 48.3 0.0
+  dv5 dv5ba 1.00 228.3 0.0
+  dv5 dv5bb 0.67 0.0 90.0
+  dv5 dv5bc 0.73 0.0 -90.0
+  *flags not splay
+    dv5 dv6   5.32 338.2 -19.1
+  *flags splay
+  dv6 dv6a 0.84 68.2 0.0
+  dv6 dv6ba 1.19 248.2 0.0
+  dv6 dv6bb 1.00 0.0 90.0
+  dv6 dv6bc 0.20 0.0 -90.0
+  *flags not splay
+    dv6 dv7   4.31 295.0 -2.0
+  *flags splay
+  dv7 dv7a 0.73 205.0 0.0
+  dv7 dv7ba 0.42 0.0 90.0
+  dv7 dv7bb 0.62 0.0 -90.0
+  *flags not splay
+    dv7 dv8   3.45 343.3 -14.5
+  *flags splay
+  dv8 dv8a 0.98 73.3 0.0
+  dv8 dv8ba 0.19 253.3 0.0
+  dv8 dv8bb 0.79 0.0 90.0
+  dv8 dv8bc 0.17 0.0 -90.0
+  *flags not splay
+    dv8 dv9   6.20 296.3 -12.5
+  *flags splay
+  dv9 dv9a 0.25 26.3 0.0
+  dv9 dv9ba 0.93 206.3 0.0
+  dv9 dv9bb 0.25 0.0 90.0
+  dv9 dv9bc 0.24 0.0 -90.0
+  *flags not splay
+    dv9 dv10   1.98 323.1 8.1
+  *flags splay
+  dv10 dv10a 0.79 53.1 0.0
+  dv10 dv10ba 0.60 233.1 0.0
+  dv10 dv10bb 0.10 0.0 90.0
+  dv10 dv10bc 0.59 0.0 -90.0
+  *flags not splay
+    dv10 dv11   4.96 290.6 -7.6
+  *flags splay
+  dv11 dv11a 0.86 20.6 0.0
+  dv11 dv11ba 0.37 200.6 0.0
+  dv11 dv11bb 0.34 0.0 90.0
+  dv11 dv11bc 0.44 0.0 -90.0
+  *flags not splay
+    dv11 dv12   1.75 280.0 -12.7
+  *flags splay
+  dv12 dv12a 0.85 10.0 0.0
+  dv12 dv12ba 0.47 190.0 0.0
+  dv12 dv12bb 0.84 0.0 90.0
+  dv12 dv12bc 0.35 0.0 -90.0
+  *flags not splay
+    dv12 dv13   2.71 328.0 -24.7
+  *flags splay
+  dv13 dv13a 1.89 58.0 0.0
+  dv13 dv13ba 2.94 238.0 0.0
+  dv13 dv13bb 0.75 0.0 90.0
+  *flags not splay
+    dv13 Ph2   3.59 335.0 -12.4
+  *flags splay
+  Ph2 Ph2a 2.03 65.0 0.0
+  Ph2 Ph2ba 1.04 245.0 0.0
+  Ph2 Ph2bb 1.14 0.0 90.0
+  Ph2 Ph2bc 0.88 0.0 -90.0
+  *flags not splay
+    Ph2 dv14   2.61 348.1 -34.6
+  *flags splay
+  dv14 dv14a 4.08 78.1 0.0
+  dv14 dv14ba 0.98 258.1 0.0
+  dv14 dv14bb 0.54 0.0 90.0
+  *flags not splay
+    dv14 dv15   5.56 0.1 -17.1
+  *flags splay
+  dv15 dv15a 5.21 90.1 0.0
+  dv15 dv15ba 2.27 270.1 0.0
+  dv15 dv15bb 0.55 0.0 -90.0
+  *flags not splay
+    dv15 dv16   8.99 346.2 -41.0
+  *flags splay
+  dv16 dv16a 6.50 76.2 0.0
+  dv16 dv16ba 3.74 0.0 90.0
+  dv16 dv16bb 1.63 0.0 -90.0
+  *flags not splay
+    dv16 Ph3   8.93 318.5 -19.8
+  *flags splay
+  Ph3 Ph3a 3.78 48.5 0.0
+  Ph3 Ph3ba 4.48 228.5 0.0
+  Ph3 Ph3bb 2.92 0.0 90.0
+  Ph3 Ph3bc 1.19 0.0 -90.0
+  *flags not splay
+ ;   rv0 rv0   0.00 0.0 -90.0
+  *flags splay
+  rv0 rv0a 0.47 90.0 0.0
+  rv0 rv0ba 0.28 270.0 0.0
+  rv0 rv0bb 0.70 0.0 90.0
+  *flags not splay
+    rv0 rv1   4.23 108.7 12.2
+  *flags splay
+  rv1 rv1a 0.42 198.7 0.0
+  rv1 rv1ba 0.61 18.7 0.0
+  rv1 rv1bb 1.59 0.0 90.0
+  rv1 rv1bc 0.86 0.0 -90.0
+  *flags not splay
+    rv1 rv2   2.49 139.4 79.1
+  *flags splay
+  rv2 rv2a 0.79 229.4 0.0
+  rv2 rv2ba 0.37 49.4 0.0
+  rv2 rv2bb 1.45 0.0 90.0
+  rv2 rv2bc 1.96 0.0 -90.0
+  *flags not splay
+    rv2 rv3   5.15 124.2 24.0
+  *flags splay
+  rv3 rv3a 0.20 214.2 0.0
+  rv3 rv3ba 1.56 34.2 0.0
+  rv3 rv3bb 0.29 0.0 90.0
+  rv3 rv3bc 1.13 0.0 -90.0
+  *flags not splay
+    rv3 rv4   8.69 204.3 29.4
+  *flags splay
+  rv4 rv4a 10.00 294.3 0.0
+  rv4 rv4ba 3.00 114.3 0.0
+  rv4 rv4bb 1.07 0.0 90.0
+  rv4 rv4bc 0.77 0.0 -90.0
+  *flags not splay
+    rv4 rv5   4.07 314.2 -4.2
+  *flags splay
+  rv5 rv5a 2.52 44.2 0.0
+  rv5 rv5ba 1.02 224.2 0.0
+  rv5 rv5bb 0.63 0.0 90.0
+  rv5 rv5bc 1.22 0.0 -90.0
+  *flags not splay
+    rv5 Ph3   4.37 235.8 -22.7
+  *flags splay
+  Ph3 Ph3a 8.88 325.8 0.0
+  Ph3 Ph3ba 4.44 145.8 0.0
+  Ph3 Ph3bb 2.88 0.0 90.0
+  Ph3 Ph3bc 1.00 0.0 -90.0
+  *flags not splay
+    rv4 rv4a   15.07 134.4 12.9
+    Ph3 dv17   9.75 314.8 -11.9
+  *flags splay
+  dv17 dv17a 10.28 44.8 0.0
+  dv17 dv17ba 4.53 224.8 0.0
+  dv17 dv17bb 2.82 0.0 90.0
+  dv17 dv17bc 0.86 0.0 -90.0
+  *flags not splay
+    dv17 dv18   8.65 282.2 -3.4
+  *flags splay
+  dv18 dv18a 2.27 12.2 0.0
+  dv18 dv18ba 4.78 192.2 0.0
+  dv18 dv18bb 2.23 0.0 90.0
+  dv18 dv18bc 1.13 0.0 -90.0
+  *flags not splay
+    dv18 dv19   12.89 304.0 -5.3
+  *flags splay
+  dv19 dv19a 6.71 34.0 0.0
+  dv19 dv19ba 2.85 214.0 0.0
+  dv19 dv19bb 3.00 0.0 90.0
+  dv19 dv19bc 0.97 0.0 -90.0
+  *flags not splay
+    dv19 dv20   7.59 319.9 -5.1
+  *flags splay
+  dv20 dv20a 1.99 49.9 0.0
+  dv20 dv20ba 1.97 229.9 0.0
+  dv20 dv20bb 1.21 0.0 -90.0
+  *flags not splay
+    dv20 dv21   5.46 26.4 -11.3
+  *flags splay
+  dv21 dv21a 2.31 116.4 0.0
+  dv21 dv21ba 1.58 296.4 0.0
+  dv21 dv21bb 1.82 0.0 90.0
+  dv21 dv21bc 0.53 0.0 -90.0
+  *flags not splay
+    dv21 dv22   7.04 318.3 -1.9
+  *flags splay
+  dv22 dv22a 0.98 48.3 0.0
+  dv22 dv22ba 1.34 228.3 0.0
+  dv22 dv22bb 1.02 0.0 -90.0
+  *flags not splay
+    dv22 dv23   7.43 308.2 -7.2
+  *flags splay
+  dv23 dv23a 1.45 38.2 0.0
+  dv23 dv23ba 2.10 218.2 0.0
+  dv23 dv23bb 0.20 0.0 90.0
+  dv23 dv23bc 0.97 0.0 -90.0
+  *flags not splay
+    dv23 dv24   4.65 287.1 -18.3
+  *flags splay
+  dv24 dv24a 0.62 17.1 0.0
+  dv24 dv24ba 3.60 197.1 0.0
+  dv24 dv24bb 1.22 0.0 90.0
+  dv24 dv24bc 0.50 0.0 -90.0
+  *flags not splay
+    dv24 b7a   4.35 284.9 -15.6
+    g1 rp1   3.81 119.0 -26.9
+  *flags splay
+  rp1 rp1a 0.67 29.0 0.0
+  rp1 rp1ba 1.07 0.0 90.0
+  rp1 rp1bb 0.53 0.0 -90.0
+  *flags not splay
+    rp1 rp2   3.78 202.8 35.5
+  *flags splay
+  rp2 rp2a 0.55 292.8 0.0
+  rp2 rp2ba 0.25 112.8 0.0
+  rp2 rp2bb 0.23 0.0 90.0
+  rp2 rp2bc 1.69 0.0 -90.0
+  *flags not splay
+    rp2 rp3   3.93 148.9 5.9
+  *flags splay
+  rp3 rp3a 0.84 238.9 0.0
+  rp3 rp3ba 0.70 0.0 90.0
+  rp3 rp3bb 1.05 0.0 -90.0
+  *flags not splay
+    rp3 rp4   4.19 121.9 18.6
+  *flags splay
+  rp4 rp4a 1.17 31.9 0.0
+  rp4 rp4ba 0.33 0.0 90.0
+  rp4 rp4bb 1.24 0.0 -90.0
+  *flags not splay
+    rp4 rp5   2.38 230.0 7.3
+  *flags splay
+  rp5 rp5a 0.56 320.0 0.0
+  rp5 rp5ba 0.45 0.0 90.0
+  rp5 rp5bb 1.28 0.0 -90.0
+  *flags not splay
+    rp5 rp6   2.58 149.7 6.1
+  *flags splay
+  rp6 rp6a 0.50 239.7 0.0
+  rp6 rp6ba 1.31 0.0 90.0
+  rp6 rp6bb 0.80 0.0 -90.0
+  *flags not splay
+    rp6 rp7   2.42 89.7 27.0
+  *flags splay
+  rp7 rp7a 0.58 179.7 0.0
+  rp7 rp7ba 0.74 359.7 0.0
+  rp7 rp7bb 0.22 0.0 90.0
+  rp7 rp7bc 1.33 0.0 -90.0
+  *flags not splay
+    rp7 rp8   3.22 201.8 4.5
+  *flags splay
+  rp8 rp8a 0.35 291.8 0.0
+  rp8 rp8ba 0.80 111.8 0.0
+  rp8 rp8bb 0.60 0.0 90.0
+  rp8 rp8bc 0.72 0.0 -90.0
+  *flags not splay
+    rp8 rp9   2.10 189.0 16.4
+  *flags splay
+  rp9 rp9a 0.43 279.0 0.0
+  rp9 rp9ba 0.52 99.0 0.0
+  rp9 rp9bb 0.56 0.0 90.0
+  rp9 rp9bc 0.90 0.0 -90.0
+  *flags not splay
+    rp9 rp10   1.71 114.7 7.1
+  *flags splay
+  rp10 rp10a 0.41 204.7 0.0
+  rp10 rp10ba 0.40 24.7 0.0
+  rp10 rp10bb 1.10 0.0 90.0
+  rp10 rp10bc 0.92 0.0 -90.0
+  *flags not splay
+    rp10 rp11   3.33 181.1 24.2
+  *flags splay
+  rp11 rp11a 0.40 271.1 0.0
+  rp11 rp11ba 0.47 0.0 90.0
+  rp11 rp11bb 0.69 0.0 -90.0
+  *flags not splay
+    rp11 rp12   3.02 111.4 9.6
+  *flags splay
+  rp12 rp12a 1.27 201.4 0.0
+  rp12 rp12ba 0.61 21.4 0.0
+  rp12 rp12bb 0.64 0.0 90.0
+  rp12 rp12bc 0.67 0.0 -90.0
+  *flags not splay
+    rp12 rp13   4.25 225.8 3.6
+  *flags splay
+  rp13 rp13a 1.42 315.8 0.0
+  rp13 rp13ba 0.25 135.8 0.0
+  rp13 rp13bb 1.55 0.0 90.0
+  rp13 rp13bc 0.39 0.0 -90.0
+  *flags not splay
+    rp13 rp14   2.61 130.5 22.6
+  *flags splay
+  rp14 rp14a 0.72 40.5 0.0
+  rp14 rp14ba 0.53 0.0 90.0
+  rp14 rp14bb 1.53 0.0 -90.0
+  *flags not splay
+    rp14 rp15   9.31 250.8 0.9
+  *flags splay
+  rp15 rp15a 0.51 340.8 0.0
+  rp15 rp15ba 0.37 160.8 0.0
+  rp15 rp15bb 1.31 0.0 90.0
+  rp15 rp15bc 1.39 0.0 -90.0
+  *flags not splay
+    rp15 rp16   9.14 242.0 3.1
+  *flags splay
+  rp16 rp16a 0.49 332.0 0.0
+  rp16 rp16ba 0.67 0.0 90.0
+  rp16 rp16bb 1.49 0.0 -90.0
+  *flags not splay
+    rp16 rp17   2.62 202.8 -20.2
+  *flags splay
+  rp17 rp17a 0.59 112.8 0.0
+  rp17 rp17ba 0.26 0.0 90.0
+  rp17 rp17bb 0.40 0.0 -90.0
+  *flags not splay
+    rp17 rp18   4.47 252.8 3.7
+  *flags splay
+  rp18 rp18a 0.16 342.8 0.0
+  rp18 rp18ba 0.40 162.8 0.0
+  rp18 rp18bb 0.41 0.0 -90.0
+  *flags not splay
+    rp18 rp19   3.80 260.2 -4.2
+  *flags splay
+  rp19 rp19a 0.62 350.2 0.0
+  rp19 rp19ba 0.48 170.2 0.0
+  rp19 rp19bb 0.51 0.0 90.0
+  rp19 rp19bc 0.15 0.0 -90.0
+  *flags not splay
+    rp19 rp20   1.42 270.6 -3.8
+  *flags splay
+  rp20 rp20a 0.30 0.6 0.0
+  rp20 rp20ba 0.30 180.6 0.0
+  rp20 rp20bb 0.10 0.0 90.0
+  rp20 rp20bc 0.15 0.0 -90.0
+  *flags not splay
+    a11 cb10   0.00 0.0 -90.0
+  *flags splay
+  cb10 cb10a 1.70 90.0 0.0
+  cb10 cb10ba 1.43 270.0 0.0
+  cb10 cb10bb 21.17 0.0 90.0
+  cb10 cb10bc 1.01 0.0 -90.0
+  *flags not splay
+    cb10 cb11   5.81 10.6 45.5
+  *flags splay
+  cb11 cb11a 7.61 280.6 0.0
+  cb11 cb11ba 18.09 0.0 90.0
+  cb11 cb11bb 1.67 0.0 -90.0
+  *flags not splay
+    cb11 cb12   7.04 56.8 -10.3
+  *flags splay
+  cb12 cb12a 1.38 146.8 0.0
+  cb12 cb12ba 2.54 0.0 90.0
+  cb12 cb12bb 1.71 0.0 -90.0
+  *flags not splay
+    cb12 cb13   5.56 337.5 -21.1
+  *flags splay
+  cb13 cb13a 0.30 67.5 0.0
+  cb13 cb13ba 1.40 247.5 0.0
+  cb13 cb13bb 2.42 0.0 90.0
+  cb13 cb13bc 3.24 0.0 -90.0
+  *flags not splay
+    cb13 cb14   4.86 22.8 -29.7
+  *flags splay
+  cb14 cb14a 0.63 112.8 0.0
+  cb14 cb14ba 0.72 0.0 90.0
+  cb14 cb14bb 1.59 0.0 -90.0
+  *flags not splay
+    cb14 cb15   1.83 320.2 -22.2
+  *flags splay
+  cb15 cb15a 0.55 230.2 0.0
+  cb15 cb15ba 0.70 0.0 90.0
+  cb15 cb15bb 1.44 0.0 -90.0
+  *flags not splay
+    cb15 cb16   1.96 16.4 -23.1
+  *flags splay
+  cb16 cb16a 0.79 106.4 0.0
+  cb16 cb16ba 0.86 0.0 90.0
+  cb16 cb16bb 0.73 0.0 -90.0
+  *flags not splay
+    cb16 cb17   3.43 317.4 -6.1
+  *flags splay
+  cb17 cb17a 1.21 227.4 0.0
+  cb17 cb17ba 0.28 0.0 90.0
+  cb17 cb17bb 0.59 0.0 -90.0
+  *flags not splay
+    cb17 cb18   1.98 40.4 -6.7
+  *flags splay
+  cb18 cb18a 0.54 130.4 0.0
+  cb18 cb18ba 1.12 310.4 0.0
+  cb18 cb18bb 1.21 0.0 90.0
+  cb18 cb18bc 0.32 0.0 -90.0
+  *flags not splay
+    cb18 cb19   2.42 127.7 -0.2
+  *flags splay
+  cb19 cb19a 0.30 217.7 0.0
+  cb19 cb19ba 0.30 37.7 0.0
+  cb19 cb19bb 0.40 0.0 90.0
+  cb19 cb19bc 0.20 0.0 -90.0
+  *flags not splay
+    PT-MC mc1   5.60 350.7 -49.0
+  *flags splay
+  mc1 mc1a 0.55 80.7 0.0
+  mc1 mc1ba 0.97 260.7 0.0
+  mc1 mc1bb 2.79 0.0 90.0
+  mc1 mc1bc 1.74 0.0 -90.0
+  *flags not splay
+    mc1 mc2   1.80 227.1 -7.2
+  *flags splay
+  mc2 mc2a 0.51 317.1 0.0
+  mc2 mc2ba 0.90 0.0 90.0
+  mc2 mc2bb 0.94 0.0 -90.0
+  *flags not splay
+    mc2 mc3   11.40 173.9 -27.6
+  *flags splay
+  mc3 mc3a 2.47 263.9 0.0
+  mc3 mc3ba 0.94 83.9 0.0
+  mc3 mc3bb 2.80 0.0 90.0
+  *flags not splay
+    mc3 mc4   2.29 215.1 -8.2
+  *flags splay
+  mc4 mc4a 0.93 305.1 0.0
+  mc4 mc4ba 0.95 125.1 0.0
+  mc4 mc4bb 0.62 0.0 90.0
+  mc4 mc4bc 0.82 0.0 -90.0
+  *flags not splay
+    mc4 mc5   6.04 270.0 -14.0
+  *flags splay
+  mc5 mc5a 0.99 0.0 0.0
+  mc5 mc5ba 0.37 180.0 0.0
+  mc5 mc5bb 1.25 0.0 90.0
+  mc5 mc5bc 0.61 0.0 -90.0
+  *flags not splay
+    mc5 mc6   15.42 251.4 -1.6
+  *flags splay
+  mc6 mc6a 0.41 341.4 0.0
+  mc6 mc6ba 1.01 161.4 0.0
+  mc6 mc6bb 0.67 0.0 90.0
+  mc6 mc6bc 1.29 0.0 -90.0
+  *flags not splay
+    mc6 mc7   3.42 297.3 -5.0
+  *flags splay
+  mc7 mc7a 0.80 27.3 0.0
+  mc7 mc7ba 0.74 0.0 90.0
+  mc7 mc7bb 1.22 0.0 -90.0
+  *flags not splay
+    mc7 mc8   9.08 258.1 -7.1
+  *flags splay
+  mc8 mc8a 0.81 348.1 0.0
+  mc8 mc8ba 0.38 168.1 0.0
+  mc8 mc8bb 0.60 0.0 90.0
+  mc8 mc8bc 1.07 0.0 -90.0
+  *flags not splay
+    mc8 mc9   5.28 244.3 2.2
+  *flags splay
+  mc9 mc9a 0.65 334.3 0.0
+  mc9 mc9ba 0.87 154.3 0.0
+  mc9 mc9bb 1.24 0.0 90.0
+  mc9 mc9bc 2.12 0.0 -90.0
+  *flags not splay
+    mc9 mc10   5.52 191.6 -7.8
+  *flags splay
+  mc10 mc10a 0.64 281.6 0.0
+  mc10 mc10ba 0.41 101.6 0.0
+  mc10 mc10bb 0.98 0.0 90.0
+  mc10 mc10bc 1.61 0.0 -90.0
+  *flags not splay
+    mc10 mc11   3.65 176.8 -15.1
+  *flags splay
+  mc11 mc11a 0.52 266.8 0.0
+  mc11 mc11ba 0.50 86.8 0.0
+  mc11 mc11bb 0.72 0.0 90.0
+  mc11 mc11bc 1.12 0.0 -90.0
+  *flags not splay
+    mc11 mc12   2.49 219.1 -4.7
+  *flags splay
+  mc12 mc12a 0.32 309.1 0.0
+  mc12 mc12ba 0.44 129.1 0.0
+  mc12 mc12bb 0.64 0.0 90.0
+  mc12 mc12bc 1.02 0.0 -90.0
+  *flags not splay
+    mc12 mc13   1.26 161.2 -33.4
+  *flags splay
+  mc13 mc13a 0.48 251.2 0.0
+  mc13 mc13ba 0.31 71.2 0.0
+  mc13 mc13bb 0.52 0.0 90.0
+  mc13 mc13bc 0.68 0.0 -90.0
+  *flags not splay
+    mc13 mc14   4.32 276.4 -2.9
+  *flags splay
+  mc14 mc14a 0.33 6.4 0.0
+  mc14 mc14ba 0.41 186.4 0.0
+  mc14 mc14bb 0.48 0.0 90.0
+  mc14 mc14bc 0.62 0.0 -90.0
+  *flags not splay
+    mc14 mc15   5.15 236.4 -4.3
+  *flags splay
+  mc15 mc15a 0.28 326.4 0.0
+  mc15 mc15ba 0.38 146.4 0.0
+  mc15 mc15bb 0.72 0.0 90.0
+  mc15 mc15bc 0.54 0.0 -90.0
+  *flags not splay
+    mc15 mc16   0.70 326.6 -9.1
+  *flags splay
+  mc16 mc16a 0.30 56.6 0.0
+  mc16 mc16ba 0.21 236.6 0.0
+  mc16 mc16bb 0.81 0.0 90.0
+  mc16 mc16bc 0.70 0.0 -90.0
+  *flags not splay
+    mc16 mc17   5.50 248.1 -0.3
+  *flags splay
+  mc17 mc17a 0.42 338.1 0.0
+  mc17 mc17ba 0.26 158.1 0.0
+  mc17 mc17bb 0.78 0.0 90.0
+  mc17 mc17bc 0.82 0.0 -90.0
+  *flags not splay
+    mc17 mc18   8.90 274.7 0.3
+  *flags splay
+  mc18 mc18a 3.09 4.7 0.0
+  mc18 mc18ba 4.76 184.7 0.0
+  mc18 mc18bb 0.45 0.0 90.0
+  mc18 mc18bc 2.08 0.0 -90.0
+  *flags not splay
+    mc18 mc19   1.17 199.6 62.3
+  *flags splay
+  mc19 mc19a 4.62 289.6 0.0
+  mc19 mc19ba 2.22 109.6 0.0
+  mc19 mc19bb 18.01 0.0 -90.0
+  *flags not splay
+    p-uni un1   13.67 265.9 2.0
+  *flags splay
+  un1 un1a 0.57 355.9 0.0
+  un1 un1ba 1.56 175.9 0.0
+  un1 un1bb 1.78 0.0 90.0
+  un1 un1bc 1.04 0.0 -90.0
+  *flags not splay
+    un1 un2   4.94 317.3 -1.7
+  *flags splay
+  un2 un2a 0.77 47.3 0.0
+  un2 un2ba 0.20 227.3 0.0
+  un2 un2bb 0.32 0.0 90.0
+  un2 un2bc 0.34 0.0 -90.0
+  *flags not splay
+    un2 un3   9.73 252.6 1.2
+  *flags splay
+  un3 un3a 0.97 162.6 0.0
+  un3 un3ba 2.01 0.0 90.0
+  un3 un3bb 0.34 0.0 -90.0
+  *flags not splay
+    un3 un4   3.84 275.4 -13.3
+  *flags splay
+  un4 un4a 1.03 5.4 0.0
+  un4 un4ba 0.45 185.4 0.0
+  un4 un4bb 2.86 0.0 90.0
+  un4 un4bc 0.58 0.0 -90.0
+  *flags not splay
+    un4 cr1   2.78 201.7 -34.2
+  *flags splay
+  cr1 cr1a 0.27 291.7 0.0
+  cr1 cr1ba 1.35 111.7 0.0
+  cr1 cr1bb 2.95 0.0 90.0
+  cr1 cr1bc 0.10 0.0 -90.0
+  *flags not splay
+    cr1 un5   2.89 230.4 20.6
+  *flags splay
+  un5 un5a 0.42 140.4 0.0
+  un5 un5ba 3.38 0.0 90.0
+  un5 un5bb 0.60 0.0 -90.0
+  *flags not splay
+    un5 un6   0.63 274.5 9.5
+  *flags splay
+  un6 un6a 0.52 4.5 0.0
+  un6 un6ba 0.60 184.5 0.0
+  un6 un6bb 3.34 0.0 90.0
+  un6 un6bc 0.63 0.0 -90.0
+  *flags not splay
+    un6 un7   3.43 139.8 16.4
+  *flags splay
+  un7 un7a 0.57 49.8 0.0
+  un7 un7ba 1.24 0.0 90.0
+  un7 un7bb 0.90 0.0 -90.0
+  *flags not splay
+    un7 un8   6.72 189.4 4.7
+  *flags splay
+  un8 un8a 0.60 99.4 0.0
+  un8 un8ba 1.52 0.0 90.0
+  un8 un8bb 0.95 0.0 -90.0
+  *flags not splay
+    un8 un9   0.73 239.2 11.7
+  *flags splay
+  un9 un9a 0.57 329.2 0.0
+  un9 un9ba 1.27 0.0 90.0
+  un9 un9bb 1.05 0.0 -90.0
+  *flags not splay
+    un9 un10   3.68 169.1 -2.1
+  *flags splay
+  un10 un10a 0.55 79.1 0.0
+  un10 un10ba 2.49 0.0 90.0
+  un10 un10bb 0.65 0.0 -90.0
+  *flags not splay
+    un10 un11   2.66 226.8 6.3
+  *flags splay
+  un11 un11a 0.67 316.8 0.0
+  un11 un11ba 1.44 0.0 90.0
+  un11 un11bb 0.86 0.0 -90.0
+  *flags not splay
+    un11 un12   2.74 170.1 -0.9
+  *flags splay
+  un12 un12a 0.62 80.1 0.0
+  un12 un12ba 2.14 0.0 90.0
+  un12 un12bb 0.61 0.0 -90.0
+  *flags not splay
+    un12 un13   6.18 190.9 7.1
+  *flags splay
+  un13 un13a 2.18 280.9 0.0
+  un13 un13ba 3.96 100.9 0.0
+  un13 un13bb 18.01 0.0 90.0
+  un13 un13bc 0.93 0.0 -90.0
+  *flags not splay
+    un13 mc19   18.44 352.8 86.4
+  *flags splay
+  mc19 mc19a 3.09 82.8 0.0
+  mc19 mc19ba 4.76 262.8 0.0
+  mc19 mc19bb 0.45 0.0 90.0
+  mc19 mc19bc 2.08 0.0 -90.0
+  *flags not splay
+    cr1 r1-2   3.12 255.1 -5.6
+  *flags splay
+  r1-2 r1-2a 0.77 165.1 0.0
+  r1-2 r1-2ba 0.88 0.0 90.0
+  r1-2 r1-2bb 1.06 0.0 -90.0
+  *flags not splay
+    r1-2 nud1   1.55 333.0 1.0
+  *flags splay
+  nud1 nud1a 0.23 63.0 0.0
+  nud1 nud1ba 0.37 243.0 0.0
+  nud1 nud1bb 0.61 0.0 90.0
+  nud1 nud1bc 3.36 0.0 -90.0
+  *flags not splay
+    p-uni nud2   5.22 123.9 -22.1
+  *flags splay
+  nud2 nud2a 0.42 213.9 0.0
+  nud2 nud2ba 0.68 33.9 0.0
+  nud2 nud2bb 0.93 0.0 90.0
+  nud2 nud2bc 14.47 0.0 -90.0
+  *flags not splay
+    nud2 rio   14.65 154.5 -76.6
+  *flags splay
+  rio rioa 14.65 0.0 90.0
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+as1  1.88 0.71 1.96 0.10
+q2  0.58 0.66 8.00 1.51
+as2  0.53 0.00 0.33 0.47
+as3  1.40 0.68 1.00 0.41
+as4  0.72 0.41 1.03 0.10
+as5  0.66 0.36 1.15 0.05
+as6  0.65 0.92 1.74 0.31
+as7  0.38 0.50 0.81 0.25
+as8  0.64 0.00 0.24 0.67
+as9  0.40 0.48 1.47 0.54
+as10  0.32 0.58 0.60 0.90
+as11  0.98 0.36 0.35 1.00
+as12  0.60 0.60 0.86 0.54
+as13  0.32 1.10 2.50 0.25
+as14  0.92 1.27 1.98 0.42
+as15  1.64 0.25 1.52 0.90
+as16  1.61 0.21 0.88 0.93
+as17  0.43 0.95 2.08 0.81
+as18  1.06 0.54 1.80 0.67
+as19  0.63 0.58 0.70 0.75
+as20  0.32 1.58 1.27 0.45
+as21  0.80 0.75 2.35 0.72
+
+*data passage station left right up down
+as21  0.61 0.57 2.35 0.72
+as21r  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+as21  0.54 0.51 2.35 0.72
+as22  0.23 0.48 0.76 0.47
+as23  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+0  0.00 0.60 0.20 0.60
+0  0.00 0.60 0.20 0.60
+a2  0.00 2.00 1.00 1.00
+b2  0.37 2.11 1.25 0.95
+c2  0.62 0.20 0.60 0.70
+d2  3.88 0.00 0.56 0.58
+e2  1.76 0.42 0.30 0.91
+f2  2.88 1.28 0.84 1.50
+h2  5.38 5.97 20.60 0.00
+i2  6.23 2.03 6.12 0.77
+j2  0.00 1.16 0.40 1.54
+k2  4.43 1.66 3.27 1.25
+l2  2.26 2.27 14.50 0.00
+m2  0.00 0.76 0.85 1.50
+n2  0.00 0.48 1.68 1.62
+o2  1.26 0.00 4.40 1.44
+p2  0.00 1.01 3.82 1.54
+q2  3.24 3.71 8.00 1.51
+
+*data passage station left right up down
+q2  2.81 3.21 8.00 1.51
+s  1.75 3.45 5.96 0.33
+r  3.35 1.18 0.57 0.90
+q  0.38 0.64 1.56 1.49
+p  0.59 0.66 0.63 1.48
+o  0.87 0.20 3.46 1.64
+n  1.44 1.27 4.57 1.56
+m  0.00 0.68 1.21 3.26
+l  0.71 0.00 1.10 3.10
+k  0.20 0.30 1.43 1.97
+j  0.60 0.00 1.51 3.15
+i  0.70 0.00 2.28 2.89
+h  0.00 0.72 1.49 3.40
+g  1.39 0.48 2.08 2.24
+f  1.22 0.26 2.10 1.02
+e  1.30 0.56 1.23 2.05
+d  0.10 0.57 0.65 2.00
+c  0.00 0.60 1.12 1.49
+
+*data passage station left right up down
+c  0.00 0.53 1.12 1.49
+b  0.67 0.00 0.39 1.50
+a  0.54 0.23 0.30 1.45
+a1  0.56 0.20 1.53 0.82
+b1  0.83 0.49 0.49 1.20
+c1  0.00 0.43 1.03 0.67
+d1  0.50 0.00 0.52 1.45
+e1  0.00 0.60 1.30 1.00
+f1  0.50 0.00 1.00 0.80
+g1  0.00 0.20 1.16 1.17
+
+*data passage station left right up down
+c  0.00 0.32 1.12 1.49
+cquote  0.20 0.20 0.25 0.25
+
+*data passage station left right up down
+g1  0.07 0.00 1.16 1.17
+h1  0.00 0.40 0.20 0.50
+i1  0.72 0.92 1.80 1.68
+j1  0.78 0.41 2.13 0.00
+k1  0.68 0.10 0.66 1.38
+l1z4  0.30 3.00 0.80 1.00
+z5  2.00 3.00 0.00 0.00
+z6  2.00 8.00 0.00 0.00
+z7  7.00 7.00 0.00 0.00
+z8  8.00 8.00 0.00 0.00
+a11  4.62 7.77 17.49 0.00
+
+*data passage station left right up down
+g1  0.00 0.13 1.16 1.17
+rp1  0.67 0.00 1.07 0.53
+rp2  0.25 0.55 0.23 1.69
+rp3  0.00 0.84 0.70 1.05
+rp4  1.17 0.00 0.33 1.24
+rp5  0.00 0.56 0.45 1.28
+rp6  0.00 0.50 1.31 0.80
+rp7  0.74 0.58 0.22 1.33
+rp8  0.80 0.35 0.60 0.72
+rp9  0.52 0.43 0.56 0.90
+rp10  0.40 0.41 1.10 0.92
+rp11  0.00 0.40 0.47 0.69
+rp12  0.61 1.27 0.64 0.67
+rp13  0.25 1.42 1.55 0.39
+rp14  0.72 0.00 0.53 1.53
+rp15  0.37 0.51 1.31 1.39
+rp16  0.00 0.49 0.67 1.49
+rp17  0.59 0.00 0.26 0.40
+rp18  0.40 0.16 0.00 0.41
+rp19  0.48 0.62 0.51 0.15
+rp20  0.30 0.30 0.10 0.15
+
+*data passage station left right up down
+a11  4.30 7.22 17.49 0.00
+a12  1.55 1.27 12.27 0.73
+a13  1.39 1.56 0.41 2.46
+a14  2.00 0.54 1.09 1.64
+a15  2.04 0.64 0.51 0.39
+b15  0.88 0.51 0.39 0.51
+b14  0.00 1.84 1.55 0.97
+b13  0.53 0.00 0.43 0.74
+b12  0.31 1.44 0.00 0.69
+b11  0.27 0.71 0.00 9.41
+b10  4.84 1.98 8.68 1.07
+b9plus  1.48 5.03 3.82 0.40
+b9  1.90 6.43 3.82 0.00
+b8  0.49 2.47 1.15 1.32
+b7a  2.82 1.30 2.37 0.77
+
+*data passage station left right up down
+a11  3.06 5.15 17.49 0.00
+cb10  1.43 1.70 21.17 1.01
+cb11  7.61 0.00 18.09 1.67
+cb12  0.00 1.38 2.54 1.71
+cb13  1.40 0.30 2.42 3.24
+cb14  0.00 0.63 0.72 1.59
+cb15  0.55 0.00 0.70 1.44
+cb16  0.00 0.79 0.86 0.73
+cb17  1.21 0.00 0.28 0.59
+cb18  1.12 0.54 1.21 0.32
+cb19  0.30 0.30 0.40 0.20
+
+*data passage station left right up down
+dv17  4.53 10.28 2.82 0.86
+Ph3  4.47 3.77 2.92 1.19
+dv18  4.78 2.27 2.23 1.13
+dv19  2.85 6.71 3.00 0.97
+dv20  1.97 1.99 0.00 1.21
+dv21  1.58 2.31 1.82 0.53
+dv22  1.34 0.98 0.00 1.02
+dv23  2.10 1.45 0.20 0.97
+dv24  3.60 0.62 1.22 0.50
+b7a  1.34 2.90 2.37 0.77
+
+*data passage station left right up down
+b4  1.87 1.03 0.52 0.64
+b3  1.45 1.74 0.73 0.20
+b5  0.00 1.56 0.41 1.34
+b6  1.28 1.76 0.80 0.23
+b7a  3.29 1.52 2.37 0.77
+
+*data passage station left right up down
+c4  1.66 0.00 15.00 3.20
+b3  1.50 2.60 0.73 0.20
+c5  2.18 6.98 1.70 1.30
+
+*data passage station left right up down
+c5  1.87 5.98 1.70 1.30
+c5-1  18.50 24.50 38.00 3.50
+c5-2  14.00 26.50 39.00 4.00
+c5-3  33.00 9.00 34.00 1.60
+c5-4  35.00 7.80 17.00 1.50
+c5-5  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+c5  2.50 8.00 1.70 1.30
+c6  3.29 1.23 1.70 0.00
+c7  1.80 0.00 0.00 0.00
+c8  0.84 1.38 0.30 1.60
+c9  0.02 0.13 1.60 1.50
+c10  3.97 0.40 2.00 1.70
+c11  0.48 0.38 18.00 0.00
+c12  1.87 12.21 7.00 3.00
+
+*data passage station left right up down
+c12  0.53 3.46 7.00 3.00
+c12-1  16.00 0.00 0.00 1.50
+
+*data passage station left right up down
+c12  17.00 2.60 7.00 3.00
+c13  11.57 1.93 1.50 1.60
+PT-Q-28  10.32 0.00 1.80 1.70
+c14  0.99 0.00 8.00 3.50
+c15  1.98 0.31 0.00 2.60
+c16  0.06 2.08 5.00 2.50
+c17  2.97 2.29 0.00 1.40
+
+*data passage station left right up down
+c17  2.10 2.72 0.00 1.40
+c17-1  1.26 5.40 3.00 0.50
+c17-2  1.10 0.60 9.00 0.20
+
+*data passage station left right up down
+c17  2.70 3.50 0.00 1.40
+PT-Q-22  0.72 0.00 0.00 0.92
+H11  0.36 0.75 0.00 8.62
+H10  1.13 1.18 8.62 0.00
+
+*data passage station left right up down
+b3  1.13 1.75 0.73 0.20
+c3  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+H10  1.19 1.25 8.62 0.00
+H10b  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+H9  1.16 7.26 1.53 1.54
+PT-MC  0.34 2.03 0.72 0.96
+H10  2.23 2.34 8.62 0.00
+
+*data passage station left right up down
+PT-MC  2.42 0.40 0.72 0.96
+mc1  0.97 0.55 2.79 1.74
+mc2  0.00 0.51 0.90 0.94
+mc3  0.94 2.47 2.80 0.00
+mc4  0.95 0.93 0.62 0.82
+mc5  0.37 0.99 1.25 0.61
+mc6  1.01 0.41 0.67 1.29
+mc7  0.00 0.80 0.74 1.22
+mc8  0.38 0.81 0.60 1.07
+mc9  0.87 0.65 1.24 2.12
+mc10  0.41 0.64 0.98 1.61
+mc11  0.50 0.52 0.72 1.12
+mc12  0.44 0.32 0.64 1.02
+mc13  0.31 0.48 0.52 0.68
+mc14  0.41 0.33 0.48 0.62
+mc15  0.38 0.28 0.72 0.54
+mc16  0.21 0.30 0.81 0.70
+mc17  0.26 0.42 0.78 0.82
+mc18  4.76 3.09 0.45 2.08
+mc19  2.76 4.62 0.45 18.01
+un13  2.07 3.76 18.01 0.93
+un12  0.58 0.00 2.14 0.61
+un11  0.00 0.37 1.44 0.86
+un10  0.29 0.00 2.49 0.65
+un9  0.00 0.19 1.27 1.05
+un8  0.39 0.00 1.52 0.95
+un7  0.37 0.00 1.24 0.90
+un6  0.37 0.42 3.34 0.63
+un5  0.30 0.00 3.38 0.60
+cr1  1.18 0.24 2.95 0.10
+
+*data passage station left right up down
+H1  4.30 3.53 0.82 1.05
+PT-FDZ  0.00 0.00 0.00 0.00
+H2  1.86 3.39 0.76 0.82
+H3  3.40 1.79 0.92 1.60
+H4  1.72 2.90 1.59 1.27
+H5  2.87 3.36 0.98 2.70
+H6  0.36 3.94 0.52 1.48
+H7  0.99 4.43 1.19 0.73
+PT-MC  0.55 3.30 0.72 0.96
+
+*data passage station left right up down
+Ph  1.27 1.73 0.20 1.06
+Ph  1.27 1.73 0.20 1.06
+dv1  0.00 0.35 0.73 0.75
+dv2  1.10 0.00 0.70 0.86
+dv3  0.40 0.00 0.74 0.61
+dv4  1.58 1.89 3.18 0.40
+dv5  1.00 1.16 0.67 0.73
+dv6  1.19 0.84 1.00 0.20
+dv7  0.73 0.00 0.42 0.62
+dv8  0.19 0.98 0.79 0.17
+dv9  0.93 0.25 0.25 0.24
+dv10  0.60 0.79 0.10 0.59
+dv11  0.37 0.86 0.34 0.44
+dv12  0.47 0.85 0.84 0.35
+dv13  2.94 1.89 0.75 0.00
+Ph2  1.04 2.03 1.14 0.88
+dv14  0.98 4.08 0.54 0.00
+dv15  2.27 5.21 0.00 0.55
+dv16  0.00 6.50 3.74 1.63
+Ph3  4.48 3.78 2.92 1.19
+
+*data passage station left right up down
+rv5  1.02 2.52 0.63 1.22
+rv4  3.40 1.02 1.07 0.77
+Ph3  4.44 8.88 2.92 1.19
+
+*data passage station left right up down
+rv4  1.03 3.44 1.07 0.77
+rv4a  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+rv0  0.28 0.47 0.70 0.00
+rv0  0.28 0.47 0.70 0.00
+rv1  0.61 0.42 1.59 0.86
+rv2  0.37 0.79 1.45 1.96
+rv3  1.56 0.20 0.29 1.13
+rv4  3.00 10.00 1.07 0.77
+
+*data passage station left right up down
+cr1  0.80 0.16 2.95 0.10
+r1-2  0.77 0.00 0.88 1.06
+nud1  0.37 0.23 0.61 3.36
+
+*data passage station left right up down
+nud2  0.59 0.36 0.93 14.47
+rio  0.00 0.00 14.65 0.00
+p-uni  0.00 0.00 0.00 0.00
+un1  1.56 0.57 1.78 1.04
+un2  0.20 0.77 0.32 0.34
+un3  0.97 0.00 2.01 0.34
+un4  0.45 1.03 2.86 0.58
+cr1  1.35 0.27 2.95 0.10
+
+*end Rasa

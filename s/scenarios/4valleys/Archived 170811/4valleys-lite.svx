@@ -1,0 +1,20 @@
+*BEGIN 4VSLite
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE ../../0105/0105.svx
+*INCLUDE ../../0081/0081.svx
+*INCLUDE ../../0102/0102.svx
+*INCLUDE ../../0114/0114.svx
+*INCLUDE ../../0107/0107.svx
+*INCLUDE ../../0117/0117.svx
+*INCLUDE ../../0575/0575.svx
+*INCLUDE ../../3234/3234.svx
+
+*EQUATE 0114_Llueva.RestOfCave.290 0081_Carcavuezo.Eastwards.0081-13-12.30
+*EQUATE 0114_Llueva.RestOfCave.414 0107_Uzueka.RockyHorror.313
+*EQUATE 0114_Llueva.RestOfCave.172 0081_Carcavuezo.Historical.TurnRightForSmack.152
+*EQUATE 0107_Uzueka.2ndRiverInlet.1 0105_Riano.UpperLevels.181
+
+*end 4VSLite

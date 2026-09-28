@@ -1,0 +1,9 @@
+;survey 2019.04.16, PP, RB stations 1 to 40
+
+*begin Bamboozle3422combined
+
+*Include ../4474/4474all
+*Include 3422
+*include 3333
+
+*end Bamboozle3422combined

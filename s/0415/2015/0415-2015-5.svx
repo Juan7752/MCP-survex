@@ -1,0 +1,33 @@
+*BEGIN 0415-2015-5
+
+;surveyor: Carol Smith, Lloyd Cawthorne, Chris Scaife 
+;climb up on rift next to wire pitch
+
+*DATE 2015.08.09
+
+*CALIBRATE declination 0.73
+
+
+
+*data normal from to tape compass clino
+
+5	6	8.06	225	-32
+5	7	2.82	307	75
+7	8	1.4	250	10
+8	9	5.33	0	90
+6	10	5.79	263	-4
+
+*data passage station left right up down
+
+5	0	0.6	0.6	1.1
+7	0.5	0.1	0.8	0.7
+8	0.2	0.2	5.3	1
+9	1.7	1.6	0	5.33
+10	2.4	1.2	3.8	0.4
+
+*data passage station left right up down
+
+5	0.6	0	0.6	1.1
+6	0.7	1.5	1.2	0		
+
+*END 0415-2015-5

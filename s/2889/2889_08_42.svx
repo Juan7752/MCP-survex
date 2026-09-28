@@ -1,0 +1,40 @@
+*begin 2889_08_42
+
+;surveyors: Mandy Fu Mike Topsom
+;name: Whitworth Challenge
+*DATE 2008.08.17
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+1	2	1.23	42.5	6
+3	2	3.86	238	0
+4	3	4.115	235	1
+5	4	4.515	240	-3
+6	5	2.67	137	-15
+7	6	2.51	162	16
+8	7	1.87	78	-15
+9	8	3.69	169	-19
+*FLAGS DUPLICATE
+9	10	2.75	285	-35
+*FLAGS NOT DUPLICATE
+
+*data passage station up down left right
+1	4	.3	1.5	2.5
+2	.5	1	.05	.2
+3	.4	.2	.5	.1
+4	.5	.6	0	.9
+5	3	.2	1.4	0
+6	1	.9	0	.5
+7	.5	.9	.6	0
+8	1.5	1	0	.8
+9	6	1	1.5	0
+
+*end 2889_08_42

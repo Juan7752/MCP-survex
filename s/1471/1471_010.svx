@@ -1,0 +1,27 @@
+*begin 1471_010
+*DATE 2006.04.13
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+;Papa Noel. 13/4/06. Ali Neill, Annabel
+;Shafted Oyster Passage
+
+0	1	5.8	37	8;	2	1	.8	.3
+1	2	6.22	265	3;	1.5	1	.8	.7
+2	3	6.8	234	0;	1.5	1.5	.3	.3	marked stn3, dig continues
+0	4	5.8	65.5	5;	.5	1	.2	.2
+4	5	2.65	79	0;	1	2	.2	.2
+5	6	3.3	6.5	1;	.5	2	.4	0
+6	7	2.8	108	4;	1.5	1.5	2	1
+7	8	3.5	96	-14;	2	2	4	0
+8	9	2.9	91	-10;	3	3	2	2
+
+
+*end 1471_010

@@ -1,0 +1,123 @@
+*BEGIN 1128_VacPot
+;Created from Survey file on Sat,02 Aug 2003.19:17:39
+;Dates surveyed : 980820&990801&030802
+;Surveyors      : MNRC+Tufty Jane+AN
+;No of stations : 90
+;Plan length    : 165.017018m
+;Traverse length: 288.14m
+
+;*FIX 1998S.0 450030 4794091 0612
+;*FIX 1998S.0 449928 4793882 0612; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 1998S.0 449928 4793882 0609
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 1998S.0
+
+*BEGIN 1998S
+*DATE 1998.08.20
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.48 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.48-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+0	1	6.87	291.70	-61	;*
+1	2	4.13	301.70	-61	;*
+2	3	6.50	240.70	-75	;*
+3	4	11.43	308.70	-81	;stn 5 junct
+4	5	4.50	117.70	43	;stn 5a
+4	6	3.94	329.70	-28	;*
+6	7	13.94	-	-V	;stn 7
+7	8	6.90	311.70	-30	;*
+8	9	4.75	322.70	-19	;2nd stn8
+9	10	1.90	16.70	3	;*
+10	11	1.55	73.70	-9	;*
+11	12	1.35	29.70	-2	;stn11
+12	13	2.60	86.70	-40	;*
+13	14	1.55	1.70	3	;*
+14	15	1.40	282.70	-21	;*
+15	16	0.75	347.70	-55	;*
+16	17	3.70	58.70	-18	;*
+17	18	0.10	-	+V	;dummy
+*END 1998S
+
+*EQUATE 1998S.18 1999S.18
+
+*BEGIN 1999S
+*DATE 1999.08.01
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.15 degrees but should have been 3.34 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.34-3.15-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+18	19	1.60	89.85	15	;stn2
+19	20	2.55	339.85	-25	;stn3 top of p
+20	21	2.90	86.85	26	;stn4
+21	22	2.15	16.35	38	;*
+22	23	2.70	62.85	-10	;*
+23	24	1.90	333.85	-6	;*
+24	25	2.00	-	-V	;unexpl p
+20	26	5.50	26.85	-85	;stn9
+26	27	2.85	296.85	-65	;*
+27	28	4.10	267.35	-20	;stn11
+28	29	15.20	-	-V	;stn12
+29	30	1.64	-	+V	;body height
+30	31	5.70	54.85	-53	;stn13
+31	32	2.20	73.85	-26	;stn14
+32	33	2.80	38.35	-27	;*
+33	34	2.30	50.85	-21	;*
+34	35	9.45	-	-V	;stn17
+35	36	1.64	-	+V	;body height
+36	37	5.00	66.85	0	;stn18
+37	38	7.20	90.85	-69	;*
+38	39	5.85	220.85	-69	;*
+39	40	2.40	158.85	-14	;*
+40	41	19.40	-	-V	;stn22
+41	42	3.60	199.85	7	;*
+42	43	2.50	96.85	-42	;stn24; aven above; bones
+43	44	3.80	159.85	-5	;*
+44	45	1.90	8.85	-11	;*
+45	46	2.05	3.85	-23	;*
+46	47	1.20	36.85	-3	;*
+47	48	2.10	97.85	-45	;*
+48	49	4.25	3.35	-33	;stn30 cairn in big pass
+49	50	7.00	236.85	5	;stn31
+50	51	29.40	209.85	1	;stn32 cairn on sandbank
+51	52	6.60	241.85	-6	;end?
+*END 1999S
+
+*EQUATE 1999S.20 2003S.20
+
+*BEGIN 2003S
+*DATE 2003.08.02
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.55 degrees but should have been 2.8 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.8-2.55-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+20	53	3.80	75.45	14	;*
+53	54	2.90	20.45	22	;*
+54	55	2.25	68.45	8	;*
+55	56	2.30	348.95	9	;p head
+56	57	13.60	-	-V	;p base
+57	58	12.00	61.45	0	;ends
+*END 2003S
+
+*END 1128_VacPot

@@ -1,0 +1,43 @@
+*BEGIN 0926_926
+;Created from Survey file on Mon,10 May 1999.19:16:47
+*DATE 1993.04.08
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.24 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.24-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.21
+
+;Surveyors      : P Stacey
+;No of stations : 20
+;Plan length    : 37.4022712m
+;Traverse length: 115.1m
+
+;*FIX 0 447750 4797550 0340 v1
+;*FIX 0 447740 4797520 0340 v2
+;*FIX 0 447849 4797515 0325
+;*FIX 0 447747 4797306 0325; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 447747 4797306 0327
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+0	1	5.70	55.95	-26	;across entrance Stn1/9
+1	2	12.30	-	-V	;*
+2	3	2.70	308.95	-17	;*
+3	4	2.50	-	-V	;*
+4	5	1.60	335.95	-5	;*
+5	6	35.50	-	-V	;Stn1/3 base of big pitch
+6	7	1.40	325.95	-18	;Stn1/2
+7	8	2.30	-	-V	;*
+8	9	7.00	26.95	-37	;Stn1/0
+9	10	6.90	290.95	-47	;*
+10	11	16.00	-	-V	;*
+6	12	21.20	223.95	39	;Stn1/4 end of big rift
+
+*END 0926_926

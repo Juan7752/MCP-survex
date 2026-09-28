@@ -1,0 +1,32 @@
+*BEGIN 0077
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 451722 4796229 350
+*FIX 0077-25-03.0 451722 4796229 350
+*ENTRANCE 0077-25-03.0
+*INFER EXPORTS ON
+
+*include was-1984-choke-only.svx; OK
+*include 0077_17_01 ; Di and Si survey of passage beyond choke in 2018; OK
+*include 0077-wolf-3.svx
+
+*equate 0077_17_01.1.0 was-1984-choke-only.31 
+*equate 0077-wolf-3.1 was-1984-choke-only.8 
+
+*include 0077-choke2.svx
+*equate  0077_17_01.2.4 0077-choke2.1
+
+
+;*equate  0077_2Rascavieja.15 0077-wolf-3.5
+;*equate tester.15 0077-wolf-3.5
+
+*INCLUDE 0077-25-02.svx
+*equate   0077-25-02.43 0077-wolf-3.9
+
+*INCLUDE 0077-25-03.svx
+*equate   0077-25-03.35 0077-wolf-3.5
+
+*INCLUDE 0077-25-04.svx
+*equate   0077-25-04.2 0077-choke2.37
+
+*END 0077

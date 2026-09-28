@@ -1,0 +1,31 @@
+*BEGIN 0294_Bueyes
+;Created from Survey file on Sun,20 Jun 2004.10:56:57
+;Dates surveyed : 020101
+;Surveyors      : PS TW
+;No of stations : 20
+;Plan length    : 99.3447001m
+;Traverse length: 104.25m
+
+*FIX 0 55950 98640 0290
+
+*ENTRANCE 0
+0	1	25.85	2.30	-20	;stn4
+1	2	5.80	337.30	-22	;stn6
+2	3	4.60	217.30	-29	;stn7
+1	4	12.20	4.30	0	;stn5
+1	5	16.40	83.30	24	;stn3
+5	6	8.75	155.30	-13	;stn2
+6	7	20.65	199.30	-15	;stn1
+7	8	10.00	236.30	-1	;stn0
+0	9	0.0	-	+V	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0294_Bueyes

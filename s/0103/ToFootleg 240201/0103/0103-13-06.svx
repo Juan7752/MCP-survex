@@ -1,0 +1,33 @@
+*BEGIN 0103-13-06
+;surveyors Alasdair Neill Lank Mills David mills
+
+*DATE 2013.07.23
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.1
+;Resurvey of streamway continued
+*FLAGS DUPLICATE
+1	0	6.37	271	5
+*FLAGS NOT DUPLICATE
+1	2	7.39	47	1
+2	3	4.16	149	-5
+3	4	2.05	217	0
+4	5	7.7	135	0
+5	6	4.2	205	3
+
+*data passage station up down left right
+1	3.5	6.89	4.75	1.6
+2	.48	4.73	3.56	1.18
+3	0	2.77	.71	1.25
+4	1.0	2	1	1
+5	2.3	3.1	2.3	1.3
+6	2.9	1.8	5.2	1.4
+
+*END 0103-13-06
+

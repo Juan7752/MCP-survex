@@ -1,0 +1,49 @@
+*BEGIN 0122-09-01
+
+;surveyors: Jim Davis Jane Chilton
+;passage name:
+;date:
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66
+
+
+;stal choke slight draught: unlikely to go
+;new passage up to stn 6. TL=59m
+0	1	9	220	0
+1	2	10.7	195	-2
+2	3	11.69	200	-5
+3	4	7.2	235	6
+4	5	10	152	0
+5	6	10.45	88	0
+*FLAGS DUPLICATE
+6	7	6.95	175	19
+7	8	15.83	267	50
+8	9	9.3	138	30
+9	10	10.5	87	6
+10	11	28.11	102	-19
+11	12	11.6	116	-20
+12	13	30.85	174	0
+13	14	28.35	120	-19
+14	15	5.1	252	0
+15	16	4	-	down;base of ladder?
+*FLAGS NOT DUPLICATE
+*data passage station up down left right
+0	2.5	0	1	.5
+1	1	.5	.5	0
+2	.4	.8	.2	.8
+3	2.5	.6	1.2	2; pass divides oxbow S (not surveyed; re-enters at 5)
+4	.4	.2	1.5	1
+5	1	.6	1.5	.3
+6	.5	.8	2	.3; entrance to passage in solid rock
+7	5	0	2	4; middle of main passage
+
+
+
+*END 0122-09-01

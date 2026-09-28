@@ -1,0 +1,36 @@
+*BEGIN 0723
+
+;surveyor:  Pete Smith
+*DATE 2019.08.09
+*FIX 6 451542 4797106 265
+
+*ENTRANCE 6
+*CALIBRATE declination 0.22
+
+
+1	0	3.64	271	15
+0	2	2.13	265	20
+2	5	2.81	16	35
+5	6	2.76	39	40
+
+2	3	1.8	220	60
+3	4	3.87	343	65
+4	7	2.68	252	-30
+
+*data passage station left right up down
+	
+
+1	.5	.5	.5	.5
+0	1.5	1.6	.6	.7
+2	.9	1	1.9	.2
+5	.5	.8	1.2	.6
+6	.8	.8	0	1
+
+*data passage station left right up down
+
+2	.9	1	1.9	.2
+3	.8	1	1.8	1.7
+4	.8	0	0	.2
+7	.2	.3	.7	.6
+
+*END 0723

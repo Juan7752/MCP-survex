@@ -1,0 +1,16 @@
+*BEGIN 0043_Escarabajo
+;Created from Survey file on Sun,24 Mar 1996.11:38:59
+;Dates surveyed : 900527
+;Surveyors      : PeteS PhilP
+;No of stations : 7
+;Plan length    : 99.1395223m
+;Traverse length: 105m
+
+*FIX 0 51120 93940 0620
+0	1	16.10	303.50	-15	;*
+1	2	22.20	341.50	-7	;top of slope
+2	3	16.00	333.50	-39	;*
+3	4	9.00	250.50	0	;*
+4	5	16.70	288.50	-24	;*
+5	6	25.00	346.50	6	;*
+*END 0043_Escarabajo

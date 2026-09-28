@@ -1,0 +1,55 @@
+*BEGIN 0138_west
+*CS UTM30N
+*CS OUT UTM30N
+
+;surveyors:  Pete S.
+;west side
+*DATE 2018.03.22
+
+
+*CALIBRATE declination 0.76
+
+
+0	1	4.84	275	3
+1	2	6.78	274	7
+2	3	8.76	258	-2
+3	4	10.22	299	-6
+4	5	10.63	32	-4
+
+4	6	6.21	282	2
+6	7	3.33	358	3
+
+4	8	5.6	26	-3
+8	9	3.87	306	0
+9	10	1.9	285	0
+
+3	11	5.29	345	-9
+11	12	2.76	39	-8
+12	13	4.79	98	3
+
+*data passage station left right up down
+0	3.2	1.7	1.6	1.4
+1	2.6	3.9	1.4	1.4
+2	3.9	3.3	.7	1.6
+3	2.8	4.4	.9	1
+4	2.9	4.2	1.1	.5
+5	.5	.5	.4	.6
+
+*data passage station left right up down
+4	2.8	2.8	1.1	.5
+6	1.6	1.2	.6	.5
+7	.3	.5	.7	.4
+
+*data passage station left right up down
+4	2.9	4.2	1.1	.5
+8	5.5	4.1	1.2	1
+9	.4	.2	4	.7
+10	.3	.1	.5	.5
+
+*data passage station left right up down
+3	2.2	4.1	.9	1
+11	2.3	3.9	.6	.7
+12	1.8	3	.5	.5
+13	1	1.2	.3	.3
+
+*END 0138_west

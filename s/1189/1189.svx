@@ -1,0 +1,89 @@
+*BEGIN 1189
+*CS UTM30N
+*CS OUT UTM30N
+;Site 1189 - Dairy Dig
+
+;0.88 for 2017 summer altered to 0.48 to align with the UTM ETRS89 grid
+
+*TEAM "Richard Bullock" compass clino laser measure
+*date 2017.07.31
+*FIX 13 452829 4794858 305
+*ENTRANCE 13
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.48 
+
+
+;# SHOT  STATION  STATION  LENGTH   AZIMUTH/BRG VERTICAL/INCL  LEFT   RIGHT   UP    DOWN  COMMENT
+;# CODE  FROM     TO       M        DEG         DEG            M      M       M     M    
+
+*flags not surface
+1	2	0.81	063	+1.8
+1	3	3.13	140	-20.9
+1	4	2.47	160	+22.4
+4	5	3.60	112	+34.5
+;Continues beyond 5 out of sight
+3	6	1.36	200	-7.8
+6	7	1.72	127	+8.0
+;Collapse beyond station 7 - #8 is visible limit beyond collapse. #9 is void high to left where material has collapsed from
+7	8	1.99	138	+15.1
+7	9	2.38	045	+46.5
+1	10	1.58	321	-4.7
+10	11	2.89	278	+15.2
+11	12	4.56	000	+27.6
+12	13	2.09	297	+33.3
+12	14	1.41	137	-7.5
+;10b-10c small offshoot at floor level
+*flags splay
+1	10a	1.15	321	0
+10a	10b	1.04	0	-90
+10c	2a	1.07	0	+90
+;10d splay to approx corner of higher aven
+10	10d	1.85	315	0
+*flags not splay
+10b	10c	1.10	065	0	
+;2-2b tight passage. Direction estimated from linking passage
+2	2a	1.09	335	0
+2a	2b	0.66	335	0
+
+*data passage station left right up down 
+;Entrance to close down
+13	0.30	0.50	0.20	0.20
+12	0.32	0.77	1.35	0.58
+14	0.22	0.22	0.90	0.90
+
+*data passage station left right up down 
+;Main Passage
+12	0.32	0.77	1.35	0.58
+11	0.90	0	0.66	0.82
+10	0	1.31	0.78	0.90
+1	0	0.64	0.79	1.15
+3	0	0.50	0.27	0.32
+6	0.78	0	0.82	0.85
+7	0.71	0.35	0.93	0.44
+
+*data passage station left right up down 
+;Side Passage too tight
+1	0	0.20	0.36	1.15
+2	0	0.20	0.36	1.12
+2a	0.10	0.10	0.36	1.12
+2b	0.10	0.10	0.36	1.12
+
+*data passage station left right up down
+;Side Passage too tight
+10b	0.20	0.20	0.30	0
+10c	0.20	0.20	0.30	0
+
+*data passage station left right up down
+;Higher level passage 
+1	0	1.32	0.79	1.15
+4	0.75	0.42	1.09	0.38
+5	1.00	0	0.50	0.50
+
+*data passage station left right up down
+;Higher aven between 10 & 11 linking smaller tunnels
+10	1.31	0	2.86	0.90
+11	0	0.90	2.66	0.82
+
+*END 1189

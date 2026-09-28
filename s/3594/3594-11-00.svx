@@ -1,0 +1,78 @@
+*BEGIN 3594-11-00
+
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35; (1.75-0.4)
+
+;surveyors: Ali Neill; Tom Howard; Diane Arthurs; Dingle 3 underground
+
+*date 2011.08.16
+
+;*FIX 0 448460 4800516 203
+*FIX 0 448358 4800307 203; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 2916
+*ENTRANCE 3595
+*ENTRANCE e3594
+*ENTRANCE 3034
+;*FLAGS duplicate | splay | surface
+
+;***********************
+*CALIBRATE TAPE 1.1
+;***********************
+
+*FLAGS SURFACE
+0	0a	1.8	-	up
+0a	1	42.0	16	-8
+1	2	99.6	101	-9.5
+2	3	14.4	122	-9
+4	3	21.7	64	5
+4	5	29.6	247	-5
+6	5	19.9	47	14
+6	7	22.6	193	2
+8	7	41.6	11	0
+8	9	17.1	165	-3
+2916	9	12	34	-11; 10=2916
+
+6	11	26.1	146	-34
+3595	11	3.7	255	35; 12 = draughting depression needs number; 2x1x1deep
+
+13	11	24.8	218	-18
+13	3034	9.3	347	-6; 14 = lower entrance to 3034 Langdales
+
+15	11	19.2	8	-6
+15	16	17.74	152	6
+17	16	13.05	252	26
+18	17	11.05	299	40
+19	18	2.53	277	7; 19= drill hole on LH wall of gully at 3594
+
+19	e3594	6.22	159	5; top outer bolt on RH wall at top of shaft
+*FLAGS NOT SURFACE
+
+;data below replaced by data in batch 11-01
+;******************
+*CALIBRATE TAPE 0
+;******************
+;e3594	21	6.51	-	down
+;21	22	4.01	-	down; (Disto'd below base of dig)
+
+*data passage station left right up down
+;19	0	1.59	0	1.48
+;e3594	.51	0	1.79	6.51
+;21	.3	.3	8.3	0
+
+
+
+
+
+
+*END 3594-11-00

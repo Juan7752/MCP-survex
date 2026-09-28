@@ -1,0 +1,59 @@
+*BEGIN 0681_Candenosa
+;Created from Survey file on Sat,17 Feb 1996.21:34:46
+*DATE 1988.08.08
+;Surveyors      : tw
+;No of stations : 32
+;Plan length    : 249.50702m
+;Traverse length: 258.6m
+
+;*FIX 0 449250 4798100 0273
+;*FIX 0 449148 4797891 0273; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 449148 4797891 0270
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.89 degrees but should have been 4.83 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.83-4.89-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.46
+
+0	1	3.20	75.61	-1	;*
+1	2	6.10	180.11	-7	;*
+2	3	6.30	83.11	7	;*
+2	4	6.70	228.11	-7	;*
+4	5	17.20	169.11	-2	;*
+5	6	7.50	326.61	2	;*
+5	7	7.20	176.11	3	;*
+5	8	16.90	130.11	-3	;*
+5	9	10.70	113.61	-4	;*
+9	10	7.70	154.61	0	;*
+9	11	12.20	93.11	6	;*
+9	12	19.40	67.11	16	;*
+12	13	7.80	65.61	23	;*
+7	14	11.50	234.11	1	;*
+14	15	5.30	259.11	0	;*
+15	16	10.20	226.61	2	;*
+16	17	5.00	226.61	2	;*
+15	18	3.30	295.11	0	;*
+18	19	12.10	296.11	1	;*
+19	20	3.20	-	+V	;*
+20	21	3.10	354.11	41	;*
+5	22	11.80	46.61	5	;*
+22	23	6.40	251.61	5	;*
+22	24	14.10	52.11	29	;*
+24	25	6.20	77.11	5	;*
+25	26	4.40	171.11	-11	;*
+26	27	13.90	172.11	-4	;*
+27	28	6.70	10.11	19	;*
+27	29	4.50	57.11	23	;*
+29	30	2.50	152.11	-18	;*
+30	31	5.50	97.11	-28	;*
+*END 0681_Candenosa

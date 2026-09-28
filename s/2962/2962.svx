@@ -1,0 +1,41 @@
+*begin 2962
+
+;surveyors: Martin Barnicott Dave Gledhill
+;name:
+*DATE 2008.03.22
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+; shaft in eucalyptus plantation the other side of the stream left, when looking up, of Torno
+
+;*FIX 00 452886 4801185 222
+;*FIX 00 452784 4800976  222; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 00 452784 4800976  217
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 00
+00 01	04.50	000	-90;
+01 02	01.70	040	-40;
+02 03	02.20	240	-48;
+03 04	01.86	245	-06;
+04 05	03.78	000	-90;
+
+*data passage station left right up down ignoreall
+00	00.66	00.70	00.00	04.50;
+01	01.43	00.45	00.61	00.00;
+;02	01.43	00.40			;	data missing
+;03	00.64	02.60			;	data missing
+04	00.23	00.00	04.23	03.78;
+05	00.20	00.27	03.78	00.00;
+
+*end 2962

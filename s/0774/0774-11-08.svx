@@ -1,0 +1,34 @@
+*begin 0774-11-08
+
+;TITLE
+*date 2011.08.01
+*team Notes Mandy Fu
+*team Instr Jeff Wade
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35
+
+*instrument Disto C&C
+
+1	2	15.02	52	-16
+2	3	4.33	115	-26
+
+2	4	8.18	26	17
+
+
+*data passage station left right up down
+1	16	1.5	1	.9
+2	12	4.3	3.8	1.9
+3	4	1	5	10
+
+*data passage station left right up down
+2	16.3	4.3	3.8	2
+4	0	.7	5	3
+
+*end 0774-11-08

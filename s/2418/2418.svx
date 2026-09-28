@@ -1,0 +1,50 @@
+*begin 2418-TSide
+
+;surveyors: Dave Cooke, Charlie Chambers, Paul Fretwell
+;name: Trackside
+*DATE 2006.04.15
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;*FIX 0 452098 4800242 0175
+;*FIX 0 451996 4800033 0175; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451996 4800033 0177
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+1	0	4.56	255	11;	.5	.5	0	.5
+1	2	2.58	88	14;	0	1	.65	1.5
+2	3	8.65	65	-3;	2.5	.5	.5	0
+4	3	4.83	104	14;	1	1	0	1
+5	3	6.65	265	4;	.5	0	.5	2
+5	6	11.45	82	-2;	.8	0	.5	1
+7	6	3.05	182	12;	1	0	.4	.4
+7	8	1.52	78	22;	.3	.6	.4	.1
+9	8	2.52	258	4;	.5	.5	.75	0
+;stn 9 .5	.5	.75	0
+10	3	4.65	238	6;	.3	.5	.5	.4
+10	11	5.55	78	-12;	.6	.2	.75	0
+12	11	3.6	216	-2;	.8	.2	1	0
+12	13	6.65	16	-3;
+13	14	1	30	0
+15	14	9.1	-	up
+15	16	7.68	100	-40
+17	16	1.65	-	up;	1	1.5
+
+*end 2418-TSide

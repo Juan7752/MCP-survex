@@ -1,0 +1,31 @@
+*begin 2366_06_09
+
+;surveyors: Bill Sherrington, Paul Dold, Andy Pringle
+;name: El Torno: Where Are the Numbers?
+;date 15/4/06
+*CALIBRATE declination 2.42
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+11	10	15.5	218	-5
+
+*CALIBRATE tape +1
+
+1	0	4.6	251	1
+1	2	8.8	250	-6
+2	3	7.7	340	-5
+3	4	6.9	310	-5
+4	5	9.7	265	-15
+5	6	7.1	270	-15
+6	7	7.3	240	-5
+7	8	17.9	310	-3
+8	9	8.8	334	-20
+9	10	4.4	330	-40
+
+
+
+
+*end 2366_06_09

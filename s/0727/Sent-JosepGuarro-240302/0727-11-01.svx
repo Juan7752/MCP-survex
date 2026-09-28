@@ -1,0 +1,65 @@
+*BEGIN 0727-11-01
+
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.35
+
+
+;surveyors:  Chris Jewell Artur Kozlowski
+;passage name:
+*date 2011.08.24
+
+;*FIX
+;*ENTRANCE
+;*FLAGS duplicate | splay | surface
+
+; 1st 4 legs are from RS slate retreived at stn 30 24/8/2011
+
+*DATA DIVING from to tape compass fromdepth todepth
+
+;0	10	10	250	-69	-69
+;10	20	10	290	-69	-75
+;20	30	10	280	-75	-77
+;30	10a	10	310	-77	-79
+10a	20a	10	300	-79	-81
+20a	30a	10	330	-81	-86
+30a	40a	10	0	-86	-86
+40a	80	40	10	-86	-95
+;80	90	10	100	-95	-95; dummy leg
+;90	140	50	315	-95	-93; dummy leg
+;following surveyed 26/8/2011
+80	50	10	100	-95	-92
+50	60	10	60	-92	-93
+60	70	10	0	-93	-93
+70	90	20	320	-93	-90
+90	100	10	10	-90	-87
+100	110	10	300	-87	-88
+110	120	10	290	-88	-86
+120	130	10	270	-86	-87
+; Arturs extension 26/8/11
+130	170	40	270	-87	-81
+170	210	40	300	-81	-70
+210	220	10	330	-70	-67
+220	240	20	310	-67	-64
+240	255	15	300	-64	-64
+; different line
+255	285	30	290	-64	-60; base of shaft
+285	345	60      330	-60	-30
+345	365	20	300	-30	-35; top of shaft
+365	390	25	280	-35	-29
+390	405	15	280	-29	-28.5
+405	425	20	210	-28.5	-28
+425	445	20	240	-28	-29
+445	455	10	240	-29	-28
+455	465	10	210	-28	-22
+465	475	10	270	-22	-20
+475	485	10	320	-20	-17
+485	505	20	320	-17	-12
+
+*END 0727-11-01

@@ -1,0 +1,28 @@
+*begin 1930_023
+
+;surveyors: Carmen Haskell, Ali Neill, Jenny Corrin
+;name: Maze Area
+;date 24/7/04
+*CALIBRATE declination 2.68
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+
+0	1	16.83	234	-1
+1	2	17.22	220	2
+2	3	8.87	203	3
+1	6	5.82	281.5	15
+6	7	6.97	243.5	0
+7	8	5.58	254	5
+8	9	3.61	250	6; junction
+9	10	.8	-	down
+10	11	8.06	230	4
+11	12	7.72	246.5	-1
+12	13	10.2	233	7
+13	14	3.9	244	0
+17	14	3.64	174	1
+16	17	2.8	171.5	-18
+15	16	3	142	-9
+9	18	7.5	259	7
+18	19	8.49	253	-2; mud choke
+
+
+*end 1930_023

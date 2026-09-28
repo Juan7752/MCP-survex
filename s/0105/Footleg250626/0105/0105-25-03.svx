@@ -1,0 +1,29 @@
+*BEGIN 0105-25-03
+*EXPORT 11
+;*CS UTM30N
+;*CS OUT UTM30N
+;*DECLINATION auto x y z; coordinates of entrance but a nearby point will do
+*DATE 2025.04.15
+
+; Riaño passage sw of acid bath
+
+*TEAM "Tom Warren notes ; Patrick Warren instruments"
+;*INSTRUMENTS Patrick Suunto Tandem ; Carmen Smith disto
+
+*DATA NORMAL from to tape compass clino ignoreall
+
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+ 1  0   6.67 025 +4 ; station 0 is stal barrier with poss drippy aven beyond
+ 1  2  10.18 065 +3
+ 2  3   5.43 078 -3
+ 3  4   8.60 036 +3
+ 4  5   6.63 067 -1
+ 5  6   3.06 078 +31 ; over a fallen block
+ 6  7   2.27 094 -41
+ 7  8  10.33 064 -6
+ 8  9   3.67 087 -3
+ 9 10   5.20 086 -4
+10 11   3.87 079 -28 ; station 11 is white mark on wall from previous survey, poss upperlevels.acidleft.1.4b
+
+*END 0105-25-03

@@ -1,0 +1,29 @@
+*BEGIN 0105_Riano
+
+*include Riano_All.svx
+;*include RianoSurfaceMesh.svx
+
+*BEGIN Prize_Cock_Pot
+;date 13/12/06
+
+*EXPORT 1
+*FIX 1 452276 4800512 0286
+*entrance 1
+
+1	2	6	-	-V	;entrance drop
+
+*END Prize_Cock_Pot
+
+*BEGIN Spanish_Robin
+;date 13/12/06
+
+*EXPORT 1
+*FIX 1 452178 4800356 0239
+*entrance 1
+
+1	2	6	-	-V	;entrance drop
+
+*END Spanish_Robin
+
+
+*end 0105_Riano

@@ -1,0 +1,102 @@
+*BEGIN 4043-14-21
+
+;Laboratory Climb
+*TEAM "Alasdair Neill" notes
+*TEAM "Lauren, Nigel Dibben, Purdie, Sam" compass clino laser measure
+
+*date 2014.08.01
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+1	0	6.25	284	-16
+2	1	2.76	235	1
+3	2	9.55	277	2
+4	3	3.88	255	-4
+5	4	5.05	202	0
+6	5	4.57	214	-1
+7	6	4.8	179	-3
+8	7	5	206	-3
+9	8	5.72	246	-3
+10	9	5.58	228	-11
+11	10	3.3	140	-7
+12	11	4.8	113	-24
+13	12	4.7	60	12
+
+
+no2	no1	7.65	215	0
+no3	no2	9.24	219.5	-6
+no4	no3	6.80	220	-1.5
+no4	no5	2.5	341	22
+no6	no4	4.04	259	-15
+no6	13	6.51	026	-1.0
+
+14	13	5.37	183	44
+15	14	3.67	230	18
+16	15	3.98	204	-6
+17	16	1.22	333	-53
+17	18	5.71	163	7.5
+19	17	7.19	172	-1
+20	16	8.6	203	3
+21	20	3.92	155	1
+22	21	10.84	203	0
+23	22	1.18	-	down
+23	24	4.77	293	-6	;top of pitch
+24	27	10.83	190	3	;along unentered passage
+25	24	4.67	008	48
+*flags duplicate
+25	26	4.86	49	0	
+
+
+
+
+
+
+*data passage station left right up down
+0	1	1.5	2.5	.9
+1	1.3	.2	.9	1.1
+2	0	.8	1.2	.9
+3	1.2	0	.9	.6
+4	.6	0	0.9	.7
+5	.9	0	1	.8
+6	.7	0	1.1	.7
+7	.9	0	1	1.1
+8	0	.9	.8	1
+9	.5	0	.7	1.1
+10	2.4	1	.7	1.2
+11	1.3	4.3	1.2	1.4
+12	2.3	.4	.2	1
+13	.4	2.1	1.4	2.8
+13	1.5	0.4	1.5	0.4
+
+*data passage station left right up down
+no2	1.18	.7	1.4	0
+no3	0.8	1.9	0.7	1.0
+no4	0.9	0.6	1.7	0.7
+no6	1.3	1.4	1.8	0
+13	0.4	1.5	1.5	0.4
+
+
+*data passage station left right up down
+13	.4	2.1	1.4	2.8
+14	2.1	2.9	1.4	1.4
+14	.3	1.2	.3	1.4
+15	2.2	0	.5	.5
+16	.6	1	0	.6
+17	.7	1.1	.7	.3
+18	1	1	.2	.2
+*data passage station left right up down
+17	1.1	.7	.7	.3
+19	2.6	.4	.4	.5
+*data passage station left right up down
+16	.6	1	0	.6
+20	1.6	.3	.7	.2
+21	.4	1.3	1	.2
+23	1.2	2.2	.9	1.2
+23	1.2	5.2	0.9	1.2
+23	1.2	2.2	.9	1.2
+24	1.41	.6	1.9	0.6
+*END 4043-14-21	

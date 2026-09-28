@@ -1,0 +1,108 @@
+*BEGIN 0050_Serruco
+;Created from Survey file on Sat,16 Aug 2003.14:46:24
+;Dates surveyed : 030422&030423&030731&030803&030803&030803&030803
+;Surveyors      : Carol PS+Tufty+tufty MNRC+PP+PP+PP+
+;No of stations : 50
+;Plan length    : 242.17476m
+;Traverse length: 292.85m
+
+;*FIX 2003E.0 450594 4794910 0500
+;*FIX 2003E.0 450492 4794701 0500; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 2003E.0 450492 4794701 0490
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 2003E.0
+
+*BEGIN 2003E
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.1; (2.84-2.54-0.4)
+
+
+
+0	1	4.10	237.45	-35	;stn8
+1	2	7.60	236.45	4	;stn7
+2	3	3.80	279.45	-14	;stn6
+3	4	9.60	260.45	-25	;stn3
+4	5	12.80	269.45	-10	;stn2
+5	6	4.20	301.45	20	;stn1
+6	7	9.30	242.45	-5	;stn0
+4	8	7.30	226.45	-14	;stn4
+8	9	5.30	275.45	-7	;stn5
+1	10	2.50	198.45	-23	;stn13
+10	11	7.00	148.45	-30	;stn12
+11	12	7.60	176.45	-7	;stn11
+12	13	14.40	108.45	1	;stn10
+12	14	2.20	233.45	-21	;Y hang top
+14	15	3.20	-	-V	;*
+15	16	4.35	123.45	-48	;*
+16	17	13.70	87.45	-87	;*
+17	18	9.65	169.45	-60	;stn8 floor
+18	19	9.30	291.45	-1	;stn7
+19	20	8.60	265.45	-2	;stn6
+20	21	16.40	15.45	18	;stn6a
+21	22	7.00	157.45	-11	;stn6b base ladder?
+20	23	18.15	273.45	-19	;stn5
+23	24	3.20	172.45	-40	;stn4
+24	25	6.50	-	-V	;*
+25	26	2.10	97.45	-44	;stn2
+26	27	6.70	79.45	42	;*
+*END 2003E
+
+*EQUATE 2003E.21 2003S.21
+*EQUATE 2003E.13 2003S.13
+
+*BEGIN 2003S
+*CALIBRATE DECLINATION -0.14; (2.80-2.54-0.4)
+21	28	9.35	239.45	-38	;*
+28	29	5.35	42.45	-36	;stn6;
+29	30	6.35	82.45	-35	;stn5
+30	31	6.70	118.45	-35	;stn4
+31	32	4.00	356.45	-28	;stn3
+32	33	4.45	349.45	-50	;stn2
+33	34	2.70	69.45	-55	;stn1
+30	35	6.00	352.45	-1	;stn5a
+34	36	2.80	130.45	3	;sqze
+36	37	2.20	121.45	-8	;calcited rift
+37	38	4.00	-	-V	;mud floor chk
+
+13	39	9.00	102.45	5	;gours
+39	40	8.70	145.45	6	;*
+40	41	5.80	100.45	10	;*
+41	42	1.90	78.45	-18	;squeeze
+42	43	7.00	98.45	5	;rift on R
+*END 2003S
+
+*begin 2014-1
+*TEAM "Tom Howard"
+*TEAM "David Purdie"
+*TEAM "Lauren Griffin"
+*TEAM "Joel Colk"
+*TEAM "Charlotte Meakin"
+
+*date 2014.07.21
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+1.1	1.0	6.2	203	-62
+1.1	1.2	1.9	79	8
+1.2	1.3	12.8	258	90
+1.3	1.4	1.8	288	0
+
+
+*end 2014-1
+
+*EQUATE 2003E.13 2014-1.1.4
+*END 0050_Serruco

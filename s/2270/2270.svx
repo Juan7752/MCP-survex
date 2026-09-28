@@ -1,0 +1,31 @@
+*begin 2270
+
+;surveyors:Ali Neill Pete Hall Peter Eagan
+;name:Cueva Amarillo
+*DATE 2011.08.05
+;*CALIBRATE DECLINATION 2.55
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.13; (2.53-0.4)
+
+;*FIX 4 445649 4794891 0657
+;*FIX 4 445547 4794682 0657; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 4 445547 4794682 0660
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 4
+1	0	8	243	-44
+1	2	4.3	272	44
+2	3	11.1	258	-13
+4	3	4.3	57	-28
+
+
+*end 2270

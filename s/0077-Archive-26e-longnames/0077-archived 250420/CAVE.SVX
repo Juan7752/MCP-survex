@@ -1,0 +1,87 @@
+*BEGIN 0077_Rascavieja
+;Created from Survey file on Tue,10 Oct 1995.20:14:06
+;Dates surveyed : 76&76&84
+;Surveyors      : ?&AQ
+;No of stations : 43
+;Plan length    : 809.103379m
+;Traverse length: 129.35m
+
+;*FIX old.0 451824 4796438 0350
+*FIX old.0 451722 4796229 0350; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*BEGIN old
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Data taken from printed survey aligned to True North(?)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.4
+
+0	1	23.02	327.72	-12	;*
+1	2	51.86	315.78	-5	;*
+2	3	25.49	323.13	11	;*
+3	4	35.81	310.42	-8	;*
+4	5	41.72	314.02	0	;*
+5	6	19.85	319.08	0	;*
+6	7	17.11	353.29	0	;*
+7	8	7.81	320.19	0	;*
+7	9	28.07	355.91	0	;*
+6	10	47.41	297.64	0	;*
+6	11	72.11	289.44	0	;*
+6	12	50.80	280.20	0	;*
+*END old
+
+*EQUATE old.8 1984.8
+
+*BEGIN 1984
+;Extension 1984?
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 5.22 degrees but should have been 5.38 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (5.38-5.22-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.24
+
+8	13	2.40	-	-V	;*
+13	14	2.00	143.78	9	;*
+14	15	5.75	56.78	-15	;*
+15	16	1.75	6.78	15	;*
+16	17	3.75	243.78	2	;*
+17	18	1.95	23.78	-25	;*
+18	19	3.90	53.78	-7	;*
+19	20	2.55	-	+V	;*
+20	21	2.65	351.78	22	;*
+21	22	4.25	28.78	-17	;*
+22	23	3.10	328.78	15	;*
+23	24	2.00	51.78	7	;*
+24	25	3.00	355.78	-32	;*
+25	26	2.40	252.78	-17	;*
+26	27	2.00	335.78	-19	;*
+27	28	2.35	28.78	28	;*
+28	29	2.25	218.78	45	;*
+29	30	2.40	340.78	4	;*
+30	31	3.40	327.78	10	;*
+31	32	17.50	8.78	-5	;*
+32	33	9.80	280.78	-5	;*
+32	34	10.60	21.78	21	;*
+34	35	7.00	335.78	5	;*
+35	36	3.50	301.78	-10	;*
+36	37	7.10	291.78	-23	;*
+37	38	6.50	244.78	-10	;*
+38	39	3.80	307.78	12	;*
+39	40	2.20	-	+V	;*
+40	41	4.80	237.78	-23	;*
+41	42	2.70	304.78	24	;*
+*END 1984
+
+; There are other Acorn data files to possibly include
+
+*END 0077_Rascavieja

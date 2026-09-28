@@ -1,0 +1,34 @@
+*BEGIN 1350_Hoyos
+;Created from Survey file on Mon,10 May 1999.21:22:07
+*DATE 1998.10.11
+;Surveyors      : PS Andreu Adolfo
+;No of stations : 10
+;Plan length    : 69.9182627m
+;Traverse length: 70m
+
+;*FIX 0 450299 4792778 0450
+;*FIX 0 450197 4792569 0450; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 450197 4792569 0455
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*FIX 0 450183 4792590 452; after Simonnot G, 2018
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.46 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.46-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.24
+
+0	1	6.80	118.70	0	;stn6 to 5
+1	2	7.00	78.70	-3	;*
+2	3	12.00	102.70	-4	;*
+3	4	10.50	44.70	-2	;*
+4	5	12.70	40.70	-2	;*
+5	6	21.00	93.70	-3	;end of cave
+*END 1350_Hoyos

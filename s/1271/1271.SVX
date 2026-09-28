@@ -1,0 +1,39 @@
+*BEGIN 1271_cave
+;Created from Survey file on Mon,10 May 1999.21:14:42
+*DATE 1998.04.13
+;Surveyors      : Pete Eagan
+;No of stations : 15
+;Plan length    : 29.9918093m
+;Traverse length: 39.5m
+
+;*FIX 0 451958 4796436 0350
+;*FIX 0 451856 4796227 0350; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451856 4796227 0349
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.54 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North.(3.54-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	3.20	38.70	0	;*
+1	2	5.70	48.70	29	;*
+2	3	2.30	299.70	-12	;*
+3	4	2.30	280.70	-40	;*
+4	5	3.10	280.70	-12	;squeeze
+5	6	4.90	308.70	-4	;*
+6	7	3.80	339.70	1	;*
+7	8	1.30	237.70	-7	;*
+8	9	2.80	319.70	-23	;*
+9	10	2.50	342.70	28	;*
+10	11	7.60	-	+V	;cl up no way on
+*END 1271_cave

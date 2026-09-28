@@ -1,0 +1,17 @@
+*BEGIN 0101-25-02
+;2025/04/17
+*DATE 2025.04.17
+;Becka Lawson and James Carlisle
+A13	B1	4.42	254	0
+B2	A13	1.84	272	-5
+B3	B2	4.10	280	+3
+B3	B4	5.12	139	-1
+
+;2025/04/17
+;Becka L and James C
+*data passage station left right up down
+A13	0	1	0.1	0.3
+B2	0.3	1.5	0.1	0.4
+B3	1	1.5	0.3	0.1
+B3	1	0	0.1	0.3
+*END 0101-25-02

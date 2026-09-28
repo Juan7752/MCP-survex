@@ -1,0 +1,37 @@
+*BEGIN 0791_Molino_res
+*CS UTM30
+*CS OUT UTM30
+*DECLINATION AUTO 448588 4792141 0200
+;Created from Survey file on Sun,09 May 1999.19:41:50
+;Dates surveyed : 970427
+*DATE 1997.04.27
+;Surveyors      : RS
+;No of stations : 10
+;Plan length    : 57.8859828m
+;Traverse length: 60m
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.69 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. -0.16 (3.69-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION -0.16
+
+;*FIX 0 448690 4792350 0200
+*FIX 0 448588 4792141 0200; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+0	1	10.00	296.55	-14	;*
+1	2	10.00	301.55	-5	;*
+2	3	10.00	276.55	-10	;*
+3	4	10.00	346.55	3	;*
+4	5	10.00	296.55	0	;*
+5	6	10.00	286.55	-33	;stn 60
+*END 0791_Molino_res
+

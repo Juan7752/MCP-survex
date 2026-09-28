@@ -1,0 +1,44 @@
+*BEGIN 0891_Verdura
+;Created from Survey file on Sat,17 Feb 1996.21:48:48
+*DATE 1992.04.09
+;Surveyors      : PP PS
+;No of stations : 20
+;Plan length    : 96.8027799m
+;Traverse length: 142.7m
+
+;*FIX 0 455301 4798865 0260
+;replaced 26/12/12 with
+;*FIX 0 455299 4798844 0254
+;*FIX 0 455197 4798635 0254; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455197 4798635 0253
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.2 degrees but should have been 4.32 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (nnn-mmm-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.28
+
+0	1	6.40	252.80	-30	;*
+1	2	12.00	319.30	-14	;*
+2	3	19.40	314.80	2	;*
+3	4	14.90	84.80	2	;*
+2	5	5.60	262.80	-9	;*
+5	6	6.80	281.80	-6	;*
+6	7	2.70	.80	5	;top of p into lower series
+7	8	7.60	267.80	-63	;*
+8	9	4.90	174.80	-21	;middle of lower chamber
+9	10	8.00	129.80	0	;end of blind passage
+9	11	4.00	254.80	-11	;squeeze at p head
+11	12	9.70	257.80	-61	;traverse
+12	13	5.70	270.80	0	;end of traverse
+13	14	35.00	-	-V	;cave base
+*END 0891_Verdura

@@ -1,0 +1,29 @@
+; 2024.01.10 created by TopoDroid v 6.2.16
+; 1551-24-01
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin 1551-24-01 
+
+*EXPORT 0
+
+  *date 2024.01.01 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.35 53.3 -30.6
+  0 0ba 0.42 311.5 1.9
+  0 0bb 0.22 184.9 -7.1
+  0 0bc 2.54 14.3 -76.2
+  0 0bd 2.61 23.0 -85.0
+  0 0bf 0.39 291.7 -77.5
+  0 0bg 4.08 287.8 -78.3
+  0 0bh 2.45 9.7 -79.2
+  *flags not splay
+  
+   0 1 4.07 354.4 -86.6
+  
+*end 1551-24-01

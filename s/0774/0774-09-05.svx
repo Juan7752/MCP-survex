@@ -1,0 +1,48 @@
+*begin 0774-09-05
+
+;*export 8
+
+*title "Morenuca Parallel Universe"
+*date 2009.07.31
+*team Insts Mandy
+*team Notes Patrick
+*team Tape Mandy
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+*instrument Carmen's pony + disto
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal	from to compass clino tape
+1	2	032	+44	8.85
+1	1a	 - 	down	30	; not a real leg
+2	3	086	+12	3.24
+3	4	319	+15	4.40
+4	5	300	+54	5.54
+*flags duplicate
+5	6	065	+24	5.19
+6	7	000	-5	5.92
+7	8	068	-6	13.73
+*flags not duplicate
+
+*data passage station left right up down
+
+; station LRUDs
+
+1	0.6	0.9	3.2	0.3
+2	0.0	0.8	3.9	1.8
+3	2.0	0.8	2.4	0.8
+4	1.0	2.9	4.9	0.4
+5	1.8	2.3	4.0	2.3
+6	3.9	2.0	2.4	8.0
+; station 8 probably station 21
+*end 0774-09-05

@@ -1,0 +1,26 @@
+*BEGIN 1012_Preying Mantis Pot
+;Created from Survey file on Tue,22 Jun 2004.22:53:34
+;Dates surveyed : 950730&010813
+;Surveyors      : Ray D+AN
+;No of stations : 15
+;Plan length    : 10.8045152m
+;Traverse length: 33.9m
+
+*FIX 0 51420 97720 0218
+
+*ENTRANCE 0
+0	1	4.90	-	-V	;*
+1	2	3.40	306.25	-50	;*
+2	3	2.40	347.25	-42	;*
+3	4	2.80	309.25	-12	;*
+4	5	2.50	292.15	-33	;in sq
+5	6	10.40	-	-V	;ladder p
+6	7	2.00	61.65	0	;exc squeeze
+7	8	5.50	-	-V	;narr 40mm slot with drft
+0	9	0.0	-	+V	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+*END 1012_Preying Mantis Pot

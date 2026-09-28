@@ -1,0 +1,41 @@
+*BEGIN 0631_Chica
+;Created from Survey file on Sun,09 May 1999.19:24:24
+;Dates surveyed : 88/8
+;Surveyors      : Pete
+;No of stations : 14
+;Plan length    : 87.8931205m
+;Traverse length: 91.3m
+
+;*FIX 0 456000 4800420 0110
+;*FIX 0 455898 4800211 0110; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455898 4800211 0100
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.89 degrees but should have been 4.83 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.83-4.89-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.46
+
+0	1	2.30	3.11	-4	;*
+1	2	18.50	310.11	7	;*
+2	3	8.50	267.11	2	;*
+3	4	13.10	238.11	-3	;*
+4	5	3.00	-	-V	;*
+5	6	9.40	253.11	7	;*
+6	7	2.70	305.11	4	;*
+7	8	6.70	236.11	10	;*
+5	9	3.70	82.11	-2	;*
+9	10	7.70	60.11	-1	;*
+10	11	7.30	109.11	0	;*
+11	12	2.40	67.11	0	;*
+12	13	6.00	145.11	8	;*
+*END 0631_Chica

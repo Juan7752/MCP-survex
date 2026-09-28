@@ -1,0 +1,46 @@
+*BEGIN 4919
+
+
+*CALIBRATe declination  0.26
+; Peter Eagan, Mark Edwards
+
+*DATE 2019.04.20
+*FIX 10 453391 4804714 150
+*ENTRANCE 10
+
+0	1	1.69	318	0
+1	2	2.59	237	-2
+2	3	2.23	196	-23	
+3	4	3.48	202	0
+
+3	5	.73	308	-6
+5	6	5.27	286	8
+6	7	4.95	24	-1
+7	8	4.27	344	2
+
+6	9	0.76	181	0
+9	10	3.97	300	68; ent
+
+
+
+*data passage station left right up down
+0	0.4	.07	.08	0		
+1	0.8	1	1	0.3
+2	1.1	0.3	0.6	1.2
+3	0.6	0.9	0.7	0.5
+4	0.5	0.6	0.3	0		
+*data passage station left right up down
+3	.3	.5	.7	.5	
+5	0.7	0.9	0	0.6
+6	2.3	1.0	0.8	0.6
+7	1.2	0.3	0.5	0.2
+8	1	1	0.5	0
+*data passage station left right up down
+6	1	2.3	.8	.6
+9	1.5	1.5	0.5	0.7
+10	1	1	0	3
+	
+
+
+
+*END 4919

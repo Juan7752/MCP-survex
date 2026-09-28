@@ -1,0 +1,4 @@
+*BEGIN RiscoPlus
+*INCLUDE ../0025/0025.svx
+*INCLUDE ../0024/0024.svx
+*END RiscoPlus

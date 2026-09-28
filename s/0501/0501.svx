@@ -1,0 +1,43 @@
+*BEGIN 0501_CerroChico
+;Created from Survey file on Sun,20 Jun 2004.16:58:33
+*DATE 1999.12.29
+;Surveyors      : PeteS Candy PP
+;No of stations : 20
+;Plan length    : 128.382389m
+;Traverse length: 129.8m
+
+;*FIX 0 457600 4797370 0140
+;*FIX 0 457498 4797161 0140
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.15 degrees but should have been 3.3 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.3-3.15-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*FIX 0 457498 4797161 0133
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+0	1	4.60	164.85	11	;16-15
+1	2	6.80	117.85	4	;stn 14
+2	3	6.80	135.85	10	;*
+3	4	7.50	135.85	-2	;stn 12
+4	5	13.80	240.85	6	;stn 11
+5	6	13.70	175.85	4	;stn7
+6	7	4.60	85.85	3	;stn8
+7	8	5.00	169.85	20	;*
+8	9	8.70	201.85	6	;stn 10
+6	10	9.00	228.85	14	;stn6
+10	11	5.70	233.85	3	;*
+11	12	7.30	251.85	3	;stn4
+12	13	7.30	288.85	-1	;*
+13	14	13.50	239.85	12	;*
+14	15	5.00	277.85	14	;stn1
+15	16	10.50	269.85	3	;stn0 end
+*END 0501_CerroChico

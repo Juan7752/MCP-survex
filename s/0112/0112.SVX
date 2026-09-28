@@ -1,0 +1,47 @@
+*BEGIN 0112_Covarona
+;Created from Survey file on Sun,09 May 1999.13:21:54
+;Dates surveyed : 80/7
+;Surveyors      : Juan PS
+;No of stations : 16
+;Plan length    : 337.769555m
+;Traverse length: 344.9m
+
+;*FIX 0 456136 4797381 0270
+;corrected January 2009
+
+;*FIX 0 456034 4797172 0270; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 456034 4797172 0273
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*ENTRANCE 0
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be mmm degrees but should have been nnn to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (nnn-mmm-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.4
+;Need to see orig notes to find orig bearings.
+0	1	29.50	179.45	-12	;*
+1	2	29.50	175.45	5	;*
+2	3	29.50	159.45	5	;*
+3	4	29.50	192.45	3	;*
+4	5	29.50	219.45	-10	;*
+5	6	20.90	216.45	8	;*
+6	7	16.10	273.45	24	;*
+7	8	29.50	249.45	-15	;*
+8	9	29.50	268.45	-7	;*
+9	10	29.50	275.45	13	;*
+10	11	15.50	241.45	10	;*
+6	12	20.30	155.45	-5	;*
+12	13	15.50	118.45	19	;*
+13	14	12.60	123.45	22	;*
+14	15	8.00	143.45	-10	;*
+*END 0112_Covarona

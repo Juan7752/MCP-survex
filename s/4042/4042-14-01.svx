@@ -1,0 +1,39 @@
+*BEGIN 4042-14-01
+*FLAGS SURFACE
+; surface survey around the gated and bottom entrance and resurgence
+*TEAM "Juan Corrin" notes compass clino laser measure
+*TEAM |"Penny Corrin" stations
+*CALIBRATE DECLINATION 0.97
+*DATE 2014.08.10
+
+*ENTRANCE 4085; "bottom" entrance
+*ENTRANCE 4042; Riocueva
+*ENTRANCE 4088; resurgence
+*entrance 4086; cave
+
+
+;*FIX 8 443279 4805520 35
+
+
+4085       Pen    6.33   308 -11;BottomEnt 4085 marked "0" from previous survey
+Pen             PenUp  0.86   -   up
+PenUp           4087	3.94   100 -37; Wet weather overflow resurgence (floor level)
+PenUp           4086    4.8 93   8
+
+4088	0	1.4 -    up; 4088 = resurgence
+0               1             10.14    56  20
+1               2             3.01     27  -10
+2               3             5.34     47  5
+3               PenUp         9.92     48  20
+4               PenUp         4.13     170 -32
+4               4042	9.39     73  27;Gate Padlock case
+
+5               4042	3.55     26  -10
+5               6             5.32     95  44
+6               7             4.77     115.5 20
+7               8             13.09    151   8
+; 8 is just into field crossing contour line
+
+
+*FLAGS NOT SURFACE
+*END 4042-14-01

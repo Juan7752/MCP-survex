@@ -1,0 +1,13 @@
+
+*BEGIN 0075-12-01
+*date 2012.07.25
+;surveyors Mike Topsom
+*CALIBRATE declination 1.67
+
+
+76	132	4.50	-	down
+132	133	1.40	135	-5
+133	134	50.92	180	-65
+
+
+*end 0075-12-01

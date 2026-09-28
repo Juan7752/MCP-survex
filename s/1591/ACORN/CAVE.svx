@@ -1,0 +1,16 @@
+*BEGIN 1591_cave
+;Created from Survey file on Sat,26 Jun 2004.10:02:31
+;Dates surveyed : 020217
+;Surveyors      : Sam L
+;No of stations : 5
+;Plan length    : 36.1947501m
+;Traverse length: 36.4m
+
+*FIX 0 56450 96930 0274
+
+*ENTRANCE 0
+0	1	14.20	213.30	-9	;*
+1	2	22.20	136.30	-3	;*
+0	3	0.0	-	+V	;*
+0	4	0.0	-	+V	;*
+*END 1591_cave

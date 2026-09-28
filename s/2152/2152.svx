@@ -1,0 +1,37 @@
+* begin 2152
+
+;Cubo @ San Panteleon
+;Pete Smith Carmen Haskell
+*DATE 2004.11
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.24; (2.64-0.4)
+
+*ENTRANCE 0
+
+;*FIX 0 459365 4799947 0045
+*FIX 0 459263 4799738 0045; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0 1 4 53 -42
+1 2 5.9 338 -22
+2 3 8 085 2
+3 4 3 065 5
+2 5 7 357 -13
+5 6 7.8 317 -11
+5 7 9 33 7
+7 8 8.8 333 -7.5
+8 9 3.1 275 -14
+7 10 7.9 347 -17
+10 11 4.1 12 -33
+
+*end 2152

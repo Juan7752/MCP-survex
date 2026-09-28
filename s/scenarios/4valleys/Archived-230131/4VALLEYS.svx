@@ -1,0 +1,32 @@
+*BEGIN 4Valleys
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+;Main 6 system backbones
+*INCLUDE ../../0081/0081.svx
+*INCLUDE ../../0105/0105.svx
+*INCLUDE ../../0107/0107.svx
+*INCLUDE ../../0114/0114.svx
+*INCLUDE ../../3234/3234.svx
+*INCLUDE ../../0252/0252.svx
+;*INCLUDE ../../0252/0252-forMap.svx
+
+;*INCLUDE ../../1800/1800.svx
+;*INCLUDE ../../0086/0086.svx
+;*INCLUDE ../../0100/0100.svx
+;*INCLUDE ../../0565/0565.svx
+;*INCLUDE ../../0575/0575.svx
+;*INCLUDE ../../0718/0718.svx
+;*INCLUDE ../../2638/2638.svx
+;*INCLUDE ../../0880/0880.svx
+
+
+
+*EQUATE 0105_Riano.UpperLevels.181 0107_Uzueka.2ndRiverInlet.1
+*EQUATE 0114_Llueva.Part2.414 0107_Uzueka.RockyHorror.313
+*EQUATE 0114_Llueva.Part2.290 0081_Carcavuezo.Eastwards.0081-13-12.30
+*EQUATE 0114_Llueva.Part2.0114-17-01.0 0081_Carcavuezo.Eastwards.0081-17-02.24
+*EQUATE 0105_Riano.0105-19-01.5.7 3234_Llanio.3234-19-02.9
+
+*end 4Valleys

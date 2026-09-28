@@ -1,0 +1,29 @@
+*begin surfacetop
+*date 2016.03.30
+*TEAM  "Alasdair Neill" notes compass clino disto tape
+*DATA NORMAL from to tape compass clino
+;sta 0 is  
+*FIX 9 450011.64 4792449.4 435
+
+
+
+*CALIBRATE DECLINATION 0.65
+
+
+
+*FLAGS SURFACE
+0	1	9.67	201	12
+2	1	4.32	17	18
+2	3	8.75	78	11
+4	3	7.47	201	-40
+4	5	5.44	354	20
+
+*calibrate tape +1.0
+6	5	9.9	174	-26
+6	7	6.7	34	21
+8	7	18.9	203	-22.5
+8	9	27.4	304	1	;centre of road white strip at bottom of concreted section
+8	10	6.9	125	-20	;cairn at start of path to cave
+
+
+*END surfacetop

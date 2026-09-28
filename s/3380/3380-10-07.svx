@@ -1,0 +1,18 @@
+*BEGIN 3380-10-07
+*CALIBRATE declination 1.92
+;surveyors: Bill Sherrington Dave Gledhill Simon Latimer
+;passage name:
+*Date 2010.04.05
+2	1a	3.6	161	0
+1a	1b	4	86	0
+1b	1c	5.2	350	0
+1c	1d	3.9	68	0
+1d	1e	3.3	100	0
+
+*data passage station left right up down
+1a	.8	.6	.5	.5
+1b	.8	0	.5	0
+1c	0	.9	.4	0
+1d	3.3	.6	.8	0
+
+*END 3380-10-07

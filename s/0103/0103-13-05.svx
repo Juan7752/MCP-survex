@@ -1,0 +1,49 @@
+*BEGIN 0103-13-05
+
+;*CALIBRATE DECLINATION 1.54
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.14
+
+
+;surveyors: Ali Neill; Angus;
+;passage name: surface survey continued includes
+*date 2013.04.01
+
+;starts at 3299
+*FLAGS surface
+0	1	16.5	145	12
+1	2	22.25	273	0
+2	2a	5	350	0; sewage works active sink=3800
+2	3	10.95	36	-3
+3	4	5.4	338	8; entrance 3796
+
+*FLAGS NOT surface
+4	5	5.01	351	-13
+*FLAGS DUPLICATE
+4	6	2.65	351	-18
+*FLAGS NOT DUPLICATE
+6	7	5.2	257	-7
+*FLAGS surface
+2	8	11.75	294	12; wall junction
+9	8	21.2	160	-8
+10	9	21.35	141	-10
+11	10	8.8	195	-22
+11	12	1.8	330	0; entrance 3442
+*FLAGS NOT surface
+
+
+*data passage station left right up down
+4	.5	2.8	.6	0
+5	0.3	.3	.2	.1
+
+*data passage station left right up down
+6	5.2	1	.4	.4
+7	1	1	.4	.4
+
+*END 0103-13-05

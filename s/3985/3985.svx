@@ -1,0 +1,28 @@
+*BEGIN 3985
+
+*date 2014.04.21
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.01
+
+*FIX 0 453171 4802576 110
+
+;surveyors  Alasdair Neill
+;bosch disto II suunto
+
+
+*ENTRANCE 0
+1	0	4.59	10	33
+1	2	9.86	253	-10	
+*data passage station left right up down
+0	0	1.1	1.4	0
+1	0.98	2.33	1.07	1.61
+2	1.58	1.15	0.8	1.1
+
+
+*END 3985

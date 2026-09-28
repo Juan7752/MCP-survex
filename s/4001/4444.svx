@@ -1,0 +1,93 @@
+*BEGIN 4444
+
+;Injanas 2
+
+*TEAM "Juan Corrin" compass clino
+*TEAM "Pete Smith" laser measure
+*TEAM "John Southworth" ferret
+*TEAM "Dave Milner" ferret
+*date 2016.04.09
+;*FIX 21 442523 4804815 43
+;*FIX 21 442517 4804817 57
+*ENTRANCE 21
+*ENTRANCE 18
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.65 ; altered from 1.05 for Easter 2016 to align with the UTM ETRS89 grid
+
+0	1	4.71	200	0
+2	0	3.48	169	-10
+3	2	1.68	175	-2
+4	3	4.09	255	-5
+5	4	2.94	195	-40
+5	6	5.38	5	-68
+6	7	7	5	0
+
+8	3	4.67	150	-11
+9	8	2.58	63	0
+10	9	4.6	93	-2
+11	10	3.26	95	0
+12	11	3.55	151	10
+
+;************ replaced *******************
+;12	13	3.66	212	-2
+;14	13	3.57	300	0; guess compass and clino
+;14	leaf	2.46	-	down; leaf in Anjanas 1 (station 4001.0)
+
+12	22	4.07	215	-4
+22	23	4.65	113	-8
+23	leaf	2.9	-	down
+
+12	15	6.3	270	0
+
+16	12	2.57	152	-15
+17	16	5.6	135	-11
+17	18	2.6	305	60; entrance
+
+16	19	.44	40	0
+19	20	4.85	325	42
+20	21	1.56	307	-15; entrance
+
+*FLAGS SURFACE
+21	SlopeBase	12.83	20	-13
+*FLAGS NOT SURFACE
+
+*data passage station left right up down
+0	1.31	.74	.81	0
+1	2	2	.1	.1
+
+*data passage station left right up down
+0	.74	1.31	.81	0	
+2	3.28	1.01	.71	0
+3	4.09	3.16	.58	0
+4	1.16	3.2	3.52	0
+5	.5	.5	2	5
+6	.5	.5	5	1
+7	.2	.2	.5	7
+
+*data passage station left right up down
+3	2	2	.58	0
+8	.69	.77	.86	0
+9	1.04	.4	.5	.21
+10	.94	1.21	.31	0
+11	1.46	0	.3	1.14
+12	1.64	3.74	1.76	.61
+22	2.19	1.08	.56	1.29
+23	.25	2.44	.52	2.9
+leaf	.2	.2	2.9	0
+
+*data passage station left right up down
+12	1.99	3.62	1.76	.61
+16	.59	4.57	2.39	.76
+17	1	1	1	0
+18	.5	.5	0	3
+
+*data passage station left right up down
+16	2	2	2.39	.76
+19	3	.1	3	0
+20	0	.82	1.27	.97
+21	0	.61	1.41	.82
+
+
+*END 4444

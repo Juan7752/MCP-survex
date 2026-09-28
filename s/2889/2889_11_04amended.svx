@@ -1,0 +1,21 @@
+*BEGIN TlV
+*data normal from to tape compass clino
+;dive through
+;Jim Lister Colin Hayward
+;*CALIBRATE DECLINATION 1.78
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.4; (1.8-0.4)
+       A      B    25      340      0 ; Buttermere through sump
+       B      4    7        240       0 ; 4 fins
+       4      3    10      320       0 ; edge of pool
+       3      2    6        340       0 ; cobble slope
+       2      1    4.5     30         0 ; on boulder
+       1      0    6        345       0 ; nose of flake
+*END TlV
+

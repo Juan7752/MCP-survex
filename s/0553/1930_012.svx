@@ -1,0 +1,23 @@
+*begin 1930_012
+
+;surveyors: John Forder, Miranda Sandys, Carmen Haskell
+;name: Between pitches
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.31; (2.71-0.4)
+
+
+0	1	2.5	-	DOWN
+1	2	4.1	105	-3
+2	3	4.7	55	-10
+3	4	2	4	3
+4	5	3.6	61	-5
+5	6	2.8	40	-18	;flake above p
+
+*end 1930_012

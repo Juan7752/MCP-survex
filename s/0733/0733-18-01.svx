@@ -1,0 +1,77 @@
+*BEGIN 0733-18-01
+;surveyors Lloyd Cawthorne, Thomas Davison, Raoul Hidalgo Charman, Peter O'Neil
+*DATE 2018.04.07
+*CALIBRATE DECLINATION 0.40
+
+*FLAGS NOT DUPLICATE
+1	0	5.8	311	+2
+1	2	3.74	39	-21; rift into low crawl stream
+1	3	7.85	120	-1
+3	4	12.38	53	0
+4	5	5.91	141	+1
+5	6	2.62	145	+13
+6	7	2.96	194	+1; 7 is pitch bottom
+7	8	11.1	245	+23
+8	9	1.89	0	+90
+9	10	3.6	298	-21
+10	11	6.8	297	-6; 11 is rifty crawl (tight) to pitch 7-8m
+9	12	3.91	138	+40
+12	13	1.52	0	+90
+13	14	0.83	95	+33
+14	15	2.38	110	+19
+15	16	2.68	164	-57
+17	16	6.33	296	+16
+17	18	2.54	108	+16
+18	19	1.92	154	0
+20	19	9.52	331	+32; note at station 20
+20	21	10.66	137	+5
+21	22	8.7	141	+16
+22	23	5.68	130	+11; choked slope
+
+7	24	7.4	0	+90; dodgy clino
+24	25	6.94	270	+67
+25	26	9.51	7	+71
+26	27	5.8	312	+69
+27	28	12.9	225	+23
+28	29	3.8	240	+3; 29 is Ali station 8
+
+
+
+
+
+*data passage station up down left right
+1	0.3	0.3	1	1.5
+*data passage station up down left right
+1	0.3	0.3	0.9	3.9
+*data passage station up down left right
+1	0.3	0.3	1.5	1
+3	0	0.5	2	0.3
+4	0.3	0.5	2	12.5
+5	3.7	0.2	1.7	2.3
+6	2.2	0.5	3.5	2.9
+7	26	1.2	1.6	4
+8	1.89	0	1	0.3
+*data passage station up down left right
+9	0.2	1.89	1.1	1.4
+10	3.2	0.7	1.1	2.3
+*data passage station up down left right
+9	0.2	1.89	0	1
+13	0	1.5	0.2	0.3
+14	1.2	0.6	0.6	0.2
+15	2	1	0	2
+16	0.1	0.2	0.2	0
+*data passage station up down left right
+16	0.1	0.2	0.2	0
+17	5.8	0.8	1.4	2.1	
+18	0.1	0.8	0	0.2
+19	0.2	0.2	0.25	0.25
+*data passage station up down left right
+19	0.2	0.2	0.25	0.25
+20	16.8	0.7	8.5	1.2
+21	0.8	0.8	0.9	0.6
+22	8.4	1.2	0.8	0
+23	1.9	0.7	0.6	1.5
+
+
+
+*END 0733-18-01

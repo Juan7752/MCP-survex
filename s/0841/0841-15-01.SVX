@@ -1,0 +1,33 @@
+*BEGIN 0841-15-01
+;stream passage near end
+
+*date 2015.08.08
+*TEAM  "Chris Sharman" notes "James Carlisle" "Alex Ritchie" compass clino disto
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.73
+
+2 1 4.18 286 -5
+2 3 1.99 061 +5
+3 4 3.39 103 -1
+4 5 1.59 149 +45
+5 6 1.44 134 -10
+6 7 1.79 185 +6
+7 8 5.91 136 +2
+8 9 3.38 114 +2
+9 10 6.69 098 -10
+11 10 4.42 0 -90
+11 12 3.32 273 -10
+13 12 1.69 024 -23
+13 14 1.39 045 +40
+*FLAGS DUPLICATE
+14 15 8.14 294 -4
+
+15 14a 8.77 309 -2
+;15 1.14 8.77 309 -2 Altered SCo Feb 2025
+
+
+*FLAGS NOT DUPLICATE
+*data passage station left right up down
+
+*END 0841-15-01

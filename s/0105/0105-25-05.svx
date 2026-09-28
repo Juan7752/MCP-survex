@@ -1,0 +1,42 @@
+*BEGIN 0105-25-05
+*EXPORT 6
+;*CS UTM30N
+;*CS OUT UTM30N
+;*DECLINATION auto x y z; coordinates of entrance but a nearby point will do
+*DATE 2025.04.24
+
+; Riaño : tall canyon north of pendant chamber, descended as a p6 + p6 (thrubolts),
+; previous recorded p16 on drawn survey probably to bottom of tortuous winding canyon in floor.
+
+*TEAM "Patrick Warren notes"
+;*INSTRUMENTS Carmen Suunto Tandem ; Carmen Smith disto
+
+*DATA NORMAL from to tape compass clino ignoreall
+
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+ 1   2   11.43   194   +6
+ 2   2a   1.66   306    0
+2a   3    6.40   164  +65
+ 4   3    6.80   024  -21
+ 4   5    5.58    -    UP
+ 6   5    5.67   337  -26
+
+*flags splay
+ 1  aven  16.0    -    UP ; short up aven at end
+ 2  floor  6.7    -  DOWN ; shot down to floor in narrow winding canyon
+*flags not splay
+
+*data passage station left right up down
+
+1   0.5  1.0  16.0  1.8 ; base aven at far end, standing height
+2   0.0  1.0   -    6.7 ; bolt on wall, shot down to base of narrow winding canyon
+2a  1.0  0.0   -    6.7 ; opposite wall
+3   0.0  2.5   -     -  ; bolt at top of second pitch
+4   1.4  1.2  8.5   0.0 ; base of first pitch
+5   1.0  3.0  1.5    -  ; bolt at top of first pitch
+; station 6 is prominent cairn on large boulder
+; believed to be upperlevels.pendantchamber2011.4
+; due to large number of splays from this point
+ 
+*END 0105-25-05

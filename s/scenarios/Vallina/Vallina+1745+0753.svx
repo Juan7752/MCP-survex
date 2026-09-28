@@ -1,0 +1,9 @@
+*BEGIN Vallina
+*CS UTM30
+*CS OUT UTM30
+*INFER EXPORTS ON
+*INCLUDE ../../0733/0733
+*INCLUDE ../../0753/0753-forVallina
+*INCLUDE ../../1745/1745-RCN.svx
+
+*end Vallina

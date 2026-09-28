@@ -1,0 +1,21 @@
+*BEGIN 0048-12-02
+;Squirrels to sump
+;Dates surveyed : 12/04/09
+;Surveyors      : Rupert Skorupka
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+0	1	10	320	0
+1	2	24	0	0
+2	3	13	40 	0
+3	4	9	330	0
+4	5	8	35	0
+
+*END 0048-12-02

@@ -1,0 +1,32 @@
+*BEGIN 4043-14-19
+
+;GPS point to entrance
+*TEAM "Alasdair Neill" notes
+*TEAM "Lauren, Nigel Dibben, Purdie, Sam" compass clino laser measure
+
+*date 2014.08.01
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+
+
+;*FIX 0 443609 4805746 68 FIXES SEEN IN THE MAIN FILE
+
+;gps records elevation 71m
+*ENTRANCE 8
+
+*flags surface
+1	0	4.4	59	-5
+1	2	5.89	271	-11.5
+3	2	5.73	71	2
+3	4	4.35	241	-6
+5	4	7.27	57	11
+5	6	11.64	249	-19
+7	6	23.185	60	7
+7	8	11.25	193	-18
+
+*END 4043-14-19	

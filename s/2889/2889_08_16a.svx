@@ -1,0 +1,30 @@
+*BEGIN 2889_08_16a
+;surveyors: Peter Eagan Alasdair Neill
+;name:
+*DATE 2008.03.31
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+*CALIBRATE clino -1.5
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+42	2	2	71	-23
+1	2	6.86	160	-33
+1	a	4.6	3	-10
+a	b	35.5	-	down
+
+
+
+
+*END 2889_08_16a

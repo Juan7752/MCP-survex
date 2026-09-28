@@ -1,0 +1,21 @@
+*BEGIN 1166_Cueva Bacalao
+;Created from Survey file on Wed,23 Jun 2004.19:19:20
+;Dates surveyed : 960803
+;Surveyors      : SO+
+;No of stations : 10
+;Plan length    : 21.2649499m
+;Traverse length: 40.2m
+
+*FIX 0 55330 101130 0370
+
+*ENTRANCE 0
+0	1	5.80	-	-V	;*
+1	2	9.60	87.40	-22	;entrance arch
+2	3	9.50	40.40	-53	;descending rift
+3	4	4.60	103.40	-55	;*
+4	5	10.70	78.40	-68	;p down to mud floor
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1166_Cueva Bacalao

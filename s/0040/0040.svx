@@ -1,0 +1,11 @@
+*BEGIN 0040_Comellante
+*CS UTM30N
+*CS OUT UTM30N
+;*INCLUDE 0040_dry.svx
+*INCLUDE 0040-12-01.svx
+
+;*FIX 0040-12-01.tag0 450572 4795418 150; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0040-12-01.tag0 450566.35 4795410.88 149.78	;adjusted AN Oct 2015 to fit to 2015 survey
+;*INCLUDE 2015/0040-15-0.svx
+*INCLUDE 2016/0040-16-0.svx
+*END 0040_Comellante

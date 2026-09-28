@@ -1,0 +1,61 @@
+*BEGIN 0114-16-01
+
+;Dates surveyed : 30 March 2016
+;Surveyors      : Alex Ritchie notes, Anton Petho Instruments, Tom Howard Spotter
+
+*CALIBRATE DECLINATION 0.65
+
+*DATE 2016.03.30
+
+*EQUATE	0	0114_llueva.part1.lefthandbypass.boulder_chambers.104
+*EQUATE	18	0114_llueva.part1.lefthandbypass.boulder_chambers.101
+
+0	1	6.6	162	-7; stal
+1	2	5.1	201	-16
+2	3	4.6	000	-90
+3	4	4.0	230	+13; difficult climb
+4	5	5.7	293	-21
+5	6	3.6	293	-09
+6	7	7.7	052	-26; climb round boulder
+7	8	4.3	090	-04
+9	8	1.7	204	-75; tube with stream
+9	10	8.6	173	+14
+10	11	3.5	210	-34
+11	12	9.5	118	-06
+12	12a	6.3	190	+01
+12	13	9.9	106	+03
+13	14	6.0	090	-23; start of pitch down
+*FLAGS DUPLICATE
+14	14a	1.5	152	00
+14a 	14b	6.1	110	+05
+14	15	8.4	009	-42
+15	16	7.3	279	+11
+16	17	7.7	028	+30
+17	18	8.4	348	+06
+*FLAGS NOT DUPLICATE
+
+*data passage station left right up down
+
+0	16	13	2.9	0.2
+1	00	9.5	0.4	1.2
+2	0	0.6	1.0	4.6
+3	0.7	0.3	0.4	4.2
+4	0.2	1.2	0	2.6
+5	0.2	0.9	0	1.8
+6	0	2.1	5	2.0
+7	2.3	1.5	11.9	0
+8	0.1	0.2	0	1.7
+9	0.1	0.2	0	1.7
+10	1.9	1.5	0.8	0.8
+11	1.5	2.2	1.8	0
+12	0.3	6.3	0.5	0
+12a	0	0.7	1.5	1
+13	1.3	0	0.1	0.5
+14	1.8	1.5	3.2	3.8
+14a	1.8	1.5	3.2	3.8
+14b	0	0.4	1.5	1
+15	4	0	4.4	0.9
+16	0	4.9	8.4	1.7
+17	2.5	1.0	4.3	0
+
+*END 0114-16-01

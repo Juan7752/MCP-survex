@@ -1,0 +1,7 @@
+*BEGIN Cov-CEZ
+*INCLUDE ../../0002/0002.svx
+*INCLUDE ../../3603/3603.svx
+*INCLUDE ../../0023/0023.svx
+*INCLUDE ../../0005/0005.svx
+*INCLUDE ../../0531/0531.svx
+*END Cov-CEZ

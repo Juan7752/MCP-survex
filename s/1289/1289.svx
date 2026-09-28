@@ -1,0 +1,46 @@
+*BEGIN 1289_cave
+;Created from Survey file on Wed,08 Apr 1998.21:02:41
+*DATE 1998.04.08
+;Surveyors      : LizC Lank PeteE
+;No of stations : 20
+;Plan length    : 119.958662m
+;Traverse length: 130.7m
+
+;*FIX 0 452390 4797880 0165
+;*FIX 0 452288 4797671 0165; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 452288 4797671 0160
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.54 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.54-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	5.50	286.70	-20	;*
+1	2	5.80	288.70	-28	;stn16 stal squeeze
+2	3	10.50	264.70	-22	;*
+3	4	17.10	277.70	1	;stn 14 Mushroom Passage
+4	5	6.00	277.70	9	;stn 11
+5	6	4.80	252.70	10	;stn10 stal squeeze
+6	7	5.90	278.70	-17	;*
+7	8	7.40	281.70	1	;stn8
+8	9	12.70	280.70	-5	;narrow rft in wall
+9	10	10.60	269.70	20	;stn6
+10	11	7.70	278.70	8	;*
+11	12	8.00	274.70	-10	;*
+12	13	4.20	204.70	-15	;stn3
+13	14	4.30	266.70	-4	;*
+14	15	4.00	314.70	3	;*
+15	16	2.50	249.70	27	;fill to roof
+5	17	7.70	313.70	33	;stn12
+17	18	6.00	-	+V	;stn13 alcove in honeycomb lstone
+*END 1289_cave

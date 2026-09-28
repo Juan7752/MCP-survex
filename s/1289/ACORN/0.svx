@@ -1,0 +1,25 @@
+*BEGIN 1289_1289
+;Created from Survey file on Wed,23 Jun 2004.20:15:53
+;Dates surveyed : 980408&980411
+;Surveyors      : LM PE LC+LM
+;No of stations : 14
+;Plan length    : 169.530787m
+;Traverse length: 173m
+
+*FIX 0 52360 97830 0152
+
+*ENTRANCE 0
+0	1	24.30	72.70	-4	;road to stn 5
+1	2	30.50	42.70	5	;*
+2	3	14.70	21.20	4	;stn3
+3	4	10.70	318.70	22	;small cave entrance 1290 stn 2
+4	5	4.20	295.70	50	;*
+5	6	7.50	278.70	24	;entrance 1289 stn0
+0	7	31.00	303.20	4	;entr to cave 1292 on road
+7	8	16.00	303.70	5	;small entr
+8	9	30.50	295.70	6	;*
+9	10	3.60	319.70	7	;entr to cave 1293
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+*END 1289_1289

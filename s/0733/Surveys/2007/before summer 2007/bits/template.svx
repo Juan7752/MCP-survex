@@ -1,0 +1,19 @@
+*BEGIN site_batch
+
+;surveyors: 
+;passage name: 
+;date: 
+*CALIBRATE declination 2.28
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+
+
+
+
+
+
+
+
+
+
+*END site_batch

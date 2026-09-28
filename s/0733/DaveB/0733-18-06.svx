@@ -1,0 +1,14 @@
+*BEGIN 0733-18-06
+;SURVEYORS Jim Lister and Mark Smith
+;date 2018.07.30
+*CALIBRATE DECLINATION 0.35
+
+*DATA DIVING FROM TO tape compass depthchange
+
+A	B	11	60	-2.8
+B	C	3	70	.2
+C	D	5	50	2.6;air bell
+D	E	4	85	-1.6
+E	F	11	100	1.6
+
+*END 0733-18-06

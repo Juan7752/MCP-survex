@@ -1,0 +1,27 @@
+;Use this template after complete intro of *DECLINATION and assoc. commands in Survex v1.2.43
+;For Survex 1.2.43 and later 
+
+*BEGIN 5091
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 452554 4794375 501
+*DATE 2021.10.18
+*FIX 3 452554 4794375 501; s=station x=6-fig easting y=7-fig northing z=altitude
+*ENTRANCE 3
+;passage / batch name:
+;surveyor Juan Corrin using Laser measure / compass clino
+
+*DATA NORMAL from to tape compass clino
+
+3	2	4.30	277	0
+2	0	1.97	251	3
+0	1	2.67	280	0
+
+*data passage station left right up down
+3	1.2	1.5	1.4	0
+2	.4	0	0	.6
+0	0.7	.5	1	0
+1	.5	.3	.5	0
+
+
+*END 5091

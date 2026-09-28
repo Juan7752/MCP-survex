@@ -1,0 +1,57 @@
+*BEGIN 3166
+;*CALIBRATE DECLINATION 1.88
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.48; (1.88-0.4)
+
+;*FIX 16 448250 4801020 0150
+;*FIX 16 448148 4800811 0150; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;16 is house corner
+
+;NEW MAPS
+*FIX 16 448144 4800813 0148
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude & position altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 5
+*DATE 2010.08
+0	1	 4.33	320.89	-55.27
+*FLAGS SPLAY
+0	0a	 4.22	341.00	-47.64
+0	0b	 2.11	303.98	-61.84
+0	0c	 2.41	  9.34	-57.76
+0	0d	 0.83	292.38	  0.84
+0	0e	 1.19	301.83	-11.91
+*FLAGS NOT SPLAY
+2	0	 1.18	302.31	-11.12
+2	3	 0.91	 30.05	 34.99
+3	3a	 0.98	114.04	 -0.23
+3	4	 3.42	225.45	 37.42
+4	5	 2.10	336.81	 40.96
+
+*FLAGS surface
+6	5	 1.69	 52.06	  2.96
+6	7	 7.50	359.76	 -6.25
+7	8	 3.09	125.73	 -1.01
+9	8	 6.95	269.00	 -8.89
+9	10	14.37	 69.84	 -2.79
+10	11	12.03	 73.63	 12.27
+11	12	11.34	 49.50	  7.40
+12	13	 2.42	 77.63	  2.37
+13	14	28.37	333.61	 -2.22
+14	15	 9.12	  1.81	  1.91
+15	16	 7.20	277.25	  2.33
+*FLAGS NOT surface
+
+*data passage station left right up down
+0	0.9	0.0	0.85	4.04
+3	3.54	0.0	0.91	0.79
+4	0.0	0.47	3.93	1.48
+
+*END 3166

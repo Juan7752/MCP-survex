@@ -1,0 +1,38 @@
+*BEGIN 0753
+;Torca Rotura
+;combined surveys 1988 and 2022
+;from Guy Simonnot
+;original data in Visual Topo (.trox) format
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 4451008 4792824 408
+*DATE 1988.11.01
+*FIX 0 451008 4792824 408
+*ENTRANCE 0
+0	a	48	135	-88
+a	b	4.5	220	-23
+b	c	4	240	-25
+c	d	4.5	207	-55
+d	e	12.3	291	-72
+e	f	5	0	-90
+*DATE 2022.10.18
+f	g2	0.79	201.4	2.9
+g2	n	2.39	169.2	-38
+n	m	2.72	125	-19.7
+m	l	3.16	24.5	-18.1
+l	k	3.22	50.8	-79.9
+k	j	10.43	209.9	-83.6
+j	i	2.03	1.8	-24.9
+i	h	3.05	345.4	-77.3
+h	g	2.1	242.6	-47.5
+g	fond	9.47	73	-68.6
+g	f1	7.41	191.9	-3.9
+f1	e1	11.31	218.6	-5.9
+e1	d1	3.46	174	8
+d1	c1	20.6	265.5	-13.4
+c1	b1	15.85	207.4	-1.5
+b1	canyon	22.99	260.6	-2
+f1	f2	9.46	75.3	12.5
+
+*END 0753

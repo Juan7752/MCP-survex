@@ -1,0 +1,29 @@
+*BEGIN 0801_Cueva de Arturo
+;Created from Survey file on Sat,17 Feb 1996.21:44:20
+;Dates surveyed : 940806
+;Surveyors      : Juan PS+Juan PS
+;No of stations : 20
+;Plan length    : 53.0243026m
+;Traverse length: 55.6m
+
+*FIX 0 50570 96580 0245
+0	1	3.70	100.10	-42	;*
+1	2	4.50	118.10	-10	;stal
+2	3	11.90	18.10	0	;*
+3	4	1.00	-	+V	;*
+4	5	3.00	18.10	0	;over hearth
+5	6	0.10	-	+V	;*
+2	7	7.80	103.10	8	;base of squeeze
+7	8	1.70	110.10	30	;thro hole below squeeze
+8	9	6.20	44.10	-16	;stal
+9	10	4.00	136.10	-4	;waters edge
+10	11	5.00	124.10	-1	;*
+11	12	2.40	41.10	0	;*
+12	13	4.30	114.10	-2	;conts 2m to bone choke
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0801_Cueva de Arturo

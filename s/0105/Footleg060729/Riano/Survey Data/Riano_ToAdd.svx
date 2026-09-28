@@ -1,0 +1,29 @@
+*BEGIN 0105_Riano
+;Created from Survey file on Wed,11 Oct 1995.20:45:33
+;Dates surveyed : 74onwards&910809&910909&920617&920721&920722&920802
+;Surveyors      : Various+LMills+PStacey++andy++
+;No of stations : 900
+;Plan length    : 7281.46414m
+;Traverse length: 7482.48383m
+
+*include UpperLevels2.svx
+*include UpperLevels3.svx
+*include FarEnd.svx
+*include FarEndInlet.svx
+
+*include DownStreamInlet.svx
+*include DownStreamExtn.svx
+*equate Riano_DownStream.28 Riano_DownStreamInlet.28
+*equate Riano_DownStream.28 Riano_DownStreamExtn.28
+
+*include Easter06Extn.svx
+*equate Riano_DoubleBarrel.72 Riano_Easter06Extn.0
+
+*equate Riano_UpperLevels.130 Riano_UpperLevels2.130
+*equate Riano_UpperLevels2.167 Riano_UpperLevels3.167
+*equate Riano_UpperLevels2.174 Riano_FarEndL.174
+*equate Riano_UpperLevels2.174 Riano_FarEndR.174
+*equate Riano_UpperLevels2.174 Riano_FarEndInlet.174
+
+
+*END 0105_Riano

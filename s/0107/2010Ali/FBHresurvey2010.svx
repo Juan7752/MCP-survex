@@ -1,0 +1,20 @@
+*BEGIN FlashbulbHall_resurvey2010
+*Date 2010.08.12
+*CALIBRATE declination 1.88
+;rifty from high level chamber to main passage before FBH
+;surveyors Ali Neill Pete Eagan Torben Redder
+
+
+
+30	31	10.5	267	-11
+31	32	4.96	9	-40
+32	33	9.18	296	-22
+33	34	3.28	9	11
+
+*data passage station left right up down
+31	1.2	1.5	2.1	1.8
+32	.4	0	.9	1
+33	0	1.3	5.1	1.7
+
+*END FlashbulbHall_resurvey2010
+

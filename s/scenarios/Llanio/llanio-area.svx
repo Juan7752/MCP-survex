@@ -1,0 +1,11 @@
+*BEGIN Llanio-area
+*INFER EXPORTS ON
+;*INCLUDE ../../3454/3454.svx
+*INCLUDE ../../3234/3234.svx
+;*INCLUDE ../../3451/3451.svx
+*INCLUDE ../../1800/1800.svx
+;*INCLUDE ../../0575/0575.svx
+*INCLUDE ../../0103/0103.svx
+;*INCLUDE ../../0105/0105.svx
+*INCLUDE ../../5227/5227.svx
+*END Llanio-area

@@ -1,0 +1,51 @@
+*BEGIN 0567-00
+
+;surface survey
+
+;*TEAM "Phil Papard" "Terry Whitaker"
+;DistoX ? Readings on paper
+*date 2016.01.17
+
+*ENTRANCE 0567
+*ENTRANCE 4246
+*ENTRANCE 4245
+*ENTRANCE 4385
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.67 ; altered from 1.07 for January 2016 to align with the UTM ETRS89 grid
+
+;0 is side of track; east side of road
+*FIX 0 447578 4793117 604
+
+*FLAGS SURFACE
+0	1	11.21	264.2	-5.9
+2	1	10.915	112.6	27.1
+2	3	16.678	267.1	-18.2
+4	3	15.497	121.4	19
+4	5	10.766	262.5	-32.6
+5	4385	1	-	down; leg added 7/2/2016 after TW email
+
+0567	21	8.609	178.1	3.1; station 20 on notes
+22	21	9.455	10.2	18.8
+22	23	12.401	118.8	-12
+24	23	11.009	313.4	-2.6
+24	25	18.347	95.3	20.3
+26	25	19.753	260.8	-18.2
+26	5	10.468	88.7	14.5
+
+4246	11	14.379	216.1	4.8; sound of water site 4246; stn 10 on notes
+11	25	8.679	198.9	11.3
+
+24	30	9.443	22.3	-10.7
+30	31	12.146	2.4	-24.6
+31	32	12.745	33.5	-4.7
+32	4245	16.016	48.5	-27.1; hole at base is 4245; 33 on notes
+;(actually on drum 1m into cave)
+*FLAGS NOT SURFACE
+
+4245	34	4.926	53.6	-16; back of site 4245
+
+
+
+*END 0567-00

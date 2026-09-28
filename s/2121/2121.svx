@@ -1,0 +1,46 @@
+*begin 2121
+
+;surveyors: PP Pete S
+;name: Cueva del Campizo
+*DATE 2004.08.20
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+;*FIX 18 448250 4798904 235
+;*FIX 18 448148 4798695 0235; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 18 448148 4798695 0232
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 18
+
+0	1	6.8	325	-1	;0 = 3 stal trident at top of pitch
+1	2	7.1	266	4
+2	3	7	276	0
+3	4	11	260	-2
+4	5	4.7	314	0	; green plastic
+5	6	30.6	268	0
+6	7	6.4	249	-2
+7	8	6.8	205	3
+8	9	11	246	-.5
+9	10	9.3	168	0;	marked stn 10
+10	11	17.1	268	4
+11	12	4.4	276	5
+12	13	2.5	203	-25
+13	14	6.5	269	12
+14	15	2.6	282	-7
+15	16	11.5	336	-8
+16	17	11.8	333	1
+17	18	11.2	240	14	; ENTRANCE
+
+*end 2121

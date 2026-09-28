@@ -1,0 +1,31 @@
+*BEGIN 0491_491
+;Created from Survey file on Fri,05 Apr 1996.09:34:54
+;Dates surveyed : 960401&960402&960405
+;Surveyors      : JC PS+JC Pete Eagan+JC+
+;No of stations : 22
+;Plan length    : 70.5802971m
+;Traverse length: 116.054026m
+
+*FIX 0 49190 95060 0260
+0	1	8.30	156.40	-47	;entr slope stn 10-9
+1	2	5.80	-	-V	;stn 1 base of p
+2	3	7.50	354.40	-49	;stn 2 dog down hole
+2	4	5.00	292.40	-34	;stn 3 base of other hole connects to 2
+4	5	11.00	202.40	39	;stn 4 up rift
+2	6	7.00	193.40	48	;stn 8 top of cl; hole into pass
+6	7	9.00	225.40	-12	;stn 7 top of ladder above vert
+7	8	4.40	265.40	-16	;stn 6 top of tube pitch
+8	9	8.40	271.40	-53	;stn 5 above holes continuing
+7	10	2.70	-	-V	;*
+10	11	12.60	319.40	-75	;stn 7
+11	12	2.00	222.40	-21	;stn 6
+12	13	7.00	309.40	-80	;*
+13	14	2.90	228.40	18	;stn 3
+14	15	5.50	260.40	-3	;stn 4
+15	16	0.10	-	+V	;*
+14	17	2.40	106.40	-54	;stn 2
+17	18	3.50	221.40	-48	;*
+18	19	2.90	166.40	40	;*
+0	20	0.0	-	+V	;*
+0	21	0.0	-	+V	;*
+*END 0491_491

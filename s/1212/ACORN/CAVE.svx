@@ -1,0 +1,29 @@
+*BEGIN 1212_Necrophilia
+;Created from Survey file on Mon,10 May 1999.20:59:25
+;Dates surveyed : 970730&970805
+;Surveyors      : PP+Martin Upfold
+;No of stations : 20
+;Plan length    : 26.9093293m
+;Traverse length: 64.8m
+
+*FIX 0 54850 101560 0377
+0	1	6.50	-	-V	;*
+1	2	6.00	274.55	-45	;*
+2	3	6.20	-	-V	;base p 2nd
+3	4	1.30	260.55	0	;*
+4	5	11.20	190.55	-49	;top p 3rd
+5	6	5.00	-	-V	;*
+6	7	2.80	171.55	1	;bolt above dig
+7	8	4.50	-	-V	;base of dig
+7	9	4.40	58.55	-1	;end side rift
+8	10	4.00	331.55	-25	;*
+10	11	9.00	-	-V	;*
+11	12	3.90	321.55	-35	;stn0 tight rift
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 1212_Necrophilia

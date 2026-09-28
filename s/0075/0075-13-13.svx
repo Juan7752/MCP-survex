@@ -1,0 +1,33 @@
+*BEGIN 0075-13-13
+;surveyors     Mike Topsom, Darren Jarvis, Roxanne Ramsay
+
+*DATE 2013.08.02
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+1	0	3.16	212	+44
+2	1	2.59	307	+14
+3	2	5.48	273	+08
+4	3	4.78	225	+07
+5	4	5.47	222	+45
+6	5	2.46	287	+67
+7	6	4.60	329	+53
+8	7	3.61	060	+15
+8	9	6.14	215	-36
+10	9	4.60	357	+41
+11	10	4.90	003	+48
+
+*data passage station up down left right
+
+
+
+
+*END 0075-13-13
+

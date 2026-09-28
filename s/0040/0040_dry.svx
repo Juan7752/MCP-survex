@@ -1,0 +1,84 @@
+*BEGIN 0040_dry
+;Created from Survey file on Fri,15 Aug 2003.20:19:22
+;Dates surveyed : 010825
+;Surveyors      : JC PS Jen Carol
+;No of stations : 60
+;Plan length    : 522.945963m
+;Traverse length: 532.6m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.4
+
+;*FIX 0 450794 4795751 0170
+;*FIX 0 450692 4795542 0170; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;Resurvey coordinates summer 2015 to replace line above?:
+*FIX 0 450683 4795534 171
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*ENTRANCE 0
+*ENTRANCE 6
+0	1	17.00	216.15	0	;stn54
+1	2	14.40	268.15	5	;stn53
+2	3	19.00	232.15	6	;stn52 in tube
+3	4	14.70	255.15	2	;stn43 wall junct
+4	5	15.40	4.15	8	;stn50 base sloping wall
+5	6	10.90	31.15	10	;stn 51 entr
+4	7	18.00	233.65	5	;stn42
+7	8	22.70	226.15	-3	;stn40
+8	9	15.30	12.15	18	;stn44
+9	10	6.30	277.15	15	;stn45
+10	11	4.70	17.15	0	;stn46
+11	12	3.70	267.15	0	;*
+12	13	5.00	287.15	0	;*
+13	14	13.10	204.15	-20	;stn49 conts down to stal
+8	15	18.00	254.15	-2	;stn41 below top of slope
+15	16	16.80	321.15	-3	;stn21 hanging stal
+16	17	5.80	50.15	7	;stn25
+16	18	13.30	194.15	-5	;stn22
+18	19	6.00	237.15	-5	;stn23
+19	20	1.00	-	-V	;stn24
+20	21	22.70	317.15	0	;stn19 guess
+16	22	11.50	247.15	5	;stn20 top
+22	23	14.00	306.15	-14	;stn19 true
+23	24	15.30	278.65	0	;stn2=18
+24	25	6.50	284.15	0	;guess
+25	26	8.50	214.15	-21	;stn0 hole in floor
+24	27	8.40	310.15	5	;stn17
+27	28	8.50	304.15	10	;stn16
+28	29	9.70	255.15	-3	;stn15
+29	30	17.30	307.15	3	;stn13 sq thro
+30	31	6.50	183.15	-10	;stn14 drft tube
+30	32	3.80	312.15	19	;end sq thro stn12
+32	33	7.80	324.15	23	;stn9
+33	34	11.00	266.15	-12	;stn10
+34	35	9.20	347.65	0	;stn11
+33	36	11.20	344.15	5	;stn8
+36	37	7.80	327.15	24	;stn7
+37	38	4.50	269.15	-10	;stn6
+38	39	5.40	306.15	-8	;stn5
+39	40	5.90	318.15	8	;stn4
+40	41	8.40	304.15	22	;stn3 stony chk
+16	42	14.70	149.15	0	;stn26
+42	43	9.50	150.15	-2	;stn27
+43	44	2.60	97.15	-5	;stn28
+44	45	3.00	50.15	24	;stn29
+45	46	3.00	107.15	-10	;stn30
+46	47	2.60	69.15	11	;stn34
+47	48	2.20	89.15	-23	;stn35
+48	49	2.30	150.15	-12	;stn36
+49	50	3.70	51.15	-10	;stn37
+50	51	6.30	29.15	10	;stn38 on slope opp line start
+51	52	7.00	145.15	-20	;stn39 water
+51	53	8.10	341.15	24	;stn 40
+45	54	5.80	171.15	-20	;stn33
+54	55	7.40	142.15	4	;stn32
+55	56	9.40	51.15	-5	;stn31 2m above water?
+
+*END 0040_dry

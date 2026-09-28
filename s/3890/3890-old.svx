@@ -1,0 +1,36 @@
+*BEGIN 3890
+
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at
+;http://www.ngdc.noaa.gov/geomag-web/#declination
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+;Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+;declination is 1deg-55mins ie 1.92deg for 2010 Easter
+;declination is 1deg-53mins ie 1.88deg for 2010 summer
+;declination is 1deg-47mins ie 1.78deg for 2011 Easter
+;declination is 1deg-45mins ie 1.75deg for 2011 summer
+;1.67 for 2012 Easter
+;1.63 for 2012 summer
+;1.54 for 2013 Easter
+;1.50 for 2013 summer
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors:  Brendan Sloan
+;passage name: Silent Scream
+*date 2013.07.25
+
+*FIX 1 447027 4796297 384
+*ENTRANCE 1
+;*FLAGS duplicate | splay | surface
+2       1         5.6     144      45
+2       3         3.4     158      -72
+3       4         16.5    -        down
+
+*data passage station left right up down 
+
+
+*END 3890

@@ -1,0 +1,41 @@
+*begin 2889_08_09
+
+*title "Cow Pot - Wrappers"
+*team "Julian Todd" SAP (comp & clino) and tape
+*team "Becka Lawson" notes
+*date 2008.03.29
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate compass 0.0
+*calibrate clino 0.0
+
+;comp/clino = Becka's pony, tape = Becka's yellow tape
+
+;stations 1-9 are inlet just above downstream sump
+
+1	2	5.30	000	+5
+2	3	9.10	350	-5
+3	4	1.37	222	-5
+4	5	11.33	355	0
+5	6	2.53	043	-2
+6	7	6.15	349	-3
+*FLAGS duplicate
+1	8	6.14	038	+17
+8	9	6.26	086	-7
+*FLAGS NOT duplicate
+
+;station details - station	l	r	u	d	descriptio
+*data passage station left right up down ignoreall
+1	2	1.5	2	1.1	l mudbank above stream, left piece of paper
+2	0	0.6	4	1.2	l wall start of inlet
+3	1.4	0	1	0.7	r wall
+4	0.1	1.3	0.2	1	l wall
+5	0	1	1.6	0.5	l wall
+6	1	0	0.3	0.4	r wall
+7	0	1	0.4	0.1	l wall, left piece of paper
+*data passage station left right up down ignoreall
+8	0	1	1.8	0.1	l wall
+9	-	-	-	-	piece of paper from 26/3/08 - station 3 I think
+
+
+*end 2889_08_09

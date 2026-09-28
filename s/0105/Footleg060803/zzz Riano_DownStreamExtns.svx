@@ -1,0 +1,8 @@
+*BEGIN Riano_DownStreamExtns
+*EXPORT Riano_DownStreamExtn.28
+
+*include DownStreamInlet.svx
+*include DownStreamExtn.svx
+*equate Riano_DownStreamExtn.28 Riano_DownStreamInlet.28
+
+*END Riano_DownStreamExtns

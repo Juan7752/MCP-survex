@@ -1,0 +1,31 @@
+*BEGIN 0051_Torcon de beralta
+;Created from Survey file on Sun,07 Sep 2003.19:33:43
+;Dates surveyed : 030811
+;Surveyors      : PP
+;No of stations : 20
+;Plan length    : 41.978627m
+;Traverse length: 88m
+
+*FIX 0 52070 94440 0612
+
+*ENTRANCE 0
+0	1	10.30	43.45	-42	;base shakehole
+1	2	5.60	59.45	-53	;base rubble slope
+2	3	12.70	62.45	-71	;top last p
+3	4	26.60	-	-V	;*
+4	5	3.20	-	+V	;rift entr
+5	6	3.90	144.45	-26	;sqze
+6	7	0.90	8.45	20	;*
+7	8	1.10	92.45	0	;*
+8	9	2.90	173.45	8	;*
+9	10	3.00	119.45	30	;*
+10	11	1.00	230.45	-1	;*
+11	12	2.00	186.45	25	;*
+12	13	2.40	212.45	18	;*
+13	14	2.40	161.45	15	;calc cl
+14	15	4.50	195.45	48	;*
+15	16	1.70	319.45	10	;7.5" sqz draughts away
+4	17	3.80	345.45	0	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0051_Torcon de beralta

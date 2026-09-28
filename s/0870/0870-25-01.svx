@@ -1,0 +1,55 @@
+; 2025.01.12 created by TopoDroid v 6.2.95
+; 0870-25-01
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin 0870-25-01 
+  *date 2025.01.01 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 1.38 41.9 -12.8
+  0 0ba 2.08 143.7 -15.0
+  0 0bb 2.14 115.3 -11.3
+  0 0bc 0.42 88.4 -14.0
+  0 0bd 0.54 162.8 -19.1
+  0 0be 8.41 98.8 -86.3
+  *flags not splay
+    0 1   6.97 131.8 -73.5
+  *flags splay
+  1 1a 1.30 291.6 -75.7
+  1 1ba 1.53 306.7 -6.9
+  1 1bb 1.60 283.8 -13.5
+  1 1bc 2.30 247.9 -10.0
+  1 1bd 2.83 243.5 -52.9
+  1 1be 1.72 29.3 -58.8
+  1 1bf 3.01 325.8 -43.7
+  1 1bg 0.91 359.4 -41.8
+  1 1bh 4.83 318.5 -36.8
+  1 1bi 2.98 247.2 -48.1
+  1 1bj 4.72 321.5 -38.2
+  1 1bk 5.66 227.9 84.6
+  *flags not splay
+    1 3   4.78 321.1 -36.3
+  *flags splay
+  ;2 2a 0.26 190.7 -49.9
+  ;2 2ba 7.76 246.2 84.3
+  ;2 2bb 0.51 193.6 5.8
+  ;2 2bc 0.57 71.8 -3.3
+  ;2 2bd 2.19 148.2 30.0
+  ;2 2be 1.78 117.6 27.7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;No Station 2 to splay from (JSC 27/1/2025)
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  1.35 0.40 0.00 8.40
+1  0.87 2.04 5.64 2.92
+3  0.00 0.00 0.00 0.00
+
+*end 0870-25-01

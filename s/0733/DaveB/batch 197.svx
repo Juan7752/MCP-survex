@@ -1,0 +1,41 @@
+
+*begin batch_197
+;surveyors: Ali Neill Jason Lin
+;date 11th Aug 2008
+*CALIBRATE declination 2.15
+*CALIBRATE clino -1.5
+
+0	1	7.46	30	-20
+1	2	13.69	5	-11
+2	3	7.37	10	-12
+3	4	8.38	17	-2
+4	5	9.38	22	-11
+5	6	20.29	15	-18
+6	7	15.38	352	16
+*FLAGS DUPLICATE
+7	8	13.26	304	2
+8	9	21.85	328	-10
+9	10	21.34	243	8
+10	11	17.66	228	1
+11	12	28.61	210	-6
+*FLAGS NOT DUPLICATE
+; 12 is marked stn 14 from 1989
+
+*data passage station left right up down
+0	1.5	.3	.3	0
+1	.3	2	2	1
+2	.2	1.5	1	1.5
+3	.4	1	1.5	1.5
+4	2	0	.5	1.5
+5	2	.5	1	.3
+6	15	4.7	6	1.5
+7	11	18	6	1.5
+8	3	19	2.7	.5
+9	11	8	0	1.8
+10	7	9	1.5	1.8
+11	9	7	2.5	1.5
+12	16.4	10	12	1.5
+
+*END batch_197
+
+

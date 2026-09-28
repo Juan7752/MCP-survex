@@ -1,0 +1,63 @@
+*begin 0936
+;Fox Cave, a low phreatic maze with passages visible below and a very strong draught.
+;Surveyors Dave Milner, Phil Goodwin, John Southworth,
+;13th August 2013
+*DATE 2013.08.13
+*calibrate declination 1.50
+*fix 1 450631 4801812 153
+;*units tape metres
+;*data normal from to tape bearing gradient
+*entrance 1
+  1  2   3.0  120.0   0.0
+  2  3   6.0  148.0  12.0
+  3  4   8.0   52.0   2.0
+  4  5   4.8  102.0  -5.0 ;thro' calcite hole
+  5  6   8.7   40.0   1.0
+*flags splay
+  6  7   1.6  306.0   0.0;  chamber wall
+  6  8   1.8   32.0   0.0; chamber wall
+  6  9   2.0  125.0   0.0; chamber wall
+  6 10   3.3  205.0   0.0; chamber wall
+*flags not splay
+  6 11   4.0   91.0   8.0;
+ 11 12   2.8   48.0   0.0;
+ 11 13   3.5  110.0   1.0;
+  6 14   3.8  108.0   5.0;
+ 14 15   3.2  153.0   2.0;
+  6 16   3.2  160.0   0.0;
+ 16 17   2.1  132.0  12.0;
+  6 18   2.6  356.0   3.0;
+ 18 19   3.3   49.0   4.0;
+  6 20   2.8  343.0   4.0;
+ 20 21   5.6  328.0  12.0;
+  6 22   3.0  300.0  -2.0;
+ 22 23   4.3  295.0   0.0;
+ 23 24   3.1  252.0  -6.0;
+ 23 25   4.7  316.0   0.0;
+ 24 26   4.1  222.0   1.0;
+ 26 27   2.3  209.0   1.0;
+ 27 28   2.5  227.0   0.0;
+ 28 29   1.6   63.0  -1.0;
+ 28  3   4.9  200.0  -3.0;
+  4 30   1.1  269.0  -2.0;
+ 30 31   6.4   38.0   0.0;
+ 30 32   1.8   11.0  -3.0;
+ 32 29   0.9  300.0   0.0;
+*flags Duplicate
+  4 35   3.5  224.0   0.0;back up passage
+*flags not duplicate
+ 35 36   5.0  131.0   2.0;
+ 36 37   3.0   81.0   0.0;
+ 36  3   7.2  274.0   0.0;
+ 36 38   1.9  194.0  12.0;
+ 38 39   3.5  204.0 -11.0;
+ 38 40   2.6   87.0   8.0;
+ 40 41   2.7   52.0  12.0;
+  3 42   2.1  135.0   8.0;
+ 42 43   5.2  217.0   0.0;
+ 43 44   3.4  273.0   0.0;
+*flags splay
+  3 45   3.7  233.0   0.0; edge of chamber
+*flags not splay
+  6 60   3.2    0.0 -90.0;
+*end 0936

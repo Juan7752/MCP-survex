@@ -1,0 +1,36 @@
+*BEGIN 3174
+
+;surveyors: Johnny Latimer Sue Ryall
+;passage name:
+*DATE 2009.04.07
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+;*FIX 6 448577 4801202 0110
+;*FIX 6 448475 4800993 0110; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 6 448475 4800993 0111
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 6
+
+6	5	4.2	202	-36
+5	4	6.25	198	4
+4	3	6.65	229	3
+3	X	.7	-	DOWN
+X	2	3	219	4
+2	1	6.47	235	1
+1	0	4.4	226	-3
+
+
+*END 3174

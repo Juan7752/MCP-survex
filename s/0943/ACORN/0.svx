@@ -1,0 +1,21 @@
+*BEGIN 0943_Barn to cave 
+;Created from Survey file on Tue,22 Jun 2004.20:37:48
+;Dates surveyed : 930810
+;Surveyors      : Juan Joe
+;No of stations : 10
+;Plan length    : 79.2699997m
+;Traverse length: 84.4m
+
+*FIX 0 54520 98780 0318
+
+*ENTRANCE 0
+0	1	28.30	214.95	-12	;stn 0 corner of barn 
+1	2	30.00	225.95	-16	;*
+2	3	11.70	261.95	-34	;*
+3	4	14.40	230.95	-25	;943 entr
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 0943_Barn to cave 

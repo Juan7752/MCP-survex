@@ -1,0 +1,21 @@
+*BEGIN 2538-19
+
+*INCLUDE cub_1
+*INCLUDE cub_2
+*INCLUDE cub_3_Aven_station
+*INCLUDE cub_3_bottom_of_shaft
+*INCLUDE cub_4
+*INCLUDE cub_5
+
+;<<< NOTE: cub_2.6a6 is the bottom of original pitch out of Cafe Chamber
+
+*EQUATE cub_1.25 cub_2.0					;Joining cub_1 & cub_2 near the top of pitch 6
+
+*EQUATE cub_2.6-a6 cub_3_bottom_of_shaft.0 	;Joining cub_2 and cub_3_bottom_of_shaft - at the bottom of the shaft
+*EQUATE cub_2.6-a6 cub_3_Aven_station.0		; is this correct?
+
+*EQUATE cub_3_bottom_of_shaft.g cub_4.0		;OK
+*EQUATE cub_3_bottom_of_shaft.c cub_5.0		;OK
+
+*END 2538-19
+

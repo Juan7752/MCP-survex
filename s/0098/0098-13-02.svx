@@ -1,0 +1,68 @@
+*BEGIN 0098-13-02
+
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at
+;http://www.ngdc.noaa.gov/geomag-web/#declination
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+;Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+;declination is 1deg-55mins ie 1.92deg for 2010 Easter
+;declination is 1deg-53mins ie 1.88deg for 2010 summer
+;declination is 1deg-47mins ie 1.78deg for 2011 Easter
+;declination is 1deg-45mins ie 1.75deg for 2011 summer
+;1.67 for 2012 Easter
+;1.63 for 2012 summer
+;1.54 for 2013 Easter
+;1.50 for 2013 summer
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors: Roxanne Ramsay Jez Wong Ben Sloane
+;passage name:
+*date 2013.08.01
+
+;*FLAGS duplicate | splay | surface
+
+2       1         8.27    115      1
+2       3         4.23    239      -8
+4       3         1.28    178      -23
+4       5         1.26    211     -41
+6       5         1.07    83      0
+6       7         5.04    266     +14
+7       8         2.38    272     -6
+8       9         7.31    194     1
+9       10        5.95    253     1
+11      10        2.15    183     -17
+11      12        3.27    242     10
+12      13        2.16    322     -36
+13      14        1.2     107     -29
+15      14        2.9     131     6
+
+*data passage station left right up down
+ 2    0       1       1.5  0.5
+ 3    0     2     0.5    0.3
+ 4    0.6   0.7   0.1    0.5
+ 5    0     0.6   0      0.1
+ 6    1   0.8   0     0.4
+ 7    0.1 0.4   0     0.4
+ 8    2.1 0.4   0.5   0.1
+ 9    0.16      2.0   0.02  0.04
+ 10   0.3       2.0   0.3   0.1
+ 11   3         0     1     1
+ 12   4         1.5   2     0.8
+ 13   0.5       0.7   0.5   0.1
+ 14   2.9       1     0.2   0.02
+
+
+*END 0098-13-02

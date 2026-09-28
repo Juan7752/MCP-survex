@@ -1,0 +1,22 @@
+*BEGIN site_batch
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto x y z
+*DATE yyyy.mm.dd
+*FIX 0 x y z
+*ENTRANCE 0
+;passage / batch name:
+
+;*TEAM "name" with role(s) which can be compass clino tape
+;eg *TEAM "Fred Bloggs" compass clino
+;*FLAGS duplicate | splay | surface
+
+*DATA NORMAL from to tape compass clino
+
+
+
+
+;*data passage station left right up down
+
+
+*END site_batch

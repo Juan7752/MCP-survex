@@ -1,0 +1,28 @@
+*BEGIN Holeroad4
+;Date 2009/07/22
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+0	1	 5.22	 55.83	-21.07
+0	2	 3.48	245.51	 49.00
+2	3	 2.39	280.69	 13.30
+3	4	 2.96	273.33	-24.20
+4	5	 2.24	216.76	 11.61
+5	6	 2.34	196.46	-20.71
+6	7	11.03	158.36	 33.17
+7	8	 6.82	211.08	 21.29
+10	9	 3.70	136.35	-51.64
+8	9	 6.87	215.67	 25.02
+10	11	12.37	206.98	 -2.96
+
+*data passage station left right up down
+0	0.0	0.0	9.893	0.0
+8	0.0	13.976	0.0	0.0
+*END Holeroad4
+

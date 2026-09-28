@@ -1,0 +1,36 @@
+*BEGIN 4043-14-24
+
+;BITS NR ENTRANCE DOWNSTREAM
+*TEAM "Alasdair Neill" notes
+*TEAM "Nigel Dibben"   compass clino laser measure
+
+*date 2014.08.01
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+30	37	.47	328	0
+37	38	12	244	-27
+38	39	17.27	222.5	-10
+40	39	11.14	86	5
+40	41	4.17	318	36
+41	42	11.81	32	0
+43	42	14.05	338.5	7.5
+40	44	6.01	227.5	.5
+
+
+
+
+
+*data passage station left right up down
+38	1.6	0	3.3	1.6
+38	1.6	0	3.3	4.5
+39	3	2	4.1	1.6
+40	1.55	1	1.8	.7
+41	1	1.5	3.1	1.5
+42	2	1.5	4	1.2
+43	2	0	5.4	1.4
+*END 4043-14-24	

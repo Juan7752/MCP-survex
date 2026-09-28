@@ -1,0 +1,23 @@
+*BEGIN 1531_1531
+;Created from Survey file on Sat,26 Jun 2004.09:47:17
+;Dates surveyed : 000731
+;Surveyors      : LDJM
+;No of stations : 12
+;Plan length    : 44.0323117m
+;Traverse length: 44.3m
+
+*FIX 0 51840 100000 0175
+
+*ENTRANCE 0
+0	1	4.90	260.00	-18	;stn15
+1	2	7.40	268.00	-3	;*
+2	3	3.30	223.00	0	;stn17
+3	4	7.00	299.00	3	;stn18
+4	5	3.70	248.00	0	;*
+5	6	5.10	275.00	0	;stn20
+3	7	2.70	250.00	-4	;stn21
+7	8	10.20	270.00	-1	;stn22
+0	9	0.0	-	+V	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+*END 1531_1531

@@ -1,0 +1,80 @@
+*BEGIN 0846_Alendadero
+;Created from Survey file on Sat,17 Feb 1996.21:46:51
+;Dates surveyed : 940816&950409
+;Surveyors      : Nigel++PS P O'Neill Juan
+;No of stations : 40
+;Plan length    : 125.659632m
+;Traverse length: 138.7m
+
+;*FIX 1994S.0 457330 4796720 0098
+;*FIX 1994S.0 457228 4796511 0098; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 1994S.0 457228 4796511 0092
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 1994S.0
+
+*BEGIN 1994S
+*DATE 1994.08.16
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.9 degrees but should have been 4.08 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.08-3.9-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+0	1	2.30	188.10	-38	;stn 22
+1	2	0.50	246.10	-49	;*
+2	3	9.00	256.10	-10	;*
+3	4	3.25	325.10	-35	;*
+4	5	5.30	299.10	-7	;*
+5	6	4.10	77.10	-10	;*
+5	7	4.30	296.10	27	;*
+7	8	5.60	261.10	13	;*
+8	9	3.30	211.10	18	;*
+9	10	2.35	-	+V	;*
+10	11	3.50	228.60	4	;*
+11	12	5.40	260.60	3	;*
+12	13	5.30	248.10	-20	;*
+13	14	11.15	264.60	-5	;*
+14	15	2.65	274.10	31	;*
+15	16	5.10	282.10	33	;*
+10	17	1.80	113.60	-66	;*
+17	18	4.60	80.10	11	;*
+18	19	4.40	52.60	-14	;*
+18	20	6.20	253.10	36	;*
+
+5	21	6.90	303.10	-21	;*
+21	22	2.80	276.10	-37	;*
+
+*END 1994S
+
+*EQUATE 1994S.5 1995E.5
+
+*BEGIN 1995E
+*DATE 1995.04.09
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.75 degrees but should have been 3.99 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.99-3.75-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+5	23	0.80	358.25	0	;*
+23	24	6.80	95.25	-41	;stn 7 to 6
+24	25	5.50	90.25	-32	;*
+25	26	3.30	97.25	-25	;*
+26	27	5.50	84.25	-12	;*
+27	28	3.10	86.25	-8	;*
+28	29	5.20	78.25	15	;*
+29	30	8.70	79.25	-10	;*
+*END 1995E
+*END 0846_Alendadero

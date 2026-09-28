@@ -1,0 +1,31 @@
+*BEGIN 0733-16-10
+
+*date 2016.10.18
+*TEAM "Carmen Smith" assistant
+*TEAM "Peter Eagan" assistant
+*TEAM "Dave Bell" assistant
+*TEAM "Tony Littler" assistant
+*DATA NORMAL from to tape compass clino
+
+
+*CALIBRATE DECLINATION 0.58
+
+0	1	9.96	0	90
+1	2	5.06	197	16.8
+2	3	1.69	218	14
+3	4	2.47	235	84.7
+4	5	6.26	32	11
+5	6	8.72	69	43
+6	7	2.46	141	13	;Station 7 is Station 25 in Batch 16-6
+
+*data passage station left right up down
+;0	4	4	10	0
+1	.3	.8	.2	1.2
+2	.4	.5	.4	0
+3	.6	.6	2.2	0
+4	.5	.3	0	2.5
+5	.6	.3	2.4	0.6
+6	2.9	2	0.8	2.7
+7	1.0	3.0	0.4	0.4
+
+*END 0733-16-10

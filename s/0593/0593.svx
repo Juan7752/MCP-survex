@@ -1,0 +1,19 @@
+*BEGIN 0593
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 0450468 4797621 502; coordinates of entrance but a nearby point will do
+*DATA normal from to tape compass clino 
+*DATE 2025.07.26
+;*CALIBRATE compass 0
+; comment on topo file: [1] Cave 3685
+1_1     1_0     5.999     57.947     -74.75     ; [1]
+1_1     1_2     3.125     238.683     0.097     ; [1]
+1_1     1_3     0.36     54.467     -81.507     ; [1]
+1_4     1_1     2.418     199.99     -60.137     ; [1]
+1_3	1_5	10.5	0	-90
+	
+*FIX 1_4 450468 4797621 502
+*ENTRANCE 1_4
+
+*END 0593
+; Converted by ConvertTopo.exe written by Nigel Dibben (c) 2020

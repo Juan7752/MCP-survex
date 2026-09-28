@@ -1,0 +1,28 @@
+*begin surfacebottom
+*date 2016.03.30
+*TEAM  "Alasdair Neill" notes compass clino disto tape
+*DATA NORMAL from to tape compass clino
+;sta 0 is 2003E.2770
+*FIX 6 450687.24 4792337 327
+*FIX 5 450705.5676 4792358.2 325
+
+
+
+;NEED TO TAKE AERIAL PHOTO IN FIELD TO CONFIRM FIXES
+
+
+*CALIBRATE DECLINATION 0.65
+
+*FLAGS duplicate
+1	0	3.262	245	-16
+
+*FLAGS not duplicate
+
+*calibrate tape +1.0
+*FLAGS SURFACE
+1	2	9.3	188	-8
+3	2	10.7	56	-9
+3	4	13.4	303	22
+5	4	24	92	-22
+6	5	28	44	-10
+*END surfacebottom

@@ -1,0 +1,41 @@
+*BEGIN 0801_Arturo
+;Created from Survey file on Sat,17 Feb 1996.21:44:20
+*DATE 1994.08.06
+;Surveyors      : Juan PS+Juan PS
+;No of stations : 20
+;Plan length    : 53.0243026m
+;Traverse length: 55.6m
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be mmm degrees but should have been nnn to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. -0.22 (4.08-3.9-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+;*FIX 0 450570 4796580 0245
+;*FIX 0 450468 4796371 0245; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450468 4796371 0242
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+0	1	3.70	100.10	-42	;*
+1	2	4.50	118.10	-10	;stal
+2	3	11.90	18.10	0	;*
+3	4	1.00	-	+V	;*
+4	5	3.00	18.10	0	;over hearth
+5	6	0.10	-	+V	;*
+2	7	7.80	103.10	8	;base of squeeze
+7	8	1.70	110.10	30	;thro hole below squeeze
+8	9	6.20	44.10	-16	;stal
+9	10	4.00	136.10	-4	;waters edge
+10	11	5.00	124.10	-1	;*
+11	12	2.40	41.10	0	;*
+12	13	4.30	114.10	-2	;conts 2m to bone choke
+*END 0801_Arturo

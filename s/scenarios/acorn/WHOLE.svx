@@ -1,0 +1,66 @@
+*BEGIN Whole
+
+*INCLUDE <Sitedata$Dir>.0k.1.0105.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0081.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0098.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0114.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0107.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0106.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0099.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.5.0567.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.7.0713.survex.cave/svx
+
+
+*EQUATE 0114_llueva.290 0081_carcavu.253
+*EQUATE 0114_llueva.414 0107_uzueka.313
+*EQUATE 0114_llueva.172 0081_carcavu.152
+*equate 0107_uzueka.175 0105_riano.181
+
+*INCLUDE <Sitedata$Dir>.0k.5.0565.survex.cave/svx
+
+*equate 0363_colmena.384 0280.penny.27
+*INCLUDE <Sitedata$Dir>.0k.3.0363.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.2.0280.survex.cave/svx
+
+
+
+*INCLUDE <Sitedata$Dir>.0k.1.0121.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0122.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0123.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.7.0766.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.8.0841.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0118.survex.cave/svx
+
+
+
+
+*INCLUDE <Sitedata$Dir>.0k.0.0071.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.8.0892.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.4.0415.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0077.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0059.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.7.0774.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0075.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0067.survex.cave/svx
+
+
+*INCLUDE <Sitedata$Dir>.0k.2.0264.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.3.0333.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.7.0733.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0048.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0036.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.3.0388.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0042.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0035.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0037.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0040.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.4.0459.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.2.0265.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.1.0177.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.8.0865.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0039.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.8.0875.survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.2.0258.survex.cave/svx
+
+
+*end Whole

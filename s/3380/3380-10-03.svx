@@ -1,0 +1,21 @@
+*BEGIN 3380-10-03
+;*CALIBRATE DECLINATION 1.92
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.53; (1.93-0.4)
+;surveyors: Bill Sherrington Dave Gledhill Simon Latimer
+;passage name:
+*Date 2010.04.05
+;INLET
+31	1	1.5	216	-26
+1	2	11.6	183	0
+;2	3	5		estimate
+*data passage station left right up down
+2	1	0	.5	1.3
+
+*END 3380-10-03

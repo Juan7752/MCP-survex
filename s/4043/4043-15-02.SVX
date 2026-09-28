@@ -1,0 +1,59 @@
+*BEGIN 4043-15-02
+;Oxbow below River of Bones and downstream outlet
+
+*date 2015.07.29
+*TEAM  "Alasdair Neill" notes "Phil Papard" compass clino disto
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.73
+
+0	1	4.9	86	19
+1	2	8.9	62	10
+2	3	4.55	3	9
+3	4	6.86	319	-8
+4	5	2.93	299	34
+5	6	2.81	353	1
+6	7	7.4	22	-2
+7	8	4.6	6	-15	;old sta Ali 41
+
+d1	d0	7.1	292	0
+d1	d2	3.8	95	-3
+d2	d3	8.4	332	-1
+d3	d4	1.5	075	6
+*FLAGS DUPLICATE 
+d4	d5	1.37	25	23
+d5	d6	6.8	5	10
+d6	d7	6.9	74	-4
+d7	d8	15	116	3
+d8	d9	10.4	104	3
+d9	d10	7.5	18	15
+*FLAGS NOT DUPLICATE
+
+*data passage station left right up down
+0	.97	1.3	3.8	.8
+1	.4	.3	1.4	.6
+2	1.2	1.4	1.2	.3
+3	1.2	.6	1.7	.2
+4	.9	.4	2.5	.1
+5	.5	1.5	.6	1.2
+
+*data passage station left right up down
+5	1.5	0	.6	1.2
+6	0	1.3	1.6	1.4
+7	0	1.5	2.1	1.2
+*data passage station left right up down
+d0	.2	0.2	0.8	0.8
+d1	.5	.3	1.2	1.2
+d2	1.3	1.8	1.4	1.3
+d3	.9	0	1	.6
+*data passage station left right up down
+d3	.6	0	1	.6
+d4	0	.6	.6	1.2
+*data passage station left right up down
+d5	2.2	2.5	1.8	1.7
+d6	1.3	3.6	1	1.8
+d7	1.2	4.1	1.1	1.5
+d8	1	3.2	2	1.2
+d9	3.9	.4	1	1.5
+*EQUATE 8 d10
+*END 4043-15-02

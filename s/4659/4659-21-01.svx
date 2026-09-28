@@ -1,0 +1,78 @@
+; 2022.01.06 created by TopoDroid v 5.1.40
+; 4659-21-01
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin 4659-21-01
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION AUTO 452102 4793966 603
+*FIX 0 452102 4793966 603
+*ENTRANCE 0
+ 
+  *date 2021.12.28 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.68 346.0 -11.5
+  0 0ba 0.93 273.3 -20.7
+  0 0bb 0.46 201.6 -13.2
+  *flags not splay
+    0 1   4.71 273.7 -39.8
+  *flags splay
+  1 1a 2.26 169.9 87.0
+  1 1ba 0.50 356.9 9.0
+  1 1bb 0.61 174.1 16.9
+  *flags not splay
+    1 2   5.06 255.4 19.4
+  *flags splay
+  2 2a 0.91 17.7 81.9
+  2 2ba 1.23 31.3 -74.0
+  2 2bb 1.25 118.4 13.2
+  2 2bc 1.78 326.1 18.5
+  2 2bd 1.70 21.2 9.8
+  2 2be 1.46 51.6 -69.5
+  *flags not splay
+    2 3   5.32 355.3 9.5
+  *flags splay
+  2 2a 0.68 106.1 45.2
+  2 2ba 0.75 178.6 -75.1
+  2 2bb 0.83 143.9 2.2
+  2 2bc 0.90 218.8 -1.4
+  2 2bd 0.67 359.7 16.3
+  2 2be 2.93 73.1 6.3
+  2 2bf 2.07 250.4 14.3
+  2 2bg 1.67 282.2 20.2
+  2 2bh 2.28 275.7 16.6
+  *flags not splay
+    2 4   5.40 169.8 -0.2
+  *flags splay
+  4 4a 0.40 88.0 81.4
+  4 4ba 0.67 222.1 -80.5
+  4 4bb 1.02 215.3 17.6
+  4 4bc 1.08 261.7 15.8
+  4 4bd 0.53 291.5 9.5
+  4 4be 0.83 47.5 11.4
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+1  0.58 0.49 2.26 0.00
+0  0.42 0.64 0.00 0.33
+2  0.83 1.59 0.90 1.37
+
+*data passage station left right up down
+2  2.14 2.84 0.90 1.37
+3  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+2  2.89 2.10 0.90 1.37
+4  0.68 1.04 0.40 0.66
+
+*end 4659-21-01

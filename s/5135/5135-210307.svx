@@ -1,0 +1,69 @@
+*begin 5135-210307
+*DATE 2021.03.07
+
+*data normal to from tape compass clino
+b3	c4	1.27	262.4	0.14
+c4	c5	17.7	199.09	19.48
+
+*data normal from to tape compass clino
+c5	c5-1	18.86	128.23	30.58
+c5-1	c5-2	12.26	117.6	23.62
+c5-2	c5-3	28.71	64.9	29.77
+c5-3	c5-4	2.9	96.76	23.41
+c5-5	c5-4	18.32	148.67	29.84
+
+*data normal to from tape compass clino
+c5	c6	14.39	169.84	-5.39
+c6	c7	3.37	135.13	13.96
+c7	c8	3.71	79.3	76.32
+c8	c9	3.75	39.16	18.76
+c9	c10	7.74	131.02	16.87
+c10	c11	4.64	137.59	57.26
+c11	c12	19.07	153.59	76.98
+c12-1	c12	16.95	119.44	-10.12
+c12	c13	10.22	17.7	-1.48
+c13	PT-Q-28	7.09	2.36	11.96
+PT-Q-28	c14	3.27	22.68	15.43
+c14	c15	4.09	31.15	48.93
+c15	c16	5.87	82.9	74.99
+c16	c17	5.48	209.32	-6.13
+
+*data normal from to tape compass clino
+c17	c17-1	2.14	318.21	-23.12
+c17-1	c17-2	5.63	357.6	-14.57
+
+*data normal to from tape compass clino
+c17	PT-Q-22	3.76	357.25	16.86
+
+*data passage station left right up down
+c4	2.6	1.5	0.6	0.1
+c5	1	3.7	15	3.2;dummy L
+c5-1	24.5	18.5	38	3.5
+c5-2	26.5	14	39	4
+c5-3	9	33	34	1.6
+c5-4	7.8	35	7	1.5
+
+*data passage station left right up down
+c5-4	5	5	17	1.4; dummy LR
+c6	8	2.5	1.7	1.3
+c7	1.5	4	1.7	1; dummy D
+c8	1	3.2	1	1;dummy LUD
+c9	1.8	1.1	0.3	1.6
+c10	0.5	4.1	1.6	1.5
+c11	0.4	4	2	1.7
+c12	0.4	0.5	18	1; dummy D
+
+*data passage station left right up down
+c12	1	16	10	1.5; dummy LU
+c13	2.6	17	7	3
+PT-Q-28	2	12	1.5	1.6
+c14	1	11	1.8	1.7; dummy L
+c15	0	1	8	3.5
+c16	0.5	3.2	3	2.6; dummy U
+c17	0.1	3.5	5	2.5
+c17-1	5.4	1.26	3	0.5
+c17-2	0.6	1.1	9	0.2
+PT-Q-22	3.5	2.7	1	1.4; dummy U
+
+*end 5135-210307
+

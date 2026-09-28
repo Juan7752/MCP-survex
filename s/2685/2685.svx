@@ -1,0 +1,47 @@
+*begin 2685
+
+;surveyors: Harry Long John Clarke
+;name: Prophet's Cave
+*DATE 2007.07.29
+;*CALIBRATE DECLINATION 2.28
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.87; (2.27-0.4)
+
+;*FIX entrance 452887 4799949 0273
+*FIX entrance  452785 4799740 0273; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE entrance
+
+1	entrance	6.5	210	4
+2	1	5.7	232	7
+2	3	5.7	-	-V
+4	3	5	40	-4
+5	4	4	6	-5
+6	5	2.9	320	22
+6	7	1.6	-	-V
+8	7	2.7	5	23
+9	8	1	275	-10
+10	9	3.7	52	8
+11	10	5.5	42	2
+
+21	3	4.6	220	-4
+22	21	1.4	140	2
+23	22	6.3	230	0
+24	23	6	310	3
+25	24	4	295	0
+25	26	3	220	0
+50	23	12	210	0
+70	22	12	54	-4
+
+23	99	3	309	3; guess
+*end 2685

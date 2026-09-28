@@ -1,0 +1,20 @@
+*BEGIN 0752_SCD2014
+;Created from Survey file on Sun,09 May 1999.19:36:00
+;Dates surveyed : 890800
+;Surveyors      : TW
+;No of stations : 11
+;Plan length    : 31.7160251m
+;Traverse length: 49.95m
+
+*FIX 0 50960 93040 0365
+0	1	2.61	63.85	-38	;stn 9
+1	2	6.36	55.35	-83	;stn 8
+2	3	8.73	168.85	-41	;*
+3	4	3.65	207.35	-42	;*
+3	5	4.57	294.85	-26	;pitch head
+5	6	8.53	-	-V	;*
+6	7	4.15	285.35	0	;*
+6	8	4.90	220.35	3	;*
+8	9	2.55	292.35	0	;*
+9	10	3.90	255.35	0	;*
+*END 0752_SCD2014

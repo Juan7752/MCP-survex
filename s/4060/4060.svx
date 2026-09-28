@@ -1,0 +1,43 @@
+*BEGIN 4060
+*TEAM "James Carlisle" laser-length compass clino
+*TEAM "Ali Neill" notes
+
+*date 2014.07.21
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+
+;SURFACE SURVEY
+
+*FLAGS SURFACE
+*FIX GPS 455224 4803089 126
+
+GPS	5	25.7	228	6
+*FLAGS NOT SURFACE
+
+;4060 PYLON CAVE
+*ENTRANCE 5
+0	1	5.11	262	27
+0	2	5.35	103	31
+2	3	2.53	180	8
+3	4	4.32	46	-28
+3	5	3.8	90	41
+
+
+*data passage station left right up down
+1	0.5	0.5	0.3	0.3
+0	2.1	0.1	2.9	2.5
+2	1.2	1	1	.4
+3	4.4	.7	2.2	0
+4	0.5	.5	.3	.3
+
+*data passage station left right up down
+
+3	4.4	.7	2.2	0
+5	1	1	0	2
+
+*END 4060

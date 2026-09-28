@@ -1,0 +1,93 @@
+*BEGIN 0017
+
+
+;*CALIBRATE DECLINATION 1.63
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.23
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors:  Lloyd Cawthorne Adam Sharples
+;passage name:
+*date  2012.07.26
+
+;*FIX 19 453729 4794914 253
+;*FIX 19 453627 4794705 253; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 19 453627 4794705 250
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*ENTRANCE 19
+;*FLAGS duplicate | splay | surface
+0       1         4.09    139      3
+1       2         2.13    164      43
+2       3         2.8     122      8
+
+2       4         2.21    339      -12
+4       5         3.35    342      -51
+5       6         4.03    42       -1
+6       7         3.63    77       24
+7       8         1.26    26       -5
+8       9         1.26    135      -4
+
+
+6       10         4.15   273      -36
+10      11         1.3    207      -21
+11      12         3.35   230      -17
+
+5       13         4.37   229      -29
+13      12A        1.75   1        -29
+12A     14         10.16  213      -7
+14      15         10     186      2
+15      16         12.7   93       0
+16      17         19.36  223      6
+17      18         10.51  139      1
+18      19         11.8   234      -10
+
+*EQUATE 12 12A
+
+*data passage station up down left right
+0     .2      1       .3   .6
+1     1.5   .15     1.6     .8
+2     4.2   .2      2.2     .4
+3     1.2   .2      .7      .8
+
+
+*data passage station up down left right
+2     4.2     .2      .6 1
+4     4.5     1.4     5  3
+5     4       1       3  1.5
+6     2       .7      .5 0
+7     .6      .5      0  .5
+8     .5      .7      .3 0
+9     .4      .2      .3 .1
+
+*data passage station up down left right
+6     2       .7      .6 1
+10    5       0       1.8     1.2
+11    .5      0       1.4     1.5
+12    .5      0       .7      1.6
+
+*data passage station up down left right
+5     4       1       .2 1
+13    4       0       1.2 1.4
+12A   .5      0       10  .8
+14    1       .8      6   2
+15    1       1.5     5   7
+16    1       .6      2   7
+17    .7      .5      8   1.8
+18    .5      1       1   4.5
+19    1.7     .4      1.6 3
+
+
+
+*END 0017

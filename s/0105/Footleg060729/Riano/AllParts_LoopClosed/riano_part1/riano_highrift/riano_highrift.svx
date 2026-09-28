@@ -1,0 +1,34 @@
+*begin riano_highrift
+*EXPORT 227
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;Riano High rift near entrance series (data taken from line drawing)
+227	407	8.78	105.60	50	;*
+407	408	2.90	134.03	-15	;*
+408	409	11.00	226.03	-8	;*
+409	410	4.00	155.03	-10	;*
+410	411	11.50	218.03	11	;*
+411	412	6.00	241.03	4	;*
+412	413	13.40	236.03	12	;*
+413	414	2.60	317.03	30	;*
+414	415	10.00	44.03	-2	;*
+415	416	5.60	43.03	-10	;*
+416	417	18.40	52.03	-1	;*
+413	418	21.30	234.03	2	;*
+418	419	14.50	222.03	2	;*
+419	420	6.40	207.03	6	;*
+420	421	5.00	247.03	2	;*
+421	422	5.90	112.03	-30	;*
+422	423	12.80	98.03	-10	;*
+421	424	20.00	247.03	0	;*
+
+
+*end riano_highrift

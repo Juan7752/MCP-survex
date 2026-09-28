@@ -1,0 +1,296 @@
+
+
+*BEGIN
+*EQUATE Marathon_to_PigsTrotters_resurvey2009_1.0 Marathon_to_PigsTrotters_resurvey2009_2.1
+*EQUATE Marathon_to_PigsTrotters_resurvey2009_1.6 Marathon_to_PigsTrotters_resurvey2009_2.9
+*EQUATE FlasbulbHall_resurvey2009_1.1 Pigstrotters_sidepassage.0
+*EQUATE FlasbulbHall_resurvey2009_1.1 Pigstrotters_sidepassage.0 Marathon_to_PigsTrotters_resurvey2009_1.10
+*EQUATE FlasbulbHall_resurvey2009_2.4 FlasbulbHall_resurvey2009_1.51
+*EQUATE FlasbulbHall_resurvey2009_2.0 FlashbulbHall_resurvey2009_2a.1
+*EQUATE FlasbulbHall_resurvey2009_1.46 FlashbulbHall_resurvey2009_2a.9
+
+
+*BEGIN FlasbulbHall_resurvey2009_1
+;surveyors Alasdair Neill Peter Eagan Lank Mills Dave Bell
+;date 2009-04-09
+;declination is 2.08 for 2009
+*CALIBRATE declination 2.08
+;sta 0 is L Mills sta in Pigs Trotters Chamber downstream end
+;sta 1 marked on top of boulder upstream end of Pigs Trotters Chamber
+0	1	29.13	341	9
+1	2	9.01	249	5
+2	3	14.1	220	7
+3	4	7.2	265	19	;marker before foot of slippery slope
+2	5	11.57	276	9
+5	6	9.91	271	8
+6	7	9.86	241	-1
+7	8	8.89	304	5
+8	9	5	265	1
+9	10	5.89	49	8
+10	11	8.53	56	24
+11	12	11.94	61	-28
+12	13	9.93	108	-6
+13	14	9.55	263	6
+
+10	15	6.62	028	-6
+15	16	7.58	38	-12
+16	17	5.4	280	-17
+17	18	5.8	244	5
+18	19	4.61	250	5
+19	20	5.92	204	8
+20	21	12.04	218	8
+21	22	5.11	268	7
+22	23	2.77	261	1
+
+19	24	8.26	250	12
+24	25	11.28	31	0
+26	27	5.31	80	-5	;26=SQUEEZE THROUGH TO QUADRAPHENIA OXBOWS
+27	28	7.89	212	2
+29	28	6.45	82	5
+28	30	2.53	64	0
+30	25	5.22	106	1
+31	25	4.13	208	7
+32	31	2.75	262	-10
+
+33	34	4.2	77	-2	;33 dig, pitch above
+34	35	6.49	68	-14
+35	36	1.54	45	-11
+36	37	4.52	85	-18
+37	38	3.26	77	-35
+38	24	1.34	281	5
+
+9	39	16.24	240	8
+39	40	10.84	236	6
+40	41	6	314	-7
+41	42	7.79	245	6
+42	43	13.88	259	3
+43	44	11.76	249	13	;cairn mkd 44
+44	45	16.69	272	0
+45	46	22.44	257	3
+
+44	47	7.9	242	7
+47	48	3.98	227	15
+
+42	49	5.4	105	1
+49	50	13.21	230	15
+50	51	10.92	193	47
+51	52	10.36	198	-1
+52	53	9.88	219	1
+53	54	11.66	240	-3
+54	55	4.92	217	0
+55	56	13	-	down	;disto down undescended pitch
+52	57	11.52	257	-3
+*data passage station left right up down
+0	14	9.7	6	1
+1	9	6	9	2.5
+2	1.1	4.6	4	1
+3	1.1	6	16	1.6
+4	2.5	3	13	0
+*data passage station left right up down
+2	1.1	4.6	4	1
+5	2.3	0	1.4	1.5
+6	1	1.2	9.8	1.4
+7	0	1.8	4.4	1
+8	5	0	3	0.6
+9	1.4	1.5	9.6	0.6
+10	1	0	6	0.7
+11	0.25	0.4	4.3	0.8
+12	1.7	1.3	6.3	1.2
+13	0	1.8	4.9	0.8
+14	1.8	0	4	0.5
+*data passage station left right up down
+10	1	0	6	0.7
+15	0	0.6	1	0.45
+16	1.7	2	1.8	3.5
+17	0.8	0	3.7	1.7
+18	0	1.2	3.2	1.5
+19	1.2	0	6.3	1.6
+20	0	0.9	2.7	1.5
+21	1.6	0.8	1	0.7
+22	0.5	0.2	3	0.2
+23	0.5	0.2	3	0.2
+
+*data passage station left right up down
+19	1.2	0	6.3	1.6
+24	0	1.3	5	1
+25	1.8	0	2	4
+*data passage station left right up down
+26	1.48	1.64	0.8	7
+27	0.5	0.8	0.4	2.5
+28	0	1.5	1.5	1.5
+29	1.5	1.5	2	1
+*data passage station left right up down
+28	1.5	0	1.5	1.5
+30	0	0.9	1.6	1.3
+*data passage station left right up down
+25	1.8	0	2	4
+31	0.3	1	0.7	2
+32	1	0.6	0.7	0.9
+*data passage station left right up down
+33	0.35	0.2	6.8	0.5
+34	0	0.4	7.3	1.4
+35	0.3	0	9.3	1.3
+36	0	0.3	4	1.6
+37	0.6	0	4	1.4
+38	1.3	0	5	1
+24	0	1.3	5	1
+*data passage station left right up down
+9	2	1.5	7	0.5
+39	0	2	10	0.5
+40	0	6	9	1.2
+41	1.3	0	9.4	1.3
+42	0	1.1	5.6	1.63
+43	2	0	7.1	1.4
+44	4.2	7.5	4.7	1.1
+45	1.9	1.6	4	2
+*data passage station left right up down
+44	4.2	7.5	4.7	1.1
+47	0.8	0.6	10.7	1.1
+*data passage station left right up down
+42	1.9	0.	9.4	1.3
+49	0.6	0.8	1	1.2
+50	2	1.8	3	1
+51	2.8	19.7	1.1	2
+52	0	8	2.7	1.1
+53	0	0.8	3	0.8
+54	0.6	0.2	4.2	1
+55	1.2	0	4	1.3
+*data passage station left right up down
+52	0	8	2.7	1.1
+57	2	0	3.5	1
+*END FlasbulbHall_resurvey2009_1
+
+
+*BEGIN FlasbulbHall_resurvey2009_2
+;surveyors Alasdair Neill Peter Eagan 
+;date 2009-04-10
+;declination is 2.08 for 2009
+*CALIBRATE declination 2.08
+0	1	9.91	80	0
+2	1	5.14	340	-1
+2	3	6.94	139	13
+3	4	1.2	-	down	;sta 51 of9.4.09
+5	2	6.7	234	-25
+6	5	3.63	235	-11
+6	7	5	45	6	;sta2 of 1.8.86
+7	8	12.09	56	2	;small tube cont
+*data passage station left right up down
+0	1.1	1.5	3.3	1.3
+1	3	3	4	1
+2	5	6.2	2.2	1.7
+5	2	14	2	3
+6	2.6	0.9	2.3	1.2
+7	0.3	0.3	2	0.7
+8	0.3	0.3	0.75	0
+*END FlasbulbHall_resurvey2009_2
+
+*BEGIN Pigstrotters_sidepassage
+;surveyors Alasdair Neill Patrick Warren
+;date 2009-04-10
+;declination is 2.08 for 2009
+*CALIBRATE declination 2.08
+;0=stav 1 of 9.4.09
+0	1	12.51	59	-4
+1	2	6.25	36	17
+2	3	8.07	69	-13	;hole down to t.t. streamway
+*data passage station left right up down
+1	1	1	5	2
+2	0.5	1.5	2	1.5
+3	0	0.3	4	0.4
+*END Pigstrotters_sidepassage
+
+*BEGIN Marathon_to_PigsTrotters_resurvey2009_1
+;surveyors Alasdair Neill Peter Eagan 
+;date 2009-04-10
+;declination is 2.08 for 2009
+*CALIBRATE declination 2.08
+1	0	3.64	311	20
+1	2	7.34	214	-4
+2	3	12.36	186	1
+3	4	13.04	145	-3
+4	5	5.63	77	1
+6	5	9.16	227	-29	;6=bECKA STA 5
+5	7	5.04	111	10
+7	8	6.15	227	-8
+8	8a	19	-	up	;disto up aven to left of sta 8
+8	9	9.9	227	3
+9	10	7.97	200	18	;10 =STA1 OF9.4.09
+*data passage station left right up down
+0	1.2	1.2	4	2
+1	2	0	3	1.5
+2	1	0	2.8	1.7
+3	3.3	6.2	1	3
+4	5.1	6.7	6.2	1.5
+5	2.6	0.9	7	1.3
+6	0	1.3	1.9	1.4
+*data passage station left right up down
+5	2.6	0.9	7	1.3
+7	1	0.7	0.9	1.6
+8	1.8	0	1.5	1.5
+9	0.7	3	0.6	1.7
+10	6	9	9	2.5
+*END Marathon_to_PigsTrotters_resurvey2009_1
+
+*BEGIN Marathon_to_PigsTrotters_resurvey2009_2
+;surveyors Becka Lawson (RL), Patrick Warren (PBW)
+;instruments = RL pomy, PBW tape
+;date 2009-04-10
+;declination is 2.08 for 2009
+*CALIBRATE declination 2.08
+2	1	10.22	256	-17
+3	2	14.72	242	0
+4	3	12.12	226	+1
+5	4	9.73	283	-1
+6	5	28.37	034	0
+7	6	18.80	038	0
+8	7	7.27	244	+9
+9	8	5.35	008	-9
+10	7	2.84	049	+10
+11	10	0.82	099	-27
+12	11	11.97	043	+2
+*data passage station left right up down
+; station 1 is Ali 23 from 2008-04-8?
+1	1.2	1.2	4	2
+2	2.0	0.5	1.0	1.7
+3	1.5	1.3	1.2	1.4
+4	0.5	2.5	1.1	0.5
+5	2.1	2.3	1.0	1.3
+6	0.2	1.4	1.5	1.0
+7	0.8	0.2	0.4	0.6
+8	0.0	3.5	1.8	0.1
+10	0.0	1.0	1.0	0.1
+11	0.1	0.7	0.1	0.7
+12	0.2	1.2	3.0	4.0; station where side passage ends above lower level
+*END Marathon_to_PigsTrotters_resurvey2009_2
+
+*BEGIN FlashbulbHall_resurvey2009_2a
+;surveyors Becka Lawson (RL), Patrick Warren (PBW)
+;instruments = RL pony, PBW tape
+;date 2009-04-10
+;declination is 2.08 for 2009
+*CALIBRATE declination 2.08
+2	1	7.68	070	-2
+3	2	18.40	078	-9
+4	3	7.85	100	+6
+5	4	9.80	071	-5
+6	5	8.82	111	0
+7	6	3.94	090	+31
+8	7	4.72	015	+38
+8	9	15.38	078	-14
+; next five legs are disto measures of the size of Flashbulb Hall
+7	7N	21.5	000	0;	to wall North of station 7 cairn
+7	7E	15.4	090	0;	ditto East
+7	7S	6.3	180	0;	ditto South
+7	7W	16.6	270	0;	ditto West
+7	7U	5.88	000	+90;	ditto Up
+*data passage station left right up down
+1	1.5	1.1	3.3	1.3
+2	1.5	3.0	2.5	0.6
+3	0.0	3.0	2.5	1.7
+4	1.4	0.2	2.7	1.0
+5	0.0	10.4	2.8	1.8
+; station 7 is marked cairn in Flashbulb Hall0
+; station 9 is Ali 46 from 2009-04-09
+*END FlashbulbHall_resurvey2009_2a
+
+*END

@@ -1,0 +1,9 @@
+*BEGIN Frances-Diablo
+*CS UTM30N
+*CS OUT UTM30N
+
+*include ../../4171/4171.svx
+*include ../../4244/4244.svx
+
+*EQUATE 4171.0 4244.13
+*END Frances-Diablo

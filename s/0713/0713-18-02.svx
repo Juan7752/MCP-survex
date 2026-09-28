@@ -1,0 +1,22 @@
+*BEGIN 0713-18-02
+
+*DATE 2018.04.08
+*CALIBRATE declination 0.40
+; Jim Lister
+; fibron tape and dive compass
+; through boulder choke and through sump
+; sump is 3.3m - longer in wetter conditions
+
+;**************************
+;NOTE Bearings altered from original notes.
+; This batch should be rechecked
+
+0	1	6.3	240	+5; clino guess
+1	2	3	210	0
+2	3	4	270	-5
+3	4	3.3	240	0
+
+*data passage station left right up down
+	
+
+*END 0713-18-02

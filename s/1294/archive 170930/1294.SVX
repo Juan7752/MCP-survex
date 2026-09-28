@@ -1,0 +1,38 @@
+*BEGIN 1294_Epiglottis
+;Created from Survey file on Mon,10 May 1999.21:17:12
+*DATE 1998.04.12
+;Surveyors      : Peter Eagan Liz Cowell
+;No of stations : 20
+;Plan length    : 53.8592841m
+;Traverse length: 54.7m
+
+;*FIX 0 452020 4796270 0250
+;*FIX 0 451918 4796061 0250; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451918 4796061 0252
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.54 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.54-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	6.80	347.70	-6	;*
+1	2	2.40	309.70	0	;squeeze
+2	3	2.40	333.70	15	;stn3
+3	4	3.90	85.70	3	;*
+4	5	7.00	157.70	0	;*
+3	6	14.20	293.70	0	;*
+6	7	7.20	276.70	1	;stal squeeze
+7	8	3.20	299.70	10	;*
+8	9	3.20	321.70	23	;*
+9	10	4.40	266.70	-25	;calcite chk end
+*END 1294_Epiglottis

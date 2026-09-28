@@ -1,0 +1,31 @@
+*begin 2068
+
+;surveyors: Phil Papard
+;name: Cueva de Corporales
+*DATE 2004.04
+;*CALIBRATE DECLINATION 2.4
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.31; (2.71-0.4)
+
+;*FIX 0 446075 4800088 0265
+;*FIX 0 445973 4799879 0265; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 445973 4799879 0260
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+
+0	1	6.4	311	-30	;entrance east side
+1	2	8.6	315	0	;back wall nr chocked tube
+2	3	5.6	68	0	;rift aven no go
+
+
+*end 2068

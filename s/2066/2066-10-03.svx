@@ -1,0 +1,55 @@
+*BEGIN 2066-10-03
+
+;*CALIBRATE DECLINATION 1.92
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.53; (1.93-0.4)
+
+;surveyors: James Carlisle Tom Clayton
+
+*date 2010.03.31
+
+CA	CB	8.61	219	2
+CB	CD	6.53	243	-1
+CD	CE	7.26	237	-17
+CE	CF	9.04	236	10
+CF	CG	4.63	254	-27
+CG	CH	2.9	253	0
+CH	CI	7.61	165	-2
+CI	CJ	3.04	189	-35
+CJ	CK	2.9	172	46
+CK	CL	7.0	178	-6
+CL	CM	3.86	175	20
+CM	CN	3.51	207	20
+
+CE	CO	4.54	176	-47
+CO	CP	7.19	109	0
+CP	CQ	7.27	80	-8
+CQ	T	1.7	115	-1
+
+*data passage station left right up down
+CA	.4	5	.7	.3
+CB	0	5	.5	.5
+CD	5	2	.7	4
+CE	3	6	3	2
+CF	1.5	7	1	1
+CG	4	9	4	1
+CH	5	8	5	1
+CI	0	.5	.5	.5
+CJ	1	.7	2	.4
+CK	.5	.5	1	4
+CL	4	2	3	1
+CM	1	.5	.4	.6
+
+*data passage station left right up down
+CE	3	6	3	2
+CO	1.5	.5	8	0
+CP	3	0	.4	.2
+CQ	3	1	0	0.5
+
+*END 2066-10-03

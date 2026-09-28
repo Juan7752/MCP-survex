@@ -1,0 +1,26 @@
+*begin 2366_06_08
+
+;surveyors: Pete Egan, Paul Dold
+;name: El Torno:
+*DATE 2006.04.15
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+
+1	0	8.6	229	-6
+2	1	4.5	226	0
+3	2	3.7	285	-13
+4	3	3.5	303	-9
+5	4	4.1	261	-17
+4	6	2.8	315	-22
+6	7	4.4	-	-V
+7	8	1.3	260	0
+
+*end 2366_06_08

@@ -1,0 +1,100 @@
+*BEGIN 2066-10-01
+
+;*CALIBRATE DECLINATION 1.92
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.53; (1.93-0.4)
+
+;surveyors: James Carlisle Tom Clayton
+;passage name:
+;date:
+
+;*FIX A 448857 4798415 0196
+;*FIX A 448755 4798206 0196; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX A 448755 4798206 0194
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE A
+;*FLAGS duplicate | splay | surface
+
+*DATE 2010.03.28
+
+A	B	4.87	0	-48
+B	C	4.57	340	-11
+C	D	2.65	113	-5
+D	E	5.71	342	-5
+E	F	1.01	61	7; altered from 241deg
+F	G	7.26	334	-6
+G	H	3.08	35	-7
+H	I	.52	152	-3
+I	J	2.2	40	-20
+K	J	3.7	230	10
+L	K	1.46	202	0
+L	M	2.7	54	-4
+N	M	7.7	217	23
+N	O	2.32	2	-33
+O	P	2.59	280	-35
+P	Q	2.9	37	0
+Q	R	5.02	24	-15
+R	S	2.8	68	-13
+S	T	3.05	3	-9
+;T	U	5.26	198	-1; INLET
+
+T	V	8.35	53	-10
+V	W	7.68	13	-6
+W	X	5.35	34	10
+X	Y	10.3	68	-9
+Y	Z	6.28	170	-4
+Z	AA	11.65	70	-4
+AA	AB	3.98	47	1
+AB	AC	7.0	80	4
+AC	AD	5.36	58	-11
+AD	AE	4.11	57	2
+AE	AF	3.33	66	-5
+AF	AG	1.43	120	-25
+
+*data passage station left right up down
+B	.3	.3	.3	.2
+C	0	.5	.2	.2
+D	3	5	.4	.3
+E	.4	1	0	.5
+F	1	0	.4	.2
+G	0	.3	.3	.4
+H	0	.4	.5	.4
+I	3	1	.5	.4
+J	0	.3	.2	.6
+K	.2	.3	.2	.1
+L	.4	0	.2	.2
+M	.3	.3	.3	.2
+N	.1	.1	.1	.1
+O	.1	.5	.2	.2
+P	.2	.4	.3	.2
+Q	.6	0	.2	.2
+R	0	.6	.2	.2
+S	1.5	0	.3	.2
+T	2	1	.5	0
+;U	3	1	.5	0
+*data passage station left right up down
+T	2	1	.5	0
+V	4	2	0	1
+W	2	2	0	.7
+X	2	5	3	2
+Y	2	5	.3	1
+Z	2	0	.5	.4
+AA	4	1	3	.3
+AB	2	3	0	1
+AC	1	0	10	1
+AD	.5	0	.2	.3
+AE	0	.6	.2	.4
+AF	0	2	1	.4
+AG	3	2	7	0
+
+*END 2066-10-01

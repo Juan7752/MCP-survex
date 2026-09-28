@@ -1,0 +1,42 @@
+*BEGIN 1175_Pino
+;Created from Survey file on Mon,10 May 1999.20:56:52
+*DATE 1997.03.29
+;Surveyors      : Pete Dalek
+;No of stations : 10
+;Plan length    : 44.983385m
+;Traverse length: 46m
+
+;*FIX 0 452700 4794650 0473
+
+; replaced 13/10/10
+;*FIX 0 452710 4794662 0475
+;*FIX 0 452608 4794453 0475; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 452608 4794453 0473;replaced after Pete Smith GPS January 2015
+*FIX 0 452582 4794404 477
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be mmm degrees but should have been nnn to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.69-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	3.10	299.55	-10	;*
+1	2	2.80	236.55	10	;*
+2	3	4.70	288.55	-8	;*
+3	4	3.80	286.55	-3	;*
+4	5	3.50	276.55	-3	;*
+5	6	4.00	242.55	9	;*
+6	7	8.90	264.55	0	;*
+7	8	12.40	265.55	1	;*
+8	9	2.80	230.55	45	;chk
+*END 1175_Pino

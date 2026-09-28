@@ -1,0 +1,42 @@
+*begin 0935
+
+;surveyors: Paul Fretwell, Caroline Fretwell
+;name: Dormouse Cave
+*DATE 2006.04.16
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+;LRUD data relates to stations 2-8 in the order of the data lines below
+;From	To	Tape	Comp	Clino;	L	R	U	D
+
+;*FIX 1 451996 4800311 0158
+*FIX 1 451894 4800102 0158; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 1
+1	2	6.29	78	4;	0	.60	.30	.20
+3	2	1.82	324	24;	.80	0	.60	.30
+3	4	2.74	27	-41;	.90	0	.50	.60
+5	4	1.79	176	5;	.20	.80	.60	.40
+5	6	2.89	66	-38;	.15	.50	1.20	.10
+7	6	2.02	219	-5;	.80	1.00	.80	.40
+7	8	3.60	35	0;	.50	1.10	1.20	.50
+
+*DATA passage station left right up down
+2 	0	.60	.30	.20
+3	.80	0	.60	.30
+4	.90	0	.50	.60
+5	.20	.80	.60	.40
+6	.15	.50	1.20	.10
+7	.80	1.00	.80	.40
+8	.50	1.10	1.20	.50
+*end 0935

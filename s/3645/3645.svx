@@ -1,0 +1,58 @@
+*BEGIN 3645
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.27; (1.67-0.4)
+
+;surveyors Diane Arthurs
+*DATE 2012.04.04
+;*FIX 5 449090 4800601 0112
+;*FIX 5 448988 4800392 0112; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 5 448988 4800392 0113
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 5
+*FLAGS SPLAY
+0	0a	 7.04	126.36	-16.13
+0	0b	 7.02	126.74	-16.35
+*FLAGS NOT SPLAY
+0	0c	 7.44	127.16	-16.10
+
+0	1	 1.87	261.10	-23.84
+*FLAGS SPLAY
+1	1a	 0.71	 49.00	 -2.30
+1	1b	 2.62	 25.49	  5.89
+*FLAGS NOT SPLAY
+1	2	 2.22	191.74	 10.37
+*FLAGS SPLAY
+2	2a	 0.64	272.35	-10.85
+*FLAGS NOT SPLAY
+2	3	 2.73	291.98	  0.52
+*FLAGS SPLAY
+3	3a	 0.53	196.36	  3.48
+3	3b	 0.67	156.91	 -1.91
+*FLAGS NOT SPLAY
+3	4	 4.51	313.15	  0.12
+*FLAGS SPLAY
+4	4a	 1.58	173.39	-10.90
+*FLAGS NOT SPLAY
+4	4b	 1.30	229.67	 -5.84
+
+4	5	 3.75	194.00	 16.25
+
+*data passage station left right up down
+0	0.445	0.0	0.997	3.864
+1	0.384	0.0	2.44	3.88
+2	4.357	0.681	2.107	2.302
+3	3.705	0.0	1.385	3.539
+4	1.04	3.065	0.469	1.496
+
+*END 3645

@@ -1,0 +1,50 @@
+*BEGIN 0013_Cuatribu
+;Created from Survey file on Sun,09 May 1999.10:56:28
+;Dates surveyed : 960814
+;Surveyors      : R Cawthorne
+;No of stations : 20
+;Plan length    : 252.850407m
+;Traverse length: 254.6
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.6 degrees but should have been 3.79 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -.21
+
+;*FIX 0 455122 4795078 0435
+;*FIX 0 455020 4794869 0435; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*CS UTM30N
+*CS OUT UTM30N
+
+*FIX 0 455020 4794869 0440
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+0	1	17.40	336.40	-4	;stn 17-16
+1	2	9.20	29.40	0	;*
+2	3	20.10	12.40	4	;stn 15-14
+3	4	6.20	323.40	0	;*
+4	5	21.60	294.40	0	;*
+5	6	16.80	12.40	1	;stn 12-11; stal barrier
+6	7	9.50	46.40	-6	;*
+7	8	19.70	357.40	0	;*
+8	9	9.50	62.40	11	;stn9-8;bear jaw
+9	10	18.70	35.40	-2	;scratchings
+10	11	19.70	52.40	5	;*
+11	12	13.20	72.40	0	;*
+12	13	14.50	62.40	-11	;*
+13	14	22.00	44.40	0	;*
+14	15	10.40	339.40	-8	;*
+15	16	20.30	26.40	-17	;*
+16	17	5.80	91.40	10	;stn 1-0
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 0013_Cuatribu

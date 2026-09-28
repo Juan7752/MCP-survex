@@ -1,0 +1,21 @@
+*BEGIN 9999_
+;Created from Survey file on Sat,26 Jun 2004.16:11:03
+;Dates surveyed : 020329
+;Surveyors      : 
+;No of stations : 10
+;Plan length    : 81.35m
+;Traverse length: 81.35m
+
+*FIX 0   
+
+*ENTRANCE 0
+0	1	17.70	212.30	0	;*
+1	2	10.40	173.30	0	;*
+2	3	17.40	220.30	0	;*
+3	4	6.45	241.30	0	;*
+4	5	8.00	202.30	0	;*
+5	6	8.20	259.30	0	;*
+6	7	7.00	282.30	0	;*
+7	8	4.60	255.30	0	;*
+8	9	1.60	28.30	0	;*
+*END 9999_

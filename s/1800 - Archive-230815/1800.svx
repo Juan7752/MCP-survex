@@ -1,0 +1,58 @@
+*BEGIN 1800
+
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;******************************************
+;Subphone to check station 1800-22-05.93 on 15/8/2022
+;X 0451275.7 > 0451310.2 alter by +34.5
+;Y 4800846.7 > 4800848.5 alter by +1.8
+;*******************************************
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION AUTO 451162 4800782 0118
+
+*INCLUDE 1800-13-01
+*INCLUDE 1800-2016s-dive
+*INCLUDE 1800-22-01
+*INCLUDE 1800-16-02; sump2
+*INCLUDE 1800-22-02
+;*INCLUDE 1800-22-03
+*INCLUDE 1800-22-04
+;*INCLUDE 1800-22-05 replaced by 22-06
+*INCLUDE 1800-22-06
+*INCLUDE 1800-22-07
+*INCLUDE 1800-23-01
+*INCLUDE 1800-23-02
+*INCLUDE 1800-23-03
+*INCLUDE 1800-23-04
+*INCLUDE 1800-23-05
+*INCLUDE 1800-23-06
+
+*EQUATE 1800-13-01.20 1800-2016s-dive.0
+*EQUATE 1800-2016s-dive.13 1800-22-01.19
+*EQUATE 1800-22-01.0    1800-16-02.Sump2Start
+*EQUATE 1800-16-02.Sump2End       1800-22-02.27 
+*EQUATE 1800-22-02.27 1800-22-06.0
+*EQUATE 1800-22-04.2 1800-22-02.2
+;*EQUATE 1800-22-03.0 1800-22-06.0
+*EQUATE 1800-22-07.0 1800-22-06.26
+
+*EQUATE 1800-23-01.1 1800-22-06.21
+
+*EQUATE 1800-23-03.6 1800-23-05.1
+*EQUATE 1800-23-03.28 1800-23-06.1
+
+
+*EQUATE 1800-22-02.0 1800-23-02.0
+*EQUATE 1800-23-02.25 1800-23-03.32
+*EQUATE 1800-23-03.28 1800-23-04.1
+
+*END 1800
+

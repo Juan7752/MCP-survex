@@ -1,0 +1,69 @@
+*BEGIN 0617_617
+;Created from Survey file on Sun,09 May 1999.19:22:45
+;Dates surveyed : 89/8&930731
+;Surveyors      : Alasdair
+;No of stations : 35
+;Plan length    : 50.0578937m
+;Traverse length: 220m
+
+;*FIX 1989.0 455240 4796000 0718
+;*FIX 1989.0 455138 4795791 0718; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 1989.0 455138 4795791 0723
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 1989.0
+
+*BEGIN 1989
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.65 degrees but should have been 4.69 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.69-4.65-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.36
+
+0	1	33.00	-	-V	;*
+1	2	5.00	22.35	-25	;*
+2	3	10.00	-	-V	;*
+3	4	3.20	295.35	-30	;*
+4	5	24.60	-	-V	;*
+5	6	1.90	92.35	0	;*
+6	7	2.70	343.35	0	;*
+7	8	10.90	-	-V	;*
+8	9	3.20	9.35	-5	;*
+9	10	5.40	1.35	0	;*
+10	11	3.10	352.35	-20	;*
+11	12	15.40	190.35	-85	;*
+12	13	35.00	-	-V	;*
+8	14	5.70	-	-V	;*
+*END 1989
+
+*EQUATE 1989.0 1993.0
+
+*BEGIN 1993
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+0	15	3.50	-	-V	;rebelay bolt
+15	16	25.20	-	-V	;*
+16	17	4.70	125.95	0	;*
+17	18	11.80	95.95	-63	;*
+18	19	4.20	95.95	-8	;*
+19	20	4.80	110.95	-7	;*
+20	21	3.60	106.95	-10	;*
+21	22	3.10	135.95	26	;carbide mark in Sima Levantada 578
+*END 1993
+
+*END 0617_617

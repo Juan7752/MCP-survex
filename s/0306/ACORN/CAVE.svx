@@ -1,0 +1,15 @@
+*BEGIN 0306_Llana del Cueto
+;Created from Survey file on Sun,20 Jun 2004.10:59:34
+;Dates surveyed : 810819
+;Surveyors      : Pete
+;No of stations : 4
+;Plan length    : 11.8640814m
+;Traverse length: 26.2m
+
+*FIX 0 51670 95120 0370
+
+*ENTRANCE 0
+0	1	13.00	-	-V	;pitch base
+1	2	13.20	175.15	26	;*
+0	3	0.0	-	+V	;*
+*END 0306_Llana del Cueto

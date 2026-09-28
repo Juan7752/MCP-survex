@@ -1,0 +1,8 @@
+*BEGIN 2264
+*include 2264_001.svx
+*include 2264_002.svx
+*include 2264_003.svx
+
+*equate 2264_001.3 2264_002.6
+*equate 2264_002.3 2264_003.4
+*END 2264

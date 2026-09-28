@@ -1,0 +1,32 @@
+*BEGIN 1822_Canado
+;Created from Survey file on Sat,26 Jun 2004.13:47:05
+*DATE 2003.04.20
+;Surveyors      : PP
+;No of stations : 10
+;Plan length    : 20.7846776m
+;Traverse length: 62.5m
+
+;*FIX 0 455377 4797231 0340
+;*FIX 0 455275 4797022 0340; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455275 4797022 0331
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.55 degrees but should have been 2.84 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.84-2.55-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.11
+
+0	1	7.10	213.45	-17	;tree in shaft
+1	2	21.70	39.45	-60	;sloping ledge
+2	3	4.70	322.45	-48	;bolt top of big pitch
+3	4	29.00	-	-V	;flat bouldery floor; no go
+*END 1822_Canado

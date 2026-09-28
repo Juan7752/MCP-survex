@@ -1,0 +1,22 @@
+*begin 0048-26-02
+; Created with SexyTopo on 2026-08-10
+
+*date 2026.08.10
+*instrument insts "SAP6_BJ"
+*team "Alex Ritchie" notes
+*team "Samuel Devey" assistant
+*team "Arlen Messam" instruments
+
+*date 2026.08.10
+
+;Comment from SexyTopo trip information
+;Tie in survey
+
+*data normal from to tape compass clino ignoreall
+*FLAGS DUPLICATE
+1	2	15.518	165.91	24.85; Flags duplicate	
+2	3	13.633	155.71	2.75; Flags duplicate	
+3	4	7.191	136.99	0.86; Flags duplicate	
+4	5	1.067	341.66	-57.35; Flags duplicate	
+*FLAGS NOT DUPLICATE
+*end 0048-26-02

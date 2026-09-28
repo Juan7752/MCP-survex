@@ -1,0 +1,46 @@
+*BEGIN 0098-22-02
+*DATE 2022.04.15
+
+
+*TEAM "HoleyMoley" Alex Ritchie All st 4 -8, Gracie Sharp All 17 - 3 
+
+17	0	3.32	75	17
+0	1	1.2	190	3
+1	2	1.31	251	17
+2	3	0.7	232	11
+
+4	3	3.73	163	82
+4	5	4.98	114	-17
+4	6	2.7	294	10
+4	7	1.78	1	14
+7	8	4.1	318	-19
+
+
+*data passage station left right up down
+17	0.3	1.6	1.8	1.4
+0	0.7	0.3	0.2	0.7
+1	0.1	0.6	0.1	0.3
+2	0.6	0	0.3	0.4
+
+*data passage station left right up down
+4	1.7	0.3	3.9	0.8
+3	0.4	2.1	0	4.6
+
+*data passage station left right up down
+4	1.6	0.3	3.9	0.8
+5	0.2	0.3	0.4	0.2
+
+*data passage station left right up down
+4	0.3	0.9	3.9	0.8
+6	0.1	0.1	0	0.4
+
+*data passage station left right up down
+4	0.3	1.5	3.1	0.8
+7	1.2	0	1.9	0.8
+8	0	0.4	1.5	0.4
+
+
+
+
+
+*END 0098-22-02

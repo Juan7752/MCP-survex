@@ -1,0 +1,21 @@
+*BEGIN 1822_Sima de canado
+;Created from Survey file on Sat,26 Jun 2004.13:47:05
+;Dates surveyed : 030420
+;Surveyors      : PP
+;No of stations : 10
+;Plan length    : 20.7846776m
+;Traverse length: 62.5m
+
+*FIX 0 55380 97230 0340
+
+*ENTRANCE 0
+0	1	7.10	213.45	-17	;tree in shaft
+1	2	21.70	39.45	-60	;sloping ledge
+2	3	4.70	322.45	-48	;bolt top of big pitch
+3	4	29.00	-	-V	;flat bouldery floor; no go
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1822_Sima de canado

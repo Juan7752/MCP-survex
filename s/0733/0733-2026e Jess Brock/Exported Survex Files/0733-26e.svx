@@ -1,0 +1,19 @@
+*begin 0733-26e
+  *date 2026.04.09
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *alias station - ..
+  *flags not splay
+  *data normal from to tape compass clino
+
+*include 0733-26-03
+
+
+*include 0733-26-04
+*equate 0733-26-03.21 0733-26-04.1
+
+*include 0733-26-05
+*equate 0733-26-03.10 0733-26-05.10a
+
+*end 0733-26e

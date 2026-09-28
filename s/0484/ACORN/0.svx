@@ -1,0 +1,26 @@
+*BEGIN 0484_surface
+;Created from Survey file on Sun,20 Jun 2004.14:59:47
+;Dates surveyed : 990803
+;Surveyors      : Ali PSt
+;No of stations : 15
+;Plan length    : 176.262931m
+;Traverse length: 183.1m
+
+*FIX 0 50120 94130 0620
+
+*ENTRANCE 0
+0	1	10.60	98.85	-4	;*
+1	2	24.40	175.85	18	;*
+2	3	29.70	222.85	23	;*
+3	4	29.60	184.85	-4	;*
+4	5	29.60	308.85	0	;*
+5	6	29.40	264.85	-11	;*
+6	7	28.50	254.85	-16	;*
+7	8	1.30	-	-V	;entr bolt 1128
+0	9	0.0	-	+V	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+*END 0484_surface

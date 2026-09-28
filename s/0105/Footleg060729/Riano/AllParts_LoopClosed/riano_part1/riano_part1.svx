@@ -1,0 +1,37 @@
+*begin riano_part1
+*EXPORT Riano_DryMaze.231
+*EXPORT Riano_DownStream.28
+*EXPORT Riano_UpStream.63
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+
+*equate Riano_Entrance.819 Riano_DownStream.755
+*equate Riano_Entrance.817 Riano_ExtnOffEntranceInlet.19
+*equate Riano_Entrance.808 Riano_DryMazeLoop.17
+*equate Riano_DryMazeLoop.231 Riano_DormouseInlet.231
+*equate Riano_DryMaze.231 Riano_DormouseInlet.231
+*equate Riano_DryMazeLoop.227 Riano_HighRift.227
+
+
+;*include UpStream2.svx
+
+*equate Riano_DownStream.755 Riano_UpStream.20
+
+*include riano_entrance/riano_entrance.svx
+*include riano_extnoffentranceinlet/riano_extnoffentranceinlet.svx
+*include riano_downstream/riano_downstream.svx
+*include riano_drymazeloop/riano_drymazeloop.svx
+*include riano_drymaze/riano_drymaze.svx
+*include riano_highrift/riano_highrift.svx
+*include riano_dormouseinlet/riano_dormouseinlet.svx
+*include riano_upstream/riano_upstream.svx
+
+*end riano_part1

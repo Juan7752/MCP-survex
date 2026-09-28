@@ -1,0 +1,21 @@
+*BEGIN 0727_Molino
+;Created from Survey file on Sun,20 Jun 2004.21:42:46
+;Dates surveyed : 961227
+;Surveyors      : Juan Pete Terry
+;No of stations : 10
+;Plan length    : 67.9405098m
+;Traverse length: 72.3m
+
+*FIX 0 48560 92330 0204
+
+*ENTRANCE 0
+0	1	19.40	343.40	-7	;corner of barn into river
+1	2	30.10	345.40	24	;road edge
+2	3	13.50	40.40	19	;*
+3	4	5.40	3.40	22	;*
+4	5	3.90	350.40	-24	;entrance
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 0727_Molino

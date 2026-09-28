@@ -1,0 +1,127 @@
+*BEGIN 0780_Corcada
+
+*BEGIN 0780_1
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+;*FIX 19 448318 4794843 0390
+;*FIX 19 448216 4794634 0390; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 19 448216 4794634 0389
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 19
+*DATE 2004.08.08
+;Surveyors A. Neill, Pete Smith, Terry Whitaker 8.8.04
+;sta 0 marked sta 0 narrow meander continues
+0	1	2.2	312	0	;0.5	0.5	2	0.5
+1	2	4.6	-	up
+2	3	2.2	348.5	9	;0.5	0.5	1	1.5
+3	4	7.3	289	27	;0.5	1	1	2
+4	5	5	332.5	52	;1.5	3	8	1.5
+
+6	7	7.2	267	28	;sta6 marked top undescended pitch
+7	8	3.4	343	33
+8	9	6.4	305	53
+9	10	4.9	328	60
+10	11	9.8	359	45
+11	12	4.5	328	-9.5
+12	5	3.7	78	-44
+
+5	13	10.6	351	53
+13	14	1.5	-	up
+14	15	2.3	227	20
+15	16	3.8	284	54	;4	6	1	1
+16	17	9	339	30	;1.5	2	8	1.8
+17	18	12.3	297	30	;1	2	1.5	1
+18	19	8.9	318	49.5	;entrance
+*END 0780_1
+
+*BEGIN 0780_2
+;surveyors A. Neill, P. Papard 13.8.04
+*DATE 2004.08.13
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+;0 marked sta 0 cont narrow
+0	1	7.2	007	-25
+1	2	7.9	-	up
+2	3	6.8	25	59
+3	4	2.3	001	31
+*END 0780_2
+
+
+*BEGIN 2019-01
+;surveyors Patrick, Sandrine, Guy
+*DATE 2019.07.12 
+
+*CALIBRATE DECLINATION 0.22
+
+5	6	4.984	119.89	-75.17
+6	7	2.737	115.38	4.82
+7	8	1.9	42.38	-20.51
+8	9	0.588	117.27	-9.82
+9	10	1.863	109.3	-15.64
+11	10	6.982	162.5	79.35
+11	12	5.089	55.72	66.38
+12	13	2.932	59.78	17.24
+13	14	6.262	65.68	-86.52
+14b	14	3.888	119.87	61.18
+14	15	3.286	14.3	-7.58
+15	16	1.217	337.98	7.62
+16	17	2.27	6.21	-39.89
+17	18	3.892	39.16	-26.38
+18	19	1.946	76.23	-1.26
+19	20	4.996	8.97	-13.32
+20	21	2.324	25.96	12.41
+21	22	2.205	8.44	-58.47
+22	23	1.443	306.39	-46.8
+
+
+*END 2019-01
+
+*BEGIN 2019-02
+;surveyors Patrick, Sandrine, Guy
+*DATE 2019.09.3
+
+*CALIBRATE DECLINATION 0.22
+
+23	24	1.99	44.35	-10.74
+24	25	2.61	346.85	-9.06
+25	26	9.407	104.75	-86.8
+26	27	8.091	8.64	-71.08
+27	28	3.253	101.91	-5.04
+28	29	4.716	87.57	-24.77
+29	30	7.521	93.83	-9.51
+30	31	10.479	291.82	-85.31
+31	32	17.682	76.9	-66.96
+32	33	17.286	43.34	31.92
+33	34	13.608	27.15	17.44
+
+34	35	12.232	120.18	4.92
+34	36	3.684	5.13	-13.27
+
+
+*END 2019-02
+
+*EQUATE 0780_1.6 0780_2.4
+*EQUATE 0780_1.2 2019-01.5
+*EQUATE 2019-01.23 2019-02.23
+
+*END 0780_Corcada

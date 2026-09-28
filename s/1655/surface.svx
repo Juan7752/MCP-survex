@@ -1,0 +1,37 @@
+*BEGIN 1655_Pantssurface
+;Created from Survey file on Sat,26 Jun 2004.10:18:08
+*DATE 2002.05.13
+;Surveyors      : JimD
+;No of stations : 10
+;Plan length    : 166.455581m
+;Traverse length: 184.9m
+
+;*FIX 0 451340 4797787 0250
+;*FIX 0 451238 4797578 0250; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451238 4797578 0245
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*equate 1 8
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.96 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.96-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.14
+
+0	1	2.00	-	+V	;stn0=Pants
+1	2	47.50	337.30	37	;fence corner
+2	3	28.70	247.30	6	;*
+3	4	28.80	236.30	-2	;*
+4	5	5.40	159.30	-34	;*
+5	6	2.20	350.30	-19	;715 entr
+6	7	30.50	108.30	-22	;*
+7	8	39.80	83.30	-24	;stn1
+*END 1655_Pantssurface

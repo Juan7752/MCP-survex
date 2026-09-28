@@ -1,0 +1,50 @@
+*BEGIN 0459_Cumpleanos
+;Created from Survey file on Fri,15 Aug 2003.20:30:15
+*DATE 1983.07.25
+;Surveyors      : Juan/Ps
+;No of stations : 22
+;Plan length    : 77.8531219m
+;Traverse length: 116.2m
+
+;*FIX 0 450278 4795484 0275
+;*FIX 0 450176 4795275 0275; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450176 4795275 0274
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 5.3 degrees but should have been 5.53 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (5.53-5.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+0	1	5.00	-	-V	;*
+1	2	4.40	214.70	0	;*
+2	3	13.70	-	-V	;*
+3	4	3.10	238.70	-25	;*
+4	5	4.00	134.70	0	;*
+5	6	1.30	203.70	0	;*
+6	7	4.20	149.70	0	;*
+7	8	1.00	43.70	0	;*
+8	9	4.00	131.70	0	;*
+9	10	1.20	53.70	0	;*
+10	11	6.30	143.70	0	;*
+11	12	9.50	54.70	-56	;*
+12	12a	0.5	234.70	0	;dummy leg to bottom of ladder
+12	13	7.70	319.70	24	;*
+13	14	6.10	16.70	33	;*
+14	15	4.40	358.70	51	;*
+15	16	7.30	322.70	22	;*
+16	17	6.50	26.70	5	;*
+17	18	3.00	60.70	-15	;*
+18	19	10.50	63.70	-12	;*
+15	20	2.00	358.70	0	;*
+20	21	11.00	-	-V	;*
+*END 0459_Cumpleanos

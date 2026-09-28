@@ -1,0 +1,44 @@
+*begin 2366
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+*equate 2366_06_01.20 2366_06_02.0
+*equate 2366_06_02.46 2366_06_03.0
+*equate 2366_06_01.3 2366_06_01.3a
+*equate 2366_06_03.4 2366_06_04.48
+*equate 2366_06_02.9 2366_06_05.0
+*equate 2366_06_02.10 2366_06_06.16
+*equate 2366_06_03.2 2366_06_07.0
+*equate 2366_06_02.28 2366_06_08.8
+*equate 2366_06_03.4 2366_06_09.11
+*equate 2366_06_07.8 2366_06_10.K
+*equate 2366_06_03.14 2366_06_11.b
+*equate 2366_06_11.21 2366_06_12.40
+*equate 2366_06_12.35 2366_06_13.1
+
+
+
+*include 2366_06_01/2366_06_01.svx
+*include 2366_06_02/2366_06_02.svx
+*include 2366_06_03/2366_06_03.svx
+*include 2366_06_04/2366_06_04.svx
+*include 2366_06_05/2366_06_05.svx
+*include 2366_06_06/2366_06_06.svx
+*include 2366_06_07/2366_06_07.svx
+*include 2366_06_08/2366_06_08.svx
+*include 2366_06_09/2366_06_09.svx
+*include 2366_06_10/2366_06_10.svx
+*include 2366_06_11/2366_06_11.svx
+*include 2366_06_12/2366_06_12.svx
+*include 2366_06_13/2366_06_13.svx
+
+
+
+*end 2366

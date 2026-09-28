@@ -1,0 +1,81 @@
+*BEGIN 3916
+*DATE 2010.08.12
+;Surveyors Phil Papard
+
+*INCLUDE 2889_13_04.svx; Version in this folder
+*INCLUDE 2889_14_01.svx
+
+;*FIX day1.MoleP 448661 4800476 158
+*FIX day1.MoleP 448559 4800267 158; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude approx agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+;*CALIBRATE DECLINATION 1.50
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+*BEGIN day1
+
+*FLAGS SURFACE
+*ENTRANCE 3905
+*ENTRANCE 3906
+*ENTRANCE bolt
+
+MoleP      1           19.93    265.2   10.7
+1          2           12.55    264.4   4.5
+2          3           14.85    158.2   -27.4
+3          4           9.36     225.5   -8.1
+4          5           9.2      174.3   -32.7
+5          3905        1.73     -       down
+
+5          6           8.15     262.4   14.6
+6          7           10.08    228.5   -2
+7          3906        1.26     -       down
+
+MoleP     8            5.12     63.5    3.8
+8         9            4.16     31.2    -24.7
+9         bolt         1.64     265.3   -53.4
+*FLAGS NOT SURFACE
+;bolt      base         7.5      -       down
+bolt	a1	2.08	241.9	-82.1
+a1	a2	1.49	277	-50.5
+a2	a3	3.2	301	-57.6
+a3	a4	.88	128	-8.4
+a4	DraughtyRift	2.22	30	-8.3
+a4	a6	1.27	210	30.8
+*END day1
+
+
+
+*BEGIN day2
+3914   1   2.5         353      -34
+*FLAGS surface
+*ENTRANCE 3914
+*ENTRANCE 3924
+3914   2   6.65        309.5    29.7
+2      3   5.07        17.2     34.5
+3      4   6           100.7    4.6
+4      5   7.93        90.9     16.7
+5      6   7.83        37.3     17.8
+6      3924            5.93     13.7    -3.1
+3924   8               15.03    354.7   24.7
+mp     mpu             1        -       up
+mpu    8               6.36     116.6   -11.6
+*FLAGS NOT surface
+*end day2
+
+;ADDITION GUESS
+day1.a3	base	6	-	down
+
+*EQUATE day1.MoleP day2.mp
+*EQUATE 2889_13_04.85 2889_14_01.1.0
+
+*END 3916

@@ -1,0 +1,65 @@
+*BEGIN 0084RB
+*CS UTM30N
+*CS OUT UTM30N
+;0084 Cueva Las Cosas - Radial survey
+
+;0.88 for 2017 summer altered to 0.48 to align with the UTM ETRS89 grid
+
+*TEAM "Richard Bullock" compass clino laser measure
+*date 2017.08.04
+*FIX E1 452857 4797232 195
+*ENTRANCE E2
+*ENTRANCE E1
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.48 
+
+;# SHOT  STATION  STATION  LENGTH   AZIMUTH/BRG VERTICAL/INCL  LEFT   RIGHT   UP    DOWN  COMMENT
+;# CODE  FROM     TO       M        DEG         DEG            M      M       M     M    
+
+*flags surface
+E2	S1	0.688	0	+90
+S1	S2	17.850	199.5	+8.0
+E1	S2	1.446	351.0	+4.5
+*flags not surface
+E1	R1	3.106	103.5	-39.0
+R1	R2	6.860	085.5	-39.6
+R3	R2	37.207	279.0	+6.3
+R3	St5	29.857	082.25	-8.2
+St7	St5	17.788	254.5	+17.9
+St7	St8	7.810	106.5	-26.6
+R1a	R1b	8.390	194.0	+5.3
+E2	E3	0.5	092	0
+*flags splay
+R1a	R1	1.421	103.5	-39.0
+R2	St13	5.17	318	0 ;Horizontal position only
+R2	St14	5.91	019	0 ;Horizontal position only
+R3	R3u	6.58	0	+90
+R3	R3d	1.14	0	-90
+R3	St1	20.642	325.75	-6.5
+R3	St2	22.472	224.5	-14.4
+R3	St3	29.764	235.25	-5.3
+R3	St4	15.712	012.5	+3.6
+R3	St6	23.808	139.25	-13.2
+R3	St9	29.774	344.5	-3.2
+R3	St10	41.638	321.25	-3.8
+R3	St11	43.216	307.75	+4.0
+R3	St12	3.81	181	0
+R3	W1	34.102	232.0	-3.8
+R3	W2	24.815	196.0	-14.4
+R3	W3	34.740	138.0	-15.3
+R3	W4	30.336	110.75	-18.4
+R3	W5	40.411	060.5	-11.5
+St2	R2	31.314	315.0	+17.5
+St4	R2	41.278	256.5	+4.1
+St4	St9	17.530	319.5	-9.6
+St5	St4	28.591	293.25	+10.5
+St5	W6	29.255	330.0	-1.2
+St5	W7	12.223	120.5	-23.3
+MB1	R3	17.597	081.0	+20.8
+MB1	St1	20.502	013.75	+10.3
+MB2	MB3	7.63	108	0
+MB3	R2	35.53	224	+13.7
+
+*END 0084RB

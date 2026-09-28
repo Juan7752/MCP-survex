@@ -1,0 +1,33 @@
+;Dave's scrotty crawl
+*CALIBRATE declination 1.88
+
+
+*begin 026-5
+;team "Dave Harley"
+;team "Clare Youens"
+;team "Jen Sloan"
+
+*data normal from to compass clino tape
+  
+ ;      1     2     -     down      6.1
+23	42	244	-10	3.94
+42	43	325	-5	5.36
+44	43	033	-9	7.65
+44	45	203.5	2.5	4.15
+46	45	014.5	-3	6.38
+46	47	189	3	2.65
+47	48	182	3.5	3.30
+48	49	189	1	4.56
+49	50	192	0	2.98			
+49	50A	262	0	2	
+
+*data passage station left right up down
+
+44	0.27	0	0.67	1.38
+45	0	0.23	0.15	1.44
+47	0.57	0	0.82	0.29
+48	0	0.51	0.82	0.31
+49	0.88	0	1.58	0.53
+      
+*end 026-5
+

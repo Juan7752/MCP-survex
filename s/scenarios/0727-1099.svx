@@ -1,0 +1,10 @@
+*BEGIN molsebo
+
+*include ../1099/1099.svx
+*include ../0727/0727.svx
+*include ../0567/0567.svx
+;*include ../0040/0040.svx
+*INCLUDE ../0733/0733.svx
+*INCLUDE ../3602/3602.svx
+
+*END molsebo

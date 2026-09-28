@@ -1,0 +1,18 @@
+*BEGIN 4470-2016s-01
+
+
+*FIX 0 453076 4797230 268 
+;surveyors: R Bullock, P Clewes
+;DATE 2016.8.6
+*CALIBRATE declination 0.61
+
+0	1	8.10	0	-90
+
+*data passage station left right up down
+
+
+
+0	1.54	1.20	0.3	0
+1	1.54	1.20	0.3	0
+
+*END 4470-2016s-01

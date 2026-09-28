@@ -1,0 +1,53 @@
+*begin 2139
+
+;surveyors: Jenny Juan LLoyd
+;name: Skull Pot: Torca del Cranio
+*DATE 2005.08.17
+;*CALIBRATE DECLINATION 2.55
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.13; (2.53-0.4)
+
+;*fix 18 450509 4797048 0396
+;*fix 18 450407 4796839 0396; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*fix 18 450407 4796839 0393
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance	18
+
+0	1	12.2	242	-17
+*FLAGS SPLAY
+0	2	6.5	235	-17
+*FLAGS NOT SPLAY
+2	3	1.7	159	14
+*FLAGS SPLAY
+1	4	3	66	-3
+*FLAGS NOT SPLAY
+5	1	3.5	150	15
+1	6	1.4	159	12
+6	7	4.8	87	-16
+*FLAGS SPLAY
+6	8	8	274	-5
+*FLAGS NOT SPLAY
+6	9	9.7	238	0
+*FLAGS SPLAY
+6	10	6.8	211	2
+6	11	3	200	-9
+11	12	2.6	153	7
+*FLAGS NOT SPLAY
+1	13	4.15	-	up
+14	13	3.1	71	-10
+13	15	1.5	293	-30
+16	13	4.4	342	-80
+17	16	1.9	226	0
+16	18	3	222	21
+
+*end 2139

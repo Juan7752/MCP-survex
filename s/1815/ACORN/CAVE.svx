@@ -1,0 +1,29 @@
+*BEGIN 1815_1815 Roadside
+;Created from Survey file on Wed,14 Aug 2002.21:33:36
+;Dates surveyed : 020814
+;Surveyors      : PE
+;No of stations : 20
+;Plan length    : 78.7558719m
+;Traverse length: 81.14m
+
+*FIX 0 47530 97500 0275
+0	1	20.68	40.30	-13	;stn10 and 1
+1	2	9.90	39.30	30	;mud slope top
+1	3	4.05	302.30	-25	;stn9
+3	4	4.95	247.30	-3	;stn3
+4	5	12.80	231.30	0	;stn2
+4	6	3.30	266.30	-13	;stn4
+6	7	5.35	235.30	0	;stn5
+6	8	5.39	44.30	-8	;stn6
+8	9	3.27	246.30	3	;stn7
+9	10	11.45	240.30	0	;stn8
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 1815_1815 Roadside

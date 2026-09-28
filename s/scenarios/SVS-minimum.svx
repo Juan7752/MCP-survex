@@ -1,0 +1,55 @@
+*BEGIN SVS-min
+;*include ../trial/area
+;*INCLUDE ..\0039\0039.svx
+;*INCLUDE ..\0033\0033.svx
+*INCLUDE ..\0048\0048-2026/0048-2026-all.svx
+;*INCLUDE ..\0242\0242.svx
+*INCLUDE ..\0264\0264.svx
+*INCLUDE ..\0333\0333.svx
+*include ../0733/0733.svx
+;*include ../0345/0345.svx
+*INCLUDE ..\0036\0036.svx
+;*INCLUDE ..\0051\0051.svx
+;*INCLUDE ..\0388\0388.svx
+;*INCLUDE ..\0042\0042.svx
+;*INCLUDE ..\0035\0035.svx
+;*INCLUDE ..\0491\0491.svx
+;*INCLUDE ..\0037\0037.svx
+*INCLUDE ..\0040\0040.svx
+;*INCLUDE ..\0457\0457.svx
+;*INCLUDE ..\0458\0458.svx
+;*INCLUDE ..\0459\0459.svx
+;*INCLUDE ..\0265\0265.svx
+;*INCLUDE ..\0177\0177.svx
+;*INCLUDE ..\0865\0865.svx
+;*INCLUDE ..\0039\0039.svx
+;*INCLUDE ..\0875\0875.svx
+;*INCLUDE ..\0413\0413.svx
+;*INCLUDE ..\1332\1332.svx
+;*INCLUDE ..\1338\1338.svx
+;*INCLUDE ..\1470\1470.svx
+*INCLUDE ..\1471\1471.svx
+;*INCLUDE ..\0408\0408.svx
+;*INCLUDE ..\0050\0050.svx
+;*INCLUDE ..\0567\0567.svx
+;*INCLUDE ..\1128\1128.svx
+;*INCLUDE ..\2740\2740.svx
+;*INCLUDE ..\2741\2741.svx
+;*INCLUDE ..\2437\2437.svx
+;*INCLUDE ..\1512\1512.svx
+;*INCLUDE ..\2813\2813.svx
+;*INCLUDE ..\0727\0727.svx
+;*INCLUDE ..\0753\0753.svx; Rotura
+;*INCLUDE ..\4170\4170.svx
+
+
+*EQUATE 1471_pnoel.1471_old.2003S.380 0264_coteron.old.373; Paper Plane to Coteron Renada Arm choke
+*EQUATE 1471_pnoel.1471_old.2003S.387 0048_renada.AcornData7.437; Tumbling Dice to Itchy Crutch
+
+;*EQUATE 1338_shaft.2001S.76 0264_coteron.old.252; 1338 to 81 Depths Coteron
+*EQUATE 0036_Vera_Negra.127 0048_renada.old.69; aven climb up into Cabana
+*EQUATE 1471_pnoel.1471_006.18 0333_Azpilicueta.old.732; At the Opera / Hole in Wall Chamber
+
+*EQUATE 0048_Renada.old.116 0264_Coteron.old.315; original connection
+*EQUATE 1471_pnoel.1471_005.2 0048_renada.aa-climb.93
+*END SVS-min

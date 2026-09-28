@@ -1,0 +1,20 @@
+*BEGIN 0028-24-10
+
+*DATE 2024.04.05
+
+;surveyors - notes Juan Corrin; Instruments Pete Smith; Ferret Andy Quin
+0	1	1	345	0; guess
+1	2	10	0	-90; laser measure; too tight 3m down.
+0	3	4.5	20	0; guess
+
+*data passage station left right up down
+0	.3	.3	1.7	.7
+1	1	1	2	10
+;2	.2	.2	0	8
+
+
+*data passage station left right up down
+0	.3	.3	1.7	.7
+3	.3	.3	1.7	.7
+
+*END 0028-24-10

@@ -1,0 +1,67 @@
+*begin 2366_06_19
+;
+*DATE 2006.08.03
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+; 3/8/06 Ali + Pete + Andy, Posture of Progression, Torno
+; Ali = recording, pete = instruments, andy = tape
+
+	 0	 1	 12.30	232	-31 ;	2	5	3	2 ; station 1 is cairn
+	 0	 2	  6.80	103	 -4 ; 	4	3	4	2
+	 2	 3	11.30	058	+10 ;	5	0	0	4
+	 3	 4	 9.40	031	 -3 ;	4	6	2	2
+	 4	 5	20.40	125	 -1 ;	4	5	1.5	2
+	 5	 6	 9.90	127	 -5 ;	4	4	3	2 ; junction, marked 6
+	 6	 7	13.70	134	 +1 ; 	5	4	1.5	3
+	 7	 8	12.20	105	 -2 ; 	2	5	1.5	3
+	 8	 9	 5.10	124	 +5 ;	2	2	5	2 ; marked 9
+	 9	10	 6.20	045	-30 ;	3	2	6	2
+	10	11	21.10	042	   0 ;	5	4	5	1.5 ; marked 11
+	11	12	10.60	043	 +8 ; 	0.5	3	4	2
+	12	13	 8.30	016	 +2 ;	1.5	1.5	4	2
+	13	14	 8.20	008	 -5 ; 	2	4	0.5	1 ; skull near 14
+	14	15	 4.80	110	 -6
+	16	 9	 2.20	346	+33
+	17	16	 2.80	348	+15 ;	0.5	0.5	2	2
+	18	17	 6.40	309	+40 ;	0	2	5	0.5
+	19	18	 5.60	051	+25 ;	0.5	0.5	1	1
+	19a	18	 2.20	284	+15
+	20	 9	 4.10	093	+20
+	21	20	 7.40	023	-19 ; 	5	4	2	2
+	22	21	11.20	313	   0 ; 	3	3	0.5	0.5
+	23	21	 5.70	061	-12 ;	4	1	1	1
+	24	23	 8.70	331	 +3 ; 	1	4	2	2
+	25	24	 4.50	072	+11 ;	2	3	3	2 ; station 25 marked with a triangle
+	26	25	 5.70	086	 -2 ;	4	2	3	3 ; station 26 marked with a triangle
+	27	26	 5.30	055	-27 ;	2	1	1	1
+	28	25	 7.00	011	 +7 ; obvious spike in T-junction
+	29	10	 6.50	294	+15 ;	continues as grade 1 survey by Pete
+; hysteria passage
+	30	 6	 6.90	058	-26 ;	2	1.5	1.5	0
+	30	31	 6.20	286	 +1 ;	2	0.5	0.5	0.5
+	31	32	 4.00	216	  0
+	32	33	 5.40	276	 -3 ; 	1.5	1.5	0.5	0.5 ;	corrected 076	to 276 to fudge
+	33	34	 4.80	233	 -6 ;	1	1	0.2	0.3
+	34	35	10.20	282	 -1 ;	1.5	1.5	0.2	0.3
+	35	36	 6.90	223	 -5 ;	0	2	0.2	0.2
+	37	36	 8.00	097	 +3 ;
+; The next two legs are recorded in patrick's notes, since he was in the cairn chamber.
+	37	38	13.80	316	-40 ; head height above cairn
+	38	39	 1.80	 -	down ; leg to drop down to floor level where the cairn is
+
+*equate 39 1 ; close the loop, stations 1 and 39 are both the cairn in the chamber before the climb up
+
+;Ali on 5th August; legs after the skull
+14	1a	5.1	121	-5;	3	3	.5	.5
+1a	2a	8.8	8	21;	.5	.5	2	4
+1a	3a	5.5	123	-19;	1.5	1.5	.5	1.5
+
+*end 2366_06_19

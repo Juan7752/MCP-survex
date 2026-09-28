@@ -1,0 +1,39 @@
+*BEGIN 0122_1978_Camp-south
+;Approx declination for 1978
+;*CALIBRATE DECLINATION 6
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 5.88; (6.28-0.4)
+
+100	22	14.7	51.5	0
+101	100	29.4	322	-5
+102	101	11.4	267	-4
+103	102	17.9	210	-2
+104	103	5.9	226.5	-3
+105	104	4.1	217	6
+106	105	3.7	296	23
+107	106	4.6	236	21
+
+108	102	12.1	19	9.5
+109	108	20.9	13	20
+110	109	30	333	-3
+111	110	14.3	0	-7
+112	111	22	345	-6
+113	112	14.6	4	-23
+114	113	7	32	-11
+115	114	4	64	-35
+116	115	2.3	49	-25
+117	116	3.4	0	0
+
+118	111	30.7	272	-3
+119	118	13.1	285	-26
+120	119	7	290	0
+
+
+
+*END 0122_1978_Camp-south

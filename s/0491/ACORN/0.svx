@@ -1,0 +1,17 @@
+*BEGIN 0491_491
+;Created from Survey file on Sun,20 Jun 2004.15:05:22
+;Dates surveyed : 960401
+;Surveyors      : JC PS
+;No of stations : 6
+;Plan length    : 111.161674m
+;Traverse length: 115.6m
+
+*FIX 0 49250 95010 0276
+
+*ENTRANCE 0
+0	1	25.80	301.40	-7	;stn D
+1	2	30.70	293.40	-7	;*
+2	3	30.60	299.40	-8	;stn B on wall
+3	4	15.20	31.40	-24	;*
+4	5	13.30	64.40	-35	;entrance lip
+*END 0491_491

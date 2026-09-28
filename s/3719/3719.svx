@@ -1,0 +1,111 @@
+*BEGIN 3719
+
+*DATE 2012.07.30
+
+;*CALIBRATE DECLINATION 1.63
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.22; (1.62-0.4)
+
+;surveyors: Martin Barnicott Dave Gledhill Edwin Mason Bob Toogood
+;passage name:
+
+;*FIX 0 448725 4800607 0133
+*FIX 0 448623 4800398 0133; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+
+*FLAGS SPLAY
+0	0a	 0.74	121.74	-12.52
+*FLAGS NOT SPLAY
+0	1	 0.77	 92.25	-43.58
+*FLAGS SPLAY
+1	1a	 0.50	223.92	  0.83
+*FLAGS NOT SPLAY
+1	2	 0.92	247.68	-24.48
+2	3	 2.08	220.27	 20.07
+*FLAGS SPLAY
+3	3a	 0.95	236.87	 12.60
+*FLAGS NOT SPLAY
+3	4	 5.58	 28.44	-56.51
+*FLAGS SPLAY
+4	4a	 2.12	238.53	  4.84
+4	4b	 0.43	 63.67	 25.30
+*FLAGS NOT SPLAY
+4	5	 1.82	251.58	 -9.90
+*FLAGS SPLAY
+5	5a	 0.38	124.79	-10.90
+*FLAGS NOT SPLAY
+5	6	 3.56	311.67	-74.25
+*FLAGS SPLAY
+6	6a	 2.02	215.37	 17.58
+*FLAGS NOT SPLAY
+6	7	 2.21	 14.88	 21.82
+7	8	 5.40	 41.22	  0.83
+*FLAGS SPLAY
+8	8a	 3.72	186.32	  8.89
+*FLAGS NOT SPLAY
+8	9	 4.20	  9.52	 -2.72
+*FLAGS SPLAY
+9	9a	 0.41	102.24	-65.48
+9	9b	 3.16	194.18	-47.74
+9	9c	 2.24	166.05	-15.91
+*FLAGS NOT SPLAY
+9	10	 2.09	 48.42	  0.27
+10	11	 2.67	 32.24	  2.53
+*FLAGS SPLAY
+11	11a	 0.52	100.32	 45.96
+*FLAGS NOT SPLAY
+11	12	 1.25	 16.46	 -2.62
+12	13	 3.30	 17.45	-10.10
+*FLAGS SPLAY
+13	13a	 0.95	218.94	 72.41
+13	13b	 0.82	304.92	 -6.94
+13	13c	 1.87	243.18	 -3.58
+13	13d	 1.33	262.37	-19.22
+13	13e	 3.21	282.01	-32.83
+13	13f	 0.93	 37.32	 11.17
+13	13g	 1.03	148.55	 -4.55
+*FLAGS NOT SPLAY
+6	14	 1.82	247.12	 39.29
+14	15	 1.85	199.54	 17.64
+15	16	 1.82	200.41	 16.89
+16	17	 1.76	233.15	  3.33
+17	18	 1.45	190.14	 17.38
+6	19	 1.31	111.09	-17.86
+*FLAGS SPLAY
+19	19a	 0.29	118.33	 -3.22
+*FLAGS NOT SPLAY
+19	20	 3.30	126.88	-77.47
+
+*data passage station left right up down
+0	0.0	0.52	0.0	0.0
+1	0.421	0.262	0.0	0.0
+3	0.662	0.592	0.634	0.998
+4	1.193	1.258	3.763	0.0
+5	0.0	3.309	0.0	0.0
+6	2.163	1.649	2.003	0.0
+7	1.366	0.796	0.829	0.457
+8	1.841	0.331	0.366	0.601
+9	1.071	2.545	0.54	1.823
+10	0.785	0.707	0.442	0.59
+11	0.395	0.0	0.238	0.314
+12	0.512	1.076	0.811	0.373
+13	1.39	0.765	2.8	4.707
+14	1.226	1.254	0.954	1.0
+15	0.0	0.507	1.86	0.248
+16	0.0	0.391	0.328	0.343
+17	0.881	0.642	0.427	0.333
+18	0.0	0.89	0.0	0.0
+19	1.338	0.424	0.0	0.0
+
+*END 3719

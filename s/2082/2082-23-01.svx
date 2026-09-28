@@ -1,0 +1,51 @@
+; 2023.08.07 created by TopoDroid v 6.2.16
+; 2082-23-01
+; Instrument: DistoXBLE 0212 - SM-N910F
+
+*begin 2082-23-01 
+
+*CALIBRATE declination -0.22 ; Mag. Dec. 0.18 Grid adj. -0.4
+*ENTRANCE 0
+*FIX 0 452114 4794315 568
+  *date 2023.07.29 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 5.73 77.5 -67.7
+  0 0ba 2.01 78.7 -51.3
+  0 0bb 2.66 73.4 -66.9
+  0 0bc 0.31 328.7 -15.3
+  0 0bd 0.69 60.0 -23.4
+  0 0be 0.18 163.8 -13.3
+  0 0bf 0.94 346.6 -77.3
+  0 0bg 1.38 110.1 -85.2
+  0 0bh 2.23 71.4 -62.7
+  *flags not splay
+    0 1   6.50 75.9 -66.2
+  *flags splay
+  1 1a 0.71 261.5 -79.8
+  1 1ba 0.82 325.3 -4.3
+  1 1bb 2.19 280.8 80.4
+  1 1bc 2.62 193.5 -0.7
+  1 1bd 1.48 146.7 6.6
+  1 1be 1.01 54.3 5.8
+  1 1bf 2.73 219.1 -12.3
+  1 1bg 3.33 239.0 -22.0
+  1 1bh 2.29 265.6 -42.1
+  1 1bi 0.87 272.0 14.4
+  1 1bj 1.18 250.4 13.7
+  1 1bk 2.08 263.0 19.2
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.29 0.17 0.00 5.30
+1  0.77 2.33 2.16 1.53
+
+*end 2082-23-01

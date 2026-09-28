@@ -1,0 +1,28 @@
+*begin 0039_001
+;Codisera Pop Corn Climb area
+;Pete Smith Carmen Haskell
+;31st October 2004
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+1 0 6 186 -44
+2 1 3 269 -31
+3 2 3.55 173 12
+4 3 3.52 097 1
+5 3 3.85 220 11
+6 5 2.25 225 25
+7 6 6.25 178 -3
+8 7 4.7 110 -71
+5 9 4.05 278 -50
+9 10 4.7 314 -28
+10 11 5.9 93 -7
+11 12 16 064 -20
+
+*end 0039_001

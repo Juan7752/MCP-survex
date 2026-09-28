@@ -1,0 +1,19 @@
+*BEGIN 1265_cave
+;Created from Survey file on Thu,11 Dec 1997.18:48:53
+;Dates surveyed : 971026
+;Surveyors      : Juan PeteS
+;No of stations : 10
+;Plan length    : 29.7290831m
+;Traverse length: 31.2m
+
+*FIX 0 53580 95370 0260
+0	1	12.20	158.55	0	;*
+1	2	2.70	176.55	35	;through crawl
+2	3	4.00	189.55	-40	;down cl
+3	4	5.50	185.55	5	;p from surface
+4	5	6.80	185.55	-5	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1265_cave

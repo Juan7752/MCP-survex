@@ -1,0 +1,126 @@
+*BEGIN 0077
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 451722 4796229 350
+*FIX 0077-25-03.0 451722 4796229 350
+*ENTRANCE 0077-25-03.0
+*INFER EXPORTS ON
+
+;*INCLUDE 0077-25-01.svx	Repeated in 0077-26-antler_grotto_duplicate
+;*equate 0077-25-01.26 0077-25-03.26
+
+*INCLUDE 0077-25-03.svx ; 2025 survey from entrance to start of first choke
+
+*include 0077-25-wolf-chamber.svx ; from start of first choke around into Wolf Chamber in 2025
+*equate   0077-25-03.35 0077-25-wolf-chamber.5
+
+*INCLUDE 0077-25-02.svx ; 2025 survey on left, west branch of main entrance passage towards wolf chamber
+*equate   0077-25-02.43 0077-25-wolf-chamber.9
+
+*include was-1984-choke-only.svx; 1984 survey through first choke
+*equate 0077-25-wolf-chamber.1 was-1984-choke-only.8 
+
+*include 0077_17_01 ; 2017 Di and Si survey of passage beyond first choke
+*equate 0077_17_01.1.0 was-1984-choke-only.31 
+
+*include 0077-25-choke2.svx ; 2025 survey from Di and Si survey through 2nd choke and into main passage beyond
+*equate  0077_17_01.2.4 0077-25-choke2.1
+
+*INCLUDE 0077-25-04.svx ; 2025 resurvey of part of big passage beyond 2nd choke
+*equate   0077-25-04.2 0077-25-choke2.37
+;*equate   0077-25-04.5 0077-25-choke2.41  ; extra equates not used
+;*equate   0077-25-04.11 0077-25-choke2.47  ; extra equates not used
+;*equate   0077-25-04.13 0077-25-choke2.49  ; extra equates not used
+;*equate   0077-25-04.14 0077-25-choke2.50  ; extra equates not used
+*equate   0077-25-04.15 0077-25-choke2.51
+
+;SUMMER 2025
+*INCLUDE 0077-25-05.svx
+*EQUATE 0077-25-choke2.61 0077-25-05.61
+
+*INCLUDE 0077-25-06.svx
+*EQUATE 0077-25-05.75 0077-25-06.100
+
+*INCLUDE 0077-25-07.svx
+*EQUATE 0077-25-07.103 0077-25-06.103
+
+*INCLUDE 0077-25-08A.svx
+*EQUATE 0077-25-08A.109 0077-25-06.109
+
+;======================================================
+;EASTER 2026
+;0077-26-left-just-before-pandemonium-stn217 = -26-02 
+*include 0077-26-02
+*equate 0077-26-02.217x 0077-25-07.217 
+
+;0077-26-continue-down-climb-stn212 =          -26-03 
+*include 0077-26-03 
+*equate 0077-26-03.212x 0077-25-07.212
+
+;0077-26-2ndpart-continue-down-climb-stn212 =  -26-04 
+*include 0077-26-04
+*equate 0077-26-04.10 0077-26-03.10
+
+;0077-26-antler_grotto_duplicate =             -26-05 
+*include 0077-26-05
+*equate 0077-26-05.25 0077-25-03.25
+
+;0077-26-grotto-by-entrance =                  -26-06 
+*include 0077-26-06
+*equate  0077-26-06.13 0077-25-03.13
+
+;0077-26-everything_everywhere_all_at_once1 =  -26-07 
+*include 0077-26-07
+*equate  0077-26-07.235 0077-25-07.235
+
+;0077-26-everything_everywhere_all_at_once2 =  -26-08
+*include 0077-26-08
+*equate  0077-26-08.12 0077-26-07.12
+
+;0077-26-08-bg1 =                              -26-09
+*include 0077-26-09 
+*equate 0077-26-09.29 0077-26-04.29
+
+;0077-26-08-bg2 =                              -26-10
+*include 0077-26-10
+*equate 0077-26-10.16 0077-26-04.16
+
+;0077-26-8apr-arp-lloyds-to-shield =           -26-11
+*include 0077-26-11
+*equate 0077-26-11.1 0077-25-08A.113
+*equate 0077-26-11.7 0077-25-06.105
+
+;0077-26-8apr-arp-yahoo-offshoot =             -26-12
+*include 0077-26-12
+*equate 0077-26-12.1 0077-25-08A.124
+; *equate 0077-26-12.4 0077-25-08A.123 extra duplicate leg to reach no.d station
+
+;0077-26-8apr-arph-panda-offshoot =            -26-13
+*include 0077-26-13
+*equate 0077-26-13.1 0077-25-08A.142
+*equate 0077-26-13.10 0077-25-07.233
+
+;RV_traverse_off_shield_chamber =              -26-14
+*include 0077-26-14
+*equate 0077-26-14.6 0077-25-06.105
+
+;0077-26-from-station-66 =                     -26-15
+*include 0077-26-15
+*equate 0077-26-15.1 0077-26-10.66
+
+;0077-26e-11-Apr.svx =                         -26-16
+*include 0077-26-16
+*equate 0077-26-16.0 0077-25-choke2.51
+
+;0077-26e-11-Apr-2.svx =                       -26-17
+*include 0077-26-17
+*equate 0077-26-17.0 0077-25-choke2.49
+
+;0077-26s-01-Aug-9.svx
+*include 0077-26-18
+*equate 0077-26-04.27 0077-26-18.1
+
+*include 0077-26-19
+*equate 0077-26-05.30 0077-26-19.1
+
+*END 0077

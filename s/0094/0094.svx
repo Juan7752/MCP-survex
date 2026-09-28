@@ -1,0 +1,35 @@
+*BEGIN 0094_Bardalones
+;Created from Survey file on Sat,19 Jun 2004.09:46:43
+;Dates surveyed : 000812
+;Surveyors      : BobC TedC
+;No of stations : 10
+;Plan length    : 43.2780056m
+;Traverse length: 45.5m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.2-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.2
+
+;*FIX 0 453180 4796610 0447
+;*FIX 0 453078 4796401 0447; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 453078 4796401 0443
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+0	1	13.50	127.00	8	;stn5
+1	2	7.00	127.00	8	;stn4
+2	3	2.20	134.00	8	;stn3
+3	4	2.10	102.00	24	;stn2
+4	5	2.40	137.00	30	;stn1
+5	6	7.00	117.00	5	;stn0
+1	7	3.80	241.00	50	;stn7
+7	8	7.50	287.00	-10	;stn8
+*END 0094_Bardalones

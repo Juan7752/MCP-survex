@@ -1,0 +1,15 @@
+*BEGIN 0878_cave
+;Created from Survey file on Sun,09 May 1999.21:31:51
+;Dates surveyed : 910812
+;Surveyors      : Alisdair
+;No of stations : 6
+;Plan length    : 16.3627079m
+;Traverse length: 18.5m
+
+*FIX 0   
+0	1	4.80	39.65	-40	;*
+1	2	2.30	131.65	-38	;*
+2	3	2.10	82.65	15	;*
+3	4	3.70	48.65	-18	;*
+4	5	5.60	70.65	18	;*
+*END 0878_cave

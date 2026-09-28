@@ -1,0 +1,45 @@
+*begin 0071-22-01
+*date 2022.07.31
+*CALIBRATE DECLINATION -0.03
+*team Francesca McDonald, Mike Topsom, Raoul Charman, Lloyd Cawthorne
+
+*data	normal	from	to	tape	compass	clino
+
+1	2	6.72	308	+2
+1	0	12.43	203	+18
+0	shunt	1.67	092	-2
+3	4	8.98	-	down
+1	3	4.21	303	-3
+
+0	5	4.12	321	-33
+5	6	4.59	299	+6
+6	7	5.96	318	+6
+7	8	5.93	309	-19
+8	9	6.01	045	+21
+
+
+*data	passage	station	up	down	left	right
+1	1.25	1.9	1.83	0.5
+2	0.4	0.4	0.1	0.2; estimated
+
+*data	passage	station	up	down	left	right
+1	1.4	1.9	1.8	0.9
+0	2.1	1.6	1.8	4.9
+
+*data	passage	station	up	down	left	right
+3	2.1	8.98	0.2	0.3
+4	8.98	1.5	0.3	0.3
+
+*data	passage	station	up	down	left	right
+0	2.1	1.6	0.9	4.3
+5	0.7	3.2	0.5	0.7
+6	1.6	0.7	0.1	0.3
+7	2.7	1.2	0.3	0
+8	4.3	2.6	1.4	1.1
+9	0.5	0.5	0.5	0.5; estimated scrambly climb to nowhere
+
+
+
+
+
+*end 0071-22-01

@@ -1,0 +1,71 @@
+*BEGIN 0243_Cubio
+;Created from Survey file on Sun,20 Jun 2004.09:31:38
+;Dates surveyed : 930730&930809&930810
+;Surveyors      : PM JCope PSt T&JHaigh
+;No of stations : 50
+;Plan length    : 178.032472m
+;Traverse length: 204.5m
+
+;*FIX 0 450178 4796992 0263
+;*FIX 0 450076 4796783 0263; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 450076 4796786 0262
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+0	1	7.00	147.95	-44	;stn 0 entr hole
+1	2	8.40	244.95	-33	;shaft off to West
+2	3	10.70	217.95	-13	;*
+3	4	3.20	265.95	-8	;junction
+4	5	3.80	174.95	-3	;*
+5	6	5.40	214.95	-4	;*
+6	7	8.30	202.95	4	;*
+7	8	6.30	278.95	-17	;*
+8	9	3.70	-	-V	;base of climb
+9	10	4.60	357.95	-20	;*
+10	11	9.30	206.95	-9	;through squeeze
+11	12	2.90	318.95	0	;chamber
+12	13	3.20	345.95	-47	;down through squeeze
+13	14	4.20	317.95	-25	;chamber
+14	15	4.20	280.95	-8	;*
+15	16	5.40	282.95	-4	;top of climb
+16	17	2.90	279.95	-50	;*
+17	18	3.60	-	-V	;*
+18	19	7.70	278.95	1	;*
+19	20	4.60	252.95	-8	;passage above?
+20	21	2.80	182.95	-3	;*
+21	22	5.20	228.95	-8	;canal
+22	23	4.80	268.95	0	;*
+23	24	6.80	219.95	0	;top of pitch
+24	25	4.00	-	-V	;*
+25	26	3.00	332.95	-28	;*
+26	27	8.50	299.95	-37	;7m pitch base is Regaton connection
+4	28	5.20	280.95	1	;*
+28	29	1.50	-	+V	;tight for normal people
+29	30	3.40	227.95	15	;*
+30	31	3.10	283.95	-4	;*
+31	32	10.40	258.95	-13	;*
+32	33	2.70	359.95	-12	;low
+33	34	1.90	322.95	-15	;*
+34	35	1.00	1.95	-32	;*
+35	36	2.30	83.95	-7	;top of ladder - tight
+36	37	2.10	-	-V	;base of ladder
+37	38	7.80	122.95	-33	;*
+38	39	4.50	42.95	-21	;*
+39	40	4.10	231.95	-13	;*
+40	41	3.50	246.95	-19	;*
+41	42	1.70	171.95	0	;*
+42	43	4.80	237.95	-7	;narrow sharp bends too tight
+
+*END 0243_Cubio

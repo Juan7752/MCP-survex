@@ -1,0 +1,26 @@
+*BEGIN 1930_08_01
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.19-0.4)
+
+;surveyors Carolina Smith PeteS
+*date 2008.03.21
+;Wounded Knee - Meander Inlet
+
+0	1	13.6	71	0
+1	2	4.8	6	0
+2	3	8.4	66	0
+3	4	4.5	249	24
+4	5	1.65	310	12
+
+;5 is 1930_07_08.0
+
+
+*END 1930_08_01
+

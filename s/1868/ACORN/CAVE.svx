@@ -1,0 +1,21 @@
+*BEGIN 1868_1868
+;Created from Survey file on Sat,26 Jun 2004.13:49:46
+;Dates surveyed : 030424
+;Surveyors      : PeteS
+;No of stations : 10
+;Plan length    : 18.7813983m
+;Traverse length: 29m
+
+*FIX 0 49180 98440 0295
+
+*ENTRANCE 0
+0	1	4.20	37.45	-10	;*
+1	2	3.00	46.45	2	;*
+2	3	4.80	57.45	0	;*
+3	4	7.00	79.45	-12	;*
+3	5	10.00	-	-V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1868_1868

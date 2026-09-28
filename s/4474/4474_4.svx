@@ -1,0 +1,38 @@
+;survey 2019.04.19, PP, RB stations 1 to 11
+
+*begin 4474_4
+*export 11 3 6
+*CALIBRATe declination  0.26
+*data normal from to length bearing gradient ;ignore all
+
+;from	to	Length	Compass	Clino
+;2	1	6.42	-	up	;Up through roof hole	Superceeded by 4474-19-01
+;2	3	2.57	048	-45	;middle of roof start of slope up	Superceeded by 4474-19-01
+;2	4	3.20	228	0.0	;Into choke	Superceeded by 4474-19-01
+3	5	8.91	060	-13	;Roof start of rift down	Superceeded by 4474-19-01
+5	6	5.49	217	+1	;back to descending rift
+;6	7	5.44	-	Down	;Down rift passable on ladder	Superceeded by 4474-19-01
+5	8	11.02	052	+4	;Back towards dig
+8	9	3.01	052	-3	;Stall in roof end of dig
+9	10	4.82	054	-22	; Roof top of up bit
+10	11	0.62	080	-53	;Too last survey trip stn.
+
+;Sections
+*data passage station left right up down
+;Name	Left	Right	up	down		Comment
+
+;1	0.7	0.7	0.0	7.0	;Disto shot up to roof above
+;2	0.8	1.0	6.5	1.0	;Roof top of slope up
+3	0.8	1.0	0.0	0.7	;Roof bottom of slope
+;4	1.0	0.8	0.5	0.5	;Choke
+5	2.0	1.5	1.0	0.2	;Roof
+6	0.3	4.0	0.1	6.0	;Stall top of rift down
+
+*data passage station left right up down
+5	1.5	2.0	1.0	0.2
+;7	0.8	0.8	6.0	0.0	; Disto to base of rift
+8	1.2	0.5	0.1	0.7	;Stal in roof
+9	0.9	0.3	0.2	0.7	;Stall i roof
+10	0.3	0.5	0.3	0.8	;Roof
+
+*end 4474_4

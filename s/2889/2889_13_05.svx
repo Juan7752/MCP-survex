@@ -1,0 +1,51 @@
+*BEGIN 2889_13_05
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1; (1.5-0.4)
+*DATE 2013.08.06
+;End of Deep Rifts Passage
+*FLAGS DUPLICATE
+x1    x2        2.73   4   0
+*FLAGS NOT DUPLICATE
+
+x2    1         5.35   60  9
+1     2         1.38   102 24
+2     3         1.83   15  0
+3     4         8.38   32  1
+4     5         4.45   119 -3
+5     6         4.60   27  6
+6     7         4.59   62  5
+7     8         3.67   157 -8
+8     9         6.43   138 5
+9     10        3.64   126 2
+10    11        9.86   35  3
+*FLAGS SPLAY
+11     A    7   305    0
+11     B    5   125    0
+11     C    3.5 35     0
+11     D    4   -      up
+11     E    35  -      down
+*FLAGS NOT SPLAY
+
+*data passage station up down left right
+x1    .5      .56     1.98    0
+x2    7.03    .94     0       2.03
+1     0       .47     1.2     .7
+2     .58     .69     .59     .24
+3     .38     .3      .3      .7
+4     0       .43     1.9     2.17
+5     .27     .4      1.51    .5
+6     1.26    .58     .3      1.6
+7     1.25    .99     .5      1.09
+8     .46     .22     .96     .44
+9     1.22    .38     1.7     0
+10    3.18    3.63    1.23    1.14
+11    0       1       1.17    .65
+
+*END 2889_13_05

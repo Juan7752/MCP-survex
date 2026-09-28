@@ -1,0 +1,18 @@
+*BEGIN 0048-15-07
+
+*date 2015.04.03
+
+*TEAM "Dave Bell" assistant "Spike Neal"disto notes "Pete Eagan" assistant
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.78
+
+
+     5.1         5.0       5.630  259.81  -58.13
+     5.1         5.2       7.146   57.49   24.65
+     5.2         5.3       7.429  114.08   27.14
+     5.3         5.4      12.127   61.31   14.97
+
+ 
+*END 0048-15-07

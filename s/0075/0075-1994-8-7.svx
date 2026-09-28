@@ -1,0 +1,24 @@
+*BEGIN 0075-1994-8-7
+
+;*CALIBRATE DECLINATION 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.9 degrees but should have been 4.08 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.08-3.9-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+;bit below entrance ?surveyed 1994-8-7 ?A Neill, P Collett, Hobbit.
+*FLAGS DUPLICATE
+32	5	7.10	260.10	-2	;*
+;6	5	25.20	269.10	41	;*
+*FLAGS NOT DUPLICATE
+5	4	3.50	204.10	-17	;*
+4	3	3.50	256.10	-55	;*
+3	2	9.20	210.10	-11	;*
+2	1	4.40	263.10	-18	;carbide mark in roof over dig
+
+*END 0075-1994-8-7

@@ -1,0 +1,45 @@
+*BEGIN 0105-25-07
+
+*DATE 2025.08.02
+
+;passage / batch name: Wise Choice
+
+*DATA NORMAL from to tape compass clino
+
+*TEAM "MIKE WISE BOOK AND STATIONS"
+*TEAM "DAVE BARRETT INSTRUMENTS"
+
+;STATION 0 IS AN EXISTING STATION AT THE 'END' OF MOUSEPRINT PASSAGE IN THE NEW MOUSEPRINT LOG BY MIKE WISE
+
+0	1	7.61	267	-4
+1	2	5.12	005	20
+2	3	2.6	0	90; Station 3 is the top of an aven
+
+2	4	4.63	031	19
+4	5	3.19	060	30
+5	6	2.36	110	43
+7	6	4.94	275	-64
+
+2	8	3.16	243	-23
+8	9	1.23	270	-18; a small hole at the base of the sven discussed in stn 3
+9	10	4	310	0; length and inclination estimated
+
+
+*data passage station left right up down
+0	1.15	1.11	0	0.51
+1	.45	.4	1.01	0
+2	1.71	1.42	20.6	1.35	
+3	1.71	1.42	0	21.95;station 3 is the top of an aven with estimated L and R values and a down value to the floor
+
+*data passage station left right up down
+2	1.71	1.42	20.6	1.35
+4	0.33	0.34	7.7	0
+5	0	0.60	6.52	0.90
+6	0.33	0.29	5.01	2.02
+7	7.60	1.30	12.93	1.7;station 7 is the last station below a 2nd aven
+
+*data passage station left right up down
+2	1.42	1.71	20.6	1.35
+8	0	0.49	0.26	0.45
+
+*END 0105-25-07

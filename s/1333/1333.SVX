@@ -1,0 +1,33 @@
+*BEGIN 1333_Tortilla
+;Created from Survey file on Mon,10 May 1999.21:21:14
+*DATE 1998.08.08
+;Surveyors      : Ali+
+;No of stations : 10
+;Plan length    : 17.330863m
+;Traverse length: 35m
+
+;*FIX 0 450311 4794194 0612
+;*FIX 0 450209 4793985 0612; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450209 4793985 0613
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.3 degrees but should have been 3.48 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.48-3.3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.22
+
+0	1	6.20	238.70	-45	;*
+1	2	3.70	212.70	-60	;*
+2	3	12.50	236.70	-36	;*
+3	4	1.50	204.20	-49	;bolt
+4	5	11.10	-	-V	;*
+*END 1333_Tortilla

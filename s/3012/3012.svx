@@ -1,0 +1,39 @@
+*begin 3012
+;surveyors: Harry Long John Clarke
+;name: Cueva CTB
+*DATE 2008.07.23
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+;*FIX ent 446841 4801447 0110
+;*FIX ent 446739 4801238 0110; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX ent 446739 4801238 0107
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance ent
+1	x	2	262	0
+1	y	1.5	166	0
+1	2	5.2	8	6
+2	3	5.1	19	10
+3	4	2	340	32
+4	ent	1.5	51	22
+
+
+*data passage station left right up down
+1	.6	.6	.9	.6
+2	.2	.2	.6	.7
+3	.2	1	.7	.8
+4	.5	.5	.5	.6
+ent	.4	.5	.3	.6
+
+*end 3012

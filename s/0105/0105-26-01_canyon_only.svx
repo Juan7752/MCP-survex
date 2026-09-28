@@ -1,0 +1,20 @@
+
+*data normal from to tape compass clino
+
+21	22	7.04	317	-7 ; down pitch into start of canyon, station 21 (restarted numbering) on lh wall at start of canyon
+22	23	5.62	302	+4 ; next few stations are on the walls of a gently ascending tall canyon passage
+23	24	5.58	233	0
+24	25	4.58	221	+2
+25	26	6.21	232	+14
+26	27	4.94	265	+5
+27	28	6.77	220	+12
+28	29	8.27	232	+4
+29	30	5.67	231	+1
+30	31	7.15	238	+10
+31	32	2.32	233	+1
+32	33	3.41	309	-1
+33	34	2.34	280	-10 ; station 34 is on RH wall just before ground gives way to a p10-ish
+; passage continues past the pitch, shot a splay ahead
+*flags splay
+34	34a	16.5	270	0
+*flags not splay

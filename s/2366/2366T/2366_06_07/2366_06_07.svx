@@ -1,0 +1,24 @@
+*begin 2366_06_07
+;surveyors: Ali Neill, Pete Egan, Paul Dold
+;name: El Torno: Axe Wars Inlet
+;date 15/4/06
+*CALIBRATE declination 2.42
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+0	1	6.6	122	8;	3	2	1.5	1.5
+1	2	4.7	137	1;	1	1	.5	1
+2	3	6.4	146	11;	4	3	1	.5
+3	4	7.2	80	13;	2	2	.5	2
+4	5	5.6	106	13;	4	2	4	.5
+5	6	14.6	80	10;	4	2	4	4
+6	7	2.6	177	50;	5	0	3	2
+7	8	4.1	47	38;	2	5	6	1
+
+
+
+
+*end 2366_06_07

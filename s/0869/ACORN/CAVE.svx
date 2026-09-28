@@ -1,0 +1,16 @@
+*BEGIN 0869_cave
+;Created from Survey file on Mon,21 Jun 2004.22:10:38
+;Dates surveyed : 010413
+;Surveyors      : TW
+;No of stations : 5
+;Plan length    : 16.3326847m
+;Traverse length: 18.4m
+
+*FIX 0 53170 98480 0245
+
+*ENTRANCE 0
+0	1	1.50	-	-V	;stn3
+1	2	10.70	60.15	-12	;*
+2	3	3.70	41.15	-22	;*
+3	4	2.50	356.15	-13	;soln chmbr
+*END 0869_cave

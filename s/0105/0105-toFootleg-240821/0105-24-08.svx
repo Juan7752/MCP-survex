@@ -1,0 +1,24 @@
+*BEGIN 0105-24-08
+;Station 0 T-Junction.
+;I cant properly connect this, I have guessed as despite the start of this being on the.
+;printed survey its not on the line survey. 
+;theres about 10m of unsurveyed passage inbetween.
+;Nearest station drymaze link 221
+*DATE 2024.07.30
+;*TEAM Sam (instruments), Alex Ritchie (Notes and stations)
+-1	0	7	189	8;Guess, based on direction of existing passage
+0	1	9.55	260	9
+1	2	6.2	271	2
+2	3	2.2	268	-1
+3	4	10.4	252	0
+4	5	4.6	278	0
+
+*data passage station left right up down
+-1	0.9	0	1	0
+0	0.5	0.5	1.9	1.8
+1	0.6	0.4	1.0	0.6
+2	0.6	0.4	0.7	0.3
+3	0.5	0.7	0.3	0.1
+4	0.2	0.8	0	0.4
+5	0.2	0.3	0.2	0.2
+*END 0105-24-08

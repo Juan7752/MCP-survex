@@ -1,0 +1,6 @@
+*BEGIN Carcsur
+
+*INCLUDE <Sitedata$Dir>.0k.0.0081.Survex.cave/svx
+*INCLUDE <Sitedata$Dir>.0k.0.0081.SurvexS.cave/svx
+
+*end Carcsur

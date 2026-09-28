@@ -1,0 +1,68 @@
+*BEGIN 0107-14-03
+*EXPORT 8
+;passage / batch name: Tilers Way cont from Bug Junction
+
+*date 2014.10.29
+
+*CALIBRATE DECLINATION 0.9
+
+
+*TEAM "Alasdair Neill" notes
+*TEAM "Peter Eagan" laser-length compass clino
+
+;sta 8 is 38 from 2014.08.05
+0	1	4.17	105	-1
+1	2	8.94	73	-10
+2	3	6.52	53	1
+3	4	6.13	70	1
+4	5	5.42	82	-2
+5	6	13.72	77	0
+6	7	18.16	72	-2
+8	7	2.85	147	-18
+9	8	7.13	164	-5
+10	9	12.67	253	0
+11	10	6.9	270	-12
+12	11	8.4	269	3	;12 top of stal 3m before terminal mud dig
+
+9	13	.4	-	down
+14	13	17.93	89	0
+15	14	4.5	93	-8
+16	15	3.3	85	-12
+
+17	10	9.65	168	2
+18	17	2.7	113	0	;sta 18 stal on LH side
+19	18	5.58	92	0	;canal cont through ducks unsurveyed
+
+*data passage station left right up down
+
+0	1.4	.5	.5	1.7
+1	1.7	.6	2.8	1.5
+2	.5	.2	.2	.5
+3	.3	.3	.6	.7
+4	.2	.6	.7	.7
+5	.2	.7	.43	.7
+6	1.3	.6	.2	1
+7	3.2	.7	.7	.9
+8	.5	3.4	.9	.9
+
+
+*data passage station left right up down
+8	.5	2.9	.9	.9
+9	0	9.9	.2	1
+10	12.76	0	.8	.6
+
+*data passage station left right up down
+10	1	2	.8	.6
+11	.7	.65	.9	.9
+12	.9	.4	.5	.3
+*data passage station left right up down
+13	.3	.3	.4	.4
+14	.3	.6	.3	.3
+15	.3	.6	3	.4
+16	.3	.7	6	.5
+*data passage station left right up down
+10	12.76	0	.8	.6
+17	4.5	2.5	.6	.5
+18	.7	1.5	.3	.3
+19	.8	0	.4	.3
+*END 0107-14-03

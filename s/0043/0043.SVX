@@ -1,0 +1,31 @@
+*BEGIN 0043_Escarabajo
+;Created from Survey file on Sun,24 Mar 1996.11:38:59
+;Dates surveyed : 900527
+;Surveyors      : PeteS PhilP
+;No of stations : 7
+;Plan length    : 99.1395223m
+;Traverse length: 105m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.4
+
+;*FIX 0 451120 4793940 0620
+;*FIX 0 451018 4793731 0620; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 450993 4793760 645; GPS Jan 2015
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+*ENTRANCE 0
+0	1	16.10	303.50	-15	;*
+1	2	22.20	341.50	-7	;top of slope
+2	3	16.00	333.50	-39	;*
+3	4	9.00	250.50	0	;*
+4	5	16.70	288.50	-24	;*
+5	6	25.00	346.50	6	;*
+*END 0043_Escarabajo

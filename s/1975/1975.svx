@@ -1,0 +1,101 @@
+*BEGIN 1975_Mortiro
+;Created from Survey file on Wed,07 Apr 2004.23:32:50
+;Dates surveyed : 040404&040404&040405&040407
+;Surveyors      : Phil Rowsell+PP+P Rowsell+Phil R
+;No of stations : 80
+;Plan length    : 209.101358m
+;Traverse length: 356.05m
+
+;*FIX 0 447096 4796983 0245
+;*FIX 0 446994 4796774 0245; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 446994 4796774 0244
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+*DATE 2004.04
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.4 degrees but should have been 2.71 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.71-2.4-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.09
+
+0	1	11.70	6.10	-25	;stn14
+1	2	7.40	54.60	-38	;top bridge
+2	3	7.70	-	-V	;rock ledge
+3	4	9.30	30.60	-36	;bolt 2nd p
+4	5	8.20	20.60	-71	;stn 10
+5	6	6.70	-	-V	;stn 7 base p
+6	7	1.30	-	+V	;stn8 eye
+7	8	8.70	280.60	-9	;end chmbr pass/aven abv
+6	9	8.20	106.60	-4	;stn5
+9	10	3.20	231.60	-35	;stn6 top blind p
+9	11	4.90	61.60	-53	;stn4 start crwl
+11	12	9.90	8.60	-18	;stn 3 roof
+12	13	6.00	13.10	-20	;stn2
+13	14	3.61	337.60	-29	;stn1 top bolt
+14	15	0.10	-	+V	;dummy
+10	16	5.10	199.60	-54	;p top
+16	17	11.30	-	-V	;p base
+17	18	4.60	78.60	60	;top cl into 2nd chmbr
+18	19	5.40	118.60	-33	;into 2nd chmbr
+19	20	3.40	352.60	0	; water sink
+20	21	6.60	91.60	0	;water into narr tube
+19	22	5.30	213.60	0	;blind; aven above
+19	23	1.50	-	-V	;*
+17	24	9.30	21.60	0	;blind; aven above
+14	25	19.40	-	-V	;rebelay
+25	26	13.90	-	-V	;base p
+26	27	2.10	62.60	9	;stn M129
+27	28	3.10	289.60	-11	;stn M131
+27	29	6.50	268.60	0	;*
+27	30	6.50	88.60	-46	;M128
+30	31	2.80	90.60	-23	;*
+31	32	2.10	-	+V	;*
+32	33	2.50	87.60	-22	;*
+33	34	1.10	189.60	0	;*
+34	35	5.20	-	-V	;*
+35	36	1.30	-	+V	;*
+36	37	1.90	122.60	-23	;M121
+37	38	1.90	188.60	-46	;*
+38	39	3.50	108.60	-51	;stn chmbr knob
+39	40	2.20	143.60	-15	;*
+40	41	6.00	256.60	-25	;*
+41	42	3.20	209.60	13	;M104
+42	43	1.40	-	+V	;*
+43	44	1.90	284.60	-15	;*
+44	45	3.60	-	-V	;*
+45	46	2.80	348.60	-47	;v tight mud rift
+42	47	1.40	-	-V	;*
+47	48	3.00	181.60	-22	;est. v tight draughting
+47	49	3.00	-	-V	; v tight slot
+39	50	9.30	76.60	43	;M111
+50	51	4.50	229.10	58	;*
+51	52	3.00	96.60	18	;*
+52	53	6.50	-	-V	;blind p
+52	54	8.40	104.60	-48	;*
+54	55	1.40	36.60	28	;*
+55	56	4.00	50.60	0	;not promising
+28	57	12.50	270.10	26	;stn15
+57	58	4.40	269.60	2	;stn13
+58	59	6.20	268.60	39	;stn14
+58	60	0.80	207.60	-40	;stn12
+60	61	1.35	-	-V	;stn11
+61	62	6.16	223.60	-22	;stn10:top bolt of Y hang
+62	63	4.77	200.60	-68	;stn9
+63	64	13.13	-	-V	;stn8:p floor
+64	65	1.78	-	+V	;stn7
+65	66	1.02	227.60	0	;stn6
+66	67	2.11	256.60	-8	;stn5
+67	68	3.20	-	-V	;stn4
+68	69	1.82	207.60	6	;stn3 cairn
+69	70	2.00	289.60	22	;stn2
+70	71	6.00	268.60	-38	;est shot
+*END 1975_Mortiro

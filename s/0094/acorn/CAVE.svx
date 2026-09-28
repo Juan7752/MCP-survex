@@ -1,0 +1,21 @@
+*BEGIN 0094_Bardalones
+;Created from Survey file on Sat,19 Jun 2004.09:46:43
+;Dates surveyed : 000812
+;Surveyors      : BobC TedC
+;No of stations : 10
+;Plan length    : 43.2780056m
+;Traverse length: 45.5m
+
+*FIX 0 53170 96620 0442
+
+*ENTRANCE 0
+0	1	13.50	127.00	8	;stn5
+1	2	7.00	127.00	8	;stn4
+2	3	2.20	134.00	8	;stn3
+3	4	2.10	102.00	24	;stn2
+4	5	2.40	137.00	30	;stn1
+5	6	7.00	117.00	5	;stn0
+1	7	3.80	241.00	50	;stn7
+7	8	7.50	287.00	-10	;stn8
+0	9	0.0	-	+V	;*
+*END 0094_Bardalones

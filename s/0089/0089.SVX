@@ -1,0 +1,50 @@
+*BEGIN 0089_Grajos
+;Created from Survey file on Sun,09 May 1999.13:09:06
+;Dates surveyed : 940327
+;Surveyors      : PS JCo+PS JCo
+;No of stations : 30
+;Plan length    : 115.314759m
+;Traverse length: 122.05m
+
+;*FIX 0 453567 4797366 0380
+;*FIX 0 453561 4797376 0367 ; Easter 2010
+;*FIX 0 453459 4797167 0367; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 453459 4797167 0370
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+*EQUATE 1 20
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.9 degrees but should have been 4.12 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.12-3.9-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.18
+
+0	1	9.20	108.10	-25	;down entr slope
+1	2	6.50	15.10	-3	;wall
+2	3	6.60	130.10	-16	;*
+3	4	6.40	122.10	-23	;*
+4	5	8.30	83.10	4	;*
+5	6	7.80	156.10	-14	;*
+6	7	5.40	58.10	-53	;*
+6	8	6.30	232.10	7	;*
+8	9	7.30	111.10	4	;*
+9	10	3.90	73.10	-41	;*
+10	11	5.00	126.10	-2	;*
+8	12	6.50	177.10	3	;*
+8	13	5.80	276.10	7	;label 1
+13	14	6.30	214.10	21	;label 2
+14	15	1.70	236.10	11	;label 3
+14	16	2.30	282.10	27	;label 4
+16	17	2.80	228.10	0	;label 5
+14	18	7.50	324.10	28	;label 6
+18	19	8.40	281.10	5	;*
+19	20	8.05	28.10	3	;stn 1
+*END 0089_Grajos

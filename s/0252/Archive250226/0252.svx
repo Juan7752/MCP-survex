@@ -1,0 +1,55 @@
+*BEGIN 0252
+*CS UTM30N
+*CS OUT UTM30N
+
+*INFER exports on
+
+;<<<This adjusts all of the included surveys for magnetic declination>>>
+* DECLINATION auto 453024 4798423 239
+
+
+*EQUATE 0252-18_Ent.0 0252
+*ENTRANCE 0252
+
+*FIX 0252 453024 4798423 239
+
+*EQUATE 0252-18_Ent.41 4732
+*ENTRANCE 4732
+
+*INCLUDE 0252-18_Ent
+*INCLUDE 0252-21_link
+*INCLUDE 0252-21_chamber
+*INCLUDE 0252-21_pitch
+
+*INCLUDE 0252-22-01
+*INCLUDE 0252-22-02
+;*INCLUDE 0107-22-01	;this has been moved into the 0107 Uzueka folder
+
+*INCLUDE 0252-23-01
+*INCLUDE 0252-23-02
+*INCLUDE 0252-23-03
+
+*INCLUDE 0252-24-01
+*INCLUDE 0252-24-02
+*INCLUDE 0252-24-03
+*INCLUDE 0252-24-04
+
+*EQUATE 0252-18_Ent.48 0252-21_link.0
+*EQUATE 0252-21_link.3 0252-21_pitch.18
+*EQUATE 0252-21_pitch.11 0252-21_chamber.1.29
+*EQUATE 0252-22-01.1 0252-21_pitch.2	
+*EQUATE 0252-22-02.1 0252-22-01.105		;Linking dig towards Hoyuca into end of main streamway in Decepcion
+;*EQUATE 0252-22-02.7 0107-22-01.8		;Connection from end of dig into Hoyuca to top of Judgement pitch
+
+*EQUATE 0252-22-01.41 0252-23-03.41
+*EQUATE 0252-22-01.63 0252-23-01.1
+*EQUATE 0252-22-01.56 0252-23-02.sidi56
+
+;Autumn 2024 equates
+*EQUATE 0252-22-01.338 	0252-24-01.6	    ;RH passage at the end of Bat Inlet
+*EQUATE 0252-22-01.337 	0252-24-02.0		;LH passage at the end of Bat Inlet
+*EQUATE 0252-22-01.29 	0252-24-03.0		;the 3m climb at the base of Grand Slam
+*EQUATE 0252-22-01.34 	0252-24-04.0		;The big passage in Vienna Coup above the streamway from stn:34
+
+
+*END 0252

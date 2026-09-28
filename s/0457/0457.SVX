@@ -1,0 +1,33 @@
+*BEGIN 0457_Hammered
+;Created from Survey file on Fri,15 Aug 2003.20:22:15
+*DATE 2000.04.24
+;Surveyors      : Ali
+;No of stations : 5
+;Plan length    : 13.0825403m
+;Traverse length: 42.9m
+
+;*FIX 0 450881 4795341 0335
+;*FIX 0 450779 4795132 0335; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 450779 4795132 0328
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*FIX 0 450778 4795124 0330; Easter 2014
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.25 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.25-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+0	1	25.00	-	-V	;*
+0	2	10.00	184.00	-48	;*
+2	3	7.90	214.00	36	;marked stn3
+*END 0457_Hammered

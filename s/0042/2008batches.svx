@@ -1,0 +1,91 @@
+*BEGIN 
+*EQUATE 2008-1.6 2008-2.2
+*EQUATE 2008-1.12 2008-2.5
+*EQUATE 2008-1.17 2008-2.7
+
+*BEGIN 2008-1
+;survey 9.8.2008 A Neill P Eagen
+*CALIBRATE declination 2.15
+*CALIBRATE clino -1.5
+1	0	2.3	140	-1
+0	2	5.47	147	-31
+*FLAGS duplicate
+3	2	8.55	196	-49
+3	3a	5.51	49	46
+3a	4	12	53	25
+*FLAGS not duplicate
+4	5	5.79	250	18
+5	6	1.94	301	-6; hammered hole on wall
+6	7	10.34	240	40; stal in roof of rift
+
+0	8	1.98	274	-26
+8	9	1.59	208	-26
+9	10	2.89	268	-6
+*FLAGS duplicate
+11	2	5.94	298	37
+
+12	11	6.07	276	7
+13	12	8.04	303	38
+14	13	10.87	250	7
+15	14	19.58	255	-4
+16	15	20.77	270	10
+17	16	5.95	249	7
+*FLAGS not duplicate
+*data passage station left right up down
+1	.5	.5	10	2
+0	.5	.5	10	2
+2	3	2	1	2
+3	0.2	0.4	5	3
+*data passage station left right up down
+6	1.96	0	6.5	1.9
+*data passage station left right up down
+0	.5	.5	10	2
+8	2	0	6	12
+9	0	0.4	1.5	1
+10	0	0.4	1.5	1
+*data passage station left right up down
+2	2	3	1	2
+11	0.3	0.8	0.4	0.2
+12	0	1.3	2.8	1
+13	1.2	1.8	8.7	1.5
+14	0	2.5	1.4	0.5
+15	0	1.5	8	1.3
+16	3	0	7	1.5
+17	2.5	11	6.3	1.2
+*END 2008-1
+
+*BEGIN 2008-2
+*CALIBRATE declination 2.15
+*CALIBRATE clino -1.5
+;surveyors Ali Neill Peter Eagan Peter Smith
+*FLAGS duplicate
+0	1	7.33	53	15
+*FLAGS not duplicate
+2	0	3.99	91	-13; 2=hammered hole
+*FLAGS duplicate
+8	1	3.6	224	-41
+9	8	10.6	258	-20; 9=entrance
+*FLAGS not duplicate
+3	4	29.55	68	4
+3	5	3.24	289	2
+6	4	18.3	293	36
+*FLAGS DUPLICATE
+7	6	19.7	257	8; stn7 is 14
+*FLAGS NOT DUPLICATE
+
+
+*data passage station left right up down
+2	1.95	0	7	2.5
+0	.6	0	6.5	1
+8	.3	.4	10	5
+9	1.2	0	8.3	1.2
+*data passage station left right up down
+5	0	1.3	2.8	1
+3	3	2	2.5	1.5
+4	.5	3	2	1
+6	3.2	.7	4.9	1.3
+7	2.5	11	6.3	1.2
+*END 2008-2
+
+
+*END

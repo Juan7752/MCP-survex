@@ -1,0 +1,23 @@
+*BEGIN 1506_Road Show
+;Created from Survey file on Sat,26 Jun 2004.09:05:29
+;Dates surveyed : 000430
+;Surveyors      : Jim sam
+;No of stations : 12
+;Plan length    : 41.744157m
+;Traverse length: 46.4m
+
+*FIX 0 51830 97880 0245
+
+*ENTRANCE 0
+0	1	4.30	87.00	-6	;*
+1	2	4.70	280.00	-40	;*
+2	3	4.80	231.00	-23	;*
+3	4	5.50	354.00	-43	;*
+4	5	5.60	23.00	-28	;*
+5	6	8.40	31.00	-1	;*
+1	7	6.00	53.00	-3	;*
+7	8	3.40	54.00	-14	;*
+7	9	3.70	166.00	-41	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+*END 1506_Road Show

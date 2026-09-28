@@ -1,0 +1,19 @@
+*BEGIN 1393_13993
+;Created from Survey file on Sun,04 Apr 1999.23:24:31
+;Dates surveyed : 990404
+;Surveyors      : Adolfo
+;No of stations : 10
+;Plan length    : 80.7844351m
+;Traverse length: 81.1m
+
+*FIX 0 50110 93080 0542
+0	1	20.00	291.85	5	;*
+1	2	20.00	291.85	-5	;*
+2	3	6.60	356.85	0	;*
+3	4	5.00	286.85	5	;*
+4	5	9.50	226.85	10	;*
+5	6	20.00	296.85	0	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1393_13993

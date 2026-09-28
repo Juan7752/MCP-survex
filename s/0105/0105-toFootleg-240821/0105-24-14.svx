@@ -1,0 +1,138 @@
+*BEGIN 0105-24-14
+;Scampy inlet
+*DATE 2024.08.01
+*TEAM Alex Notes and sketch, Sam (instruments)
+40	1A	3.6	316	0	
+1A	1B	6.44	228	2
+1B	1C	6.3	300	8
+1C	1D	4.9	212	2
+
+1C	1E	6.37	272	-7
+1E	1F	3.5	202	2
+1F	1G	6.2	211	4
+1G	1H	3.14	98	2
+1H	1I	11.9	259	2
+1I	1J	3.85	265	22
+1J	1K	5.57	262	38
+1K	1L	5.08	275	8
+
+1I	1M	2.8	214	6
+1M	1N	3	205	7
+1N	1O	1.39	315	-25
+1O	1P	4.44	228	11
+1P	1Q	4.40	310	15
+
+1P	1R	6.34	217	2
+
+1P	1S	7.78	110	5
+1S	1T	3	111	40
+1T	1U	6.64	76	24
+
+1H	1V	4.42	113	0
+1V	1W	3.78	115	1
+1W	1X	7.36	55	8
+1X	1Y	2.13	308	-10
+1Y	1Z	6.63	35	-3
+1Z	1B	2.24	263	-4
+
+1Z	2A	8.35	108	6
+2A	B1	4.44	65	-13
+
+2A	2B	10.41	233	36
+2B	2C	6	211	-15
+2C	2D	4.07	132	2
+
+1F	2E	7.6	279	8
+2E	2G	4.2	218	3
+2G	1J	8.63	222	14
+
+2G	2H	6.52	300	5
+2H	2I	9.47	220	8
+
+2H	2J	1.4	35	0
+2J	2K	6.64	291	1
+2K	2L	4.62	300	1
+2L	2M	3.46	182	5
+2M	2K	4.03	72	0
+			
+
+	
+*data passage station left right up down
+40	0	0.9	0.8	1.4
+1A	2	1	0.9	1.2
+1B	0	0.7	1.5	1.5
+1C	1.9	1.2	2.3	1.3
+1D	0.3	0.3	0.5	0
+
+*data passage station left right up down
+1C	2.5	0	2.2	1.3
+1E	0.5	0	2	1.1
+1F	0	0.6	2	0.7
+1G	0.9	0	1.3	1.4
+1H	1.1	0	6	1.6
+1I	1	0	6.3	1.6
+1J	1.3	0	4.5	0.2
+1K	0	2.1	4	2.4
+1L	1.7	1	0.6	0
+
+*data passage station left right up down
+1I	1.1	0	6.9	1.6
+1M	0.9	0	7.7	1.2
+1N	0	0.8	1.2	1.4
+1O	0.8	0.6	3.4	0.9
+1P	0	0.9	2.9	1.2
+1Q	0.2	0.2	5	1.5
+
+*data passage station left right up down
+1P	0.8	0	2.9	1.2
+1R	0	0.3	6	1
+
+*data passage station left right up down
+1P	0.8	0	2.9	1.2
+1S	0.8	0.3	14	0
+1T	0.5	0	10.3	1.2
+1U	0.3	0.2	1.2	0
+
+*data passage station left right up down
+1H	0	1.2	6.1	1.4
+1V	0.9	1	2.9	1.2
+1W	1.4	1.5	1	1.2
+1X	1.2	0	0.3	0.2
+1Y	0	0.9	0.7	0.9
+1Z	3.1	0	1	1.5
+
+*data passage station left right up down
+1Z	0	3.2	1	0.5
+2A	1.2	0	3.2	1.3
+B1	1.3	4.1	0.4	1.2
+
+*data passage station left right up down
+2A	0	1.3	3.5	1.3
+2B	0.7	0.8	15.5	0.9
+2C	1.4	0	3.9	0.4
+2D	2.4	3	0.6	2
+
+*data passage station left right up down
+1F	0.9	0.8	2	0.8
+2E	0.6	0	2.6	1.5
+2G	0	0.6	2.5	1.4
+1J	1.2	0	6.3	1.6
+
+*data passage station left right up down
+2G	0	0.8	2.6	1.4
+2H	1	0	3.3	1.5
+2I	0.3	0.3	0.4	0
+
+*data passage station left right up down
+2G	0	1	2.6	1.4
+2J	0.6	0	3.4	1.5
+2K	1	1.3	1.7	1.5
+2L	2.6	1.7	3.4	1
+2M	4.3	0	5.7	1.1
+2L	0	0.9	1.7	1.5
+
+
+*data passage station left right up down
+
+
+*END 0105-24-14

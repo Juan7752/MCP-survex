@@ -1,0 +1,27 @@
+*begin 1471_009
+*DATE 2006.04.13
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+;Papa Noel. 13/4/06. Torben Redder, Kristine Korsgaard
+
+0	1	4.62	272	0; at stn0 marked; small stream heads 90; draught heads 270
+1	2	9.19	- 	+V
+2	3	2.88	217	53
+3	4	5.62	268	53
+4	5	1.94	102	65
+5	6	1.47	98	17; small horiz passage heads 270
+6	7	3.97	211	42
+7	8	1.47	249	0
+8	9	21.38	142	78
+9	10	8.14	137	80
+10	11	17.05	198	76
+
+*end 1471_009

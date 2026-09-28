@@ -1,0 +1,36 @@
+*BEGIN 0837_shaft
+;Created from Survey file on Sun,09 May 1999.21:27:33
+*DATE 1991.08.06
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.35 degrees but should have been 4.44 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.44-4.35-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.31
+
+;Surveyors      : PSmith
+;No of stations : 100
+;Plan length    : 50.230624m
+;Traverse length: 77.8m
+
+;*FIX 0 450630 4797230 0437
+;*FIX 0 450528 4797021 0437; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 450528 4797021 0434
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+0	1	6.00	39.65	-60	;*
+1	2	18.80	-	-V	;*
+2	3	3.00	317.65	-10	;*
+3	4	14.30	39.65	6	;*
+4	5	8.20	311.65	16	;*
+5	6	6.50	284.65	-47	;*
+6	7	9.20	344.65	-48	;*
+3	8	11.80	254.65	11	;*
+*END 0837_shaft

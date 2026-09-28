@@ -1,0 +1,21 @@
+*BEGIN 1804_1804
+;Created from Survey file on Sat,26 Jun 2004.13:42:12
+;Dates surveyed : 020808
+;Surveyors      : JC HL PS
+;No of stations : 10
+;Plan length    : 21.1500852m
+;Traverse length: 21.8m
+
+*FIX 0 51590 100750 0135
+
+*ENTRANCE 0
+0	1	11.90	314.30	-18	;STN3
+1	2	3.40	258.30	-10	;1ST queeze
+2	3	6.50	268.30	4	;calcite dig start
+0	4	0.0	-	+V	;*
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1804_1804

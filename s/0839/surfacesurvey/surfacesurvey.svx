@@ -1,0 +1,33 @@
+*begin surfacesurvey0839
+
+;surveyors: Alasdair Neill Pete Eagen Lank Mills
+;name: Cueva de la Virgens surface survey
+;date 10.6.2007
+*CALIBRATE declination 2.28
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;*fix 0	453610	4801960	120
+;*fix 8 453635 4801971 113
+;*fix 8 453533 4801762 113; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*fix 8 453533 4801762 112
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*FLAGS SURFACE
+1	0	4.9	139	-5	;0=0839 entrance
+1	2	20	250	7
+2	3	28.2	179	-2
+4	3	7.5	305	-18	;4=draughting entrance - possibly 840
+3	5	17.5	226	-3
+5	6	7.9	120	-13	;choked entses, dig ?0840 given a new number 2692
+
+1	7	22.8	64	-6	;barbeque
+7	8	14.4	141	-5	;nose of rock over entrance pool, Fuente de la Virgen 0582.
+
+*FLAGS NOT SURFACE
+*end surfacesurvey0839

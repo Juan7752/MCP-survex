@@ -1,0 +1,25 @@
+*BEGIN 0937_TrasCotera
+;Created from Survey file on Mon,10 May 1999.19:18:04
+;Dates surveyed : 930729
+;Surveyors      : PS
+;No of stations : 10
+;Plan length    : 38.2182711m
+;Traverse length: 38.3m
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+;*FIX 0
+0	1	5.50	329.95	-2	;*
+1	2	15.70	240.95	0	;*
+2	3	8.00	229.95	1	;8
+1	4	4.10	349.95	5	;*
+4	5	5.00	41.95	-9	;*
+*END 0937_TrasCotera

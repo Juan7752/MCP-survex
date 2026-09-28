@@ -1,0 +1,22 @@
+;survey 2019.04.16, PP, RB stations 1 to 40
+
+*begin 4474All
+
+;*export 38
+*Include 4474
+*Include 4474_2
+*include 4474_3
+*include 4474Surface
+*include 4474_4
+*include 4474-19-01
+*include 4474-19-02
+*include 4474-19-03
+
+*equate 4474.8 4474_2.39
+*equate 4474_2.37 4474_3.9
+*equate 4474_3.1 4474_4.11
+*equate 4474_4.3 4474-19-01.A
+*equate 4474_4.6 4474-19-02.B
+*equate 4474_2.6 4474-19-03.C
+
+*end 4474All

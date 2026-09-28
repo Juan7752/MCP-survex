@@ -1,0 +1,59 @@
+*BEGIN 0105_Riano
+;Created from Survey file on Wed,11 Oct 1995.20:45:33
+;Dates surveyed : 74onwards&910809&910909&920617&920721&920722&920802
+;Surveyors      : Various+LMills+PStacey++andy++
+;No of stations : 900
+;Plan length    : 7281.46414m
+;Traverse length: 7482.48383m
+
+;*include Entrance.svx
+*include Entrance2.svx
+;*include Entrance_alt.svx
+*include DownStream.svx
+*include UpStream.svx
+*include DryMazeLoop.svx
+*include DryMaze.svx
+*include HighRift.svx
+*include DormouseInlet.svx
+*include DoubleBarrel.svx
+*include CoffinLevelInlet.svx
+*include CatPaw.svx
+*include LowerUpstream.svx
+*include LinkToUpperLevels.svx
+*include UpperLevels.svx
+*include UpperLevels2.svx
+*include UpperLevels3.svx
+*include FarEnd.svx
+*include FarEndInlet.svx
+*include DownStreamInlet.svx
+*include DownStreamExtn.svx
+*include ExtnOffEntranceInlet.svx
+*include Easter06Extn.svx
+
+*equate Riano_Entrance.20 Riano_DownStream.755
+*equate Riano_Entrance.19 Riano_ExtnOffEntranceInlet.19
+*equate Riano_DownStream.28 Riano_DownStreamInlet.28
+*equate Riano_DownStream.28 Riano_DownStreamExtn.28
+*equate Riano_Entrance.20 Riano_UpStream.20
+*equate Riano_Entrance.17 Riano_DryMazeLoop.17
+;*equate Riano_Entrance2.819 Riano_DownStream.755
+;*equate Riano_Entrance2.819 Riano_UpStream.20
+;*equate Riano_Entrance2.808 Riano_DryMazeLoop.17
+*equate Riano_DryMazeLoop.231 Riano_DormouseInlet.231
+*equate Riano_DryMaze.231 Riano_DormouseInlet.231
+*equate Riano_DryMazeLoop.227 Riano_HighRift.227
+*equate Riano_UpStream.63 Riano_DoubleBarrel.63
+*equate Riano_DoubleBarrel.77 Riano_CoffinLevelInlet.77
+*equate Riano_DoubleBarrel.77 Riano_Catpaw.77
+*equate Riano_DoubleBarrel.72 Riano_Easter06Extn.0
+*equate Riano_LowerUpstream.78 Riano_CoffinLevelInlet.78
+*equate Riano_LinkToUpperLevels.134 Riano_UpperLevels.134
+*equate Riano_Catpaw.121 Riano_UpperLevels.121
+*equate Riano_UpperLevels.130 Riano_UpperLevels2.130
+*equate Riano_UpperLevels2.167 Riano_UpperLevels3.167
+*equate Riano_UpperLevels2.174 Riano_FarEndL.174
+*equate Riano_UpperLevels2.174 Riano_FarEndR.174
+*equate Riano_UpperLevels2.174 Riano_FarEndInlet.174
+
+
+*END 0105_Riano

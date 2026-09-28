@@ -1,0 +1,22 @@
+*BEGIN 1403
+;Created from Survey file on Wed,28 Jul 1999.18:37:34
+;Dates surveyed : 990728
+;Surveyors      : Juan Pete AndyQ
+;No of stations : 20
+;Plan length    : 44.516274m
+;Traverse length: 52.2m
+
+*FIX 0 50650 96470 0228
+0	1	3.80	3.85	-26	;stn12 is shorter drop top; 9 below
+1	2	6.20	37.85	-35	;stn 10
+2	3	5.20	11.85	23	;stn11 stal chmbr
+1	4	4.40	338.85	-15	;stn8
+4	5	5.10	254.85	-9	;stn7
+5	6	4.60	216.85	1	;stn6
+6	7	3.90	180.85	-40	;*
+7	8	3.80	-	-V	;stn1
+8	9	1.10	70.85	-25	;stn2
+9	10	3.40	13.85	-10	;stn3
+10	11	3.40	13.85	0	;stn4 approx
+7	12	7.30	238.85	25	;stn5
+*END 1403

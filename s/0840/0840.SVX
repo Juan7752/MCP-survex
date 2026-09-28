@@ -1,0 +1,48 @@
+*BEGIN 0840_VirgenIV
+;Created from Survey file on Sat,17 Feb 1996.21:45:26
+;Dates surveyed : 920727
+;Surveyors      : Lank +
+;No of stations : 20
+;Plan length    : 81.3961941m
+;Traverse length: 83.84m
+
+;*FIX 0 453600 4801930 0130; historical
+;*FIX 0 453595 4801931 0120
+;*FIX 0 453493 4801722 0120; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 453493 4801722 0121
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.2 degrees but should have been 4.32 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.32-4.2-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.28
+
+0	1	5.40	85.80	0	;stn 17
+1	2	5.50	112.80	0	;stn 16
+2	3	3.00	128.80	-10	;stn 15
+3	4	6.40	92.80	4	;stn 14
+4	5	4.60	82.80	20	;stn 13
+5	6	5.00	99.80	-15	;stn 5
+6	7	3.60	34.80	-3	;stn 4
+7	8	2.80	90.80	18	;stn 2
+8	9	2.50	113.30	-22	;stn 1
+9	10	4.54	68.30	-11	;stn 0
+8	11	5.00	59.80	26	;stn 3
+6	12	3.70	97.80	12	;stn 6
+6	13	5.30	166.80	-6	;stn 7
+13	14	4.20	209.80	18	;stn 8
+14	15	2.80	159.80	21	;stn 9
+15	16	4.10	218.80	4	;stn 10
+16	17	5.40	126.80	-5	;stn 11
+14	18	10.00	286.80	-18	;stn 12
+*END 0840_VirgenIV

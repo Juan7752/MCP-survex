@@ -1,0 +1,53 @@
+*BEGIN 0122_Suviejo
+*CS UTM30N
+*CS OUT UTM30N
+
+;Created from Survey file on Wed,10 Apr 1996.21:35:04
+;Dates surveyed : 78/8&960410
+;Surveyors      : ND+PeteS+JuanC
+;No of stations : 126
+;Plan length    : 1268.36131m
+;Traverse length: 1378.92m
+
+
+;QUERIES 
+
+
+*INCLUDE 0122_1978_entrance
+*INCLUDE 0122_1978_Nigel-C
+*INCLUDE 0122_1996_PeteS;   ERRORS?????
+*INCLUDE 0122_1978_Laredo
+*INCLUDE 0122_1978_BHP
+*INCLUDE 0122_1978_FranksP
+*INCLUDE 0122_1978_HL
+*INCLUDE 0122_1978_Misty
+*INCLUDE 0122_1978_PBC
+*INCLUDE 0122_1978_Crunch
+*INCLUDE 0122_1978_Camp-south
+
+
+*INCLUDE 0122-09-01
+*INCLUDE 0122-09-02
+*INCLUDE 0122_17_01
+
+
+*equate 0122_1978_entrance.31 0122_1978_Nigel-C.31
+*equate 0122_1978_entrance.4 0122-09-01.16
+*equate 0122-09-01.7 0122-09-02.35
+*equate 0122_1996_PeteS.0 0122_1978_entrance.0
+*equate 0122_1978_entrance.4 0122_1978_Laredo.54
+*EQUATE 0122_1978_BHP.19 0122_1978_Laredo.44
+*EQUATE 0122_1978_FranksP.1 0122_1978_Laredo.31
+*EQUATE 0122_1978_HL.7 0122_1978_entrance.4
+*EQUATE 0122_1978_Misty.8 0122_1978_HL.3; ????????????????????????
+*EQUATE 0122_1978_HL.4 0122_1978_PBC.7
+*equate 0122_1978_Crunch.80 0122_1978_Nigel-C.89
+*EQUATE 0122_1978_Camp-south.22 0122_1978_Nigel-C.31
+
+;These 2 equates produce a large error
+;*EQUATE 0122_1978_Nigel-C.39 0122_1996_PeteS.109
+;*EQUATE 0122_1978_Nigel-C.48 0122_1996_PeteS.119
+
+*EQUATE 0122_17_01.1.0 0122-09-02.20
+
+*END 0122_Suviejo

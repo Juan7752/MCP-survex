@@ -1,0 +1,66 @@
+*begin 2964_08_01
+;surveyors: Terry Whitaker Martin Barnicott Lloyd Cawthorne
+;name: Not Too Bad
+*DATE 2008.08.24
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+
+;;;;; Moved to main 2964.svx file ;;;;;
+;*FIX 15 455365 4794667 0495
+;*FIX 15 455263 4794458 0495; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;*ENTRANCE 15
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+0	1	4.82	-	up
+1	2	1.31	248	0
+2	3	2.49	166	-46
+3	4	4.56	-	up
+4	5	3.7	200	23
+5	6	22	-	up
+6	7	4.25	181	36
+7	8	1.72	175	19
+8	9	2.33	184	20
+9	10	5.6	-	up
+10	11	5.5	167	67
+11	12	2.13	161	-7
+12	13	3.99	34	-4
+
+12	14	2	145	7
+14	15	19.27	-	up
+
+
+*data passage station left right up down
+0	.15	.15	4.82	0; awkward cl - gravel floor
+1	.1	1.3	6	0
+2	.5	0	2.6	2
+3	0	1.45	16	2; p5m
+4	0	2.3	22	1.65
+5	0	.6	28	0
+6	.3	0	6.4	0
+7	.45	0	6	1.4
+8	0	.61	7.5	1.2
+9	.2	0	4.5	0; p6
+10	1.1	0	5	1.6
+11	.8	0	1.8	1
+12	.3	.3	7	1.0; aven branch east
+13	.3	.3	7	1
+
+*data passage station left right up down
+12	.4	.3	7	1
+14	3	1.5	19.27	0
+
+; 2m beyond stn0 finishes in tight meander; needs snapper to reach 10-15m pitch.
+*end 2964_08_01

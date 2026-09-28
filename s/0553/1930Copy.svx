@@ -1,0 +1,126 @@
+*begin 1930A
+*CALIBRATE COMPASS .4
+; for plotting on Eur79 map??
+*include 0553_000
+
+*include 1930_001	; 		top entrance into cave
+*include 1930_002	; 11/4/04	downstream beyond cairn
+*include 1930_003	; 		inlet
+*include 1930_004	; 		inlets
+*include 1930_005	; 		inlets
+*include 1930_006	; 		inlets
+*include 1930_007	; 		downstream to top of cascade
+*include 1930_008	; 		cont roof tubes
+*include 1930_009	; 		cont roof tubes
+*include 1930_010	; 
+*include 1930_011	; 		downstream oxbows
+*include 1930_012	; 		between pitches
+*include 1930_013	; 		below main pitch
+*include 1930_014	; 		Inlet before bouldery chamber - Passage of Vom
+*include 1930_015	; 		Wessex Inlet
+*include 1930_016	; 		Just an Inlet
+*include 1930_017	; 19/4/04	Evidence of Measure
+*include 1930_018	; 17/4/04	Grabba's oxbow
+; >>>>>>>> End of Easter 2004
+*include 1930_019	; 31/5/04	Birthday Passage
+*include 1930_020	; 31/5/04	Two Fools Passage linked to rift up ladder
+; >>>>>>>> End Whit 2004
+*include 1930_021 ; 17/7/04	through Big Keyhole
+*include 1930_022	; 23/7/04	downstream from Sandstone Chambers after Big Keyhole
+*include 1930_023 ; 24/7/04	Maze Area
+*include 1930_024	; 25/7/04	streamway below p5 to downstream choke
+*include 1930_025	; 25/7/04	Oxbow & Aven Passage underneath maze
+*include 1930_026	; 25/7/04	Taters Deep, Mountains High (beyond Big Keyhole)
+*include 1930_027	; 26/7/04	Big Keyhole RH branch
+*include 1930_028	; 26/7/04	Top Tip (beyond Big Keyhole)
+*include 1930_029	; 26/7/04	Evidence Oxbow (beyond Big Keyhole)
+*include 1930_030	; 28/7/04	Through downstream choke
+*include 1930_031	; 29/7/04	Down p11
+*include 1930_032	; 29/7/04	high levels in choke
+*include 1930_033 ; 31/7/04	Sandals Inlet
+*include 1930_034 ; 31/7/04
+; >>>>>>>> End summer 2004
+*include 1930_035 ; 28/10/04	Wessex Inlet sump lowering
+*include 1930_05_01 ; 13/02/05	Evidence Oxbow Extension
+*include 1930_05_02 ; 13/02/05	Evidence Oxbow Extension - 2
+;start 2007
+*include 1930_07_01 ;070404 Off Pinnacle Passage
+*include 1930_07_02 ;Birthday Passage Extension
+*include 1930_07_03 ;Just An Inlet extension
+*include 1930_07_04 ;Just An Inlet Inlet
+*include 1930_07_05 ;Samuri Tiger
+*include 1930_07_06 ;
+*include 1930_07_07
+*include 1930_07_08;Wounded Knee
+*include 1930_08_01;Wounded Knee - Meander Inlet
+
+
+;>>>> start 2009
+*include 1930_09_01;Inlet off Vom
+*include 1930_09_02;boulder choke
+*include 1930_09_03;inlet
+
+
+*equate 000_surface.rift 1930_001.1
+*equate 1930_001.74 1930_002.0
+*equate 1930_001.23 1930_003.0
+*equate 1930_001.47 1930_003.47
+*equate 1930_001.32 1930_004.32
+*equate 1930_003.6 1930_005.6x
+*equate 1930_005.2 1930_006.0
+*equate 1930_002.53 1930_007.0
+*equate 1930_008.0 1930_006.14
+*equate 1930_009.53 1930_001.53
+*equate 1930_006.16 1930_009.16
+*equate 1930_010.67 1930_001.67
+*equate 1930_001.71 1930_011.14
+*equate 1930_010.2 1930_011.1
+*equate 1930_007.36 1930_012.0
+*equate 1930_012.6 1930_013.5
+*equate 1930_001.61 1930_010.61
+*equate 1930_013.13 1930_014.13
+*equate 1930_013.18 1930_015.18
+*equate 1930_014.79 1930_016.79
+*equate 1930_016.151 1930_017.151
+*equate 1930_002.11 1930_018.11
+*equate 1930_019.180 1930_017.180
+*equate 1930_020.7old 1930_004.7; CLOSE CIRCLE
+*equate 1930_019.219 1930_017.219
+*equate 1930_020.228 1930_017.228
+;*equate 1930_004.4 1930_020.43; OR CLOSE CIRCLE
+*equate 1930_017.230 1930_021.230
+*equate 1930_021.13 1930_022.29
+*equate 1930_021.10 1930_022.32
+*equate 1930_006.13 1930_023.0
+*equate 1930_013.6 1930_024.0
+*equate 1930_013.18 1930_024.15
+*equate 1930_001.53 1930_025.0
+*equate 1930_001.50 1930_025.9
+*equate 1930_017.228 1930_026.0
+*equate 1930_020.38 1930_026.19
+*equate 1930_021.0 1930_027.0
+*equate 1930_028.25 1930_021.13
+*equate 1930_029.205 1930_017.205
+*equate 1930_030.0 1930_024.15
+*equate 1930_031.16 1930_030.16
+*equate 1930_032.10 1930_024.15
+*equate 1930_033.4 1930_002.40
+*equate 1930_034.0 1930_002.11
+*equate 1930_015.97 1930_035.8
+*equate 1930_05_01.0 1930_029.32
+*equate 1930_05_02.10 1930_029.26
+*EQUATE 1930_026.19 1930_07_01.0
+*EQUATE 1930_019.2 1930_07_02.0
+*EQUATE 1930_017.162 1930_07_03.9
+*EQUATE 1930_07_03.9 1930_07_04.0
+*EQUATE 1930_07_05.53 1930_07_01.0
+*EQUATE 1930_07_04.20 1930_07_06.15
+*EQUATE 1930_07_04.42 1930_07_07.0
+*EQUATE 1930_003.6 1930_07_08.39
+*EQUATE 1930_07_05.60 1930_004.10;>>>>>>>>>>>>>POSSIBLY
+*EQUATE 1930_07_08.0 1930_08_01.5
+*EQUATE 1930_016.146 1930_09_01.146
+*EQUATE 1930_030.0 1930_09_02.10
+*EQUATE 1930_024.8 1930_09_03.guess
+
+*end 1930A

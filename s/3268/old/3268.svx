@@ -1,0 +1,20 @@
+*BEGIN 3268
+;surveyors: Chris Camm Juan Corrin
+;Using DistoX
+;passage name: 
+;date: 
+; Matienzo position is 43.315936, -3.584633. Declination can be found at
+; www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*CALIBRATE declination 2.08
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+; Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+
+*INCLUDE maze090718.svx
+*INCLUDE maze090722.svx
+*FIX Mazecave18jul091.0 445996 4801460 95
+*EQUATE Mazecave18jul091.22 Maze090722.22
+*END 3268
+

@@ -1,0 +1,22 @@
+*BEGIN 0081-14-10
+
+;connection bypass cont
+*TEAM "Alasdair Neill Tom Gamble Sam Corless Jack Dewison" notes laser-length compass clino
+ 
+
+*date 2014.08.04
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+;11 is torben 2.8
+9	10	18	276	0	;SHOT ALONG DODGY TRAVERSE
+9	11	11.2	83	-2
+
+*data passage station left right up down
+9	1.7	.2	.3	1.2
+11	0.877	1.339	6.651	0.545	
+*END 0081-14-10

@@ -1,0 +1,13 @@
+*begin combined
+	*CS UTM30N
+	*CS OUT UTM30N
+
+	*begin manual-dec
+		*INCLUDE 0107.svx
+	*end manual-dec
+
+	*begin auto-dec
+		*INCLUDE 0107-footleg.svx
+	*end auto-dec
+
+*end combined

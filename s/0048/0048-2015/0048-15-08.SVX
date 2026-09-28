@@ -1,0 +1,36 @@
+*BEGIN 0048-15-08
+
+;Entrance Series up stal slope
+
+
+*date 2015.04.06
+
+*TEAM  "Alasdair Neill" notes "Dave Bell" compass clino disto
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.78
+
+1	0	9.37	282	-3
+2	1	9.93	11	14	;sta 2 marked
+3	2	5.95	301	4
+4	3	2.45	28	-15	;sta 4 marked triangle
+5	4	1.97	23	42
+6	5	6.07	247	-13
+7	4	4.54	40	41
+8	7	6.37	359	31
+*FLAGS DUPLICATE
+8	9	4.59	123	0
+*data passage station left right up down
+0	.8	.8	.8	.8
+1	1.2	3	1.75	.9
+2	2.75	0	.9	.9
+3	2.2	0	1.4	.4
+4	0	1.9	5.5	.8
+5	.7	.2	1.5	1.2
+6	2.7	2.6	.8	1.1
+*data passage station left right up down
+4	0	1.9	5.5	.8
+7	2.3	.3	2.1	.3
+
+*END 0048-15-08

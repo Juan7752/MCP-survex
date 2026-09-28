@@ -1,0 +1,50 @@
+*begin 2366_06_01
+
+;surveyors: Steve M, Carmen Haskell, Pete Smith
+;name: El Torno
+
+*date 2006.04.09
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+;*FIX 14 452783 4801431 0207
+;*FIX 14 452681 4801222 0207; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 14 452681 4801222 0206
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 14
+0	1	5.6	166	-7
+1	2	4.4	152	1
+2	3	5.6	101	-2
+3	4	4.3	91	0
+4	5	3.4	50	18
+5	6	4.6	96	5
+6	7	4.7	74	2
+7	8	3.6	8	0
+6	9	4	345	-3
+9	10	4.6	358	-8
+10	11	7.4	234	2
+11	3a	7.8	218	-3
+10	12	3.1	356	11
+12	13	2.3	0	23
+13	14	3.5	36	15;
+
+20	21	6.2	340	1
+21	22	7	355	2
+22	23	7.4	25	5
+23	24	8.5	342	4
+24	25	7.7	21	15
+25	26	9.4	351	3
+26	27	3	-	+V
+27	6	4.1	105	21
+*end 2366_06_01

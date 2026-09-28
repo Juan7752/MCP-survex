@@ -1,0 +1,49 @@
+*begin 0774-09-04
+
+;*export 6
+
+*title "Morenuca Far Passage Left"
+*date 2009.07.31
+*team Insts Mandy
+*team Notes Patrick
+*team Tape Mandy
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+*instrument Carmen's pony + disto
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal	from to compass clino tape
+1	2	338	+34	6.60
+1	1a	 - 	down	25 	; not a real leg
+2	3	341	+9	6.63
+3	4	040	+7	6.61
+4	5	338	+62	6.72
+6	5	118	+7	3.75
+
+*data passage station left right up down
+
+; station LRUDs
+
+1	4.4	3.7	11.7	1.0 ; middle of chamber
+; 1a estimated foot of 20m pitch
+2	3.9	2.0	7.0	2.4
+3	1.0	2.8	1.5	1.0
+4	2.6	1.6	5.4	2.3
+; 5 is stal in roof
+; 6 is station 12 from 14/3/01
+
+*end 0774-09-04
+
+
+
+

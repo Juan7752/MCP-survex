@@ -1,0 +1,21 @@
+*begin 4699
+;surveyed Alf Latham and Phil Parker
+*data normal From To Length Bearing gradient
+*CALIBRATE DECLINATION 0.35
+*entrance 1
+*FIX 1 446088 4800919 150
+
+1	2	12.2	130	-60
+2	3	5.3	320	0
+2	4	2.52	138	0
+4	5	8	0	-90
+5	6	2.4	29	0
+6	7	5.33	324	-73
+7	8	1.66	75	0
+8	9	7.1	17	-65
+9	10	5.5	31	0
+9	11	1.5	31	-4
+11	12	4.8	0	-90	
+
+
+*end 4699

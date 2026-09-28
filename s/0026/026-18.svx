@@ -1,0 +1,47 @@
+*BEGIN 026-18
+;TivA BLANCO TO ROSARDO START
+
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35
+
+;surveyors: TIM WEBBER, RICHARD SORE
+;passage name: BLANCO TO ROSARDO
+*date 2011.07.29
+
+
+; Station B6 equals 026-16.1
+; Station 50 equals 026-3.34
+
+;from 	to	len	comp	clino
+; Blanco to start of Rosardo
+
+B6	42	18.81	196	+4
+42	43	12.3	109	+4
+43	44	2.29	155	-24
+44	45	3.59	136	-3.7
+44	46	7.71	120	-10
+46	47	5.61	119	0
+47	48	4.58	135	-16
+48	49	3.83	183	+17
+49	50	13.87	123	+2
+; Station 50 is marked on wall as 2.34 in tippex
+; Station 50 equals 026-3.34
+
+*data passage station left right up down
+42	1.38	1.27	4.98	1.38
+43	0.86	1.07	4.14	2.30
+44	0.49	0.42	5.2	1.89
+45	0	3.0	0.5	1.5
+46	1.33	1.45	6.9	3.48
+47	0.85	1.31	6.9	3.48
+48	1.01	1.08	7.33	0.80
+49	1.2	0	5.35	1.32
+
+*END 026-18

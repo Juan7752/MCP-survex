@@ -1,0 +1,55 @@
+*BEGIN 3638
+
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at
+;www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+;Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+;declination is 1deg-55mins ie 1.92deg for 2010 Easter
+;declination is 1deg-53mins ie 1.88deg for 2010 summer
+;declination is 1deg-47mins ie 1.78deg for 2011 Easter
+;declination is 1deg-45mins ie 1.75deg for 2011 summer
+;1.67 for 2012 Easter
+;1.63 for 2012 summer
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors: Simon Andrew Nathan Latimer
+;passage name: 
+*date 2012.04.05
+
+*FIX 18 448409 4795168 405
+*ENTRANCE 18
+*CALIBRATE declination 1.67
+
+1	2	6.4	20	3
+2	3	4.2	40	0
+3	4	16.9	340	3
+4	5	12.75	342	3
+5	6	1.5	240	0
+6	7	11.8	346	6
+7	8	4.14	38	-2
+8	9	10	-	up
+9	9b	11	165	-10
+
+9	10	6.7	335	0
+10	11	12	329	0
+11	12	7.8	212	13
+12	13	4.7	230	55
+13	14	5	200	25
+14	15	1.6	98	35
+15	16	22	-	up
+17	16	3.3	30	-49
+17	18	10	30	55
+
+
+
+;*data passage station left right up down 
+
+;*FLAGS duplicate | splay | surface
+
+*END 3638

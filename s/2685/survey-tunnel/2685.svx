@@ -1,0 +1,37 @@
+*begin 2685
+
+;surveyors: Harry Long John Clarke
+;name: Prophet's Cave
+;date 070729
+*CALIBRATE declination 2.28
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+*FIX entrance 452887 4799949 273
+*ENTRANCE entrance
+
+1	entrance	6.5	210	4
+2	1	5.7	232	7
+2	3	5.7	-	-V
+4	3	5	40	-4
+5	4	4	6	-5
+6	5	2.9	320	22
+6	7	1.6	-	-V
+8	7	2.7	5	23
+9	8	1	275	-10
+10	9	3.7	52	8
+11	10	5.5	42	2
+
+21	3	4.6	220	-4
+22	21	1.4	140	2
+23	22	6.3	230	0
+24	23	6	310	3
+25	24	4	295	0
+25	26	3	220	0
+50	23	12	210	0
+70	22	12	54	-4
+
+23	99	3	309	3; guess
+*end 2685

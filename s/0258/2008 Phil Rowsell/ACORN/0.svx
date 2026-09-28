@@ -1,0 +1,17 @@
+*BEGIN 0258_
+;Created from Survey file on Sun,20 Jun 2004.09:41:17
+;Dates surveyed : 970807
+;Surveyors      : Hugh Browning
+;No of stations : 6
+;Plan length    : 86.329255m
+;Traverse length: 96m
+
+*FIX 0 48890 95270 0295
+
+*ENTRANCE 0
+0	1	16.00	279.55	30	;*
+1	2	20.00	280.05	24	;*
+2	3	20.00	271.55	22	;*
+3	4	20.00	289.55	27	;*
+4	5	20.00	294.55	25	;shaft
+*END 0258_

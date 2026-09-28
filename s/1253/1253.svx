@@ -1,0 +1,34 @@
+*BEGIN 1253 
+;FILE NAME 1253
+;FILE AUTHOR: Nigel Dibben
+;FILE DATE: 10 8 2016
+;METRIC
+;CAVE   NAME: Cave 1253 Dead Fox Dig
+;CAVE  PLACE: 30 T 452878 4794830 321
+;DATUM WGS84
+
+*CALIBRATE DECLINATION 1.0
+;CALBRATION FROM ngdc.noaa.gov
+
+*FIX 5 452878 4794830 321
+*ENTRANCE 5
+
+;# SHOT  STATION  STATION  LENGTH   AZIMUTH/BRG VERTICAL/INCL  LEFT   RIGHT   UP    DOWN  COMMENT
+;# CODE  FROM     TO       M        DEG         DEG            M      M       M     M    
+
+*flags not surface
+2	1	1.87	191	-31
+3	2	3.00	124	-33.5
+4	3	3.17	183	-3.5
+5	4	4.93	211	-8
+
+*data passage station left right up down 
+1	0.1	0.5	0.7	0
+2	0.34	0.42	0.32	0.52
+3	1.16	0	0.62	1.26
+4	1.09	0	0.74	1.2
+5	0.39	1.19	0	0.91
+
+*END 1253
+
+

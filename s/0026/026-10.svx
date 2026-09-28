@@ -1,0 +1,19 @@
+*BEGIN 026-10
+;Tiva_upstream__little__bit
+
+*Date 2010.07.24
+;*CALIBRATE DECLINATION 1.88
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.48
+
+1	0	 4.09	346.89	 30.48
+1	2	 7.24	106.75	 44.43
+
+
+*END 026-10

@@ -1,0 +1,26 @@
+*BEGIN 0651_Roldan-Surface
+;Created from Survey file on Sun,20 Jun 2004.18:07:15
+;Dates surveyed : 920805
+;Surveyors      : Andy Hall ++Andy Hall +
+;No of stations : 10
+;Plan length    : 104.631589m
+;Traverse length: 109.2m
+
+*FIX 4
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.2 degrees but should have been 4.32 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.32-4.2-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.28
+
+0	1	25.50	20.80	-17	;site 650
+0	2	23.70	118.80	7	;*
+2	3	30.00	253.80	18	;*
+3	4	30.00	210.80	20	;tower
+*END 0651_Roldan-Surface

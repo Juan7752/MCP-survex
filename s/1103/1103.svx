@@ -1,0 +1,32 @@
+*begin 1103
+*title "1103"
+*date 2007.10.19
+*team "Ian Chandler" Tape
+*team "Chris Camm" compass clino tape notes
+*instrument compass "CC"
+*instrument clino "CC"
+;*CALIBRATE DECLINATION 2.18
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.87; (2.27-0.4)
+
+;*FIX 0 455657 4799405 110
+;*FIX 0 455555 4799196  110; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*FIX 0 455555 4799196  100
+
+*ENTRANCE 0
+;From	To	Length	Bearing	Clino
+0	7	1	0	-90
+7	8	2.2	120	-37
+9	8	1.6	50	+17
+9	10	2.4	105	-77
+10	A	6	140	-45
+10	B	4	50	0
+10	C	8	140	-10
+A	D	20	225	0
+*end 1103

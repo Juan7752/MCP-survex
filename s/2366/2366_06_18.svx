@@ -1,0 +1,38 @@
+*begin 2366_06_18
+;
+*DATE 2006.08.03
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+; 3/8/06 PBW + Footleg + Caroline, Granny's slippers and beyond, Torno
+; patrick = recording, footleg = instruments, caroline = tape
+; instruments = CH tandem + expo tape measuring from 20cm
+*calibrate tape +0.20
+
+	 1	 2	11.20	136	-16
+	 3	 2	 5.75	026	 +1
+; the following leg duplicates one of Ali's the previous day so should not be counted in the length
+*FLAGS DUPLICATE
+	 4	 3	 6.40	311	-28
+*FLAGS NOT DUPLICATE
+	 4 	 5	17.15	132	 -3
+	 5	 6	 4.97	031	 +2
+	 6	 7	 8.98	109	 -2 ; station 6 is the cairn in the chamber below the climb up
+	 7	 8	12.10	119	  0
+	 8	 9	 7.24	136	 +2
+	 9	10	 7.35	023	 -4
+	10	11	10.80	117	 +3
+	11	12	12.60	138	 -2
+	13	14	 6.07	038	 -9
+	14	15	 5.29	081	 +3
+	15	16	 4.80	023	 -5
+	 7	16	 1.70	 -	down
+
+*end 2366_06_18

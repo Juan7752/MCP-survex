@@ -1,0 +1,23 @@
+*BEGIN 3895-13-2
+*DATE 2013.10.14
+;Surveyors Alasdair Neill Peter Eagen
+;*CALIBRATE DECLINATION 1.48
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.08
+
+0	1	5	160	2
+1	2	2.9	197	2
+2	3	2.39	168	-8
+3	4	0.66	135	28
+*data passage station left right up down
+0	0.8	0.6	0.4	0.7
+1	0.3	1	0.5	0.5
+2	0.4	0.7	0.3	0.3
+3	1.2	1.3	0.4	0
+*END 3895-13-2

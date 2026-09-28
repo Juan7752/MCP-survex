@@ -1,0 +1,26 @@
+*BEGIN 0841-16-03
+;Situation Normal
+
+*date 2016.08.05
+*TEAM "James Carlisle" notes "Lauren Griffin" compass clino disto
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.61
+1	2	2.34	062	-22
+2	3	9.03	044	-29
+3	4	9.02	059	-20
+4	5	3.17	110	+18
+5	6	7.58	033	-6
+
+
+
+*data passage station left right up down
+1	2.0	2.0	7.0	0.0
+2	0.5	0	1.5	2
+3	0	1.0	4.0	3.0
+4	0.3	0.2	0	0.6
+5	0.2	0.6	2.0	2.0
+6	0.2	0.6	2.0	2.0
+
+
+*END 0841-16-03

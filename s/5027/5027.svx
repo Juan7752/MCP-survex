@@ -1,0 +1,33 @@
+*begin 5027
+;Monte llusa area
+;small walk-in linear cave found Easter 2019
+;originally coded as X017
+;surveyors Alf Latham, Phil Goodwin
+*data normal from to length bearing gradient
+*CALIBRATE DECLINATION 0.19
+*entrance 1
+*FIX 1 0449529 4804617 325
+   1	2	2.32	325	-40;duck-in entrance
+   2	3	1.60	031	  0;remainder of cave is walking height
+*FLAGS SPLAY
+   3	4	1.45	332	  0;
+   3	5	0.86	129	  0;
+*FLAGS NOT SPLAY
+   3	6	1.40	029	  0;
+   6	7	3.93	018	  6;
+   7	8	1.98	010	  6;
+   8	9	2.30	048	  5;
+*FLAGS SPLAY
+   9	10	1.41	321	  0;
+   9	11	1.69	136	  0;
+*FLAGS NOT SPLAY
+   9	12	2.34	051	  5;
+  12	13	0.60	320	  0;
+  12	14	2.50	006	  0;
+*FLAGS SPLAY
+  14	15	1.30	271	  0;
+  14	16	1.19	093	  0;
+*FLAGS NOT SPLAY
+  14	17	3.20	001	  0;
+*end 5027
+   

@@ -1,0 +1,270 @@
+*BEGIN 0458_Hidden
+;Created from Survey file on Fri,15 Aug 2003.20:24:00
+;Dates surveyed : 000419&010730&010802&010802&010802&010807&010807&020327&020331&020803&020803&020803&020803&020803
+;Surveyors      : Paul Pete+PE PH Torben Redder+PE+PE+PE+PE+PE+Jonas Torbjorn+PE+PeteSm+PS+Torben+Louise Jonas+Louise Jonas
+;No of stations : 250
+;Plan length    : 1245.53874m
+;Traverse length: 1476.64m
+
+;*FIX 2000E.0 450886 4795325 0345
+;*FIX 2000E.0 450784 4795116 0345; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 2000E.0 450784 4795116 0340
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 2000E.0
+
+*BEGIN 2000E
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.2-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.2
+
+0	1	1.57	261.50	-25	;*
+1	2	2.79	187.00	-15	;*
+2	3	1.80	218.00	-3	;corner
+3	4	2.60	353.00	-8	;*
+4	5	1.00	292.00	-22	;*
+5	6	11.10	301.00	-84	;*
+6	7	3.33	211.50	-10	;top of p 40m?
+*END 2000E
+
+*EQUATE 2000E.7 2001S.7
+
+*BEGIN 2001S
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.85 degrees but should have been 3.07 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.07-2.85-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.18
+
+7	8	9.00	-	-V	;*
+8	9	31.00	-	-V	;*
+9	10	17.10	-	-V	;p base
+10	11	26.00	143.15	21	;4m to boulder chk
+10	12	16.60	205.15	-13	;*
+12	13	7.40	222.15	12	;cairn continues to large pass via trav
+12	14	13.70	314.15	-29	;stn23
+14	15	17.60	257.15	-19	;*
+15	16	8.10	293.15	-15	;wall above ps +20m marked
+16	17	11.60	59.15	-14	;6m wide
+17	18	10.00	3.15	9	;*
+18	19	20.90	21.15	12	;near p >6m stal
+19	20	6.70	319.15	7	;stn17
+20	21	7.50	251.15	-28	;*
+21	22	9.60	299.15	-20	;*
+22	23	12.80	255.15	15	;stn14
+23	24	14.90	273.15	4	;marked stn13
+24	25	13.20	256.15	-30	;stn10
+25	26	4.70	298.15	-12	;stn11 top of p
+26	27	17.60	-	-V	;pass continues 50m 287 +7m p with dr
+25	28	3.50	9.15	33	;*
+28	29	2.30	.15	31	;*
+29	30	2.10	304.15	10	;tube starts stn7
+30	31	2.30	57.15	15	;*
+31	32	7.40	100.15	9	;stn6 conts small
+31	33	4.30	309.15	8	;*
+33	34	7.40	282.15	-8	;*
+34	35	6.60	311.15	4	;top of block above p
+35	36	16.10	321.15	-1	;*
+36	37	5.50	338.15	1	;stal marked. Too tight tubes
+13	38	10.70	209.15	-9	;*
+38	39	13.40	279.15	5	;stn8 base aven
+38	40	6.90	257.15	-31	;*
+40	41	7.40	189.15	-39	;marked stn5
+41	42	16.60	217.15	-24	;*
+42	43	4.30	305.15	-40	;*
+43	44	4.40	201.15	-32	;*
+44	45	8.10	233.15	-50	;*
+45	46	9.00	-	-V	;base rift flat floor poss clmb out trav? to SW
+27	47	5.30	283.15	6	;*
+47	48	10.30	303.15	-10	;pit 3m deep
+48	49	4.70	288.15	9	;2m wide 8m high
+49	50	16.00	303.15	-5	;*
+50	51	12.40	299.15	30	;dig slight draught
+27	52	7.30	119.15	34	;*
+52	53	4.50	115.15	-54	;bolt
+53	54	3.70	-	-V	;*
+54	55	17.60	110.15	-4	;*
+13	56	14.10	-	-V	;*
+41	57	3.10	220.15	-14	;cairn
+57	58	10.40	112.15	-22	;*
+58	59	2.30	128.15	2	;*
+59	60	2.50	24.15	31	;roof
+60	61	5.30	80.15	-21	;near p head +50m
+57	62	11.60	214.15	-38	;rock past stn
+62	63	15.20	256.15	10	;corner begin narr rift
+63	64	2.10	211.15	-39	;*
+64	65	4.90	187.15	-3	;*
+65	66	21.20	181.15	2	;rock above p marked
+66	67	7.70	176.15	18	;*
+67	68	3.80	290.15	14	;*
+68	69	3.20	289.15	-20	;*
+69	70	4.70	295.15	17	;way below?
+70	71	2.60	306.15	2	;entr hole below
+71	72	3.20	265.15	-25	;aven above
+72	73	4.60	272.15	21	;marked stn; drft out; leads to aven & p & 2 ways out
+41	74	2.30	107.15	43	;*
+74	75	5.10	74.15	5	;*
+75	76	5.60	61.15	2	;10m wide 1m high
+76	77	4.80	40.15	-14	;*
+77	78	6.00	113.15	-31	;*
+78	79	6.70	140.15	-38	;slight drft out
+79	80	3.90	130.15	36	;*
+80	81	5.60	72.15	21	;*
+81	82	7.40	27.15	20	;*
+82	83	3.90	302.15	25	;*
+83	84	7.50	235.15	19	;bldrs above; red stals
+84	85	2.80	233.15	8	;*
+85	86	6.40	234.15	38	;way on divides L bedding & narr p head; R bldrs
+*END 2001S
+
+*EQUATE 2001S.61 2002E.61
+*EQUATE 2001S.24 2002E.24
+
+*BEGIN 2002E
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.98 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.98-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.12
+
+61	87	5.40	62.30	-11	;p50 top
+87	88	7.50	157.30	-70	;*
+88	89	2.60	78.30	-75	;*
+89	90	13.20	177.30	-86	;*
+90	91	9.35	354.30	-78	;p base
+91	92	2.75	117.30	31	;*
+92	93	11.20	241.30	4	;*
+93	94	8.10	234.30	0	;*
+92	95	8.85	40.30	-6	;*
+95	96	6.90	35.30	-3	;*
+96	97	4.00	15.30	5	;*
+91	98	6.90	278.30	15	;*
+98	99	4.00	236.30	30	;*
+92	100	6.95	340.30	-1	;*
+100	101	5.50	285.30	5	;*
+91	102	8.20	10.30	-80	;shfts; 20m and 3m 50deg deeper shft
+24	103	4.80	67.30	15	;cl up stn 25
+103	104	2.30	-	+V	;*
+104	105	6.80	287.30	-15	;*
+105	106	4.70	339.30	-6	;junct
+106	107	13.20	339.30	-9	;traverse
+107	108	13.20	4.30	-17	;*
+108	109	8.60	324.30	13	;*
+109	110	7.40	320.30	-1	;*
+110	111	4.60	14.30	-29	;junct
+111	112	10.00	351.30	-2	;*
+112	113	16.40	340.30	0	;*
+113	114	16.70	301.30	2	;*
+114	115	11.10	18.30	30	;*
+115	116	18.70	307.30	25	;*
+116	117	11.50	74.30	-8	;*
+117	118	8.90	90.30	-5	;marked ; tubes in floor
+111	119	6.80	102.30	-5	;*
+119	120	8.10	102.30	-39	;spiral pitch
+107	121	1.70	46.30	-11	;*
+121	122	12.30	104.30	-7	;*
+122	123	9.90	108.30	-1	;*
+123	124	5.50	129.30	-3	;*
+124	125	9.40	112.30	-8	;known passage
+106	126	10.90	276.30	5	;*
+126	127	2.40	231.30	-7	;rift 10m deep 2m wide at 140deg
+*END 2002E
+
+*EQUATE 2001S.16 2002S.16
+*EQUATE 2002E.118 2002S.118
+*EQUATE 2002E.115 2002S.115
+*EQUATE 2002E.116 2002S.116
+
+*BEGIN 2002S
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.93 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.93-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+16	128	17.40	51.30	-8	;*
+128	129	19.20	309.30	-1	;*
+129	130	9.40	9.30	-17	;*
+130	131	6.10	10.30	9	;*
+131	132	18.80	261.30	5	;*
+132	133	10.60	328.30	28	;*
+133	134	5.30	277.30	38	;*
+134	135	7.90	310.30	-2	;*
+135	136	9.90	271.30	10	;*
+136	137	3.30	237.30	-10	;*
+115	138	3.50	255.30	-6	;stnX
+138	139	21.80	151.30	-20	;stn14
+139	140	12.40	174.30	-27	;stn15
+140	141	6.40	99.30	-34	;stn16
+141	142	6.70	155.30	-39	;stn17
+142	143	3.90	144.30	-45	;stn23
+143	144	2.00	43.30	29	;stn22
+144	145	2.90	155.30	18	;stn21
+145	146	10.30	131.30	-28	;stn20
+146	147	4.10	183.30	13	;stn19
+147	148	7.00	189.30	11	;stn18
+139	149	4.50	269.30	28	;stn13
+149	150	5.20	305.30	20	;stn12
+150	151	7.50	182.30	2	;stn11
+151	152	5.80	151.30	-7	;stn10
+152	153	3.30	220.30	0	;stn5
+153	154	4.00	121.30	6	;stn4
+154	155	3.00	157.30	20	;stn3
+155	156	3.90	119.30	-3	;stn2
+156	157	3.10	100.30	5	;stn1
+157	158	3.35	172.30	-8	;stn0
+153	159	3.50	209.30	2	;stn6
+159	160	3.30	131.30	5	;stn7
+160	161	5.80	179.30	-4	;stn8
+161	162	4.50	89.30	5	;stn9
+116	163	6.90	201.30	21	;*
+163	164	4.60	277.30	37	;3x3 chmbr
+164	165	5.40	339.30	43	;stn marked 5; 2 holes in roof
+165	166	8.20	279.30	21	;*
+166	167	10.20	319.30	30	;stn7 marked; hole above needs checking
+167	168	4.00	312.30	37	;*
+168	169	6.30	290.30	0	;*
+169	170	3.50	302.30	3	;poss dig
+118	171	9.60	206.30	42	;climb rope needed
+171	172	13.30	197.30	-65	;stn3 is 115
+118	173	13.50	4.30	5	;*
+173	174	4.90	16.30	0	;*
+118	175	12.10	301.30	-5	;stn1
+175	176	9.90	237.30	-64	;stn2 base clmb
+176	177	5.20	209.30	3	;stn3
+177	178	4.90	114.30	10	;stn4 1x1 chmbr
+176	179	5.60	327.30	-33	;stn5
+179	180	5.50	39.30	-5	;stn6
+180	181	2.70	119.30	-2	;stn7
+181	182	6.30	196.30	-32	;stn8
+181	183	6.60	69.30	-1	;stn9
+183	184	8.10	89.30	5	;*
+184	185	4.50	73.30	-6	;*
+185	186	4.20	47.30	20	;stn12 diggable soft flowstone
+175	187	3.10	42.30	-20	;stn13
+187	188	9.80	43.30	3	;stn14
+*END 2002S
+
+*EQUATE 2002S.172 2002E.115
+*END 0458_Hidden

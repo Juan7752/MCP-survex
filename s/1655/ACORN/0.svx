@@ -1,0 +1,21 @@
+*BEGIN 1655_Pants surface
+;Created from Survey file on Sat,26 Jun 2004.10:18:08
+;Dates surveyed : 020513
+;Surveyors      : JimD
+;No of stations : 10
+;Plan length    : 166.455581m
+;Traverse length: 184.9m
+
+*FIX 0 51340 97790 0250
+
+*ENTRANCE 0
+0	1	2.00	-	+V	;syn0=Pants
+1	2	47.50	337.30	37	;fence corner
+2	3	28.70	247.30	6	;*
+3	4	28.80	236.30	-2	;*
+4	5	5.40	159.30	-34	;*
+5	6	2.20	350.30	-19	;715 entr
+6	7	30.50	108.30	-22	;*
+7	8	39.80	83.30	-24	;stn1
+0	9	0.0	-	+V	;*
+*END 1655_Pants surface

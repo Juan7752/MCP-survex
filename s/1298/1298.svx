@@ -1,0 +1,49 @@
+*BEGIN 1298
+
+*TEAM "Pete Smith and Phil Papard"
+*date 2018.03.28
+*FIX 9 449570 4794493  300
+*ENTRANCE 9
+;26m length
+
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.40
+   
+
+0	1	5.07	64.3	12
+
+0	2	2	244.5	-4
+
+2	3	3.4	311	-78
+2	4	3.2	148	6.5
+
+0	5	3.37	358	-49
+
+0	6	1.4	328	-1
+
+6	7	3.6	359	63
+8	7	2.71	239	11
+8	9	1.25	020	35; 9 is entrance
+
+
+*data passage station left right up down 
+
+0	.6	.6	.8	1.1
+1	.9	.7	.8	.3
+
+0	.6	.6	.8	1.1
+2	2.4	1.7	1.3	3
+3	.6	.6	.1	4.5
+
+2	1.4	.9	1.3	3
+4	1.1	.3	.2	.6
+
+0	1	1	.8	1.1
+5	.4	1.5	.1	2
+6	.3	.3	.8	1.5
+7	1.4	0	.3	1.1
+8	.4	0	.8	.4
+9	.3	.7	.3	1.2
+
+*END 1298

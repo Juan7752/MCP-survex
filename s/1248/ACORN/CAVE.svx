@@ -1,0 +1,15 @@
+*BEGIN 1248_1248
+;Created from Survey file on Sun,10 Aug 1997.23:43:54
+;Dates surveyed : 970810
+;Surveyors      : Hugh Browning+
+;No of stations : 6
+;Plan length    : 16.5140522m
+;Traverse length: 48.2m
+
+*FIX 0 48780 95300 0350
+0	1	4.50	276.55	-53	;down rift
+1	2	6.70	312.55	-56	;stn2
+2	3	25.40	-	-V	;*
+3	4	11.50	286.55	-30	;*
+0	5	0.10	-	+V	;*
+*END 1248_1248

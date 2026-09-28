@@ -1,0 +1,28 @@
+*BEGIN 0892-2005-05
+*date 2005.08.12
+;surveyors: Carmen Haskell
+;*CALIBRATE DECLINATION 2.55
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.13; (2.53-0.4)
+
+;Grade ? extension from original station 154
+;bearings measured; lengths estimated
+
+0	1	4	280	0; no measurements
+1	2	4	260	0; no measurements
+2	3	4	240	0; no measurements
+3	4	3.5	6	-15
+4	5	2.8	292	-8
+5	6	10	279	0
+6	7	12	285	2
+7	8	12	240	2
+8	9	4	265	7
+9	10	9	252	7
+10	11	5.5	255	7; passage continues low
+*end 0892-2005-05

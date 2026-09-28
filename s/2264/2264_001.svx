@@ -1,0 +1,25 @@
+*begin 2264_001
+
+;surveyors:Ali Neill Pete Hall
+;name:
+*DATE 2005.08.11
+;*CALIBRATE DECLINATION 2.55
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.13; (2.53-0.4)
+
+;*FIX 5 446037 4795023 633
+*FIX 5 445935 4794814 0633; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*ENTRANCE 5
+1	2	10.8	260	-15
+1	0	14.5	-	down;	bolt at top of p not descended by us
+3	1	8.3	268	-27
+3	4	7.3	71	-37; top of u/d pitch
+3	5	18.2	-	up
+*end 2264_001

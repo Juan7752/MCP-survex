@@ -1,0 +1,56 @@
+*BEGIN 0081-14-11
+
+;hAYMARKET DOWNSTREAM
+*TEAM "Alasdair Neill Tom Gamble Sam Corless Jack Dewison" notes laser-length compass clino
+ 
+
+*date 2014.08.04
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+0	1	6.19	74	2
+1	2	3.42	89	-4
+2	3	2.4	60	0
+3	4	3.09	85	0
+4	5	.6	27	0
+5	6	4.75	85	0
+6	7	2.07	75	0
+7	8	9.3	295	0
+8	9	4.51	286	5
+9	10	10.54	294	-1
+10	11	1.16	0	-20
+11	12	12.56	296	0
+12	13	3.08	192	-2
+13	14	14.27	276	0
+14	15	8.7	25	15
+15	16	8.74	275	26	;STA 16 MARKED CAIRN
+16	17	7.14	325	37
+17	18	4.84	75	-17
+18	19	11.28	320	10	;MARKED STA ON JUNCTION
+
+*data passage station left right up down
+1	0	0.3	0.6	1.7
+2	.3	0	.6	1.7
+3	0	0.3	.9	1.6
+4	.4	0	.7	1.5
+5	0	.3	.3	1.5
+6	.3	0	.7	2
+7	.6	0	.5	1.5
+8	.4	0	.8	1.5
+9	0	.7	1.8	1.4
+10	0	1.1	1.9	.7
+11	.8	.6	0.5	.9
+12	1	3.8	1.1	1
+13	.6	3.3	.6	.5
+14	.7	3	.6	.4
+15	1.6	1.2	12.7	1.4
+16	1.6	1.2	16.9	1.9
+
+
+
+
+*END 0081-14-11

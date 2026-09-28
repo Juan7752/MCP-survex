@@ -1,0 +1,103 @@
+; 2024.10.27 created by TopoDroid v 6.2.95
+; 0252-24-04
+; Instrument: DistoX2 4468 - SM-N910F
+
+;The big passage in Vienna Coup above the streamway
+
+*begin 0252-24-04 
+
+*EXPORT 0
+
+  *date 2024.10.23 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 3.41 288.4 86.8
+  0 0ba 1.21 338.5 -71.7
+  0 0bb 1.30 286.2 7.9
+  0 0bc 1.33 293.1 7.1
+  0 0bd 3.07 101.7 8.6
+  0 0be 5.70 357.3 31.5
+  0 0bf 5.08 29.2 26.4
+  0 0bg 3.44 49.6 1.2
+  0 0bh 6.08 39.7 -1.9
+  0 0bi 9.54 44.2 -2.5
+  0 0bj 11.67 179.3 1.9
+  *flags not splay
+    0 1   9.09 15.3 22.2
+  *flags splay
+  1 1a 1.63 261.4 67.7
+  1 1ba 1.36 269.1 -2.0
+  1 1bb 1.64 265.7 -86.5
+  1 1bc 2.45 338.5 -3.4
+  1 1bd 4.38 11.8 -6.7
+  1 1be 3.63 225.3 -12.5
+  1 1bf 3.18 176.0 -27.8
+  1 1bg 3.03 185.9 -50.9
+  1 1bh 2.46 168.5 -79.8
+  1 1bi 4.92 165.0 -68.3
+  1 1bj 1.87 17.3 -33.2
+  *flags not splay
+    1 2   7.98 356.8 3.3
+  *flags splay
+  2 2a 1.33 99.5 -23.5
+  2 2ba 1.50 279.3 -30.2
+  2 2bb 1.45 68.2 -86.7
+  2 2bc 0.42 120.6 69.4
+  2 2bd 1.52 18.8 -74.0
+  2 2be 4.51 16.6 -6.0
+  2 2bf 4.13 5.4 -7.9
+  2 2bg 4.53 25.9 -12.0
+  *flags not splay
+    2 3   13.47 21.0 -9.1
+  *flags splay
+  3 3a 1.39 124.8 2.3
+  3 3ba 3.72 129.9 85.8
+  3 3bb 0.81 247.9 3.9
+  3 3bc 4.37 38.2 -73.4
+  3 3bd 3.41 44.8 4.1
+  3 3be 4.10 20.3 9.9
+  3 3bf 3.81 180.6 6.5
+  3 3bg 1.24 209.7 -5.0
+  *flags not splay
+    3 4   9.98 31.5 1.4
+  *flags splay
+  4 4a 2.38 296.7 73.0
+  4 4ba 1.66 262.3 -72.9
+  4 4bb 1.88 288.5 12.8
+  4 4bc 5.38 16.6 -65.8
+  4 4bd 6.04 17.3 -9.8
+  4 4be 7.53 7.3 -2.5
+  *flags not splay
+    4 5   7.67 12.2 2.8
+  *flags splay
+  5 5a 2.97 181.6 86.6
+  5 5ba 0.34 306.4 3.1
+  5 5bb 2.49 132.2 6.3
+  5 5bc 2.89 79.9 0.7
+  5 5bd 0.41 161.9 -59.3
+  5 5be 8.96 234.8 -16.7
+  5 5bf 12.91 232.0 -22.0
+  5 5bg 2.89 209.3 -13.4
+  5 5bh 0.47 272.0 -12.9
+  *flags not splay
+    5 6   3.97 248.8 -27.8
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  1.52 4.58 3.41 1.15		;0=34
+1  1.76 0.94 1.50 4.57
+2  1.27 2.14 0.39 1.46
+3  0.59 1.37 3.71 4.19
+4  3.08 0.00 2.28 4.90
+5  7.66 2.67 2.96 4.83
+6  0.00 0.00 0.00 0.00
+
+*end 0252-24-04

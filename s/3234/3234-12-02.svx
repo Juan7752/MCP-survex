@@ -1,0 +1,48 @@
+*BEGIN 3234-12-02
+;West Wing
+*Date 2012.01.31
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.28; (1.68-0.4)
+
+;surveyors Torben Redder
+1	0	16.51	 90.89	-61.48
+1	2	 5.71	270.50	 25.21
+2	3	 4.09	294.58	 -3.89
+3	4	 3.53	279.03	-11.75
+*FLAGS SPLAY
+4	4a	 1.22	228.58	 17.37
+4	4b	 3.36	281.45	  6.16
+*FLAGS NOT SPLAY
+4	5	 6.29	 31.46	 -2.86
+5	6	 1.50	104.83	 12.11
+*FLAGS SPLAY
+6	6a	 0.45	356.34	 -3.08
+6	6b	 0.50	152.22	 20.28
+*FLAGS NOT SPLAY
+6	7	 3.38	335.67	 76.64
+*FLAGS SPLAY
+7	7a	 1.09	 43.28	  4.55
+7	7b	 0.53	177.95	  0.01
+*FLAGS NOT SPLAY
+7	8	 2.93	182.74	 86.20
+8	9	 2.81	287.36	 16.10
+9	10	11.40	287.77	 -9.03
+
+*data passage station left right up down
+2	1.39	2.298	0.317	0.898
+3	1.288	0.545	0.675	0.68
+4	3.328	2.314	1.153	0.948
+5	2.947	0.918	0.434	1.359
+6	0.467	0.64	0.0	0.0
+7	0.637	0.412	0.0	0.0
+8	0.789	0.879	0.794	0.95
+9	0.797	3.787	0.261	2.391
+10	1.099	1.401	0.708	1.024
+*END 3234-12-02

@@ -1,0 +1,8 @@
+*begin 1930X
+*include 1930_07_04 ;Just An Inlet Inlet
+*include 1930_07_06 ;
+*include 1930_07_07
+
+*EQUATE 1930_07_04.20 1930_07_06.15
+*EQUATE 1930_07_04.42 1930_07_07.0
+*end 1930X

@@ -1,0 +1,47 @@
+*BEGIN 4117-15-01
+;surveyors: Alex Ritchie, Darren Jarvis, Anton Petho, Joel Colk, Andy Farrow 
+*DATE 2015.04.01
+*CALIBRATE DECLINATION 0.78
+*FIX gps 448502 4800345 167
+
+1	0	1.65	335	-5
+0	01	3.3	28	4
+1	1A	2.37	220	5
+1A	1B	11	200	-90	;Pitch down, undescended.
+1	2	1.21	147	7
+2	3	2.43	132	15
+3	4	3.7	267	-11
+4	5	4.2	185	1
+5	6	2.4	237	-15
+6	7	2.7	95	2
+7	8	4.36	70	2
+8	9	2.46	150	2
+9	10	4	104	-2	;Entrance slope.
+10	gps	0	104	0
+
+0	A1	3.62	240	-8
+A1	A2	0.5	297	-5
+A2	A3	3.9	335	-8
+A3	A4	4.18	312	0
+A4	A5	2.36	315	0	;Rift going off to be surveyed.
+A5	A6	2.75	345	3
+A6	A7	4.1	308	-19
+A7	A8	2.9	29	8
+A8	A9	2.61	277	1.18	;Noted as station A9. To pitch head.
+A9	A10	1.79	328	-22	;Depth 13, Length 17m rift going off. (Station on rock facing pitch)
+A10	A11	5.85	20	15
+A11	A12	4.5	22	-8
+A12	A13	6.2	318	2
+A13	A14	2.10	274	-19
+A14	A15	4.45	327	15
+	
+
+*data passage station left right up down
+
+*data passage station left right up down
+
+*data passage station left right up down
+
+
+
+*END 4117-15-01

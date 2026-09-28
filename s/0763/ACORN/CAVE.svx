@@ -1,0 +1,36 @@
+*BEGIN 0763_Vaca Loca
+;Created from Survey file on Mon,21 Jun 2004.19:22:30
+;Dates surveyed : 960806&970403&970403
+;Surveyors      : Chris Fry++PSt+PE
+;No of stations : 25
+;Plan length    : 49.5591514m
+;Traverse length: 63.5m
+
+*FIX 0 49050 95110 0230
+
+*ENTRANCE 0
+0	1	4.80	200.40	-33	;stn 1
+1	2	1.30	222.40	15	;entry to boulder room
+2	3	1.20	124.40	51	;stn3 junction
+3	4	4.20	178.40	-35	;excavated hole
+4	5	3.10	159.40	12	;draughting rift; too tight
+3	6	1.00	295.40	36	;stn 4; ascending bedding
+6	7	3.30	216.40	19	;stn 5; top of ramp
+7	8	4.50	294.40	-49	;stn 6; sand tube closes down
+7	9	1.00	286.40	-32	;*
+9	10	3.70	214.40	32	;*
+10	11	3.60	147.40	-14	;over p7.5
+11	12	2.40	240.40	7	;stn 10; end of traverse
+11	13	7.00	-	-V	;base of p
+13	14	3.60	79.55	7	;*
+13	15	6.60	322.55	13	;*
+15	16	1.20	-	+V	;*
+16	17	5.40	312.55	26	;chk with bat
+12	18	3.60	189.55	11	;*
+18	19	2.00	157.55	12	;dig
+0	20	0.0	-	+V	;*
+0	21	0.0	-	+V	;*
+0	22	0.0	-	+V	;*
+0	23	0.0	-	+V	;*
+0	24	0.0	-	+V	;*
+*END 0763_Vaca Loca

@@ -1,0 +1,108 @@
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE 4valleys-lite.svx
+
+;*INCLUDE surface.svx
+
+*INCLUDE ../../0086/0086.svx
+*INCLUDE ../../0087/0087.svx
+*INCLUDE ../../0098/0098.svx ;Includes copy of 1452 svx data
+*INCLUDE ../../0100/0100.svx
+*INCLUDE ../../0102/0102.svx
+*INCLUDE ../../0103/0103.svx ; Includes 3222, 3232, 3442
+*INCLUDE ../../0106/0106.svx
+*INCLUDE ../../0109/0109.svx
+*INCLUDE ../../0117/0117.svx
+*INCLUDE ../../0118/0118.svx
+*INCLUDE ../../0121/0121.svx
+*INCLUDE ../../0122/0122.svx
+*INCLUDE ../../0123/0123.svx
+*INCLUDE ../../0126/0126.svx
+*INCLUDE ../../0207/0207.svx
+*INCLUDE ../../0565/0565.svx
+;*INCLUDE ../../0575/0575.svx ;Riano resurgence now part of main system in 4valleys-lite.svx
+*INCLUDE ../../0581/0581.svx
+*INCLUDE ../../0596/0596.svx
+*INCLUDE ../../0603/0603.svx
+*INCLUDE ../../0672/0672.svx
+;*INCLUDE../../0689/0689.svx ;Part of 2786 now
+*INCLUDE ../../0718/0718.svx
+*INCLUDE ../../0766/0766.svx
+*INCLUDE ../../0841/0841.svx
+*INCLUDE ../../0880/0880.svx
+*INCLUDE ../../0935/0935.svx
+*INCLUDE ../../0943/0943.svx
+*INCLUDE ../../1053/1053.svx
+*INCLUDE ../../1232/1232.svx
+*INCLUDE ../../1289/1289.svx
+;*INCLUDE ../../1452/1452.svx ;Hole in the Road, included in 0098 (Bollon)
+*INCLUDE ../../1504/1504.svx
+*INCLUDE ../../1630/1630.svx
+*INCLUDE ../../1804/1804.svx
+*INCLUDE ../../2108/2108.svx
+*INCLUDE ../../2366/2366.svx
+*INCLUDE ../../2414/2414.svx
+*INCLUDE ../../2417/2417.svx
+*INCLUDE ../../2418/2418.svx
+*INCLUDE ../../2519/2519.svx
+*INCLUDE ../../2595/2595.svx
+*INCLUDE ../../2596/2596.svx
+*INCLUDE ../../2638/2638.svx
+*INCLUDE ../../2640/2640.svx
+*INCLUDE ../../2649/2649.svx
+;*INCLUDE ../../2786/2786.svx ;Excluded as high up and isolated from system
+;*INCLUDE ../../3222/3222.svx ;Included in 0103 (Espada)
+;*INCLUDE ../../3232/3232.svx ;Included in 0103 (Espada)
+;*INCLUDE ../../3234/3234.svx ;Llanio now part of main system in 4valleys-lite.svx
+*INCLUDE ../../3334/3334.svx
+;*INCLUDE ../../3442/3442.svx ;Included in 0103 (Espada)
+*INCLUDE ../../3451/3451.svx
+*INCLUDE ../../3691/3691.svx
+*INCLUDE ../../4712/4712.svx
+*INCLUDE ../../4713/4713.svx
+*INCLUDE ../../5227/5227.svx
+
+;Sites not included (awaiting review)
+;*INCLUDE ../../0099/0099.svx
+;*INCLUDE ../../0143/0143.svx
+;*INCLUDE ../../0366/0366.svx
+;*INCLUDE ../../0383/0383.svx
+;*INCLUDE ../../0415/0415.svx
+;*INCLUDE ../../0631/0631.svx
+;*INCLUDE ../../0715/0715.svx
+;*INCLUDE ../../0839/0839.svx
+;*INCLUDE ../../0869/0869.svx
+;*INCLUDE ../../0878/0878.svx
+;*INCLUDE ../../1012/1012.svx
+;*INCLUDE ../../1166/1166.svx
+;*INCLUDE ../../1211/1211.svx
+;*INCLUDE ../../1212/1212.svx
+;*INCLUDE ../../1292/1292.svx
+;*INCLUDE ../../1482/1482.svx
+;*INCLUDE ../../1496/1496.svx
+;*INCLUDE ../../1506/1506.svx
+;*INCLUDE ../../1532/1532.svx
+;*INCLUDE ../../1619/1619.svx
+;*INCLUDE ../../1673/1673.svx
+;*INCLUDE ../../1941/1941.svx
+;*INCLUDE ../../1989/1989.svx
+;*INCLUDE ../../2025/2025.svx
+;*INCLUDE ../../2415/2415.svx
+;*INCLUDE ../../2523/2523.svx
+;*INCLUDE ../../2539/2539.svx
+;*INCLUDE ../../2599/2599.svx ;Wrong site number (no survey file for this number)
+;*INCLUDE ../../2685/2685.svx
+;*INCLUDE ../../2738/2738.svx
+;*INCLUDE ../../2739/2739.svx
+;*INCLUDE ../../2962/2962.svx
+;*INCLUDE ../../3004/3004.svx
+;*INCLUDE ../../3218/3218.svx
+;*INCLUDE ../../3456/3456.svx
+;*INCLUDE ../../3795/3795.svx
+;*INCLUDE ../../3842/3842.svx
+;*INCLUDE ../../4016/4016.svx
+;*INCLUDE ../../4180/4180.svx
+;*INCLUDE ../../4534/4534.svx
+

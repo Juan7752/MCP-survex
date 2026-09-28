@@ -1,0 +1,31 @@
+*BEGIN 2441
+*DATE 2010.04.02
+;*CALIBRATE DECLINATION 1.92
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.53; (1.93-0.4)
+
+;*FIX 4 447534 4800009 0413
+;*FIX 4 447432 4799800 0413; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 4 447432 4799800 0408
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*Entrance 4
+
+0	1	4.1	-	up
+1	2	6.76	63	5
+2	3	6.53	134	1
+3	4	2.64	-	up
+*data passage station left right up down
+1	0.7	0.6	2.4	4.1
+2	0.5	1.3	1.1	0.2
+3	2.6	6	2.6	2.3
+*END 2441

@@ -1,0 +1,45 @@
+*BEGIN 0138_Coberruyo
+;Created from Survey file on Sat,17 Feb 1996.20:49:20
+;Dates surveyed : 86/8&920800&921018
+;Surveyors      : BPC+AQ+
+;No of stations : 20
+;Plan length    : 104.329991m
+;Traverse length: 145.8m
+
+;*FIX 0 451530 4796390 0300
+;*FIX 0 451428 4796181 0300; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*ENTRANCE 0
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 5.05 degrees but should have been 5.10 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (5.1-5.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*FIX 0 451394 4796223 0320; GPS Easter 2014
+
+*CALIBRATE DECLINATION -0.35
+
+0	1	10.00	34.95	15	;*
+1	2	9.10	339.95	6	;*
+2	3	12.00	114.95	8	;*
+3	4	12.40	86.95	0	;*
+4	5	14.20	60.95	-5	;*
+5	6	8.60	78.95	7	;*
+6	7	5.70	3.95	-5	;*
+7	8	3.10	321.95	44	;*
+8	9	7.70	112.95	-1	;*
+9	10	6.00	2.95	-21	;*
+10	11	12.50	93.95	-51	;*
+11	12	3.30	183.95	2	;*
+12	13	2.40	97.95	-46	;*
+13	14	2.60	213.95	-2	;*
+14	15	2.50	197.95	-66	;*
+15	16	1.00	91.95	0	;*
+16	17	32.70	-	-V	;*
+0	18	16.00	5.80	2	;xx
+18	19	30.00	73.80	-2	;xx sediment sampling
+*END 0138_Coberruyo

@@ -1,0 +1,43 @@
+*BEGIN 4043-14-12
+
+;Downstream then Upstream
+*TEAM "Alasdair Neill" ferret laser-length
+*TEAM "Juan Corrin" notes
+*TEAM "James Carlisle" laser-length compass clino
+
+*date 2014.07.24
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+old61 4   3.38 228     -9
+4     5   4.39 271    -21
+5     6   11.83       308     -4
+6     7   18.08       270     0
+7     8   8.05        246     -1
+9     8   11.24       87      -6
+9     10  6.74        296     .5
+10    11  12.92       275     -8
+12    11  22.68       90      -2.5
+12    13  16.33       280     -1
+14    13  5.62        82      -5
+14    15  4.3         313     -12
+
+
+*data passage station left right up down
+4     1.6     1.4     1.7  1.2
+5     .82     2.37    .8   .3
+6     2.5     3.7     .7   0
+7     4       2.2     .5   0
+8     4.2     .5      11.3 .3
+9     0       2.3     18.8 1.9   
+10    .5      .1      .2   1.6
+11    1.4     1.8     1.4  0
+12    0       4.4     .7   .6
+13    3.5     0       1    .6
+14    .3      2.6     0    1
+15    1.8     2.6     1.9  .5
+*END 4043-14-12

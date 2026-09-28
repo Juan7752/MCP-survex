@@ -1,0 +1,34 @@
+*begin 2889_13_02X
+  *title "Elephant sump"
+  *date 2013.07.31
+  *calibrate declination 1.5
+;
+; Instruments; diver's own compass, depth gauge (sunto viper), tagged dive line (5 m intervals).
+;
+;
+; Surveyed by Jim Lister.
+
+; Diving data
+; Elephant sump
+;
+; Final station on muddy chamber data (stn 7) on North wall.
+;
+*DATA diving from to tape compass fromdepth todepth
+;   From    To  Tape   Compass  Depth from      to
+       1     2   4.4      60            0     -3.0
+       2     3   5        70         -3.0     -5.0
+       3     4   4        80         -5.0     -5.5
+       4     5   8        30         -5.5     -5.0
+       5     6   2        10         -5.0     -4.0
+       6     7   2        10         -4.0     -4.4
+       7     8  20        30         -4.4     -4.4
+       8     9  10        20         -4.4     -4.4
+       9    10   7        20         -4.4        0
+;End of diving data
+;
+;
+;Last survey point bolt at deviation to the Lake Bassenthwaite hand line.
+;
+
+*end 2889_13_02X
+

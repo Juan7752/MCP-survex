@@ -1,0 +1,29 @@
+*BEGIN 1294_Epiglottis Cave
+;Created from Survey file on Mon,10 May 1999.21:17:12
+;Dates surveyed : 980412
+;Surveyors      : PEg LizC
+;No of stations : 20
+;Plan length    : 53.8592841m
+;Traverse length: 54.7m
+
+*FIX 0 52050 96270 0250
+0	1	6.80	347.70	-6	;*
+1	2	2.40	309.70	0	;squeeze
+2	3	2.40	333.70	15	;stn3
+3	4	3.90	85.70	3	;*
+4	5	7.00	157.70	0	;*
+3	6	14.20	293.70	0	;*
+6	7	7.20	276.70	1	;stal squeeze
+7	8	3.20	299.70	10	;*
+8	9	3.20	321.70	23	;*
+9	10	4.40	266.70	-25	;calcite chk end
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+0	15	0.0	-	+V	;*
+0	16	0.0	-	+V	;*
+0	17	0.0	-	+V	;*
+0	18	0.0	-	+V	;*
+0	19	0.0	-	+V	;*
+*END 1294_Epiglottis Cave

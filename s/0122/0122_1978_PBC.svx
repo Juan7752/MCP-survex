@@ -1,0 +1,22 @@
+*BEGIN 0122_1978_PBC
+;Approx declination for 1978
+;*CALIBRATE DECLINATION 6
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 5.88; (6.28-0.4)
+
+7	6	4.2	318	-18
+6	3	15.6	-	down
+5	3	6.1	333	23
+4	3	16.4	291	0
+3	2	12.9	302	22
+2	1	12.2	338	29
+1	0	15.8	34	7
+
+
+*END 0122_1978_PBC

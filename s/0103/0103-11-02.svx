@@ -1,0 +1,29 @@
+*BEGIN 0103-11-02
+
+
+;*CALIBRATE DECLINATION 1.78
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.48
+
+
+;surveyors: Dave Tuffery; Tony Littler
+;passage name:
+*date 2011.04.19
+
+e	1	3	130	50
+1	2	8.2	132	62
+2	3	3.6	162	9
+3	4	3.48	60	9
+
+
+*data passage station left right up down
+
+;4 is cairn
+
+*END 0103-11-02

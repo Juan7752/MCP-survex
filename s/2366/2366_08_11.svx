@@ -1,0 +1,62 @@
+*begin 2366_08_11
+
+*team Martin Barnicott Bob Toogood
+*date 2008.03.28
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate compass 0.0
+*calibrate clino 0.0
+
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+1	2	3.24	326	-5;unsurveyed rift at 240deg
+2	3	1.9	318	3
+3	4	5.59	211	-4
+4	5	2.53	228	-1
+5	6	4.18	302	-6; unsurveyed passage on 90deg
+6	7	3	59	-72
+7	8	7.36	310	8
+8	9	7.15	301	-11
+9	10	9.68	333	-8
+10	11	21.83	308	-3
+11	12	10.1	320	5
+12	13	5.82	324	-1
+13	14	4.38	347	-6
+14	15	4.7	313	-6
+15	16	4.03	324	-9
+16	17	10.24	308	-3
+17	18	8.01	324	-10
+18	19	1.79	10	-4
+19	20	2.42	287	-15
+20	21	2.38	221	10; 21 is station 08_04.8
+
+*data passage station left right up down ignoreall
+1	.1	2.6	2.23	3.26
+2	.66	.57	.67	.98
+3	.55	.25	.28	.4
+4	.34	.34	.43	.79
+5	0	.20	2.65	.92
+6	.48	.6	.87	3.7
+7	.29	0	3.8	.82
+8	.05	.71	.79	1.14
+9	.3	.78	2.72	1.5
+10	.59	.55	1.33	.3
+11	.34	.72	1	.55
+12	.52	.76	.99	.79
+13	.32	.84	.71	.52
+14	.44	.65	1.25	1.32
+15	.43	.54	1.31	1.41
+16	.51	.65	1.57	1.57
+17	.49	.69	1.80	1.53
+18	.58	.76	2.65	.91
+19	.79	0	1.9	.41
+
+*end 2366_08_11

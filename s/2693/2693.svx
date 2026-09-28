@@ -1,0 +1,51 @@
+*begin 2693
+
+;surveyors: Jane Chilton; Jim Lister
+;name:
+*DATE 2007.04.10
+;*CALIBRATE DECLINATION 2.28
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.92; (2.32-0.4)
+
+;*FIX 1 457207 4796076 0244; may not be correct
+;*FIX 1 457105 4795867 0244; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 1 457105 4795867 0242 altered below to fit grid ref. 14/3/2025
+*FIX 1 457102 4795785 0247
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 1
+
+1	2	5.4	255	-79
+2	3	5.5	-	-V
+3	4	3.02	268	-6; small chamber
+4	5	2.74	241	2
+5	6	2.95	273	16; stal choke
+
+3	8	4.9	70	-45; tube down
+8	9	12.13	288	-14
+9	10	18.89	279	14; passage rises to choked calcite climb
+
+9	11	10.63	346	-4
+11	12	5.65	303	-4
+12	13	8.32	345	-2; 13 si squeeze down to way on
+13	14	11.25	295	0
+
+13	15	3.89	20	-45; thro squeeze
+16	15	3.17	263	-45
+16	17	3.42	345	-1; pretty chamber helictites
+17	18	3.37	230	9;choked slippery cl up
+
+17	19	3.25	324	-15;cl down
+19	20	5.5	340	-30; ends in v muddy dig with echo
+
+
+*end 2693

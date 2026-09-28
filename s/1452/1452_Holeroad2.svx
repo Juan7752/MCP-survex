@@ -1,0 +1,31 @@
+*BEGIN 1452_Holeroad2
+;Dates surveyed : 060416
+;Surveyors      : Sam Lieberman, Mark Smith (Killer)
+;No of stations : 11
+;Plan length    : 87.7199121m
+;Traverse length: 163.68m
+
+;*FIX 1 451722 4797909 0235
+;*FIX 1 451620 4797700 0235; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 1 451620 4797700 0228
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 1
+*calibrate tape +1
+*FLAGS duplicate
+2	1	7.8	169	34
+3	2	6.6	226	29
+4	3	2.45	-	+v
+5	4	3.23	207	19
+6	5	5.4	223	21
+6	7	1.80	101	-22
+7	8	25.9	-	-v
+*flags not duplicate
+9	8	9.6	033	38
+10	9	3.55	044	-20
+11	10	7.9	037	-40; stn 11 = 118 on Volvo survey
+
+*END 1452_Holeroad2

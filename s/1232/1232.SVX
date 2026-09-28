@@ -1,0 +1,45 @@
+*BEGIN 1232_German
+;Created from Survey file on Mon,10 May 1999.21:05:09
+*DATE 1997.04.03
+;Surveyors      : Juan PE PS LM
+;No of stations : 20
+;Plan length    : 97.7959423m
+;Traverse length: 109.6m
+
+;*FIX 0 452020 4798010 0223
+;*FIX 0 451918 4797801 0223; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 451918 4797801 0217
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;GPS'd
+*FIX 0 451947 4797793 0208
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3.45 degrees but should have been 3.69 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.69-3.45-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.16
+
+0	1	6.70	301.55	-20	;lump in squeeze
+1	2	2.20	301.55	-40	;stn 12 lump in squeeze
+2	3	8.90	272.55	25	;across first chmbr
+3	4	6.20	295.55	-8	;stn 10 near crawl; above?
+4	5	4.80	235.55	-5	;stn 9 through crawl
+5	6	11.60	271.55	-10	;across pit
+6	7	4.80	230.55	-24	;into breakdown
+7	8	6.20	277.55	21	;stn6
+8	9	9.10	294.55	-35	;stn5 drop down undercut??
+9	10	6.10	336.55	38	;stn 4
+10	11	6.40	72.55	37	;on boulders stn 2
+11	12	8.00	70.55	-5	;rear of bouldery chmbr
+11	13	13.00	268.55	-38	;above clmb down
+13	14	15.60	281.55	-29	;stn 0;stal & cairn at poss dig
+*END 1232_German

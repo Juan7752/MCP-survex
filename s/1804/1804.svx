@@ -1,0 +1,31 @@
+*BEGIN 1804
+;Created from Survey file on Sat,26 Jun 2004.13:42:12
+*DATE 2002.08.08
+;Surveyors      : JC HL PS
+;No of stations : 10
+;Plan length    : 21.1500852m
+;Traverse length: 21.8m
+
+;*FIX 0 451590 4800753 0135
+;*FIX 0 451488 4800544 0135; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 451488 4800544 0127
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.93 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.93-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+0	1	11.90	314.30	-18	;STN3
+1	2	3.40	258.30	-10	;1ST queeze
+2	3	6.50	268.30	4	;calcite dig start
+*END 1804

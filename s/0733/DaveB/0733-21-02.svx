@@ -1,0 +1,47 @@
+*BEGIN 0733-21-02
+;*CS UTM30N
+;*CS OUT UTM30N
+;*DECLINATION auto 450017 4792407 312
+*DATE 2021.10.24
+*CALIBRATE DECLINATION -0.4
+;Juan Corrin with Peter Smith and Phil Papard
+
+; down the "p8" in Jesús Lecue Gallery
+
+;0 base of pitch
+0	1	3.45	170	-35; 1 wall protrusion in inlet
+2	0	2.7	89	-20; 2 start of narrow climb
+2	3	6.16	272	80; 3 Pete at top of climb, visible to Phil at hole beyond bear pit
+1	4	1.88	175	0; 4 wet wall of inlet
+1	5	3.5	50	-5; 5 looking along outlet
+6	0	9	-	down; 6 lip of bottom pitch, just above constriction
+6	7	1.5	50	80; 7 next lip up
+7	8	1	330	80; 8 base of 1st pitch "p8"
+8	9	3.25	310	0; 9 boulder at "bear pit"
+9	10	5.6	220	-40; wall where climber Pete appeared to Phil
+8	11	6.5	-	up; 11 top of pitch
+*FLAGS DUPLICATE
+11	12	4	12	0; old station 
+*FLAGS NOT DUPLICATE
+
+*data passage station left right up down
+0	.2	1.5	12	1
+1	1	1.4	8.4	1
+4	.2	.2	6	1
+*data passage station left right up down
+0	1.5	.2	12	1
+2	.4	.4	7.5	3.2
+*data passage station left right up down
+1	2	0	8.4	1
+5	.2	.2	.5	0
+*data passage station left right up down
+0	1.4	1.4	12.4	1
+6	.4	.4	4.4	9
+7	.3	.3	7.6	0
+8	.4	.4	6.2	1
+9	.5	0	2	3;guess
+*data passage station left right up down
+8	3	3.25	8.5	1
+
+
+*END 0733-21-02

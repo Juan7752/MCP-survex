@@ -1,0 +1,145 @@
+; 2023.05.27 created by TopoDroid v 6.2.6
+; cub_3_bottom_of_shaft
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin cub_3_bottom_of_shaft 
+  *date 2019.08.25 
+  *team ""Jim Lister mark smith"" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+    0 1   3.36 121.3 3.6
+  *flags splay
+  1 1a 1.14 345.7 4.1
+  1 1ba 1.13 58.3 74.8
+  1 1bb 0.27 356.5 -78.9
+  *flags not splay
+    1 2   4.35 48.5 -7.2
+  *flags splay
+  2 2a 1.77 293.4 9.2
+  2 2ba 2.06 125.7 13.4
+  2 2bb 2.91 91.0 21.5
+  2 2bc 1.54 347.9 87.8
+  2 2bd 0.22 163.5 -87.1
+  *flags not splay
+    2 3   2.81 342.3 16.4
+    1 a   4.27 167.8 1.9
+  *flags splay
+  a aa 1.42 51.3 3.3
+  a aba 0.43 263.0 3.6
+  a abb 3.55 300.0 84.6
+  a abc 0.90 22.3 -80.9
+  a abd 10.11 152.3 70.0
+  *flags not splay
+    a b   5.28 113.7 -17.3
+  *flags splay
+  b ba 0.24 40.4 5.0
+  b bba 0.93 219.4 2.0
+  b bbb 0.80 196.3 80.1
+  b bbc 0.76 349.1 -83.9
+  *flags not splay
+    b c   3.21 136.8 8.7
+  *flags splay
+  c ca 2.04 14.3 6.2
+  c cba 0.96 192.1 4.7
+  c cbb 1.21 60.0 80.2
+  c cbc 1.34 28.7 -86.9
+  *flags not splay
+    c d   3.14 54.4 12.9
+    d e   1.61 6.2 -43.2
+  *flags splay
+  e ea 0.21 341.7 -1.5
+  e eba 0.48 152.5 1.7
+  e ebb 0.37 57.2 78.8
+  e ebc 0.61 271.9 -87.7
+  *flags not splay
+    e f   3.04 79.0 0.4
+  *flags splay
+  f fa 0.61 336.0 -0.8
+  f fba 0.25 164.2 7.1
+  f fbb 1.52 53.1 78.5
+  f fbc 0.49 248.2 -86.2
+  *flags not splay
+    f g   6.10 46.0 9.4
+  *flags splay
+  g ga 2.54 326.0 10.6
+  g gba 0.46 137.0 4.1
+  g gbb 2.24 26.0 81.7
+  g gbc 1.21 309.0 -87.6
+  *flags not splay
+    g h   4.05 354.8 13.0
+  *flags splay
+  h ha 2.57 263.5 4.6
+  h hba 1.88 89.9 11.0
+  h hbb 4.35 59.8 81.1
+  h hbc 0.27 300.5 -79.8
+  h hbd 1.53 127.4 26.6
+  h hbe 2.24 42.2 27.5
+  h hbf 2.20 19.7 71.1
+  h hbg 1.70 174.3 66.6
+  h hbh 1.80 317.2 64.9
+  h hbi 3.31 302.7 66.5
+  h hbj 2.31 246.7 52.3
+  h hbk 2.88 186.5 70.9
+  h hbl 1.85 166.7 53.1
+  h hbm 2.37 167.3 70.7
+  h hbn 3.83 138.2 74.7
+  h hbo 1.35 235.2 31.8
+  h hbp 1.12 214.8 0.6
+  h hbq 2.06 294.1 12.4
+  *flags not splay
+    h i   1.36 7.7 5.0
+  *flags splay
+  i ia 2.37 261.3 2.5
+  i iba 1.80 90.1 6.6
+  i ibb 1.86 5.9 84.0
+  i ibc 0.25 219.6 -82.6
+  *flags not splay
+    i j   1.98 286.2 15.8
+  *flags splay
+  j ja 0.68 211.4 0.5
+  j jba 0.49 42.6 1.1
+  j jbb 1.80 163.7 85.6
+  j jbc 0.22 264.3 -81.1
+  *flags not splay
+    j k   1.32 318.1 54.6
+  *flags splay
+  k ka 0.55 221.9 14.2
+  k kba 0.73 61.4 4.0
+  k kbb 1.56 250.4 87.3
+  k kbc 0.65 204.5 -81.5
+  k kbd 12.16 351.7 75.0
+  *flags not splay
+    k l   13.47 354.3 75.6
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+1  0.80 0.00 1.09 0.26
+0  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+1  1.01 0.05 1.09 0.26
+2  1.58 1.95 1.54 0.22
+3  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+1  0.28 0.04 1.09 0.26
+a  1.27 0.43 9.50 0.89
+b  0.23 0.89 0.79 0.76
+c  1.71 0.79 1.19 1.34
+d  0.00 0.00 0.00 0.00
+e  0.09 0.27 0.36 0.61
+f  0.59 0.25 1.49 0.49
+g  2.46 0.46 2.22 1.21
+h  2.56 1.84 4.30 0.27
+i  2.27 1.77 1.85 0.25
+j  0.66 0.44 1.79 0.22
+k  0.53 1.74 11.75 0.64
+l  0.00 0.00 0.00 0.00
+
+*end cub_3_bottom_of_shaft

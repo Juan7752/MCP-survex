@@ -1,0 +1,9 @@
+*BEGIN 3283
+*CALIBRATE DECLINATION 2.08
+*INCLUDE FuenteAguanaz2a.svx
+*INCLUDE FuenteAguanaz1.svx
+;*FIX plus1.5 446639 4801758 55
+;*FIX plus1.1 446619 4801729 63
+*FIX plus1.1 446517 4801520 63; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+*EQUATE plus1.6 plus16.2
+*END 3283

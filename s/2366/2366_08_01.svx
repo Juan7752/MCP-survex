@@ -1,0 +1,38 @@
+*begin 2366_08_01
+*DATE 2008.03.15
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+;passage opposite Andy's BP
+;Bob Toogood Dave Gledhill Martin Barnicott
+;surveyed from end back to arrow on way into ABP
+;date 15th March 2008
+
+1	0	4.74	325	6
+1	2	16.95	135	2
+2	3	1.18	210	0
+3	4	5.11	114	0
+4	5	4.8	150	5
+
+*FLAGS duplicate
+5	6	2.43	138	22
+*FLAGS NOT duplicate
+
+*data passage station left right up down
+;stn	left	right	up	down
+0	0	0	0	0
+1	.52	.67	.1	.35
+2	.52	.67	.1	.35
+3	0	.74	.32	.56
+4	.97	0	.35	.56
+5	0	.39	.34	.41
+6	.58	0	.7	.1
+
+*END 2366_08_01

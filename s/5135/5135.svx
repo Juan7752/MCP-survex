@@ -1,0 +1,51 @@
+; 2025.10.04 created by TopoDroid v 6.2.44
+; Rasa
+; Instrument: SM-T720
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; Extracted from the rasa21-04-25.trox file (supplied by Guy Simonnot) by importing into TopoDroid-X on an Android tablet
+; then expecting a decent svx file. Didn't work.
+;METHOD: 
+; Each "batch" in the trox file of a certain date is copied into Excel then manipulated into a .svx file 
+; Most legs are flagged as Dir,Dir,Dir some as Inv,Inv,Inv. The latter have been set with *data normal to from tape compass clino
+; It is not clear if LRUD has been laterally reversed in the Inv,Inv,Inv sets so no reliance shoulod be put on LRUD views
+
+*BEGIN 5135
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION AUTO 450356 4793068 495
+
+*INCLUDE 5135-210214
+
+*INCLUDE 5135-230402
+*EQUATE 5135-230402.q2 5135-210214.q2
+*EQUATE 5135-230402.f1 5135-210214.f1
+
+*INCLUDE 5135-210308
+*EQUATE 5135-210308.z444 5135-210214.z444
+
+*INCLUDE 5135-210308A
+*EQUATE 5135-210308A.a15 5135-210308.a15
+
+*INCLUDE 5135-210307
+*EQUATE 5135-210307.b3 5135-210308A.b3
+
+*INCLUDE 5135-210310
+*EQUATE 5135-210310.PT-Q-22 5135-210307.PT-Q-22
+
+*INCLUDE 5135-210307A
+*EQUATE 5135-210307A.q2 5135-210214.q2
+
+*INCLUDE 5135-210823
+*EQUATE 5135-210823.b7a 5135-210308A.b7a
+
+*INCLUDE 5135-220102
+*EQUATE 5135-220102.g1 5135-210214.g1
+
+*INCLUDE 5135-230228
+*EQUATE 5135-230228.a11 5135-210308.a11
+*EQUATE 5135-230228.PT-MC 5135-210310.PT-MC
+
+*INCLUDE 5135-250420
+*EQUATE 5135-250420.mc19 5135-230228.mc19
+
+*END 5135

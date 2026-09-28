@@ -1,0 +1,20 @@
+*begin 1471_008
+;*CALIBRATE DECLINATION 2.55
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.1; (2.5-0.4)
+
+;Papa Noel. 11/11-2005. Torben Redder, Peter Fast Nielsen, Louise Korsgaard, Carmen
+;stn6=Start in chamber north of Hall of Tubes at stn 32 3/8 2004 (survex: 1471_006.32)
+;stn	stn	length	bearing	clino	;remark
+6	7	8	11	-50
+6	8	13.3	104	23
+8	9	5	220	0	;in rift there is pitch about 10 m down. Thrown rocks heard at stn 10 (east of stn 10 and downclimb 3 m to 8 m pitch)
+10	6	9.5	44	-9
+11	6	6.3	85	2	; at stn 11 no way on
+*end 1471_008

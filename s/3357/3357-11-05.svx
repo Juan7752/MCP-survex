@@ -1,0 +1,31 @@
+*BEGIN 3357-11-05
+;surveyors Simon Cornhill; Dan Hibbert
+*CALIBRATE DECLINATION 1.75
+
+c1	c2	3.78	-	down
+c2	c3	6.39	237	-8
+c3	c4	1.62	191	-15
+c4	c5	3.76	137	-32
+c5	c6	3.74	226	-8
+c6	c7	1.86	179	0
+c7	c8	2.52	277	1
+c8	c9	6.56	232	0
+c9	c10	10.02	199     -12
+c10	c11	3.38	-	down
+c11	c12	14.74	7	0
+c12	c13	2.60	305	3
+c13	c14	10.49	27	-4; altered from compass=37 degrees
+
+*data passage station left right up down
+c1	0	1.08	12.0	3.78
+c2	1.95	.69	5.0	0
+c3	1.99	0	.82	1.32
+c4	1.62	0	1.46	1.40
+c5	0.7	.53	1.53	0
+c6	.9	.38	.81	0
+c7	0	.94	1.16	0
+c8	1.03	1.41	.58	0
+c9	3.20	2.44	1.36	3.55
+c10	0	.77	5.04	4.12
+
+*END 3357-11-05

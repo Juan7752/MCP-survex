@@ -1,0 +1,1296 @@
+*begin LifeUandE
+
+;*EXPORT 2007-07-30.36
+
+*equate 2007-07-30.1 2007-07-31.1
+*equate 2007-07-31.9 2007-08-02a.1
+*equate 2007-07-31.14 2007-08-02b.1
+*equate 2007-07-30.11 2007-08-04a.1
+;*equate 2007-07-31.6 2007-08-04b.26
+*equate 2007-07-31.8 2007-08-04b.9x
+*equate 2007-08-04b.15 2007-08-04c.7
+*equate 2007-08-04b.23 2007-08-04d.1
+*equate 2007-08-02b.29 2007-08-04e.1
+*equate 2007-08-04f.1 2007-08-04e.10
+*equate 2007-08-04b.19 2007-09.0
+*equate Biggo2007-08-06.0 2007-09.16
+*equate 2007-09.33 Biggo2007-08-09PStA.0
+*EQUATE Biggo2007-08-09PStA.17 Biggo2007-08-09PStB.17
+*EQUATE Biggo2007-08-09PStA.13 Biggo2007-08-09PStC.13
+*EQUATE Biggo2007-08-09PStC.30 Biggo2007-08-09PStD.30
+*EQUATE Biggo2007-08-09PStA.8 Biggo2007-08-09PStE.8
+*EQUATE Biggo2007-08-09PStE.72 Biggo2007-08-09PStF.72
+*EQUATE Biggo2007-08-09PStE.64 Biggo2007-08-11Connection.0
+*EQUATE Biggo2007-08-09PStD.51 Biggo2007-08-11BiggoLink.0
+*EQUATE 2007-08-02b.15 Biggo2007-08-11Connection.floater; see notes in relevant section
+*EQUATE Biggo2007-08-11BiggoLink.12 RHBypass-resurvey.19
+*EQUATE Biggo2007-08-09PStA.9 Oxbow.0
+*EQUATE 2007-08-04e.8a 114_070819.8
+*EQUATE 2007-08-02b.22 114_070819-2.22
+
+
+*begin 2007-07-30
+
+;0114_Llueva
+;Big hading chamber down to bottom of active aven in fault chamber extension
+;surveyors: Footleg, Paul Dold, Dave Garman, Pete Adams, Nigel Cass
+;date 2007-07-30
+
+;*EXPORT 1 11 36
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;From	To	Tape	Compass	Clino	
+1	2	11.75	070	+19	
+2	3	11.10	177	-8
+4	3	19.58	050	+23
+5	3	20.40	010	+20
+6	3	11.07	276	-37
+7	6	8.45	294	-16	
+7	8	10.19	219	+5	
+7	9	11.11	161	-30
+9	10	9.34	207	-42
+11	10	5.30	355	0
+10	12	11.81	252	-42	
+12	13	20.10	207	-60
+13	14	5.40	274	-54	
+15	14	8.80	015	-12	
+15	16	6.30	135	+14
+14	17	2.30	033	0	
+17	18	7.45	-	-v
+18	19	1.93	245	-12
+19	20	5.55	-	-v
+21	20	3.24	267	-40
+21	22	2.35	328	-37
+22	23	2.79	210	-68
+23	24	3.25	032	-42	
+24	25	2.04	350	+14
+25	26	2.28	-	-v
+26	27	2.20	025	-36
+27	28	3.47	095	-35	
+28	29	3.26	046	-42
+29	30	4.85	070	-10
+30	31	2.00	137	-19
+31	32	4.22	136	-67
+32	33	0.66	130	0
+33	34	6.18	-	-v
+34	35	5.52	150	+10
+35	36	10.30	195	-13
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	2	1	1	0
+3	4	12	4	2
+5	4	0	5	2
+
+*data passage station left right up down
+2	4	10	2	1
+3	9	11	4	2
+
+*data passage station left right up down
+4	2	2	3	2
+3	12	7	4	2
+6	4	6	5	0
+8	10	0	3	2
+
+*data passage station left right up down
+6	4	6	5	0
+7	1	2	4	1
+9	2.5	2	8	1.5
+10	5	5	5	0
+12	3	14	7	1
+13	4	2	10	1
+
+*data passage station left right up down
+13	0	1.5	0	1.5
+14	2	2.5	2.5	1.6
+15	3	0	1.5	1
+16	0.8	0.8	0.4	0
+
+*data passage station left right up down
+14	2	1	2.5	1.6
+17	2	0	2.5	3
+18	2	0.5	3	0
+19	2	0	2	3
+20	0.5	2	2	0
+21	3	2	2.5	1
+22	0.3	0.3	0.5	0.3
+23	0.6	1	1.2	1
+24	1.5	1	1.8	1.6
+25	1.2	1	0	0.4
+26	0.6	0.3	0.8	0
+27	0	1	1	0.3
+28	1.5	0	1	1.2
+29	0	0.3	2	2
+30	0	1.2	2	0.5
+31	0.2	0.2	1.6	0.2
+32	0.4	0.4	2	1
+33	0.4	0.4	0	3
+34	0.6	0.6	3	0
+
+*end 2007-07-30
+
+*begin 2007-07-31
+
+;0114_Llueva
+;Horizontal passages off top of big hading chamber
+;surveyors: Footleg, Paul Dold, Dave Garman, Pete Adams, Nigel Cass, Gary Cullen
+;date 2007-07-31
+
+;*EXPORT 1 6 8 9 14 33
+
+*CALIBRATE declination 2.28
+*CALIBRATE tape +0.1
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;From	To	Tape	Compass		Clino
+1	2	5.95	252		-8
+2	3	10.20	344		-6	
+3	4	9.50	028		-8	
+4	5	14.35	351		+5
+5	6	11.31	025		+3
+6	7	18.31	357		-17
+7	8	8.68	008		-7
+8	9	8.65	335		+5
+9	10	9.10	007		-8
+10	11	19.22	289		+3
+11	12	7.45	303		+10	
+12	13	18.30	270		-4
+13	14	11.44	255		-10	
+14	15	8.55	303		+5
+15	16	3.48	007		-11
+16	17	10.86	275		-3
+17	18	13.66	015		-3
+18	19	5.65	019		+10
+18	20	7.85	272		-2
+19	21	23.16	042		0
+21	22	7.81	012		+2	
+22	23	7.86	071		-4
+23	24	18.62	005		+3
+24	25	10.55	022		+5	
+25	26	4.72	057		+9
+26	27	3.35	025		+13
+27	28	10.15	070		+4
+28	29	13.91	051		+2
+29	30	4.37	037		+5
+30	31	12.60	053		+3
+31	32	12.73	065		+6
+32	33	7.96	055		0
+20	34	4.70	237		0	
+34	35	6.06	283		-4
+35	36	5.42	2.89		+13	
+36	37	5.47	282		-10
+37	38	2.25	297		+1
+38	39	4.15	325		+2
+39	40	8.91	254		+3
+40	41	6.04	286		+3
+41	42	6.16	241		-3
+42	43	6.34	241		+1
+43	44	6.53	279		0
+44	45	1.28	167		-62		
+45	46	8.75	-		-v
+44	47	5.74	268		-3
+47	48	2.00	312		+13
+48	49	5.55	268		0
+49	50	2.10	203		-11
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	1	2	1	0
+2	1	2	2	2.5
+3	0.3	4	3	2.3
+4	3	0	3	1.6
+5	0	3	1.5	1.8
+6	3	1	1.5	1
+7	0	1.5	4.3	1.7
+8	2	0	5	1.7
+9	3.5	2	3	2
+10	3	3	4	1.8
+11	1	2	6	2
+12	5	0	5	4
+13	3	1.5	6	1
+14	0.8	3.5	5	1
+15	0.4	3	5	1.7
+16	1.4	2	5	0.5
+17	0.5	2	5	0.4
+18	1.5	0.4	6	0.2
+19	3	1	5	1
+21	1.6	0	5	1
+22	0	1.7	5.5	1.5
+23	1	1.5	6	0.2
+24	1	0.3	6	0.5
+25	0	1.2	6	1
+26	1.2	0	5	1.4
+27	0.2	1	4	1.6
+28	0.2	1.3	4	1.6
+29	0.2	1.5	3	1.6
+30	2	0	3.5	1.6
+31	1	0.5	1.8	1.6
+32	0.2	1	0.8	1.7
+33	0.5	1	0.7	0
+
+*data passage station left right up down
+;stn	left	right	up	down
+18	0.7	0.3	1	0
+20	0.7	0.3	1	0
+34	0	1	1	0.2
+35	1.2	0.3	1	0.2
+36	0.3	1	1	0.4
+37	1.5	1	0.3	0.4
+38	0	1.5	1	0.4
+39	2.5	0	0.4	0.6
+40	2	1	0.5	0.5
+41	0.5	1	0.3	0.7
+42	1.5	0.3	0.7	0.3
+43	0.5	1.5	0.5	1.8
+44	0.3	1.2	1	0.5
+47	0.8	1.4	0.4	0.5
+48	1	0.2	0.4	0.5
+49	1.2	1.4	0.4	0.5
+50	0.5	1.5	0.3	0
+
+*end 2007-07-31
+
+*begin 2007-08-02a
+
+;*EXPORT 1
+
+;0114_Llueva
+;Side passage off left at mini porno palace formation
+;surveyors: Footleg, Pete Adams, Nigel Cass	
+;date 2007-08-02
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;From	To	Tape	Compass		Clino
+1	2	8.89	217		8
+2	3	13.62	208		5
+3	4	7.90	197		-24
+3	5	2.78	169		-1
+5	6	10.17	215		9
+6	7	8.27	217		-11
+7	8	3.98	-		-v
+9	8	6.50	358		-18
+9	10	2.52	259		-13
+10	11	4.26	328		-13
+11	12	10.46	198		2
+12	13	4.30	214		10
+13	14	6.23	147		-6
+13	15	8.77	162		33
+15	16	8.35	262		-13
+16	17	4.00	188		-23
+17	18	4.63	224		-13
+18	19 	4.89	185		14
+21	20	3.35	-		+v
+21	22	0.67	267		0
+19	20	0.28	270		0
+19	23	4.26	202		17
+23	24	3.00	153		13
+24	25	4.20	172		0
+
+*end 2007-08-02a
+
+*begin 2007-08-02b
+
+;*EXPORT 1 15 22 29
+
+;0114_Llueva
+;Down the pit in the northerly heading passage off Big Bang Burger Bar
+;surveyors: Footleg, Paul Dold, Dave Garman, Pete Adams, Nigel Cass
+;date 2007-08-02
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;From	To	Tape	Comp.	Clino
+1	2	3.43	306	6
+2	3	3.20	235	-41
+3	4	18.90	-	-v
+4	5	2.44	355	1
+5	6	2.37	046	-31
+6	7	2.31	064	32
+7	8	6.23	351	-24	
+8	9	0.91	056	-19
+9	10	11.34	-	-v
+11	10	6.50	204	-22
+11	12	10.52	-	-v
+13	12	3.56	172	-49
+13	14	11.03	062	-9
+14	15	18.03	130	45
+15	16	30.55	022	-24
+16	17	30.80	253	-21
+17	18	22.95	345	33
+17	19	30.68	241	21
+17	20	24.65	280	5
+20	21	5.42	272	-33
+21	22	12.16	269	-40
+22	23	30.80	239	-25
+23	24	5.20	006	30
+22	25	19.67	316	-32
+25	26	30.37	271	-3
+26	27	23.44	283	-2	
+27	28	30.80	253	1
+27	29	9.80	306	24
+28	30	30.80	277	-1
+30	31	30.80	264	0
+31	32	8.90	285	-16
+32	33	3.76	264	-34
+33	34	18	266	0
+13	20	28.60	318	-14
+
+;*data passage station left right up down
+;stn	left	right	up	down
+
+*end 2007-08-02b
+
+*begin 2007-08-04a
+
+;*EXPORT 1
+
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Dave Paul Dold
+;date 2007-08 -04
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;Stn 1 = Stn 11 from 30-07-07
+;From	To	Tape	Compass	Clino	
+1	2	7.57	123	2
+2	3	7.65	54	2
+3	4	3.97	142	-26
+4	5	5.55	162	5
+5	6	3.26	112	42
+6	7	3.85	174	63
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	2	0	1	0.7
+2	1.3	1	0.3	0.4
+3	4	0	2	2
+4	2.2	0.5	0.4	2
+5	2	2	4	0.2
+6	0.5	0.5	0.5	0
+7	0	2	1.5	3	
+
+*end 2007-08-04a
+
+*begin 2007-08-04b
+
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Dave Paul Dold
+;date 2007-08 -04
+
+;*EXPORT 15 23 26 19 9x
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;Stn 26 is closest to stn 6 from 31-07-07, but needs properly connecting to an actual stn.
+
+;From	To	Tape	Compass	Clino	
+1	2	4.5	285	-11
+2	3	3.22	259	0
+3	4	10	223	-13
+4	5	6.92	253	-4
+5	6	6.55	242	-2
+6	7	9.5	213	0
+7	8	8.66	197	3
+8	9	15.87	244	3
+9	10	11.66	203	-3
+10	11	10.76	231	-23
+11	12	5.8	294	12
+12	13	9.32	244	1
+13	14	7.15	201	1
+14	15	4.19	250	-20
+15	16	4.32	192	-5
+16	17	13.52	285	-5
+17	18	6.8	259	-17
+18	19	10.37	271	-10
+19	20	3.08	162	70
+20	21	7.30	244	16
+21	22	6.3	291	-11
+22	23	8.43	244	0
+23	24	16.6	276	7
+24	25	8.95	16	-5
+25	26	3.03	322	30
+
+;tie in to stn 9
+;date 7/8/07
+;Paul Dold
+*FLAGS duplicate
+26	1x	11.71	0	-30
+1x	2x	4.36	20	-7
+2x	3x	11.57	350	-10
+3x	9x	3.02	330	35
+*FLAGS NOT duplicate
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	0	2	4	1
+2	2	2	0.6	0
+3	2	2	0	0.5
+4	2	2	2	0
+5	2	2	2	0
+6	1.5	1.5	1	0
+7	3	2	0.5	0.7
+8	4	3	5	0
+9	3.5	0	1	1.5
+10	0	1.5	1.5	2.5
+11	1	1	4	0.5
+12	3	2	3	1.5
+13	2.5	0	2.5	1.5
+14	3	2	4	0
+15	3	2	1	0.5
+16	2	2	0.3	1
+17	1	1	3	2
+18	2	2	4	0
+19	1.5	3	1.5	0
+20	0	1.5	2	0.5
+21	0.2	1.5	2	0.5
+22	1	1	4	1
+23	1	2	3	0
+24	0.2	3	1	2
+25	1	2	1	0
+
+
+*end 2007-08-04b
+
+*begin 2007-08-04c
+
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Dave Paul Dold
+;date 2007-08 -04
+
+;*EXPORT 7 
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;Stn 7 is  stn 15 from 2007-08-04b
+
+;From	To	Tape	Comp.	Clino	
+1	2	3.63	213	-5
+2	3	3.11	082	7
+3	4	8.84	099	0
+4	5	8.66	042	-14
+5	6	3.30	097	15
+6	7	6.45	093	-33
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	0.7	0.4	1	0
+2	1	1	1	0
+3	1	5	1.2	0.2
+4	3	0	1.2	0.7
+5	2	3	3	0
+6	2	2	2	1
+7	2	3	1	0.5
+
+*end 2007-08-04c
+
+*begin 2007-08-04d
+
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Dave Paul Dold
+;date 2007-08 -04
+
+;*EXPORT 1
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;Stn 1 is  stn 23 from 2007-08-04b
+
+;From	To	Tape	Comp.	Clino	
+1	2	11.61	187	0
+2	3	4.23	197	5
+3	4	3.87	168	-2
+4	5	6.00	200	-4
+5	6	3.75	102	-5
+6	7	16.58	066	1
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	1	1	2	0
+2	1	1	2	0
+3	0.5	0.5	2	0.2
+4	0.5	0.5	2	0.5
+5	2	2	2	1
+6	2	3	1	1
+7	2	2	1	0.5
+
+*end 2007-08-04d
+
+*begin 2007-08-04e
+
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Dave Paul Dold
+;date 2007-08 -04
+
+;*EXPORT 1 10 8a
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;Stn 1 is  stn 29 from 2007-08-02b
+
+;From	To	Tape	Comp.	Clino
+1	2	23.07	270	15
+2	3	27.44	267	-5
+3	4	30.80	274	-2
+4	5	11.61	274	-2
+5	6	11.70	263	-4
+6	7	23.55	264	5
+7	8	15.70	272	0
+8	9	13.95	273	-13
+9	10	9.80	254	5
+10	11	11.50	233	8
+6	2a	4.81	198	3; notes said 298 but this was meant to be 198
+2a	3a	6.23	199	-23
+3a	4a	19.65	269	13
+4a	5a	2.88	202	4
+5a	6a	9.22	121	0
+6a	7a	4.15	126	-6
+7a	8a	2.96	199	-29
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	4	0	5	0
+2	1	3	0	1.5
+3	1	4	0.5	0.2
+4	1	1	1	0.5
+5	2	2	2	0
+6	2	4	5	0
+7	1.5	2	3	1
+8	2	2	4	0
+9	1.5	2	3	0
+10	3	2	2	1
+11	0	4	2	0.5
+
+*data passage station left right up down
+;stn	left	right	up	down
+6	1	1	1	0
+2a	1	1	1	0
+3a	2	2	4	1
+4a	2	0	2.5	2
+5a	1.5	0	2	2
+6a	1.5	0	2	2
+7a	3	2.5	4	0
+8a	2	2	4	0
+*end 2007-08-04e
+
+*begin 2007-08-04f
+
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Dave Paul Dold
+;date 2007-08-04
+
+;*EXPORT 1
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;Stn 1 is  stn 10 from 2007-08-04e
+
+;From	To	Tape	Comp.	Clino
+1	2	3.33	309	-28
+2	3	9.17	270	-7
+3	4	10.01	260	-7
+3	2a	3.05	031	-18
+2a	3a	2.87	308	10
+
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	1.5	2	3	0
+2	1	0	2.5	1
+3	1.5	0	1	1
+4	1.5	0	0.5	0.5
+
+*data passage station left right up down
+3	1.5	0	1	1
+2a	1	1	2	0
+3a	1	1	2	0
+*end 2007-08-04f
+
+*begin Biggo2007-08-06
+;*EXPORT 0
+;0114_Llueva
+;
+;surveyors: Dan Hibberts Paul Dold
+;date 2007-08 -06
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+;From	To	Tape	Compass	Clino	
+0	1	5.34	292		36
+1	2	17.65	202		15
+2	3	14.90	132		1
+3	4	8.56	92		-26
+4	5	18.77	0		-8
+5	0	8.38	304		-28
+
+*end Biggo2007-08-06
+
+
+*begin 2007-09
+;*EXPORT 0 16 13 33
+;0114_Llueva
+;
+;surveyors: Allan Berry Paul Dold
+;date 2007-08-07
+;stn 0 is 08-04b.19
+
+*CALIBRATE declination 2.28
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+
+0	1	3.64	351	-20;
+1	2	11.67	-	-v
+2	3	3.09	0	40
+3	4	5.76	280	0
+4	5	5.65	16	0
+5	6	9.6	100	0
+6	6a	12.2	-	+v
+5	7	6.62	45	0
+7	8	7.5	-	+v; possible passage above??
+4	9	11.03	190	-10
+9	10	4.61	250	-2
+10	11	2.51	330	3
+11	12	7.78	250	3
+12	13	1.45	315	0
+13	14	6.6	265	-3
+14	15	1.7	205	-55
+15	16	5.16	-	-v
+
+;crawl to pitch into big stuff!!
+9	21	1.5	280	-30
+21	22	7.23	350	-20
+22	23	4.7	350	-10
+23	24	1.69	260	-10
+24	25	3.36	280	-8
+25	26	1.2	350	0
+26	27	4.66	280	-15
+27	28	4.22	0	-20
+; stn 9 (29) not used
+28	30	10.98	5	-12
+30	31	10.82	340	-10
+31	32	18.13	20	-15
+32	33	20.4	9.5	15; 2m before head of p26m
+
+
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	2	2.5	2	11.67
+2	2	2.5	13.67	0
+3	4	0	14	1
+4	0	2	1	1.3
+5	.5	5.2	9	.5
+6	6	3.5	10.8	.5
+7	1	7	10.8	.5
+9	0	1	1.5	.5
+10	0	1.5	1.5	.4
+11	2	0	.7	.5
+12	0	.5	1	.8
+13	.7	0	.9	.8
+14	0	.4	1	1
+15	.7	.2	1.4	.5
+22	.5	0	.3	.4
+23	0	.3	.4	.7	
+24	0	.6	.3	.6
+25	0	.5	.6	.5
+26	.5	0	.5	.6
+27	0	1.4	.25	1.4
+28	0	.6	1	2.3
+30	.5	1.2	1.2	.6
+31	0	3.4	.8	1
+32	0	3.4	.8	1
+33	2	4	1.2	3
+
+*end 2007-09
+
+*begin Biggo2007-08-09PStA
+;*EXPORT 0 8 9 13 17
+;surveyors: Paul Stacey Peter T Eagan Dan Hibberts
+;date 2007-08 -09
+*CALIBRATE declination 2.28
+
+;From	To	Tape	Compass	Clino	
+1	0	5.3	221	34
+2	1	3.35	341	8
+3	2	23.5	-	+v
+4	3	3.29	114	10
+5	4	10.8	86	72
+6	5	3.7	204	6
+6	7	11.3	273	8
+7	8	8.7	290	-40
+8	9	19.16	211	1
+9	10	27.5	227	-7
+10	11	14.5	199	1
+11	12	20.2	215	-1
+12	13	12.9	219	11
+13	14	11.3	238	7
+14	15	10.2	263	-3
+15	16	16.7	281	-7
+16	17	6.1	269	-3
+17	18	8.8	252	30
+18	19	7.3	259	2
+19	20	8.5	269	0
+20	21	6.9	257	1; strongly draughting choke
+
+*data passage station left right up down
+;stn	left	right	up	down
+1	.5	10.1	3.8	.5
+2	3.7	3.4	4.5	23.5
+3	1.6	1.4	23.5	0
+4	2.6	.7	3.9	10.8
+5	2.3	.3	2.6	1
+6	1.9	2.9	6.1	.6
+7	0	1.3	.5	2.1
+8	4.9	6.8	9.9	0.4
+9	5.2	6.1	8.6	4.6
+10	4.4	2.6	5.6	7.4
+11	3.3	3.1	7.5	1.9
+12	3.6	3.1	7.9	1.6
+13	5.6	5	6.0	3.3
+14	2	7.5	4.8	.7
+15	2.4	5.7	4.2	2.3
+16	3.9	2	4.8	1
+17	2.4	3	4.8	0
+18	.8	3.4	.8	.2
+19	6.3	.9	1	.6
+20	.7	.6	.5	.6
+21	7.2	1.7	3.0	1.5
+
+*END Biggo2007-08-09PStA
+
+
+*begin Biggo2007-08-09PStB
+;*EXPORT 17
+;surveyors: Paul Stacey Peter T Eagan Dan Hibberts
+;date 2007-08 -09
+*CALIBRATE declination 2.28
+17	22	9.8	347	6
+22	23	5.5	0	-10
+23	24	18.5	279	0
+24	25	5.1	267	-6
+25	26	9.9	272	5
+26	27	16.9	265	3
+27	28	12.8	265	13; strongly draughting boulder choke
+
+*data passage station left right up down
+17	2.4	3	4.8	0
+22	1.5	4.2	1.7	1.3
+23	3.3	1.5	2.4	2.0
+24	3.3	1.3	0	2.0
+25	1	3.1	0	1.1
+26	2.1	2.1	1.8	0
+27	5	4.4	2.6	1.2
+28	1.5	2.5	.7	2.9
+
+*END Biggo2007-08-09PStB
+
+
+*begin Biggo2007-08-09PStC
+;*EXPORT 13 30
+;surveyors: Paul Stacey Peter T Eagan Dan Hibberts
+;date 2007-08 -09
+*CALIBRATE declination 2.28
+13	29	10.55	165	25
+29	30	16.5	181	1
+30	31	16.8	260	0
+31	32	9	239	7
+32	33	8.3	243	1
+33	34	7.8	279	-3
+34	35	9.95	270	-9
+35	36	1.7	178	-6
+36	37	4.7	253	11
+37	38	4.4	258	4
+38	39	4.2	251	-4; climb up into choke
+
+*data passage station left right up down
+29	3.4	10.4	4.5	1.3
+30	4	16.7	4.1	4
+31	3.6	7.7	2.6	1.5
+32	2.2	8.3	.8	1.2
+33	.6	3	1	1.3
+34	.9	1.5	1.2	2
+35	1.7	0	1.4	1
+36	1.7	0	1.4	.6
+37	.9	.6	.6	.5
+38	.6	1	0	.7
+
+*END Biggo2007-08-09PStC
+
+
+*begin Biggo2007-08-09PStD
+;*EXPORT 30 51
+;surveyors: Paul Stacey Peter T Eagan Dan Hibberts
+;date 2007-08 -09
+*CALIBRATE declination 2.28
+30	40	5.3	84	15
+40	41	9.2	100	-13
+41	42	10.19	88	2
+42	43	14.65	101	-12
+43	44	4.3	104	7
+44	45	6.3	65	16
+45	46	7.2	84	2
+46	47	5.7	115	-36
+47	48	10.2	139	-29
+48	49	3.3	124	-6
+49	50	13.2	220	-1
+50	51	10.2	224	2; flashbulb
+
+*data passage station left right up down
+40	1.7	1.8	0	1.6
+41	3	2.7	1.2	1.3
+42	2.5	2.3	1.2	1.7
+43	3.4	1.3	.8	1.6
+44	5.3	.7	1.8	.9
+45	5.6	1.8	0	1.2
+46	4.4	2.8	0	1.5
+47	8	4.5	1	4	
+48	3.2	3.1	1.3	.4
+49	1.5	5.5	.6	0
+50	1.5	1.4	.7	0
+
+*END Biggo2007-08-09PStD
+
+
+*begin Biggo2007-08-09PStE
+;*EXPORT 8 64 72
+;surveyors: Paul Stacey Peter T Eagan Dan Hibberts
+;date 2007-08 -09
+*CALIBRATE declination 2.28
+8	60	12.99	353	4
+60	61	16.08	354	-7
+61	62	7.08	0	2
+62	63	14	262	38
+63	64	14.67	286	35
+64	65	12.8	42	29
+65	66	19.5	26	-7
+66	67	26.3	37	-3
+67	68	34	48	4
+68	69	21.5	48	-2
+69	70	10.19	26	-21
+70	71	15.6	33	-26
+71	72	21.2	54	-13
+72	73	14.95	84	16
+73	74	26.4	84	15
+74	75	22.5	70	9
+75	76	24.6	92	1
+76	77	28.1	62	4
+
+*data passage station left right up down
+60	12	4.16	3.6	3.5
+61	8.8	8.0	7.6	1.2
+62	11.7	1.2	6.3	.6
+63	5	5.7	5.6	1
+64	4.4	2.6	1.8	3.4
+65	13	10.5	6	3.6
+66	10.5	14.3	7.6	1.7
+67	13.4	20.2	7.5	1.3
+68	11.9	12.3	4.5	.7
+69	12.8	12	5.2	1.4
+70	15	18.3	8.6	1.5
+71	8	30.7	15	2.1
+72	12	26.6	18.8	2.8
+73	18.6	32	15.4	2
+74	16.8	16	7.6	.6
+75	9.5	14.5	4.6	.9
+76	15.9	8.5	3.8	1
+77	7.6	7	1	0
+
+*END Biggo2007-08-09PStE
+
+
+*begin Biggo2007-08-09PStF
+;*EXPORT 72
+;surveyors: Paul Stacey Peter T Eagan Dan Hibberts
+;date 2007-08 -09
+*CALIBRATE declination 2.28
+72	78	9.5	271	-17
+78	79	15.95	293	-27
+79	80	20.56	291	-6
+80	81	10.66	277	7
+81	82	9.6	282	5
+82	83	10.2	310	-1
+83	84	12.39	288	-10
+84	85	6.96	294	11
+85	86	22.2	299	-4
+86	87	23.3	277	-3
+87	88	30	298	5
+88	89	14.1	293	8
+89	90	12.4	301	-15; finishes?	
+
+
+*data passage station left right up down
+78	13.9	8	20.9	1.2
+79	6.8	7.8	2.1	.7
+80	4.4	6.4	3.5	.9
+81	1	7.8	1.4	0
+82	.86	7.2	0	1.8
+83	1.7	1.2	0	2.3
+84	1.8	2.3	2.2	.4
+85	1.7	2.7	1.1	2.2
+86	6.7	0	3.4	1.4
+87	2.8	5.6	2.8	2.7
+88	3.7	3.8	2.7	2.1
+89	7.6	5.6	0	1.8
+90	1	2	1	0
+*END Biggo2007-08-09PStF
+
+
+*begin Biggo2007-08-11Connection
+;*EXPORT 0 floater
+;surveyors: Paul Stacey Ali Neill Dan Hibberts
+;date 2007-08 -11
+*CALIBRATE declination 2.28
+
+0	1	12.77	238	-26
+1	2	4.97	242	-17
+2	3	5.18	230.5	30
+3	4	2.77	253	46
+4	5	.82	-	+v
+5	6	2.42	333	10
+6	7	2.71	281.5	-2; 7 connects into Big Chamber. Left floating.
+floater	7	21.4	52.28	-53
+;Stn 7 is apparently some distance to the east, and down from both 2007-08-02b.15 and 2007-08-02b.16
+; Suggest a dummy leg of 2007-08-02b.15 to Biggo2007-08-11Connection.7 of 
+;21.4m, 50deg true, -53 incl (after talking to Dan)
+
+*data passage station left right up down
+0	8	3	6	0
+1	1.5	8	5	0
+2	1	3	2	0
+3	1	2	0	.5
+4	.5	.5	.5	.5
+5	.5	.5	.5	.5
+6	.5	.5	.5	.5
+7	10	15	20	0
+
+*end Biggo2007-08-11Connection
+
+
+*begin Biggo2007-08-11BiggoLink
+;*EXPORT 0 12
+;surveyors: Paul Stacey Ali Neill Dan Hibberts
+;date 2007-08 -11
+*CALIBRATE declination 2.28
+0	1	4.87	226.5	.5
+1	2	8.4	229	.5
+2	3	4.16	198	12
+3	4	2.01	59	22
+4	5	4.22	182	38
+5	6	1.18	359.5	60
+6	7	4.72	322	32
+7	8	9.32	233	36.5
+*FLAGS duplicate
+8	9	4.91	198	-14.5
+9	10	4.35	201	-1
+10	11	11.86	201	-31.5
+11	12	8.16	209	-6
+*FLAGS NOT duplicate
+;stn12 is bolt at top of p6 at N end of RH Bypass
+;Tie this in with the edge of the Lake??
+;Need to resurvey the RH Bypass? or find original notes?
+
+*data passage station left right up down
+1	.5	3	.5	1.5
+2	3	1.5	.8	.1
+3	.3	3	4	0
+4	2	.5	3	0
+5	.5	.5	2	.5
+6	1	1	1	1
+8	10	3	6	0
+9	5	2	.5	.5
+10	5	5	1.5	.5
+11	8	8	3	0
+12	.8	0	1	1
+
+*end Biggo2007-08-11BiggoLink
+
+*begin RHBypass-resurvey
+;*EXPORT 0 19
+;surveyors: Ali Neill Dan Hibberts Carolina Smith
+;date 2007-08-13
+*CALIBRATE declination 2.28
+*FLAGS duplicate
+
+;stn 0 should be equated with 0114_Llueva.part1.mainpassage.22 or lefthandbypass.68?? Probably the latter.
+0	1	11	346.5	21; 0 orange tag at top of LH Bypass
+1	2	11.95	355.5	-12;foot of pitch up to RHBypass
+2	3	5.92	-	+v
+3	4	17.4	312.5	-1
+4	5	8.25	285	-3
+5	6	20.6	312.5	0; stn6 marked junction
+6	7	2.9	280.5	57
+7	8	2.85	214	49
+8	9	8.8	284.5	9
+9	10	5.75	300.5	-7
+10	11	2.35	50	-23
+11	12	2.7	295.5	-43
+12	13	5.7	269	9
+13	14	18.45	302	-4
+14	15	9.65	25	-25
+15	16	2.55	60	-54
+16	17	5.9	305.5	-12
+17	18	6.5	24	2
+18	19	2.25	26	-41; stn 19 is bolt at top of p4 into Fault Passage
+;stn 19 has been equated with Biggo2007-08-11BiggoLink.12
+19	20	6	-	-v;pitch
+
+*FLAGS NOT duplicate
+
+*data passage station left right up down
+3	2	4	.8	6
+4	3	0	.5	1.5
+5	.5	3	4	1
+6	2.5	2	4	1
+7	2	0	2	3
+8	0	1	1.5	1.5
+9	.5	.8	.8	3
+10	0	1.5	1	2
+11	1.5	0	.5	2
+12	1	2	.3	1.5
+13	1.5	1.5	1	1.5
+14	2.5	0	.6	2
+15	1.5	0	1.5	3
+16	3	1.5	4	0
+17	0	4	.5	1.5
+18	.5	1.5	0	1.6
+19	0	1.5	1.5	0
+
+
+*end RHBypass-resurvey
+
+*begin Oxbow
+;*EXPORT 0
+;surveyors: Ali Neill Dan Hibberts Carolina Smith
+;date 2007-08-13
+*CALIBRATE declination 2.28
+
+
+0	1	10	322	18
+1	2	13.2	303	5
+2	3	17.25	41	-8
+4	2	5.9	154	22; Stn 4 is start of PALAEOKARST PASSAGE
+5	4	10.2	109	0
+6	5	5.15	74	3
+7	6	2.5	2	-1
+8	7	4.6	92	-6
+9	8	14.15	70	1
+10	9	10.35	69	0
+11	10	10	39	1
+12	11	1.6	73	-2
+13	12	9.2	64.5	-2
+14	13	10.14	72	1
+15	14	3.4	43	-4
+16	15	3.92	54.5	0
+17	16	4.65	38	0
+18	17	7.4	24	1
+19	18	5.4	60	-3
+20	19	7.6	14.5	0
+21	20	11.65	72	-1
+22	21	2.9	0	11
+23	22	5.85	63.5	-2
+24	23	3.45	20	.2
+25	24	11.64	69.5	-1
+26	25	2.7	126	0
+27	26	15.8	68	-1
+28	27	15.9	109	-41
+
+*data passage station left right up down
+
+1	6	3	2	0
+2	4	6	.2	1.5
+3	3	6	2	1
+4	1.5	1.5	3	0
+5	.8	.4	1.2	.3
+6	.8	1	1.2	.2
+7	1	1	1.2	.2
+8	.8	.8	.2	1.2
+9	1.5	0	.3	1.2
+10	1.5	0	.4	1
+11	1.8	0	1	.4
+12	0	1.5	1	.4
+13	1.5	0	.8	1
+14	0	1.2	.4	1
+15	1.2	0	.4	1.2
+16	1.2	0	.5	1
+17	1.5	.8	1	.4
+18	1	.6	1.2	.2
+19	0	1.2	1	.4
+20	0	1.5	1	.2
+21	1.5	0	.4	1.2
+22	1	.3	1.2	.3
+23	1.5	0	.8	.4
+24	0	1.5	1.2	.4
+25	.4	1.8	.4	1.2
+26	1.8	.6	1.2	.8
+27	1.5	.5	1.5	.4
+28	5	10	4	2; conts 10m up into large choke with void
+
+*end Oxbow
+
+*BEGIN 114_070819
+;*EXPORT 8
+*CALIBRATE declination 2.28
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;surveyors Dingles 1 & 3, Dan, Bill Sherrington
+;data 19th August 2007
+;Llueva 
+
+8	9 	7.986	265.5	0
+9	10	4.428	237.5	4
+10	11	3.634	264.5	1
+11	12	6.416	285	12
+12	13	8.775	261	-3
+13	14	8.346	141.5	-2
+14	15	4.707	279	7
+15	16	3.95	179	22
+16	17	3.27	230	45
+17 	18	5.117	168	0
+
+8	2	8.279	109.5	23
+2	3	3.749	122	0
+3	4	6.51	153	1
+
+*data passage station left right up down
+;stn	left	right	up	down
+
+8	2	2.4	4.27	1
+9	1	0	3.9	.67
+10	0	1	3	1.5
+11	0	.6	3.2	.75
+12	.95	0	1.65	.72
+13	.5	1.5	1.59	1.06
+14	1.06	1.6	1.52	.73
+15	.8	0	1.38	.57
+16	.8	.6	2.99	0
+17	4.13	2.5	0	.8
+
+;8	2	2.4	4.27	1
+2	0	.75	1.15	1.3
+3	1.67	3.37	2.97	1.87
+4	3	3	2	1
+*END 114_070819
+
+*BEGIN 114_070819-2
+;*EXPORT 22
+*CALIBRATE declination 2.28
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;surveyors Dingle 3, Dan Hibberts
+;data 19th August 2007
+;Llueva 
+
+0	1	30	90	0
+1	2	10.63	69	-14
+2	3	5.1	58	-10
+3	4	19.91	53	1
+4	5	6	104	5
+5	6	3.46	346.5	27
+6	22	9.91	100	32; 22 is Paul Dold 22
+
+; 11 onwards have "10" added to the stn code
+10	11	7.29	80	-1
+11	12	5.94	42.5	0
+12	13	23.28	69.5	3
+13	14	12.52	73	-1
+14	15	16.64	89	-5
+15	16	18.97	103	3
+16	17	7.94	81	-6
+17	3	11.107	109.5	-19; stn 3 above
+
+*data passage station left right up down
+;stn	left	right	up	down
+0	.5	.5	.5	.5
+1	2	2	2	2
+2	2	2	2	2
+3	3	0	4	1
+4	0	2	1.5	1.5
+5	0	1.26	1.4	1.5
+
+11	0	1.2	.6	.6
+12	0.5	1.4	.5	.4
+13	.72	2.49	1.25	.3
+14	0	2.87	.4	.76
+15	.83	1.01	0	.82
+16	.89	.39	1.08	0
+17	.77	0	1.5	.7
+;3	.45	.69	1.7	0
+
+*END 114_070819-2
+
+*end LifeUandE

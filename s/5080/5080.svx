@@ -1,0 +1,48 @@
+; 2021.07.28 created by TopoDroid v 5.1.40
+; 5080-2021-01
+; Instrument: DistoX2 4468 - SM-N910F
+; NOTE Originally called 5079
+*begin 5080
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION AUTO 453249 4798450 0285
+
+*FIX 0 453249 4798450 0285
+*ENTRANCE 0
+
+  *date 2021.07.27 
+  *team "Diane Arthurs, Simon Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 1.08 310.2 11.5
+  0 0ba 0.65 265.3 -36.1
+  0 0bb 0.51 353.7 -50.1
+  0 0bc 0.72 314.8 -32.6
+  0 0bd 0.35 202.6 -65.2
+  *flags not splay
+    0 1   4.23 269.3 -72.1
+  *flags splay
+  1 1a 0.47 83.5 4.0
+  1 1ba 0.25 354.6 -5.1
+  1 1bb 0.37 218.3 10.2
+  1 1bc 0.35 177.4 -3.2
+  1 1bd 1.31 34.3 -84.3
+  1 1be 2.11 33.0 78.8
+  1 1bf 3.23 332.1 -56.9
+  1 1bg 1.47 339.0 -56.1
+  1 1bh 0.86 326.9 -50.6
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.13 0.69 0.22 0.39
+1  0.35 1.57 2.07 2.71
+
+*end 5080

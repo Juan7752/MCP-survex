@@ -1,0 +1,12 @@
+*BEGIN 0075-new
+
+*INCLUDE 0075.svx
+
+*INCLUDE 0075-new-12-01.svx
+*INCLUDE 0075-new-13-01.svx
+*EQUATE 0075-new-12-01.36 0075-new-13-01.37
+*INCLUDE 0075-new-12-02.svx
+*EQUATE 0075-new-13-01.0 0075-new-12-02.7
+
+*end 0075-new
+

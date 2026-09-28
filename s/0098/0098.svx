@@ -1,0 +1,40 @@
+*BEGIN 0098_Bollon
+
+*INCLUDE 0098early
+*INCLUDE 1452/Holeroad1-1.svx
+*INCLUDE 1452/Holeroad1-2.svx
+*INCLUDE 1452/Holeroad2A.svx
+*INCLUDE 1452/Holeroad4.svx
+*INCLUDE 1452/climb.svx
+*INCLUDE 1452/Holeroad5.svx
+*INCLUDE 1452/vindication.svx
+*INCLUDE 0098-13-01.svx
+*INCLUDE 0098-13-02.svx
+*INCLUDE 0098-22-01.svx
+*INCLUDE 0098-22-02.svx
+
+*EQUATE Holeroad11.0 0098Bollon.AcornData3.118
+
+*EQUATE Holeroad12.0 0098Bollon.AcornData3.112
+
+*EQUATE Holeroad2.0 0098Bollon.AcornData3.109
+
+*EQUATE Holeroad4.11 0098Bollon.AcornData3.104
+
+*EQUATE climb1.10 0098Bollon.AcornData3.106
+
+*EQUATE Holeroad5.0 0098Bollon.AcornData5.167
+
+*EQUATE 098_vindication.1 0098Bollon.AcornData5.167
+
+*EQUATE 0098-13-01.19 0098Bollon.old.55
+
+*EQUATE 0098-13-02.15 0098Bollon.old.50
+
+*EQUATE 0098-22-01.0 0098Bollon.old.0
+
+*EQUATE 0098-22-01.17 0098-22-02.17
+
+
+
+*END 0098_Bollon

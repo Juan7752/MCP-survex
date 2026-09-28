@@ -1,0 +1,23 @@
+*BEGIN 0122_1978_Misty
+;Approx declination for 1978
+;*CALIBRATE DECLINATION 6
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 5.88; (6.28-0.4)
+
+0	1	15.6	78	5
+1	2	20	87	36
+2	3	29.7	1	8
+3	4	17.5	276	17
+4	5	7.6	220	-10
+5	6	24	256	-2
+6	7	37.5	213	-8
+7	8	7.7	11	-5
+
+
+*END 0122_1978_Misty

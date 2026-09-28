@@ -1,0 +1,39 @@
+*begin 1823
+*date 2002.10.20
+*team "Pete Smith" compass clino notes
+*team "Juan Corrin" tape
+*entrance 15
+;*fix 15 450312 4792580 398
+;*fix 15 450210 4792371  398; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*fix 15 450210 4792371  396
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 2.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.51; (2.91-0.4)
+
+1	0	15	287	0
+2	1	18	298	0
+3	2	27.5	276	0
+4	1	6.8	230	-9
+5	4	18	243	-5
+6	5	9	275	1
+7	6	12	254	-28
+8	7	9.6	295	2
+9	8	19	269	5
+10	9	7.4	268	10
+11	10	13.8	296	-3
+12	11	13.8	292	18
+13	12	21	335	-3
+13	14	10.6	285	1
+15	13	12	283	-10
+*end 1823

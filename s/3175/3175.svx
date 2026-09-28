@@ -1,0 +1,60 @@
+*BEGIN 3175
+
+;surveyors: Will Stewart Dave Ryall Kirsty Bamber
+;passage name:
+*DATE 2009.04.08
+
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+;*Fix 1 448567 4801069 0114
+*Fix 1 448465 4800860 0114; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 1
+
+1	2	2	289	-54
+2	3	3.8	150	-66
+3	4	3.1	24	-25
+4	5	5.88	21	-11
+5	6	3.7	21	6
+6	7	2.95	81	-33
+7	8	2.5	161	-18
+8	9	2.96	54	-72
+9	10	3.83	31	-2
+10	11	2.85	41	-3
+11	12	1.22	6	-3
+12	13	1.39	311	0
+13	14	2.07	57	15
+14	15	2.83	12	13
+15	16	2.97	78	14
+16	17	4.9	194	22
+17	18	2.74	198	-7
+
+16	16a	4.18	2	24
+
+13	20	.5	320	-35
+20	21	3.64	21	-4
+
+10	30	1.48	228	87
+30	31	1.68	297	-4
+31	32	1.4	203	12
+32	33	1.85	211	26
+
+33	seven	1.09	142	34
+
+3	40	4.25	113	0
+
+*EQUATE 7	seven
+
+*END 3175

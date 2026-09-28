@@ -1,0 +1,58 @@
+*BEGIN 3380-11-04
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35; (1.75-0.4)
+
+;surveyors Brendan Sloan, Jenny Sloan, Louise O'Hara, Liz Harding, Tim Webber
+*Date 2011.07.20
+*FLAGS SPLAY
+0	0a	 1.16	142.79	  0.26
+0	1	 9.53	168.09	  1.29
+1	2	 4.12	222.68	 -5.35
+*FLAGS SPLAY
+2	2a	 1.48	190.84	 14.53
+2	2b	 1.84	104.76	  4.75
+2	2c	 1.89	238.30	 16.18
+2	2d	 1.40	273.00	 12.55
+2	2e	 2.31	333.87	  6.49
+2	2f	 1.69	 22.00	  4.81
+*FLAGS NOT SPLAY
+2	3	 4.16	222.23	  4.62
+*FLAGS SPLAY
+3	3a	 0.52	209.78	 28.61
+*FLAGS NOT SPLAY
+3	4	 3.80	213.18	 20.58
+3	5	 5.41	349.36	  4.76
+*FLAGS SPLAY
+3	3a	 1.14	125.37	 15.72
+3	3b	 2.66	 86.09	  6.92
+*FLAGS NOT SPLAY
+2	6	 4.09	329.64	  7.35
+6	7	 3.46	339.54	  0.44
+7	8	 3.23	351.61	 32.73
+8	9	 1.40	327.60	 15.47
+*FLAGS SPLAY
+9	9a	 0.88	 29.91	  9.48
+*FLAGS NOT SPLAY
+9	10	 8.76	 20.49	 85.30
+9	11	 4.04	321.51	 11.42
+
+*data passage station left right up down
+0	1.368	0.0	0.686	1.815
+1	0.0	1.606	1.153	1.045
+2	1.571	1.923	2.607	0.0
+3	0.903	0.0	1.556	0.917
+3	0.0	2.336	0.0	0.0
+3	0.0	1.576	0.0	0.0
+6	0.395	0.57	1.877	0.757
+7	0.199	0.28	1.842	0.0
+8	0.416	0.0	0.217	0.936
+9	0.0	0.941	0.0	1.256
+*END 3380-11-04
+

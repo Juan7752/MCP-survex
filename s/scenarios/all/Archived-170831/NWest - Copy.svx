@@ -1,0 +1,68 @@
+*BEGIN all
+; originally comes from an Access query which flags the sites which have 3d files
+; change 0553/0553 to 0553/1930
+;check 1471
+;check 2264
+; 2713 Toca not plotted
+;(3024 no GPS of entrance?)
+; 0027 is included in 0025 so comment it out
+
+*INCLUDE ../../0066/0066.svx
+*INCLUDE ../../0127/0127.svx
+*INCLUDE ../../0394/0394.svx
+*INCLUDE ../../0553/0553.svx
+*INCLUDE ../../0553/1930.svx
+*INCLUDE ../../0613/0613.svx
+*INCLUDE ../../0618/0618.svx
+*INCLUDE ../../0681/0681.svx
+*INCLUDE ../../0713/0713.svx
+*INCLUDE ../../0767/0767.svx
+*INCLUDE ../../0915/0915.svx
+*INCLUDE ../../0979/0979.svx
+*INCLUDE ../../1072/1072.svx
+*INCLUDE ../../1163/1163.svx
+*INCLUDE ../../1167/1167.svx
+*INCLUDE ../../1725/1725.svx
+*INCLUDE ../../1868/1868.svx
+*INCLUDE ../../1874/1874.svx
+*INCLUDE ../../1931/1931.svx
+*INCLUDE ../../2068/2068.svx
+*INCLUDE ../../2121/2121.svx
+*INCLUDE ../../2183/2183.svx
+*INCLUDE ../../2223/2223.svx
+*INCLUDE ../../2488/2488.svx
+*INCLUDE ../../2887/2887.svx
+*INCLUDE ../../2889/2889.svx
+*INCLUDE ../../2916/2916.svx
+*INCLUDE ../../2980/2980.svx
+*INCLUDE ../../3011/3011.svx
+*INCLUDE ../../3012/3012.svx
+*INCLUDE ../../3024/3024.svx
+*INCLUDE ../../3034/3034.svx
+*INCLUDE ../../3170/3170.svx
+*INCLUDE ../../3174/3174.svx
+*INCLUDE ../../3175/3175.svx
+*INCLUDE ../../3191/3191.svx
+
+; 4 VALLEYS 
+;*EQUATE 0114_llueva.restofcave.290 0081_carcavueso.253
+;*EQUATE 0114_llueva.restofcave.414 0107_uzueka.313
+;*EQUATE 0114_llueva.restofcave.172 0081_carcavueso.152
+;*equate 0107_uzueka.175 0105_riano.UpperLevels.181
+
+; SVS
+;*EQUATE 1471_PNoel.1471_old.380 0264_coteron.373; Paper Plane to Coteron Renada Arm choke
+;*EQUATE 1471_PNoel.1471_old.387 0048_renada.437; Tumbling Dice to Itchy Crutch
+;*EQUATE 1338_shaft.76 0264_coteron.252; 1338 to 81 Depths Coteron
+;*EQUATE 0036_Vera_Negra.127 0048_renada.69; aven climb up into Cabana
+;*EQUATE 1471_PNoel.1471_006.18 0333_Azpilicueta.732; At the Opera / Hole in Wall Chamber
+;*EQUATE 0048_Renada.116 0264_Coteron.315; original connection
+;*EQUATE 1471_PNoel.1471_005.2 0048_renada.aa-climb.93
+
+; NVS
+;*EQUATE 0071_mostajo.672 0774_774.155
+;*EQUATE 0774_774.267 0892-all.0892_Reg_old.1054
+;*EQUATE 0774_774.271 0892-all.0892_Reg_old.284
+;*EQUATE 0774_774.282 0892-all.0892_Reg_old.987
+
+*END all

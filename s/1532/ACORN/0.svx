@@ -1,0 +1,26 @@
+*BEGIN 1532_surface
+;Created from Survey file on Sat,26 Jun 2004.09:49:47
+;Dates surveyed : 000731
+;Surveyors      : LDJM
+;No of stations : 15
+;Plan length    : 48.9176696m
+;Traverse length: 49.3m
+
+*FIX 0 51840 100000 0175
+
+*ENTRANCE 0
+0	1	6.60	3.00	11	;stn22new
+1	2	10.70	261.00	-1	;stn23
+2	3	3.80	2.00	-15	;stn24 cave 596
+3	4	8.10	300.00	-2	;*
+4	5	6.60	80.00	9	;stn25 back out of 596
+5	6	6.20	334.00	2	;stn27
+6	7	7.30	252.00	6	;stn28 Bat cave
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+0	12	0.0	-	+V	;*
+0	13	0.0	-	+V	;*
+0	14	0.0	-	+V	;*
+*END 1532_surface

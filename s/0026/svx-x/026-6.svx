@@ -1,0 +1,34 @@
+;left of the elephant
+*CALIBRATE declination 1.88
+
+
+*begin 026-6
+;team "Dave Harley"
+;team "Clare Youens"
+;team "Jen Sloan"
+
+*data normal from to compass clino tape
+  
+ ;      1     2     -     down      6.1
+45	a	141.5	2	2.61
+b	a	314	-7	3.37
+b	c	112	18	2
+d	c	004	-1	6.21
+d	e	258.5	4	2.47
+f	e	027.5	-6.5	4.66
+f	g	163	-5	5.51
+h	g	061	-5	4.86	
+
+*data passage station left right up down
+
+a	0.32	0	3.36	0.99
+b	0.47	0	3.38	1.25
+c	0	0.67	2.34	1.62
+d	0	0.82	1.29	1.66
+e	0.79	0	1.07	1.71
+f	1.42	0	1.21	1.68
+g	0	1	2.14	1.52
+h	1.91	0	2.70	1.72	
+      
+*end 026-6
+

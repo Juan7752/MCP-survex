@@ -1,0 +1,61 @@
+
+
+*BEGIN realSimaBaz
+
+; 22nd April 2011
+; Carmen Smith + Patrick Warren
+; notes : Carmen
+; instruments : Patrick
+; patrick's tandem, Pete Eagan's disto
+
+
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at
+;www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*CALIBRATE declination 1.78
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+;declination is 2.28 for 2007
+;declination is 2.15 for 2008
+;Recalculated as 2 5' for 2009 changing by 7'E per year
+;declination is 2.08 for 2009
+;declination is 1deg-55mins ie 1.92deg for 2010 Easter
+;declination is 1deg-53mins ie 1.88deg for 2010 summer
+;declination is 1deg-47mins ie 1.78deg for 2011 Easter
+;*EXPORT 0
+*Date 2011.04.22
+1	0	5.00	035	+13
+2	1	14.40	068	+2
+3	2	8.60	064	-1
+4	3	3.92	104	-1
+5	4	8.14	065	-1
+6	5	3.91	061	-8
+7	6	1.96	147	-20
+8	7	9.37	050	0
+9	8	3.51	117	-5
+10	9	3.66	055	+2
+11	10	5.13	067	-1
+12	11	1.64	185	+1
+13	12	5.14	057	+8
+14	13	3.94	094	-37
+15	14	5.98	069	-16
+
+
+*data passage station left right up down
+5	0.6	0.3	0.4	0.6 ; LRUD data taken from Torben's survey
+1	0.5	1.3	0.9	0.8
+2	0.9	1.8	0.6	0.2
+3	1.2	1.0	1.0	0.3
+4	0.9	1.0	0.6	0.3
+5	1.2	0.8	2.1	0.2
+6	0.6	1.0	1.5	0.6
+7	0.8	0.0	1.0	1.2
+8	0.0	1.3	0.8	1.3 ; recorded R as 0.3 in notes but passage more than 30cm wide! 
+9	0.9	0.0	1.0	1.6
+10	1.0	0.3	1.6	1.4
+11	0.0	1.0	1.0	1.3
+12	1.1	0.0	1.3	1.2
+13	0.5	1.4	1.9	0.4
+14	0.5	1.0	6.0	0.7
+15	0.7	0.4	1.8	0.7 ; marked station on top boulder past little aven
+
+*END realSimaBaz

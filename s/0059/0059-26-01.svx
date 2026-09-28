@@ -1,0 +1,69 @@
+; ============================================================
+; Survex data file transcribed from field notes
+;   Reference : 0059
+;   Date      : not recorded on this page                         ; CHECK
+;   Source    : two notebook photos (leg notes + rough sketch)
+;
+; Reading conventions (as per these notes):
+;   - a "/" is used as the decimal point  (e.g. 4/77 = 4.77 m, 0/6 = 0.6 m)
+;   - columns are:  From  To  Distance  Compass  Clino  L R U D
+;   - distances in metres, bearings & clino in degrees
+;
+; Leg data is mostly legible; a few cells were crossed-out/corrected
+; or mud-stained, and the whole LRUD block is badly damaged.
+; Every uncertain reading is marked  ; CHECK.
+; ============================================================
+
+*begin 0059-26-01
+
+*export 0
+
+  *title "0059"
+  *date 2026.08.13
+  *ref "0059"
+
+  ; --- team (from notes header) ---
+  *team "Fran" compass clino        ; "Fran  Inst"
+  *team "James" notes               ; "James  Notes"
+  *team "Emma" tape                 ; "Emma  Tape"
+
+  ; ------------------------------------------------------------
+  ; Centreline
+  ; ------------------------------------------------------------
+  *data normal from to tape compass clino
+
+  ; From  To    Tape   Comp  Clino
+  0       1     4.77   097   -2
+  1       2     6.50   357   +5
+  2       3     9.09   011   +1
+  3       4     5.17   007   +4
+  4       5     3.56   347   +6
+  5       6     4.25   324   -4
+  6       7     4.32   332   -3
+  7       8     4.40   331   +2
+  ; station 8 is the last station (no further leg recorded)
+
+  ; ------------------------------------------------------------
+  ; Passage dimensions (LRUD), booked at the FROM station. Confirmed.
+  ; ------------------------------------------------------------
+  *data passage station left right up down
+
+  ; Stn   L     R     U     D
+  0       0.6   0.3   3.3   1.1
+  1       0.3   0.0   4.5   0.9
+  2       0.0   0.3   2.6   1.5
+  3       0.3   0.2   1.5   1.2
+  4       0.0   0.4   1.2   1.0
+  5       0.3   0.2   1.4   1.4
+  6       0.3   0.0   1.1   0.9
+  7       0.0   0.2   1.9   0.8
+
+  ; ------------------------------------------------------------
+  ; Sketch notes (image 2) - for drawing-up, not survey data:
+  ;   - passage heads generally N (station 0 at the S end, 8 at the N end)
+  ;   - cross-sections labelled A (near the start) and B (near the top)
+  ;   - a bump/alcove on the W wall near station 4 with a pool of water in it
+  ;   (station assignments not committed - confirm when drawing)
+  ; ------------------------------------------------------------
+
+*end 0059-26-01

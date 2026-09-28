@@ -1,0 +1,57 @@
+*BEGIN 026
+*include 026old.svx
+*include 026-1.svx
+*include 026-2.svx
+*include 026-300709
+*include 026-3.svx
+*include 026-4.svx
+*include 026-5.svx
+*include 026-6.svx
+*include 026-7.svx
+*include 026-8.svx
+*include 026-9.svx
+*include 026-10.svx
+*include 026-11.svx
+*include 026-12.svx
+
+;summer 2011
+*INCLUDE 026-13.svx
+*INCLUDE 026-14.svx
+*INCLUDE 026-15.svx
+*INCLUDE 026-16.svx
+*INCLUDE 026-17.svx
+*INCLUDE 026-18.svx
+*INCLUDE 026-19.svx
+
+*equate 026old.2 026-1.0
+*equate 026old.17 026-1.24
+*equate 026old.18 026-2.0
+*equate 026-1.13 026-2.19
+*equate 026old.63 026-300709.0
+*equate 026-3.23 026-300709.23
+*equate 026-3.37 026-4.0
+*equate 026-300709.23 026-5.23
+*equate 026-4.45 026-6.45
+*equate 026-6.h 026-11.h
+*equate 026-3.37 026-11.40
+*equate 026-4.45	026-12.45
+*equate 026-4.39	026-12.39
+*equate 026-4.45	026-7.0
+*equate 026-4.54	026-8.14
+*equate 026-300709.23 026-9.0
+*equate 026-10.0	026-8.36
+*equate 026-300709.17 026-3.29
+*equate 026-4.0 026-13.41
+*equate 026-15.4 026-3.29
+*equate 026-16.1 026-3.29
+*EQUATE 026-13.10 026-14.sm
+*EQUATE 026-17.1 026-16.11
+
+
+*EQUATE 026-18.B6 026-16.6
+*EQUATE 026-18.50 026-3.34
+
+
+*EQUATE 026-19.1 026-13.14
+
+*END 026

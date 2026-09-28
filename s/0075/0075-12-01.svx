@@ -1,0 +1,20 @@
+*BEGIN 0075-12-01
+*date 2012.07.25
+;surveyors Mike Topsom
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.27
+
+
+76	132	4.50	-	down
+132	133	1.40	135	-5
+133	134	50.92	180	-65
+
+
+*end 0075-12-01

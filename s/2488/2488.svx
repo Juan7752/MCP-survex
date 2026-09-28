@@ -1,0 +1,29 @@
+*begin 2488
+
+;surveyors: Alasdair Neill Juan Corrin
+;name:
+*DATE 2006.07.25
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2; (2.4-0.4)
+
+;*FIX 3 449360 4800255 0127
+;*FIX 3 449258 4800046 0127; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 3 449258 4800046 0128
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 3
+
+1	0	4.0	310	-20	;sta 0 = triangle scratched at head 3m drop
+1	2	3.9	47	-25
+2	3	8.3	22	-2
+*end 2488

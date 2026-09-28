@@ -1,0 +1,36 @@
+*BEGIN 0294_Bueyes
+;Created from Survey file on Sun,20 Jun 2004.10:56:57
+*DATE 2002.01.01
+;Surveyors      : PS TW
+;No of stations : 20
+;Plan length    : 99.3447001m
+;Traverse length: 104.25m
+
+;*FIX 0 455945 4798640 0290
+;*FIX 0 455843 4798431 0290; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455843 4798431 0293
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.96 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.96-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.14
+
+0	1	25.85	2.30	-20	;stn4
+1	2	5.80	337.30	-22	;stn6
+2	3	4.60	217.30	-29	;stn7
+1	4	12.20	4.30	0	;stn5
+1	5	16.40	83.30	24	;stn3
+5	6	8.75	155.30	-13	;stn2
+6	7	20.65	199.30	-15	;stn1
+7	8	10.00	236.30	-1	;stn0
+*END 0294_Bueyes

@@ -1,0 +1,31 @@
+;Use this template after complete intro of *DECLINATION and assoc. commands in Survex v1.2.43
+;For Survex 1.2.43 and later 
+
+*BEGIN 5338
+;Cave
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 451834 4806683 70
+*DATE 2023.04.17
+*FIX 0 451834 4806683 75
+*ENTRANCE 0
+*TEAM Phil Papard, John Southworth, Gordon Proctor
+
+*DATA NORMAL from to tape compass clino
+
+0	1	2	120	-15	
+1	2	3.6	110.5	0.4
+
+0	3	3.8	64	-10	
+
+
+
+*data passage station left right up down
+0	0.9	1.2	0.4	0.3
+1 	0.3	.5	0.8	0.3
+2	0.4	0.4	0.3	0.3
+
+*data passage station left right up down
+0	0.1	1.1	0.4	0.3
+3	0.2	0.3	0.4	0.2	
+*END 5338

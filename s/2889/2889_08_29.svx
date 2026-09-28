@@ -1,0 +1,73 @@
+*begin 2889_08_29
+;Pablo's Peppers Passage
+
+;Inlet on left side when heading upstream, shortly before oxbow surveyed by J. Dingle and James on the same day.
+;surveyors: Footleg, Paul Dold
+*DATE 2008.07.30
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+;From	To	Tape	Compass	Clino
+* FLAGS DUPLICATE
+1	2	2.02	292	-12	;Short leg from marked station in main streamway
+2	3	11.47	003	-2	;Leg along main streamway to fix junction at start of inlet
+* FLAGS NOT DUPLICATE
+
+3	4	13.74	039	2	;
+4	5	3.73	143	-3	;
+5	6	2.99	189	3	;
+6	7	2.98	135	0	;
+7	8	3.22	030	0	;
+8	9	3.33	085	18	;
+9	10	4.42	146	-5	;
+10	11	7.55	178	8	;
+11	12	5.04	173	-5	;
+12	13	4.08	182	-10	;
+13	14	4.36	168	1	;
+14	15	4.67	037	1	;
+15	16	0.64	000	90	;
+15	17	3.09	133	-2	;
+17	18	4.93	155	2	;
+18	19	3.32	212	16	;
+19	20	5.07	149	0	;
+20	21	6.95	135	-9	;
+21	22	7.08	140	5	;
+22	23	0.42	210	20	;
+23	24	4.13	127	18	;
+24	25	2.82	150	13	;
+
+*data passage station left right up down
+
+;From	Left	Right	Up	Down
+3	0.5	0.5	1.8	1.3
+4	1.0	1.1	1.7	0.8
+5	0.3	0.6	0.8	0.6
+6	0.8	0.3	0.6	0.5
+7	0.5	0.2	0.6	0.6
+8	0.6	0.8	1.7	0.5
+9	0.4	0.6	0.9	1.3
+10	0.2	0.8	9.6	0.9
+11	0.4	0.3	0.6	1.5
+12	0.5	0.7	1.7	1.2
+13	0.7	0.5	2.3	0.6
+14	0.8	0.2	2.3	0.8
+15	0.4	0.4	2.0	0.8
+17	0.2	0.5	2.3	0.7
+18	0.2	0.6	5.8	0.7
+19	0.3	0.2	1.8	1.5
+20	0.2	0.2	2.0	1.3
+21	0.6	0.4	2.7	0.3
+22	0.2	0.4	2.5	0.5
+23	0.2	0.3	2.0	0.7
+24	0.2	0.5	1.2	1.7
+25	1.1	1.1	0.2	0.2
+
+
+*end 2889_08_29

@@ -1,0 +1,4 @@
+*BEGIN AllTest
+*INCLUDE all.svx
+*INCLUDE alla.svx
+*END AllTest

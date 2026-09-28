@@ -1,0 +1,45 @@
+*begin 2408
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;surveyors: Jim Davis; Sam Lieberman; Paul Windle
+;name:
+;date 060413
+*CALIBRATE declination 2.42
+*CALIBRATE tape -.9
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+*FIX 9 449172 4797494 410
+*ENTRANCE 9
+2	1	10.7	110	0
+2	3	9.1	305	0
+2	4	7.8	201	-23
+4	5	11.2	322	-7
+4	6	4.25	134	1
+6	7	6.7	235	3
+7	8	12.7	259	1
+8	9	1.4	-	up
+
+
+
+*end 2408

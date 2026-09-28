@@ -1,0 +1,26 @@
+*BEGIN 4Valleys
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+*INCLUDE ../../1800/1800.svx; included first because of *SOLVE in 1800.svx
+*INCLUDE ../../0105/0105.svx
+*INCLUDE ../../0081/0081.svx
+*INCLUDE ../../0114/0114.svx
+*INCLUDE ../../0107/0107.svx
+;*INCLUDE ../../0575/0575.svx
+*INCLUDE ../../3234/3234.svx
+*INCLUDE ../../0252/0252.svx
+;*INCLUDE ../../0252/0252-forMap.svx
+*INCLUDE ../../2366/2366.svx
+*INCLUDE ../../0117/0117.svx
+
+
+*EQUATE 0105_Riano.UpperLevels.181 0107_Uzueka.2ndRiverInlet.1
+*EQUATE 0114_Llueva.Part2.414 0107_Uzueka.RockyHorror.313
+*EQUATE 0114_Llueva.Part2.290 0081_Carcavuezo.Eastwards.0081-13-12.30
+*EQUATE 0114_Llueva.Part2.0114-17-01.0 0081_Carcavuezo.Eastwards.0081-17-02.24
+*EQUATE 0105_Riano.0105-19-01.5.7 3234_Llanio.3234-19-02.9
+*EQUATE 1800.1800-22-06.81  3234_llanio.3234-23-01.11
+
+*end 4Valleys

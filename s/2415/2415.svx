@@ -1,0 +1,46 @@
+*BEGIN 2415
+
+;*CALIBRATE DECLINATION 1.78
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.4; (1.8-0.4)
+
+;surveyors: Tony Brocklebank Dave Milner
+;passage name:
+*date 2011.04.24
+
+;*FIX t1 452660 4801731 145
+;*FIX t1 452558 4801522 0145; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX t1 452558 4801522 0139
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE t1
+;*FLAGS duplicate | splay | surface
+t1	t2	6.7	-	down
+t2	1	9.5	-	down
+1	2	6.4	254	24
+2	3	1.5	160	0
+3	4	2.5	190	-29
+4	5	7	279	-30
+5	6	11.1	-	down
+8	7	10	220	0;guess
+6	8	6	130	0;guess
+
+4	A	5.5	175	0
+A	B	3.8	255	0
+B	C	6.3	170	0
+
+*FLAGS SPLAY
+B	D	6.7	130	0
+B	E	6.9	200	0
+*FLAGS NOT SPLAY
+
+*END 2415

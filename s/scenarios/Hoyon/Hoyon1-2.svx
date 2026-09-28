@@ -1,0 +1,6 @@
+*BEGIN Hoyon1-2
+
+*INCLUDE ../../0567/0567.svx
+*INCLUDE ../../4246/4246.svx
+
+*END Hoyon1-2

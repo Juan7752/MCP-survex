@@ -1,0 +1,57 @@
+*BEGIN 1017
+
+; SOCKS MOTHER TRUCKER!!!
+
+*CALIBRATe declination  0.26
+; Lloyd Cawthorne
+; Francesca McDonald
+; Raoul Hidalgo Charman
+; Michael Topsom
+; David Rigby
+
+*CALIBRATE DECLINATION 0.26
+*ENTRANCE 11
+*DATE 2019.04.24
+
+*FIX 11 451290 4797538 0233 
+
+*data normal from to length compass clino
+
+1	0	3.62	232	-9 ; station 1 is kairn in chamber ahead of tight crawl to dig
+
+1	2	3.25	152	+14
+2	3	1.64	88	+17 ; adjusted compass from 268
+4	3	1.79	161	-78
+5	4	1.93	227	-45
+
+5	6	1.26	131	+22
+6	7	3.80	259	+60
+7	8	2.96	318	+65
+9	8	1.75	277	-73
+10	9	2.43	0	-90
+11	10	1.01	041	-55; 11 is at entrance, see photo
+
+
+
+*data passage station left right up down
+
+0	0.5	0.0	0.25	0.1
+1	3.9	1.4	1.4	0.3
+
+
+*data passage station left right up down
+
+1	1.3	0.7	1.4	0.3
+2	1.0	0.8	5.1	0.7
+3	0.3	0.2	2.1	0.5
+4	0.5	0.2	0.4	2.2
+5	0.1	0.2	0.4	0.6
+6	0.4	0.3	0.8	0.6
+7	0.3	0	3.3	1.2
+8	0.15	0.15	0.5	1.9
+9	0.4	0	1.8	3.4
+10	0.5	0	0	2.43 ; surface (ish)
+11	0	1.0	0	0.3	; surface (actual)
+
+
+*END 1017

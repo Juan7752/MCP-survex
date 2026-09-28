@@ -1,0 +1,24 @@
+*begin 1930_009
+
+;surveyors: Ali Julian Todd Tanya Jim Davies
+;name: cont roof tubes
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.31; (2.71-0.4)
+
+
+6	53	6.5	104	-77
+6	7	3.1	53	14
+7	8	3.5	290	-5
+8	9	1.4	324	3
+9	10	2.9	347	72
+10	11	4.3	262	9
+11	16	5.7	244	-5
+
+*end 1930_009

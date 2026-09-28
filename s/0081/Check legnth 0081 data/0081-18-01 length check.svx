@@ -1,0 +1,77 @@
+
+*BEGIN 0081-18-01
+;Resurvey of chamber in order to sketch it (all duplicate data of older centrelines)
+;Dipen Patel - DistoX2 2609  
+;Footleg sketch 
+;Alistair Smith - dog
+
+*calibrate declination 0.40 ;Easter 2018 declination taken from whiteboard in office
+
+*DATE 2018.04.04
+
+;*FLAGS DUPLICATE
+
+*FLAGS SPLAY
+0	0a	 5.12	 15.72	 27.79
+0	0b	 4.71	177.32	 -6.22
+0	0c	 8.31	243.02	  5.03
+0	0d	 8.91	310.51	 17.31
+0	0e	 2.74	122.99	 80.58
+0	0f	 0.19	164.10	-66.59
+*FLAGS NOT SPLAY
+0	1	 5.81	140.42	  1.81
+*FLAGS SPLAY
+1	1a	 3.85	250.60	 -5.28
+1	1b	11.24	 66.12	 -4.65
+1	1c	 2.71	 36.36	 82.12
+1	1d	 3.84	186.01	-46.56
+1	1e	 6.47	206.03	 -2.78
+1	1f	 9.99	191.79	 -2.06
+1	1g	 9.55	147.71	 -3.87
+*FLAGS NOT SPLAY
+1	2	 5.86	112.51	-12.65	;Stn 2=cairn with note near traverse 
+*FLAGS SPLAY
+2	2a	 9.43	  7.78	 12.82
+2	2b	 9.41	 29.99	  8.15
+2	2c	12.27	 51.38	 -2.29
+2	2d	 9.54	 59.99	 -2.39
+2	2e	 2.16	316.97	-58.86
+2	2f	 3.31	297.66	 53.00
+*FLAGS NOT SPLAY
+2	3	11.20	210.36	  2.48
+*FLAGS SPLAY
+3	3a	 1.37	 69.89	 80.47
+3	3b	 0.45	 50.40	-85.77
+3	3c	 4.18	 21.35	-51.52
+3	3d	 6.92	 48.82	  4.27
+3	3e	 2.94	188.25	 19.22
+*FLAGS NOT SPLAY
+3	4	 5.63	 82.69	 -6.11
+*FLAGS SPLAY
+4	4a	 3.16	253.92	 79.44
+4	4b	 5.50	206.75	 73.64
+4	4c	 3.15	 14.22	  5.47
+4	4d	 2.13	195.89	 30.77
+4	4e	 3.50	355.84	-69.07
+*FLAGS NOT SPLAY
+4	5	 4.47	152.30	 38.02	;Stn 5=note on boulder Santi-PP 19/10/2013
+*FLAGS SPLAY
+5	5a	 2.54	317.35	 85.77
+5	5b	 1.03	287.51	-66.63
+5	5c	 4.65	357.35	 -5.83
+5	5d	 2.08	189.85	 20.85
+5	5e	 8.34	268.61	 17.62
+5	5f	 9.12	130.08	 10.19
+*FLAGS NOT SPLAY
+
+;*FLAGS NOT DUPLICATE
+
+*data passage station left right up down
+0	 3.73	 8.08	 2.70	 0.17
+1	 9.5	 5.7	 2.68	 2.79
+2	 6.0	 8.5	 2.65	 1.85
+3	 6.84	 1.85	 1.36	 0.45
+4	 3.06	 1.80	 3.11	 3.27
+5	 0.0	 2.0	 2.54	 0.94
+*END 0081-18-01
+

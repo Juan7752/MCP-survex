@@ -1,0 +1,14 @@
+*BEGIN 0028-24-04
+
+*DATE 2024.03.19
+
+;surveyors - notes Juan Corrin; Instruments Pete Smith; Ferret Andy Quin
+
+16	17	6.75	183	-11
+17	65	1	93	0
+
+*data passage station left right up down
+16	.3	.3	1	1
+17	.4	.4	1	1
+
+*END 0028-24-04

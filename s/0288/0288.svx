@@ -1,0 +1,39 @@
+*BEGIN 0288
+
+;surveyors Diane Arthurs pda & Simon Cornhill distoX
+;La Bodega
+;extracted from 3721-area.svx
+*DATE 2012.12.25
+;*CALIBRATE DECLINATION 1.57
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.17
+;*FIX 0 455409 4799652 54
+;*FIX 0 455307 4799443 2 54; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 455307 4799443 2 57
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+
+0	1	 5.49	214.51	 16.19
+1	2	 3.06	213.72	-14.08
+2	3	 1.35	170.65	 12.23
+3	4	 2.43	217.62	  1.19
+4	5	 2.82	177.91	  0.04
+
+*data passage station left right up down
+0	3.393	3.571	.3	0.3
+1	0.872	2.343	0.685	1.043
+2	0.871	0.0	1.046	0.529
+3	0.356	0.0	0.901	0.854
+4	0.468	0.0	1.01	0.738
+
+*END 0288

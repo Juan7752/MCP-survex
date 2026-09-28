@@ -1,0 +1,28 @@
+*BEGIN Riano_ExtnOffEntranceInlet
+*EXPORT 815
+
+;surveyors unknown
+;date unknown
+
+*CALIBRATE declination 0
+;Magnetic deviation may have already been subtracted from all these compass readings
+;as has been done for other sections?
+
+;Moved start of this survey to the top of the pitch in the entrance series as I visited it
+;on 30/07/06 and confirmed it goes off at pitch head, not below as previously tied in to
+;Footleg 01/08/06
+
+815	370	1.50	214.95	0	;*
+370	371	1.40	98.95	0	;*
+371	372	2.78	209.95	38	;*
+372	373	6.75	62.95	1	;*
+373	374	1.75	-	up	;*
+374	375	4.65	288.95	14	;*
+375	376	8.25	303.95	19	;*
+376	377	6.10	250.95	20	;*
+377	378	2.71	276.95	25	;*
+378	379	4.65	232.95	2	;*
+379	380	4.58	297.95	30	;*
+380	381	5.31	245.95	22	;*
+
+*END Riano_ExtnOffEntranceInlet

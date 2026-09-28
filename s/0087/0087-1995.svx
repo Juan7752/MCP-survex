@@ -1,0 +1,18 @@
+*BEGIN 0087-1995
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 3.54; (3.94-0.4)
+
+0	1	5.300000001	349	-10;	thro entr
+1	2	15.2	309	-5
+2	3	29.8	327	-12
+3	4	26	324	2
+4	5	15.9	2	3.999999999
+5	6	30.6	323	5
+6	7	30.6	318	5.999999998
+7	8	28.8	320	21;	entry to choke
+
+*END 0087-1995

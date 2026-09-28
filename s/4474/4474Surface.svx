@@ -1,0 +1,11 @@
+;survey 2019.04.16, PP, RB stations 1
+
+*begin 4474Surface
+
+;*fix ShaftWP84 	0445496		4797851	175
+;*fix ShaftWP85 	0445501		4797820	176
+;*fix ShaftWP14NE 0445458	4797782	202
+;*fix ShaftWP88 	0445543		4797767	165
+
+
+*end 4474Surface

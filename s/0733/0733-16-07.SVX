@@ -1,0 +1,35 @@
+*BEGIN 0733-16-07
+*date 2016.08.07
+*TEAM "Pete Egan" assistant
+*TEAM "Rupert Skorupka" assistant
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.61
+;survey of chamber far side of main streamway before sump 6
+;Stn 10 station 32 of batch 16-04
+
+*FLAGS SPLAY
+0	A	17.5	285	0 
+0	B	14.5	248	12
+0	C	7.4	323	-50
+*FLAGS NOT SPLAY
+0	4	8.7	062	-5
+4	5	6.6	026	-12
+5	6	7.36	033	-30
+6	10	6.2	356	-38
+7	10	5	058	-40
+7	8	3.28	231	+16
+8	9	6.93	131	+9
+
+*data passage station left right up down
+
+
+0	1.6	0.6	2.5	0.8
+4	0.8	1.8	1.3	0.6
+5	0.9	0.7	1.2	2.3
+6	1.2	1	1.5	2	
+7	.7	.7	.8	.8
+8	.6	.6	.6	.8
+9	.7	.7	.8	1.2
+
+*END 0733-16-07

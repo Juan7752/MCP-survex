@@ -1,0 +1,28 @@
+*BEGIN 2889_08_19
+;surveyors: Dan Hibbert Johnny Latimer Bon Toogood
+;name: Buttermere
+*DATE 2008.07.22
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+guess	guess1	3	170	0
+guess1	Z	36	-	down
+
+Z	1	5.87	234	0
+1	2	3.32	234	0
+2	3	9.43	234	0
+
+1	x2	15.98	347	0
+
+2	3w	25.9	171	0
+3w	4w	15.6	179	0
+
+
+*END 2889_08_19

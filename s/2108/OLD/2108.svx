@@ -1,0 +1,28 @@
+*begin 2108
+
+;surveyors:
+;name:
+;date
+*CALIBRATE declination 2.42
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+*FIX 7 451617 4797926 233
+*ENTRANCE 7
+1	2	5.7	80	0
+2	3	1.8	70	32
+3	4	3.8	55	7
+5	4	2.2	202	-24
+5	6	8.3	135	37
+6	7	2.7	200	24
+
+5	8	6.7	156	11
+8	9	3.2	150	19
+9	10	2.3	119	15
+
+9	11	3.8	220	13
+
+*end 2108

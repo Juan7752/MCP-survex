@@ -1,0 +1,21 @@
+*BEGIN 2889_08_15
+;surveyors: Peter Eagan Angus Ali
+;name:
+;date 080331
+*CALIBRATE declination 2.15
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+; 2.55 used for 2005
+; 2.42 used for 2006
+; 2.28 used for 2007
+; 2.15 used for 2008
+
+1	0	4.75	235	18
+1	2	6.19	356	9
+2	3	5.89	1	-1
+
+*data passage station left right up down
+0	1	0	3	3	
+1	1	2	4	1.5
+2	.25	.25	1.9	1.7
+3	.5	.5	1.9	1.7
+*END 2889_08_15

@@ -1,0 +1,35 @@
+*BEGIN 026-15
+
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35
+
+
+; Using this format - *date 2011.02.21 - will allow line colour by date
+
+;surveyors:
+;passage name:
+*date 2011.07.23
+
+;1=026.026-300709.17
+
+;from 	to	len	comp	clino
+1	2	9.2	0	-90
+1	A	5	280	-5
+1	B	5	100	+5
+3	2	2.15	55	+31
+4	3	20.4	102	+4
+
+*data passage station up down left right
+
+
+
+
+
+*END 026-15

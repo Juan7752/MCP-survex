@@ -1,0 +1,20 @@
+*BEGIN 4201
+
+*TEAM "Alasdair Neill" compass clino laser measure notes
+
+
+*date 2015.08.11
+*CALIBRATE DECLINATION 0.73 ; altered from 1.13 for summer 2015 to align with the UTM ETRS89 grid
+*FIX 0	454501 4794525 303	;NW corner of barn from google earth
+*FLAGS SURFACE
+1	0	5.76	122	-8
+1	2	5.44	282.5	-17.5
+3	2	4.75	28	11.5
+3	4	1.64	242	-20
+5	4	4.61	48	3	
+5	6	4.33	261.5	-25
+7	6	7.76	88.5	24
+7	8	6.80	297	-20	
+*FLAGS NOT SURFACE
+
+*END 4201

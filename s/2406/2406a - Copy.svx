@@ -1,0 +1,36 @@
+*begin 2406-shaft
+
+;surveyors: Jim Davis; Sam Lieberman; Paul Windle
+;name:
+;date 060413
+;*CALIBRATE DECLINATION 2.42
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.05; (2.45-0.4)
+
+*CALIBRATE tape +.9
+
+;*FIX 9 449137 4796972 0491
+;*FIX 9 449035 4796763 0491; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 9 449035 4796763 0486
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 9
+1	2	5.8	-	+V
+2	3	6.43	241	5
+3	4	8.85	-	+V
+4	5	4	180	26
+5	6	9.23	-	+V
+6	7	4.15	330	50
+7	8	4.1	-	+V
+8	9	5.5	340	42
+
+*end 2406-shaft

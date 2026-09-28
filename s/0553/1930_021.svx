@@ -1,0 +1,45 @@
+*begin 1930_021
+
+;surveyors: Pete Smith, Pete Egan, Carolina
+;name: through Big Keyhole
+*DATE 2004.07.17
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+0	1	5.7	48	-1
+1	2	7	347	1
+2	3	6.3	110	-5
+3	4	4.9	141	1
+4	5	6.8	161	2
+5	6	4.1	176	-3
+6	7	3.6	117	5
+7	8	3.5	104	-8
+8	9	3.6	113	-8
+9	10	6.6	135	-1
+10	11	5.9	93	25
+11	12	3	139	7
+12	13	7.6	108	-25
+13	14	6.7	182	29
+14	15	7.7	127	0
+15	16	7.5	154	3
+16	17	7.3	152	15
+
+10	18	5.1	201	20
+18	19	6	198	17
+19	20	5	154	8
+20	21	3.8	116	28
+
+4	22	5.2	98	46
+22	23	3	34	6
+23	24	4.5	90	-39
+24	25	4.3	56	6
+25	230	7.3	107	-14	;stn 230 18/4/04
+
+*end 1930_021

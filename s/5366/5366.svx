@@ -1,0 +1,31 @@
+; 2026.08.05 created by TopoDroid v 6.3.20
+; 5366-Dig near the Mushroom Field
+; Instrument: Sap6 BC - SM-N910F
+
+*begin 5366 
+  *date 2026.08.05 
+  *team "Pete Hall - phone. Jim Davis - Pony" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+    0 1   4.44 22.5 -26.8  ; Entrance to the end in one leg
+  *flags splay
+  1 1a 0.42 276.1 13.5
+  1 1ba 0.17 108.7 -13.2
+  1 1bb 0.89 147.4 86.1
+  1 1bc 0.18 242.3 -83.3
+  1 1bd 1.36 357.1 -24.3
+  1 1be 1.10 9.8 10.8
+  1 1bf 1.43 6.8 -9.9
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.00 0.00 0.00 0.00	; Entrance
+1  0.53 0.17 0.89 0.56	; Ends at another dig with a narrow rift above possibly wider below
+
+*end 5366

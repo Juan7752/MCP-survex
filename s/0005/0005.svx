@@ -1,0 +1,27 @@
+*BEGIN 0005
+; Coords taken from 1975 paper survey
+*data cartesian from to easting northing altitude				
+;*FIX 5-entr 454658 4793111 155
+*FIX 5-entr 454605 4793176 155; after GPS (TW) & adjustment Jan 2016
+*ENTRANCE 5-entr	
+*ENTRANCE 4271-entr
+
+*FIX 4271-entr 455145 4792779 137; to agree with surface positions January 2016
+				
+5-entr	shaftbase	28	-4	-1.0
+shaftbase	shafttop	0	0	9.0
+				
+shaftbase	1	82	-35	-1.0
+1	2	0	-23	-1.0
+2	duck	20	-13	0.0
+duck	3	34	-13	-1.0
+3	4	1	-88	-3.0
+4	5	120	11	-4.0
+5	6	0	0	-2.5
+6	7	104	-102	-4.5
+7	8	19	13	-1.0
+8	9	35	-38	-1.0
+9	10	0	0	-2.5
+10	4271-entr 43	-54	-1.5
+
+*END 0005

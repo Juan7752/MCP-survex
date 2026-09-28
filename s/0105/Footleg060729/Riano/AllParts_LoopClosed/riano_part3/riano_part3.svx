@@ -1,0 +1,26 @@
+*begin riano_part3
+*EXPORT Riano_UpperLevels2.130
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+
+
+*equate Riano_UpperLevels2.167 Riano_UpperLevels3.167
+*equate Riano_UpperLevels2.174 Riano_FarEndL.174
+*equate Riano_UpperLevels2.174 Riano_FarEndR.174
+*equate Riano_UpperLevels2.174 Riano_FarEndInlet.174
+
+*include riano_upperlevels2/riano_upperlevels2.svx
+*include riano_upperlevels3/riano_upperlevels3.svx
+*include riano_farendl/riano_farendl.svx
+*include riano_farendr/riano_farendr.svx
+*include riano_farendinlet/riano_farendinlet.svx
+
+*end riano_part3

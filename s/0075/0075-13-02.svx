@@ -1,0 +1,107 @@
+*BEGIN 0075-13-02
+
+;*CALIBRATE DECLINATION 1.54
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.14
+
+;surveyors: Ali Neill; Peter Eagan;Phil Pappard; Pete Smith
+;passage name:picon Eye to PeePee Chamber
+*date 2013.03.30
+
+;0 = new.0075-new-12-01.25
+1	0	1.6	324	-2
+1	2	3.52	200	-15
+2	3	8	205	-45	;PASSAGE OFF TO RIGHT 6-7M
+4	0	5.35	335	2
+4	5	5.21	81	10
+6	5	1.65	184	-3
+6	7	3.57	102	-6
+7	8	1.7	54	-29
+8	9	3.11	98	2
+
+10	9	1.12	263	-11
+10	11	3.39	85	16
+12	11	1.74	151	-20
+13	12	2.48	205	-45
+13	14	13.56	357	55	;DISTO UP AVEN
+
+15	11	3.0	333	-10
+15	16	11.54	136	1
+
+17	16	1.73	349	10
+18	17	1.7	293	-10
+*FLAGS DUPLICATE
+19	16	4.52	167	2
+*FLAGS NOT DUPLICATE
+19	20	6.71	136	-1
+21	20	1.25	346	-17
+22	21	2.02	309	3
+22	23	2.92	109	30
+23	24	3.52	107	-5
+24	25	7.73	5	0
+25	26	10.3	-	up	;aven 3m dia
+
+*FLAGS DUPLICATE
+16	27	10.13	301	-2
+*FLAGS NOT DUPLICATE
+27	28	7.26	277	9
+28	29	5.38	215	38
+
+;MEASUREMENTS FOR CROSS SECTION OF MAIN PASSAGE
+*FLAGS DUPLICATE
+A	0	17.34	145	2
+A	A1	11.54	139	-40
+A	A2	14.86	139	-25
+A	A3	11.25	139	15
+A	A4	8.28	139	25
+A	A5	10.53	338	24
+A	A6	7.25	338	-7
+
+*FLAGS NOT DUPLICATE
+
+*data passage station left right up down
+0	0	1.15	0.84	0.92
+1	0.2	0.5	0.6	0.8
+2	2	1	0	2
+*data passage station left right up down
+0	0	1.15	0.84	0.92
+4	1.3	1.3	1.3	1.3
+5	1.1	0.3	0.5	1.4
+6	0	0.9	1.3	1.1
+7	0.6	0.2	1.1	0.7
+8	0.2	0.5	0.3	1.3
+9	0.6	0.4	0.9	0.2
+10	0.6	0.4	0.9	0.2
+11	1.5	1.5	0	1.5
+12	0	0.7	0.4	0.5
+13	1.4	0.8	1.5	1.8
+
+*data passage station left right up down
+11	1.5	1.5	0	1.5
+15	0.3	0.5	3.2	0.4
+16	1.3	2.3	1.3	1.2
+17	1.2	0.5	0.7	0.4
+18	1.2	0.9	0.9	0.5
+
+*data passage station left right up down
+19	0	4.9	0.3	1.6
+20	0.4	0.8	1	0.8
+21	0.4	0.7	0.6	0.6
+22	0.5	0.4	1.3	2.7
+23	0.32	0.5	1.5	0.5
+24	0.6	0.4	0.8	1.7
+25	0.6	0.4	0.8	1.7
+26	1.5	1.5	1.5	1.5
+
+*data passage station left right up down
+16	2.3	1.3	1.3	1.2
+27	1.5	0	1.1	1.6
+28	0.7	0.8	0.9	1
+29	0.4	1	1.5	0.2
+*END 0075-13-02

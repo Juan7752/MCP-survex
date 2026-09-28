@@ -1,0 +1,26 @@
+*begin 1930_024
+
+;surveyors: Torben Redder, Ali Neill, 
+;name: streamway below p5 to downstream choke
+;date 25/7/04
+*CALIBRATE declination 2.68
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+
+0	1	6.1	125	12; stn 0=13.6 foot of pitch
+1	2	8	175	-21
+2	3	4.3	141	-8
+3	4	4.7	148	-2
+4	5	6.9	116	-2
+5	6	11.4	183	-2
+6	7	2.3	140	0
+7	8	15	174	.5
+8	9	12.2	111	0
+9	10	4.8	160	-3
+10	11	6.6	107	-4
+11	12	13.3	48	-2.5
+12	13	8	113	3
+13	14	6.1	127	-2
+14	15	6.3	79	25; marked stn on boulder - 13.18
+
+
+*end 1930_024

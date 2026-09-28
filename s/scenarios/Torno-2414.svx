@@ -1,0 +1,6 @@
+*BEGIN torno_
+*INFER EXPORTS ON
+*INCLUDE ..\2366\2366.svx
+*INCLUDE ..\2414\2414.svx
+;*INCLUDE ..\0105\0105.svx
+*END torno_

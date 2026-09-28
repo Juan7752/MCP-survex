@@ -1,0 +1,47 @@
+*begin 0774-11-01
+
+;TITLE connection to Regaton
+*date 2011.07.25
+*team Mandy Fu
+*team Notes Jeff Wade
+
+;*CALIBRATE DECLINATION 1.75
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.35
+
+*instrument Disto C&C
+;stn 1 is cairn in Regaton stn:892-all.892_Reg_old.362
+
+*FLAGS duplicate
+1	2	8.56	345	-8
+2	3	4.61	73	20
+3	4	2.01	338	0
+*FLAGS NOT DUPLICATE
+
+4	5	33	-	up
+5	6	8.40	301	59
+
+
+*FLAGS duplicate
+6	7	9.10	290	-9
+7	8	3.37	329	3; cairn stn 09-01.1
+*FLAGS NOT DUPLICATE
+
+
+*data passage station left right up down
+ 1	7.5	5.7	5.3	.7
+ 2	4	.4	.7	.7
+ 3	3.8	2.1	45	.7
+ 5	0	0	15	33
+ 6	1.1	1.0	0	1.2
+ 7	0	1.8	3.7	.6
+ 8	1.7	1.6	4.5	.6
+
+
+*end 0774-11-01

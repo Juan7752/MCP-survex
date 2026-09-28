@@ -1,0 +1,17 @@
+*BEGIN qry_decl
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 452809 4798787 447; Fuente las Varas road junction from QGIS contours
+;*DECLINATION auto 450450 4792990 480; Over middle of Vallina from QGIS contours
+
+*DATE 2022.08.01
+*FIX 0 452809 4798787 447; FLV
+;*FIX 0 450450 4792990 480; Vallina
+
+0	1	100	0	0
+1	2	100	90	0
+
+;In Aven viewer, File>Show Log provides the declination. 
+; 0 degrees for August 2022 at both FLV and Vallina
+
+*END qry_decl

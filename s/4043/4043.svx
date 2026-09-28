@@ -1,0 +1,172 @@
+*BEGIN 4043
+;Torca de Cañaos
+
+
+; =================== MAIN FIXES ======================================
+*FIX 4043-14-19.0 443609 4805746 68; GPS point in field for Canaos
+*FIX 4042-14-01.8 443279 4805520 35;base of field from map
+
+;=============== EASTER 2014 ==========================================
+*INCLUDE 4043-14-01; Galeria del Yeso
+
+
+;=============== SUMMER 2014 ==========================================
+*INCLUDE 4043-14-02; Galeria del Yeso: Down to stream near station 0
+*EQUATE 4043-14-01.0 4043-14-02.F
+
+*INCLUDE 4043-14-03; Galeria del Yeso: New Stop Passage
+*EQUATE 4043-14-02.E 4043-14-03.Q
+
+*INCLUDE 4043-14-04; Galeria del Yeso: Crawl to drop into stream
+*EQUATE 4043-14-01.10 4043-14-04.10
+
+*INCLUDE 4043-14-05; Love Heart Passage
+*EQUATE 4043-14-01.10 4043-14-05.11
+
+*INCLUDE 4043-14-06; Part of oxbow in Yeso
+*EQUATE 4043-14-01.18 4043-14-06.11a
+
+*INCLUDE 4043-14-07; Higher choked stoney levels off Yeso
+*EQUATE 4043-14-01.20 4043-14-07.16a
+
+*INCLUDE 4043-14-08; N climb up into Western Extension
+*EQUATE 4043-14-01.31 4043-14-08.OLD31
+
+*INCLUDE 4043-14-09; S climb up into Western Extension
+*EQUATE 4043-14-01.10 4043-14-09.OLD10
+*EQUATE 4043-14-08.34 4043-14-09.24
+
+*INCLUDE 4043-14-10; "Inlet" oxbow
+*EQUATE 4043-14-10.0 4043-14-01.31
+
+*INCLUDE 4043-14-11; Gypsum walls oxbow
+*EQUATE 4043-14-11.3 4043-14-01.71
+
+*INCLUDE 4043-14-12; downstream from Yeso boulder crossing
+*EQUATE 4043-14-01.61 4043-14-12.old61
+
+*INCLUDE 4043-14-13; upstream from Yeso boulder crossing
+*EQUATE 4043-14-01.61 4043-14-13.old61
+*EQUATE 4043-14-01.51 4043-14-13.old51
+
+*INCLUDE 4043-14-14; Yellow Jacket Passage
+*EQUATE 4043-14-08.32 4043-14-14.man
+
+*INCLUDE 4043-14-15; Galeria Mabe; Volcano Passage
+*EQUATE 4043-14-01.80 4043-14-15.34
+
+*INCLUDE 4043-14-16; upstream from Yeso boulder crossing continuation 1
+*EQUATE 4043-14-16.0 4043-14-13.15
+
+*INCLUDE 4043-14-17; Volcano Passage continuation
+*EQUATE 4043-14-15.0 4043-14-17.40
+
+
+*INCLUDE 4043-14-18; Entrance surface; Laboratorio; Tembleque part 1
+*EQUATE 4043-14-18.8 4043-14-01.80
+
+
+*INCLUDE 4043-14-19; surface
+*EQUATE 4043-14-18.2 4043-14-19.8
+
+*INCLUDE 4043-14-20; Entrance shaft downstream
+*EQUATE 4043-14-20.0 4043-14-01.80
+*EQUATE 4043-14-20.3 4043-14-18.11
+
+
+*INCLUDE 4043-14-21; Laboratorio Passage extension
+*EQUATE 4043-14-21.26 4043-14-18.18
+
+*INCLUDE 4043-14-22; bits downstream
+*EQUATE 4043-14-22.27 4043-14-18.34
+*EQUATE 4043-14-22.31 4043-14-18.14
+
+*INCLUDE 4043-14-23; bits downstream
+*EQUATE 4043-14-23.32 4043-14-18.15
+
+*INCLUDE 4043-14-24; Downstream from pitch
+*EQUATE 4043-14-24.30 4043-14-22.30
+
+*INCLUDE 4043-14-25; Streamway to bottom entrance
+*EQUATE 4043-14-25.44 4043-14-24.41
+*EQUATE 4043-14-25.0 4042-14-01.4085; BOTTOM ENTRANCE
+
+*INCLUDE 4043-14-26; streamway surveyed downstream from near end of Yeso
+*EQUATE 4043-14-26.0 4043-14-02.c
+*EQUATE 4043-14-26.6 4043-14-04.0
+
+*INCLUDE 4043-14-27; Galeria Mabe incl S extension
+*EQUATE 4043-14-27.11 4043-14-01.61
+*EQUATE 4043-14-27.0 4043-14-15.6
+
+*INCLUDE 4043-14-28; upstream from Yeso boulder crossing continuation 2
+*EQUATE 4043-14-16.26 4043-14-28.1.0
+
+*INCLUDE 4043-14-29; Galeria Mabe
+*EQUATE 4043-14-29.0 4043-14-27.6
+*EQUATE 4043-14-29.8 4043-14-27.17
+
+*INCLUDE 4043-14-30; Galeria Mabe
+*EQUATE 4043-14-30.0 4043-14-29.3
+*EQUATE 4043-14-30.12 4043-14-29.8
+
+*INCLUDE 4043-14-31; Stop Passage
+*EQUATE 4043-14-18.44 4043-14-31.11
+
+;=============== AUTUMN 2014 ==========================================
+*INCLUDE 4043-14-32; Top Passage beyond stal
+*EQUATE 4043-14-21.0 4043-14-32.29
+
+*INCLUDE 4043-14-33; High level before Tembleque
+*EQUATE 4043-14-18.44 4043-14-33.10
+
+*INCLUDE 4043-14-34; Oxbows in Yeso
+*EQUATE 4043-14-01.31 4043-14-34.4
+
+*INCLUDE 4043-14-35; roof passage in Yeso to link with 14-36
+*EQUATE 4043-14-01.16 4043-14-35.0
+
+*INCLUDE 4043-14-36; bold step passage
+*EQUATE 4043-14-09.27 4043-14-36.0
+*EQUATE 4043-14-35.9 4043-14-36.17
+
+;=============== SUMMER 2015 ==========================================
+*INCLUDE 4043-15-01; River of Bones
+*EQUATE 4043-15-01.0 4043-14-01.80
+*EQUATE 4043-15-01.16 4043-14-24.38
+
+*INCLUDE 4043-15-02; oxbows and downstream outlet
+*EQUATE 4043-15-02.8 4043-14-24.41
+
+*INCLUDE 4043-15-03; upstream duck and beyond
+*EQUATE 4043-15-03.1 4043-14-02.a
+
+*INCLUDE 4043-15-04; beyond upstream duck
+*EQUATE 4043-15-04.5 4043-15-03.34
+
+*INCLUDE 4043-15-05; beyond upstream duck
+*EQUATE 4043-15-05.6 4043-15-03.41
+*EQUATE 4043-15-05.12 4043-15-03.21
+
+*INCLUDE 4043-15-06; beyond upstream duck
+*EQUATE 4043-15-06.13 4043-15-03.15
+
+*INCLUDE 4043-15-07;
+*EQUATE 4043-14-21.no2 4043-15-07.8
+
+;=============== RIOCUEVA INCLUDES ==========================================
+*INCLUDE ../4042/4042-14-01; Riocueva surface including 4085 4086 4087 4088
+
+*INCLUDE ../4042/4042-14-02; entrance down to stream
+*EQUATE 4042-14-02.1.0 4042-14-01.4042
+*EQUATE 4042-14-02.2.3 4043-14-25.16
+
+*INCLUDE ../4042/4042-14-03; South Passage
+*EQUATE 4042-14-03.0 4042-14-02.1.20
+
+*INCLUDE ../4042/4042-14-04; West Tembleque
+*EQUATE 4042-14-04.PP29 4042-14-02.1.29
+;*EQUATE 4042-14-04.21 4042-14-02.1.24
+*EQUATE 4042-14-04.ss 4043-14-18.65
+
+*END 4043

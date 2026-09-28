@@ -1,0 +1,10 @@
+*BEGIN tunnel
+*FIX R 452114	4799906	175
+
+R	SM	3730 118	-1.55
+
+*data passage station left right up down
+R	2	2	4	0
+SM	2	2	4	0
+
+*END tunnel

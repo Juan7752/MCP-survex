@@ -1,0 +1,688 @@
+*BEGIN SurveyFromDXF
+
+*EQUATE SeriesFromLines1.1 SeriesFromLines2.1
+*EQUATE SeriesFromLines1.1 SeriesFromLines3.0
+*EQUATE SeriesFromLines1.3 SeriesFromLines4.1
+*EQUATE SeriesFromLines1.3 SeriesFromLines5.1
+*EQUATE SeriesFromLines1.4 SeriesFromLines6.1
+*EQUATE SeriesFromLines1.4 SeriesFromLines7.1
+*EQUATE SeriesFromLines1.4 SeriesFromLines8.1
+*EQUATE SeriesFromLines1.5 SeriesFromLines9.1
+*EQUATE SeriesFromLines1.5 SeriesFromLines10.1
+*EQUATE SeriesFromLines1.5 SeriesFromLines11.1
+*EQUATE SeriesFromLines1.5 SeriesFromLines12.1
+*EQUATE SeriesFromLines1.5 SeriesFromLines13.0
+*EQUATE SeriesFromLines1.6 SeriesFromLines14.1
+*EQUATE SeriesFromLines1.6 SeriesFromLines15.1
+*EQUATE SeriesFromLines1.7 SeriesFromLines16.1
+*EQUATE SeriesFromLines1.7 SeriesFromLines17.1
+*EQUATE SeriesFromLines1.8 SeriesFromLines18.1
+*EQUATE SeriesFromLines1.8 SeriesFromLines19.1
+*EQUATE SeriesFromLines1.9 SeriesFromLines20.1
+*EQUATE SeriesFromLines1.9 SeriesFromLines21.1
+*EQUATE SeriesFromLines1.10 SeriesFromLines22.1
+*EQUATE SeriesFromLines1.10 SeriesFromLines23.1
+*EQUATE SeriesFromLines1.11 SeriesFromLines24.1
+*EQUATE SeriesFromLines1.11 SeriesFromLines25.1
+*EQUATE SeriesFromLines1.12 SeriesFromLines26.1
+*EQUATE SeriesFromLines1.12 SeriesFromLines27.1
+*EQUATE SeriesFromLines1.13 SeriesFromLines28.1
+*EQUATE SeriesFromLines1.13 SeriesFromLines29.1
+*EQUATE SeriesFromLines1.14 SeriesFromLines30.1
+*EQUATE SeriesFromLines1.14 SeriesFromLines31.1
+*EQUATE SeriesFromLines1.15 SeriesFromLines32.1
+*EQUATE SeriesFromLines1.15 SeriesFromLines33.1
+*EQUATE SeriesFromLines1.16 SeriesFromLines34.1
+*EQUATE SeriesFromLines1.16 SeriesFromLines35.1
+*EQUATE SeriesFromLines1.17 SeriesFromLines36.1
+*EQUATE SeriesFromLines1.17 SeriesFromLines37.1
+*EQUATE SeriesFromLines1.17 SeriesFromLines38.1
+*EQUATE SeriesFromLines1.17 SeriesFromLines39.1
+*EQUATE SeriesFromLines1.17 SeriesFromLines40.1
+*EQUATE SeriesFromLines1.18 SeriesFromLines41.1
+*EQUATE SeriesFromLines1.18 SeriesFromLines42.1
+*EQUATE SeriesFromLines1.18 SeriesFromLines43.0
+*EQUATE SeriesFromLines1.19 SeriesFromLines44.1
+*EQUATE SeriesFromLines1.19 SeriesFromLines45.1
+*EQUATE SeriesFromLines1.20 SeriesFromLines46.1
+*EQUATE SeriesFromLines1.20 SeriesFromLines47.0
+*EQUATE SeriesFromLines1.21 SeriesFromLines48.1
+*EQUATE SeriesFromLines1.21 SeriesFromLines49.1
+*EQUATE SeriesFromLines1.21 SeriesFromLines50.1
+*EQUATE SeriesFromLines1.21 SeriesFromLines51.0
+*EQUATE SeriesFromLines1.22 SeriesFromLines52.1
+*EQUATE SeriesFromLines1.22 SeriesFromLines53.1
+*EQUATE SeriesFromLines1.23 SeriesFromLines54.1
+*EQUATE SeriesFromLines1.23 SeriesFromLines55.1
+*EQUATE SeriesFromLines1.24 SeriesFromLines56.1
+*EQUATE SeriesFromLines1.24 SeriesFromLines57.1
+*EQUATE SeriesFromLines1.25 SeriesFromLines58.1
+*EQUATE SeriesFromLines1.25 SeriesFromLines59.1
+*EQUATE SeriesFromLines1.25 SeriesFromLines60.0
+*EQUATE SeriesFromLines1.26 SeriesFromLines61.1
+*EQUATE SeriesFromLines1.26 SeriesFromLines62.1
+*EQUATE SeriesFromLines2.1 SeriesFromLines1.1
+*EQUATE SeriesFromLines2.1 SeriesFromLines3.0
+*EQUATE SeriesFromLines3.0 SeriesFromLines1.1
+*EQUATE SeriesFromLines3.0 SeriesFromLines2.1
+*EQUATE SeriesFromLines4.1 SeriesFromLines1.3
+*EQUATE SeriesFromLines4.1 SeriesFromLines5.1
+*EQUATE SeriesFromLines5.1 SeriesFromLines1.3
+*EQUATE SeriesFromLines5.1 SeriesFromLines4.1
+*EQUATE SeriesFromLines6.1 SeriesFromLines1.4
+*EQUATE SeriesFromLines6.1 SeriesFromLines7.1
+*EQUATE SeriesFromLines6.1 SeriesFromLines8.1
+*EQUATE SeriesFromLines7.1 SeriesFromLines1.4
+*EQUATE SeriesFromLines7.1 SeriesFromLines6.1
+*EQUATE SeriesFromLines7.1 SeriesFromLines8.1
+*EQUATE SeriesFromLines8.1 SeriesFromLines1.4
+*EQUATE SeriesFromLines8.1 SeriesFromLines6.1
+*EQUATE SeriesFromLines8.1 SeriesFromLines7.1
+*EQUATE SeriesFromLines9.1 SeriesFromLines1.5
+*EQUATE SeriesFromLines9.1 SeriesFromLines10.1
+*EQUATE SeriesFromLines9.1 SeriesFromLines11.1
+*EQUATE SeriesFromLines9.1 SeriesFromLines12.1
+*EQUATE SeriesFromLines9.1 SeriesFromLines13.0
+*EQUATE SeriesFromLines10.1 SeriesFromLines1.5
+*EQUATE SeriesFromLines10.1 SeriesFromLines9.1
+*EQUATE SeriesFromLines10.1 SeriesFromLines11.1
+*EQUATE SeriesFromLines10.1 SeriesFromLines12.1
+*EQUATE SeriesFromLines10.1 SeriesFromLines13.0
+*EQUATE SeriesFromLines11.1 SeriesFromLines1.5
+*EQUATE SeriesFromLines11.1 SeriesFromLines9.1
+*EQUATE SeriesFromLines11.1 SeriesFromLines10.1
+*EQUATE SeriesFromLines11.1 SeriesFromLines12.1
+*EQUATE SeriesFromLines11.1 SeriesFromLines13.0
+*EQUATE SeriesFromLines12.1 SeriesFromLines1.5
+*EQUATE SeriesFromLines12.1 SeriesFromLines9.1
+*EQUATE SeriesFromLines12.1 SeriesFromLines10.1
+*EQUATE SeriesFromLines12.1 SeriesFromLines11.1
+*EQUATE SeriesFromLines12.1 SeriesFromLines13.0
+*EQUATE SeriesFromLines13.0 SeriesFromLines1.5
+*EQUATE SeriesFromLines13.0 SeriesFromLines9.1
+*EQUATE SeriesFromLines13.0 SeriesFromLines10.1
+*EQUATE SeriesFromLines13.0 SeriesFromLines11.1
+*EQUATE SeriesFromLines13.0 SeriesFromLines12.1
+*EQUATE SeriesFromLines14.1 SeriesFromLines1.6
+*EQUATE SeriesFromLines14.1 SeriesFromLines15.1
+*EQUATE SeriesFromLines15.1 SeriesFromLines1.6
+*EQUATE SeriesFromLines15.1 SeriesFromLines14.1
+*EQUATE SeriesFromLines16.1 SeriesFromLines1.7
+*EQUATE SeriesFromLines16.1 SeriesFromLines17.1
+*EQUATE SeriesFromLines17.1 SeriesFromLines1.7
+*EQUATE SeriesFromLines17.1 SeriesFromLines16.1
+*EQUATE SeriesFromLines18.1 SeriesFromLines1.8
+*EQUATE SeriesFromLines18.1 SeriesFromLines19.1
+*EQUATE SeriesFromLines19.1 SeriesFromLines1.8
+*EQUATE SeriesFromLines19.1 SeriesFromLines18.1
+*EQUATE SeriesFromLines20.1 SeriesFromLines1.9
+*EQUATE SeriesFromLines20.1 SeriesFromLines21.1
+*EQUATE SeriesFromLines21.1 SeriesFromLines1.9
+*EQUATE SeriesFromLines21.1 SeriesFromLines20.1
+*EQUATE SeriesFromLines22.1 SeriesFromLines1.10
+*EQUATE SeriesFromLines22.1 SeriesFromLines23.1
+*EQUATE SeriesFromLines23.1 SeriesFromLines1.10
+*EQUATE SeriesFromLines23.1 SeriesFromLines22.1
+*EQUATE SeriesFromLines24.1 SeriesFromLines1.11
+*EQUATE SeriesFromLines24.1 SeriesFromLines25.1
+*EQUATE SeriesFromLines25.1 SeriesFromLines1.11
+*EQUATE SeriesFromLines25.1 SeriesFromLines24.1
+*EQUATE SeriesFromLines26.1 SeriesFromLines1.12
+*EQUATE SeriesFromLines26.1 SeriesFromLines27.1
+*EQUATE SeriesFromLines27.1 SeriesFromLines1.12
+*EQUATE SeriesFromLines27.1 SeriesFromLines26.1
+*EQUATE SeriesFromLines28.1 SeriesFromLines1.13
+*EQUATE SeriesFromLines28.1 SeriesFromLines29.1
+*EQUATE SeriesFromLines29.1 SeriesFromLines1.13
+*EQUATE SeriesFromLines29.1 SeriesFromLines28.1
+*EQUATE SeriesFromLines30.1 SeriesFromLines1.14
+*EQUATE SeriesFromLines30.1 SeriesFromLines31.1
+*EQUATE SeriesFromLines31.1 SeriesFromLines1.14
+*EQUATE SeriesFromLines31.1 SeriesFromLines30.1
+*EQUATE SeriesFromLines32.1 SeriesFromLines1.15
+*EQUATE SeriesFromLines32.1 SeriesFromLines33.1
+*EQUATE SeriesFromLines33.1 SeriesFromLines1.15
+*EQUATE SeriesFromLines33.1 SeriesFromLines32.1
+*EQUATE SeriesFromLines34.1 SeriesFromLines1.16
+*EQUATE SeriesFromLines34.1 SeriesFromLines35.1
+*EQUATE SeriesFromLines35.1 SeriesFromLines1.16
+*EQUATE SeriesFromLines35.1 SeriesFromLines34.1
+*EQUATE SeriesFromLines36.1 SeriesFromLines1.17
+*EQUATE SeriesFromLines36.1 SeriesFromLines37.1
+*EQUATE SeriesFromLines36.1 SeriesFromLines38.1
+*EQUATE SeriesFromLines36.1 SeriesFromLines39.1
+*EQUATE SeriesFromLines36.1 SeriesFromLines40.1
+*EQUATE SeriesFromLines37.1 SeriesFromLines1.17
+*EQUATE SeriesFromLines37.1 SeriesFromLines36.1
+*EQUATE SeriesFromLines37.1 SeriesFromLines38.1
+*EQUATE SeriesFromLines37.1 SeriesFromLines39.1
+*EQUATE SeriesFromLines37.1 SeriesFromLines40.1
+*EQUATE SeriesFromLines38.1 SeriesFromLines1.17
+*EQUATE SeriesFromLines38.1 SeriesFromLines36.1
+*EQUATE SeriesFromLines38.1 SeriesFromLines37.1
+*EQUATE SeriesFromLines38.1 SeriesFromLines39.1
+*EQUATE SeriesFromLines38.1 SeriesFromLines40.1
+*EQUATE SeriesFromLines39.1 SeriesFromLines1.17
+*EQUATE SeriesFromLines39.1 SeriesFromLines36.1
+*EQUATE SeriesFromLines39.1 SeriesFromLines37.1
+*EQUATE SeriesFromLines39.1 SeriesFromLines38.1
+*EQUATE SeriesFromLines39.1 SeriesFromLines40.1
+*EQUATE SeriesFromLines40.1 SeriesFromLines1.17
+*EQUATE SeriesFromLines40.1 SeriesFromLines36.1
+*EQUATE SeriesFromLines40.1 SeriesFromLines37.1
+*EQUATE SeriesFromLines40.1 SeriesFromLines38.1
+*EQUATE SeriesFromLines40.1 SeriesFromLines39.1
+*EQUATE SeriesFromLines41.1 SeriesFromLines1.18
+*EQUATE SeriesFromLines41.1 SeriesFromLines42.1
+*EQUATE SeriesFromLines41.1 SeriesFromLines43.0
+*EQUATE SeriesFromLines42.1 SeriesFromLines1.18
+*EQUATE SeriesFromLines42.1 SeriesFromLines41.1
+*EQUATE SeriesFromLines42.1 SeriesFromLines43.0
+*EQUATE SeriesFromLines43.0 SeriesFromLines1.18
+*EQUATE SeriesFromLines43.0 SeriesFromLines41.1
+*EQUATE SeriesFromLines43.0 SeriesFromLines42.1
+*EQUATE SeriesFromLines44.1 SeriesFromLines1.19
+*EQUATE SeriesFromLines44.1 SeriesFromLines45.1
+*EQUATE SeriesFromLines45.1 SeriesFromLines1.19
+*EQUATE SeriesFromLines45.1 SeriesFromLines44.1
+*EQUATE SeriesFromLines46.1 SeriesFromLines1.20
+*EQUATE SeriesFromLines46.1 SeriesFromLines47.0
+*EQUATE SeriesFromLines47.0 SeriesFromLines1.20
+*EQUATE SeriesFromLines47.0 SeriesFromLines46.1
+*EQUATE SeriesFromLines48.1 SeriesFromLines1.21
+*EQUATE SeriesFromLines48.1 SeriesFromLines49.1
+*EQUATE SeriesFromLines48.1 SeriesFromLines50.1
+*EQUATE SeriesFromLines48.1 SeriesFromLines51.0
+*EQUATE SeriesFromLines49.1 SeriesFromLines1.21
+*EQUATE SeriesFromLines49.1 SeriesFromLines48.1
+*EQUATE SeriesFromLines49.1 SeriesFromLines50.1
+*EQUATE SeriesFromLines49.1 SeriesFromLines51.0
+*EQUATE SeriesFromLines50.1 SeriesFromLines1.21
+*EQUATE SeriesFromLines50.1 SeriesFromLines48.1
+*EQUATE SeriesFromLines50.1 SeriesFromLines49.1
+*EQUATE SeriesFromLines50.1 SeriesFromLines51.0
+*EQUATE SeriesFromLines51.0 SeriesFromLines1.21
+*EQUATE SeriesFromLines51.0 SeriesFromLines48.1
+*EQUATE SeriesFromLines51.0 SeriesFromLines49.1
+*EQUATE SeriesFromLines51.0 SeriesFromLines50.1
+*EQUATE SeriesFromLines52.1 SeriesFromLines1.22
+*EQUATE SeriesFromLines52.1 SeriesFromLines53.1
+*EQUATE SeriesFromLines53.1 SeriesFromLines1.22
+*EQUATE SeriesFromLines53.1 SeriesFromLines52.1
+*EQUATE SeriesFromLines54.1 SeriesFromLines1.23
+*EQUATE SeriesFromLines54.1 SeriesFromLines55.1
+*EQUATE SeriesFromLines55.1 SeriesFromLines1.23
+*EQUATE SeriesFromLines55.1 SeriesFromLines54.1
+*EQUATE SeriesFromLines56.1 SeriesFromLines1.24
+*EQUATE SeriesFromLines56.1 SeriesFromLines57.1
+*EQUATE SeriesFromLines57.1 SeriesFromLines1.24
+*EQUATE SeriesFromLines57.1 SeriesFromLines56.1
+*EQUATE SeriesFromLines58.1 SeriesFromLines1.25
+*EQUATE SeriesFromLines58.1 SeriesFromLines59.1
+*EQUATE SeriesFromLines58.1 SeriesFromLines60.0
+*EQUATE SeriesFromLines59.1 SeriesFromLines1.25
+*EQUATE SeriesFromLines59.1 SeriesFromLines58.1
+*EQUATE SeriesFromLines59.1 SeriesFromLines60.0
+*EQUATE SeriesFromLines60.0 SeriesFromLines1.25
+*EQUATE SeriesFromLines60.0 SeriesFromLines58.1
+*EQUATE SeriesFromLines60.0 SeriesFromLines59.1
+*EQUATE SeriesFromLines61.1 SeriesFromLines1.26
+*EQUATE SeriesFromLines61.1 SeriesFromLines62.1
+*EQUATE SeriesFromLines62.1 SeriesFromLines1.26
+*EQUATE SeriesFromLines62.1 SeriesFromLines61.1
+
+*BEGIN SeriesFromLines1
+
+
+*FIX 0	-0.1	-0.07	-0.92
+0	1	 0.93	 55.01	 82.44
+1	2	 9.17	274.33	-20.09
+2	3	 9.21	272.99	-20.54
+3	4	 9.04	272.58	-20.86
+4	5	 4.71	288.76	-16.67
+5	6	 2.47	313.84	 -6.28
+6	7	 2.82	260.40	  0.41
+7	8	 3.75	267.39	 -5.20
+8	9	 4.26	277.04	 -4.72
+9	10	 2.46	259.74	-29.96
+10	11	 2.43	266.31	-82.66
+11	12	 2.55	310.16	-10.16
+12	13	 3.15	312.13	-19.66
+13	14	 4.52	265.92	 -5.58
+14	15	 2.42	210.60	  3.55
+15	16	 3.82	249.71	-13.01
+16	17	 3.48	282.28	 -1.32
+17	18	 2.23	260.25	-42.02
+18	19	 3.43	238.98	-13.15
+19	20	 3.38	259.59	 -3.22
+20	21	 4.47	284.04	-12.01
+21	22	 3.79	253.91	  0.15
+22	23	 3.07	229.10	  2.24
+23	24	 5.55	265.04	 -0.21
+24	25	 1.29	223.11	 -5.77
+25	26	 2.32	253.80	-48.30
+26	27	 0.87	248.60	-23.77
+*END SeriesFromLines1
+
+*BEGIN SeriesFromLines2
+
+
+0	1	 1.15	177.51	 -3.48
+1	2	 1.61	279.46	 87.84
+*END SeriesFromLines2
+
+*BEGIN SeriesFromLines3
+
+
+0	1	 1.55	178.10	 12.68
+*END SeriesFromLines3
+
+*BEGIN SeriesFromLines4
+
+
+0	1	 1.77	126.87	-78.63
+1	2	 0.93	225.00	-87.39
+*END SeriesFromLines4
+
+*BEGIN SeriesFromLines5
+
+
+0	1	 1.35	  0.51	-33.22
+1	2	 1.30	  4.25	 21.58
+*END SeriesFromLines5
+
+*BEGIN SeriesFromLines6
+
+
+0	1	 1.51	 78.47	  6.46
+1	2	 2.60	291.97	-14.50
+*END SeriesFromLines6
+
+*BEGIN SeriesFromLines7
+
+
+0	1	 1.13	126.36	 -3.04
+1	2	 3.61	301.28	 59.19
+*END SeriesFromLines7
+
+*BEGIN SeriesFromLines8
+
+
+0	1	 4.69	108.60	 17.22
+1	2	 1.42	185.98	 28.96
+*END SeriesFromLines8
+
+*BEGIN SeriesFromLines9
+
+
+0	1	 4.30	231.71	-86.77
+1	2	 0.98	 90.00	-86.50
+*END SeriesFromLines9
+
+*BEGIN SeriesFromLines10
+
+
+0	1	 2.53	162.55	-36.41
+1	2	 1.22	192.89	  7.53
+*END SeriesFromLines10
+
+*BEGIN SeriesFromLines11
+
+
+0	1	 2.48	266.59	-70.14
+1	2	 2.50	 89.27	 71.56
+*END SeriesFromLines11
+
+*BEGIN SeriesFromLines12
+
+
+0	1	 1.31	183.08	 -4.83
+1	2	 0.69	352.87	 83.34
+*END SeriesFromLines12
+
+*BEGIN SeriesFromLines13
+
+
+0	1	 0.65	207.76	  3.55
+*END SeriesFromLines13
+
+*BEGIN SeriesFromLines14
+
+
+0	1	 2.09	136.01	-78.88
+1	2	 3.54	251.57	-84.88
+*END SeriesFromLines14
+
+*BEGIN SeriesFromLines15
+
+
+0	1	 0.83	 10.49	 -7.61
+1	2	 3.10	347.22	 27.08
+*END SeriesFromLines15
+
+*BEGIN SeriesFromLines16
+
+
+0	1	 2.33	165.96	-78.80
+1	2	 2.76	231.65	-57.92
+*END SeriesFromLines16
+
+*BEGIN SeriesFromLines17
+
+
+0	1	 0.30	  7.59	  1.89
+1	2	 3.35	327.90	 22.09
+*END SeriesFromLines17
+
+*BEGIN SeriesFromLines18
+
+
+0	1	 1.91	129.29	-81.45
+1	2	 1.36	271.33	-71.56
+*END SeriesFromLines18
+
+*BEGIN SeriesFromLines19
+
+
+0	1	 1.35	 31.68	-35.23
+1	2	 6.31	 25.11	 32.90
+*END SeriesFromLines19
+
+*BEGIN SeriesFromLines20
+
+
+0	1	 1.84	 78.69	-75.54
+1	2	 2.17	 52.50	-75.53
+*END SeriesFromLines20
+
+*BEGIN SeriesFromLines21
+
+
+0	1	 0.87	 15.31	 -1.97
+1	2	 1.95	337.04	  9.16
+*END SeriesFromLines21
+
+*BEGIN SeriesFromLines22
+
+
+0	1	 9.36	352.60	-74.11
+1	2	 2.38	277.59	-82.69
+*END SeriesFromLines22
+
+*BEGIN SeriesFromLines23
+
+
+0	1	 0.39	341.08	-16.56
+1	2	 3.54	353.46	 35.00
+*END SeriesFromLines23
+
+*BEGIN SeriesFromLines24
+
+
+0	1	 2.25	 97.13	-77.60
+1	2	 0.35	206.57	-86.34
+*END SeriesFromLines24
+
+*BEGIN SeriesFromLines25
+
+
+0	1	 0.38	 42.88	  5.98
+1	2	 0.75	 18.19	 11.51
+*END SeriesFromLines25
+
+*BEGIN SeriesFromLines26
+
+
+0	1	 1.08	135.00	-79.42
+1	2	 1.03	310.60	-79.65
+*END SeriesFromLines26
+
+*BEGIN SeriesFromLines27
+
+
+0	1	 1.07	 53.02	 -4.83
+1	2	 2.21	 31.90	  0.78
+*END SeriesFromLines27
+
+*BEGIN SeriesFromLines28
+
+
+0	1	 0.67	 98.13	-83.98
+1	2	 0.37	 63.43	-86.54
+*END SeriesFromLines28
+
+*BEGIN SeriesFromLines29
+
+
+0	1	 2.12	 17.12	-12.78
+1	2	 0.65	355.46	 14.21
+*END SeriesFromLines29
+
+*BEGIN SeriesFromLines30
+
+
+0	1	 1.30	 77.91	-83.67
+1	2	 0.92	355.03	-75.46
+*END SeriesFromLines30
+
+*BEGIN SeriesFromLines31
+
+
+0	1	 1.40	329.53	-10.67
+1	2	 0.63	320.19	  5.49
+*END SeriesFromLines31
+
+*BEGIN SeriesFromLines32
+
+
+0	1	 1.50	 77.01	-79.78
+1	2	 2.23	289.86	-80.13
+*END SeriesFromLines32
+
+*BEGIN SeriesFromLines33
+
+
+0	1	 2.34	320.02	-25.89
+1	2	 1.10	303.84	  4.70
+*END SeriesFromLines33
+
+*BEGIN SeriesFromLines34
+
+
+0	1	 2.53	215.36	-81.35
+1	2	 2.00	255.96	-84.09
+*END SeriesFromLines34
+
+*BEGIN SeriesFromLines35
+
+
+0	1	 0.24	 36.38	  7.24
+1	2	 1.07	354.51	 12.94
+*END SeriesFromLines35
+
+*BEGIN SeriesFromLines36
+
+
+0	1	 1.57	165.07	-84.32
+1	2	 1.01	260.54	-86.55
+*END SeriesFromLines36
+
+*BEGIN SeriesFromLines37
+
+
+0	1	 1.30	 54.57	 -9.78
+1	2	 1.33	 44.69	  5.19
+*END SeriesFromLines37
+
+*BEGIN SeriesFromLines38
+
+
+0	1	 2.09	153.43	 25.85
+1	2	 2.03	333.43	-25.64
+*END SeriesFromLines38
+
+*BEGIN SeriesFromLines39
+
+
+0	1	 0.47	 56.31	-85.61
+1	2	 2.51	260.02	-59.68
+*END SeriesFromLines39
+
+*BEGIN SeriesFromLines40
+
+
+0	1	 0.85	 12.24	  0.00
+1	2	 0.26	357.80	  6.58
+*END SeriesFromLines40
+
+*BEGIN SeriesFromLines41
+
+
+0	1	 0.48	 82.87	 80.27
+1	2	 3.30	259.34	 -2.78
+*END SeriesFromLines41
+
+*BEGIN SeriesFromLines42
+
+
+0	1	 0.76	167.06	 -4.52
+1	2	 0.91	196.70	 83.38
+*END SeriesFromLines42
+
+*BEGIN SeriesFromLines43
+
+
+0	1	 1.86	188.04	 -3.08
+*END SeriesFromLines43
+
+*BEGIN SeriesFromLines44
+
+
+0	1	 1.41	150.64	-67.04
+1	2	 1.05	259.08	-56.29
+*END SeriesFromLines44
+
+*BEGIN SeriesFromLines45
+
+
+0	1	 0.22	349.70	 -2.56
+1	2	 2.94	342.15	 17.23
+*END SeriesFromLines45
+
+*BEGIN SeriesFromLines46
+
+
+0	1	 3.30	183.09	-38.18
+1	2	 1.60	263.99	-68.96
+*END SeriesFromLines46
+
+*BEGIN SeriesFromLines47
+
+
+0	1	 0.36	202.99	 -1.60
+*END SeriesFromLines47
+
+*BEGIN SeriesFromLines48
+
+
+0	1	 2.70	 45.90	 -2.54
+1	2	 2.79	226.45	  2.67
+*END SeriesFromLines48
+
+*BEGIN SeriesFromLines49
+
+
+0	1	 0.58	  0.00	 89.01
+1	2	 2.68	229.54	  0.21
+*END SeriesFromLines49
+
+*BEGIN SeriesFromLines50
+
+
+0	1	 1.44	167.29	-18.64
+1	2	 0.78	  0.00	 84.87
+*END SeriesFromLines50
+
+*BEGIN SeriesFromLines51
+
+
+0	1	 5.24	182.04	 24.45
+*END SeriesFromLines51
+
+*BEGIN SeriesFromLines52
+
+
+0	1	 0.44	151.39	-73.39
+1	2	 0.48	158.20	-63.39
+*END SeriesFromLines52
+
+*BEGIN SeriesFromLines53
+
+
+0	1	 1.28	359.55	 -3.58
+1	2	 0.43	326.31	 -2.65
+*END SeriesFromLines53
+
+*BEGIN SeriesFromLines54
+
+
+0	1	 0.49	136.97	-65.49
+1	2	 0.46	270.00	-69.59
+*END SeriesFromLines54
+
+*BEGIN SeriesFromLines55
+
+
+0	1	 0.53	353.66	-47.12
+1	2	 1.05	342.78	 -3.28
+*END SeriesFromLines55
+
+*BEGIN SeriesFromLines56
+
+
+0	1	 2.79	292.99	 82.63
+1	2	 0.57	 98.75	 76.55
+*END SeriesFromLines56
+
+*BEGIN SeriesFromLines57
+
+
+0	1	 0.89	327.93	 -4.52
+1	2	 1.02	306.19	  5.06
+*END SeriesFromLines57
+
+*BEGIN SeriesFromLines58
+
+
+0	1	 2.49	 21.80	 87.52
+1	2	 0.81	235.58	-35.68
+*END SeriesFromLines58
+
+*BEGIN SeriesFromLines59
+
+
+0	1	 1.62	161.68	 -0.71
+1	2	 0.50	315.00	 83.55
+*END SeriesFromLines59
+
+*BEGIN SeriesFromLines60
+
+
+0	1	 0.95	161.57	 -1.21
+*END SeriesFromLines60
+
+*BEGIN SeriesFromLines61
+
+
+0	1	 2.53	270.00	-88.19
+1	2	 2.25	238.74	-54.40
+*END SeriesFromLines61
+
+*BEGIN SeriesFromLines62
+
+
+0	1	 2.98	148.86	-19.63
+1	2	 3.77	193.06	-10.07
+*END SeriesFromLines62
+
+*END SurveyFromDXF

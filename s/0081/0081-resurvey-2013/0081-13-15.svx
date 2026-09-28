@@ -1,0 +1,24 @@
+*BEGIN 0081-13-15
+
+
+*date 2013.07.31
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+;surveyors: Alasdair Neill, Carmen Smith.
+;passage name: link batches 13 and 14 to rope climb
+1	0	0.81	58	-34	;0 2 typex spots
+1	2	3.58	140	9
+2	3	2.43	210	33	;sta 3 typex foot of rope climb
+
+
+*data passage station left right up down
+
+*END 0081-13-15

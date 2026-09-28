@@ -1,0 +1,11 @@
+*begin 1471_003
+
+;Papa Noel. 30/5-2004. Torben Redder, Peter Nielsen & Jonas Binladen
+*CALIBRATE declination 2.4
+
+0	1	2.8	310.00	19	;Start from STN 68
+1	2	2.1	280.00	-43
+2	3	4.9	7.00	2
+3	4	1.8	335.00	10
+4	5	5.0	283.00	-5	;is STN 74 Marked 14 April
+*end 1471_003

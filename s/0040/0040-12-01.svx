@@ -1,0 +1,53 @@
+*BEGIN 0040-12-01
+
+;*CALIBRATE DECLINATION 1.63
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.23
+
+*DATA DIVING from to tape compass fromdepth todepth
+;surveyors: Chris Jewell
+;passage name:
+*date 2012.07.25
+
+;surveyors: Chris Jewell (diving with Laura Trowbridge)
+;*date 2012.07.31
+
+RS-lastbelay    junct    5       60   -5.5  -3.1
+junct           belay1   8       330  -3.1  -2.6
+belay1          belay2   4       310  -2.6  -1
+belay2          tag80-2  3       310  -1    -1
+tag80-2         tag70-2  10      310  -1    -1
+tag70-2         tag60-2  10      330  -1    -1; upstream end of sump 2
+tag60-2         tag50-2  10      50   -1    -2.7
+tag50-2         tag40-2  10      40   -2.7  -1.6
+tag40-2         startsump2 4       30   -1.6  -1
+startsump2      canalstart 49.1    310  -1    -1
+canalstart      50         31.5    310  -1    -1
+
+;*date 2012.07.25
+
+
+50	40	12	120	-1	-11.5
+40	30	10	120	-11.5	-16
+30	plus2	2	130	-16	-17
+plus2	20	8	0	-17	-17.3
+20	10	10	0	-17.3	-17.5
+10	tag80	10	10	-17.5	-19
+tag80	tag70	10	10	-19	-19.8
+tag70	tag60	10	15	-19.8	-20
+tag60	tag50	10	10	-20	-19.3
+tag50	tag40	10	30	-19.3	-20
+tag40	tag30	10	40	-20	-19.3
+tag30	tag20	10	30	-19.3	-18.9
+tag20	tag10	10	0	-18.9	-18.8
+tag10	tag0	10	10	-18.8	-20
+
+;tag0 is about 10m of line back from "187m from base" from Rupert's line survey
+
+*END 0040-12-01

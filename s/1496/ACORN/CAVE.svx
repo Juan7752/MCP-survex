@@ -1,0 +1,17 @@
+*BEGIN 1496
+;Created from Survey file on Wed,23 Jun 2004.22:20:01
+;Dates surveyed : 010805
+;Surveyors      : PS HL
+;No of stations : 10
+;Plan length    : 28.6965277m
+;Traverse length: 28.7m
+
+*FIX 0 51860 99890 0210
+
+*ENTRANCE 0
+0	1	13.30	76.15	0	;*
+1	2	5.70	118.15	2	;*
+2	3	2.70	99.15	0	;*
+3	4	7.00	134.15	0	;pit
+
+*END 1496

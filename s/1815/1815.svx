@@ -1,0 +1,38 @@
+*BEGIN 1815_Roadside
+;Created from Survey file on Wed,14 Aug 2002.21:33:36
+*DATE 2002.08.14
+;Surveyors      : PE
+;No of stations : 20
+;Plan length    : 78.7558719m
+;Traverse length: 81.14m
+
+;*FIX 0 447531 4797501 0275
+;*FIX 0 447429 4797292 0275; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 447429 4797292 0271
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.93 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.93-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+0	1	20.68	40.30	-13	;stn10 and 1
+1	2	9.90	39.30	30	;mud slope top
+1	3	4.05	302.30	-25	;stn9
+3	4	4.95	247.30	-3	;stn3
+4	5	12.80	231.30	0	;stn2
+4	6	3.30	266.30	-13	;stn4
+6	7	5.35	235.30	0	;stn5
+6	8	5.39	44.30	-8	;stn6
+8	9	3.27	246.30	3	;stn7
+9	10	11.45	240.30	0	;stn8
+*END 1815_Roadside

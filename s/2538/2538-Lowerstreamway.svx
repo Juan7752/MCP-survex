@@ -1,0 +1,58 @@
+;Use this template after complete intro of *DECLINATION and assoc. commands in Survex v1.2.43
+;For Survex 1.2.43 and later 
+
+*BEGIN 2538-lowerstreamway
+*CS UTM30N
+*CS OUT UTM30N
+;DECLINATION auto x y z; coordinates of entrance but a nearby point will do
+*DATE 2023.08.06
+*FIX 0 0 0 0; s=station x=6-fig easting y=7-fig northing z=altitude Usually the entrance
+;*ENTRANCE s
+;passage / batch name:
+
+;vvvvvvvvvvvvvvv Should be uncommented and completed or deleted vvvvvvvvvvvvvvvvvvvvvvvvv
+;*TEAM Dave Jones (instruments), Alex Ritchie notes
+;^^^^^^^^^^^^^^^^^ Should be uncommented and completed or deleted ^^^^^^^^^^^^^^^^^^^^^^^
+
+*DATA NORMAL from to tape compass clino
+
+;DATA START HERE >>>>>>>>>>>>>>>>>>>>>>VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+0	1	5.08	140	-5
+1	2	6.47	155	-2
+2	3	11.4	135	-9;Duck Unsurveyed
+3	4	2.5	102	20
+4	5	2.8	75	8
+5	6	3.5	357	-6
+6	7	4.2	81	1
+7	8	3	145	0
+8	9	1.8	110	0
+9	10	4	130	-10
+10	11	4.2	40	2
+11	12	2.9	110	0
+12	13	3.4	350	-10;jUNCTION and aven
+
+*DATA NORMAL from to tape compass clino
+14	13	4.3	220	0
+
+
+
+
+*data passage station left right up down
+0	1.1	0.6	1.9	0
+1	0.7	0	0.3	0.7
+2	1.6	0.3	0.9	0.7
+3	0.8	1.0	2.8	0.3
+4	0.8	0.3	1.1	1.1
+5	1	0.4	1.6	0.9
+6	0.4	0.6	0.8	0.4
+7	0.7	0.5	1.2	0.7
+8	0.5	0	0.5	0.7
+9	0	0.5	0.6	0.6
+10	1.1	0.5	0.6	0.1
+11	0	0.5	0.4	0.6
+12	1	0	5	0.8
+13	0.2	0.2	0.4	0.1
+14	1.8	0.8	2.9	0.1
+
+
+*END 2538-lowerstreamway

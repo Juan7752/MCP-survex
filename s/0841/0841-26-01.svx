@@ -1,0 +1,20 @@
+*BEGIN 0841-26-01
+;Situation Normal
+
+*date 2026.08.14
+;*TEAM "James Carlisle, Annabel dunn and joshitha Shivkumar" Survey stations
+*DATA NORMAL from to tape compass clino
+
+
+*data normal from to tape compass clino
+0	1	6.16	180.4	-1.4
+1	2	3.12	111.9	-4.9
+2	3	4.60	167.7	-5
+
+
+*data passage station left right up down
+0	0.9	3.1	2.7	1
+1	1.4	0.8	0	0.4
+2	0.3	2.0	0.6	0.3
+3	0.1	0.1	0.1	0.1
+*END 0841-26-01

@@ -1,0 +1,40 @@
+*BEGIN 0038_Calleja_Rebollo
+;Created from Survey file on Sun,09 May 1999.12:20:45
+;Dates surveyed : 89/8/12
+;Surveyors      : JT/JT
+;No of stations : 19
+;Plan length    : 146.528891
+;Traverse length: 149.7m
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.4
+
+;*FIX 0 448980 4795160 0255
+;*FIX 0 448878 4794951 0255; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 448878 4794951 0253
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+0	1	3.50	161.35	-31	;*
+1	2	6.40	203.35	0	;*
+2	3	28.90	221.85	3	;*
+3	4	26.80	239.35	12	;*
+4	5	10.30	234.35	8	;*
+5	6	5.10	198.35	34	;*
+6	7	7.00	227.85	-2	;*
+7	8	2.90	225.35	0	;*
+8	9	7.10	171.35	7	;*
+9	10	12.00	293.35	2	;*
+10	11	5.00	355.35	0	;*
+11	12	3.00	171.35	7	;*
+3	13	16.40	94.35	-2	;*
+13	14	8.40	172.35	16	;*
+14	15	3.00	169.35	7	;*
+15	16	3.90	122.35	33	;*
+*END 0038_Calleja_Rebollo

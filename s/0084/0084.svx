@@ -1,0 +1,29 @@
+*BEGIN 0084
+*CS UTM30N
+*CS OUT UTM30N
+;0084 Cueva Las Cosas
+
+*TEAM "Richard Bullock + Nigel Dibben" compass clino laser measure
+;First survey 2017.08.04 - Disto + clino/compass
+;Second survey 2019.08.06 - DistoX
+*date 2019.08.06
+
+*INCLUDE 0084_RBu
+*INCLUDE 0084_ND
+*INCLUDE 0084cosas_RBu_2019
+
+*equate 0084ND.4	0084RB.R2
+*equate 0084ND.17	0084RB.ST5
+*equate 0084ND.26	0084RB.ST9
+*equate 0084ND.27	0084RB.ST10
+*equate 0084ND.28	0084RB.ST11
+*equate 0084ND.1	0084RB.E1
+*equate 0084ND.29	0084RB.E3
+*equate 0084cosas1.0	0084RB.r3
+*equate 0084cosas1.1	0084RB.st4
+*equate 0084cosas1.2	0084RB.st5
+*equate 0084cosas1.3	0084ND.22
+*equate 0084cosas1.4	0084RB.st6
+*equate 0084cosas1.7	0084RB.E3
+
+*END 0084

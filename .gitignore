@@ -1,0 +1,12 @@
+# Survex output - regenerated from the .svx files
+*.3d
+*.err
+*.pos
+*.log
+
+# Editor backups and computer clutter
+*~
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini

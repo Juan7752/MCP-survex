@@ -1,0 +1,37 @@
+*BEGIN 0000-fullAuto
+
+*CS UTM30N
+*CS OUT UTM30N
+*DATE 2019.11.01
+*DECLINATION auto 444000 4801000 75
+*FIX 0 444000 4801000 75
+
+
+;vvvvvvvvv For info only; can be deleted vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+;Matienzo position is 43.315936, -3.584633 (W 3.584633)
+;Declination can be found at http://www.ngdc.noaa.gov/geomag-web/#declination
+; Use IGRF model
+
+;1.41 for 2014 Easter altered to 1.01 to align with the UTM ETRS89 grid
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+;1.30 for 2014 autumn altered to 0.90 to align with the UTM ETRS89 grid
+;1.21 for 2014 Xmas altered to 0.81 to align with the UTM ETRS89 grid
+;1.18 for 2015 Easter altered to 0.78 to align with the UTM ETRS89 grid
+;1.13 for 2015 summer altered to 0.73 to align with the UTM ETRS89 grid
+;1.05 for 2016 Easter altered to 0.65 to align with the UTM ETRS89 grid
+;1.01 for 2016 summer altered to 0.61 to align with the UTM ETRS89 grid
+;0.92 for 2017 Easter altered to 0.52 to align with the UTM ETRS89 grid
+;0.88 for 2017 summer altered to 0.48 to align with the UTM ETRS89 grid
+;0.85 for 2017 autumn altered to 0.45 to align with the UTM ETRS89 grid
+;0.80 for 2018 Easter altered to 0.40 to align with the UTM ETRS89 grid
+;0.75 for 2018 summer altered to 0.35 to align with the UTM ETRS89 grid
+;0.66 for 2019 Easter altered to 0.26 to align with the UTM ETRS89 grid
+;0.62 for 2019 summer altered to 0.22 to align with the UTM ETRS89 grid
+;0.46 for 2019 autumn altered to 0.06 to align with the UTM ETRS89 grid (WGS84)
+
+0	1	2000	90	0; 2km on mag bearing 90
+
+;*data passage station left right up down
+
+
+*END 0000-fullAuto

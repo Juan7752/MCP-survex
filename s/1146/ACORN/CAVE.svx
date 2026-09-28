@@ -1,0 +1,23 @@
+*BEGIN 1146_1146
+;Created from Survey file on Wed,23 Jun 2004.19:17:04
+;Dates surveyed : 960410
+;Surveyors      : Ali+
+;No of stations : 12
+;Plan length    : 69.9844495m
+;Traverse length: 98.5m
+
+*FIX 0 49570 93630 0665
+
+*ENTRANCE 0
+0	1	12.50	148.40	-42	;*
+1	2	23.10	-	-V	;p base
+2	3	2.00	49.40	0	;*
+3	4	23.40	85.40	23	;*
+3	5	14.50	295.40	5	;*
+5	6	9.80	271.40	4	;*
+6	7	4.20	251.40	20	;*
+7	8	9.00	267.40	-3	;marked 1
+0	9	0.0	-	+V	;*
+0	10	0.0	-	+V	;*
+0	11	0.0	-	+V	;*
+*END 1146_1146

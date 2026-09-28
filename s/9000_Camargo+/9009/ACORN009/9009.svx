@@ -1,0 +1,22 @@
+*BEGIN 9009.1_
+;Created from Survey file on Sat,26 Jun 2004.16:03:46
+;Dates surveyed : 960801
+;Surveyors      : Carlos?
+;No of stations : 11
+;Plan length    : 21.9337656m
+;Traverse length: 29m
+
+*FIX 0   
+
+*ENTRANCE 0
+0	1	2.70	27.00	-48	;Entrance
+1	2	4.00	-	-V	;*
+2	3	5.40	27.00	-35	;*
+2	4	2.70	337.00	0	;*
+0	5	0.0	-	+V	;*
+0	6	0.0	-	+V	;*
+3	7	4.70	35.00	-38	;*
+7	8	3.30	2.00	-20	;*
+8	9	2.20	22.00	-1	;*
+9	10	4.00	27.00	-1	;*
+*END 9009.1_

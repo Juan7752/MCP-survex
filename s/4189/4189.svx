@@ -1,0 +1,33 @@
+*BEGIN 4189-15-01
+
+;Cueva Ruffle
+
+*TEAM "Dave Dillon" compass clino laser measure notes
+
+*CALIBRATE DECLINATION 0.73 ; altered from 1.13 for summer 2015 to align with the UTM ETRS89 grid
+*date 2015.08.08
+
+*FIX 1 451351 4797058 332
+*ENTRANCE 1
+
+
+*DATA NORMAL from to clino compass tape
+1	2	-51	210	3.75
+2	3	-10	119	2.04
+3	4	-60	11	5.15
+4	5	-64	150	1.85
+*FLAGS SPLAY
+2	splay	-44	317	3.19
+*FLAGS NOT SPLAY
+
+
+
+
+*data passage station left right up down
+2	1.53	.44	.8	0
+3	.9	0	2.7	0
+4	.4	.9	1.6	0
+
+
+
+*END 4189-15-01

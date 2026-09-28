@@ -1,0 +1,35 @@
+*BEGIN Vaca51
+*DATE 2009.08.11
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+0	1	22.26	  6.16	 -3.30
+1	2	 7.22	  3.04	-14.13
+2	3	 6.67	 11.51	-15.95
+3	4	15.22	 52.35	  8.90
+4	5	17.28	359.16	 21.20
+5	6	21.21	359.11	 14.84
+6	7	 6.43	310.16	 48.26
+7	8	14.17	355.42	 60.01
+8	8a	 3.14	184.76	 -5.58
+8	9	16.51	 17.71	 40.52
+
+*data passage station left right up down
+0	4.24	2.36	1.43	1.33
+1	1.89	1.94	2.4	1.29
+2	2.35	2.5	2.79	1.28
+3	2.04	4.27	3.45	0.89
+4	5.87	4.45	2.62	0.64
+5	8.31	6.67	3.32	2.34
+6	8.5	3.6	4.82	1.36
+7	11.98	5.23	5.46	0.83
+8	2.12	5.02	8.64	9.64
+*END Vaca51
+

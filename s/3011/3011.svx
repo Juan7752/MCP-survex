@@ -1,0 +1,40 @@
+*begin 3011
+
+;surveyors: Harry Long John Clarke
+;name: -
+*DATE 2008.07.23
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+;*fix z 446868 4801497 0108
+*fix z 446766 4801288 0108; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE z
+0	1	11.7	-	up
+1	2	7.2	33	0
+2	3	1.6	71	0
+3	4	2	329	38
+4	5	3	30	20; 5 is ent ladder
+6	5	4	223	42
+5	z	3.3	-	up;entrance
+
+
+*data passage station left right up down
+2	1	1	.6	.4
+3	.3	.3	.3	.9
+4	.2	.2	.4	.3
+5	.6	.6	0	.8
+6	1	.8	0	0
+
+*end 3011

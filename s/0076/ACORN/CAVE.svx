@@ -1,0 +1,21 @@
+*BEGIN 0076_Cuvia del Campo
+;Created from Survey file on Fri,18 Jun 2004.22:00:45
+;Dates surveyed : 990728
+;Surveyors      : Juan PeteS AndyQ
+;No of stations : 10
+;Plan length    : 76.3156517m
+;Traverse length: 77.9m
+
+*FIX 0 50630 96480 0236
+
+*ENTRANCE 0
+0	1	8.20	150.85	-21	;stn1
+1	2	6.40	177.85	-30	;*
+2	3	3.50	194.85	-5	;*
+3	4	3.00	154.85	-9	;stn4 narrow
+0	5	16.10	19.85	-1	;lh wall
+5	6	30.70	66.85	4	;stn6
+6	7	10.00	32.85	-6	;stn7
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 0076_Cuvia del Campo

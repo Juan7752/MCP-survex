@@ -1,0 +1,33 @@
+*begin riano_drymazeloop
+*EXPORT 17 227 231
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;Riano Dry maze series off entrance inlet (data taken from line drawing)
+17	215	7.69	184.65	36	;clino was -36, but knowledge of cave means this should be a climb up, so changed to +36
+215	216	3.90	100.86	7	;*
+216	217	6.80	191.86	0	;*
+217	218	1.80	98.86	0	;*
+218	219	3.20	193.86	2	;*
+219	220	4.00	105.86	10	;*
+220	221	19.00	185.86	0	;*
+221	222	11.40	109.86	0	;*
+222	223	6.00	70.86	5	;*
+223	224	7.20	93.86	11	;*
+224	225	18.60	69.86	-2	;*
+225	226	7.50	105.86	4	;*
+226	227	4.40	59.86	1	;*
+227	228	4.70	103.86	8	;*
+228	229	5.60	122.86	15	;*
+229	230	5.80	139.86	11	;*
+230	231	26.80	116.86	-13	;*
+
+
+*end riano_drymazeloop

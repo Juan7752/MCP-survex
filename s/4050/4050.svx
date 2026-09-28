@@ -1,0 +1,69 @@
+*begin 4050
+;Garzon area. At the bottom of large depression with 150mm grey pipe leading to it.
+;Surveyors -Part 1, Dave Milner, Phil Goodwin. Part 2 John Gunn,16th April 2017
+*BEGIN 1
+*data normal From To Length Bearing Gradient
+*CALIBRATE DECLINATION 0.71
+*entrance 1
+*FIX 1 450136 4802469 197
+ 1  2  3.4 215 -44
+ 2  3 18.0  0  -90
+ 3  4  3.3 039 -13 ;4 is entrance to blind chamber
+*flags splay
+ 4  5  3.0 091   0
+ 4  6  3.7 055   0
+ 4  7  3.8 134   0
+*flags not splay
+ 3  8  2.3 174   0 ; 8 is calcite boulder
+ 8  9  5.3 231  41
+ 9 10  4.9  0  -90 ;down pitch to blind chamber
+*flags splay
+ 8 11  7.3 142   0
+ 8 12  2.3 076   0
+ 8 13  3.7 323   0
+ 8 14  1.4 212   0
+ 8 15  5.5 273  32
+*flags not splay
+ 8 16  6.3 116 -30 ;down to rift
+16 17  6.4 321  -1 ; back underneath boulders towards main pitch
+16 18  5.3 123 -36
+18 19  1.0  0  -90 
+19 20  7.0 309 -28 ; backward at lower level in rift
+18 21  4.3 158  28 ; up through boulder blockage
+21 22  4.8 140 -24 ; 22 is large flat boulder in chamber
+*flags splay
+22 23  6.8 085   4
+22 24  3.1 359   0
+22 25  1.2 232   0
+22 26  2.5  0   90
+22 27  5.1 151   2
+*flags not splay
+22 40  6.0 053 -45
+22 28  4.8 182 -39
+28 28a 1.2 130   0
+28a 29  8.7  0  -90 ; down pitch
+29 51  3.5 188   0
+29 52  4.0 359   0
+52 53  3.9 355  30
+*END 1
+*EQUATE 1.29 2.29
+*BEGIN 2
+*CALIBRATE DECLINATION 0.52
+29 30  1.2 070   0
+30 31  2.0 070 -20
+31 32  1.7 000 -90
+32 33  1.6 190   0
+33 34  4.6 104 -21
+34 35  2.6 160 -15
+35 36  1.7 250 -30
+36 37  4.1 192 -25
+37 38  1.3 140  -1
+38 39  1.9 190  -1
+39 40  2.2 132  -1
+40 41  3.0 169  -1
+41 42  1.4 140  -1
+42 43  3.2 150  -1
+43 44  2.8 228  -1
+44 45  2.6 230  -1;too tight and floods to roof
+*END 2
+*end 4050

@@ -1,0 +1,50 @@
+*begin 1930_plus
+
+*include ../trial/area
+
+*include 0553_000
+*include 0553_PP
+*include 1930
+
+*include ../0892/0892
+*include ../0098/cave
+*include ../0071/cave
+*include ../0081/cave
+*include ../0105/cave
+*include ../0107/cave
+*include ../0109/cave
+*include ../0114/cave
+*include ../0117/cave
+*include ../0394/0394
+*include ../0613/cave
+*include ../0681/cave
+*Include ../0915/cave
+*include ../0713/cave
+*include ../0415/cave
+*include ../0715/cave
+*include ../0774/cave
+*include ../1289/cave
+*include ../1725/cave
+*include ../1874/cave
+*include ../1941/cave
+*include ../1931/cave
+*include ../2121/cave
+*include ../2121/cave
+*include ../2183/2183.svx
+
+*equate 000_surface.rift 1930_001.1
+
+*equate 000_surface.17_1725_sink 1725.0
+
+*EQUATE 0114_llueva.290 0081_carcavueso.253
+*EQUATE 0114_llueva.414 0107_uzueka.313
+*EQUATE 0114_llueva.172 0081_carcavueso.152
+*equate 0107_uzueka.175 0105_riano.181
+
+*EQUATE 0071_mostajo.672 0774_774.155
+*EQUATE 0774_774.267 0892_Regaton.1054
+*EQUATE 0774_774.271 0892_Regaton.284
+*EQUATE 0774_774.282 0892_Regaton.987
+
+
+*end 1930_plus

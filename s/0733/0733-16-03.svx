@@ -1,0 +1,37 @@
+*begin 0733-16-03
+*date 2016.03.31
+*TEAM  "Alasdair Neill" notes "Dave Bell"compass clino "Peter Eagan" disto
+*DATA NORMAL from to tape compass clino
+
+;resurvey of top entrance chamber
+
+
+*CALIBRATE DECLINATION 0.65
+0	1	12.1	65	-8
+2	1	13.17	248	15
+2	3	19.05	75	-10
+4	3	10.03	205	19
+4	5	12.88	29	-20	;typex spot on left at start of crawl
+5	6	3.2	53	-20
+*FLAGS duplicate
+0	a	13.18	73	-18	;sta 0 typex spot on big boulder at entrance
+*FLAGS not duplicate
+
+
+
+
+
+
+*data passage station left right up down
+0	14.4	4	1.56	1.6
+1	14.2	8	1.6	1
+a	13.18	9.2	3.2	0
+2	9.9	12.4	3.1	1.3
+3	10.6	8.2	3	1.5
+4	13.4	9.6	3	1.3
+5	12.1	12.4	2.5	.9
+5	0	1.6	.4	.9
+6	.4	.8	0	.4
+
+
+*END 0733-16-03

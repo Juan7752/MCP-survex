@@ -1,0 +1,108 @@
+*BEGIN 0103-10-02
+
+;surveyors: Ali Neill Dave Bell Pete Eagan
+;passage name: Espada rift extensions
+*DATE 2010.04.06
+
+;*CALIBRATE DECLINATION 1.92
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.52
+
+*Flags Duplicate
+0	1	7.82	114	19
+1	2	7.61	198	5
+2	3	7.66	240	4
+
+*Flags Not Duplicate
+3	4	3.82	229	25
+4	5	8.01	133	10
+
+6	4	6.41	92	-21
+7	6	4	76	13
+7a	7	1.66	312	25
+8	7a	4.26	269	40
+
+8	9	3.98	169	-35
+
+7	10	4.73	298	-17
+10	11	5.06	185	-25
+11	12	2.19	293	17
+12	13	5.48	318	-9
+
+14	10	4.81	151	-20
+15	14	3.02	80	12
+16	15	3.39	120	-5
+17	14	6.04	206	-75
+
+
+*Flags Duplicate
+18	2	4.03	232	24
+19	18	4.93	349	10
+20	19	5.26	42	6
+
+21	19	2.02	291	3
+22	21	5.34	201	15
+23	22	4.49	297	-10
+24	23	6.11	143	-8
+25	24	2.73	194	5
+26	25	3.52	230	-5
+27	26	6.04	162	-5
+
+
+*data passage station left right up down
+0	6	6	6	1.4
+1	0	1.2	2.1	1.8
+2	6	3	1	.7
+3	2.4	2	.7	0
+4	.5	2	2	1
+5	1	1	1.25	1.25
+
+*data passage station left right up down
+4	.5	2	2	1
+6	2	1.4	.4	1
+7	.4	1.3	.5	1.4
+7a	.7	1	1.7	2
+8	.3	.8	2	2.5
+9	1.5	1.5	1.5	1.5
+
+*data passage station left right up down
+7	.4	1.3	.5	1.4
+10	.4	1.3	.5	1.4
+11	1.5	6.5	1.8	1.2
+12	5.4	1.5	3	1
+13	.9	0	4	2
+
+*data passage station left right up down
+10	.4	1.3	.5	1.4
+14	1.1	1.1	5	.7
+15	0	1.5	4	1.5
+16	.4	.4	1	1
+
+*data passage station left right up down
+14	1.1	1.1	5	.7
+17	3	2.5	1	0
+
+*data passage station left right up down
+2	6	3	1	.7
+18	4	2	3	1.3
+19	.4	1.3	1	.7
+20	2	3	1	.5
+
+*data passage station left right up down
+19	.4	1.3	1	.7
+21	1	.7	.6	1
+22	0	1	1	.5
+23	1	.4	1	1.6
+24	4.6	2.5	4.3	2
+25	4	1.5	2.3	1
+26	2.6	3	1.2	.2
+27	3	5	3	1.6
+
+
+*END 0103-10-02

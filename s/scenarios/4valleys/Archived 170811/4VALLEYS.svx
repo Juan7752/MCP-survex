@@ -1,0 +1,64 @@
+*BEGIN 4Valleys
+*CS UTM30N
+*CS OUT UTM30N
+*INFER exports on
+
+;Main 4 system backbones
+;*INCLUDE ../../0081/0081.svx
+*INCLUDE ../../0105/0105.svx
+*INCLUDE ../../0107/0107.svx
+;*INCLUDE ../../0114/0114.svx
+*INCLUDE "../../../../../../../../ARCHIVE/Caving-years/2017/summer-2017/0114 Llueva2/0114.svx"
+*INCLUDE "../../../../../../../../ARCHIVE/Caving-years/2017/summer-2017/0081 Carcavuezo/0081.svx"
+
+*INCLUDE ../../0087/0087.svx
+*INCLUDE ../../0122/0122.svx
+*INCLUDE ../../0123/0123.svx
+*INCLUDE ../../0098/0098.svx
+*INCLUDE ../../0106/0106.svx
+;*INCLUDE ../../0099/0099.svx
+*INCLUDE ../../0109/0109.svx
+*INCLUDE ../../0117/0117.svx
+*INCLUDE ../../0718/0718.svx
+*INCLUDE ../../0943/0943.svx
+*INCLUDE ../../1053/1053.svx
+*INCLUDE ../../1289/1289.svx
+*INCLUDE ../../1232/1232.svx
+;*INCLUDE ../../1452/1452.svx ;Included in 0098 project so not needed here
+*INCLUDE ../../0207/0207.svx
+*INCLUDE ../../0086/0086.svx
+*INCLUDE ../../0565/0565.svx
+*include ../../2366/2366.svx
+*include ../../2414/2414.svx
+*include ../../3234/3234.svx
+*include ../../0596/0596.svx
+*include ../../0103/0103.svx
+*include ../../0575/0575.svx
+*INCLUDE ../../3334/3334.svx
+*include ../../3451/3451.svx
+*include ../../1804/1804.svx
+*include../../0841/0841.svx
+*include../../0126/0126.svx
+*include ../../2108/2108.svx
+*include ../../1504/1504.svx
+*include ../../2519/2519.svx
+*include ../../2638/2638.svx
+*include ../../0102/0102.svx
+*include ../../0603/0603.svx
+;*include../../0689/0689.svx
+;*include surface.svx
+*INCLUDE ../../3691/3691.svx
+;*INCLUDE ../../0081/0081-resurvey-2013/0081-13.svx
+*include../../0672/0672.svx
+
+*EQUATE 0105_Riano.UpperLevels.181 0107_Uzueka.2ndRiverInlet.1
+*EQUATE 0114_Llueva.Part2.414 0107_Uzueka.RockyHorror.313
+;Above equate was (removed after Footleg has fixed a point? 21/4/2012) put back in by Footleg as fixed point is not longer in data files 02/08/2017
+*EQUATE 0114_Llueva.Part2.290 0081_Carcavuezo.Eastwards.0081-13-12.30
+;*EQUATE 0114_Llueva.Part2.172 0081_Carcavuezo.Historical.TurnRightForSmack.152  ;This equate is replaced by the 2017 resurvey link below
+*EQUATE 0114_Llueva.Part2.0114-17-01.0 0081_Carcavuezo.Eastwards.0081-17-02.24
+
+;for calculating error.........?????
+;2366.2366_08_13.d0	0105_riano.riano2006-12-11.57	10	0	0
+
+*end 4Valleys

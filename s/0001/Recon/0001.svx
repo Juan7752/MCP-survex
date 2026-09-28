@@ -1,0 +1,30 @@
+
+;This data is reconstructed from the ULSA 1974 survey using Patric Warrens Inkscape to Survex addin, vertical drops were manually added afterwards.
+;https://github.com/patrickbwarren/inkscape-survex-export 
+
+*begin 0001
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto  453898 4794091 365
+
+*DATE 	1964.07.14	
+*FIX 	entrance	453898 4794091 365	;Coordinates from Matienzo website
+*ENTRANCE	entrance
+*EQUATE 0	entrance
+
+*data normal from to tape compass clino
+  0	  0a   7.7	 -	  down
+  0a  1    3.32  329  0
+  1   1a   2     -    down
+  1a  2    6.61  321  0
+  2   2a   3	 -    down
+  2a  3    1.69  321  0
+  3  3a    6	 -	  down	
+  3a 3b    29    -	  down 
+  3a  4    3.56  330  0
+  4   4a   31	 -	  down
+
+*end 0001 
+
+; end of file

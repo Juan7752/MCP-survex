@@ -1,0 +1,27 @@
+*begin riano_allparts
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+;end generated presettings
+
+
+;RIANO 0105
+
+
+*equate Riano_Part1.Riano_UpStream.63 Riano_Part2.Riano_DoubleBarrel.63
+*equate Riano_Part1.Riano_DryMaze.231 Riano_Part2.Riano_DoubleBarrel.65
+*equate Riano_Part2.Riano_UpperLevels.130 Riano_Part3.Riano_UpperLevels2.130
+*equate Riano_Part2.Riano_DoubleBarrel.72 Riano_Easter06Extn.0
+*equate Riano_Part1.Riano_DownStream.28 Riano_DownStreamExtns.Riano_DownStreamExtn.28
+
+*include riano_part1/riano_part1.svx
+*include riano_part2/riano_part2.svx
+*include riano_part3/riano_part3.svx
+*include riano_downstreamextns/riano_downstreamextns.svx
+*include riano_easter06extn/riano_easter06extn.svx
+
+*end riano_allparts

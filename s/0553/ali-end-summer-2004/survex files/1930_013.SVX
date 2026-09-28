@@ -1,0 +1,21 @@
+*begin 1930_013
+
+;surveyors: Les Williams, Carmen, Ian Timney, Simon Richardson
+;name: Below main pitch
+*CALIBRATE declination 2.68
+
+5	6	6	64	-19
+7	6	12.8	342	2
+7	8	5.2	128	8
+9	8	4.8	326	3
+9	10	7.5	95	-5
+11	10	9.1	2	-5
+11	12	9.9	160	-2
+13	12	6.15	0	-3	;stn 13 T with bore tube
+13	14	27.2	113	-0.5
+15	14	1.7	310	-21
+15	16	3.4	87	-6
+17	16	7.4	290	15
+17	18	5.3	97	-23	;collapse chamber, passage continues for 50m+; inlet stream
+
+*end 1930_013

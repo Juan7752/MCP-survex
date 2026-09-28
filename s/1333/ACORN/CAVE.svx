@@ -1,0 +1,19 @@
+*BEGIN 1333_Torca Tortilla
+;Created from Survey file on Mon,10 May 1999.21:21:14
+;Dates surveyed : 980808
+;Surveyors      : Ali+
+;No of stations : 10
+;Plan length    : 17.330863m
+;Traverse length: 35m
+
+*FIX 0 50290 94170 0625
+0	1	6.20	238.70	-45	;*
+1	2	3.70	212.70	-60	;*
+2	3	12.50	236.70	-36	;*
+3	4	1.50	204.20	-49	;bolt
+4	5	11.10	-	-V	;*
+0	6	0.0	-	+V	;*
+0	7	0.0	-	+V	;*
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 1333_Torca Tortilla

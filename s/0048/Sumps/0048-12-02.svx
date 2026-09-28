@@ -1,0 +1,15 @@
+*BEGIN 0048-12-02
+;Surveyed beyond 82 end of Sq Passage
+*DATE 2012.04.09
+;Surveyors: Rupert Skorupka
+*CALIBRATE DECLINATION 1.67
+
+; Dive compass and 10m marked dive line. All levels at water level.
+
+0	1	10	320	0
+1	2	24	0	0
+2	3	13	40	0
+3	4	9	330	0
+4	5	8	35	0
+
+*END 0048-12-02

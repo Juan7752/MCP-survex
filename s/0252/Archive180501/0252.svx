@@ -1,0 +1,23 @@
+*BEGIN 0252
+
+;surveyors: Jim Davis
+*date 2017.04.19
+
+*FIX 0 453024 4798423 0405
+
+
+*ENTRANCE 0
+*CALIBRATE DECLINATION 0.52
+
+
+1	0	5.40	-	up
+2	1	2.67	103	14
+2	3	3.11	170	0
+
+*data passage station up down left right
+0	-	-	0	.3; survey stn at bolt
+1	0	0	.7	.8;
+2	1.4	.3	0	3.9; survey stn on wall marked with cross .3m above floor
+3	0.75	.90	1.25	1.50; survey stn on wall above dig marked with cross 1m above floor 
+
+*END 0252

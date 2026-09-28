@@ -1,0 +1,22 @@
+*BEGIN 9003_Numero 5 Camargo
+;Created from Survey file on Sat,26 Jun 2004.15:48:33
+;Dates surveyed : 920806
+;Surveyors      : PeteS +
+;No of stations : 10
+;Plan length    : 84.85331m
+;Traverse length: 88m
+
+*FIX 0   
+
+*ENTRANCE 0
+0	1	10.50	18.80	-12	;*
+1	2	7.40	323.80	-19	;*
+2	3	23.50	329.80	-14	;*
+3	4	22.40	349.80	-20	;*
+4	5	9.00	321.80	-15	;*
+5	6	8.40	330.80	-11	;*
+6	7	6.80	1.80	-2	;chokes; soak away
+0	8	0.0	-	+V	;*
+0	9	0.0	-	+V	;*
+*END 9003_Numero 5 Camargo
+

@@ -1,0 +1,41 @@
+*BEGIN 0081-13-25
+
+*date 2013.10.19
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+;surveyors Alasdair Neill Pete Eagan
+;passage name: Rifts to Western Series cont
+6	7	2.08	343	7
+7	8	10.78	265	2
+8	9	19.72	273	3
+9	10	9.94	265	-8
+10	11	1.29	-	down
+12	11	3.9	82	0
+13	12	20.29	99	0
+14	13	7.15	96	-18
+15	14	20.18	102	-5
+16	15	11.74	100	-12
+17	16	2.15	19	-60	;climb up int Western Series 17 mkd typex
+
+*data passage station left right up down
+6	.6	1	1	1
+7	1.15	0	6	1.8
+8	0	1	5	1.8
+9	0.8	0.4	10	3.7
+10	0	0.8	8	2
+11	0	0.8	8	2
+12	0.5	0.5	0.8	1.5
+13	0.2	0.4	2.2	0
+14	1.6	0.7	1	2.4
+15	0	0.5	3	1.2
+16	0.6	0	0.3	0.5
+17	0	2.2	4.4	1.5
+*END 0081-13-25

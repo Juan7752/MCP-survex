@@ -1,0 +1,11 @@
+*BEGIN 5023-22-04
+; villa_nueva_resurgence
+; Instrument: DistoX2 2925 - SM-N910F
+*team "Jim Lister, Mark Smith" 
+; all estimates
+*DATE 2022.08.18
+
+0	1	44.08	60	0; sump 3
+
+
+*END 5023-22-04

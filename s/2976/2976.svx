@@ -1,0 +1,51 @@
+; 2025.11.06 created by TopoDroid v 6.2.95
+; Instrument: DistoX2 2983 - SM-N910F
+
+;<<< 2976 >>>
+*BEGIN 2976
+
+  *EXPORT 19
+  
+  *EQUATE	2976-ent  19
+  *ENTRANCE	2976-ent
+  
+  *date 2025.11.04 
+  *TEAM "Diane Arthurs" notes
+  *TEAM "Simon Cornhll" insts
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *data normal from to tape compass clino
+  *flags splay
+  19 19a 8.50 200.3 -83.3
+  19 19ba 1.20 280.3 3.2
+  19 19bb 2.29 234.2 3.1
+  19 19bc 2.26 205.2 3.4
+  19 19bd 0.87 360.0 -26.3
+  19 19be 1.38 321.4 -7.2
+  19 19bf 2.41 259.5 -43.7
+  19 19bg 3.00 303.5 -52.0
+  19 19bh 2.61 217.3 13.9
+  *flags not splay
+    19 20   8.40 211.7 -78.6
+  *flags splay
+  20 20a 5.65 119.6 87.9
+  20 20ba 0.67 263.6 -82.2
+  20 20bb 0.19 263.6 -2.9
+  20 20bc 1.61 96.3 1.8
+  20 20bd 1.39 150.3 -4.5
+  20 20be 1.32 185.0 -3.0
+  20 20bf 1.71 47.9 6.7
+  20 20bg 1.67 16.1 10.3
+  20 20bh 1.87 351.7 -11.2
+  20 20bi 2.95 354.7 -10.7
+  20 20bj 3.84 345.7 -33.1
+  *flags not splay
+
+*data passage station left right up down
+;14  2.03 0.00 0.00 0.84
+;18  0.00 0.00 0.00 0.00
+19  1.24 1.85 0.63 8.44			;19 = top of 2976
+20  1.45 2.32 5.65 2.10
+  
+*END 2976

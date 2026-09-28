@@ -1,0 +1,41 @@
+*BEGIN 1666
+;Created from Survey file on Sat,26 Jun 2004.10:21:54
+*DATE 2002.07.29
+;Surveyors      : Harry L Juan C
+;No of stations : 20
+;Plan length    : 45.9578838m
+;Traverse length: 46.4m
+
+;*FIX 0 452880 4799600 0310
+;*FIX 0 452778 4799391 0310; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 0 452778 4799391 0306
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 0
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.7 degrees but should have been 2.93 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.93-2.7-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.17
+
+0	1	1.00	83.30	-30	;*
+1	2	2.30	43.30	-30	;*
+2	3	1.80	50.30	0	;*
+3	4	2.60	50.30	0	;*
+4	5	3.40	42.30	0	;*
+5	6	9.50	56.30	0	;*
+6	7	3.20	69.30	0	;*
+7	8	2.80	57.30	0	;*
+8	9	3.70	47.30	0	;*
+9	10	6.00	38.30	0	;*
+10	11	1.10	304.30	0	;*
+11	12	6.00	33.30	0	;*
+12	13	3.00	38.30	0	;marked 0 on false floor
+*END 1666

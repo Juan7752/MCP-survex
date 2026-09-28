@@ -1,0 +1,53 @@
+;Use this template after complete intro of *DECLINATION and assoc. commands in Survex v1.2.43
+;For Survex 1.2.43 and later 
+
+*BEGIN 5336
+;Bus Stop Cave
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 451600 4806553 70; 
+*DATE 2023.04.13
+*FIX Ent 451600 4806553 70; s=station x=6-fig easting y=7-fig northing z=altitude Usually the entrance
+*ENTRANCE Ent
+;
+
+;Compass was a Silva walker's compass. Clino readings are estimated
+*TEAM "Pete Hall" book "John Southworth" laser rangefinder Silva compass (no clino) 
+
+*DATA NORMAL from to tape compass clino
+
+0	1	5.6	10	0 	
+1	2	6.62	88	0	
+2	3	8	32	-1	
+3	4	4.52	105	0
+4	5	6.7	324	-1
+5	6	5.11	264	3
+6	7	3.99	30	0
+7	8	11	35	-2
+8	9	7.87	340	-1
+9	10	7.62	5	0
+10	10a	2.82	098	0
+10	Ent	3	278	-5
+10	11	2.8	0	15
+11	12	1.15	42	0
+12	13	3.1	30	0
+
+
+*data passage station left right up down
+1 	0.2	0.8	0.8	0.1; Stn 0 = ends at mud choke
+2	1.8	0	0.5	0.5
+3	0	1.5	0.5	0.2
+4	2.1	0.3	0.3	0.5;	Mattock head found
+5	1	0	0.5	0.4
+6	0.5	1.7	2	0.8;	Train heard not far overhead!
+7	2.5	0.8	1.2	0.6;	Stn 7 = Rock rib
+8	1.5	1	0	0.5
+9	0.8	1.5	0.4	0.4
+10	3	2.8	1	0.3
+10a	1.1	1.1	1.9	2.4;	10a = choked pit belowpit below 
+Ent	1	1	0.5	0.5
+11	0.5	0.5	0.25	0.25
+12	0.7	0.8	0.4	0.4
+13	0.3	0.3	0.1	0.1;	Calcite bedding continues 5m strong intermittent draught
+
+*END 5336

@@ -1,0 +1,14 @@
+*BEGIN 1532_Bat Cave
+;Created from Survey file on Sat,26 Jun 2004.09:52:01
+;Dates surveyed : 000731
+;Surveyors      : LDJM
+;No of stations : 3
+;Plan length    : 8.59869018m
+;Traverse length: 8.6m
+
+*FIX 0 51820 100020 0175
+
+*ENTRANCE 0
+0	1	8.60	255.00	-1	;*
+0	2	0.0	-	+V	;*
+*END 1532_Bat Cave

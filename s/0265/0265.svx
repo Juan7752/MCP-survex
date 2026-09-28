@@ -1,0 +1,74 @@
+*BEGIN 0265_Copudia
+;Created from Survey file on Thu,10 Aug 2000.15:41:07
+;Dates surveyed : Thu,10 Aug 2000.15:29:20
+;Surveyors      : Terry Whitaker  Nigel Dibben
+;No of stations : 45
+;Plan length    : 0m
+;Traverse length: 0m
+
+;*FIX 0 451240 4795472 0335
+;*FIX 0 451138 4795263 0335; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 451138 4795263 0333
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*FIX 0 451192 4795224 0330; Pete Smith 18/3/2024
+
+*ENTRANCE 0
+;small, eastern entrance
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 3 degrees but should have been 3.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (3.2-3-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.2
+
+0	1	9.75	261.01	-14	;stn32
+1	2	11.55	229.01	-4	;stn31
+2	3	14.11	225.51	-8	;stn30
+3	4	13.50	238.51	-5	;stn28
+4	5	6.57	134.01	5	;stn29
+4	6	9.04	12.51	6	;stn18 top big stal
+6	7	15.04	192.51	-	;stn27
+6	8	19.70	212.01	-1	;slope base
+6	9	15.67	271.01	5	;stn25 wall
+6	10	16.32	251.51	2	;stn24 brnch fissure
+6	11	8.48	228.51	-1	;stn23 wall
+6	12	19.22	358.01	7	;stn22 butress
+12	13	5.05	243.01	-15	;*
+6	14	27.55	22.51	9	;wall
+6	15	24.82	36.01	8	;stn20 wall
+6	16	7.35	59.51	3	;stn19 wall
+13	17	17.33	165.01	-5	;to stn 18
+13	18	24.94	345.01	7	;stn1
+18	19	25.38	176.51	-8	;stn16
+18	20	13.35	177.01	-14	;stn15
+18	21	22.30	290.51	3	;stn5
+18	22	6.10	249.01	-16	;stn4
+18	23	9.55	28.01	11	;stn3
+18	24	8.05	347.51	5	;stn2
+18	25	6.90	64.51	14	;stn0
+18	26	15.03	103.51	6	;stn18? LHS entr
+25	27	39.70	222.01	-12	;stn19
+21	28	13.32	165.01	-13	;stn6
+21	29	25.61	209.51	-9	;stn7
+21	30	7.65	253.01	-9	;stn8
+21	31	13.26	352.01	13	;stn9 entr edge
+21	32	15.94	306.51	2	;stn10 wall
+21	33	18.26	288.51	4	;stn 11  stal flow
+21	34	23.74	267.01	1	;stn12 rock pinnacle
+34	35	13.88	267.51	0	;stn13
+34	36	14.00	239.01	-	;stn14 low alcove
+10	37	10.85	230.01	-7	;stn47
+37	38	3.77	257.51	31	;stn46
+38	39	5.60	211.01	-45	;stn43
+39	40	3.30	25.01	-2	;stn44
+40	41	2.20	48.01	0	;stn45
+39	42	4.55	218.51	-3	;stn42
+42	43	4.35	256.51	48	;stn42
+43	44	5.90	234.01	1	;stn40
+*END 0265_Copudia

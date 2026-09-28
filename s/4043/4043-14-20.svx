@@ -1,0 +1,26 @@
+*BEGIN 4043-14-20
+
+;resurvey from foot of entrance downstream
+*TEAM "Alasdair Neill" notes
+*TEAM "Lauren, Nigel Dibben, Purdie, Sam" compass clino laser measure
+
+*date 2014.08.01
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+
+1	0	7.49	68	-17
+1	2	8.84	214	-6
+2	3	3.93	233	-34
+3	4	17.14	092	5
+
+*data passage station left right up down
+0	0.9	6.4	2.3	1.1
+1	2.4	0	0.7	0.7
+2	0.8	1.5	1.8	1.5
+3	6.8	7.7	4.6	1.6
+
+*END 4043-14-20	

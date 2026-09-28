@@ -1,0 +1,52 @@
+*BEGIN 3355
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 451361 4795347 242
+
+*DATE 2023.3.7
+*FIX 9 451361 4795347 242
+*ENTRANCE 9
+
+;surveyor: Pete S., Andy Q.
+ 
+
+0	1	3.95	109	5
+
+0	2	5.2	306	-4
+2	3	4.45	282	-2
+3	4	4.6	10	30
+
+3	5	3.55	250	-15
+5	6	9.9	269	0
+
+5	7	3.07	183	-18
+7	8	4.9	157	0
+
+2	9	4.37	28	40
+
+*data passage station left right up down
+0	3.5	3.6	1.5	.6
+1	1.2	1	.5	.7
+
+*data passage station left right up down
+0	3.6	3.5	1.5	.6
+2	3.4	3.3	.9	.6
+3	1.1	1.2	1.5	1
+4	.3	.3	.2	.2
+
+*data passage station left right up down
+3	1.2	1.1	1.5	1
+5	6.8	0	2.5	1
+6	1.5	2	1.5	1
+
+*data passage station left right up down
+5	2	1	2.5	1
+7	3.2	2.8	.6	.5
+8	2	1.5	.4	.5
+
+*data passage station left right up down
+2	1.6	1.2	.9	.6
+9	.6	0	.5	1
+
+*END 3355

@@ -1,0 +1,44 @@
+*BEGIN 0333_Azpilicueta
+;Created from Survey file on Thu,14 Aug 2003.11:42:06
+;Dates surveyed : 82/7&82/7&910809&910816&910816&910816&920804&920806&920810&930803&930803&930803&910812&930814&950811&960409&960409&960806&970403&000813&000813
+;Surveyors      : Juan/Julie/Pete/John+JDavis+SOpenshaw+PP+PEgan+AndyH+PeteH+Ali+PeteH++SO++Ali++PP+PP
+;No of stations : 992
+;Plan length    : 7225.07534m
+;Traverse length: 7994.11399m
+
+;*FIX old.0 450355 4794966 0480
+;*FIX old.0 450253 4794757 0480; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX old.0 450253 4794757 0476
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*FIX old.0 450248 4794758 0477; July 2015 from G Earth photo. Knob of rock directly over first climb down in rock out of entrance depression. 
+*FIX old.29 0 0 0; 
+*entrance old.0
+
+*BEGIN old
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Need to see orig notes to find orig bearings.
+*CALIBRATE DECLINATION -0.4
+	
+29	612	5.69	14.05	35	;*
+612	613	11.20	20.03	4	;*
+613	614	3.80	356.03	-37	;*
+614	615	7.90	25.03	43	;*
+615	616	3.20	316.03	-17	;*
+616	617	5.40	16.03	-1	;*
+617	618	6.10	66.03	-4	;*
+618	619	6.30	-	-V	;*
+619	620	3.30	83.03	12	;*
+
+*END old
+
+
+
+
+*END 0333_Azpilicueta

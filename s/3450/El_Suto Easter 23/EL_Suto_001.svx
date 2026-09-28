@@ -1,0 +1,46 @@
+; 2023.04.06 
+; El_Suto - 
+; Instruments: Disto, Compass clino
+
+
+*begin El_Suto_001 
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 445949 4800807 159
+*FIX 0 445949 4800807 159
+*Team "Paul Fairman, Oliver Brain, Alex Ritchie"
+*ENTRANCE 0
+
+*data normal from to tape compass clino
+0	1	4.13	89	-75
+1	2	7.34	240	-71
+2	3	6.18	295	-26
+3	4	17.89	297	-85
+4	5	6.11	278	-5
+5	6	4.75	257	-2
+6	7	4.8	270	0
+4	8	10.22	257	-1
+8	9	3.78	258	-15
+9	10	15.05	276	-79
+10	11	12.95	196	-77
+11	12	24	196	-90	
+
+*data passage station left right up down
+1	0.5	1	0	8.6
+2	0.1	2.8	7.1	1.6
+3	0.6	0	2.3	17.2
+4	1.1	1.4	15	0
+5	1.1	0	6.7	3.7
+6	0	1.1	10.4	5.3
+7	0	1.2	0.6	0.6
+
+
+*data passage station left right up down
+4	1	1.3	14.7	0
+5	0	0.8	1.3	1.7
+6	0	1.1	1.9	14.9
+7	1.2	1.3	25.9	10.6
+8	0	1.3	12	24
+
+
+

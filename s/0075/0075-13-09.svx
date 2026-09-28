@@ -1,0 +1,25 @@
+*BEGIN 0075-13-09
+;surveyors  Alasdair Neill Alex Ritchie Chris Scaife
+*DATE 2013.07.27
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+;PITCH UNDER TRAVERSE
+0	1	17.3	-	UP	;POSSIBLY ERROR IN DISTO READING AS SHORTER THAN OLD SURVEY?
+2	1	13.3	210	-32
+2	3	17.6	42	27
+
+*data passage station left right up down
+1	3	1	15	0
+2	2.1	5.2	13.3	1
+3	0	4.3	5	2.1
+
+
+*END 0075-13-09
+

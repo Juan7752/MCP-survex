@@ -1,0 +1,37 @@
+*BEGIN 0733-23-02
+
+; Gypsum Paradise - side passage in wall approx half way along Galeria Vallina (Sunday Stomps)
+; tie-in point (station 1) is assumed to be 1989s.23 in the main survey
+; surveyed length 40.52m 
+
+*date 2023.04.10
+
+*TEAM "Andy Filer" notes
+*TEAM "Patrick Warren" compass clino
+*TEAM "Christine Ziebold" tape 
+*TEAM "Mindy Filer" assistant; photos
+
+*DATA NORMAL from to tape compass clino
+
+*flags duplicate ; tie-in to cairn with note on RHS main passage travelling in ; left rigged
+2	1	4.10	021 	-53 	; passage diam 1m x 1.5m ; station 2 = top anchor
+*flags not duplicate
+2	3	3.63	213	+5 	; same dimensions
+3	4	5.12	099	+28	; now2.5m high ; above 4 heading back is body-sized tube in roof unpushed
+4	5	7.79	095	+5	; 1m x 1.5m
+5	6	7.45	253	+3	; LRUD = 0.5 0.5 0.5 1
+6	7	6.46	104	0	; LRUD = 1 1 1.5 1.5
+7	8	2.77	222	-2	; LRUD = 0.5 0.5 0.25 0.5 ; guano pile between 7 and 8
+8	9	7.30	261	+2	; LRUD = 0 0.5 0.5 0.25 ; ends are choked, draught from small tube above
+
+*data passage station left right up down
+2	0.0	1.0	0.5	1.0
+3	1.0	0.0	1.0	0.5
+4	0.0	1.0	1.5	1.0
+5	0.5 	0.5 	0.5 	1.0
+6	1.0	1.0	1.5 	1.5
+7	0.5 	0.5 	0.25 	0.5
+8	0.0	0.5	0.5	0.25
+9	0.25	0.25	0.5	0.25
+
+*END 0733-23-02

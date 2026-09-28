@@ -1,0 +1,17 @@
+*begin 0127surface
+
+;surveyors:Ali
+;name:Cubio de la Gatuna
+;date: 050804
+*CALIBRATE declination 2.33
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year.
+*FLAGS surface
+*FIX	0	449823	4799989	0157; site 2223
+1	0	4.2	109	-40
+1	2	13	256	19.5
+3	2	4	109	-2
+3	4	7.5	235	-18
+4	5	6.8	252	-20
+5	6	24.95	190	-15.5
+6	7	6.6	128	-34.5; 7 is 0127 Cubio
+*end 0127surface

@@ -1,0 +1,40 @@
+*BEGIN NVega
+*INFER EXPORTS ON
+*INCLUDE ../../0071/0071.svx
+;*INCLUDE ../../0363/0363.svx
+;*INCLUDE ../../0892/0892.svx
+*INCLUDE ../../0415/0415.svx
+;*INCLUDE ../../0715/0715.svx
+*INCLUDE ../../0077/0077.svx
+;*INCLUDE ../../0059/0059.svx
+;*INCLUDE ../../0774/0774.svx
+;*INCLUDE ../../0075/0075.svx
+;*INCLUDE ../../0067/0067.svx
+;*INCLUDE ../../0885/0885.svx
+;*INCLUDE ../../0427/0427.svx
+;*INCLUDE ../../1655/1655.svx
+;*INCLUDE ../../0098/0098.svx
+;*INCLUDE ../../1452/1452.svx
+;*INCLUDE ../../1504/1504.svx
+;*INCLUDE ../../0553/1930.svx
+;*INCLUDE ../../0072/0072.svx
+;*INCLUDE ../../0258/0258.svx
+;*INCLUDE ../../0373/0373.svx
+;*INCLUDE ../../0247/0247.svx
+;*INCLUDE ../../0073/0073.svx
+;*INCLUDE ../../0065/0065.svx
+;*INCLUDE ../../0427/0427.svx
+;*INCLUDE ../../2167/2167.svx
+;*INCLUDE ../../0243/0243.svx
+
+
+
+
+*EQUATE 0071_mostajo.672 0774.0774-old-01.155
+;*EQUATE 0774.0774-old-01.267 0892-all.0892_Reg_old.1054
+;*EQUATE 0774.0774-old-01.271 0892-all.0892_Reg_old.284
+;*EQUATE 0774.0774-old-01.282 0892-all.0892_Reg_old.987
+;*EQUATE 0774.0774-11-01.1 0892-all.0892_reg_old.362
+
+
+*end NVega

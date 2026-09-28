@@ -1,0 +1,32 @@
+*BEGIN 2889_08_18
+;surveyors: Peter Eagan Dave Bell Alasdair Neill
+;name: Precarious Passage continued
+*DATE 2008.03.31
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+1	0	7.86	115	-6
+1	2	7.73	11	-8
+2	3	7.46	331	-8
+4	5	9.67	237	3
+5	0	1.56	-	up
+
+;best not entered again
+
+*data passage station left right up down
+0	8	5	1.5	2
+1	3	7	.5	1
+2	2	5	.3	.1
+3	3	1	0	1.5
+*data passage station left right up down
+4	.5	.5	1	1
+5	2	3	5	.5
+
+*END 2889_08_18

@@ -1,0 +1,9 @@
+*BEGIN NVega
+
+*INCLUDE ../../0071/0071.svx
+
+*INCLUDE ../../0067/0067.svx
+
+*INCLUDE ../../0077/0077.svx
+
+*end NVega

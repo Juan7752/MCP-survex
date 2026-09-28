@@ -1,0 +1,41 @@
+*BEGIN 1930_030
+
+;surveyors: Pete Hall, Tim Allen
+;passage name: Devious and Underhand
+*DATE 2004.07.28
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.26; (2.66-0.4)
+
+;declination is 2 41' (2.68) for 2004 changing by 8'E per year
+
+0	1	4.5	53	-34
+1	2	1.6	-	down
+2	3	3.3	102	-43
+3	4	2.8	28	-4
+4	5	2.6	6	19
+5	6	2.6	318	-56
+6	7	1.4	326	-21
+7	8	3.6	11	-56
+8	9	5.2	118	-25
+9	10	2.5	5	-35
+10	11	4.6	32	-47
+11	12	7.9	46	-27
+12	13	14.1	86	3;	3	1	1	1.5
+13	14	8.5	323	-35;	0	.75	1.5	.25
+14	15	4.9	12	-12;	.5	.75	3	2	top of p8.5
+12	16	5	329	-66;	7	0	1	2	top of p11
+*data passage station left right up down
+13	3	1	1	1.5
+14	0	.75	1.5	.25
+15	.5	.75	3	2
+16	7	0	1	2
+*END	1930_030
+
+

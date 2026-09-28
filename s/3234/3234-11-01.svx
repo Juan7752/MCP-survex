@@ -1,0 +1,45 @@
+*BEGIN 3234-11-01
+
+;*CALIBRATE DECLINATION 1.78
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.4; (1.8-0.4)
+
+;surveyors: Phil Parker; Dave Milner
+;passage name:
+*date 2011.04.26
+
+1	0	4.446	31.5	-7.1; stn 0 is end of 1m x 1m chamber
+1	2	2.627	217	4.3
+2	3	.975	228.5	12.3; stn 3 is at circular tube entrance - 1.069m up from floor
+4	3	1.745	42.8	16
+4	5	5.988	228.6	-7.4; flat out section - continues unsurveyed for 15m to stn 6
+5	6	15	220	-7;	GUESS
+
+3	7	2.998	127	9.3; leg through tube
+7	8	1.663	57.9	0
+8	9	1.95	127.7	4.9; at RH alcove entry
+9	10	3.671	30.7	-16.9; into alcove
+
+9	11	8.144	127.7	4.9
+11	12	.931	-	down; 12 at triangular floor squeeze
+12	13	2.437	206.4	11
+13	14	2.66	112.9	9.9; through rock constriction
+14	15	.625	-	down
+15	16	5.256	124.2	3.7
+16	17	3.428	225.9	-1.1; 17 at top of boulder slope
+17	18	4.77	201.7	-27
+18	19	2.907	119.34	-1.7; alcove on L climbing down
+
+18	20	6.072	202.3	-25.6; X on wall at entry to climb up
+20	21	2.505	292.2	22.1; stn JC 18 from 1/8/09
+
+*data passage station left right up down
+
+
+*END 3234-11-01

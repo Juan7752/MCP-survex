@@ -1,0 +1,45 @@
+*BEGIN 0077_2Rascavieja
+;Created from Survey file on Fri,18 Jun 2004.22:06:55
+;Dates surveyed : 030806
+;Surveyors      : Ali
+;No of stations : 25
+;Plan length    : 281.372437m
+;Traverse length: 309.33m
+
+;*FIX 0 451824 4796438 0350
+*FIX 0 451722 4796229 0350; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 2.55 degrees but should have been 2.80 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (2.8-2.55-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.15
+
+*ENTRANCE 0
+0	1	16.00	332.45	-10	;*
+1	2	19.10	317.45	-56	;*
+2	3	25.60	328.45	-3	;*
+3	4	29.00	312.45	13	;*
+4	5	11.53	329.45	43	;*
+5	6	8.65	261.45	-30	;*
+6	7	29.00	313.45	-18	;*
+7	8	6.18	304.45	-57	;*
+8	9	29.00	320.45	-18	;*
+9	10	29.00	322.45	11	;marked stn 4
+10	11	16.50	322.45	3	;*
+11	12	7.32	319.45	-28	;3m cl down
+12	13	14.45	265.45	-25	;*
+13	14	29.00	302.45	0	;marked stn 12 14/4/98
+10	15	14.50	326.45	5	;*
+15	16	11.00	90.45	-57	;*
+16	17	9.40	25.45	-5	;*
+17	18	4.10	293.45	-35	;top of v sq; 3.3m to fl below sq
+*END 0077_2Rascavieja

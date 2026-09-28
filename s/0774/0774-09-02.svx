@@ -1,0 +1,60 @@
+*begin 0774-09-02
+;No mag dec used?
+;*export 30 34
+
+*title "Morenuca Traverse 2"
+*date 2009.04.14
+*team Insts Kirsty
+*team Notes Becka Lawson
+*team Tape Mandy
+
+*instrument Compass and Clino - Becka's pony Tape - MUSC disto
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.66; (2.06-0.4)
+
+;from	to	tape	compass	clino	remarks
+30	1	9.12	051	-03
+1	2	8.98	182	+02
+3	2	4.66	263	-08
+3	4	4.95	121	-01
+5	4	11.05	335	0
+5	6	7.24	246	0
+7	6	14.02	336	-03
+7	8	8.81	167	+01
+9	8	14.31	329	+03
+9	10	3.61	105	+39
+11	10	6.77	036	-15
+11	12	4.01	244	-21
+
+
+*data passage station left right up down
+
+; station LRUDs
+30	8.1	2.5	2.5	0.8	; stn 30 from Becka Dan and Sam survey of 11/4/09, top stal with paper
+1	4	2	6.4	0.6	; main passage at corner
+2	10	1	2.5	1	; start of drafty passage
+3	1.5	1	2.1	1.6	; corner of drafty passage
+4	1	2	2.5	0.5	; paper on top of stal, start of flat floored chamber
+5	1.4	3.4	0.9	0.4	; bottom of stal, far side of chamber
+6	1.7	0	1	0.4	; R side passage, drafts out
+7	2.8	0.5	1.7	0.3	; top stal
+8	5	4.5	2.8	2	; top stal at top of huge chunk of fallen ceiling
+9	3	4	1	0	; end of chamber
+10	1.5	2.5	0	1.2	; bounders at end of chamber
+11	2.7	3.2	3	1.9	; side of big boulder
+12	5	2.3	3.5	1.5	; cairn near climb/pitch in chamber, with paper
+
+
+
+*end 0774-09-02
+
+
+
+

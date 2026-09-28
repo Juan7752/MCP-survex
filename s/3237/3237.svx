@@ -1,0 +1,41 @@
+*begin 3237
+*TEAM "Chris Camm" compass clino tape
+*TEAM "John Southworth" compass clino tape
+*DATE 2009.05.09
+;*CALIBRATE DECLINATION 2.03
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.63; (2.03-0.4)
+
+;3237 May 09 Chris C and John S.
+*Entrance 11
+;*FIX 11 445838 4801103 0110
+;*FIX 11 445736 4800894 0110; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 11 445736 4800894 0104
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*DATA normal From To Bearing Length Clino
+2,1,168,5.06,0
+2,3,282,4.21,0
+3,4,272,3.97,0
+4,5,357,3.96,0
+5,6,67,2.0,0
+6,3,161,4,27
+;original 6>3 161,4,27,0
+6,7,335,2.97,0
+6,8,295,2.64,0
+8,9,236,3.76,0
+5,10,250,1.92,-28
+9,10,104,1.84,0
+9,11,236,7.47,35
+12,9,56,1.59,0
+12,13,290,6.69,0
+*end 3237

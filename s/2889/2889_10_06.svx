@@ -1,0 +1,84 @@
+*BEGIN 2889_10_06
+*DATE 2010.08.15
+;*CALIBRATE DECLINATION 1.88
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.48; (1.88-0.4)
+;surveyors: Jude Onions Johnny Latimer Sue Ryall Paul Dold
+;name:
+
+43	1	14.74	44	7
+1	2	7.31	104	4
+2	3	6.22	59	-11
+3	4	12.68	351	4
+4	5	5.55	332	1
+5	6	2.48	28	-2
+6	7	11.69	41	-4
+7	8	5.06	109	-4
+8	10	.81	62	-17
+10	11	8.11	149	1
+
+3	12	6.4	216	24
+12	13	5.38	178	-42
+13	14	13.54	127	-11
+
+8	15	9.75	34	1
+15	16	7	328	0
+
+15	17	12.4	148	0
+
+15	18	9.81	47	0
+18	19	7.33	74	1
+19	20	8.15	26	-1
+20	21	8.8	325	0
+21	22	1.42	311	-18
+22	23	7.33	17	-3
+23	24	10.05	31	-3
+24	25	3.27	71	21
+25	26	7.96	34	-4
+26	27	4.16	33	8
+
+
+*data passage station up down left right
+43	3.7	0	10	10
+1	4.34	.8	.9	3.1
+2	.69	0	.88	1.0
+3	1.92	.68	.48	.37
+4	.83	0	1	0
+5	11.02	1.08	0	.92
+6	1.11	0	5	3.07
+7	1.48	.73	5	5
+8	2.50	1.78	3.85	0
+10	2.50	1.78	3.85	0
+
+*data passage station up down left right
+3	1.92	.68	.48	.37
+12	2.72	0	.75	.69
+13	4.95	.65	4.4	20.28
+
+*data passage station up down left right
+8	2.50	1.78	3.85	0
+15	4	1.3	10	7
+
+*data passage station up down left right
+15	4	1.3	7	10
+
+*data passage station up down left right
+15	4.5	1.3	0	1.2
+18	3.4	1.6	1.4	6.7
+19	.8	.8	2	.5
+20	.3	.5	2.1	0
+21	3	.8	2	1.5
+22	3.5	.6	1.4	5
+23	.4	.2	1.8	1.6
+24	1.3	.2	1.7	1
+25	.8	1.5	1	0
+26	.5	.2	3	1.5
+
+
+*END 2889_10_06

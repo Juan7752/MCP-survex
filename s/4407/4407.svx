@@ -1,0 +1,17 @@
+*BEGIN 4407
+
+;Torca De Canastrillas
+
+*TEAM "Tom Howard" Instruments
+*TEAM "Johnny Latimer" Notes
+*CALIBRATE DECLINATION 0.65
+*date 2016.04.01
+
+*FIX 0 450977 4802364 179
+*ENTRANCE 0
+
+
+0	1	4.5	187	-45	
+1	2	9.5	40	-30
+
+*END 4407

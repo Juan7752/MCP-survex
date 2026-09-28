@@ -1,0 +1,46 @@
+*begin 2366_08_15
+
+*team Martin Barnicott Dave Gledhill
+;*date 2008.03.19???
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate compass 0.0
+*calibrate clino 0.0
+*DATE 2008.03.19; month is OK
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+;0 is Ali - 0 3/8/06
+
+; Passage in Gallery left of climb up into Posture of Progression
+*FLAGS duplicate
+00 01	07.20	285	+45;	0 = Ali - 0 3/8/06
+01 02	04.30	300	+05;
+*FLAGS NOT duplicate
+02 03	04.40	042	+35;	Start of new passage
+03 04	02.45	040	+15;
+04 05	01.80	010	+14;
+05 06	02.53	044	+12;
+06 07	02.02	012	+23;	Ascending tube
+
+
+*data passage station left right up down ignoreall
+;00;	previously surveyed passage
+;01;	previously surveyed passage
+02	00.88	00.75	02.30	00.10;
+03	00.24	00.84	00.90	00.80;
+04	00.20	00.20	01.89	00.00;
+05	00.20	00.15	01.28	00.00;
+06	00.15	00.15	00.30	00.60;
+07	00.15	00.15	00.15	00.15;	Estimated
+
+
+
+*end 2366_08_15

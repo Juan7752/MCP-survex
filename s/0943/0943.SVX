@@ -1,0 +1,43 @@
+*BEGIN 0943_HoyoVerde
+;Created from Survey file on Sat,17 Feb 1996.21:52:25
+;Dates surveyed : 930810
+;Surveyors      : Juan Joe Benjamin D
+;No of stations : 20
+;Plan length    : 173.826434m
+;Traverse length: 176.7m
+
+;*FIX 0 454460 4798730 0291
+*FIX 0 454358 4798521 0291; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude agrees with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*entrance 0
+
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 4.05 degrees but should have been 4.2 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (4.2-4.05-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION -0.25
+
+0	1	3.00	227.95	-25	;Stn1/15
+1	2	8.80	96.95	-15	;Stn1/14
+2	3	22.50	89.95	-15	;Stn1/8 marked on paper
+3	4	14.70	26.95	15	;Stn1/9
+4	5	4.00	91.95	-3	;Stn1/10 beyond calcite squeeze
+5	6	2.50	19.95	-32	;*
+6	7	12.00	77.95	-4	;*
+7	8	6.40	53.95	-5	;Stn1/13 dead end - no hope
+3	9	16.50	224.95	0	;Stn1/7 past dig
+9	10	21.00	256.95	-1	;Stn1/6
+10	11	17.30	260.95	10	;Stn1/5 edge of calcite / rubble
+11	12	12.20	272.95	7	;*
+12	13	15.00	253.95	2	;*
+13	14	8.00	229.95	-10	;*
+14	15	8.00	326.95	9	;*
+15	16	4.80	310.95	0	;Stn1/0 wall
+*END 0943_HoyoVerde

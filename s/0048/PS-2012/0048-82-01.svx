@@ -1,0 +1,32 @@
+*BEGIN 0048-82-01
+;Squirrels Passage surveyed 27/7/1982
+;Dates surveyed : 27/7/1982
+;Surveyors      : Pete Smith/Michael Wood
+;************************ Guess at mag. dev.
+;*CALIBRATE DECLINATION 5
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Add correcting magnetic declination line so centre
+; line surveys are aligned to Eur 79 grid rather than True North.
+; Old magdev appears to be 5 degrees but should have been 5.68 to
+; align to True North. This value is reduced by 0.4 degrees below
+; to align to Eur79 Grid North. (5.68-5-0.4)
+; +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 0.28
+
+
+
+0	1	19.8	126	0
+1	2	9.4	233	0
+2	3	6.9	159	0
+3	4	12.6	131	0
+4	5	23.2	118	0
+5	6	11.3	122	0
+6	7	4.7	120	0
+7	8	6.2	236	20
+8	9	17.6	231	2
+9	10	24.9	245	0
+10	11	2.8	180	0
+11	12	5	290	45
+
+*END 0048-82-01

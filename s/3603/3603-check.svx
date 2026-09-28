@@ -1,0 +1,43 @@
+*BEGIN 3603C
+;Torca CEZ
+;*CALIBRATE DECLINATION 1.78
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.30; (1.70-0.4)
+
+;surveyors: Pete Smith Terry Whitaker
+;passage name:
+*date 2012.01.27
+
+;*FIX 14 454421 4793548 0214
+;*FIX 14 454319 4793339 0214; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 0 454319 4793339 0211
+*FIX 0 454354 4793305 0188; Colectivo Piezo Feb 2020
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*ENTRANCE 14
+
+0	1	6.48	248	0; CEZ Chamber
+1	2	4.95	183	-.5
+2	3	9.48	114	-3
+3	4	1.56	143	-19
+4	5	9.44	99.5	-3
+5	6	15.58	195.5	-2
+6	7	7.4	170	0
+7	8	11.2	194.5	14
+8	9	12.23	190	-18
+9	10	16.36	95	-15.5
+10	11	17.37	120.5	1
+11	12	4.49	163	54
+12	13	7.46	100.5	11
+13	14	4.28	-	up; entrance
+
+*END 3603C

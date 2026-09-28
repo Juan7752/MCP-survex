@@ -1,0 +1,26 @@
+*BEGIN 4043-14-06
+
+;Yeso: Oxbow
+
+*TEAM "Pet SMith" laser-length compass clino
+*TEAM "Ali Neill" notes
+
+*date 2014.07.20
+;*FLAGS duplicate | splay | surface
+;Bosch Laser measure used
+
+*DATA NORMAL from to tape compass clino
+*CALIBRATE DECLINATION 0.97
+;1.37 for 2014 summer altered to 0.97 to align with the UTM ETRS89 grid
+*FLAGS DUPLICATE
+11	11a	3.21	150	-10
+*FLAGS NOT DUPLICATE
+11	12	6.64	50	7
+
+
+*data passage station left right up down
+11	.5	.5	1	1
+12	.5	.5	1	1
+
+
+*END 4043-14-06

@@ -1,0 +1,16 @@
+*BEGIN 0023_15_01
+;surveyors: Peter S, Juan and Squirel
+*DATE 2015.08.19
+*CALIBRATE DECLINATION 0.73
+
+
+*FLAGS SURFACE
+
+	
+*FLAGS NOT SURFACE
+
+	
+
+*data passage station left right up down
+
+*END 0023_15_01

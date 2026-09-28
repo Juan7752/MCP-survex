@@ -1,0 +1,47 @@
+*begin 1930_018
+
+;surveyors: Tim Allen, Martin Holroyd
+;*CALIBRATE DECLINATION 2.68
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 2.31; (2.71-0.4)
+
+;Tim Allen -book
+;Martin Holroyd -instruments
+
+;Grabba's oxbow - mainstream from St.11 of 11/4/04
+;Tim Allen -book
+;Martin Holroyd -instruments
+;17/4/04
+
+11	160	7.7	083	-5	;
+160	161	2.9	114	-15	;1	1	1	0.5
+161	162	3.6	145	18	;1	1	0.25	0
+162	163	8.9	104	2.5	;0.5	1	0	0.75	163 junction with passable inlet - leads via oxbow to larger inlet - continues
+163	164	5.4	126	5	;0.25	0.5	0.75	0.25
+164	165	2.7	092	-2	;0.75	0	0.5	0.75
+165	166	8.1	138	-4	;0	0.75	0	1
+166	167	8.1	105	0.5	;0.75	0	0.5	0.5
+167	168	2.4	096	14	;0.5	0.5	0.5	0
+168	169	10.2	102	-6.5	;0.75	0.5	0.5	0.75
+169	170	7.3	128	-8	;0	1	2	1
+170	171	20.7	207	-1.5	;0	1.5	2	0.5	Mainstream passage beyond sumpy section
+
+*data passage station left right up down
+161	1	1	1	0.5
+162	1	1	0.25	0
+163	0.5	1	0	0.75
+164	0.25	0.5	0.75	0.25
+165	0.75	0	0.5	0.75
+166	0	0.75	0	1
+167	0.75	0	0.5	0.5
+168	0.5	0.5	0.5	0
+169	0.75	0.5	0.5	0.75
+170	0	1	2	1
+171	0	1.5	2	0.5
+*end 1930_018

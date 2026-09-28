@@ -1,0 +1,27 @@
+*BEGIN 1261
+
+*CS UTM30N
+*CS OUT UTM30N
+*DECLINATION auto 453518 4795561 219
+
+*DATE 2024.05.10
+*FIX 0 453518 4795561 219
+*ENTRANCE 0
+
+;surveyor: Pete S.
+
+0	1	3.66	135	-3
+1	2	4.09	150	9
+2	3	1.8	149	10
+3	4	1.37	198	0
+4	5	3.9	0	-90
+
+*data passage station left right up down
+0	3.5	.8	.2	.7
+1	1.9	1.1	.8	.4
+2	1	.6	.2	.3
+3	.4	.8	.2	.4
+4	1.2	0	.4	3.9
+5	.8	.8	4.3	0
+
+*END 1261

@@ -1,0 +1,35 @@
+*begin 2889_08_40
+
+;surveyors: Ali Neill Pete Eagan
+;name: Alternative route to p12 high level
+*DATE 2008.08.12
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.74; (2.14-0.4)
+
+*CALIBRATE clino -1.5
+
+1	0	3.72	353	-3
+2	1	3.97	343	-3
+3	2	11.39	68	-8
+4	3	2.36	52	-14
+4	5	2.52	224	-13
+
+
+
+
+*data passage station left right up down
+0	.3	.3	5	1.5
+1	.5	.5	3.4	1.5
+2	0	.7	2.5	5
+3	.6	0	1.8	1.4
+4	.8	0	2	1.9
+5	.3	.5	2	1.4
+
+*end 2889_08_40

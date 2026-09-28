@@ -1,0 +1,18 @@
+*BEGIN 2889_15_09
+;surveyors: Rauol Charman, Dave Dillon & Tom Howard
+*DATE 2015.08.06
+*CALIBRATE DECLINATION 0.73
+1	2	3.55	338	0
+2	3	1.38	220	55
+3	4	6.90	330	0
+
+
+	
+
+*data passage station left right up down
+1	0.7	0.3	2	0
+2	0.2	1.2	6	0	
+3	0.5	0	5.8	1
+4	0.5	0	5.8	1
+
+*END 2889_15_09

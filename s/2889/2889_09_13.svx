@@ -1,0 +1,30 @@
+*begin 2889_09_13
+;surveyors: Jude Onions John Latimer
+;
+;passage name: Sandstone Colindar
+*DATE 2009.08.08
+;*CALIBRATE DECLINATION 2.08
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.61; (2.01-0.4)
+
+0	1	6.95	343	0
+1	2	9.38	341	-6
+2	3	2.94	6	-8
+3	4	9.42	266	-4
+4	5	1.62	114	-54;stn 4 8/4/09 Dan James Sam
+
+*data passage station up down left right
+0	1.66	3	.3	.7
+1	2	2.4	2	.4
+2	1.3	2.7	.7	1.45
+3	1.8	2.5	15.4	6.8
+4	5.8	1.2	8	2
+
+*end 2889_09_13
+

@@ -1,0 +1,52 @@
+*begin 0408_408 -
+
+;Created from Survey file on Thu,26 Jul 2001.15:20:24
+
+;Dates surveyed : 010527
+
+;Surveyors      : JC PS JC
+
+;No of stations : 30
+
+;Plan length    : 83.3045247m
+
+;Traverse length: 99.2m
+
+
+
+
+0	1	4.00	178.65	-14	;stn15
+
+1	2	7.00	185.15	-9	;stn13
+
+2	3	14.50	316.15	8	;stn14 entr
+
+2	4	9.00	122.15	-68	;ladder base
+
+4	5	4.60	77.65	-9	;stn12
+
+4	6	5.70	257.15	-33	;stn10
+
+6	7	9.80	258.15	0	;stn8
+
+7	8	3.40	359.15	2	;stn7
+
+7	9	5.80	113.15	-32	;stn9
+
+6	10	2.80	359.15	-2	;p top
+
+10	11	7.80	-	-90	;stn5 p base
+
+11	12	2.80	15.15	10	;stn2 boulder
+
+12	13	10.90	69.15	7	;stn1
+
+13	14	3.70	109.15	0	;stn0
+
+12	15	4.00	285.15	3	;stn3
+
+15	16	3.40	237.15	14	;stn4
+
+*end 0408_408
+
+

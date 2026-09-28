@@ -1,0 +1,82 @@
+; 2018.08.02 created by TopoDroid v 4.0.1a
+; sump_5-6_passage - 6 to 7 dry passage
+; Instrument: DistoX2 2925 - SM-N910C
+
+*begin sump_5-6_passage 
+  *date 2018.08.02 
+  *team "JIM LISTER, MARK SMITH" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *calibrate declination 0.00
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 3.69 218.0 0.7
+  0 0b 0.29 139.1 87.0
+  0 0c 0.47 123.6 3.2
+  0 0d 0.36 302.5 5.6
+  0 0e 0.20 222.3 -82.3
+  *flags not splay
+    0 1   5.09 29.1 9.4
+  *flags splay
+  1 1a 0.51 124.4 -3.6
+  1 1b 0.28 223.7 86.2
+  1 1c 1.22 20.4 -83.9
+  *flags not splay
+    1 2   5.02 47.6 1.6
+  *flags splay
+  2 2a 0.34 340.7 85.6
+  2 2b 1.02 303.8 -88.0
+  2 2c 1.01 295.3 -5.3
+  *flags not splay
+    2 3   7.52 12.9 -6.3
+  *flags splay
+  3 3a 0.88 101.0 85.3
+  3 3b 0.89 36.4 1.5
+  3 3c 9.53 198.4 0.2
+  3 3d 2.12 158.9 -3.9
+  3 3e 0.33 92.3 -80.2
+  *flags not splay
+    3 4   5.17 113.5 1.8
+  *flags splay
+  4 4a 0.92 289.3 79.9
+  4 4b 0.42 240.0 4.4
+  4 4c 1.59 343.9 2.4
+  4 4d 0.37 148.4 -88.5
+  *flags not splay
+    4 5   6.80 21.3 1.9
+  *flags splay
+  5 5a 0.22 21.6 2.1
+  5 5b 0.22 21.7 1.9
+  5 5c 7.68 22.3 1.8
+  *flags not splay
+    5 6   6.73 22.3 1.8
+  *flags splay
+  6 6a 0.57 311.7 88.3
+  6 6b 1.10 35.6 9.0
+  6 6c 1.77 348.6 2.2
+  6 6d 1.78 109.9 7.6
+  6 6e 2.13 213.8 3.1
+  6 6f 1.91 191.3 3.5
+  6 6g 0.72 41.2 -86.8
+  *flags not splay
+    6 7   1.04 304.0 -12.0
+  *flags splay
+  7 7a 2.85 334.1 -2.9
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.57 0.46 0.29 0.20
+1  0.02 0.51 0.28 1.22
+2  0.93 0.00 0.34 1.02
+3  0.93 1.18 0.88 0.33
+4  1.22 0.34 0.90 0.37
+5  0.00 0.18 0.24 0.00
+6  0.98 1.76 0.57 0.72
+7  0.00 1.43 0.00 0.14
+
+*end sump_5-6_passage

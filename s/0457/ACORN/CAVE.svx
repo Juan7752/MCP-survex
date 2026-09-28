@@ -1,0 +1,14 @@
+*BEGIN 0457_Hammered
+;Created from Survey file on Fri,15 Aug 2003.20:22:15
+;Dates surveyed : 000424
+;Surveyors      : Ali
+;No of stations : 5
+;Plan length    : 13.0825403m
+;Traverse length: 42.9m
+
+*FIX 0 50881 95341 0335
+0	1	25.00	-	-V	;*
+0	2	10.00	184.00	-48	;*
+2	3	7.90	214.00	36	;marked stn3
+0	4	0.0	-	+V	;*
+*END 0457_Hammered

@@ -1,0 +1,31 @@
+*BEGIN 3004
+;FILE AUTHOR: Nigel Dibben
+*date 2016.08.14
+;METRIC
+;Torca Aldi
+;DATUM WGS84
+
+*CALIBRATE DECLINATION 0.61
+
+
+*FIX 10 453312 4797966 342
+*ENTRANCE 10
+
+1	2	7.5	235	0
+*FLAGS SPLAY
+1	3	6.32	266	0
+*FLAGS NOT SPLAY
+1	4	8.81	265	0	
+1	5	8.03	304	4
+1	6	8.27	353	4
+6	7	9.31	269	-9
+1	8	5.13	48	22
+8	9	7.29	119	-24
+5	10	10.15	0	+90
+
+;1 was in centre of chamber and so LRUDs have not been recorded
+	
+
+*END 3004
+
+

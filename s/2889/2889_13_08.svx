@@ -1,0 +1,36 @@
+*BEGIN 2889_13_08
+;*CALIBRATE DECLINATION 1.5
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1; (1.5-0.4)
+*DATE 2013.08.07
+;surveyors Johnny latimer Chris Hibberts Ed Harrison
+;starts at Cairn stn 8A on boulder just to E of Jack's Rake
+*FLAGS duplicate
+8A         1      12.65   155   -24
+*FLAGS not duplicate
+1          2      4.2     58    -5
+2          3      7.02    20    11
+3          4      5.7     132   11
+4          5      4.15    132   0
+
+4          6      4.2     165   20
+
+
+*data passage station up down left right
+1     9.5     2       4.6     5.4
+2     .4      .7      .6      0
+3     2.3     1.3     1.6     1.2
+4     3.6     .5      1       .5
+5     2       1       0       .8
+*data passage station up down left right
+4     3.6     .5      1       .5
+6     1       .5      .5      .5
+
+
+*END 2889_13_08

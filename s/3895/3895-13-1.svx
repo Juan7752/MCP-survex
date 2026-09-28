@@ -1,0 +1,50 @@
+*BEGIN 3895-13-1
+*DATE 2010.07.29
+;Surveyors Alasdair Neill Carmen Smith
+
+
+;*CALIBRATE DECLINATION 1.50
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.1
+
+*ENTRANCE 4
+;*FIX 4 452883 4797967 0140
+;*FIX 4 452781 4797758 0140; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+;*FIX 4 452781 4797758 0145
+;*FIX S3 452786.5 4797777.9 146.1;after surface survey 15-00
+*FIX S3 452794.2 4797771.4 146.1;after surface survey 15-00 and "new" position for main entrance
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;1	0	2.6	325	0
+2	1	0.6	325	25	;typex spot
+1	3	2.07	135	8
+1	4	2.27	232	20
+3	5	2.79	74	-8
+*FLAGS SURFACE
+;surface survey to Carcavueso entrance
+S1	S2	5.03	80	-10
+S1	S3	8.9	343	-4	;CARCAVUESO STA 0
+S2	4	1	005	17
+
+*FLAGS NOT SURFACE
+*data passage station left right up down
+;0	0.7	0.7	0.25	0.2
+1	0.7	0.7	0.25	0.2
+2	0.7	0.7	0	0.4
+3	0	0.6	1.5	0.5
+5	0.7	0	0	0.6
+*data passage station left right up down
+
+1	0.7	0.7	0.25	0.2
+4	1	0	1	1
+
+*END 3895-13-1

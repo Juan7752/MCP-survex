@@ -1,0 +1,17 @@
+*BEGIN 1234_PICO EL HAYAL
+;Created from Survey file on Mon,10 May 1999.21:06:25
+;Dates surveyed : 970525
+;Surveyors      : AQ PS
+;No of stations : 8
+;Plan length    : 44.5336477m
+;Traverse length: 49.6m
+
+*FIX 0 55620 97700 0295
+0	1	6.00	186.55	-37	;*
+1	2	4.20	211.55	-28	;*
+2	3	13.00	302.55	-36	;*
+3	4	12.50	224.55	-17	;*
+4	5	9.90	317.55	-8	;*
+5	6	4.00	325.55	-20	;*
+0	7	0.0	-	+V	;*
+*END 1234_PICO EL HAYAL

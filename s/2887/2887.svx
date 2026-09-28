@@ -1,0 +1,42 @@
+*begin 2887
+
+;Hypocritical
+
+;surveyors: Lloyd Cawthorne James Carlisle Johnny Latimer
+
+*DATE 2008.03.23
+;*CALIBRATE DECLINATION 2.15
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*CALIBRATE DECLINATION 1.79; (2.19-0.4)
+
+*ENTRANCE 16
+;*FIX 16 449867 4798740 0285
+;*FIX 16 449765 4798531 0285; --- *FIX coordinates (usually entrances) changed to ETRS89 datum by applying x-102 and y-209 --- March 2014
+
+*FIX 16 449765 4798531 0287
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Altitude altered to agree with new digital maps, March 2014
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2	1	7	250	0
+2	3	3.1	300	-1
+4	3	5	280	0
+3	5	2.4	245	2
+5	6	6.8	299	1
+6	7	5.7	271	-12
+7	8	4.9	279	0
+8	9	4.6	293	2
+9	10	6.05	273	1
+10	11	5.7	303	-4
+11	12	5.45	285	-3
+12	13	2.6	277	-11
+14	13	2.7	135	15
+14	15	3.4	264	-4
+15	16	12.1	295	0
+*end 2887

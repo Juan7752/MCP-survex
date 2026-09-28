@@ -1,0 +1,29 @@
+*begin 25surface
+;GPS location to pitch
+*CALIBRATE declination 1.88
+*FIX 1 0453308 4796059 193
+;22-07-2010
+
+
+;team "Dave Harley"
+;team "Clare Youens"
+;team "tim webber"
+
+*data normal from to tape compass clino 
+  
+ ;      1     2     -     down      6.1
+;1= gps of tap on water trough above cave
+; = 30 T 0453308  4796059
+
+;1 - 5 = surface legs
+
+2	1	4.93	154	-3
+2	3	12.36	253	-12
+4	3	7.9	359	+4
+4	5	7.43	073	-14
+;6 = top of pitch down entrance shaft
+;7 = bottom of pitch
+6	5	5.13	114	+42
+6	7	9.67	078	-74
+
+*end 25surface

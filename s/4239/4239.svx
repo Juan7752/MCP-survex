@@ -1,0 +1,18 @@
+*BEGIN 4239
+*FIX 0 447819 4794613 541 
+*Entrance 0
+*date 2016.08.10
+*TEAM  Pete O'Neil and Phil Papard, Lauren Griffen
+*DATA NORMAL from to tape compass clino
+
+*CALIBRATE DECLINATION 0.61
+
+0	1	4.8	0	-90
+1	2	4.3	019.2	20.4
+1	3	4.26	336	8.2
+3	4	3.19	307	-39
+
+
+*END 4239
+
+

@@ -1,0 +1,91 @@
+*BEGIN 0154_Cueva 77A
+;Created from Survey file on Sat,19 Jun 2004.22:24:34
+;Dates surveyed : 960731&960801&960801&960801
+;Surveyors      : Chris Fry
+;No of stations : 80
+;Plan length    : 360.891814m
+;Traverse length: 384.5m
+
+*FIX 0 55770 99570 0053
+
+*ENTRANCE 0
+0	1	8.10	178.40	-6	;cairn
+1	2	4.80	131.40	-29	;side rift too tight
+2	3	2.60	151.40	-14	;chbr with cl above
+3	4	3.30	209.40	27	;*
+4	5	3.80	74.40	41	;cairn
+5	6	1.90	345.40	-39	;*
+6	7	1.90	84.40	-17	;*
+7	8	1.90	120.40	32	;*
+8	9	2.00	190.40	-24	;*
+9	10	0.70	-	-V	;*
+10	11	2.70	152.40	1	;cairn stn 11
+11	12	3.30	127.40	5	;passage gets bigger
+12	13	7.50	152.40	-4	;cairn
+13	14	5.00	258.40	-10	;obvious stal
+14	15	4.50	262.40	5	;junct with tight rift
+15	16	6.00	176.40	1	;canal rift
+16	17	1.90	242.40	39	;T junction
+17	18	4.40	312.40	49	;calcite ramp with cairn
+18	19	6.20	3.40	2	;choked side pass
+18	20	3.10	223.40	-3	;low section
+20	21	3.00	173.40	25	;cairn
+21	22	3.30	138.40	3	;top of clmb 2.4m down
+22	23	3.80	177.40	-29	;*
+23	24	6.60	266.40	5	;sandy chmbr stn 24
+24	25	7.40	154.40	9	;*
+25	26	7.60	154.40	3	;above short clmb
+26	27	1.40	-	-V	;below cl
+27	28	4.70	154.40	-3	;*
+28	29	8.30	146.40	9	;*
+29	30	5.20	207.40	21	;*
+30	31	4.40	290.40	-23	;*
+31	32	2.50	177.40	-4	;phreatic tube
+32	33	5.20	127.40	2	;*
+33	34	3.20	150.90	4	;junction stn 34
+34	35	10.50	154.40	9	;*
+35	36	4.50	173.40	-16	;blank wall; small rift with draught
+34	37	5.00	210.40	-1	;*
+37	38	8.50	190.40	-5	;*
+38	39	4.40	262.40	13	;4m cl down to watery chmbr with draught
+24	40	5.30	328.40	14	;*
+40	41	7.40	.40	-7	;*
+24	42	6.80	285.40	28	;cairn
+42	43	10.60	339.40	-1	;*
+43	44	9.90	348.40	7	;*
+43	45	13.10	78.40	14	;calcite cliff
+45	46	11.50	123.40	9	;*
+42	47	6.60	135.40	27	;high level rift
+47	48	4.90	148.40	57	;wiggly tube
+48	49	15.20	154.40	0	;*
+49	50	6.60	160.40	-2	;draughting chk with dig
+13	51	5.90	47.40	17	;*
+51	52	7.10	156.40	6	;small passages chk
+13	53	6.20	163.40	3	;ascending aven
+53	54	14.00	58.40	50	;calcite slope
+53	55	5.30	139.40	12	;sandy rift; water below
+55	56	6.00	165.40	8	;*
+56	57	3.20	163.40	5	;crawl over flat sand floor
+57	58	3.40	174.40	9	;stal pendant and draughting bldr dig
+53	59	12.90	217.40	-12	;draught over deep water
+48	60	2.70	339.40	39	;stn 62; above awkward climb
+60	61	5.40	149.40	15	;stn 61; wedged boulder pinnacle
+61	62	10.30	149.40	5	;stn 60; strong draught; pass splits
+29	63	3.40	62.40	14	;stn 65
+63	64	3.80	79.90	-24	;overhanging large boulder
+64	65	5.20	332.40	-57	;*
+65	66	5.80	339.90	-12	;*
+66	67	10.90	224.40	-6	;pool
+0	68	0.0	-	+V	;*
+0	69	0.0	-	+V	;*
+0	70	0.0	-	+V	;*
+0	71	0.0	-	+V	;*
+0	72	0.0	-	+V	;*
+0	73	0.0	-	+V	;*
+0	74	0.0	-	+V	;*
+0	75	0.0	-	+V	;*
+0	76	0.0	-	+V	;*
+0	77	0.0	-	+V	;*
+0	78	0.0	-	+V	;*
+0	79	0.0	-	+V	;*
+*END 0154_Cueva 77A

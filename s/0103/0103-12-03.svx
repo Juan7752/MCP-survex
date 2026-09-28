@@ -1,0 +1,32 @@
+*BEGIN 0103-12-03
+
+;*CALIBRATE DECLINATION 1.67
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; 11/12/13 - Adjust magnetic declination so centre line
+; surveys are aligned to Eur 79 grid rather than True North.
+; Applying correction of -0.4 to original magnetic readings in
+; Survex aligns to Eur79 grid.
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;*CALIBRATE DECLINATION 1.27
+
+;surveyors: Ali Neill; Chris Binding
+;passage name:
+*date 2012.04.08
+
+
+*FLAGS duplicate
+9	10	13.05	83	-5
+*FLAGS NOT duplicate
+10	11	5.96	107	-7
+11	12	9.3	131	-3
+12	13	14.3	95	0; triangle on lip facing downstream
+
+
+*data passage station left right up down
+10	8	3.5	3.5	1.7
+11	2.3	4.3	1.7	1.2
+12	4.8	5.4	.9	.2
+13	3	2	.8	.8
+
+*END 0103-12-03
