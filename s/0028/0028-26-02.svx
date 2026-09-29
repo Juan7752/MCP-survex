@@ -411,4 +411,5 @@
 31	-	0.301	323.00	-16.27	
 31	-	1.252	107.79	-2.59	
 31	32	1.536	97.13	-4.10		;  {from: 1.540 96.89 -3.45, 1.534 97.44 -4.44, 1.535 97.06 -4.40}
+6	x	8	100	+5	;single leg from not-used 26-01 - slightly uphill crawl to what appears to be a bouldery blockage in the distance.
 *END 0028-26-02
