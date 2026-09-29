@@ -6811,8 +6811,11 @@ a	13.18	9.2	3.2	0
 ;Galeria dels Somnis and Galeria Pendolf (Caos Norte NewYork) (Pas De L'Eclipse)
 ;*INCLUDE Caos_norte_newyork
 ;replaced by
-*INCLUDE Caos_north_newyork-2
-*EQUATE Caos_norte_newyork.a1 1994s.1637
+;*INCLUDE Caos_north_newyork-2
+;*EQUATE Caos_norte_newyork.a1 1994s.1637
+; then replaced by
+*INCLUDE VALLINA_IV_v1
+*EQUATE VALLINA_IV_v1.a1 1994s.1637
 
 ;Rio Norte
 *INCLUDE Rio_Norte
